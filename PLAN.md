@@ -178,6 +178,29 @@ Ai pierdut două canale de YouTube, iar Spotify nu merge din Turcia. De aceea:
 - **Turcia:** fără viză poți sta maximum 90 de zile din 180. Ca să lucrezi plătit (inclusiv în sala prietenului tău) îți trebuie permis de muncă și, probabil, echivalarea certificărilor. Până atunci, sala e doar pentru filmări.
 - Reiki și terapia energetică: separat de partea de sănătate și fără promovare dedicată.
 
+### Socoteala pe lista de prețuri (KM Wellness Concept)
+
+Costul unei luni doar pe terapie, cu apartamentul: chirie ~3.250 lei + trai ~750 lei + reclamă ~750 lei ≈ **4.750 lei**.
+
+| Dacă faci doar... | Preț | Ședințe pe lună ca să ieși pe zero | Pe săptămână |
+|---|---|---|---|
+| Masaj pe zonă | 250 lei | 19 | ~5 |
+| Full body | 500 lei | 10 | ~2–3 |
+| Dry needling / ventuze | 180 lei | 27 | ~7 |
+| Mix realist (50% zonă, 20% full body, 30% scurte) | ~280 lei în medie | **17** | **~4** |
+| **Acum** (1 client în 2 săptămâni) | 300 lei | ~2 | 0,5 |
+
+**Ce arată cifrele:** câștigi ~300–375 lei pe oră lucrată, deci 17 ședințe înseamnă doar ~15 ore pe lună. **Timpul nu e problema, cererea este.** Ca să fie rentabil, ai nevoie de ~8 ori mai mulți clienți decât acum.
+
+**Apartament vs. spațiu închiriat cu ora:** la un spațiu de, să zicem, 50 lei/oră (preț ipotetic, de verificat), apartamentul devine mai ieftin abia peste **~65 de ore de terapie pe lună**. Tu ești acum la ~2 ore.
+
+**Îmbunătățiri pentru lista de prețuri:**
+- **Pachete plătite în avans:** de exemplu 4 ședințe pe zonă la 900 lei (în loc de 1.000). Clienții revin, iar tu ai banii în avans.
+- **Full body-ul e cel mai rentabil pe client.** Pune-l primul în reclame („detensionare completă, 90 de minute”).
+- Titlul „Terapii medicale” e mai sigur ca **„Terapii de recuperare”**, ca să nu sugereze servicii medicale.
+- „Program: Luni–Sâmbătă” nu e adevărat cât ești în Turcia. Mai bine scrii: *„Programări în săptămânile anunțate pe @kmwellnessconcept”*.
+- **KM Wellness Concept** e un nume foarte bun. Leagă natural terapia de Kristine Maia.
+
 ## 11. Șablon de email pentru branduri
 
 > **Subject:** Collab idea: [Brand] x Kristine Maia (72K on Twitch, mobility & recovery)
