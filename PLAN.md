@@ -1,245 +1,214 @@
-# Planul Kristinei — de la „fac de toate” la un brand care plătește facturile
+# Planul Kristinei — versiunea finală
 
-_Ultima actualizare: 10 octombrie 2026 (v3)_
+_10 octombrie 2026_
+
+> **Pe scurt:** renunți la apartamentul de 650 €, îți rezolvi liniștită dosarul legal și construiești **un singur brand online, „Kristine Maia”**, pe yoga, mobilitate, recuperare și gătit sănătos pentru oamenii care stau mult la calculator. Terapia în persoană rămâne, dar doar în „săptămâni de terapie”, când ești în București.
 
 ---
 
-## 1. Unde ești acum (cifrele reale)
+## 1. Cine ești (și cum te prezinți corect)
 
-| | Pe lună |
+**Ce ai:**
+- Licență în Educație Fizică și Sport și 2 ani de kinetoterapie (neterminată).
+- Certificări: masaj medical de recuperare, drenaj limfatic, dry needling, ventuzoterapie, reiki.
+- 5 ani de streaming pe Twitch și o comunitate de **72.000 de oameni**, internațională, 18–60 de ani, în engleză.
+- Un canal de yoga pe YouTube care **a mers foarte bine**. Oamenii au spus că i-a ajutat la durerile de spate.
+- O carte de nutriție gata scrisă, tablouri, blugi pictați, plăcerea de a găti și abilități de bază în HTML și website-uri.
+
+**Cum te prezinți, fără titluri pe care nu le ai:**
+- RO: *Licențiată în Educație Fizică și Sport · terapeut certificat în masaj de recuperare, drenaj limfatic, dry needling și ventuzoterapie*
+- EN: *Sports science graduate · certified recovery massage therapist · mobility & recovery coach*
+- **Nu** folosești „kinetoterapeut”, „physical therapist” sau „yoga teacher/instructor”.
+- Pentru yoga spui *„yoga-inspired mobility”*, *„stretching & mobility flows”*.
+- Pe orice program pui disclaimer-ul: *„Not medical advice. If you have pain or an injury, see a doctor or physiotherapist.”*
+
+## 2. Situația financiară
+
+| Venituri pe lună | |
 |---|---|
-| Cheltuieli fixe (chirie 650 € + restul) | ~750–800 € |
-| Venit sigur (chiriașul din apartamentul tău) | 400 € |
-| **Gaura reală de acoperit** | **~350–400 €** |
-| Twitch (fără donații) | 400–700 € (medie ~550 €) |
-| Twin (3 luni) | ~400 € |
-| Donații, afiliere (corzi de sărit, Revu Natural) | variabil |
-| Terapie | sub 160 €, imprevizibil |
+| Chiriașul din apartamentul tău (stabil, plătește la timp) | 400 € |
+| Twitch | 400–700 € (medie ~550 €) |
+| Twin (doar următoarele ~3 luni) | ~400 € |
+| Donații, afiliere (corzi de sărit, Revu Natural), terapie | variabil |
 
-**Concluzia corectată:** în medie, chiria plus Twitch (~950 €) îți **acoperă deja** cheltuielile. Nu ești pe minus. Problema reală e că **venitul fluctuează**, iar asta te ține în stres. Ai nevoie de **stabilitate și de o rezervă**, nu de salvare. În cele 3 luni cu Twin, cei ~400 € în plus ar trebui să meargă **integral** în fondul de urgență.
-
-## 2. Ce ai de fapt (activele tale)
-
-1. **72.000 de oameni pe Twitch**, internaționali, în engleză, 5 ani de relație cu ei. Asta e cel mai valoros lucru pe care îl ai. Majoritatea terapeuților din București n-ar avea niciodată acces la așa ceva.
-2. **Pregătire reală**: facultate de educație fizică și sport + 2 ani de kinetoterapie + masaj medical, dry needling, ventuze.
-3. **Conținut deja făcut**: o carte de nutriție, tablouri, blugi pictați.
-4. **Mai multe talente**: gătit, pictură, antrenament, vorbit cu oamenii.
-5. **O sală de sport la dispoziție** (a prietenului tău).
-
-**Problema:** toate astea sunt acum separate și niciuna nu e vândută cum trebuie. Nu-ți lipsesc talentele, îți lipsește **un singur fir roșu** care să le lege.
-
-## 3. Ideea centrală: nișa ta este „sănătatea gamerilor”
-
-Audiența ta sunt oameni care stau ore întregi la calculator. Au dureri de gât, de spate și de încheieturi, stau cocoșați și mănâncă prost. **Tu ești kinetoterapeut, terapeut de recuperare și gătești sănătos în fața lor.**
-
-Poziționarea propusă:
-
-> **„Kinetoterapeuta gamerilor”**: recuperare, mișcare și mâncare bună pentru oamenii care trăiesc în fața ecranului.
-
-Totul intră sub umbrela asta:
-- antrenamentele pe stream → „rutine de 10 minute pentru gameri”
-- kineto/terapie → „cum scapi de durerea de gât/încheietură”
-- cartea de nutriție → „mâncare simplă pentru gameri”
-- gătitul pe stream → același lucru, live
-- pictura → rămâne partea ta creativă/personală (vezi secțiunea 5)
-
-### Oameni de succes pe exact nișa asta (modele de urmat)
-
-| Cine | Ce a făcut | Ce iei de la ei |
+| Cheltuieli pe lună | Acum | După ce renunți la apartament |
 |---|---|---|
-| **Dr. K, HealthyGamerGG** | Psihiatru care a început **pe Twitch**, vorbind cu gamerii despre sănătate mintală. A construit o companie cu programe plătite și coaching. | Dovada că un profesionist din sănătate poate construi o afacere mare **pornind de pe Twitch**. |
-| **1HP (Dr. Caitlin McGee)** | Kinetoterapeută pentru esports. Conținut gratuit despre durerile gamerilor, apoi programe plătite, consultații online și colaborări cu echipe de esports. | **Modelul direct pentru tine.** Aceeași meserie, aceeași audiență. |
-| **Bob & Brad** | Doi kinetoterapeuți cu milioane de abonați pe YouTube. Fac bani din reclame, afiliere (produse de recuperare) și sponsori. | Clipuri scurte de tipul „cum scapi de X” aduc trafic uriaș. |
-| **Squat University (Dr. Aaron Horschig)** | Kinetoterapeut care a construit totul pe Instagram/YouTube, apoi a vândut cărți și programe. | Educația gratuită construiește încrederea, apoi produsul digital o transformă în bani. |
-| **Pamela Reif** | Influenceriță care s-a mutat pe fitness, apoi pe cărți de rețete, apoi pe un brand propriu de mâncare. | Combinația **antrenament + mâncare** este un brand întreg. Tu ai deja ambele. |
-| **Chloe Ting** | Antrenamente gratuite pe YouTube, apoi o aplicație plătită. | Gratuit pentru toți, plătit pentru cei care vor structură. |
+| Chirie | 650 € | 0 € (casa familiei / Turcia) |
+| Restul | ~100–150 € | ~100–150 € |
+| Avocat + contabilă (temporar) | ? | ? |
+| **Total fără avocat** | **~800 €** | **~150 €** |
 
-Toți au același tipar: **conținut gratuit și util → încredere → un produs digital ieftin → servicii mai scumpe.**
+**Concluzie:** cu apartamentul ești la limită și stresată în fiecare lună. Fără el, venitul stabil (chiria + Twitch) îți acoperă cheltuielile **de câteva ori**, iar tot ce câștigi în plus merge în avocat, în rezervă și în construirea brandului.
 
-## 4. Scara ta de venit (de la mic la mare)
+## 3. Deciziile mari (de luat acum)
 
-| Nivel | Produs | Preț orientativ | De ce |
+### 3.1. Renunți la apartamentul de 650 €
+- Nu ai terapie suficientă acolo, ești mai mult plecată și ai casa familiei în București.
+- Pierzi cel mult garanția, adică ~o lună de chirie. Fiecare lună în care îl păstrezi gol costă la fel de mult.
+- [ ] **Întreabă proprietarul** dacă îți dă garanția înapoi dacă îi găsești tu un chiriaș nou.
+- [ ] **Spune-le deschis celor din comunitate care donează pentru spațiu.** De exemplu: *„I'm moving my work online. Your support now goes into the recovery program I'm building for you.”*
+
+### 3.2. Dosarul legal (contul OnlyFans făcut de agenție pe numele tău)
+- [ ] Strânge pentru avocat contractul din 2023, mesajele, emailurile și plățile de la agenție.
+- [ ] Întreabă avocatul dacă se poate cere de la platformă istoricul contului și dacă merită o plângere pentru folosirea identității tale.
+- [ ] Nu răspunzi singură autorităților. Totul trece prin avocat și contabilă.
+- [ ] Ții un dosar cu date: ce s-a întâmplat, când, ce ai trimis.
+- [ ] Întreabă contabila dacă îți trebuie PFA sau firmă pentru veniturile online (Twitch, sponsori, produse digitale).
+
+### 3.3. Regula pentru contracte
+- **Orice contract îl citește întâi avocatul**, mai ales cele care îți folosesc imaginea sau identitatea.
+- [ ] Primul de verificat: **contractul cu Twin** (clona). Imaginea și vocea ta să nu poată fi folosite pentru conținut +18 sau în alte scopuri decât cele scrise.
+
+### 3.4. Banii de la Twin
+- Merg **integral în rezervă**, cu prioritate pentru costurile legale. Nu se cheltuiesc pe zi de zi.
+
+## 4. Brandul: unul singur, Kristine Maia
+
+**Ce faci:**
+> **Yoga-inspired mobility, recovery and good food for people who sit all day** (gamers, oameni care lucrează la birou).
+
+De ce asta: canalul de yoga a mers deja, comunitatea ta stă ore întregi la calculator, iar tu ai pregătirea de sport și recuperare plus gătitul. Toate piesele tale intră aici.
+
+**Cele două nume:**
+| | **Kristine Maia** | **Cristiana Iorga** |
+|---|---|---|
+| Rol | Brandul public, de unde vin oamenii (inclusiv clienții de terapie) | Numele oficial |
+| Unde | Twitch, Instagram, Spotify, site, produse | Facturi, contracte, Google Business pentru terapie, platforme de programări |
+
+- Nu ștergi „Kristine Maia”. Ștergi **conținutul vechi** (secțiunea 9) și umpli numele cu conținut nou, până când asta e tot ce se vede.
+- Nu creezi un al treilea nume.
+
+**Modele de urmat:**
+| Cine | Ce iei de la ea/ei |
+|---|---|
+| **Chloe Ting** | Antrenamente gratuite, apoi programe și aplicație plătite. Nu are studii medicale. |
+| **Pamela Reif** | Antrenament + rețete devin un brand întreg (cărți, apoi brand propriu de mâncare). |
+| **Yoga With Adriene** | Yoga simplă, caldă, pentru oameni obișnuiți. A pornit de pe YouTube și a construit o platformă cu abonament. |
+| **Dr. K (HealthyGamerGG)** | Dovada că o afacere de sănătate pentru gameri poate porni de pe Twitch. |
+| **1HP** | Arată că nișa „gameri cu dureri de gât, spate și încheieturi” are cerere și se plătește. |
+
+## 5. Ce vinzi (de la mic la mare)
+
+| # | Produs | Preț | Când |
 |---|---|---|---|
-| 0 | Conținut gratuit: stream-uri, clipuri scurte TikTok/Reels/Shorts | 0 | Aduce oameni noi |
-| 1 | **Cartea de nutriție** ca e-book (Gumroad / Stan Store / Ko-fi) | 12–19 € | O ai deja făcută, deci o poți lansa săptămâna asta |
-| 2 | **Program digital**: „Gamer Recovery: 30 de zile fără dureri de gât, spate și încheieturi” (video + PDF) | 29–49 € | Exact problema audienței tale |
-| 3 | Abonament lunar: Twitch subs / Patreon / Discord cu rutine noi în fiecare săptămână și sesiuni live de Q&A | 5–10 €/lună | Venit **recurent**, previzibil |
-| 4 | Consultații online 1-la-1 (evaluare postură + plan personalizat) | 50–80 € | Kineto online funcționează pentru evaluare și exerciții |
-| 5 | Terapie fizică în persoană (masaj, dry needling, ventuze) | 250–500 lei | Când ești fizic acolo |
-| 6 | Sponsorizări (scaune ergonomice, mouse/tastaturi ergonomice, suplimente, mâncare sănătoasă, echipament de recuperare) | variabil | Noua nișă atrage branduri **mai bune și mai stabile** decât cele de gaming generic |
+| 0 | Gratuit: stream-uri, clipuri scurte, episoade pe Spotify | 0 | mereu |
+| 1 | **E-book de nutriție** (Gumroad / Stan Store) | 12–19 € | luna 1 |
+| 1 | **Afiliere**: corzi de sărit, Revu Natural, plus alții noi | comision | luna 1 |
+| 2 | **Program „Desk & Gamer Mobility, 30 de zile”**: video + PDF, mobilitate în stil yoga pentru gât, spate, șolduri și încheieturi | 29–49 € | luna 2–3 |
+| 3 | **Abonament lunar** (Patreon / Discord plătit / Twitch subs): 1 rutină nouă pe săptămână + Q&A live | 5–10 €/lună | luna 3 |
+| 4 | **Evaluare de mobilitate și postură pe video** + plan personal (inclusiv prin Must Coaching) | 40–70 € | luna 3 |
+| 5 | **Sponsorizări**: ergonomie, scaune, suplimente, mâncare sănătoasă, echipament de recuperare, îmbrăcăminte sport | variabil | continuu |
+| 6 | Terapie în persoană, în „săptămâni de terapie” în București | 250–500 lei | când ești acolo |
+| + | Pictură: licitație live lunară, printuri, blugi pictați la precomandă | bonus | după luna 3 |
 
-**Calcul simplu pentru gaura de 400 €/lună:**
-- 15 e-book-uri × 15 € = 225 €
-- 5 programe × 39 € = 195 €
-- **= 420 €**, fără să mai pui la socoteală Twitch, colaborările și terapia.
+**Ținta pentru produsele noi:** 15 e-book-uri + 5 programe pe lună ≈ **420 €**, adică mai puțin de 0,03% din comunitate.
 
-Cu 72.000 de urmăritori, 20 de vânzări pe lună înseamnă mai puțin de 0,03% din comunitate. E realist.
+## 6. Săptămâna-tip (aceeași în fiecare săptămână)
 
-## 5. Ce faci cu fiecare activitate
+| Zi | Ce faci |
+|---|---|
+| Luni | Stream de mobilitate/yoga/antrenament + 1 clip scurt |
+| Marți | Lucrezi la produs + 3 emailuri către branduri |
+| Miercuri | Stream de gătit + 1 clip scurt |
+| Joi | Lucrezi la produs + 3 emailuri către branduri |
+| Vineri | Stream de gaming cu **„stretch break”** de 2 minute la fiecare oră + 1 clip scurt |
+| Sâmbătă | Liber (sau terapie, dacă ești în București) |
+| Duminică | 30 de minute: cifrele săptămânii + planul săptămânii următoare |
 
-### Terapia în persoană: mut-o acolo unde ești tu
-Problema nu e că nu ești bună. Problema e că **nu ești în București**, iar clienții de terapie vor pe cineva disponibil constant. Două săptămâni lipsă = zero clienți. E normal, nu e despre tine.
+**Regula de focus:** nu începi nimic nou (pictură, cursuri, programare, alte platforme) până nu ții săptămâna asta **4 săptămâni la rând**.
 
-**Soluția: sala prietenului tău.** O sală are exact clienții de care ai nevoie: oameni cu dureri, contracturi, recuperare după antrenament și accidentări.
-- Oferă **recuperare sportivă** membrilor sălii (masaj, ventuze, dry needling).
-- Primele 2 săptămâni: mini-evaluări gratuite de 10–15 minute, ca oamenii să te cunoască.
-- Poți face și conținut acolo (clipuri cu tehnici, rutine, înainte/după).
-- ⚠️ **De verificat neapărat:** ce trebuie ca să-ți fie recunoscute diplomele/certificările în țara respectivă și cum te înregistrezi fiscal acolo (mai ales pentru dry needling, care în unele țări e reglementat strict).
+Clipurile scurte (3 pe săptămână) merg pe TikTok, Instagram Reels și Spotify. Același clip pe toate.
 
-În București: păstrează clienții existenți, dar fă **zile fixe** (de exemplu „sunt în București în săptămâna X, programări deschise”), în loc să aștepți să te caute oamenii.
+## 7. Planul pe 90 de zile
 
-### Terapia energetică: pune-o pe plan secund
-Ai observat deja că nu e căutată. Nu e o problemă de promovare, ci de cerere. Nu investi energie să o vinzi separat. Poți să o integrezi discret în ședințele de relaxare, dacă îți place. Pentru brandul nou, partea de kineto ți-e mult mai credibilă și mai ușor de vândut.
+### Luna 1: liniște și bani rapizi
+- [ ] Vorbești cu proprietarul și dai preavizul pentru apartament.
+- [ ] Le dai avocatului documentele și îi arăți contractul cu Twin.
+- [ ] Pui e-book-ul pe Gumroad sau Stan Store și îl anunți pe stream, pe Discord și pe Instagram.
+- [ ] Faci o pagină de linkuri cu e-book-ul, coarda și Revu Natural.
+- [ ] Pui pe Twitch panouri și comenzi în chat (`!coarda`, `!revu`, `!ebook`).
+- [ ] Faci media kit-ul de o pagină (urmăritori, țări, vârste, vizualizări medii, colaborări, prețuri).
+- [ ] Trimiți 6 emailuri pe săptămână către branduri (șablonul e în secțiunea 11).
+- [ ] Începi săptămâna-tip.
 
-### Twitch
-Rămâne motorul. Schimbi doar **structura**:
-- **Program fix** pe teme, de exemplu: Luni = antrenament/mobilitate, Miercuri = gătit, Vineri = gaming + „stretch break” la fiecare oră, Duminică = pictură/chill.
-- „Stretch break” în timpul gaming-ului e semnătura ta: 2 minute de exerciții pentru gât și încheieturi, cu chatul. Nimeni altcineva nu face asta cu pregătire de kinetoterapeut.
-- **Clipează** fiecare stream în 3–5 clipuri scurte pentru TikTok/Reels/Shorts. De acolo vin oamenii noi.
+### Luna 2: construiești programul
+- [ ] Faci un sondaj în comunitate: *„What hurts most after long gaming/work sessions?”*
+- [ ] Filmezi programul de 30 de zile, eventual în sala prietenului tău.
+- [ ] Deschizi **precomanda** la preț redus pentru comunitate, ca să afli dacă se vinde înainte să termini.
+- [ ] Când ești în România, încarci pe Spotify 8–10 episoade de yoga/mobilitate și le programezi săptămânal.
+- [ ] Faci o **listă de emailuri** (de exemplu: un PDF gratuit, „5-minute desk stretch”, în schimbul adresei de email).
 
-### Colaborările: învață să le vinzi
-- Fă un **media kit** de o pagină: cine ești, câți urmăritori ai, de unde sunt (țări), vârsta audienței, vizualizări medii, colaborări anterioare și prețuri.
-- Stabilește prețuri fixe, de exemplu: menționare pe stream, segment dedicat de 30 de minute, pachet stream + clip + story.
-- Cere **cod de afiliere** pe lângă plată fixă, ca să câștigi și din vânzări.
-- Promovează fiecare colaborare de **3 ori** (înainte, în timpul, după), nu o singură dată.
+### Luna 3: lansezi
+- [ ] Lansezi oficial programul.
+- [ ] Deschizi abonamentul lunar.
+- [ ] Faci primele evaluări de mobilitate pe video.
+- [ ] Analizezi ce s-a vândut. Pui mai mult efort în ce merge și renunți la ce nu merge.
+- [ ] Decizi dacă adaugi pictura (o licitație lunară pe stream).
 
-### Pictura și blugii pictați
-Nu sunt eșecuri. Doar n-au avut un sistem de vânzare.
-- **Licitație live pe stream** pentru un tablou pe lună. Comunitatea te-a văzut pictându-l, deci are valoare emoțională.
-- **Print-on-demand** (Printful, Redbubble etc.): printuri după tablourile tale, fără stoc.
-- **Blugi pictați la comandă** („drop” limitat: 5 bucăți/lună, precomandă). Raritatea vinde.
-- Tratează pictura ca venit **bonus**, nu ca fundație.
+## 8. Nu mai depinzi de o singură platformă
+Ai pierdut două canale de YouTube, iar Spotify nu merge din Turcia. De aceea:
+- **Lucrurile care sunt doar ale tale:** site-ul și lista de emailuri. Oamenii de pe listă rămân ai tăi orice s-ar întâmpla cu o platformă.
+- **YouTube:** faci **o singură contestație**, sinceră (al doilea canal era doar yoga). **Nu** deschizi alt canal ca să ocolești blocarea.
+- **Spotify:** fără VPN. Încarci episoadele când ești în România și le programezi. Verifici dacă abonamentele plătite sunt disponibile pentru creatori din România.
+- Ai mereu copii ale tuturor video-urilor tale pe un hard disk sau în cloud.
 
-### Contractul cu clona
-Citește bine contractul și asigură-te în scris că imaginea/vocea ta nu poate fi folosită pentru conținut +18 sau în alte scopuri decât cele agreate. Și **pune deoparte o parte din banii ăștia** (vezi secțiunea 7): sunt bani temporari.
+## 9. Ștergerea conținutului vechi
+- [ ] **DMCA:** e conținutul tău, deci ai drepturile de autor. Trimiți cereri DMCA (Reddit are formular pentru copyright).
+- [ ] **Reddit:** folosești și formularul pentru imagini intime distribuite fără acord.
+- [ ] **StopNCII.org** (gratuit): blochează reîncărcarea pe platformele partenere.
+- [ ] **Google:** ceri scoaterea din rezultatele căutării a imaginilor explicite cu tine.
+- [ ] Dacă te consumă prea mult: un serviciu plătit de DMCA pentru creatori.
+- [ ] Contul făcut de agenție: îl scoți din discuție legal, prin avocat.
+- Ce contează cel mai mult pe termen lung: **conținut nou constant** pe „Kristine Maia”, care împinge rezultatele vechi în jos.
 
-## 6. Plan pe 90 de zile
+## 10. Terapia în persoană
+- Rămâne, dar fără chirie fixă.
+- **„Săptămâni de terapie”:** anunți cu 2–3 săptămâni înainte când ești în București și îți umpli programul.
+- Unde lucrezi: cabinet închiriat **cu ora**, sau la domiciliul clientului cu taxă de deplasare.
+- [ ] Faci **Google Business Profile** pe numele de terapie (merge și fără adresă publică) și ceri recenzii de la toți clienții de până acum.
+- Reclamă plătită doar în săptămânile de terapie (~5 €/zi, rază locală).
+- Must Coaching rămâne deschis, dar nu investești timp în el dacă nu aduce clienți.
+- **Dry needling:** întrebi avocatul sau un specialist ce acte îți trebuie ca să-l practici legal în România.
+- **Turcia:** fără viză poți sta maximum 90 de zile din 180. Ca să lucrezi plătit (inclusiv în sala prietenului tău) îți trebuie permis de muncă și, probabil, echivalarea certificărilor. Până atunci, sala e doar pentru filmări.
+- Reiki și terapia energetică: separat de partea de sănătate și fără promovare dedicată.
 
-### Luna 1: Lansează ce ai deja (bani rapizi)
-- [ ] Săptămâna 1: Pune cartea de nutriție pe Gumroad/Stan Store. Anunț-o pe stream, pe Discord și pe toate rețelele.
-- [ ] Săptămâna 1: Fă media kit-ul.
-- [ ] Săptămâna 2: Stabilește programul fix de stream pe teme. Începe cu „stretch break”.
-- [ ] Săptămâna 2: Primele 3 clipuri scurte pe săptămână (TikTok + Reels + Shorts, același clip).
-- [ ] Săptămâna 3: Vorbește cu prietenul tău concret: unde ai lucra în sală, cum se împart banii, ce acte îți trebuie.
-- [ ] Săptămâna 4: Prima licitație de tablou pe stream.
-- [ ] Trimite media kit-ul la 10 branduri (ergonomie, scaune, nutriție, recuperare).
+## 11. Șablon de email pentru branduri
 
-### Luna 2: Construiește produsul principal
-- [ ] Întreabă comunitatea (sondaj): „Ce te doare cel mai tare după gaming?”. Răspunsurile îți dau conținutul programului.
-- [ ] Filmează programul „Gamer Recovery 30 de zile”, într-un loc liniștit, eventual în sală.
-- [ ] Precomandă la preț redus pentru comunitate (validezi înainte să termini tot).
-- [ ] Începe terapia în sală cu evaluări gratuite.
-- [ ] Deschide un nivel de abonament (Patreon sau Discord plătit) cu rutine săptămânale.
-
-### Luna 3: Lansează și automatizează
-- [ ] Lansează programul oficial.
-- [ ] Prima consultație online 1-la-1.
-- [ ] Analizează: ce s-a vândut, ce nu. Dublează ce merge, renunță la ce nu merge.
-- [ ] Ia decizia despre locuință (vezi mai jos).
-
-## 7. Bani și siguranță
-
-1. **Fond de urgență:** din orice venit „extra” (clona, colaborări mari), pune 20–30% deoparte până ajungi la 3 luni de cheltuieli (~2.400 €).
-2. **Decizia despre chirie (650 €/lună):** vezi secțiunea 7c.
-3. **Urmărește-ți cifrele lunar** într-un tabel simplu: venit pe surse și cheltuieli. Ce măsori, crește.
-4. **Fiscal:** cu venituri din mai multe țări (Twitch, sponsori, terapie în altă țară), vorbește o dată cu un contabil despre PFA/firmă și despre unde plătești taxe.
-
-## 7b. Lucruri noi (actualizare)
-
-### Turcia
-- Ca cetățean român poți sta în Turcia **fără viză maximum 90 de zile din 180**. Peste asta îți trebuie permis de ședere.
-- Ca să lucrezi legal acolo (inclusiv terapie plătită în sala prietenului) îți trebuie **permis de muncă**. Pentru fizioterapie/kineto e foarte probabil să-ți trebuiască și **echivalarea diplomei**. Verifică la un avocat sau consultant local înainte să încasezi bani de la clienți.
-- Până atunci, sala rămâne ideală pentru **conținut** (filmări pentru program, clipuri), nu pentru încasări.
-- Varianta curată: veniturile online (Twitch, produse digitale, afiliere) le încasezi în România, prin PFA/firmă, oriunde te-ai afla.
-
-### Terapia din București: problema nu e promovarea, ci canalul
-- Publicul tău de Instagram/Facebook e cel de Twitch: internațional, nu din București. Oamenii ăștia **nu pot** veni la tine la masaj. De aceea postarea zilnică nu aduce clienți.
-- Clienții locali caută pe **Google/Maps** („masaj de recuperare București”, „dry needling București”).
-- **Gratuit și cel mai important:** fă un **Google Business Profile** (merge și pentru servicii la domiciliu, fără adresă publică) și cere recenzii de la fiecare client pe care l-ai avut.
-- Reclamă plătită: **doar** în perioadele când ești sigur în București, 5–7 €/zi, rază mică în jurul tău, cu o ofertă de prima ședință. Nu plăti reclame cât ești plecată.
-- Lucrul din apartament: pentru încredere, pune poze curate cu spațiul, diplomele vizibile și recenzii. Pe termen lung, ia în calcul închirierea unui cabinet **cu ora** (există cabinete care se închiriază pe oră).
-
-### Afilierea (corzile de sărit, Revu Natural)
-Ambele se potrivesc perfect cu nișa de recuperare. Le promovezi mai bine dacă:
-- le pui în **panourile Twitch** și ca **comandă în chat** (`!coarda`, `!revu`);
-- le **folosești** pe stream: coarda în antrenament, cremele după „stretch break”;
-- faci un clip scurt dedicat fiecăruia pe lună („rutina mea de recuperare”);
-- le pui pe o singură pagină de linkuri (Stan Store / Linktree), lângă e-book.
-
-### Emailuri pentru colaborări (șablon în engleză)
-
-> **Subject:** Collab idea: [Brand] x Kristine (72K on Twitch, fitness & recovery)
+> **Subject:** Collab idea: [Brand] x Kristine Maia (72K on Twitch, mobility & recovery)
 >
 > Hi [Name],
 >
-> I'm Kristine, a Twitch streamer (72K followers, international audience aged 18–60) and a trained physical therapist. On my streams I train, cook healthy and do short recovery breaks with my chat.
+> I'm Kristine, a Twitch streamer with 72K followers (international audience, aged 18–60). I'm a sports science graduate and certified recovery massage therapist. On my streams I train, cook healthy meals and do short mobility breaks with my chat.
 >
 > I think [product] would fit naturally into my content because [one concrete reason].
 >
-> I currently work with [jump rope brand] and Revu Natural. Would you be open to a call about a sponsored stream + short-form clips package? I can send my media kit.
+> I currently work with [jump rope brand] and Revu Natural. Would you be open to a sponsored stream + short-form clips package? Happy to send my media kit.
 >
 > Best,
 > Kristine
 
-Trimite 10 pe săptămână, la branduri din: scaune/birouri ergonomice, periferice ergonomice, suplimente, mâncare sănătoasă, echipament de recuperare (pistoale de masaj, role), îmbrăcăminte sport.
+**Branduri țintă:** scaune și birouri ergonomice, mouse/tastaturi ergonomice, suplimente, mâncare sănătoasă, pistoale de masaj, role, saltele de yoga, îmbrăcăminte sport.
 
-### Programarea
-- Ce ai simțit cu HTML și website-urile e un semnal real. Merită explorat.
-- **Sinceritate:** în 2026, a deveni programator angajabil de la zero durează 1–2 ani, iar piața pentru juniori e grea. Nu e o soluție pentru stresul financiar de acum.
-- **Cea mai bună cale:** testezi programarea **construindu-ți propriul brand**: site-ul tău, pagina de vânzare a e-book-ului și a programului, pagina de programări. Așa afli dacă îți place, fără să pierzi timp, pentru că tot ai nevoie de ele.
-- Dacă după 3 luni îți place mult: freeCodeCamp sau The Odin Project (gratuite), apoi site-uri pentru alți terapeuți și streameri, ca serviciu plătit. Asta poate deveni **a treia sursă de venit remote**.
-- Nu e „ori terapie, ori programare”. Brandul tău are nevoie de amândouă.
+**La fiecare colaborare:** plată fixă **și** cod de afiliere. Promovezi de 3 ori: înainte, în timpul și după.
 
-## 7c. Decizia: păstrez apartamentul de 650 €?
+## 12. Pe termen lung (după luna 3, doar dacă ai stabilitate)
+- **Certificare de instructor de yoga (200h, se poate face online).** E mai scurtă și mai ieftină decât kinetoterapia și îți dă dreptul să te prezinți ca instructor de yoga. Se potrivește exact cu produsele tale.
+- **Programarea:** o testezi construindu-ți **propriul site** (pagini pentru e-book, program, programări). Dacă îți place, continui gratuit cu The Odin Project sau freeCodeCamp și, mai târziu, faci site-uri pentru alți creatori și terapeuți, ca venit remote în plus.
+- **Kinetoterapia:** nu e necesară pentru planul ăsta. O iei în calcul doar dacă vei vrea vreodată să lucrezi clinic.
 
-Chiria e **cea mai mare cheltuială** (~80% din costuri) și o plătești și când ești în Turcia.
+## 13. Ce să NU faci
+- Să promovezi 6 lucruri separat. **Un brand, mai multe produse.**
+- Să plătești reclame pentru un produs care încă nu se vinde singur.
+- Să semnezi vreun contract fără avocat.
+- Să ocolești blocări de platformă (canale noi, VPN).
+- Să folosești titluri pe care nu le ai.
+- Să te întorci în zona +18 din presiune financiară.
+- Să-ți judeci valoarea după o lună proastă.
 
-**Câte ședințe îți trebuie ca terapia să acopere chiria:** 300 lei ≈ 60 €, deci 650 € ≈ **11 ședințe pe lună** (~3 pe săptămână), constant, doar pentru chirie.
+## 14. Tabelul lunar (îl completezi în ultima duminică din fiecare lună)
 
-### Testul de 6 săptămâni (cu dată de final scrisă în calendar)
-Nu lași „poate vin clienții”. Faci un test cinstit:
-1. Stai în București cele 6 săptămâni (sau majoritatea lor).
-2. Google Business Profile + recenzii de la toți clienții de până acum.
-3. Reclamă plătită: ~150 € în total (5 €/zi), rază locală, ofertă pentru prima ședință.
-4. Ceri fiecărui client o recomandare (de exemplu o reducere pentru amândoi).
-
-**Prag:** dacă în ultimele 2 săptămâni ale testului ai **minimum 3 ședințe pe săptămână**, păstrezi apartamentul. Dacă nu, renunți la el fără vină: ai testat, iar datele au decis.
-
-### Înainte de orice, verifică
-- **Contractul de închiriere:** perioada de preaviz și eventuale penalități.
-- **Varianta cu apartamentul tău:** dacă te-ai muta acolo când se termină contractul chiriașului, pierzi 400 € venit, dar scapi de 650 € chirie, deci ești pe **+250 €/lună**. Merită calculat.
-
-### Alternative pentru terapie fără chirie mare
-- **Cabinet închiriat cu ora** doar în zilele în care ai programări.
-- **Terapie la domiciliul clientului** (masa pliantă, ventuze, ace), cu taxă de deplasare.
-- **„Săptămâni de terapie”**: anunți din timp că ești în București între anumite date și îți umpli programul.
-
-## 7d. Constanța: un singur fir
-
-Nu-ți lipsesc ideile, îți lipsește focusul. Regula pentru următoarele 90 de zile:
-
-**Online-ul este prioritatea nr. 1.** Terapia în persoană este testul de 6 săptămâni de mai sus, nimic în plus.
-
-Săptămâna-tip, aceeași în fiecare săptămână:
-| Zi | Ce faci |
-|---|---|
-| Luni | Stream mobilitate/antrenament + 1 clip scurt |
-| Marți | Lucru la produs (e-book/program) + 3 emailuri către branduri |
-| Miercuri | Stream gătit + 1 clip scurt |
-| Joi | Lucru la produs + 3 emailuri către branduri |
-| Vineri | Stream gaming cu „stretch break” + 1 clip scurt |
-| Sâmbătă | Terapie / liber |
-| Duminică | 30 min: cifrele săptămânii (bani, vânzări, ședințe) + planul săptămânii următoare |
-
-Nu adaugi nimic nou (pictură, programare, alte cursuri) până nu respecți structura asta **4 săptămâni la rând**.
-
-## 8. Ce să NU faci
-- Să încerci să promovezi 6 lucruri separat. **Un singur brand, mai multe produse.**
-- Să plătești reclame înainte să ai un produs care se vinde deja organic.
-- Să-ți judeci valoarea după o săptămână proastă în terapie.
-- Să te întorci în zona +18 din presiune financiară. Ai alte resurse acum.
-
-## 9. Întrebări pentru pasul următor
-1. Cât de lungă e cartea de nutriție și în ce limbă e?
-2. Ai PFA sau firmă în România?
-3. Cât timp crezi că vei sta în Turcia în următoarele 6 luni?
+| Lună | Chiriaș | Twitch | Donații | Twin | Afiliere | E-book | Program | Abonament | Terapie | Sponsori | **Total** | Cheltuieli | Avocat | **Rămas** |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Noi 2026 | 400 | | | | | | | | | | | | | |
+| Dec 2026 | 400 | | | | | | | | | | | | | |
+| Ian 2027 | 400 | | | | | | | | | | | | | |
