@@ -1,6 +1,6 @@
 # Planul Kristinei — de la „fac de toate” la un brand care plătește facturile
 
-_Ultima actualizare: 10 octombrie 2026_
+_Ultima actualizare: 10 octombrie 2026 (v2)_
 
 ---
 
@@ -11,10 +11,12 @@ _Ultima actualizare: 10 octombrie 2026_
 | Cheltuieli fixe (chirie 160 € + restul) | ~750–800 € |
 | Venit sigur (chiriașul din apartamentul tău) | 400 € |
 | **Gaura reală de acoperit** | **~350–400 €** |
-| Venit variabil: Twitch, donații, colaborări, contractul cu clona | nesigur |
+| Twitch (fără donații) | 400–700 € (medie ~550 €) |
+| Twin (3 luni) | ~400 € |
+| Donații, afiliere (corzi de sărit, Revu Natural) | variabil |
 | Terapie | sub 160 €, imprevizibil |
 
-**Prima concluzie importantă:** nu pornești de la zero. Ai un apartament care îți acoperă jumătate din cheltuieli. Problema nu e „nu câștig nimic”, ci „am nevoie de încă ~400 € **stabili** pe lună”. Asta e o țintă foarte realizabilă.
+**Concluzia corectată:** în medie, chiria plus Twitch (~950 €) îți **acoperă deja** cheltuielile. Nu ești pe minus. Problema reală e că **venitul fluctuează**, iar asta te ține în stres. Ai nevoie de **stabilitate și de o rezervă**, nu de salvare. În cele 3 luni cu Twin, cei ~400 € în plus ar trebui să meargă **integral** în fondul de urgență.
 
 ## 2. Ce ai de fapt (activele tale)
 
@@ -142,6 +144,52 @@ Citește bine contractul și asigură-te în scris că imaginea/vocea ta nu poat
 3. **Urmărește-ți cifrele lunar** într-un tabel simplu: venit pe surse și cheltuieli. Ce măsori, crește.
 4. **Fiscal:** cu venituri din mai multe țări (Twitch, sponsori, terapie în altă țară), vorbește o dată cu un contabil despre PFA/firmă și despre unde plătești taxe.
 
+## 7b. Lucruri noi (actualizare)
+
+### Turcia
+- Ca cetățean român poți sta în Turcia **fără viză maximum 90 de zile din 180**. Peste asta îți trebuie permis de ședere.
+- Ca să lucrezi legal acolo (inclusiv terapie plătită în sala prietenului) îți trebuie **permis de muncă**. Pentru fizioterapie/kineto e foarte probabil să-ți trebuiască și **echivalarea diplomei**. Verifică la un avocat sau consultant local înainte să încasezi bani de la clienți.
+- Până atunci, sala rămâne ideală pentru **conținut** (filmări pentru program, clipuri), nu pentru încasări.
+- Varianta curată: veniturile online (Twitch, produse digitale, afiliere) le încasezi în România, prin PFA/firmă, oriunde te-ai afla.
+
+### Terapia din București: problema nu e promovarea, ci canalul
+- Publicul tău de Instagram/Facebook e cel de Twitch: internațional, nu din București. Oamenii ăștia **nu pot** veni la tine la masaj. De aceea postarea zilnică nu aduce clienți.
+- Clienții locali caută pe **Google/Maps** („masaj de recuperare București”, „dry needling București”).
+- **Gratuit și cel mai important:** fă un **Google Business Profile** (merge și pentru servicii la domiciliu, fără adresă publică) și cere recenzii de la fiecare client pe care l-ai avut.
+- Reclamă plătită: **doar** în perioadele când ești sigur în București, 5–7 €/zi, rază mică în jurul tău, cu o ofertă de prima ședință. Nu plăti reclame cât ești plecată.
+- Lucrul din apartament: pentru încredere, pune poze curate cu spațiul, diplomele vizibile și recenzii. Pe termen lung, ia în calcul închirierea unui cabinet **cu ora** (există cabinete care se închiriază pe oră).
+
+### Afilierea (corzile de sărit, Revu Natural)
+Ambele se potrivesc perfect cu nișa de recuperare. Le promovezi mai bine dacă:
+- le pui în **panourile Twitch** și ca **comandă în chat** (`!coarda`, `!revu`);
+- le **folosești** pe stream: coarda în antrenament, cremele după „stretch break”;
+- faci un clip scurt dedicat fiecăruia pe lună („rutina mea de recuperare”);
+- le pui pe o singură pagină de linkuri (Stan Store / Linktree), lângă e-book.
+
+### Emailuri pentru colaborări (șablon în engleză)
+
+> **Subject:** Collab idea: [Brand] x Kristine (72K on Twitch, fitness & recovery)
+>
+> Hi [Name],
+>
+> I'm Kristine, a Twitch streamer (72K followers, international audience aged 18–60) and a trained physical therapist. On my streams I train, cook healthy and do short recovery breaks with my chat.
+>
+> I think [product] would fit naturally into my content because [one concrete reason].
+>
+> I currently work with [jump rope brand] and Revu Natural. Would you be open to a call about a sponsored stream + short-form clips package? I can send my media kit.
+>
+> Best,
+> Kristine
+
+Trimite 10 pe săptămână, la branduri din: scaune/birouri ergonomice, periferice ergonomice, suplimente, mâncare sănătoasă, echipament de recuperare (pistoale de masaj, role), îmbrăcăminte sport.
+
+### Programarea
+- Ce ai simțit cu HTML și website-urile e un semnal real. Merită explorat.
+- **Sinceritate:** în 2026, a deveni programator angajabil de la zero durează 1–2 ani, iar piața pentru juniori e grea. Nu e o soluție pentru stresul financiar de acum.
+- **Cea mai bună cale:** testezi programarea **construindu-ți propriul brand**: site-ul tău, pagina de vânzare a e-book-ului și a programului, pagina de programări. Așa afli dacă îți place, fără să pierzi timp, pentru că tot ai nevoie de ele.
+- Dacă după 3 luni îți place mult: freeCodeCamp sau The Odin Project (gratuite), apoi site-uri pentru alți terapeuți și streameri, ca serviciu plătit. Asta poate deveni **a treia sursă de venit remote**.
+- Nu e „ori terapie, ori programare”. Brandul tău are nevoie de amândouă.
+
 ## 8. Ce să NU faci
 - Să încerci să promovezi 6 lucruri separat. **Un singur brand, mai multe produse.**
 - Să plătești reclame înainte să ai un produs care se vinde deja organic.
@@ -149,8 +197,6 @@ Citește bine contractul și asigură-te în scris că imaginea/vocea ta nu poat
 - Să te întorci în zona +18 din presiune financiară. Ai alte resurse acum.
 
 ## 9. Întrebări pentru pasul următor
-1. În ce țară e prietenul tău? (pentru recunoașterea diplomelor și fiscalitate)
-2. Cât câștigi în medie pe lună din Twitch + donații?
-3. Ce colaborări ai acum (ce tip de branduri)?
-4. Din ce țări și ce vârstă are publicul tău principal? (din Twitch Analytics)
-5. Cât de lungă e cartea de nutriție și în ce limbă e?
+1. Cât de lungă e cartea de nutriție și în ce limbă e?
+2. Ai PFA sau firmă în România?
+3. Cât timp crezi că vei sta în Turcia în următoarele 6 luni?
