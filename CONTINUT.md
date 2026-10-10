@@ -91,3 +91,37 @@ După fiecare săptămână: te uiți care reel a avut cele mai multe **salvări
 - **Nu schimbi programul** în primele 4 săptămâni, chiar dacă un reel nu merge.
 - **Fără locație** în cadru (inscripții, ferestre spre stradă, alți oameni, animale de companie).
 - **Disclaimer** pe conținutul de mobilitate și recuperare: *„Not medical advice.”*
+
+## 8. Analiza Instagram (@kristinemaia11, octombrie 2026)
+
+**Cifre:** 12,7K urmăritori · 142K vizualizări în 30 de zile · cont verificat · abonamentele Instagram sunt activate.
+
+**Ce a mers cel mai bine:**
+| Reel | Vizualizări | Tip |
+|---|---|---|
+| Rochie / outfit (fixat) | 27K | aspect |
+| Coarda de sărit (fixat) | 12,6K | **util + afiliere** |
+| Yoga (fixat) | 2,2K | util |
+| Cafea turcească | 2,1K | viață / călătorie |
+| Barcă | 1,9K | viață / călătorie |
+| Reel-uri cu citate motivaționale | 500–1.100 | citat generic |
+| Sală, fără explicații | 1.000–1.200 | aspect |
+
+**Concluzii:**
+1. Majoritatea postărilor recente sunt **citate motivaționale** peste clipuri cu tine. Au ~500–1.000 de vizualizări și nu vând nimic.
+2. Coarda de sărit (conținut util + produs) a avut de **~15 ori mai mult** decât media.
+3. **Locația ta e deja publică:** Turnul Galata, Bosforul, cafeaua turcească, „crossed continents”. La fel și indiciile despre relație (citate despre iubire, câinele din mașină).
+4. Reel-uri de tip „Who's hotter? Me or…” trag profilul înapoi spre zona de aspect, exact ce vrei să lași în urmă, și nu ajută cu sponsorii de wellness.
+
+**Ce schimbi:**
+- **Mix nou:** 70% conținut util (mobilitate, rețete, coarda, recuperare) și 30% viață personală (călătorii, citate). Nu renunți la personalitate, doar schimbi proporția.
+- **Citatele devin utile:** același cadru frumos, dar textul e un sfat. De exemplu, în loc de „Stick to the plan. Not the mood.”: *„3 stretches I do after every gym session”*.
+- **Siguranță:** postezi locațiile **după ce ai plecat de acolo**, nu în timp real. Fără sala, cartierul sau locuri pe unde treci zilnic.
+- **Fără reel-uri de tip „cine e mai sexy”.**
+
+**Profil:**
+- Bio nou: *„Mobility, recovery & healthy food for people who sit all day 🧘‍♀️ · Sports science grad · Twitch Partner (72K) · Collabs: email”*
+- Linktree: e-book, codurile de reducere (coarda, Revu Natural), Twitch, programul (când apare).
+- Evidențieri (highlights): păstrezi JUMP ROPE și YOGA. Adaugi **RECIPES**, **RECOVERY**, **CODES**. „Krakow” și alte călătorii le pui într-una singură, **TRAVEL**.
+- **Abonamentul Instagram** (butonul „Subscription” e deja activ): rutine exclusive de mobilitate în fiecare săptămână, pentru 4–5 €/lună.
+- Repuni sus (fixezi) **coarda** și **yoga**. Rochia poate rămâne, pentru că aduce oameni noi.
