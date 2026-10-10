@@ -173,6 +173,7 @@ Ai pierdut două canale de YouTube, iar Spotify nu merge din Turcia. De aceea:
 
 ## 10. Terapia în persoană
 - Rămâne, dar fără chirie fixă.
+- **Întâi actele, apoi clienții noi:** fără PFA/firmă cu activitatea potrivită și fără un spațiu autorizat, **nu faci reclamă plătită**. Mai ales acum, cu dosarul de la antifraudă deschis. Un cabinet închiriat cu ora are deja autorizațiile lui și rezolvă problema spațiului.
 - **„Săptămâni de terapie”:** anunți cu 2–3 săptămâni înainte când ești în București și îți umpli programul.
 - **Unde lucrezi:** spațiu închiriat **cu ora sau cu ziua**, doar în săptămânile de terapie. Nu mergi la domiciliul clienților (e riscant, iar mulți nu au spațiu).
   - Întrebi la: cabinete de kineto/fizioterapie, săli de fitness, saloane de înfrumusețare cu cameră liberă, centre de yoga/wellness.
@@ -232,6 +233,8 @@ Notă: tabelul de mai jos a fost calculat cu cheltuieli de ~4.750 lei. Cu cifrel
 - După **4 săptămâni** de reclamă: minimum **5 clienți noi**. Dacă nu, oprești.
 - După **3 luni**: minimum **12 ședințe pe lună**. Dacă nu, pleci din apartament.
 - Garanția o pierzi oricum dacă pleci înainte de un an, deci testul te costă doar diferența lunară, nu și garanția.
+
+**Atenție:** varianta B nu se poate face legal din dormitorul apartamentului, fără acte. Reclama plătită ar face publică o activitate neînregistrată, în timp ce ai deja un dosar deschis la antifraudă. Așadar varianta B are sens doar după ce ai actele și un spațiu autorizat.
 
 **Decizia reală nu e despre bani, ci despre unde vrei să locuiești în următoarele 3–6 luni: București sau Turcia.**
 
