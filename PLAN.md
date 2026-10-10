@@ -117,6 +117,8 @@ De ce asta: canalul de yoga a mers deja, comunitatea ta stă ore întregi la cal
 
 **Regula de focus:** nu începi nimic nou (pictură, cursuri, programare, alte platforme) până nu ții săptămâna asta **4 săptămâni la rând**.
 
+**Unde faci stream:** când ești în Turcia, din **sală** (comunității îi place, iar viața personală rămâne privată). Nu faci stream din casa prietenului tău. În sală, ai grijă să nu apară alți membri în cadru fără acordul lor.
+
 Clipurile scurte (3 pe săptămână) merg pe TikTok, Instagram Reels și Spotify. Același clip pe toate.
 
 ## 7. Planul pe 90 de zile
@@ -125,7 +127,7 @@ Clipurile scurte (3 pe săptămână) merg pe TikTok, Instagram Reels și Spotif
 - [ ] Vorbești cu proprietarul și dai preavizul pentru apartament.
 - [ ] Le dai avocatului documentele și îi arăți contractul cu Twin.
 - [ ] Pui e-book-ul pe Gumroad sau Stan Store și îl anunți pe stream, pe Discord și pe Instagram.
-- [ ] Faci o pagină de linkuri cu e-book-ul, coarda și Revu Natural.
+- [ ] Faci o pagină de linkuri **pe „Kristine Maia”** (nu pe Cristiana Iorga, pentru că acolo te știe publicul) cu e-book-ul, coarda, Revu Natural și toate codurile de reducere.
 - [ ] Pui pe Twitch panouri și comenzi în chat (`!coarda`, `!revu`, `!ebook`).
 - [ ] Faci media kit-ul de o pagină (urmăritori, țări, vârste, vizualizări medii, colaborări, prețuri).
 - [ ] Trimiți 6 emailuri pe săptămână către branduri (șablonul e în secțiunea 11).
@@ -135,7 +137,7 @@ Clipurile scurte (3 pe săptămână) merg pe TikTok, Instagram Reels și Spotif
 - [ ] Faci un sondaj în comunitate: *„What hurts most after long gaming/work sessions?”*
 - [ ] Filmezi programul de 30 de zile, eventual în sala prietenului tău.
 - [ ] Deschizi **precomanda** la preț redus pentru comunitate, ca să afli dacă se vinde înainte să termini.
-- [ ] Când ești în România, încarci pe Spotify 8–10 episoade de yoga/mobilitate și le programezi săptămânal.
+- [ ] În Turcia pregătești (editezi) episoadele de Spotify, iar când ești în România încarci 8–10 episoade de yoga/mobilitate și le programezi săptămânal.
 - [ ] Faci o **listă de emailuri** (de exemplu: un PDF gratuit, „5-minute desk stretch”, în schimbul adresei de email).
 
 ### Luna 3: lansezi
@@ -153,7 +155,7 @@ Ai pierdut două canale de YouTube, iar Spotify nu merge din Turcia. De aceea:
 - Ai mereu copii ale tuturor video-urilor tale pe un hard disk sau în cloud.
 
 ## 9. Ștergerea conținutului vechi
-- [ ] **DMCA:** e conținutul tău, deci ai drepturile de autor. Trimiți cereri DMCA (Reddit are formular pentru copyright).
+- [ ] **DMCA:** e conținutul tău, deci ai drepturile de autor. Trimiți cereri DMCA (Reddit are formular pentru copyright). Șablonul și tabelul de urmărire sunt în `STERGERE-CONTINUT.md`.
 - [ ] **Reddit:** folosești și formularul pentru imagini intime distribuite fără acord.
 - [ ] **StopNCII.org** (gratuit): blochează reîncărcarea pe platformele partenere.
 - [ ] **Google:** ceri scoaterea din rezultatele căutării a imaginilor explicite cu tine.
@@ -164,7 +166,11 @@ Ai pierdut două canale de YouTube, iar Spotify nu merge din Turcia. De aceea:
 ## 10. Terapia în persoană
 - Rămâne, dar fără chirie fixă.
 - **„Săptămâni de terapie”:** anunți cu 2–3 săptămâni înainte când ești în București și îți umpli programul.
-- Unde lucrezi: cabinet închiriat **cu ora**, sau la domiciliul clientului cu taxă de deplasare.
+- **Unde lucrezi:** spațiu închiriat **cu ora sau cu ziua**, doar în săptămânile de terapie. Nu mergi la domiciliul clienților (e riscant, iar mulți nu au spațiu).
+  - Întrebi la: cabinete de kineto/fizioterapie, săli de fitness, saloane de înfrumusețare cu cameră liberă, centre de yoga/wellness.
+  - Ce propui: chirie pe oră, sau procent din ședință (de exemplu 20–30%) dacă îți trimit ei clienți.
+  - Avantaje: nu plătești nimic când ești plecată, iar locul îți aduce încredere (și uneori clienți).
+  - [ ] Faci o listă cu 5–10 locuri aproape de casa familiei și scrii/suni la toate într-o singură zi.
 - [ ] Faci **Google Business Profile** pe numele de terapie (merge și fără adresă publică) și ceri recenzii de la toți clienții de până acum.
 - Reclamă plătită doar în săptămânile de terapie (~5 €/zi, rază locală).
 - Must Coaching rămâne deschis, dar nu investești timp în el dacă nu aduce clienți.
@@ -192,7 +198,7 @@ Ai pierdut două canale de YouTube, iar Spotify nu merge din Turcia. De aceea:
 **La fiecare colaborare:** plată fixă **și** cod de afiliere. Promovezi de 3 ori: înainte, în timpul și după.
 
 ## 12. Pe termen lung (după luna 3, doar dacă ai stabilitate)
-- **Certificare de instructor de yoga (200h, se poate face online).** E mai scurtă și mai ieftină decât kinetoterapia și îți dă dreptul să te prezinți ca instructor de yoga. Se potrivește exact cu produsele tale.
+- **Certificare de instructor de yoga (200h, se poate face online).** Înainte să plătești, verifică dacă școala e înregistrată la **Yoga Alliance** (RYS 200), ca să poți folosi titlul RYT-200. O plătești din banii economisiți pe chirie, nu din rezerva pentru avocat. E mai scurtă și mai ieftină decât kinetoterapia și îți dă dreptul să te prezinți ca instructor de yoga. Se potrivește exact cu produsele tale.
 - **Programarea:** o testezi construindu-ți **propriul site** (pagini pentru e-book, program, programări). Dacă îți place, continui gratuit cu The Odin Project sau freeCodeCamp și, mai târziu, faci site-uri pentru alți creatori și terapeuți, ca venit remote în plus.
 - **Kinetoterapia:** nu e necesară pentru planul ăsta. O iei în calcul doar dacă vei vrea vreodată să lucrezi clinic.
 
