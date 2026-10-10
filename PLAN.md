@@ -2,7 +2,7 @@
 
 _10 octombrie 2026_
 
-> **Pe scurt:** renunți la apartamentul de 650 €, îți rezolvi liniștită dosarul legal și construiești **un singur brand online, „Kristine Maia”**, pe yoga, mobilitate, recuperare și gătit sănătos pentru oamenii care stau mult la calculator. Terapia în persoană rămâne, dar doar în „săptămâni de terapie”, când ești în București.
+> **Pe scurt:** decizi dacă rămâi în București (păstrezi apartamentul și crești terapia) sau te muți în Turcia (renunți la apartament). Indiferent de alegere, îți rezolvi liniștită dosarul legal și construiești **un singur brand online, „Kristine Maia”**, pe yoga, mobilitate, recuperare și gătit sănătos pentru oamenii care stau mult la calculator. Terapia în persoană rămâne, dar doar în „săptămâni de terapie”, când ești în București.
 
 ---
 
@@ -49,8 +49,19 @@ _10 octombrie 2026_
 
 ## 3. Deciziile mari (de luat acum)
 
-### 3.1. Renunți la apartamentul de 650 €
-- Nu ai terapie suficientă acolo, ești mai mult plecată și ai casa familiei în București.
+### 3.1. Apartamentul de 650 €: București sau Turcia (decizie deschisă)
+
+| | **București** | **Turcia** |
+|---|---|---|
+| Apartamentul | îl păstrezi | renunți și pierzi garanția |
+| Primele luni | pe minus, cu reclamă și puncte de control | pe plus din prima lună |
+| Terapia | crește în 2–6 luni, dacă stai acolo | doar în „săptămâni de terapie” |
+| Twitch și online | seara | activitatea principală |
+| Riscul | câteva mii de lei, dacă terapia nu crește | renunți la cabinetul construit |
+
+Puncte de control pentru București: **5 clienți noi** în primele 4 săptămâni de reclamă și **12 ședințe pe lună** după 3 luni. Detalii în secțiunea 10.
+
+**Dacă alegi Turcia:**
 - Pierzi garanția (~650 €), pentru că pleci înainte de un an. Restul contractului te-ar costa ~7.500–8.000 €.
 - Proprietarul nu acceptă o lună de test cu preaviz retras, deci varianta asta cade.
 - [ ] **Întreabă proprietarul** dacă îți dă garanția înapoi dacă îi găsești tu un chiriaș nou.
@@ -61,7 +72,7 @@ _10 octombrie 2026_
 - [ ] Întreabă avocatul dacă se poate cere de la platformă istoricul contului și dacă merită o plângere pentru folosirea identității tale.
 - [ ] Nu răspunzi singură autorităților. Totul trece prin avocat și contabilă.
 - [ ] Ții un dosar cu date: ce s-a întâmplat, când, ce ai trimis.
-- [ ] Întreabă contabila dacă îți trebuie PFA sau firmă pentru veniturile online (Twitch, sponsori, produse digitale).
+- [ ] Întreabă contabila: casă de marcat, punct de lucru la apartament, cum pui în ordine ședințele de până acum și cum declari veniturile din străinătate (Twitch, branduri) pe firmă.
 
 ### 3.3. Regula pentru contracte
 - **Orice contract îl citește întâi avocatul**, mai ales cele care îți folosesc imaginea sau identitatea.
