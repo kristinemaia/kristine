@@ -1,6 +1,6 @@
 # Planul Kristinei — de la „fac de toate” la un brand care plătește facturile
 
-_Ultima actualizare: 10 octombrie 2026 (v2)_
+_Ultima actualizare: 10 octombrie 2026 (v3)_
 
 ---
 
@@ -8,7 +8,7 @@ _Ultima actualizare: 10 octombrie 2026 (v2)_
 
 | | Pe lună |
 |---|---|
-| Cheltuieli fixe (chirie 160 € + restul) | ~750–800 € |
+| Cheltuieli fixe (chirie 650 € + restul) | ~750–800 € |
 | Venit sigur (chiriașul din apartamentul tău) | 400 € |
 | **Gaura reală de acoperit** | **~350–400 €** |
 | Twitch (fără donații) | 400–700 € (medie ~550 €) |
@@ -140,7 +140,7 @@ Citește bine contractul și asigură-te în scris că imaginea/vocea ta nu poat
 ## 7. Bani și siguranță
 
 1. **Fond de urgență:** din orice venit „extra” (clona, colaborări mari), pune 20–30% deoparte până ajungi la 3 luni de cheltuieli (~2.400 €).
-2. **Decizia despre chirie:** dacă stai mai mult de jumătate din timp la prietenul tău, plătești 160 €/lună pentru un loc gol. Nu trebuie să decizi acum, dar pune-ți o dată (de exemplu peste 3 luni) la care te uiți sincer la situație. Și nu lua decizia doar pe bani: contează și cum merge relația și să ai propriul loc sigur.
+2. **Decizia despre chirie (650 €/lună):** vezi secțiunea 7c.
 3. **Urmărește-ți cifrele lunar** într-un tabel simplu: venit pe surse și cheltuieli. Ce măsori, crește.
 4. **Fiscal:** cu venituri din mai multe țări (Twitch, sponsori, terapie în altă țară), vorbește o dată cu un contabil despre PFA/firmă și despre unde plătești taxe.
 
@@ -189,6 +189,49 @@ Trimite 10 pe săptămână, la branduri din: scaune/birouri ergonomice, perifer
 - **Cea mai bună cale:** testezi programarea **construindu-ți propriul brand**: site-ul tău, pagina de vânzare a e-book-ului și a programului, pagina de programări. Așa afli dacă îți place, fără să pierzi timp, pentru că tot ai nevoie de ele.
 - Dacă după 3 luni îți place mult: freeCodeCamp sau The Odin Project (gratuite), apoi site-uri pentru alți terapeuți și streameri, ca serviciu plătit. Asta poate deveni **a treia sursă de venit remote**.
 - Nu e „ori terapie, ori programare”. Brandul tău are nevoie de amândouă.
+
+## 7c. Decizia: păstrez apartamentul de 650 €?
+
+Chiria e **cea mai mare cheltuială** (~80% din costuri) și o plătești și când ești în Turcia.
+
+**Câte ședințe îți trebuie ca terapia să acopere chiria:** 300 lei ≈ 60 €, deci 650 € ≈ **11 ședințe pe lună** (~3 pe săptămână), constant, doar pentru chirie.
+
+### Testul de 6 săptămâni (cu dată de final scrisă în calendar)
+Nu lași „poate vin clienții”. Faci un test cinstit:
+1. Stai în București cele 6 săptămâni (sau majoritatea lor).
+2. Google Business Profile + recenzii de la toți clienții de până acum.
+3. Reclamă plătită: ~150 € în total (5 €/zi), rază locală, ofertă pentru prima ședință.
+4. Ceri fiecărui client o recomandare (de exemplu o reducere pentru amândoi).
+
+**Prag:** dacă în ultimele 2 săptămâni ale testului ai **minimum 3 ședințe pe săptămână**, păstrezi apartamentul. Dacă nu, renunți la el fără vină: ai testat, iar datele au decis.
+
+### Înainte de orice, verifică
+- **Contractul de închiriere:** perioada de preaviz și eventuale penalități.
+- **Varianta cu apartamentul tău:** dacă te-ai muta acolo când se termină contractul chiriașului, pierzi 400 € venit, dar scapi de 650 € chirie, deci ești pe **+250 €/lună**. Merită calculat.
+
+### Alternative pentru terapie fără chirie mare
+- **Cabinet închiriat cu ora** doar în zilele în care ai programări.
+- **Terapie la domiciliul clientului** (masa pliantă, ventuze, ace), cu taxă de deplasare.
+- **„Săptămâni de terapie”**: anunți din timp că ești în București între anumite date și îți umpli programul.
+
+## 7d. Constanța: un singur fir
+
+Nu-ți lipsesc ideile, îți lipsește focusul. Regula pentru următoarele 90 de zile:
+
+**Online-ul este prioritatea nr. 1.** Terapia în persoană este testul de 6 săptămâni de mai sus, nimic în plus.
+
+Săptămâna-tip, aceeași în fiecare săptămână:
+| Zi | Ce faci |
+|---|---|
+| Luni | Stream mobilitate/antrenament + 1 clip scurt |
+| Marți | Lucru la produs (e-book/program) + 3 emailuri către branduri |
+| Miercuri | Stream gătit + 1 clip scurt |
+| Joi | Lucru la produs + 3 emailuri către branduri |
+| Vineri | Stream gaming cu „stretch break” + 1 clip scurt |
+| Sâmbătă | Terapie / liber |
+| Duminică | 30 min: cifrele săptămânii (bani, vânzări, ședințe) + planul săptămânii următoare |
+
+Nu adaugi nimic nou (pictură, programare, alte cursuri) până nu respecți structura asta **4 săptămâni la rând**.
 
 ## 8. Ce să NU faci
 - Să încerci să promovezi 6 lucruri separat. **Un singur brand, mai multe produse.**
