@@ -22,29 +22,37 @@ _10 octombrie 2026_
 - Pentru yoga spui *„yoga-inspired mobility”*, *„stretching & mobility flows”*.
 - Pe orice program pui disclaimer-ul: *„Not medical advice. If you have pain or an injury, see a doctor or physiotherapist.”*
 
-## 2. Situația financiară
+## 2. Situația financiară (cifre corectate, 1 € ≈ 5 lei)
 
-| Venituri pe lună | |
+| Venituri pe lună | lei |
 |---|---|
-| Chiriașul din apartamentul tău (stabil, plătește la timp) | 400 € |
-| Twitch | 400–700 € (medie ~550 €) |
-| Twin (doar următoarele ~3 luni) | ~400 € |
-| Donații, afiliere (corzi de sărit, Revu Natural), terapie | variabil |
+| Chiriașul din apartamentul tău (stabil) | 2.000 |
+| Twitch (400–700 €) | 2.000–3.500 (medie ~2.750) |
+| Twin (doar ~3 luni) | ~2.000 |
+| Donații, afiliere, terapie | variabil |
+| **Stabil, fără Twin** | **~4.750** |
 
-| Cheltuieli pe lună | Acum | După ce renunți la apartament |
+| Cheltuieli pe lună | Cu apartamentul | Fără apartament |
 |---|---|---|
-| Chirie | 650 € | 0 € (casa familiei / Turcia) |
-| Restul | ~100–150 € | ~100–150 € |
-| Avocat + contabilă (temporar) | ? | ? |
-| **Total fără avocat** | **~800 €** | **~150 €** |
+| Chirie | 3.250 | 0 |
+| Utilități | 500–750 | 0 |
+| Mâncare și trai | 2.000–3.000 | 2.000–3.000 |
+| Alte cheltuieli | ~1.000+ | ~1.000+ |
+| Avocat + contabilă | ? | ? |
+| **Total** | **~6.750–8.000** | **~3.000–4.000** |
 
-**Concluzie:** cu apartamentul ești la limită și stresată în fiecare lună. Fără el, venitul stabil (chiria + Twitch) îți acoperă cheltuielile **de câteva ori**, iar tot ce câștigi în plus merge în avocat, în rezervă și în construirea brandului.
+**Rezultat pe lună (fără Twin, fără avocat):**
+- **Cu apartamentul:** ~**–2.000 până la –3.250 lei** (pe minus în fiecare lună).
+- **Fără apartament:** ~**+750 până la +1.750 lei** (pe plus).
+
+**Contractul:** dacă pleci înainte de un an, pierzi garanția (~650 €). Mai ai ~10 luni din contract, adică ~**7.500–8.000 €** în chirie și utilități. Garanția pierdută costă de ~12 ori mai puțin.
 
 ## 3. Deciziile mari (de luat acum)
 
 ### 3.1. Renunți la apartamentul de 650 €
 - Nu ai terapie suficientă acolo, ești mai mult plecată și ai casa familiei în București.
-- Pierzi cel mult garanția, adică ~o lună de chirie. Fiecare lună în care îl păstrezi gol costă la fel de mult.
+- Pierzi garanția (~650 €), pentru că pleci înainte de un an. Restul contractului te-ar costa ~7.500–8.000 €.
+- Proprietarul nu acceptă o lună de test cu preaviz retras, deci varianta asta cade.
 - [ ] **Întreabă proprietarul** dacă îți dă garanția înapoi dacă îi găsești tu un chiriaș nou.
 - [ ] **Spune-le deschis celor din comunitate care donează pentru spațiu.** De exemplu: *„I'm moving my work online. Your support now goes into the recovery program I'm building for you.”*
 
@@ -180,7 +188,7 @@ Ai pierdut două canale de YouTube, iar Spotify nu merge din Turcia. De aceea:
 
 ### Socoteala pe lista de prețuri (KM Wellness Concept)
 
-Costul unei luni doar pe terapie, cu apartamentul: chirie ~3.250 lei + trai ~750 lei + reclamă ~750 lei ≈ **4.750 lei**.
+Notă: tabelul de mai jos a fost calculat cu cheltuieli de ~4.750 lei. Cu cifrele reale (~7.400 lei + reclamă ~750 lei ≈ **8.150 lei**), ca să trăiești doar din terapie îți trebuie ~**29 de ședințe pe lună (~7 pe săptămână)**, adică terapie aproape zilnică și stream-urile pe Twitch ar avea de suferit.
 
 | Dacă faci doar... | Preț | Ședințe pe lună ca să ieși pe zero | Pe săptămână |
 |---|---|---|---|
