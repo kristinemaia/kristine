@@ -209,6 +209,32 @@ Notă: tabelul de mai jos a fost calculat cu cheltuieli de ~4.750 lei. Cu cifrel
 - „Program: Luni–Sâmbătă” nu e adevărat cât ești în Turcia. Mai bine scrii: *„Programări în săptămânile anunțate pe @kmwellnessconcept”*.
 - **KM Wellness Concept** e un nume foarte bun. Leagă natural terapia de Kristine Maia.
 
+### Varianta B: rămâi în București și crești terapia cu reclamă plătită
+
+**Calculul corect:** chiriașul și Twitch îți aduc deja ~4.750 lei. Terapia trebuie să acopere doar **diferența**: ~7.400 lei cheltuieli + ~750 lei reclamă – 4.750 lei ≈ **3.400 lei**, adică **~12 ședințe pe lună (~3 pe săptămână)**, nu 29.
+
+**Estimări (presupuneri, nu garanții):** reclamă de ~150 €/lună. Fiecare client nou revine în medie de câteva ori.
+
+| Luna | Optimist (6 clienți noi/lună) | Pesimist (3 clienți noi/lună) |
+|---|---|---|
+| 1 | ~6 ședințe | ~3 |
+| 2 | ~12 (pe zero) | ~6 |
+| 3 | ~16 | ~8 |
+| 4–6 | 18–22 | 10–12 (pe zero pe la luna 5–6) |
+| Pierdere până ajungi pe zero | ~1.700 lei | ~6.500 lei |
+
+**Condiții obligatorii:**
+- Stai **în București** toată perioada. Altfel nu merge.
+- Twitch continuă la fel (stream seara, terapie ziua).
+- Ceri recenzii și recomandări de la fiecare client și vinzi pachete.
+
+**Puncte de control:**
+- După **4 săptămâni** de reclamă: minimum **5 clienți noi**. Dacă nu, oprești.
+- După **3 luni**: minimum **12 ședințe pe lună**. Dacă nu, pleci din apartament.
+- Garanția o pierzi oricum dacă pleci înainte de un an, deci testul te costă doar diferența lunară, nu și garanția.
+
+**Decizia reală nu e despre bani, ci despre unde vrei să locuiești în următoarele 3–6 luni: București sau Turcia.**
+
 ## 11. Șablon de email pentru branduri
 
 > **Subject:** Collab idea: [Brand] x Kristine Maia (72K on Twitch, mobility & recovery)
