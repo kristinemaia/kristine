@@ -173,6 +173,14 @@ Ai pierdut două canale de YouTube, iar Spotify nu merge din Turcia. De aceea:
 - **Spotify:** fără VPN. Încarci episoadele când ești în România și le programezi. Verifici dacă abonamentele plătite sunt disponibile pentru creatori din România.
 - Ai mereu copii ale tuturor video-urilor tale pe un hard disk sau în cloud.
 
+## 8b. Viața privată și comunitatea
+- Nu le datorezi explicații despre viața personală. **Nu inventezi motive** (colaborări care nu există etc.), pentru că minciunile se descoperă, mai ales față de cei care au donat.
+- Ce poți spune, adevărat și fără detalii: *„I'm spending some time abroad, training and working on new projects, including the recovery program. Streams continue as usual.”*
+- **Nu spui țara sau orașul.** E o regulă de siguranță, nu un secret.
+- La stream din sală sau din altă locație: fără ferestre spre stradă, fără firme sau inscripții în cadru, fără alți oameni sau animale în cadru (pisicile rămân în afara camerei).
+- Cei care au donat pentru spațiu află adevărul despre **spațiu** (de exemplu că terapia se mută în săptămâni de terapie sau online), nu despre viața ta personală.
+- Cu cât ai mai mult venit din produse și sponsori și mai puțin din donații, cu atât te simți mai liberă în viața privată.
+
 ## 9. Ștergerea conținutului vechi
 - [ ] **DMCA:** e conținutul tău, deci ai drepturile de autor. Trimiți cereri DMCA (Reddit are formular pentru copyright). Șablonul și tabelul de urmărire sunt în `STERGERE-CONTINUT.md`.
 - [ ] **Reddit:** folosești și formularul pentru imagini intime distribuite fără acord.
