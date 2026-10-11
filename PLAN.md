@@ -70,6 +70,21 @@ Donațiile variază, deci le tratezi ca **bonus**, nu ca bază. Într-o lună bu
 - **Dacă alegi Bucureștiul:** întâi casa de marcat (și punctul de lucru, verificat cu contabila), apoi reclamă ~5 €/zi. Praguri: **5 clienți noi** în primele 4 săptămâni și **12 ședințe pe lună** după 3 luni. Dacă nu le atingi, treci pe varianta Turcia.
 - **Dacă alegi Turcia:** întrebi proprietarul dacă îți dă garanția înapoi dacă îi găsești tu un chiriaș nou. Le spui celor care au donat pentru spațiu ce se întâmplă cu el.
 
+### Direcția spre care te îndrepți: fără apartament, între România și Turcia
+Locuiești la părinți (București) sau la casa de la țară, iar perioadele din Turcia le alternezi cu cele din România. Online-ul merge de oriunde.
+
+**Lista pentru mutare:**
+- [ ] Vorbești cu proprietarul (preaviz + întrebarea despre chiriaș nou și garanție).
+- [ ] Le spui celor care au donat pentru spațiu ce se întâmplă cu el.
+- [ ] **Contabila:** dacă sediul sau punctul de lucru al firmei e la apartament, îl muți.
+- [ ] Echipamentul de terapie (masa, ventuzele, acele) îl duci la părinți. Îți iei o **masă pliantă** pentru deplasări.
+- [ ] **Colțul de stream/filmare** la părinți sau la țară: fundal neutru, lumină, birou.
+- [ ] **Internetul:** verifici viteza de upload (minimum ~6–10 Mbps pentru stream). La țară mai ales.
+- [ ] **Studio portabil** pe care îl iei în ambele țări: laptop, microfon, cameră sau telefon, ring light, trepied.
+- [ ] **Ritmul România–Turcia:** maximum 90 de zile din 180 în Turcia, fără viză. De exemplu ~6–8 săptămâni acolo, apoi România.
+- [ ] Cât ești în România: „săptămâni de terapie” (la clienți acasă sau la partener), încărcat episoade pe Spotify, filmat conținut.
+- [ ] Timp cu Jimmy. 🐶
+
 ## 4. Terapia: nu renunți la ea
 - E **planul tău de siguranță**: dacă online-ul se oprește, te întorci la terapie.
 - **Prețurile rămân la fel.** Nu le scazi.
