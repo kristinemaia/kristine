@@ -111,13 +111,12 @@ După fiecare săptămână: te uiți care reel a avut cele mai multe **salvări
 1. Majoritatea postărilor recente sunt **citate motivaționale** peste clipuri cu tine. Au ~500–1.000 de vizualizări și nu vând nimic.
 2. Coarda de sărit (conținut util + produs) a avut de **~15 ori mai mult** decât media.
 3. **Locația ta e deja publică:** Turnul Galata, Bosforul, cafeaua turcească, „crossed continents”. La fel și indiciile despre relație (citate despre iubire, câinele din mașină).
-4. Reel-uri de tip „Who's hotter? Me or…” trag profilul înapoi spre zona de aspect, exact ce vrei să lași în urmă, și nu ajută cu sponsorii de wellness.
+4. Reel-ul „Who's hotter? Me or…” e parte din colaborarea plătită cu Twin (tu și clona AI, cu întrebări din comunitate). E în regulă, face parte din contract.
 
 **Ce schimbi:**
 - **Mix nou:** 70% conținut util (mobilitate, rețete, coarda, recuperare) și 30% viață personală (călătorii, citate). Nu renunți la personalitate, doar schimbi proporția.
 - **Citatele devin utile:** același cadru frumos, dar textul e un sfat. De exemplu, în loc de „Stick to the plan. Not the mood.”: *„3 stretches I do after every gym session”*.
 - **Siguranță:** postezi locațiile **după ce ai plecat de acolo**, nu în timp real. Fără sala, cartierul sau locuri pe unde treci zilnic.
-- **Fără reel-uri de tip „cine e mai sexy”.**
 
 **Profil:**
 - Bio nou: *„Mobility, recovery & healthy food for people who sit all day 🧘‍♀️ · Sports science grad · Twitch Partner (72K) · Collabs: email”*
@@ -125,3 +124,11 @@ După fiecare săptămână: te uiți care reel a avut cele mai multe **salvări
 - Evidențieri (highlights): păstrezi JUMP ROPE și YOGA. Adaugi **RECIPES**, **RECOVERY**, **CODES**. „Krakow” și alte călătorii le pui într-una singură, **TRAVEL**.
 - **Abonamentul Instagram** (butonul „Subscription” e deja activ): rutine exclusive de mobilitate în fiecare săptămână, pentru 4–5 €/lună.
 - Repuni sus (fixezi) **coarda** și **yoga**. Rochia poate rămâne, pentru că aduce oameni noi.
+
+## 9. Varianta minimă (când ai puțin timp și zero buget)
+Cât timp e o perioadă stresantă, faci **doar** asta. Fără bani cheltuiți.
+1. **2 reel-uri utile pe săptămână**, filmate în sală în timpul antrenamentului tău (care oricum îl faci). Formatul coardei: arăți ceva util + codul de reducere.
+2. **Stream-urile obișnuite**, cu un „stretch break” din care tai 1 clip.
+3. **E-book-ul pus pe Linktree** (Gumroad / Stan Store au variante gratuite, care iau doar un procent din vânzare).
+4. **Bio-ul schimbat** (5 minute).
+Restul din plan vine după ce se liniștesc lucrurile.
