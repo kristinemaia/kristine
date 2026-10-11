@@ -63,12 +63,18 @@ _10–11 octombrie 2026 · rezumat în ordine cronologică. Conversația complet
 
 **Ce am răspuns:** un model hibrid. Mergi la clienți cunoscuți, cu reguli de siguranță și taxă de deplasare. Lucrezi la un partener (cabinet, salon, sală), cu chirie pe oră sau procent din ședință. Faci online evaluări de mobilitate, auto-masaj ghidat, clase în grupuri mici și sesiuni de relaxare. Pașii următori: vorbești cu proprietarul, scrii la 5–10 parteneri, le spui clienților care sunt opțiunile noi.
 
+## 13. Decizia cu apartamentul și mutarea
+**Ce mi-ai spus:** nu merită să ții un apartament atât de scump doar ca să locuiești în el. Stream poți face de oriunde. Casa de la țară e departe de București, dar ai acolo camerele de stream. Chiria trebuie plătită în 4 zile, exact când te întorci. Vrei să-i spui direct proprietarului că a intervenit ceva. Nu vrei să plătești încă 650 € doar ca să stai acolo. Nu vrei să te justifici în fața comunității. În primele 2 zile în București ai 2 terapii.
+
+**Ce am răspuns:** nu merită (~3.750–4.000 lei pe lună doar pentru locuit, față de o garanție de 650 € pierdută o singură dată). Te uiți în contract la preaviz. Nu te oprești din plătit fără o înțelegere. Îi propui proprietarului ca garanția să acopere preavizul și să rămâi 2–3 zile ca să faci terapiile și să te muți. Pentru donatori, un mesaj scurt de mulțumire, fără justificări. Folosești cele 2 terapii ca să le spui clienților ce opțiuni noi ai, să le ceri recenzii și să le propui pachete. Toate mesajele și pașii sunt în `MUTARE.md`.
+
 ---
 
 ## Fișierele care merg împreună cu rezumatul
 - `PLAN.md`: planul complet, actualizat
 - `CONTINUT.md`: stream-uri, reel-uri, analiza Instagram
 - `STERGERE-CONTINUT.md`: ștergerea conținutului vechi și șablonul DMCA
+- `MUTARE.md`: mesajele pentru proprietar și donatori și planul mutării
 
 ## Conversația completă, cuvânt cu cuvânt
 Deschizi pe calculator, cu același cont Claude: https://claude.ai/code/session_01AYCYtwFQ1HqKG8gwud9c92
