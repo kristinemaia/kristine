@@ -1,6 +1,6 @@
 # Planul Kristinei
 
-_Actualizat: 11 octombrie 2026 · include tot ce am vorbit până acum_
+_Actualizat: 11 octombrie 2026 (v5) · include tot ce am vorbit până acum, inclusiv donațiile_
 
 > **Pe scurt:** un singur brand online, **Kristine Maia**, despre mobilitate în stil yoga, recuperare și mâncare sănătoasă pentru oamenii care stau mult jos. Terapia (**KM Wellness Concept**) rămâne planul tău de siguranță și cariera pe termen lung. Acum faci doar varianta minimă, fără să cheltui bani, până se liniștesc lucrurile.
 
@@ -59,10 +59,10 @@ Donațiile variază, deci le tratezi ca **bonus**, nu ca bază. Într-o lună bu
 | | **București** | **Turcia** |
 |---|---|---|
 | Apartamentul | îl păstrezi | renunți, pierzi garanția (~650 €) |
-| Primele luni | pe minus, cu reclamă și puncte de control | pe plus din prima lună |
+| Primele luni | aproape pe zero cu donații (pe minus fără ele), plus reclamă | pe plus din prima lună (+3.000–4.000 lei cu donații) |
 | Terapia | poate crește în 2–6 luni dacă stai acolo | în „săptămâni de terapie” |
 | Twitch și online | seara | activitatea principală |
-| Riscul | câteva mii de lei dacă terapia nu crește | pui cabinetul pe pauză |
+| Riscul | mic în lunile cu donații bune, mai mare în cele slabe | pui cabinetul pe pauză |
 
 **De știut:**
 - Garanția o pierzi oricum dacă pleci înainte de un an. Restul contractului (~10 luni) ar costa ~7.500–8.000 €.
@@ -86,6 +86,18 @@ Donațiile variază, deci le tratezi ca **bonus**, nu ca bază. Într-o lună bu
 - [ ] Nu răspunzi singură autorităților.
 - [ ] **Avocatul citește orice contract înainte să-l semnezi**, începând cu cel de la Twin.
 - [ ] O întrebi pe contabilă: casa de marcat, punctul de lucru, ședințele de până acum și veniturile din străinătate (Twitch, branduri).
+
+## 5b. Tu, nu doar planul
+- Ani de zile ai fost judecată pentru trecutul online. E firesc să vrei o meserie „serioasă”. **Terapia ți-o dă, iar online-ul ți-o poate da și el**, pentru că acum îl construiești pe ce ești azi: absolventă de sport, terapeută certificată, cu o comunitate pe care ai construit-o 5 ani.
+- **N-ai vrut niciodată să renunți la online**, decât când erai epuizată. Planul păstrează ambele lucruri pe care le iubești.
+- **Vânzarea = ajutor, nu cerere:**
+  - Rezolvi o problemă din chat, apoi spui că ai ceva întreg pentru asta.
+  - Întrebi comunitatea ce îi trebuie înainte să creezi un produs.
+  - **80% gratuit și util, 20% produs.**
+  - Lași uneltele să vândă: `!ebook`, `!coarda`, linkul din bio, panourile de pe Twitch.
+  - Vorbești despre produse pe care le folosești chiar tu (de aceea a mers reel-ul cu coarda).
+- **Odihna face parte din plan.** Dacă simți că ești epuizată, treci pe varianta minimă (secțiunea 8), nu renunți.
+- Dacă judecata din trecut încă te apasă, **un psiholog** te poate ajuta. Tu îi ajuți pe alții să se recupereze și meriți același lucru.
 
 ## 6. Brandul Kristine Maia
 
