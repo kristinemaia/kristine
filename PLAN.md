@@ -33,9 +33,11 @@ Fișiere însoțitoare: `CONTINUT.md` (stream-uri, reel-uri, Instagram) · `STER
 |---|---|
 | Chiriașul din apartamentul tău | 2.000 |
 | Twitch | 2.000–3.500 (în medie ~2.750) |
+| Donații (variabil) | ~2.500 (~500 €) |
 | Twin (doar ~3 luni) | ~2.000 |
-| Donații, afiliere, terapie | variabil |
-| **Stabil, fără Twin** | **~4.750** |
+| Afiliere, terapie | variabil |
+| **Fără Twin, fără donații** | **~4.750** |
+| **Fără Twin, cu donații** | **~7.250** |
 
 | Cheltuieli | Cu apartamentul | Fără apartament |
 |---|---|---|
@@ -45,7 +47,10 @@ Fișiere însoțitoare: `CONTINUT.md` (stream-uri, reel-uri, Instagram) · `STER
 | Alte cheltuieli | ~1.000 | ~1.000 |
 | Avocat + contabilă | ? | ? |
 | **Total** | **~6.750–8.000** | **~3.000–4.000** |
-| **Rămâne pe lună** | **–2.000 până la –3.250** | **+750 până la +1.750** |
+| **Rămâne (fără donații)** | **–2.000 până la –3.250** | **+750 până la +1.750** |
+| **Rămâne (cu donații ~2.500)** | **–750 până la +500** (aproape pe zero) | **+3.250 până la +4.250** |
+
+Donațiile variază, deci le tratezi ca **bonus**, nu ca bază. Într-o lună bună, surplusul merge în rezervă.
 
 **Banii de la Twin:** merg integral în rezervă, cu prioritate pentru avocat.
 
@@ -61,7 +66,7 @@ Fișiere însoțitoare: `CONTINUT.md` (stream-uri, reel-uri, Instagram) · `STER
 
 **De știut:**
 - Garanția o pierzi oricum dacă pleci înainte de un an. Restul contractului (~10 luni) ar costa ~7.500–8.000 €.
-- Cu Twitch și chiriașul, terapia trebuie să aducă doar ~**12 ședințe pe lună (~3 pe săptămână)** ca să acopere tot.
+- Cu Twitch și chiriașul, terapia trebuie să aducă ~**12 ședințe pe lună** ca să acopere tot (inclusiv reclama). **Într-o lună cu donații bune (~500 €), ajung ~3–4 ședințe pe lună.** Varianta București e mult mai puțin riscantă decât părea.
 - **Dacă alegi Bucureștiul:** întâi casa de marcat (și punctul de lucru, verificat cu contabila), apoi reclamă ~5 €/zi. Praguri: **5 clienți noi** în primele 4 săptămâni și **12 ședințe pe lună** după 3 luni. Dacă nu le atingi, treci pe varianta Turcia.
 - **Dacă alegi Turcia:** întrebi proprietarul dacă îți dă garanția înapoi dacă îi găsești tu un chiriaș nou. Le spui celor care au donat pentru spațiu ce se întâmplă cu el.
 
