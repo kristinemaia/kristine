@@ -80,6 +80,27 @@ Donațiile variază, deci le tratezi ca **bonus**, nu ca bază. Într-o lună bu
 - **Dry needling:** verifici ce acte îți trebuie ca să-l practici legal.
 - **Turcia:** fără viză maximum 90 de zile din 180. Pentru muncă plătită acolo îți trebuie permis de muncă.
 
+### Terapia fără apartament: modelul hibrid
+**1. Mergi tu la clienți (la domiciliu)**
+- Doar la clienți **cunoscuți sau recomandați**. Pentru unul nou: număr de telefon verificat, mesaje înainte și, ideal, avans plătit.
+- Îi trimiți cuiva de încredere adresa și ora fiecărei programări și dai un mesaj când pleci.
+- Masă pliantă + kit (ventuze, ace, ulei, prosoape). **Taxă de deplasare** de 50–100 lei, în funcție de distanță.
+- Grupezi programările pe zone și pe zile, ca să nu traversezi orașul pentru o singură ședință.
+
+**2. Pentru cei care vor să vină la tine: un partener**
+- Cabinet de kineto, salon, centru de yoga sau sală care are o cameră liberă.
+- Variante: **chirie pe oră** sau **procent din ședință** (20–30%), mai ales dacă îți trimit ei clienți.
+- Mesaj pentru parteneri:
+  > *Bună ziua! Sunt Cristiana Iorga, terapeut certificat în masaj de recuperare, drenaj limfatic, dry needling și ventuzoterapie (KM Wellness Concept). Caut un spațiu în care să lucrez câteva zile pe lună, cu chirie pe oră sau procent din ședință. Am deja clienți și pot aduce clienți noi și pentru dumneavoastră. Ați fi deschiși la o discuție?*
+
+**3. Online (în limita calificărilor, fără promisiuni medicale)**
+- Evaluare de mobilitate și postură pe video + plan personal (40–70 €).
+- Sesiuni ghidate de auto-masaj și ventuze acasă (clientul își cumpără kitul, eventual cu codul tău de afiliere).
+- Clase live de mobilitate și yoga în grupuri mici (6–8 oameni, 10–15 € de persoană).
+- Sesiuni ghidate de relaxare și respirație pentru stres.
+- Reiki la distanță: dacă îl oferi, separat de restul și fără promisiuni de vindecare.
+- Prin Must Coaching sau programări directe (Calendly + plată în avans).
+
 ## 5. Dosarul legal și contractele
 - [ ] Îi dai avocatului contractul din 2023, mesajele și plățile de la agenție.
 - [ ] Îl întrebi de istoricul contului făcut pe numele tău și dacă merită o plângere.
