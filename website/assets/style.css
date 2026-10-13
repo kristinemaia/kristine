@@ -1,14 +1,18 @@
 /* Layout: o coloană editorială de max 1120px; hero cu text la stânga și widgetul de pauză la dreapta, totul stivuit pe telefon */
 :root{
-  /* temă luminoasă, aerisită: lila foarte deschis, mentă, alb */
-  --bg:#FCFBFE; --surface:#FFFFFF; --ink:#211D2E; --muted:#625C75; --line:#ECE8F4;
-  --accent:#2DBE93; --accent-ink:#0B6B50; --accent-soft:#E3F7EF;
-  --plum:#F1ECFB; --plum-ink:#3B2A63; --plum-soft:#F4F0FC;
-  --btn-bg:#0E7C5D; --btn-fg:#FFFFFF;
+  /* temă „powder”: roz pudrat, albastru pudrat, mentă și lila, pe alb cald */
+  --bg:#FCF9FB; --surface:#FFFFFF; --ink:#2A2433; --muted:#6B6478; --line:#F0E7EF;
+  --pink:#F9E3EC; --pink-ink:#8C3B5E;
+  --blue:#E3EDF9; --blue-ink:#2F5A86;
+  --mint:#E0F4EB; --mint-ink:#1F6B52;
+  --lilac:#EEE7F9; --lilac-ink:#4E3D7A;
+  --accent:#E59BB9; --accent-ink:#8C3B5E; --accent-soft:#F9E3EC;
+  --plum:#E3EDF9; --plum-ink:#2F5A86; --plum-soft:#EEE7F9;
+  --btn-bg:#8C3B5E; --btn-fg:#FFFFFF;
   --display:"Unbounded",ui-sans-serif,system-ui,sans-serif;
   --body:"Onest",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
-  --radius:18px;
+  --radius:22px;
   color-scheme:light;
 }
 
@@ -163,3 +167,28 @@ p{margin:0}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 .path.two{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (max-width:860px){.path.two{grid-template-columns:1fr}}
+
+/* Powder: fiecare card în altă nuanță pudrată */
+.path .card{border-color:transparent}
+.path .card:nth-child(3n+1){background:var(--pink)}
+.path .card:nth-child(3n+2){background:var(--blue)}
+.path .card:nth-child(3n+3){background:var(--mint)}
+.path .card .tag,.path .card .tag.soon{background:#FFFFFF}
+.path .card:nth-child(3n+1) .tag{color:var(--pink-ink)}
+.path .card:nth-child(3n+2) .tag{color:var(--blue-ink)}
+.path .card:nth-child(3n+3) .tag{color:var(--mint-ink)}
+.path .card .btn.ghost{background:#FFFFFF;border-color:#FFFFFF}
+.proof{background:var(--lilac);border-color:transparent}
+.proof li{border-color:color-mix(in srgb,var(--lilac-ink) 14%,transparent)}
+.signup{background:var(--pink);border-color:transparent}
+.signup .form input[type=email]{background:#FFFFFF;border-color:#FFFFFF}
+.slot:nth-child(3n+1) .day{color:var(--pink-ink)}
+.slot:nth-child(3n+2) .day{color:var(--blue-ink)}
+.slot:nth-child(3n+3) .day{color:var(--mint-ink)}
+.photo{background:linear-gradient(160deg,var(--pink),var(--blue) 55%,var(--mint))}
+.stat:nth-child(3n+1){background:var(--pink);border-color:transparent}
+.stat:nth-child(3n+2){background:var(--blue);border-color:transparent}
+.stat:nth-child(3n+3){background:var(--mint);border-color:transparent}
+.moves li::before{background:var(--pink);color:var(--pink-ink)}
+.dose{color:var(--pink-ink)}
+.notice{background:var(--lilac)}
