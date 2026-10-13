@@ -3,88 +3,201 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Kristine Maia · Mobility & Recovery</title>
-<meta name="description" content="Mobility, recovery and good food for gamers, streamers and anyone who sits all day. Free 5-minute desk stretch.">
-<meta property="og:title" content="Kristine Maia · Mobility & Recovery">
-<meta property="og:description" content="Mobility, recovery and good food for gamers, streamers and anyone who sits all day. Free 5-minute desk stretch.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<title>Kristine Maia · Mobility &amp; Recovery</title>
+<meta name="description" content="How many hours did you sit today? Drag the slider, give one minute back with a 60-second stretch break, then get the free 5-minute desk stretch.">
+<meta property="og:title" content="Kristine Maia · Mobility &amp; Recovery">
+<meta property="og:description" content="How many hours did you sit today? Drag the slider, give one minute back with a 60-second stretch break, then get the free 5-minute desk stretch.">
+<meta name="theme-color" content="#FFF9F6">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a><header class="site-header"><nav class="nav container" aria-label="Main"><a class="brand" href="index.html">Kristine <span>Maia</span></a><button class="menu-btn" aria-expanded="false" aria-controls="nav-links">Menu</button><ul class="nav-links" id="nav-links"><li><a href="index.html" aria-current="page">Home</a></li><li><a href="free.html">Free routines</a></li><li><a href="shop.html">Shop</a></li><li><a href="live.html">Live</a></li><li><a href="about.html">About</a></li><li><a href="brands.html">For brands</a></li></ul></nav></header>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap top-in">
+  <a class="brand" href="index.html">Kristine <span>Maia</span></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+  <nav aria-label="Main"><ul class="nav" id="nav-links"><li><a href="index.html" aria-current="page">Home</a></li><li><a href="free.html">Free routines</a></li><li><a href="shop.html">Shop</a></li><li><a href="live.html">Live</a></li><li><a href="about.html">About</a></li><li><a href="brands.html">For brands</a></li></ul></nav>
+</div></header>
 <main id="main">
+<!-- 1. Contorul: câte ore ai stat azi? -->
+<section class="hero" aria-labelledby="q-title">
+  <div class="wrap hero-grid">
+    <div class="q">
+      <p class="kicker">A 60-second check-in</p>
+      <h1 id="q-title">How many hours did you <em>sit</em> today?</h1>
+      <p class="hint">Drag the slider. I'll be honest back.</p>
+    </div>
 
-<section class="hero container">
-  <div class="hero-copy">
-    <p class="eyebrow">Mobility · Recovery · Good food</p>
-    <h1>Unstiff after 8 hours in a chair.</h1>
-    <p class="lead">Short routines, simple food and honest recovery advice for gamers, streamers and anyone who sits all day. From a sports science graduate and certified recovery massage therapist who does it all live.</p>
-    <div class="cta-row"><a class="btn" href="free.html">Get the free 5-minute desk stretch</a><a class="btn ghost" href="https://www.twitch.tv/kristinemaia">Watch live on Twitch</a></div>
+    <div class="meter" id="meter" data-mode="count">
+      <div class="stage">
+        <svg class="fig" viewBox="0 0 240 190" aria-hidden="true" focusable="false" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <ellipse cx="124" cy="183" rx="114" ry="6" fill="#C6E6D6"/>
+          <path d="M150 104H234M224 104V180M213 104V94" stroke="#7E95B6" stroke-width="5"/>
+          <rect x="207" y="58" width="12" height="38" rx="3" fill="#fff" stroke="#7E95B6" stroke-width="4"/>
+          <rect x="160" y="97" width="32" height="5" rx="2.5" fill="#7E95B6"/>
+          <path d="M34 56L46 126M42 131H104M72 131V166M50 172H94" stroke="#8B7DB0" stroke-width="6"/>
+          <circle cx="52" cy="177" r="4" fill="#8B7DB0"/><circle cx="92" cy="177" r="4" fill="#8B7DB0"/>
+          <path id="f-legs" d="M62 124L124 126L124 174L140 174" stroke="#2B2431" stroke-width="9"/>
+          <path id="f-spine" d="M62 124Q56 94 62 62" stroke="#2B2431" stroke-width="10"/>
+          <path id="f-arm" d="M62 62L86 100L168 98" stroke="#2B2431" stroke-width="8"/>
+          <path id="f-neck" d="M62 62L68 36" stroke="#2B2431" stroke-width="8"/>
+          <g id="f-head" transform="translate(68 36)">
+            <circle r="16" fill="#2B2431"/>
+            <path d="M-14 -3Q-1 -36 15 -6" stroke="#A23D66" stroke-width="4.5"/>
+            <ellipse cx="-4" cy="2" rx="6" ry="8.5" fill="#E59BB9" stroke="#A23D66" stroke-width="3"/>
+          </g>
+        </svg>
+        <div class="readout">
+          <div class="m-count"><p class="big"><span id="h-out">8</span><small>h</small></p><p class="sub" id="m-out">480 min in a chair</p></div>
+          <div class="m-break"><p class="big" id="clock">0:15</p><p class="sub" id="step">Move 1 of 4</p></div>
+          <div class="m-done"><p class="big">+1<small>min</small></p><p class="sub">back to you</p></div>
+        </div>
+      </div>
+
+      <div class="m-count">
+        <label class="sr" for="hrs">Hours sitting today</label>
+        <input type="range" id="hrs" class="nudge" min="0" max="16" step="1" value="8" aria-valuetext="8 hours">
+        <div class="ticks" aria-hidden="true"><span>0</span><span>4</span><span>8</span><span>12</span><span>16+</span></div>
+      </div>
+      <p class="chat m-count"><span class="who">kristinemaia</span><span class="say" id="verdict">A full workday. Your hips have been folded at 90° for 480 minutes. Let's open them.</span></p>
+      <p class="plan m-count" id="plan">Your minute: <b>Seated figure-4 · Chin tucks · Shoulder blade squeeze · Wrist stretch</b></p>
+      <button class="btn m-count" id="go" type="button">Give 1 minute back</button>
+
+      <div class="segs m-break" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <p class="move m-break" id="move">Seated figure-4</p>
+      <p class="cue m-break" id="cue">Ankle on the opposite knee, sit tall, hinge forward slightly from the hips. Switch sides halfway.</p>
+      <div class="row m-break"><button class="btn" id="pause" type="button">Pause</button><button class="link-btn" id="stop" type="button">Stop</button></div>
+
+      <p class="chat m-done" id="done-chat" tabindex="-1"><span class="who">kristinemaia</span><span class="say" id="done-line">Notice anything? That's 1 of 480 minutes back.</span></p>
+      <p class="m-done">Tomorrow, try the 5-minute version. It's free.</p>
+      <a class="btn m-done" href="#free" id="to-free">Get the free desk stretch</a>
+      <p class="next m-done"><a href="#assessment">Want moves picked for how you sit? Assessment, €55</a></p>
+      <p class="spots m-done"><span>Which spot complained most?</span><a href="free.html#neck">Neck</a><a href="free.html#wrists">Wrists</a><a href="free.html#hips">Hips</a></p>
+      <p class="m-done"><button class="link-btn" id="again" type="button">Do it again</button></p>
+
+      <p class="note">Gentle range only, stop if anything hurts. Not medical advice.</p>
+      <p class="sr" id="say" aria-live="polite"></p>
+    </div>
+
+    <div class="intro">
+      <p>I'm <strong>Kristine</strong>, a sports science graduate and certified recovery massage therapist. On my Twitch game nights we stop for a 2-minute stretch every hour. Your turn.</p>
+      <p class="small"><a href="#free">Or skip to the free 5-minute desk stretch</a></p>
+    </div>
   </div>
-  <aside class="breaker" id="breaker" aria-label="60-second stretch break">
-    <div class="breaker-top"><span>Stretch break</span><span>60 s</span></div>
-    <div class="dial"><div class="dial-inner"><div><div class="dial-time">0:15</div><div class="dial-step">Move 1 of 4</div></div></div></div>
-    <p class="move-name" aria-live="polite">Chin tucks</p>
-    <p class="move-cue">Slide your chin straight back, like making a double chin. Slow, 5 times.</p>
-    <div class="cta-row"><button class="btn small" data-start>Start 60 seconds</button><button class="btn small ghost" data-reset>Reset</button></div>
-    <p class="breaker-note">The same break we take every hour on stream. Gentle range only, no pain.</p>
-  </aside>
 </section>
 
-<section class="proof" aria-label="At a glance"><div class="container"><ul>
-  <li><strong>72K</strong><span>followers on Twitch</span></li>
-  <li><strong>Partner</strong><span>on Twitch, 5 years live</span></li>
-  <li><strong>12.7K</strong><span>on Instagram</span></li>
-  <li><strong>BSc</strong><span>Physical Education &amp; Sport</span></li>
-  <li><strong>Certified</strong><span>recovery massage therapist</span></li>
-</ul></div></section>
-
-<section class="section"><div class="container">
-  <div class="section-head"><p class="eyebrow">Start here</p><h2>Three steps, from free to fully guided</h2><p class="muted">Start with five minutes. Go further when you want more structure.</p></div>
-  <div class="path">
-    <article class="card"><span class="step">Step 1</span><span class="tag">Free</span><h3>5-minute desk stretch</h3><p class="muted">Neck, shoulders, wrists and hips, all from your chair. One page, printable.</p><div class="actions"><a class="btn small" href="free.html">Get it free</a></div></article>
-    <article class="card"><span class="step">Step 2</span><span class="tag soon">New edition soon</span><h3>Stream Day Kitchen</h3><p class="muted">Quick recipes for long days at the desk, the hand-portion method (no scale needed) and a 7-day meal plan.</p><div class="actions"><a class="btn small ghost" href="shop.html#kitchen">See the e-book</a></div></article>
-    <article class="card"><span class="step">Step 3</span><span class="tag soon">Waitlist</span><h3>Desk &amp; Gamer Mobility: 30 days</h3><p class="muted">Ten minutes a day for 30 days. Follow-along videos for the places that hurt after long sessions.</p><div class="actions"><a class="btn small ghost" href="shop.html#program">Join the waitlist</a></div></article>
+<!-- PDF-ul gratuit: 5-minute desk stretch -->
+<section class="free" id="free" aria-labelledby="free-title">
+  <div class="wrap free-grid">
+    <p class="five" aria-hidden="true">5:00</p>
+    <div class="free-copy">
+      <p class="chat-line"><span class="who">kristinemaia</span> Want the longer one on paper?</p>
+      <h2 id="free-title">Now make it <em>five</em> minutes.</h2>
+      <p>The free 5-minute desk stretch. All four spots on one printable page: neck, shoulders, wrists and hips, from your chair.</p>
+      <!-- TODO: înlocuiește formularul cu codul de embed din MailerLite sau Kit (vezi README) -->
+      <form class="form" data-placeholder>
+        <label for="email">Your email</label>
+        <div class="form-row"><input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email"><button class="btn" type="submit">Send me the stretch</button></div>
+        <p class="fine">No spam. Unsubscribe in one click. The list also hears first about the e-book, the 30-day program at the early price and small-group class dates.</p>
+        <p class="form-msg" aria-live="polite"></p>
+      </form>
+    </div>
   </div>
-</div></section>
+</section>
 
-<section class="section" style="padding-top:0"><div class="container">
-  <div class="section-head"><p class="eyebrow">Live on Twitch</p><h2>Every week, same rhythm</h2></div>
-  <div class="schedule">
-    <div class="slot"><span class="day">Monday</span><div><h3>Move Monday</h3><p>A live mobility session for neck, back, wrists and hips. Follow along from your chair or the floor.</p></div><a class="btn small ghost" href="https://www.twitch.tv/kristinemaia">Follow</a></div>
-    <div class="slot"><span class="day">Wednesday</span><div><h3>Cook with me</h3><p>Quick, healthy meals for long days, cooked live with chat.</p></div><a class="btn small ghost" href="https://www.twitch.tv/kristinemaia">Follow</a></div>
-    <div class="slot"><span class="day">Friday</span><div><h3>Game night</h3><p>Relaxed gaming with a 2-minute stretch break at the top of every hour.</p></div><a class="btn small ghost" href="https://www.twitch.tv/kristinemaia">Follow</a></div>
+<!-- 3. Când un minut nu e destul: evaluarea + ce urmează -->
+<section class="more" aria-labelledby="more-title">
+  <div class="wrap">
+    <div class="block-head">
+      <p class="kicker">When a minute isn't enough</p>
+      <h2 id="more-title">Want a plan made for how you sit?</h2>
+    </div>
+    <div class="more-grid">
+      <article class="offer" id="assessment">
+        <h3>Video mobility assessment</h3>
+        <p class="price">€55<small>30-minute video call</small></p>
+        <p>We look at how you sit, move and train. You get a written plan with 3–5 moves.</p>
+        <p class="fine">Education and load management. Not a diagnosis or treatment.</p>
+        <a class="btn" href="#TODO-link-programare-si-plata">Book the assessment</a>
+      </article>
+      <div class="soon">
+        <p class="kicker">Coming soon · join the waitlist</p>
+        <div class="item">
+          <div class="item-top"><h3>Stream Day Kitchen</h3><i></i><span class="p">€12</span></div>
+          <p>E-book, new edition soon. 20 quick recipes sorted by situation (before a long session, at the desk in 10 minutes, after the stream), the hand-portion method to eat well without a scale, a shopping list and a 7-day meal plan.</p>
+          <a href="#free">Tell me when it's out</a>
+        </div>
+        <div class="item">
+          <div class="item-top"><h3>Desk &amp; Gamer Mobility: 30 days</h3><i></i><span class="p">€39</span></div>
+          <p>10 minutes a day. Follow-along videos for neck, upper back, wrists, hips and lower back. €29 for the email list.</p>
+          <a href="#free">Join the waitlist</a>
+        </div>
+        <p class="all"><a href="shop.html">See everything in the shop</a> <span class="small muted">(sub sessions, small-group classes, discount codes)</span></p>
+      </div>
+    </div>
   </div>
-  <p class="small muted" style="margin-top:12px">Exact times are on my <a href="https://www.twitch.tv/kristinemaia/schedule">Twitch schedule</a>.</p>
-</div></section>
+</section>
 
-<section class="section" style="padding-top:0"><div class="container split">
-  <div class="photo"><!-- TODO: pune o poză cu tine: <img src="assets/kristine.jpg" alt="Kristine Maia"> -->Your photo here<br>assets/kristine.jpg</div>
-  <div class="prose">
-    <p class="eyebrow">Hi, I'm Kristine</p>
-    <h2>I sit for a living too</h2>
-    <p class="muted">I've streamed for five years, and I trained in sport and recovery before that. My community kept telling me the same thing: their neck hurts, their wrists ache, they eat whatever is closest. So that's what we work on, together, a few minutes at a time.</p>
-    <p><a href="about.html">More about me →</a></p>
+<!-- 4. Cine sunt + săptămâna pe Twitch -->
+<section class="me" aria-labelledby="me-title">
+  <div class="wrap me-grid">
+    <div class="bio">
+      <div class="hi">
+        <!-- TODO: pune o poză cu tine în locul literelor KM: <span class="mono"><img src="assets/kristine.jpg" alt="Kristine Maia"></span> -->
+        <span class="mono" aria-hidden="true">KM</span>
+        <p class="kicker">Who's counting</p>
+      </div>
+      <h2 id="me-title">Hi, I'm Kristine. I sit for a living too.</h2>
+      <p>Twitch Partner, 72K followers, 5 years live. My chat kept telling me about stiff necks, sore wrists and whatever food was closest. So we work on it together, a few minutes at a time.</p>
+      <ul class="creds">
+        <li>Sports science graduate <span>(degree in Physical Education and Sport)</span></li>
+        <li>Certified recovery massage therapist <span>(recovery &amp; sports massage, lymphatic drainage)</span></li>
+        <li>Mobility &amp; recovery coach</li>
+      </ul>
+      <p class="small muted">Jimmy, my dog, lives with my parents and makes the occasional guest appearance.</p>
+      <p><a class="tl" href="about.html">More about me</a></p>
+    </div>
+
+    <div class="week">
+      <p class="kicker">Every week on Twitch</p>
+      <h3>See you Monday.</h3>
+
+      <ul class="days">
+        <li data-day="1"><span class="dw dw-mint">Mon</span><p><b>Move Monday</b><span class="desc">A live mobility session. Follow along from your chair.</span></p></li>
+        <li data-day="3"><span class="dw dw-pink">Wed</span><p><b>Cook with me</b><span class="desc">Quick healthy meals for long days.</span></p></li>
+        <li data-day="5"><span class="dw dw-blue">Fri</span><p><b>Game night</b><span class="desc">With a 2-minute stretch break every hour. My signature.</span></p></li>
+        <li><span class="dw dw-lilac some">Sun</span><p><b>Chill Sunday</b><span class="desc">Some weeks: painting or recovery.</span></p></li>
+      </ul>
+      <p class="perk">Subs get a monthly live 30-minute mobility session, with recordings in Discord.</p>
+      <p class="small muted">Exact times are on my <a href="https://www.twitch.tv/kristinemaia/schedule">Twitch schedule</a>.</p>
+      <a class="btn" href="https://www.twitch.tv/kristinemaia">Follow on Twitch</a>
+    </div>
   </div>
-</div></section>
-
-<section class="section" id="newsletter"><div class="container"><div class="signup">
-  <div class="prose">
-    <p class="eyebrow">Free, in your inbox</p>
-    <h2>The 5-minute desk stretch</h2>
-    <p class="muted">A one-page routine you can do in your chair between meetings or matches. You also get new routines and first access to the 30-day program at the early price.</p>
-  </div>
-  <!-- TODO: înlocuiește formularul cu codul de embed din MailerLite sau Kit (vezi README) -->
-  <form class="form" data-placeholder>
-    <label for="email-home">Your email</label>
-    <div class="form-row"><input type="email" id="email-home" name="email" placeholder="you@example.com" required autocomplete="email"><button class="btn" type="submit">Send me the stretch</button></div>
-    <p class="small muted">No spam. Unsubscribe in one click.</p>
-    <p class="form-msg" aria-live="polite"></p>
-  </form>
-</div></div></section>
-
+</section>
 </main>
-<footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="index.html">Kristine <span>Maia</span></a><p class="muted small" style="margin-top:10px;max-width:36ch">Mobility, recovery and good food for people who sit all day.</p></div><div><h3>Start</h3><ul><li><a href="free.html">Free desk stretch</a></li><li><a href="shop.html">Shop</a></li><li><a href="live.html">Live schedule</a></li></ul></div><div><h3>Follow</h3><ul><li><a href="https://www.twitch.tv/kristinemaia">Twitch</a></li><li><a href="https://www.instagram.com/kristinemaia11/">Instagram</a></li><li><a href="https://linktr.ee/kristinemaia">All links</a></li></ul></div><div><h3>More</h3><ul><li><a href="about.html">About</a></li><li><a href="brands.html">For brands</a></li><li><a href="terapie.html" lang="ro">Terapie în București</a></li><li><a href="legal.html">Legal &amp; privacy</a></li></ul></div></div><div class="legal-line"><span>&copy; <span id="year">2026</span> Kristine Maia</span><span>Not medical advice. If you have pain or an injury, see a doctor or physiotherapist.</span></div></div></footer>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><a class="brand" href="index.html">Kristine <span>Maia</span></a><p>Mobility, recovery and good food for people who sit all day.</p></div>
+      <div><h2>Explore</h2><ul>
+        <li><a href="free.html">Free routines</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="live.html">Live</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="brands.html">For brands</a></li>
+        <li><a href="terapie.html" lang="ro" hreflang="ro">Terapie · KM Wellness</a></li>
+        <li><a href="legal.html">Legal &amp; privacy</a></li>
+      </ul></div>
+      <div><h2>Follow</h2><ul>
+        <li><a href="https://www.twitch.tv/kristinemaia">Twitch</a></li>
+        <li><a href="https://www.instagram.com/kristinemaia11/">Instagram</a></li>
+        <li><a href="https://linktr.ee/kristinemaia">All links</a></li>
+      </ul></div>
+    </div>
+    <div class="legal"><span>&copy; <span id="year">2026</span> Kristine Maia</span><span>Not medical advice. If something hurts, check with a doctor.</span></div>
+  </div>
+</footer>
 <script src="assets/site.js"></script>
 </body>
 </html>

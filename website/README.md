@@ -5,26 +5,37 @@ Site static (HTML + CSS + puțin JavaScript), fără abonamente lunare și făr�
 ## Paginile
 | Fișier | Ce e |
 |---|---|
-| `index.html` | Prima pagină: promisiunea, pauza de stretching de 60 s, cei 3 pași, programul de stream, despre tine, formularul de email |
+| `index.html` | Prima pagină: contorul „How many hours did you sit today?” (sliderul, omulețul care se cocoșează, pauza de 60 s), banda roz cu PDF-ul gratuit („5:00”), evaluarea video și ce urmează (e-book, programul de 30 de zile), despre tine + programul de pe Twitch |
 | `free.html` | 3 rutine gratuite (gât, încheieturi, șolduri) + formularul pentru PDF |
-| `shop.html` | Evaluarea video (€55), sesiunea pentru abonați, clasele mici (€12), e-book-ul (€12), programul de 30 de zile (waitlist), codurile de reducere |
+| `shop.html` | Evaluarea video (€55), sesiunea pentru abonați, clasele mici (€12), e-book-ul (€12), programul de 30 de zile (waitlist), codurile de reducere, întrebări |
 | `live.html` | Programul de pe Twitch, avantajul pentru abonați, regulile de chat |
-| `about.html` | Povestea ta și ce ești / ce nu ești |
+| `about.html` | Povestea ta, ce ești, Jimmy |
 | `brands.html` | Pagina pentru branduri (cifre, formate, contact) |
 | `terapie.html` | KM Wellness Concept, în română (prețuri, unde, cum rezervi) |
 | `legal.html` | Disclaimer, confidențialitate, cumpărături (de verificat cu avocatul) |
 
+Fișierele comune:
+- `assets/style.css`: tot designul (culorile „powder” sunt sus, în `:root`).
+- `assets/site.js`: meniul pe telefon, formularele, eticheta „Today / Next up” din program și contorul de pe prima pagină.
+- `build_site.py`: generează toate paginile cu același header și footer.
+
 ## Ce trebuie completat (caută „TODO” în fișiere)
-1. **Pozele:** pune `assets/kristine.jpg` și `assets/kristine-about.jpg` și înlocuiește căsuța „Your photo here” cu `<img src="assets/kristine.jpg" alt="Kristine Maia">`.
-2. **Formularul de email:** fă cont gratuit pe **MailerLite** (sau Kit), creează un formular cu PDF-ul „5-minute desk stretch” ca automatizare de bun venit, copiază codul de embed și pune-l în locul formularului marcat cu TODO (apare pe mai multe pagini).
-3. **Evaluarea video:** fă un link de programare cu plată (Calendly + Stripe, sau Payhip ca „serviciu”) și pune-l în `build_site.py` la `BOOK_ASSESSMENT`.
-4. **Codurile de reducere:** linkurile și codurile pentru coardă și Revu Natural, în `shop.html`.
-5. **E-book-ul și programul:** când sunt gata pe Payhip, schimbi butoanele „Tell me when it's out” / „Join the waitlist” cu linkul Payhip.
+1. **Pozele:** pune `assets/kristine.jpg` și `assets/kristine-about.jpg`. Pe prima pagină și pe pagina About, literele „KM” țin locul pozei; comentariul TODO de lângă ele îți arată exact ce scrii în loc.
+2. **Formularul de email:** fă cont gratuit pe **MailerLite** (sau Kit), creează un formular cu PDF-ul „5-minute desk stretch” ca automatizare de bun venit, copiază codul de embed și pune-l în locul formularului marcat cu TODO (apare pe index, free, shop și about). Până atunci, formularul afișează doar un mesaj de mulțumire.
+3. **Evaluarea video:** fă un link de programare cu plată (Calendly + Stripe, sau Payhip ca „serviciu”) și pune-l în `build_site.py` la `"BOOK"`.
+4. **Codurile de reducere:** linkurile de afiliere pentru Dope Rope, Revu Natural și Bewit, în `build_site.py` (secțiunea SHOP, `#TODO-link-...`).
+5. **E-book-ul și programul:** acum butoanele „Tell me when it's out” / „Join the waitlist” duc la formularul de email. Când sunt gata pe Payhip, pui linkul Payhip în locul lui `#free`.
 6. **Pagina legală:** datele firmei și politica de retur, verificate de avocat.
 
+## Contorul de pe prima pagină
+- Ce „răspunzi” pentru fiecare număr de ore și cele 4 exerciții ale pauzei sunt în `assets/site.js`, la **BANDS** și **MOVES**. Poți schimba textele fără să atingi restul.
+- **Link care pornește de la un anumit număr de ore:** `kristinemaia.com/#10h` (sau `#h10`) deschide pagina cu sliderul pus pe 10 ore. Bun pentru Instagram sau un panou pe Twitch: „I sat 10 hours today, try it”.
+- Eticheta „Today / Next up” apare doar la Move Monday, Cook with me și Game night, niciodată la Chill Sunday (e doar în unele săptămâni).
+
 ## Cum modifici textele
-- Cel mai simplu: deschizi fișierul `.html` în **Visual Studio Code** și schimbi textul direct.
-- Header-ul și footer-ul sunt la fel pe toate paginile. Dacă vrei să schimbi ceva în ele peste tot, modifici `build_site.py` și rulezi `python3 build_site.py` (regenerează toate paginile).
+- Cel mai sigur: modifici textul în `build_site.py` și rulezi `python3 build_site.py` (regenerează toate paginile). În texte poți scrie `{TWITCH}`, `{INSTA}`, `{EMAIL}`, `{BOOK}` etc.; se înlocuiesc singure cu linkurile din `LINKS`.
+- Poți schimba și direct în fișierele `.html` cu **Visual Studio Code**, dar dacă rulezi din nou `build_site.py`, schimbările din `.html` se pierd.
+- Header-ul și footer-ul sunt la fel pe toate paginile și se schimbă doar din `build_site.py`.
 
 ## Cum îl pui online (gratuit)
 **Varianta cea mai simplă: Netlify Drop**
