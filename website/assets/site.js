@@ -15,7 +15,8 @@
     var setMenu = function (open) {
       nav.classList.toggle('open', open);
       menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      menuBtn.textContent = open ? 'Close' : 'Menu';
+      var ro = document.documentElement.lang === 'ro';
+      menuBtn.textContent = open ? (ro ? 'Închide' : 'Close') : (ro ? 'Meniu' : 'Menu');
     };
     menuBtn.addEventListener('click', function () { setMenu(!nav.classList.contains('open')); });
     document.addEventListener('keydown', function (e) {
@@ -76,7 +77,7 @@
     { to: 2,  say: 'A light day. Keep it that way: one minute for your neck and shoulders.', moves: ['rolls', 'chin', 'wrist', 'twist'] },
     { to: 5,  say: '{m} minutes in. Around now, heads drift toward screens. Neck first.', moves: ['chin', 'rolls', 'wrist', 'twist'] },
     { to: 8,  say: "A full workday. Your hips have been folded at 90° for {m} minutes. Let's open them.", moves: ['fig4', 'chin', 'blades', 'wrist'] },
-    { to: 11, say: "On my Friday stream that's {h} stretch breaks by now. Hips and back, catch up.", moves: ['fig4', 'twist', 'blades', 'chin'] },
+    { to: 11, say: "If this were my Friday stream, chat would have stood up {h} times by now. Hips and back, catch up.", moves: ['fig4', 'twist', 'blades', 'chin'] },
     { to: 16, say: '{m} minutes. Marathon mode. Upper back and hips, then stand up. Chat will survive.', moves: ['blades', 'twist', 'fig4', 'chin'] }
   ];
 
@@ -95,7 +96,7 @@
 
   // Omulețul de pe scaun: t = 0 stă drept, t = 1 e cocoșat spre ecran
   var fig = { legs: $('#f-legs'), spine: $('#f-spine'), arm: $('#f-arm'), neck: $('#f-neck'), head: $('#f-head') };
-  var cur = 0;
+  var cur = 0, tweenId = 0;
   function L(a, b, t) { return Math.round((a + (b - a) * t) * 10) / 10; }
   function pose(t) {
     cur = t;
@@ -112,8 +113,9 @@
   }
   function tween(to) {
     if (RM) { pose(to); return; }
-    var from = cur, t0 = null;
+    var from = cur, t0 = null, id = ++tweenId;
     requestAnimationFrame(function f(ts) {
+      if (id !== tweenId) return;
       t0 = t0 || ts;
       var k = Math.min(1, (ts - t0) / 700);
       k = 1 - Math.pow(1 - k, 3);
@@ -133,6 +135,7 @@
     plan.innerHTML = 'Your minute: <b>' + band.moves.map(function (k) { return MOVES[k][0]; }).join(' · ') + '</b>';
     range.style.setProperty('--fill', (hours / 16 * 100) + '%');
     range.setAttribute('aria-valuetext', (hours === 16 ? '16 or more hours' : hours + (hours === 1 ? ' hour' : ' hours')));
+    tweenId++;
     pose(slouch());
   }
   range.addEventListener('input', function () { update(); announce(verdict.textContent, 900); });

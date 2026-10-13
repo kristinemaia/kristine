@@ -52,56 +52,75 @@ def fill(html):
     return html
 
 
+NAV_RO = [
+    ("index.html", "Acasă"),
+    ("free.html", "Rutine gratuite"),
+    ("shop.html", "Magazin"),
+    ("live.html", "Live"),
+    ("about.html", "Despre"),
+    ("brands.html", "Pentru branduri"),
+]
+
+
 def header(cur, lang):
+    ro = lang == "ro"
+    nav = NAV_RO if ro else NAV
     items = "".join(
-        '<li><a href="%s"%s>%s</a></li>' % (href, ' aria-current="page"' if href == cur else "", text)
-        for href, text in NAV
+        '<li><a href="%s"%s%s>%s</a></li>' % (href, ' aria-current="page"' if href == cur else "",
+                                               ' hreflang="en"' if ro else "", text)
+        for href, text in nav
     )
-    skip = "Sari la conținut" if lang == "ro" else "Skip to content"
-    nav_lang = ' lang="en"' if lang != "en" else ""
     return (
-        '<a class="skip" href="#main">%s</a>\n'
+        '<a class="skip" href="#main">' + ("Sari la conținut" if ro else "Skip to content") + '</a>\n'
         '<header class="top"><div class="wrap top-in">\n'
         '  <a class="brand" href="index.html">Kristine <span>Maia</span></a>\n'
-        '  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links"%s>Menu</button>\n'
-        '  <nav aria-label="Main"%s><ul class="nav" id="nav-links">%s</ul></nav>\n'
-        "</div></header>" % (skip, nav_lang, nav_lang, items)
+        '  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">' + ("Meniu" if ro else "Menu") + '</button>\n'
+        '  <nav aria-label="' + ("Principal" if ro else "Main") + '"><ul class="nav" id="nav-links">' + items + '</ul></nav>\n'
+        "</div></header>"
     )
+
+
+# Textele din footer. Poți scrie liniștită și semnul % în ele.
+FOOT = {
+    "en": {"tag": "Mobility, recovery and good food for people who sit all day.", "explore": "Explore",
+           "follow": "Follow", "all": "All links", "legal": "Legal &amp; privacy",
+           "free": "Free routines", "shop": "Shop", "about": "About", "brands": "For brands",
+           "note": "Not medical advice. If something hurts, check with a doctor."},
+    "ro": {"tag": "Mobilitate, recuperare și mâncare bună pentru cei care stau toată ziua pe scaun.", "explore": "Explorează",
+           "follow": "Urmărește", "all": "Toate linkurile", "legal": "Legal și confidențialitate",
+           "free": "Rutine gratuite", "shop": "Magazin", "about": "Despre", "brands": "Pentru branduri",
+           "note": "Conținutul nu înlocuiește un consult medical."},
+}
 
 
 def footer(lang):
-    if lang == "ro":
-        note = "Conținutul nu înlocuiește un consult medical."
-    else:
-        note = "Not medical advice. If something hurts, check with a doctor."
+    t = FOOT["ro" if lang == "ro" else "en"]
     html = """
-<footer class="foot"%(lang_attr)s>
+<footer class="foot">
   <div class="wrap">
     <div class="foot-grid">
-      <div><a class="brand" href="index.html">Kristine <span>Maia</span></a><p>Mobility, recovery and good food for people who sit all day.</p></div>
-      <div><h2>Explore</h2><ul>
-        <li><a href="free.html">Free routines</a></li>
-        <li><a href="shop.html">Shop</a></li>
+      <div><a class="brand" href="index.html">Kristine <span>Maia</span></a><p>{tag}</p></div>
+      <div><h2>{explore}</h2><ul>
+        <li><a href="free.html">{free}</a></li>
+        <li><a href="shop.html">{shop}</a></li>
         <li><a href="live.html">Live</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="brands.html">For brands</a></li>
+        <li><a href="about.html">{about}</a></li>
+        <li><a href="brands.html">{brands}</a></li>
         <li><a href="terapie.html" lang="ro" hreflang="ro">Terapie · KM Wellness</a></li>
-        <li><a href="legal.html">Legal &amp; privacy</a></li>
+        <li><a href="legal.html">{legal}</a></li>
       </ul></div>
-      <div><h2>Follow</h2><ul>
+      <div><h2>{follow}</h2><ul>
         <li><a href="{TWITCH}">Twitch</a></li>
         <li><a href="{INSTA}">Instagram</a></li>
-        <li><a href="{LINKTREE}">All links</a></li>
+        <li><a href="{LINKTREE}">{all}</a></li>
       </ul></div>
     </div>
-    <div class="legal"><span>&copy; <span id="year">2026</span> Kristine Maia</span><span%(note_lang)s>%(note)s</span></div>
+    <div class="legal"><span>&copy; <span id="year">2026</span> Kristine Maia</span><span>{note}</span></div>
   </div>
 </footer>"""
-    return html % {
-        "lang_attr": ' lang="en"' if lang != "en" else "",
-        "note_lang": ' lang="ro"' if lang == "ro" else "",
-        "note": note,
-    }
+    for key, value in t.items():
+        html = html.replace("{" + key + "}", value)
+    return html
 
 
 def page(fname, title, desc, body, lang="en", cur=None):
@@ -134,27 +153,31 @@ def page(fname, title, desc, body, lang="en", cur=None):
 # Banda roz cu PDF-ul gratuit (apare pe mai multe pagini).
 # Câmpul de email are id="email" (butonul din contor pune cursorul acolo).
 # ---------------------------------------------------------------------
-def free_band(title="Start with five minutes.", extra=""):
-    return """
+def free_band(title="Start with five minutes.", extra="", chat="Five minutes, one printable page."):
+    # chat = replica mică de deasupra titlului; pune chat="" ca să nu apară. Poți scrie și %.
+    html = """
 <!-- PDF-ul gratuit: 5-minute desk stretch -->
 <section class="free" id="free" aria-labelledby="free-title">
   <div class="wrap free-grid">
     <p class="five" aria-hidden="true">5:00</p>
     <div class="free-copy">
-      <p class="chat-line"><span class="who">kristinemaia</span> Want the longer one on paper?</p>
-      <h2 id="free-title">%(title)s</h2>
+      {chat_line}
+      <h2 id="free-title">{title}</h2>
       <p>The free 5-minute desk stretch. All four spots on one printable page: neck, shoulders, wrists and hips, from your chair.</p>
       <!-- TODO: înlocuiește formularul cu codul de embed din MailerLite sau Kit (vezi README) -->
       <form class="form" data-placeholder>
         <label for="email">Your email</label>
         <div class="form-row"><input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email"><button class="btn" type="submit">Send me the stretch</button></div>
-        <p class="fine">No spam. Unsubscribe in one click.%(extra)s</p>
+        <p class="fine">No spam. Unsubscribe in one click.{extra}</p>
         <p class="form-msg" aria-live="polite"></p>
       </form>
     </div>
   </div>
 </section>
-""" % {"title": title, "extra": (" " + extra) if extra else ""}
+"""
+    chat_line = '<p class="chat-line"><span class="who">kristinemaia</span> ' + chat + '</p>' if chat else ''
+    return (html.replace("{chat_line}", chat_line).replace("{title}", title)
+                .replace("{extra}", (" " + extra) if extra else ""))
 
 
 LIST_PERKS = "The list also hears first about the e-book, the 30-day program at the early price and small-group class dates."
@@ -242,7 +265,7 @@ home = """
     </div>
   </div>
 </section>
-""" + free_band("Now make it <em>five</em> minutes.", LIST_PERKS) + """
+""" + free_band("Now make it <em>five</em> minutes.", LIST_PERKS, chat="Want the longer one on paper?") + """
 <!-- 3. Când un minut nu e destul: evaluarea + ce urmează -->
 <section class="more" aria-labelledby="more-title">
   <div class="wrap">
@@ -259,18 +282,9 @@ home = """
         <a class="btn" href="{BOOK}">Book the assessment</a>
       </article>
       <div class="soon">
-        <p class="kicker">Coming soon · join the waitlist</p>
-        <div class="item">
-          <div class="item-top"><h3>Stream Day Kitchen</h3><i></i><span class="p">€12</span></div>
-          <p>E-book, new edition soon. 20 quick recipes sorted by situation (before a long session, at the desk in 10 minutes, after the stream), the hand-portion method to eat well without a scale, a shopping list and a 7-day meal plan.</p>
-          <a href="#free">Tell me when it's out</a>
-        </div>
-        <div class="item">
-          <div class="item-top"><h3>Desk &amp; Gamer Mobility: 30 days</h3><i></i><span class="p">€39</span></div>
-          <p>10 minutes a day. Follow-along videos for neck, upper back, wrists, hips and lower back. €29 for the email list.</p>
-          <a href="#free">Join the waitlist</a>
-        </div>
-        <p class="all"><a href="shop.html">See everything in the shop</a> <span class="small muted">(sub sessions, small-group classes, discount codes)</span></p>
+        <p class="kicker">Coming soon</p>
+        <p>The Stream Day Kitchen e-book (new edition) and the 30-day Desk &amp; Gamer Mobility program. People on the email list hear first and get the early price.</p>
+        <p class="all"><a href="#free">Join the list</a> · <a href="shop.html">See the shop</a></p>
       </div>
     </div>
   </div>
@@ -298,7 +312,7 @@ home = """
 
     <div class="week">
       <p class="kicker">Every week on Twitch</p>
-      <h3>See you Monday.</h3>
+      <h3>Your week on Twitch.</h3>
 """ + WEEK_HOME + """
       <p class="perk">Subs get a monthly live 30-minute mobility session, with recordings in Discord.</p>
       <p class="small muted">Exact times are on my <a href="{TWITCH}/schedule">Twitch schedule</a>.</p>
@@ -354,7 +368,7 @@ free = """
   </article>
   <p class="notice">Not medical advice. These are general mobility exercises. If you have pain, an injury or a medical condition, check with a doctor first.</p>
 </section>
-""" + free_band("Want it all on <em>one</em> page?", LIST_PERKS)
+""" + free_band("Want it all on <em>one</em> page?", LIST_PERKS, chat="")
 page(
     "free.html",
     "Free Desk Stretch Routines · Kristine Maia",
@@ -462,7 +476,7 @@ live = """
 </section>
 
 <section class="wrap pb-m" aria-labelledby="week-title">
-  <h2 id="week-title">See you Monday.</h2>
+  <h2 id="week-title">Your week on Twitch.</h2>
   <ul class="days lg mt-s">
     <li data-day="1"><span class="dw dw-mint">Mon</span><p><b>Move Monday</b><span class="desc">20–60 minutes of mobility inside the stream. Bring a chair, a wall or a mat.</span></p></li>
     <li data-day="3"><span class="dw dw-pink">Wed</span><p><b>Cook with me</b><span class="desc">Recipes from Stream Day Kitchen, made live. Ask anything in chat.</span></p></li>
@@ -554,9 +568,9 @@ brands = """
   <div class="stats">
     <div class="stat"><strong>72K</strong><span>Twitch followers · Partner</span></div>
     <div class="stat"><strong>125–230</strong><span>average live viewers per month (last 12 months)</span></div>
-    <div class="stat"><strong>12.7K</strong><span>Instagram followers · 142K views in 30 days</span></div>
+    <div class="stat"><strong>12.7K</strong><span>Instagram followers (@kristinemaia11)</span></div>
     <div class="stat"><strong>5 years</strong><span>streaming, 3–4 streams a week</span></div>
-    <div class="stat"><strong>18–60</strong><span>international, English-speaking audience</span></div>
+    <div class="stat"><strong>142K</strong><span>Instagram views in the last 30 days</span></div>
     <div class="stat"><strong>12.6K</strong><span>views on my jump-rope affiliate reel</span></div>
   </div>
 </section>
@@ -602,7 +616,7 @@ terapie = """
   <div class="panel p-lilac narrow">
     <span class="tag">Pachet</span>
     <h2>4 ședințe pe zonă, plătite în avans</h2>
-    <p>Valabil 12 luni, ca să le programezi când sunt în București. Include o evaluare video gratuită a mobilității.</p>
+    <p>Valabil 12 luni de la plată, le programezi când îți convine. Include o evaluare video gratuită a mobilității.</p>
   </div>
   <div class="cols mt-m">
     <div><p class="kicker">Unde</p><h2>La tine acasă sau la o locație parteneră</h2><p class="muted">Vin cu masa și tot ce trebuie. Taxa de deplasare este de 50–100 lei, în funcție de zonă.</p></div>
@@ -638,7 +652,7 @@ legal = """
     <h2>Not medical advice</h2>
     <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I am a sports science graduate and certified recovery massage therapist, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
     <h2>Privacy</h2>
-    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. To ask about, correct or delete your data, email {EMAIL}.</p>
+    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>
     <p class="muted">Digital products are delivered by email right after payment. [TODO: politica de retur, verificată de avocat: de exemplu, dreptul de retragere pentru conținut digital și momentul în care se pierde]. Online assessments can be rescheduled up to 24 hours before the call.</p>
     <h2>Affiliate links</h2>

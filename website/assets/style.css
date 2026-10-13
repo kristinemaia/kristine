@@ -377,3 +377,17 @@ input[type=range]:focus-visible{outline:3px solid var(--ink);outline-offset:2px;
   html{scroll-behavior:auto}
   *,*::before,*::after{transition:none!important;animation:none!important}
 }
+
+/* --- Corecturi după verificare --- */
+/* Cifrele de sub slider stau exact sub pozițiile lor */
+.ticks{position:relative;display:block;height:1.4em;padding:0}
+.ticks span{position:absolute;top:0;transform:translateX(-50%)}
+.ticks span:nth-child(1){left:17px}
+.ticks span:nth-child(2){left:calc(17px + (100% - 34px)*.25)}
+.ticks span:nth-child(3){left:calc(17px + (100% - 34px)*.5)}
+.ticks span:nth-child(4){left:calc(17px + (100% - 34px)*.75)}
+.ticks span:nth-child(5){left:calc(100% - 17px)}
+/* Pe laptop, butonul „Give 1 minute back” rămâne în primul ecran */
+@media (min-width:881px){.stage{max-width:min(440px,45vh)}.hero{padding-top:0}.q{padding-top:24px}}
+/* Pe telefon, locul pentru poză de pe About e mai mic */
+@media (max-width:880px){.portrait{max-width:160px;aspect-ratio:1;border-radius:50%;font-size:56px}}
