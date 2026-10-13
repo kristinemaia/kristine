@@ -1,22 +1,16 @@
 /* Layout: o coloană editorială de max 1120px; hero cu text la stânga și widgetul de pauză la dreapta, totul stivuit pe telefon */
 :root{
-  --bg:#F6F5FA; --surface:#FFFFFF; --ink:#1C1828; --muted:#5E5873; --line:#E3E0EC;
-  --accent:#12936F; --accent-ink:#0B5E47; --accent-soft:#DDF4EC;
-  --plum:#3B2A63; --plum-soft:#ECE7F7;
+  /* temă luminoasă, aerisită: lila foarte deschis, mentă, alb */
+  --bg:#FCFBFE; --surface:#FFFFFF; --ink:#211D2E; --muted:#625C75; --line:#ECE8F4;
+  --accent:#2DBE93; --accent-ink:#0B6B50; --accent-soft:#E3F7EF;
+  --plum:#F1ECFB; --plum-ink:#3B2A63; --plum-soft:#F4F0FC;
   --btn-bg:#0E7C5D; --btn-fg:#FFFFFF;
   --display:"Unbounded",ui-sans-serif,system-ui,sans-serif;
   --body:"Onest",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   --radius:18px;
+  color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#121019; --surface:#1B1825; --ink:#EEEBF5; --muted:#A39DB6; --line:#2C2838;
-  --accent:#3DD6A6; --accent-ink:#8AF0CF; --accent-soft:#163A30;
-  --plum:#C7B6F2; --plum-soft:#2A2240; --btn-bg:#3DD6A6; --btn-fg:#0E201A; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#121019; --surface:#1B1825; --ink:#EEEBF5; --muted:#A39DB6; --line:#2C2838;
-  --accent:#3DD6A6; --accent-ink:#8AF0CF; --accent-soft:#163A30;
-  --plum:#C7B6F2; --plum-soft:#2A2240; --btn-bg:#3DD6A6; --btn-fg:#0E201A; color-scheme:dark}
 
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -70,18 +64,16 @@ p{margin:0}
 @media (max-width:900px){.hero{grid-template-columns:1fr;padding-block:40px}}
 
 /* Stretch break widget */
-.breaker{background:var(--plum);color:#F5F2FF;border-radius:28px;padding:26px;display:grid;gap:18px;min-width:0}
-:root[data-theme="dark"] .breaker{color:#16121F}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .breaker{color:#16121F}}
+.breaker{background:var(--plum);color:var(--plum-ink);border:1px solid var(--line);border-radius:28px;padding:26px;display:grid;gap:18px;min-width:0}
 .breaker-top{display:flex;justify-content:space-between;align-items:center;gap:12px;font-family:var(--mono);font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.85}
 .dial{--p:0;width:min(220px,62vw);aspect-ratio:1;max-width:100%;margin:0 auto;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--accent) calc(var(--p)*1turn),color-mix(in srgb,currentColor 18%,transparent) 0)}
-.dial-inner{width:84%;aspect-ratio:1;border-radius:50%;background:var(--plum);display:grid;place-items:center;text-align:center}
+.dial-inner{width:84%;aspect-ratio:1;border-radius:50%;background:var(--surface);display:grid;place-items:center;text-align:center}
 .dial-time{font-family:var(--mono);font-size:44px;font-weight:500;font-variant-numeric:tabular-nums;line-height:1}
 .dial-step{font-size:13px;opacity:.8;margin-top:6px;font-family:var(--mono)}
 .move-name{font-family:var(--display);font-size:20px;font-weight:600;text-align:center}
 .move-cue{text-align:center;opacity:.9;font-size:16px;min-height:3.2em}
 .breaker .cta-row{justify-content:center}
-.breaker .btn{background:var(--accent);border-color:var(--accent);color:#0E201A}
+.breaker .btn{background:var(--btn-bg);border-color:var(--btn-bg);color:var(--btn-fg)}
 .breaker .btn.ghost{background:transparent;color:inherit;border-color:color-mix(in srgb,currentColor 35%,transparent)}
 .breaker-note{text-align:center;font-size:12px;opacity:.75}
 
@@ -102,7 +94,7 @@ p{margin:0}
 .card .price{font-family:var(--display);font-size:22px;font-weight:600}
 .card .actions{margin-top:6px}
 .tag{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding:3px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent-ink);justify-self:start}
-.tag.soon{background:var(--plum-soft);color:var(--plum)}
+.tag.soon{background:var(--plum);color:var(--plum-ink)}
 .card ul{margin:0;padding-left:20px;color:var(--muted);font-size:16px}
 
 /* Schedule */
@@ -153,7 +145,7 @@ p{margin:0}
 .faq details p{margin-top:10px;color:var(--muted)}
 
 /* Notice */
-.notice{background:var(--plum-soft);color:var(--ink);border-radius:14px;padding:16px 20px;font-size:15px}
+.notice{background:var(--plum);color:var(--ink);border-radius:14px;padding:16px 20px;font-size:15px}
 
 /* Page head */
 .page-head{padding-block:56px 24px;display:grid;gap:16px}

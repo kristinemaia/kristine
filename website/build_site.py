@@ -107,7 +107,7 @@ home = """
   <div class="section-head"><p class="eyebrow">Start here</p><h2>Three steps, from free to fully guided</h2><p class="muted">Start with five minutes. Go further when you want more structure.</p></div>
   <div class="path">
     <article class="card"><span class="step">Step 1</span><span class="tag">Free</span><h3>5-minute desk stretch</h3><p class="muted">Neck, shoulders, wrists and hips, all from your chair. One page, printable.</p><div class="actions"><a class="btn small" href="free.html">Get it free</a></div></article>
-    <article class="card"><span class="step">Step 2</span><span class="tag soon">2026 edition soon</span><h3>Stream Day Kitchen</h3><p class="muted">Quick recipes for long days at the desk, the hand-portion method (no scale needed) and a 7-day meal plan.</p><div class="actions"><a class="btn small ghost" href="shop.html#kitchen">See the e-book</a></div></article>
+    <article class="card"><span class="step">Step 2</span><span class="tag soon">New edition soon</span><h3>Stream Day Kitchen</h3><p class="muted">Quick recipes for long days at the desk, the hand-portion method (no scale needed) and a 7-day meal plan.</p><div class="actions"><a class="btn small ghost" href="shop.html#kitchen">See the e-book</a></div></article>
     <article class="card"><span class="step">Step 3</span><span class="tag soon">Waitlist</span><h3>Desk &amp; Gamer Mobility: 30 days</h3><p class="muted">Ten minutes a day for 30 days. Follow-along videos for the places that hurt after long sessions.</p><div class="actions"><a class="btn small ghost" href="shop.html#program">Join the waitlist</a></div></article>
   </div>
 </div></section>
@@ -214,10 +214,11 @@ shop = """
   </div>
 
   <div id="gear">
-    <div class="section-head"><p class="eyebrow">Gear I actually use</p><h2>Discount codes</h2><p class="small muted">Affiliate links: I may earn a small commission at no extra cost to you. I only list things I use on stream.</p></div>
-    <div class="path two">
-      <article class="card"><h3>Jump rope</h3><p class="muted">My 5-minute warm-up before every gym session.</p><p class="dose">Code: [TODO-COD]</p><div class="actions"><a class="btn small ghost" href="#TODO-link-coarda">Shop the rope</a></div></article>
-      <article class="card"><h3>Revu Natural</h3><p class="muted">Recovery creams I use after long streams and training.</p><p class="dose">Code: [TODO-COD]</p><div class="actions"><a class="btn small ghost" href="#TODO-link-revu">Shop Revu Natural</a></div></article>
+    <div class="section-head"><p class="eyebrow">Gear I actually use</p><h2>Discount codes</h2><p class="small muted">Affiliate links: I may earn a small commission at no extra cost to you. I only list things I use myself.</p></div>
+    <div class="path">
+      <article class="card"><span class="tag">10%% off</span><h3>Dope Rope</h3><p class="muted">The jump rope I use for my 5-minute warm-up before every gym session.</p><p class="dose">Code: KRISTINEMAIA</p><div class="actions"><a class="btn small ghost" href="#TODO-link-dope-rope">Shop Dope Rope</a></div></article>
+      <article class="card"><span class="tag">20%% off</span><h3>Revu Natural</h3><p class="muted">Recovery creams I use after long streams and training.</p><p class="dose">Code: KRISTINE20</p><div class="actions"><a class="btn small ghost" href="#TODO-link-revu-natural">Shop Revu Natural</a></div></article>
+      <article class="card"><span class="tag">15%% off</span><h3>Bewit</h3><p class="muted">Natural products that are part of my daily routine.</p><p class="dose">Code: KRISTINE15</p><div class="actions"><a class="btn small ghost" href="#TODO-link-bewit">Shop Bewit</a></div></article>
     </div>
   </div>
 
@@ -304,7 +305,7 @@ brands = """
     <div class="prose"><p class="eyebrow">Good fits</p><h2>What I promote</h2><ul class="muted"><li>Ergonomics: desks, chairs, mice and keyboards</li><li>Recovery tools: massage guns, rollers, creams</li><li>Nutrition: quick meals, protein, healthy snacks</li><li>Sportswear, yoga mats and training gear</li></ul><p class="small muted">I say no to anything that doesn't fit a health-focused audience.</p></div>
     <div class="prose"><p class="eyebrow">Formats</p><h2>How we can work together</h2><ul class="muted"><li>Sponsored segment inside Move Monday or Cook with me</li><li>Dedicated sponsored stream</li><li>Instagram reels package (2–4 reels)</li><li>Discount code for my community, tracked</li><li>Longer-term ambassador or advisory role</li></ul><p class="small muted">All sponsored content is clearly labelled.</p></div>
   </div>
-  <div class="prose"><p class="eyebrow">Current partners</p><p class="muted">Revu Natural (recovery creams) and a jump rope brand, both through affiliate partnerships.</p></div>
+  <div class="prose"><p class="eyebrow">Current partners</p><p class="muted">Dope Rope (jump ropes), Revu Natural (recovery creams) and Bewit (natural products), all with tracked discount codes for my community.</p></div>
 </div></section>
 """ % {"email": EMAIL}
 page("brands.html", "Partnerships · Kristine Maia",
