@@ -9,7 +9,7 @@ Site static (HTML + CSS + puțin JavaScript), fără abonamente lunare și făr�
 | `free.html` | 3 rutine gratuite (gât, încheieturi, șolduri) + formularul pentru PDF |
 | `shop.html` | Evaluarea video (€55), sesiunea pentru abonați, clasele mici (€12), e-book-ul (€12), programul de 30 de zile (waitlist), codurile de reducere, întrebări |
 | `live.html` | Programul de pe Twitch, avantajul pentru abonați, regulile de chat |
-| `about.html` | Povestea ta, ce ești, Jimmy |
+| `about.html` | Povestea ta și ce ești |
 | `brands.html` | Pagina pentru branduri (cifre, formate, contact) |
 | `terapie.html` | KM Wellness Concept, în română (prețuri, unde, cum rezervi) |
 | `legal.html` | Disclaimer, confidențialitate, cumpărături (de verificat cu avocatul) |

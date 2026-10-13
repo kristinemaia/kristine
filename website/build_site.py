@@ -306,7 +306,6 @@ home = """
         <li>Certified recovery massage therapist <span>(recovery &amp; sports massage, lymphatic drainage)</span></li>
         <li>Mobility &amp; recovery coach</li>
       </ul>
-      <p class="small muted">Jimmy, my dog, lives with my parents and makes the occasional guest appearance.</p>
       <p><a class="tl" href="about.html">More about me</a></p>
     </div>
 
@@ -539,7 +538,6 @@ about = """
         <li>Mobility &amp; recovery coach</li>
       </ul>
       <p class="muted">I'm not a medical professional, and nothing here is medical advice, a diagnosis or a treatment.</p>
-      <p class="muted">Jimmy, my dog, lives with my parents and makes the occasional guest appearance.</p>
       <div class="actions"><a class="btn" href="free.html">Try the free routines</a><a class="tl" href="{TWITCH}">Watch live on Twitch</a></div>
     </div>
   </div>
