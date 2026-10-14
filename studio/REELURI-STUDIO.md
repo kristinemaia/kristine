@@ -170,23 +170,23 @@ Aici e partea de „good food” din promisiune. **Ziua D, 10:00–13:30:** găt
 #### K4 Salmon & broccoli after a long stream · 30 s
 - Pe ecran: `After a long stream: salmon & broccoli in [X] minutes.` (X = timpul din pagina rețetei)
 - Cadre: somonul la gătit · broccoli · farfuria.
-- E-book: **pagina 33 are titlul greșit** („Tofu with mixed green salad”, deși rețeta e somon cu broccoli). Corectezi titlul înainte să arăți pagina. Dacă rețeta cu tofu nu există nicăieri în carte, o poți adăuga ca rețetă nouă.
+- E-book: **pagina 33 are titlul greșit** („Tofu with mixed green salad”, deși rețeta e somon cu broccoli). Titlul devine **SALMON WITH GARLIC BROCCOLI** (vezi `EBOOK-V2-TEXTS.md`). Îl corectezi înainte să arăți pagina.
 
 #### K5 White fish with rice & veggies · 30 s
 - Pe ecran: `Dinner after the stream: white fish, rice, veggies.`
-- E-book: **paginile 24 și 25 sunt două rețete aproape identice.** Păstrezi una, iar pe cealaltă o înlocuiești cu o rețetă nouă (de exemplu supa de linte roșie din K10). Filmezi o singură versiune.
+- E-book: **paginile 24 și 25 sunt două rețete aproape identice.** Pagina 24 rămâne (e rețeta pe care o filmezi), iar pagina 25 devine **Tuna and white bean bowl**, fără gătit, 10 minute (textul e gata în `EBOOK-V2-TEXTS.md`). Filmezi o singură versiune.
 
 #### K6 ★ Portions without a scale · 40 s
 - Pe ecran: `No scale needed: your hand is the measure.`
 - Cadre: mâna ta lângă farfurie: palma la proteine, pumnul la legume și carbohidrați, degetul mare la grăsimi (dacă capitolul din carte le definește altfel, urmezi cartea).
 - Voce: „Your palm is a portion of protein. Your fist is a portion of veggies or carbs. Your thumb is a portion of fat. A rough guide, not a rule, and no scale needed.”
-- E-book: capitolul cu mâna (pagina 5) are titlul greșit („Brief overview of the ebook's content”) și text de schiță. **Rescrii pagina înainte s-o arăți** și verifici cifrele din graficul de macronutrienți.
+- E-book: capitolul cu mâna (pagina 5) are titlul greșit („Brief overview of the ebook's content”) și text de schiță. **Rescrii pagina înainte s-o arăți**, cu textul din `EBOOK-V2-TEXTS.md` (titlul nou: MEASURING FOOD WITH YOUR HANDS), și verifici cifrele din graficul de macronutrienți.
 
 #### K7 3 swaps that keep you full · 35 s
 - Pe ecran: `3 swaps that keep you full.`
 - Cadre: trei perechi pe blat, câte 8–10 s pe pereche, cu graficul din carte în colț. Cele mai ușor de arătat sunt lapte, pâine, lactate; alegi cele trei cu cele mai clare diferențe din tabelele tale.
 - Voce: „Swap one thing, keep the plate. [Swap one], [swap two], [swap three]. Small change, same meal.”
-- E-book: tabelele de la paginile 6 și 8 și graficele următoare. **Verifici fiecare cifră pe ambalaj înainte s-o arăți.** Erori găsite la citirea cărții: „Feta 207 carbs”, „34g kCal” (pagina cu fructe), „Valnuts”; pagina 6 are „Solmon, Beons, Posto, Peos, Kole” (verifici în Canva dacă e fontul sau sunt greșeli); pagina 8 are titlul greșit („Ratios for macronutrients”) și text de schiță.
+- E-book: tabelele de la paginile 6 și 8 și graficele următoare. **Verifici fiecare cifră pe ambalaj înainte s-o arăți.** Erori găsite la citirea cărții: „Feta · 207 CARBS” (pagina 11; 207 e aproape sigur kcal), „Valnuts” (pagina 12), „34g kCal” (pagina 13, devine „34 kcal”); pagina 6 are „Solmon, Beons, Posto, Peos, Kole” (verifici în Canva dacă e fontul sau sunt greșeli); pagina 8 are titlul greșit („Ratios for macronutrients”) și text de schiță, înlocuite cu textul din `EBOOK-V2-TEXTS.md` (LOW-CALORIE FOODS: SWAP, DON'T STARVE).
 - Cuvinte: „swap”, „keeps you full”. Nu „low-calorie”, „cut calories”, „diet”.
 
 #### K8 Stream-day snacks: what I put on the desk · 25 s
@@ -201,7 +201,7 @@ Aici e partea de „good food” din promisiune. **Ziua D, 10:00–13:30:** găt
 - Nu e în carte: devine **lista de cumpărături de o pagină** din versiunea 2 (și poate un al doilea PDF gratuit).
 
 #### K10 Serie: Test kitchen · 5 reel-uri × 20–25 s
-- Cele 5 rețete noi pentru carte: **Greek-yogurt protein bowl · tuna-chickpea desk salad · egg-veg muffins · hummus snack plate · red lentil soup.** Toate merg într-o bucătărie vegetarian-pescetariană (ton și ouă, fără carne).
+- Cele 5 rețete noi pentru carte: **Greek-yogurt protein bowl · tuna-chickpea desk salad · egg-veg muffins · hummus snack plate · red lentil soup.** Toate merg într-o bucătărie vegetarian-pescetariană (ton și ouă, fără carne). Pentru versiunea 2 de acum ajunge una: **Tuna and white bean bowl** (pagina 25, scrisă deja în `EBOOK-V2-TEXTS.md`), care ține locul lui „tuna-chickpea desk salad”. Celelalte patru sunt pentru o versiune ulterioară.
 - Pe ecran: `New recipe for the e-book: [name].` Voce ca la K1.
 - Le filmezi când le testezi, nu neapărat în ziua D. Caloriile le calculezi dintr-o bază de date (USDA FoodData Central sau Cronometer) și le scrii „approx.”.
 
@@ -212,24 +212,25 @@ Aici e partea de „good food” din promisiune. **Ziua D, 10:00–13:30:** găt
 | K1 pancakes | mic dejun | verifici cifrele pe care le arăți | gata |
 | K2 oats | mic dejun | idem | gata |
 | K3 omletă | mic dejun / „eggs and mushrooms” | idem | gata |
-| K4 somon | pagina 33 | titlul: „Tofu with mixed green salad” → „Salmon & broccoli” | repară întâi |
-| K5 pește alb | paginile 24 și 25 | păstrezi una, înlocuiești cealaltă | repară întâi |
-| K6 metoda mâinii | pagina 5 + graficul de macronutrienți | rescrii pagina (titlu și text de schiță), verifici cifrele | repară întâi |
-| K7 swaps | paginile 6, 8 + graficele | titlul și textul de schiță de la pagina 8; „Feta 207 carbs”, „34g kCal”, „Valnuts”; pagina 6 de verificat | repară întâi |
+| K4 somon | pagina 33 | titlul: „Tofu with mixed green salad” → „SALMON WITH GARLIC BROCCOLI” | textul e gata, de pus în Canva |
+| K5 pește alb | paginile 24 și 25 | pagina 24 rămâne; pagina 25 devine „Tuna and white bean bowl” | textul e gata, de pus în Canva |
+| K6 metoda mâinii | pagina 5 + graficul de macronutrienți | pagina 5 se înlocuiește cu textul gata; verifici cifrele din grafic | textul e gata, de pus în Canva |
+| K7 swaps | paginile 6, 8 + graficele | pagina 8 se înlocuiește cu textul gata; „Feta · 207 CARBS” (p. 11), „Valnuts” (p. 12), „34g kCal” (p. 13); pagina 6 de verificat | textul e gata, de pus în Canva |
 | K8 gustări | — | — | nou în v2 |
 | K9 12 lucruri | — | — | nou în v2 |
 | K10 cele 5 rețete | — | — | nou în v2 |
-| (fără reel) postul intermitent | pagina 15 și capitolul despre post | rescrii pagina, adaugi „Not medical advice…”, corectezi „INTERMITENT” | nu faci reel |
+| (fără reel) postul intermitent | pagina 15 și capitolul despre post | pagina 15 se înlocuiește cu textul gata (cu „Not medical advice…” și titlul „INTERMITTENT”) | nu faci reel; textul e gata |
 
-**Versiunea 2 a cărții, pe scurt** (aceeași listă din analiza e-book-ului, acum legată de reel-uri):
-1. Rescrii paginile 5, 8 și 15 (text de schiță) și corectezi titlurile de la paginile 5, 8 și 33.
-2. Pagina 24 sau 25: o rețetă rămâne, cealaltă devine o rețetă nouă.
-3. Corectezi erorile de mai sus.
-4. Linia de credențiale (sports science graduate, certified recovery massage therapist) și, la începutul capitolului despre post: „Not medical advice; if you have a medical condition, are pregnant or take medication, talk to your doctor before fasting or changing your diet.”
-5. Copertă nouă: tu gătind, mâncarea în față, **fără cântar și fără panglică de măsurat**, titlu care se citește la 200 × 300 px.
-6. Rearanjat pe situații: înainte de o sesiune lungă · la birou în 10 minute · după stream · deserturi în 5 minute. Metoda mâinii devine „no scale at your desk”, iar tabelele devin „swaps that keep you full”.
-7. Pagini noi: lista de cumpărături (K9), planul de 7 zile (K8), cele 5 rețete (K10) și o pagină bonus cu PDF-ul de 5 minute.
-8. Fișierul sub 15 MB (acum are 92,9 MB) și câmpul „autor” al PDF-ului pus pe Kristine Maia.
+**Versiunea 2 a cărții, pe scurt.** Textele sunt scrise pagină cu pagină în `EBOOK-V2-TEXTS.md` (de lipit în Canva), iar în tracker au o categorie a lor, „E-book v2”:
+1. Înlocuiești paginile 3 (al doilea paragraf, cu linia de credențiale), 5, 8 și 15 cu textele gata.
+2. Corectezi paginile 11 (Feta), 12 (Walnuts), 13 (unitățile) și 33 (titlul) și verifici pagina 6.
+3. Pagina 24 rămâne, iar pagina 25 devine „Tuna and white bean bowl”.
+4. Pagina 14 (graficul cu alcool) e opțională: o păstrezi sau o înlocuiești cu lista de cumpărături.
+5. Două pagini noi: lista de cumpărături („What's always in my kitchen”, din K9) și bonusul cu PDF-ul de 5 minute. Cuprinsul (pagina 2) îl actualizezi la final.
+6. Export din Canva: PDF Standard (nu Print), „Flatten PDF” și „Compress”, sub 10 MB pentru Kindle și sub 15 MB pentru Payhip (acum are 92,9 MB). Autorul, din File → Settings: Kristine Maia.
+7. Copertă nouă: tu gătind, mâncarea în față, **fără cântar și fără panglică de măsurat**, titlu care se citește la 200 × 300 px (brief-ul e un pas separat în tracker).
+
+**Mai târziu (versiunea 2.1, opțional):** rearanjat pe situații (înainte de o sesiune lungă · la birou în 10 minute · după stream · deserturi în 5 minute), planul de 7 zile (K8) și celelalte patru rețete din K10.
 
 În notele mele apar 15 rețete, dar 5 + 7 + 5 ar fi 17. Când îmi trimiți cuprinsul, le numărăm și trec numele exacte și paginile în tabelul de mai sus.
 
@@ -319,4 +320,4 @@ Ca să-ți spun exact unde pui camera în fiecare spațiu, trimite-mi **2–3 po
 - **Fără:** ferestre cu priveliște, acte sau corespondență, oameni, adresa sau numărul de pe ușă.
 - Dacă o fereastră intră în cadru, spune-mi unde e și vedem cum o acoperi.
 
-Mai am nevoie de la tine de **cuprinsul e-book-ului** (titlurile exacte ale rețetelor și paginile), ca să completez tabelul din secțiunea 5.3.
+Cuprinsul pe secțiuni (pagina 2 din versiunea 2) e în `EBOOK-V2-TEXTS.md`. Dacă vrei ca tabelul din secțiunea 5.3 să aibă și titlurile exacte ale rețetelor, cu paginile lor, trimite-mi lista.

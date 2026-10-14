@@ -56,6 +56,9 @@ GROUPS = [
             {"kind": "doc", "slug": "reeluri-studio", "title": "Reel-uri din studio",
              "src": "studio/REELURI-STUDIO.md",
              "desc": "Ce filmezi în living, bucătărie și la birou, și ce repari în e-book înainte să-l arăți."},
+            {"kind": "doc", "slug": "ebook-v2", "title": "E-book v2: textele de pus în Canva",
+             "src": "studio/EBOOK-V2-TEXTS.md",
+             "desc": "Textele noi, pagină cu pagină, corecturile și setările de export. Din discuția cu Claude de pe desktop."},
         ],
     },
     {
