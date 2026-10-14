@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
-Generează 5-minute-desk-stretch.html (A4, o pagină) pentru PDF-ul gratuit.
+Generează 5-minute-desk-stretch.html (A4, 3 pagini) pentru PDF-ul gratuit.
+
+Pagina 1 = afișul de 5 minute (se poate printa separat).
+Pagina 2 = cum faci bine fiecare mișcare.
+Pagina 3 = cum îl faci obicei: versiuni scurte, momente, fișă de 7 zile, ce urmează.
 
 - Textul din PDF e în secțiunea ROWS de mai jos. Îl poți edita direct.
 - Imaginile: dacă pui o poză pătrată în folderul `photos/` cu unul din numele
@@ -71,6 +75,109 @@ FOOT_RIGHT = (
     "<b>Not medical advice.</b> This is general mobility. If you have pain, an injury or a medical "
     "condition, check with a doctor first, and stop if anything feels sharp."
 )
+
+# ---------------------------------------------------------------------
+# Pagina 2: cum faci bine fiecare mișcare (în aceeași ordine ca în ROWS)
+# fiecare tuplu: (cum o faci, ce simți, varianta mai blândă)
+# ---------------------------------------------------------------------
+P2_KICKER = "Page 2 · The details"
+P2_TITLE = "Do each move well"
+P2_SUB = "Slow and gentle beats big and fast."
+P2_BADGE = ("9", "moves explained")
+P2_INTRO = (
+    "Page 1 is the routine. This page shows how to do each move well."
+)
+DETAIL = {
+    "neck": [
+        ("Sit tall. Slide your chin straight back, as if making a double chin. Keep your head level. Hold 2 seconds, then release.",
+         "A light stretch at the back of your neck.",
+         "Fewer reps and a smaller glide."),
+        ("Hold the seat with your right hand. Let your left ear drift toward your left shoulder. Then switch sides.",
+         "A stretch along the side of the neck that is holding the chair.",
+         "Tilt less. Let the weight of your head do the work, no pulling."),
+    ],
+    "shoulders": [
+        ("Lift your shoulders toward your ears, roll them back, then let them melt down. Big, slow circles, backwards only.",
+         "Your shoulders loosening up with each circle.",
+         "Smaller circles."),
+        ("Pull your shoulder blades back and down, as if tucking them into your back pockets. Hold 3 seconds. Keep your neck long.",
+         "The work between your shoulder blades, not in your neck.",
+         "Hold for 1 to 2 seconds."),
+    ],
+    "wrists": [
+        ("Arm straight, palm up. With your other hand, gently pull the fingers back toward the floor.",
+         "A stretch along the inside of your forearm. No pain, no tingling.",
+         "Bend the elbow a little and pull less."),
+        ("Arm straight, palm down. Gently press the back of the hand toward you, fingers pointing down.",
+         "A stretch along the top of your forearm.",
+         "Bend the elbow and press less."),
+        ("Straight hand, hook fist, full fist, flat fist, straight again. One shape at a time, like playing the keyboard in slow motion.",
+         "Smooth, easy movement. Never forced.",
+         "One hand at a time, slower."),
+    ],
+    "hips": [
+        ("Cross one ankle over the opposite knee and flex your foot. Sit tall, then hinge forward from the hips until you feel it.",
+         "A stretch in the outer hip and glute.",
+         "Stay upright. A small lean is enough."),
+        ("Hold the chair back with one hand and your opposite knee with the other. Turn gently, starting from your upper back.",
+         "A mild turn through your upper and mid back. Keep breathing.",
+         "Turn less and keep your breathing easy."),
+    ],
+}
+P2_RULES_TITLE = "Three rules for every move"
+P2_RULES = [
+    ("Breathe slowly.", "Let the breath out as you go a little deeper."),
+    ("Stop before it hurts.", "A comfortable pull is right. Sharp pain is a stop sign."),
+    ("Both sides, same effort.", "Keep your shoulders relaxed and your jaw soft."),
+]
+
+# ---------------------------------------------------------------------
+# Pagina 3: cum îl faci obicei
+# ---------------------------------------------------------------------
+P3_KICKER = "Page 3 · Make it stick"
+P3_TITLE = "Make it a habit"
+P3_SUB = "Short and often is easier to keep than long and rare."
+P3_BADGE = ("7", "day check-in")
+P3_SHORT = [
+    {"tone": "pink", "title": "The 1-minute reset", "time": "1:00",
+     "moves": ["Chin tucks, 4 slow reps", "Shoulder rolls, 4 backwards", "Palm-up stretch, 8 s each hand", "Seated twist, 8 s each side"],
+     "note": "For the gap between two matches."},
+    {"tone": "blue", "title": "The 2-minute version", "time": "2:00",
+     "moves": ["Chin tucks, 6 slow reps", "Side neck stretch, 10 s each side", "Shoulder rolls, 6 backwards",
+               "Palm-up and palm-down stretch, 10 s each hand", "Seated figure-4, 10 s each side"],
+     "note": "For the top of the hour."},
+]
+P3_WHEN_TITLE = "When to do it"
+P3_WHEN_SUB = "Pick one trigger and keep it for a week."
+P3_WHEN = [
+    "After every match, queue or meeting",
+    "At the top of each hour, with a repeating timer",
+    "Before you start a stream or a work block",
+    "Any time your neck or hands feel stuck",
+]
+P3_CHECK_TITLE = "Your 7-day check-in"
+P3_DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+P3_CHECK_ROWS = ["5-minute routine", "1-minute reset"]
+P3_RATE_TITLE = "How tight does it feel? 0 is not at all, 10 is very tight."
+P3_RATE_ROWS = ["Neck &amp; shoulders", "Wrists", "Hips &amp; back"]
+P3_NOTES_TITLE = "What I noticed"
+P3_RATE_NOTE = "Write your numbers on day 1 and day 7. On day 1 of my 30-day program you rate them again."
+P3_NEXT_TITLE = "What's next"
+P3_NEXT = (
+    "I'm filming a 30-day Desk &amp; Gamer Mobility program: 10 minutes a day, mostly from your chair. "
+    "You're on the list, so you'll hear first when it's ready. "
+    "Tell me which spot feels worst by replying to my email. It shapes what I make next."
+    "<br><b>linktr.ee/kristinemaia</b> · twitch.tv/kristinemaia · @kristinemaia11"
+)
+P3_STOP_TITLE = "Stop signs"
+P3_STOP = (
+    "Stop if you feel sharp pain, numbness, tingling or dizziness. If it does not settle, check with a doctor. "
+    "<b>Not medical advice.</b> This is general mobility. If you have pain, an injury or a medical condition, "
+    "check with a doctor first."
+    "<br>Kristine Maia · sports science graduate · certified recovery massage therapist · mobility &amp; recovery coach"
+)
+FOOTLINE = "The 5-minute desk stretch · Kristine Maia · linktr.ee/kristinemaia"
+
 
 # ---------------------------------------------------------------------
 # Ilustrații simple (stil „pictogramă”), folosite până ai pozele tale
@@ -217,10 +324,61 @@ li i{font-style:normal;background:#fff;border-radius:99px;padding:.1mm 2.2mm;fon
 .box h3{margin:0 0 1.2mm;font-family:var(--display);font-size:10.5pt;font-weight:800}
 .box.a{background:var(--berry);color:#fff} .box.a b{color:#fff}
 .box.b{border:1.2px solid var(--line);background:#fff;color:var(--muted)} .box.b b{color:var(--ink)}
+.page{break-after:page;page-break-after:always} .page:last-child{break-after:auto;page-break-after:auto}
+.pink{--zone:var(--berry)} .blue{--zone:var(--blue-ink)} .mint{--zone:var(--mint-ink)} .lilac{--zone:var(--lilac-ink)}
+.head.sm h1{font-size:25pt}
+.head.sm .badge{width:25mm;height:25mm}
+.head.sm .badge span{font-size:20pt}
+.head.sm .badge small{font-size:6pt;max-width:19mm}
+.dcards{display:flex;flex-direction:column;gap:2.6mm}
+.dcard{display:grid;grid-template-columns:27mm 1fr;gap:4mm;padding:2.6mm 3mm;border-radius:5mm;align-items:start}
+.dcard .pic{width:27mm;height:27mm;border-radius:4mm}
+.dcard.pink{background:var(--pink)} .dcard.blue{background:var(--blue)} .dcard.mint{background:var(--mint)} .dcard.lilac{background:var(--lilac)}
+.dmain{display:flex;flex-direction:column;gap:1.8mm;min-width:0}
+.dmoves{display:grid;gap:4.5mm;grid-template-columns:repeat(var(--n),minmax(0,1fr))}
+.dm{font-size:8.1pt;line-height:1.34;min-width:0}
+.dm .mv{margin-bottom:1.1mm;flex-wrap:wrap;gap:1mm 2mm}
+.dm b{font-size:9.2pt}
+.dm p{margin:0 0 1mm}
+.lab{font-size:6.3pt;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--zone);margin-right:1mm}
+.rules{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm;border:1.2px solid var(--line);background:#fff;border-radius:5mm;padding:3.2mm 4.2mm}
+.rules h3{grid-column:1/-1;margin:0;font-family:var(--display);font-size:10.5pt;font-weight:800}
+.rules p{margin:0;font-size:8.2pt;line-height:1.38;color:var(--muted)} .rules b{display:block;color:var(--ink);font-size:9pt;margin-bottom:.6mm}
+.p3{gap:5mm}
+.footline{margin-top:auto;display:flex;justify-content:space-between;font-size:7.2pt;color:var(--muted);padding-top:1mm}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.scard{border-radius:5mm;padding:3.4mm 4.2mm;display:flex;flex-direction:column;gap:1.8mm}
+.scard.pink{background:var(--pink)} .scard.blue{background:var(--blue)} .scard.mint{background:var(--mint)} .scard.lilac{background:var(--lilac)}
+.scard h2{font-size:13pt;color:var(--zone)}
+.scard ul{gap:1mm}
+.scard li{font-size:8.6pt;line-height:1.3;padding-left:3.6mm;position:relative}
+.scard li:before{content:"";position:absolute;left:0;top:1.35mm;width:1.7mm;height:1.7mm;border-radius:50%;background:var(--zone)}
+.scard .note{margin:auto 0 0;font-size:8pt;color:var(--muted);padding-top:1mm}
+.when{display:grid;grid-template-columns:30mm 1fr;gap:4mm;align-items:center}
+.when h2{font-size:13pt;color:var(--zone)} .when p{margin:1mm 0 0;font-size:8.2pt;color:var(--muted);line-height:1.3}
+.chips{display:flex;flex-wrap:wrap;gap:1.8mm}
+.chips span{background:#fff;border-radius:99px;padding:1.2mm 3.2mm;font-size:8.3pt;font-weight:600}
+.check{display:flex;flex-direction:column;gap:2.6mm}
+.check h2{font-size:13pt;color:var(--zone)}
+.grid7{display:grid;grid-template-columns:30mm repeat(7,1fr);gap:1.4mm 1.8mm;align-items:center;font-size:8.4pt}
+.grid7 .d{text-align:center;font-weight:700;font-size:7.6pt;letter-spacing:.06em;text-transform:uppercase;color:var(--zone)}
+.grid7 .r{font-weight:600}
+.box7{height:6.4mm;border-radius:1.6mm;background:#fff;border:1px solid rgba(43,36,49,.28)}
+.rate{display:grid;grid-template-columns:30mm 22mm 22mm 1fr;gap:1.6mm 3mm;align-items:center;font-size:8.4pt}
+.rate .h{font-weight:700;font-size:7.6pt;letter-spacing:.06em;text-transform:uppercase;color:var(--zone)}
+.rate .line{height:6.4mm;border-radius:1.6mm;background:#fff;border:1px solid rgba(43,36,49,.28)}
+.rnote{margin:0;font-size:8pt;color:var(--muted);line-height:1.35}
+.subq{margin:0;font-size:8.6pt;font-weight:600}
+.notes{display:flex;flex-direction:column;gap:2.6mm;padding-top:1mm}
+.notes span{display:block;height:5.4mm;border-bottom:1px solid rgba(43,36,49,.3)}
 """
 
 
-def build():
+def E(t):
+    return html.escape(t, quote=False)
+
+
+def page1():
     rows = []
     for n, r in enumerate(ROWS, 1):
         lis = "".join(
@@ -232,18 +390,86 @@ def build():
             f'<div class="body"><div class="rhead"><span class="num">{n}</span><h2>{r["title"]}</h2>'
             f'<span class="time">{r["time"]}</span></div><ul>{lis}</ul></div></article>'
         )
-    doc = f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><title>The 5-minute desk stretch · Kristine Maia</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
-<style>{CSS}</style></head>
-<body><div class="page">
+    return f"""<div class="page">
 <header class="head"><div><p class="kicker">{TITLE_KICKER}</p><h1>The 5-minute <span class="hl">desk</span> stretch</h1><p class="sub">{SUBTITLE}</p></div>
 <div class="badge"><span>5:00</span><small>Start the timer</small></div></header>
 <p class="intro">{INTRO}</p>
 <section class="rows">{''.join(rows)}</section>
 <footer class="foot"><div class="box a"><h3>{FOOT_LEFT_TITLE}</h3>{FOOT_LEFT}</div><div class="box b"><h3>{FOOT_RIGHT_TITLE}</h3>{FOOT_RIGHT}</div></footer>
-</div></body></html>"""
+</div>"""
+
+
+def small_head(kicker, title, sub, badge):
+    return (
+        f'<header class="head sm"><div><p class="kicker">{E(kicker)}</p><h1>{E(title)}</h1><p class="sub">{E(sub)}</p></div>'
+        f'<div class="badge"><span>{badge[0]}</span><small>{E(badge[1])}</small></div></header>'
+    )
+
+
+def page2():
+    cards = []
+    for r in ROWS:
+        det = DETAIL[r["key"]]
+        assert len(det) == len(r["moves"]), r["key"]
+        moves = []
+        for (name, _text, dose), (how, feel, gentler) in zip(r["moves"], det):
+            moves.append(
+                f'<div class="dm"><div class="mv"><b>{E(name)}</b><i>{E(dose)}</i></div>'
+                f'<p><span class="lab">How</span>{E(how)}</p>'
+                f'<p><span class="lab">Feel</span>{E(feel)}</p>'
+                f'<p><span class="lab">Gentler</span>{E(gentler)}</p></div>'
+            )
+        cards.append(
+            f'<article class="dcard {r["tone"]}"><figure class="pic">{picture(r["key"])}</figure>'
+            f'<div class="dmain"><div class="rhead"><h2>{r["title"]}</h2><span class="time">{r["time"]}</span></div>'
+            f'<div class="dmoves" style="--n:{len(moves)}">{"".join(moves)}</div></div></article>'
+        )
+    rules = "".join(f"<p><b>{E(a)}</b>{E(b)}</p>" for a, b in P2_RULES)
+    return f"""<div class="page p2">
+{small_head(P2_KICKER, P2_TITLE, P2_SUB, P2_BADGE)}
+<p class="intro">{E(P2_INTRO)}</p>
+<section class="dcards">{''.join(cards)}</section>
+<section class="rules"><h3>{E(P2_RULES_TITLE)}</h3>{rules}</section>
+<div class="footline"><span>{E(FOOTLINE)}</span><span>Page 2 of 3</span></div>
+</div>"""
+
+
+def page3():
+    short = "".join(
+        f'<article class="scard {c["tone"]}"><div class="rhead"><h2>{E(c["title"])}</h2><span class="time">{c["time"]}</span></div>'
+        f'<ul>{"".join("<li>" + E(m) + "</li>" for m in c["moves"])}</ul><p class="note">{E(c["note"])}</p></article>'
+        for c in P3_SHORT
+    )
+    chips = "".join(f"<span>{E(t)}</span>" for t in P3_WHEN)
+    days = "".join(f'<span class="d">{d}</span>' for d in P3_DAYS)
+    check_rows = "".join(
+        f'<span class="r">{E(r)}</span>' + "".join('<span class="box7"></span>' for _ in P3_DAYS) for r in P3_CHECK_ROWS
+    )
+    rate_rows = "".join(
+        f'<span class="r">{r}</span><span class="line"></span><span class="line"></span><span></span>' for r in P3_RATE_ROWS
+    )
+    return f"""<div class="page p3">
+{small_head(P3_KICKER, P3_TITLE, P3_SUB, P3_BADGE)}
+<section class="two">{short}</section>
+<section class="scard mint when"><div><h2>{E(P3_WHEN_TITLE)}</h2><p>{E(P3_WHEN_SUB)}</p></div><div class="chips">{chips}</div></section>
+<section class="scard lilac check"><h2>{E(P3_CHECK_TITLE)}</h2>
+<div class="grid7"><span></span>{days}{check_rows}</div>
+<p class="subq">{E(P3_RATE_TITLE)}</p>
+<div class="rate"><span></span><span class="h">Day 1</span><span class="h">Day 7</span><span></span>{rate_rows}</div>
+<p class="rnote">{E(P3_RATE_NOTE)}</p>
+<p class="subq">{E(P3_NOTES_TITLE)}</p><div class="notes"><span></span><span></span></div></section>
+<footer class="foot"><div class="box a"><h3>{E(P3_NEXT_TITLE)}</h3>{P3_NEXT}</div><div class="box b"><h3>{E(P3_STOP_TITLE)}</h3>{P3_STOP}</div></footer>
+<div class="footline"><span>{E(FOOTLINE)}</span><span>Page 3 of 3</span></div>
+</div>"""
+
+
+def build():
+    doc = f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>The 5-minute desk stretch · Kristine Maia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>{CSS}</style></head>
+<body>{page1()}{page2()}{page3()}</body></html>"""
     with open(OUT_HTML, "w", encoding="utf-8") as f:
         f.write(doc)
     print("ok:", OUT_HTML)

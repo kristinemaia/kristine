@@ -1,6 +1,6 @@
 # PDF-ul gratuit: „The 5-minute desk stretch”
 
-_Gata de folosit: `5-minute-desk-stretch.pdf` (cu ilustrații desenate). Înlocuiești ilustrațiile cu pozele tale după ziua A din studio._
+_Gata de folosit: `5-minute-desk-stretch.pdf` (3 pagini, cu ilustrații desenate) și `5-minute-desk-stretch-poster.pdf` (doar pagina 1, pentru printat sau pentru Instagram și Twitch). Înlocuiești ilustrațiile cu pozele tale după ziua A din studio._
 
 > Am înțeles că e PDF-ul gratuit pe care îl primește cineva pe email. Dacă te refereai la e-book, spune-mi și facem la fel pentru el.
 
@@ -8,10 +8,13 @@ _Gata de folosit: `5-minute-desk-stretch.pdf` (cu ilustrații desenate). Înlocu
 
 ## 1. La ce servește
 - E primul lucru pe care îl primește cineva când își lasă emailul (pe site, în Linktree, pe Twitch). Promisiunea: **5 minute, 4 zone, de pe scaun, fără echipament**.
-- Doar **imagini și text**, o singură pagină A4. Se printează sau se citește pe telefon.
-- Fiecare rând are o imagine, 2–3 mișcări și un timp, ca să-l poți face cu un cronometru.
+- Doar **imagini și text**, **3 pagini A4**: pagina 1 e afișul de 5 minute (se printează), pagina 2 explică fiecare mișcare, pagina 3 te ajută să-l faci obicei și spune ce urmează.
+- Fiecare rând de pe pagina 1 are o imagine, 2–3 mișcări și un timp, ca să-l poți face cu un cronometru.
+- **De ce 3 pagini și nu mai multe:** (1) pagina 1 trebuie să rămână un afiș pe care îl lipești lângă monitor; (2) un PDF gratuit care se citește în câteva minute se deschide, unul de 10 pagini rămâne necitit; (3) produsul e programul de 30 de zile, iar PDF-ul e o mostră, deci nu-l dubla.
 
-## 2. Cum e organizat (de sus în jos)
+## 2. Cum e organizat
+
+### Pagina 1: afișul de 5 minute (de sus în jos)
 
 | Zonă | Ce conține | Înălțime |
 |---|---|---|
@@ -33,6 +36,27 @@ _Gata de folosit: `5-minute-desk-stretch.pdf` (cu ilustrații desenate). Înlocu
 
 Textul exact (în engleză) e în PDF și poate fi copiat de acolo.
 
+### Pagina 2: „Do each move well”
+
+Aceleași 4 culori și aceleași 9 mișcări, în aceeași ordine, fiecare cu doza de pe pagina 1. La fiecare mișcare sunt trei rânduri scurte:
+- **HOW:** cum o faci (aceleași indicații ca în programul de 30 de zile).
+- **FEEL:** ce ar trebui să simți.
+- **GENTLER:** varianta mai blândă.
+
+Jos, un chenar cu **trei reguli pentru fiecare mișcare** (respiri încet, te oprești înainte să doară, ambele părți la fel). Nu are timpi noi: dozele rămân cele din pagina 1.
+
+### Pagina 3: „Make it a habit”
+
+| Bloc | Ce conține |
+|---|---|
+| Versiuni scurte | **1-minute reset** (chin tucks, shoulder rolls, palm-up stretch, seated twist) și **2-minute version** (cinci mișcări), pentru pauzele dintre meciuri sau de la începutul orei |
+| When to do it | patru momente (după fiecare meci, la începutul orei, înainte de stream, când simți gâtul sau mâinile „blocate”) |
+| 7-day check-in | casete pentru 7 zile × 2 rânduri, notele 0–10 pentru gât și umeri, încheieturi, șolduri și spate (ziua 1 și ziua 7) și două rânduri pentru „What I noticed” |
+| What's next | programul de 30 de zile („you'll hear first”), invitația să-ți spună care zonă e cea mai grea, linkurile |
+| Stop signs | când te oprești (durere ascuțită, amorțeală, furnicături, amețeală), „Not medical advice” și linia de calificări |
+
+Notele 0–10 de pe pagina 3 se leagă de ziua 1 din program, unde se notează aceleași trei zone.
+
 ## 3. Pozele (4, pătrate)
 
 | # | Zonă | Poziție | Unghi și cadru |
@@ -47,8 +71,11 @@ Textul exact (în engleză) e în PDF și poate fi copiat de acolo.
 - **Aceeași ținută, același fundal și aceeași lumină ca în program.** Le faci în ziua A, la sfârșit.
 - Lumină din față, perete simplu. **Fără ferestre, obiecte personale, logo-uri sau animale în cadru.**
 - Mișcarea la jumătatea ei, nu la maximum: să se vadă că e blândă.
+- Aceleași 4 poze apar de două ori: mari pe pagina 1 și mici pe pagina 2. Nu mai ai nevoie de altele.
 
 ## 4. Cum îl refaci în Canva (cu pozele tale)
+
+Descrierea de mai jos e pentru pagina 1. Paginile 2 și 3 au același stil (aceleași culori, aceleași fonturi, aceleași carduri rotunjite), deci le duplici din pagina 1 și schimbi conținutul după secțiunea 2. Cea mai simplă variantă pentru 3 pagini e să-mi trimiți pozele și să refac eu PDF-ul, sau să rulezi scriptul din secțiunea 8.
 
 1. Document nou: **A4 (210 × 297 mm), portret**.
 2. **Fonturi:** Bricolage Grotesque (titluri, ExtraBold) și Figtree (text). Sunt amândouă în Canva.
@@ -75,7 +102,7 @@ Textul exact (în engleză) e în PDF și poate fi copiat de acolo.
 >
 > **Download the PDF:** [link]
 >
-> How to use it: start a 5-minute timer, move slowly, and stop if anything feels sharp. Print it and stick it next to your monitor, or keep it on your phone.
+> How to use it: start a 5-minute timer, move slowly, and stop if anything feels sharp. Print page 1 and stick it next to your monitor, or keep it on your phone. Page 2 explains each move, and page 3 is a 7-day check-in.
 >
 > One question: which spot feels worst after a long day, neck, shoulders, wrists or hips? Just hit reply and tell me. I read every answer, and it decides what I make next.
 >
@@ -97,12 +124,14 @@ Textul exact (în engleză) e în PDF și poate fi copiat de acolo.
 
 ## 7. Verificare finală
 - [ ] Se citește bine pe telefon (cu zoom)
-- [ ] O singură pagină, sub 2 MB
-- [ ] Timpii dau 5:00
+- [ ] 3 pagini, sub 2 MB (acum are ~0,6 MB)
+- [ ] Pagina 1: timpii dau 5:00
+- [ ] Pagina 2: dozele sunt aceleași cu pagina 1
+- [ ] Pagina 3: cele două versiuni scurte durează cam 1 și 2 minute
 - [ ] Linkurile (Linktree, Twitch, Instagram) funcționează
 - [ ] „Not medical advice” se vede
 - [ ] Pozele: aceeași ținută, fundal curat, nimic personal
 - [ ] Testat: te înscrii cu alt email și primești PDF-ul
 
 ## 8. Dacă vrei să-l refaci fără Canva
-Sursa e în `_source/pdf/`. Pui pozele ca `neck.jpg`, `shoulders.jpg`, `wrists.jpg`, `hips.jpg` în `_source/pdf/photos/` (pătrate) și rulezi `python3 build_pdf.py`, apoi `NODE_PATH=$(npm root -g) node print_pdf.js`. Poți și să deschizi `5-minute-desk-stretch.html` în Chrome și să alegi Print → Save as PDF (A4, fără margini, cu „Background graphics” bifat).
+Sursa e în `_source/pdf/`. Pui pozele ca `neck.jpg`, `shoulders.jpg`, `wrists.jpg`, `hips.jpg` în `_source/pdf/photos/` (pătrate) și rulezi `python3 build_pdf.py`, apoi `NODE_PATH=$(npm root -g) node print_pdf.js`. Poți și să deschizi `5-minute-desk-stretch.html` în Chrome și să alegi Print → Save as PDF (A4, fără margini, cu „Background graphics” bifat). Pentru afișul de o pagină alegi la Pages doar 1, sau rulezi `pdfseparate -f 1 -l 1 5-minute-desk-stretch.pdf 5-minute-desk-stretch-poster.pdf`.
