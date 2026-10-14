@@ -119,7 +119,11 @@ După fiecare săptămână: te uiți care reel a avut cele mai multe **salvări
 - **Siguranță:** postezi locațiile **după ce ai plecat de acolo**, nu în timp real. Fără sala, cartierul sau locuri pe unde treci zilnic.
 
 **Profil:**
-- Bio nou: *„Mobility, recovery & good food for people who sit all day 🧘‍♀️ · Sports science grad · Twitch Partner (72K) · Collabs: email”*
+- Bio nou (3 rânduri), cu butonul „Email” de pe profil în loc de adresa scrisă în text:
+
+  > Mobility, recovery & good food for people who sit all day  
+  > Sports science grad · Twitch Partner (72K)  
+  > 📩 Collabs: tap Email
 - Linktree: e-book, codurile de reducere (coarda, Revu Natural), Twitch, programul (când apare).
 - Evidențieri (highlights): păstrezi JUMP ROPE și YOGA. Adaugi **RECIPES**, **RECOVERY**, **CODES**. „Krakow” și alte călătorii le pui într-una singură, **TRAVEL**.
 - **Abonamentul Instagram** (butonul „Subscription” e deja activ): rutine exclusive de mobilitate în fiecare săptămână, pentru 4–5 €/lună.

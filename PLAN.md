@@ -180,7 +180,11 @@ Nimeni nu combină pe Twitch yoga, antrenamentul, gătitul și o pregătire real
 1. **2 reel-uri utile pe săptămână**, filmate la sală în timpul antrenamentului tău. Formula care a mers cel mai bine: coarda de sărit, adică ceva util + codul de reducere.
 2. **Stream-urile obișnuite**, cu un „stretch break” din care tai un clip.
 3. **E-book-ul și codurile de reducere pe Linktree.**
-4. **Bio nou pe Instagram:** *„Mobility, recovery & good food for people who sit all day 🧘‍♀️ · Sports science grad · Twitch Partner (72K) · Collabs: email”*
+4. **Bio nou pe Instagram** (3 rânduri) și **butonul „Email”** de pe profil. Adresa de colaborare nu se scrie în bio; se pune la „Editează profilul → Contact options”:
+
+   > Mobility, recovery & good food for people who sit all day  
+   > Sports science grad · Twitch Partner (72K)  
+   > 📩 Collabs: tap Email
 
 Restul planului începe după ce se liniștesc lucrurile.
 
