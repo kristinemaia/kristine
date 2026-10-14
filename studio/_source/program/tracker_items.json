@@ -1,0 +1,176 @@
+{
+ "montaj": [
+  {
+   "n": 1,
+   "title": "Neck & shoulders reset"
+  },
+  {
+   "n": 2,
+   "title": "Wrists & forearms"
+  },
+  {
+   "n": 3,
+   "title": "Hips: wake them up"
+  },
+  {
+   "n": 4,
+   "title": "Upper back: room to breathe"
+  },
+  {
+   "n": 5,
+   "title": "Lower back & core, gentle"
+  },
+  {
+   "n": 6,
+   "title": "Full-body flow"
+  },
+  {
+   "n": 7,
+   "title": "Recovery day"
+  },
+  {
+   "n": 8,
+   "title": "Posture builders"
+  },
+  {
+   "n": 9,
+   "title": "Wrists & shoulders, stronger"
+  },
+  {
+   "n": 10,
+   "title": "Hips & glutes"
+  },
+  {
+   "n": 11,
+   "title": "Thoracic mobility"
+  },
+  {
+   "n": 12,
+   "title": "Core for the chair"
+  },
+  {
+   "n": 13,
+   "title": "Full-body flow 2"
+  },
+  {
+   "n": 14,
+   "title": "Recovery day (halfway)"
+  },
+  {
+   "n": 15,
+   "title": "Gamer posture combo"
+  },
+  {
+   "n": 16,
+   "title": "Hips & back flow"
+  },
+  {
+   "n": 17,
+   "title": "Wrists & forearms, long"
+  },
+  {
+   "n": 18,
+   "title": "Spine circuit"
+  },
+  {
+   "n": 19,
+   "title": "Strength-mobility"
+  },
+  {
+   "n": 20,
+   "title": "Full-body flow 3"
+  },
+  {
+   "n": 21,
+   "title": "Recovery day"
+  },
+  {
+   "n": 22,
+   "title": "Morning Ten"
+  },
+  {
+   "n": 23,
+   "title": "Between Matches"
+  },
+  {
+   "n": 24,
+   "title": "After Work"
+  },
+  {
+   "n": 25,
+   "title": "Neck & shoulders power"
+  },
+  {
+   "n": 26,
+   "title": "Hips & back power"
+  },
+  {
+   "n": 27,
+   "title": "Wrists, posture & flow"
+  },
+  {
+   "n": 28,
+   "title": "Recovery day"
+  },
+  {
+   "n": 29,
+   "title": "Strong finish"
+  },
+  {
+   "n": 30,
+   "title": "Greatest hits"
+  }
+ ],
+ "setups": {
+  "A1": [
+   "R1",
+   "R2",
+   "R4c",
+   "N2",
+   "N3",
+   "N4",
+   "S1",
+   "S2",
+   "S3",
+   "W1",
+   "W2",
+   "W3",
+   "W4",
+   "W5",
+   "H2",
+   "L6"
+  ],
+  "B1": [
+   "R3",
+   "T5"
+  ],
+  "B3": [
+   "R4f",
+   "T3",
+   "T6",
+   "H1",
+   "H4",
+   "H5",
+   "L1",
+   "L3",
+   "L4",
+   "L5"
+  ],
+  "A2": [
+   "N1",
+   "T1",
+   "H8"
+  ],
+  "B2": [
+   "S4",
+   "H6",
+   "H7"
+  ],
+  "B4": [
+   "T2",
+   "T4",
+   "H3",
+   "L2"
+  ]
+ }
+}
