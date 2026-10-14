@@ -74,6 +74,16 @@ GROUPS = [
         ],
     },
     {
+        "id": "brand", "name": "Brand", "note": "Bannere și imagini pentru conturile tale",
+        "zip": ("Brand-Kristine.zip", "brand"),
+        "items": [
+            {"kind": "img", "slug": "twitch-banner", "title": "Bannerul Twitch (2 mărimi)",
+             "base": "brand/twitch", "keep": True,
+             "images": ["twitch-banner-2400x960.png", "twitch-banner-1200x480.png"],
+             "desc": "Cel nou, în stilul site-ului. Încarci prima imagine; dacă Twitch o refuză, o încerci pe a doua."},
+        ],
+    },
+    {
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
@@ -656,16 +666,23 @@ def build_pdf(item):
 def build_images(item):
     out = []
     names = []
+    # "base": folder din repo (altfel, IGDIR); "keep": fișierul se copiază așa cum e (PNG rămâne PNG)
+    base = os.path.join(REPO, item["base"]) if item.get("base") else IGDIR
     for name in item["images"]:
-        p = os.path.join(IGDIR, name)
+        p = os.path.join(base, name)
         if not os.path.exists(p):
             warnings.append("lipsește: %s (sărit)" % name)
             return False
+        if item.get("keep"):
+            shutil.copyfile(p, os.path.join(ensure("img"), name))
+            out.append("img/" + name)
+            names.append(name)
+            continue
         jpg = name.rsplit(".", 1)[0] + ".jpg"
         Image.open(p).convert("RGB").save(os.path.join(ensure("img"), jpg), "JPEG", quality=84, optimize=True)
         out.append("img/" + jpg)
         names.append(jpg)
-    item.update({"pages": out, "imgnames": names, "date": date_of(os.path.join(IGDIR, item["images"][0])),
+    item.update({"pages": out, "imgnames": names, "date": date_of(os.path.join(base, item["images"][0])),
                  "size": sum(os.path.getsize(os.path.join(DIST, o)) for o in out)})
     # pagină simplă, pentru situația în care JavaScript nu rulează
     figs = "".join('<figure><img src="../%s" alt="%s"></figure>' % (o, esc(item["title"])) for o in out)

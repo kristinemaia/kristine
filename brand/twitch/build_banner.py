@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""
+Bannerul de profil Twitch pentru Kristine Maia (1200 x 480, raport 5:2).
+
+Rulezi:   python3 brand/twitch/build_banner.py
+Rezultat: brand/twitch/banner.html  (sursa)
+          brand/twitch/twitch-banner-2400x960.png   (încărcarea principală, ascuțită pe ecrane mari)
+          brand/twitch/twitch-banner-1200x480.png   (dimensiunea recomandată de Twitch, dacă o refuză pe prima)
+
+Culorile și fonturile sunt cele ale site-ului (website/assets/style.css). Ilustrațiile sunt cele din PDF-ul
+gratuit (studio/_source/pdf/build_pdf.py). Fără poze, fără adresă web (domeniul nu e conectat încă),
+fără locație.
+"""
+import os
+import subprocess
+import sys
+import tempfile
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
+sys.path.insert(0, os.path.join(REPO, "studio", "_source", "pdf"))
+import build_pdf  # noqa: E402  (are protecție __main__, deci nu rulează nimic la import)
+
+NAME = "Kristine Maia"
+TAGLINE = 'Mobility, recovery &amp; good food<br>for people who <em>sit</em> all day'
+CHIPS = [("blue", "Move Monday"), ("mint", "Cook with me"), ("lilac", "Game night")]
+
+HTML = """<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>Kristine Maia · banner Twitch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@500;600;700&display=swap">
+<style>
+:root{--bg:#FFF9F6;--paper:#fff;--ink:#2B2431;--muted:#5C5466;
+  --pink:#F8DCE6;--pink2:#F1C3D6;--berry:#8A3459;--blue:#DDE9F7;--blue-ink:#2A5580;
+  --mint:#D8F0E4;--mint-ink:#1C6550;--lilac:#E9E1F7;--lilac-ink:#4C3A78;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"Figtree",ui-sans-serif,system-ui,sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;background:#fff}
+#b{position:relative;width:1200px;height:480px;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--body);-webkit-font-smoothing:antialiased}
+.sh{position:absolute;border-radius:50%}
+.s1{width:640px;height:640px;left:-250px;top:250px;background:var(--pink)}
+.s2{width:520px;height:520px;right:-150px;top:-250px;background:var(--lilac)}
+.s3{width:340px;height:340px;right:150px;bottom:-210px;background:var(--mint)}
+.s4{width:150px;height:150px;left:430px;top:-70px;background:var(--blue)}
+.txt{position:absolute;left:250px;top:0;bottom:0;width:560px;display:flex;flex-direction:column;justify-content:center}
+h1{margin:0;font-family:var(--display);font-weight:800;font-size:96px;line-height:.92;letter-spacing:-.04em;white-space:nowrap}
+.tag{margin:20px 0 0;font-size:30px;line-height:1.22;font-weight:600;letter-spacing:-.005em}
+.tag em{font-style:normal;background:linear-gradient(transparent 56%,var(--pink2) 56%,var(--pink2) 92%,transparent 92%);padding:0 .06em}
+.chips{display:flex;gap:10px;margin-top:26px}
+.chip{font:700 18px/1 var(--body);padding:13px 20px;border-radius:999px;letter-spacing:.01em;white-space:nowrap}
+.chip.blue{background:var(--blue);color:var(--blue-ink)}
+.chip.mint{background:var(--mint);color:var(--mint-ink)}
+.chip.lilac{background:var(--lilac);color:var(--lilac-ink)}
+.ic{position:absolute;border-radius:50%;background:var(--paper);box-shadow:0 10px 28px rgba(43,36,49,.12);display:grid;place-items:center}
+.ic svg{width:72%;height:72%;display:block}
+.ic.a{width:196px;height:196px;left:834px;top:34px}
+.ic.b{width:172px;height:172px;left:986px;top:166px}
+.ic.c{width:156px;height:156px;left:846px;top:270px}
+</style></head><body>
+<div id="b">
+  <div class="sh s1"></div><div class="sh s2"></div><div class="sh s3"></div><div class="sh s4"></div>
+  <div class="txt">
+    <h1>__NAME__</h1>
+    <p class="tag">__TAG__</p>
+    <div class="chips">__CHIPS__</div>
+  </div>
+  <div class="ic a">__NECK__</div>
+  <div class="ic b">__SHOULDERS__</div>
+  <div class="ic c">__HIPS__</div>
+</div>
+</body></html>
+"""
+
+
+def build_html():
+    chips = "".join('<span class="chip %s">%s</span>' % (c, t) for c, t in CHIPS)
+    return (HTML.replace("__NAME__", NAME).replace("__TAG__", TAGLINE).replace("__CHIPS__", chips)
+            .replace("__NECK__", build_pdf.art_neck()).replace("__SHOULDERS__", build_pdf.art_shoulders())
+            .replace("__HIPS__", build_pdf.art_hips()))
+
+
+RENDER_JS = r"""
+const { chromium } = require('playwright');
+(async () => {
+  const [html, out, scale] = process.argv.slice(2);
+  const b = await chromium.launch();
+  const ctx = await b.newContext({ viewport: { width: 1200, height: 480 }, deviceScaleFactor: Number(scale) });
+  const p = await ctx.newPage();
+  await p.goto('file://' + html, { waitUntil: 'networkidle' });
+  await p.evaluate(() => document.fonts.ready);
+  await p.waitForTimeout(400);
+  const el = await p.$('#b');
+  await el.screenshot({ path: out });
+  await b.close();
+})();
+"""
+
+
+def render(html_path, out_path, scale):
+    with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False) as f:
+        f.write(RENDER_JS)
+        js = f.name
+    env = dict(os.environ)
+    try:
+        root = subprocess.run(["npm", "root", "-g"], capture_output=True, text=True).stdout.strip()
+        env["NODE_PATH"] = root
+    except Exception:
+        pass
+    subprocess.run(["node", js, html_path, out_path, str(scale)], check=True, env=env)
+    os.unlink(js)
+
+
+def main():
+    html_path = os.path.join(HERE, "banner.html")
+    open(html_path, "w", encoding="utf-8").write(build_html())
+    big = os.path.join(HERE, "twitch-banner-2400x960.png")
+    render(html_path, big, 2)
+    from PIL import Image
+    im = Image.open(big).convert("RGB")
+    assert im.size == (2400, 960), im.size
+    im.save(big, optimize=True)
+    small = os.path.join(HERE, "twitch-banner-1200x480.png")
+    im.resize((1200, 480), Image.LANCZOS).save(small, optimize=True)
+    print("gata:", big, os.path.getsize(big) // 1024, "KB |", small, os.path.getsize(small) // 1024, "KB")
+
+
+if __name__ == "__main__":
+    main()
