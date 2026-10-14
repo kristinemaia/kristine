@@ -8,9 +8,24 @@ _Am lucrat pe capturile tale din 10 octombrie (primele 30 de postări din 306, �
 
 Captura de azi (16:13) spune: **„Your account is no longer able to earn money”**, pe motiv că profilul nu respectă regulile de monetizare, la categoria **„Sexual or suggestive activity”**: nuditate, poziții sexuale, dans sugestiv, limbaj sugestiv sau „revealing or absent items of clothing” (haine care dezvăluie sau care par absente). Instagram scrie doar că **„unul sau mai multe elemente ale profilului”** încalcă regulile și nu spune care.
 
-Deci curățarea nu e doar despre brand. E condiția ca să poți cere revizuirea. Două lucruri din notificare:
-- Instagram avertizează că **încălcările repetate pot aduce restricții suplimentare**. Cere revizuirea **abia după ce ai terminat curățarea**, nu pe jumătate.
-- Cererea se face din ecranul de monetizare: la „Monetization status” apar încălcările și butonul **Request a review**, care le contestă pe toate odată.
+Deci curățarea nu e doar despre brand. E condiția ca să poți cere revizuirea. Trei lucruri din notificare și din pagina oficială:
+- **Ce intră în „profil”:** pagina oficială Instagram spune că **poza de profil și descrierea (bio)**, la fel ca postările, trebuie să respecte regulile de monetizare. Deci nu e vorba doar de grilă.
+- **Cererea** se face din ecranul „Monetization status”: apar încălcările și butonul **Request a review**, care le contestă pe toate odată (sau pe fiecare separat).
+- **Avertismentul despre „restricții suplimentare”** vorbește despre *încălcări repetate*, nu despre cererile de revizuire. Nu am găsit nicio penalizare pentru o cerere respinsă și nici un termen oficial de răspuns. Totuși, trimite cererea **după curățare**, ca să nu primești un refuz degeaba.
+
+### 1.1 Ce elimini, în ordine, ca să poți cere revizuirea
+
+1. **Poza de profil.** Acum e o poză întreagă, cu rochie bej. Pune una cu fața, zâmbind, într-o ținută acoperitoare (cea din program).
+2. **Bio și link.** Înlocuiești „Wellness Lifestyle” cu bio-ul nou. În Linktree verifici că nu a rămas niciun link către conturi sau site-uri 18+, nici vechi.
+3. **Fixările.** Scoți din pin postările **3** (rochia) și **1** (costumul bej). Fixările sunt primele pe care le vede un reviewer.
+4. **Highlights.** Le verifici pe fiecare, nu doar coperta. Arhivezi orice story cu costum de baie, lenjerie sau ținute mulate.
+5. **Postările marcate M.** **3, 21 și 26** se arhivează acum. **1 și 29** după ce le verifici (vezi tabelul).
+6. **Tab-urile Reposts și Tagged** și conținutul pentru abonați (coroana).
+7. **Restul de 276 de postări** (secțiunea 4: arhivezi în loturi, apoi readuci doar ce trece testele).
+8. **Eticheta AI.** Reelul „Who’s hotter?” (29) și highlight-ul MY AI TWIN: verifică dacă au eticheta AI. În ecranul de postare apare „Add AI label”, cerută pentru imagini și video realiste făcute cu AI.
+9. **Abia apoi:** Request a review.
+
+**Ce nu pot garanta:** notificarea nu spune care element a declanșat-o. Lista de mai sus acoperă tot ce seamănă cu descrierea și tot ce se vede la prima privire pe profil, dar nu pot promite că e suficient.
 
 ## 2. Cele trei teste (le aplici și celor 276 de postări pe care nu le-am văzut)
 
@@ -87,7 +102,7 @@ Cea mai rapidă cale e **să arhivezi aproape tot, apoi să readuci doar ce trec
 ## 5. Restul profilului (din capturile tale)
 
 - **Bio:** „Wellness Lifestyle” se înlocuiește cu bio-ul nou din tracker (pasul „Bio nou” de la Instagram).
-- **Poza de profil:** acum e o poză întreagă, cu rochie mulată bej și jachetă. Pentru review și pentru brand, mai bună e una cu fața, zâmbind, în ținuta din program.
+- **Poza de profil:** acum e o poză întreagă, cu rochie bej și jachetă. Pentru review și pentru brand, mai bună e una cu fața, zâmbind, în ținuta din program.
 - **Highlights:** JUMP ROPE rămâne. YOGA poate rămâne (îl poți redenumi „MOBILITY”, ca să nu pară curs de yoga). MY AI TWIN rămâne ultimul și clar marcat ca AI. Krakow se mută în TRAVEL sau se arhivează. Nu pot vedea ce e în story-urile din ele.
 - **Twin:** „Who’s hotter?” (postarea 29) e livrabil în colaborare. Înainte să-l arhivezi, verifică în contract cât timp trebuie să stea postat sau cere-i lui Twin voie în scris. Ai deja „Twin” pe lista pentru avocat.
 - **Partajare pe Facebook:** în captura din 13 octombrie, la „Also share on…” apare profilul de Facebook „Cristiana Iorga”. Fiecare reel Kristine Maia se postează și acolo. Dacă vrei să țineți numele legal separat de brandul public, scoate-l din listă.
@@ -105,5 +120,5 @@ Trimite-mi capturi de grilă în ordine, cu 4 rânduri pe captură (ca cele din 
 
 ## 8. Surse
 
-- Instagram Help Center, monetizare și „Request a review”: <https://help.instagram.com/ipad-app/561796329332844> și <https://help.instagram.com/ipad-app/512371932629820>
+- Instagram Help Center, monetizare, ce intră în „profil” și „Request a review”: <https://help.instagram.com/ipad-app/561796329332844>, <https://help.instagram.com/ipad-app/512371932629820> și <https://help.instagram.com/ipad-app/1372533836927082>
 - Instagram Help Center, arhivare în masă (Your activity → Content you shared → Posts → Select → Archive): <https://help.instagram.com/android-app/2336657616493557>
