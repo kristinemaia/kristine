@@ -35,7 +35,8 @@ Fișiere însoțitoare: `CONTINUT.md` (stream-uri, reel-uri, Instagram) · `STER
 | Twitch | 2.000–3.500 (în medie ~2.750) |
 | Donații (variabil) | ~2.500 (~500 €) |
 | Twin (doar ~3 luni) | ~2.000 |
-| Afiliere, terapie | variabil |
+| Afiliere | variabil |
+| Terapie (real: 4.200 lei în 17 aug – 26 sep, 41 de zile) | ~3.100 pe lună cât lucrezi în România; 0 în Turcia |
 | **Fără Twin, fără donații** | **~4.750** |
 | **Fără Twin, cu donații** | **~7.250** |
 
@@ -45,7 +46,7 @@ Fișiere însoțitoare: `CONTINUT.md` (stream-uri, reel-uri, Instagram) · `STER
 | Utilități | 500–750 | 0 |
 | Mâncare și trai | 2.000–3.000 | 2.000–3.000 |
 | Alte cheltuieli | ~1.000 | ~1.000 |
-| Avocat + contabilă | ? | ? |
+| Avocat + contabilă | octombrie: 3.000 (ultimele 2 tranșe la avocat), apoi doar contabila | idem |
 | **Total** | **~6.750–8.000** | **~3.000–4.000** |
 | **Rămâne (fără donații)** | **–2.000 până la –3.250** | **+750 până la +1.750** |
 | **Rămâne (cu donații ~2.500)** | **–750 până la +500** (aproape pe zero) | **+3.250 până la +4.250** |
@@ -53,6 +54,8 @@ Fișiere însoțitoare: `CONTINUT.md` (stream-uri, reel-uri, Instagram) · `STER
 Donațiile variază, deci le tratezi ca **bonus**, nu ca bază. Într-o lună bună, surplusul merge în rezervă.
 
 **Banii de la Twin:** merg integral în rezervă, cu prioritate pentru avocat.
+
+**Terapia, cifra reală (15 oct):** 17 august – 26 septembrie ai încasat 4.200 lei din terapie, adică ~3.100 lei pe lună (~620 €). Chiria și utilitățile apartamentului erau ~3.750–4.000 lei pe lună: terapia nu acoperea nici atât. De aceea apartamentul se eliberează pe 16 octombrie, iar terapia continuă la domiciliu, ca venit variabil.
 
 ## 3. Decizia mare: București sau Turcia (deschisă, o iei tu)
 
@@ -244,6 +247,6 @@ Pașii sunt în `STERGERE-CONTINUT.md`: StopNCII, Google, Reddit, DMCA și avoca
 
 | Lună | Chiriaș | Twitch | Donații | Twin | Afiliere | E-book | Program | Abonament | Terapie | Sponsori | **Total** | Cheltuieli | Avocat | **Rămâne** |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Oct 2026 | 2.000 | | | | | | | | | | | | | |
+| Oct 2026 | 2.000 | | | | | | | | | | | | 3.000 | |
 | Noi 2026 | 2.000 | | | | | | | | | | | | | |
 | Dec 2026 | 2.000 | | | | | | | | | | | | | |
