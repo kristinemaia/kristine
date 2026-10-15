@@ -42,6 +42,8 @@ GROUPS = [
         "id": "studio", "name": "Studio", "note": "PDF-ul gratuit, programul de 30 de zile, reel-urile",
         "zip": ("Studio-Kristine.zip", "studio"),
         "items": [
+            {"kind": "doc", "slug": "filmare-apartament", "title": "Reel-urile de filmat în apartament (15–16 oct)",
+             "src": "studio/FILMARE-APARTAMENT.md", "desc": "Tabelul cu toate reel-urile, ordinea de filmat și fiecare reel pe rând: poziții, secunde, lumină, text, descriere, hashtag-uri, data postării."},
             {"kind": "pdf", "slug": "desk-stretch", "title": "The 5-minute desk stretch (3 pagini)",
              "src": "studio/5-minute-desk-stretch.pdf", "name": "5-minute-desk-stretch.pdf",
              "desc": "PDF-ul gratuit: afișul de 5 minute, cum faci fiecare mișcare, fișa de 7 zile."},
