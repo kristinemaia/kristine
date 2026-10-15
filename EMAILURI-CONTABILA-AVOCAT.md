@@ -1,6 +1,6 @@
 # Emailuri către contabilă și avocat (gata de copiat)
 
-Le trimiți **marți 20 octombrie**, ca să ai răspunsul înainte de 29 octombrie, când pleci. Nu sunt sfat juridic sau fiscal: sunt întrebările pe care le pune un om care nu e expert. Răspunsul contează doar dacă vine de la ei, în scris.
+Emailul către contabilă îl trimiți **azi, joi 15 octombrie**, cel către avocat **luni 19 octombrie seara** (cu atașamentele adunate duminică). Ceri răspuns scris până **luni 26 octombrie**, ca să poți hotărî luni, în pasul „Go / no-go”, ce faci în Turcia. Nu sunt sfat juridic sau fiscal: sunt întrebările pe care le pune un om care nu e expert. Răspunsul contează doar dacă vine de la ei, în scris.
 
 Înlocuiești ce e între `[paranteze]`. Numele tău legal și datele firmei rămân doar în email, nu apar în niciun conținut public.
 
@@ -14,11 +14,11 @@ Le trimiți **marți 20 octombrie**, ca să ai răspunsul înainte de 29 octombr
 
 Bună ziua, [numele contabilei],
 
-Plec în Turcia pe 29 octombrie și mă întorc în jur de 15 noiembrie, iar în 28 octombrie las apartamentul actual. Aș avea nevoie de câteva răspunsuri **în scris**, ca să știu cum procedez.
+Plec în Turcia pe 29 octombrie și mă întorc pe 15 noiembrie, iar în jur de 28 octombrie las apartamentul actual. Aș avea nevoie de câteva răspunsuri **în scris**, ca să știu cum procedez.
 
 **Sediul și mutarea**
 1. Firma are sediul sau punctul de lucru la adresa apartamentului de care renunț. Ce trebuie făcut, în ce ordine și cât durează schimbarea, ca să nu rămână o adresă în care nu mai locuiesc?
-2. Pot folosi un sediu social la un birou virtual sau la părinți, și ce documente îi trebuie proprietarului?
+2. Pot folosi un sediu social la un birou virtual sau la părinți, și ce documente îi trebuie proprietarului? Am nevoie de o adresă pentru subsolul emailurilor trimise abonaților: pe care o pot da?
 
 **Casa de marcat și plata clienților**
 3. Dacă primesc plata prin link de plată sau transfer bancar, **nu** prin cash, îmi trebuie casă de marcat pentru terapiile la domiciliu? Dacă da, de la ce moment?
@@ -30,8 +30,11 @@ Plec în Turcia pe 29 octombrie și mă întorc în jur de 15 noiembrie, iar în
 7. Se aplică TVA pentru aceste venituri, sau intră în vreo excepție? Mă interesează pragul și momentul în care trebuie să mă înregistrez.
 
 **Munca de pe teritoriul altei țări** 🛑
-8. Voi sta în Turcia aproximativ 17 zile și voi lucra de acolo online (stream, creare de conținut, e-book), pentru un public din afara Turciei. Bani încasez în continuare în România. Are asta vreo consecință fiscală sau contabilă pentru mine, de exemplu rezidență fiscală, contribuții sau declarații?
+8. Voi sta în Turcia 18 zile (29 octombrie – 15 noiembrie) și voi lucra de acolo online (stream, creare de conținut, e-book), pentru un public din afara Turciei. Bani încasez în continuare în România. Are asta vreo consecință fiscală sau contabilă pentru mine, de exemplu rezidență fiscală, contribuții sau declarații?
 9. Dacă în viitor stau mai mult în Turcia (cu intrări repetate), de la ce număr de zile se schimbă ceva? Cum țin evidența zilelor?
+
+**Contribuții**
+10. Asigurarea de sănătate (CASS) pe anul acesta: care e suma și termenul, și cum o plătesc? Aș vrea să o plătesc săptămâna aceasta.
 
 Dacă e mai simplu, putem face un apel de 15 minute, dar aș vrea și răspunsul scris pe email.
 
@@ -46,7 +49,7 @@ Mulțumesc,
 
 Bună ziua, [numele avocatului],
 
-Plec în Turcia pe 29 octombrie și revin în jur de 15 noiembrie. Aș avea nevoie de răspunsuri **în scris** la câteva puncte, ca să știu ce pot face și ce nu.
+Plec în Turcia pe 29 octombrie și revin pe 15 noiembrie. Aș avea nevoie de răspunsuri **în scris** la câteva puncte, ca să știu ce pot face și ce nu.
 
 **Practicile din terapia mea (KM Wellness Concept)** 🛑
 1. Sunt certificată în masaj de recuperare, drenaj limfatic, dry needling și ventuzoterapie. Ce acte îmi trebuie ca să practic **legal** dry needling și ventuze în România și să le pot menționa în comunicarea publică? Atașez certificatele: [lista].
@@ -59,7 +62,7 @@ Plec în Turcia pe 29 octombrie și revin în jur de 15 noiembrie. Aș avea nevo
 
 **Colaborarea cu Twin**
 6. Atașez contractul de colaborare cu Twin. Aveți observații despre exclusivitate, durată, drepturile asupra conținutului și posibilitatea de a-l lua de la capăt?
-7. Pot continua în același timp colaborările de afiliere (coardă, Revu Natural, Bewit) fără să încalc ceva?
+7. Pot continua în același timp colaborările de afiliere (Dope Rope, Revu Natural, Bewit; cu codul de reducere și mențiunea „afiliere”) fără să încalc ceva?
 
 **Agenția din 2023**
 8. Atașez contractul din 2023, mesajele și plățile de la agenție. Cum stau cu eventualele obligații rămase și cu conținutul din acea perioadă?
@@ -71,9 +74,10 @@ Plec în Turcia pe 29 octombrie și revin în jur de 15 noiembrie. Aș avea nevo
 10. Voi sta în Turcia pe baza regimului fără viză pentru cetățenii români, în limita a 90 de zile din 180. Pot lucra de acolo **online**, pentru clienți și public din afara Turciei, fără să încalc regulile de ședere? Unde e linia între „vizită de turist” și „muncă”?
 11. Nu voi presta terapie și nu voi primi bani de la clienți din Turcia. Presupun că trebuie să mă opresc și de la a face reclamă local. E corect?
 12. Prietenul meu are o sală de sport în Turcia. Nu voi filma în sală și nu voi lucra acolo. Există ceva ce ar trebui să evit ca să nu apară o „colaborare” sau o „angajare” fără să vreau?
-13. Dacă în viitor stau mai mult de 90 de zile în Turcia, ce opțiuni există (permis de ședere, viză de lungă ședere) și ce obligații vin cu ele?
+13. În Turcia aș vrea să fac încă trei lucruri, pentru un public din afara țării: (a) o sesiune live de mobilitate de 30 de minute pentru abonații plătitori de pe Twitch, înregistrată; (b) să trimit emailuri către branduri din afara Turciei, fără să negociez sau să semnez nimic de acolo; (c) să postez conținut programat din România despre serviciile mele de terapie din România, fără să răspund la clienți din Turcia. Pentru fiecare: e în regulă, sau trebuie să aștept? 
+14. Dacă în viitor stau mai mult de 90 de zile în Turcia, ce opțiuni există (permis de ședere, viză de lungă ședere) și ce obligații vin cu ele?
 
-Dacă preferați, programăm un apel de 20 de minute. Aș vrea însă să am o confirmare scrisă a răspunsurilor.
+Cele marcate cu 🛑 sunt cele de care depinde ce fac în Turcia; aș vrea un „da” sau un „nu” scris la fiecare. Dacă preferați, programăm un apel de 20 de minute. Aș vrea însă să am o confirmare scrisă a răspunsurilor.
 
 Mulțumesc,
 [prenumele tău]
@@ -88,7 +92,8 @@ Mulțumesc,
 | Contabila: sediul trebuie mutat | Programezi schimbarea după 16 noiembrie. |
 | Avocatul: dry needling sau ventuzele cer acte în plus | Rămân scoase din comunicare până ai actele. Nu modifici biografiile. |
 | Avocatul: munca online din Turcia e problematică | Reduci calendarul din Turcia la reel-urile programate din România și la e-book. Streamul se oprește până la clarificare. |
-| Niciun răspuns până pe 28 octombrie | Pleci cu regula de mai sus: fără terapie și fără bani locali în Turcia. Reiei emailul pe 1 noiembrie. |
+| Niciun răspuns scris până luni 26 octombrie | Suni (ambele emailuri propun un apel). Dacă tot nu ai „da”, pleci în regim prudent: doar streamuri, fără sesiune pentru abonați din Turcia (se mută pe 22 nov), emailurile către branduri și media kitul pe 16 nov, fără terapie, fără mesaje către clienți și fără bani locali. Reiei emailul pe 1 noiembrie. |
+| Contabila: CASS | Plătești în aceeași zi și salvezi confirmarea în folderul 05_ACTE. |
 
 ## Ce nu trimiți
 

@@ -1,8 +1,8 @@
 # Planul 15 octombrie – 15 noiembrie 2026
 
-România până pe 28 octombrie, Turcia de pe 29 octombrie până pe 15 noiembrie. Scopul: pleci cu reel-urile filmate, editate și programate, cu PDF-ul live și cu e-book-ul pregătit, ca în Turcia să streamezi, să montezi puțin și să scrii.
+București și țară până pe 28 octombrie, Turcia de pe 29 octombrie până pe 15 noiembrie. Scopul: pleci cu reel-urile filmate, editate și programate, cu PDF-ul live și cu e-book-ul pregătit, ca în Turcia să streamezi, să montezi puțin și să scrii. Pe lângă asta, planul ține banii, facturile și programările lunii.
 
-Tot ce e aici se bifează în **Pașii Kristinei**: categoria „Plecarea în Turcia” și grupurile pe zile din fiecare zi. Documentul e harta, tracker-ul e lista ta de bifat.
+Tot ce e aici se bifează în **Pașii Kristinei**: categoria „Plecarea în Turcia”, categoria „Bani, facturi și programări” și grupurile pe zile. Documentul e harta, tracker-ul e lista ta de bifat.
 
 *Nu e sfat medical, juridic sau fiscal. Unde contează legea, răspunsul trebuie să vină de la contabilă sau de la avocat, în scris.*
 
@@ -10,38 +10,54 @@ Tot ce e aici se bifează în **Pașii Kristinei**: categoria „Plecarea în Tu
 
 ## Pe scurt
 
-- **Până pe 28 octombrie, în România**, faci tot ce cere o cameră, o mutare sau o semnătură: două loturi de filmat (19 și 26 oct), PDF-ul live pe 20 oct, emailurile către contabilă și avocat, montajul și programarea.
-- **Ce rezultă:** 4 reel-uri de birou, 4 de mobilitate, 3 de bucătărie, 1 din stream, 4 pentru contul KM (în română) și 2 carusele, toate programate între 20 oct și 13 nov. Lista zi cu zi e mai jos, la „Ce iese în fiecare zi”.
-- **În Turcia** streamezi (Move Monday, Cook with me, Game night), montezi 1–2 reel-uri din ce ai deja, scrii e-book-ul în Canva (3 și 10 nov), ții sesiunea pentru abonați (8 nov) și trimiți emailurile către branduri. Nu filmezi nimic nou pentru reel-uri.
-- **E-book:** textele sunt gata. Paginile le pui în Canva în Turcia; exportul și actualizarea pe Amazon KDP se fac după întoarcere.
-- **Două lucruri decid totul:** numărătoarea zilelor din Turcia (90 din 180) și răspunsul scris al contabilei și al avocatului. Le pornești în prima săptămână.
+- **Până pe 28 octombrie** produci tot ce cere o cameră, o mutare sau o semnătură. Filmezi în București, la peretele alb: R1 și R2 azi sau mâine, restul vineri (lotul 1), apoi luni 26 oct (lotul 2). Sala nu: un reel de sală cere acordul scris al unei săli.
+- **Ce rezultă:** 4 reel-uri de birou, 4 de mobilitate, 3 de bucătărie, 1 din stream, 2–4 pentru contul KM (în română) și 2 carusele, toate programate între 20 oct și 13 nov.
+- **În Turcia** streamezi (Move Monday, Cook with me, Game night), montezi 2 reel-uri pe săptămână din ce ai deja, scrii e-book-ul în Canva (3 și 10 nov) și trimiți emailurile către branduri. Nu filmezi nimic nou pentru reel-uri.
+- **E-book:** textele sunt gata. Paginile le pui în Canva în Turcia, exportul îl faci tot acolo (10 nov); încărcarea pe KDP, după întoarcere.
+- **Trei lucruri decid totul:** numărătoarea zilelor din Turcia (90 din 180), răspunsul scris al contabilei și al avocatului, și fișierul Canva al e-book-ului. Le pornești azi.
+- **Urgent azi:** asigurarea de sănătate pe anul acesta. Contabila îți spune suma și termenul; întrebarea e în email.
+
+## Unde ești, zi cu zi
+
+| Zile | Unde | Ce se potrivește acolo |
+|---|---|---|
+| Joi 15 – sâmbătă 17 oct | București | Filmat la peretele alb, stream vineri, comenzi, emailuri |
+| Sâmbătă 17 – duminică 18 oct | La țară | Liber sâmbătă; duminică, lucrul de laptop (PDF, formular, arhivare), dacă ai internet; seara înapoi |
+| Luni 19 – vineri 23 oct | București | Streamuri luni, miercuri, vineri; montaj; terapiile joi |
+| Sâmbătă 24 – duminică 25 oct | La țară | Drumul cu cutiile și echipamentul; duminică cifre, conturi, Vinted; seara înapoi |
+| Luni 26 – miercuri 28 oct | București | Lotul 2, notar, chei, ultimul stream |
+| Joi 29 oct | Zbor | Nimic de lucru |
+
+Streamurile și filmările stau în București, la colțul tău. La țară faci doar ce se poate face cu laptopul și cu telefonul.
 
 ## Părerea mea
 
 **1. Da, planul are sens, cu o regulă: România produce, Turcia montează, programează, streamează și scrie.** Cine filmează în Turcia riscă trei lucruri deodată: fundalul (fără ferestre, oraș sau sală), internetul și oboseala. Deci tot ce are nevoie de cameră se termină în România.
 
-**2. Întâi PDF-ul, apoi reel-urile.** Fiecare reel trimite spre PDF și spre grupul de email. Dacă R1 iese pe 20 oct și PDF-ul nu e live, trimiți oameni la un link mort. De aceea PDF-ul, Payhip și formularul trec pe 16–20 oct, înaintea primei postări.
+**2. Azi sau mâine: perete alb, nu sală.** Ești în București până sâmbătă, deci filmezi acum, nu luni: lotul 1 se termină vineri, iar luni montezi, nu filmezi. Sala e capcana: un reel de sală cere acordul scris al unei săli, iar reelul cu „3 machines undo the chair” trebuie verificat (unde a fost filmat, cine e în cadru). Un perete alb, o ținută acoperitoare și 10 minute pe reel rezolvă totul.
 
-**3. În România ai 14 zile, nu 14 zile libere.** Din ele: 2 libere, 1 de zbor, mutarea (notar, chei, echipamentul la părinți), cele 2 terapii, administrativul și 6 streamuri. De aceea planul are un **minim** și o **țintă** (vezi „Dacă nu ajungi”). Minimul e lotul din 19 oct, PDF-ul live și programarea; lotul din 26 oct e țintă.
+**3. Întâi PDF-ul, apoi reel-urile.** Fiecare reel trimite spre PDF și spre grupul de email. Dacă R1 iese pe 20 oct și PDF-ul nu e live, trimiți oameni la un link mort. De aceea PDF-ul, Payhip și formularul trec pe 16–20 oct, înaintea primei postări. Testul de înscriere trebuie să treacă până marți la 12:00; altfel R1 așteaptă.
 
-**4. Pregătești Turcia ca pe o mică producție.** eSIM de date, copii de siguranță în 2 locuri, autentificare în doi pași înainte de zbor, colțul de filmat testat la sosire. Instagram, Twitch și Amazon pot cere verificări suplimentare dintr-o țară nouă; codurile trebuie să ajungă la tine.
+**4. Nu te bazezi pe zile libere imaginare.** În România ai 14 zile, din care 2 libere, 1 de zbor, 2 weekenduri la țară, mutarea, cele 2 terapii și 6 streamuri. Planul are un **minim** și o **țintă**, și o listă de tăiat în ordine (vezi „Dacă nu ajungi”). Minimul: R1–R4 filmate azi și vineri, PDF-ul live și programarea. Lotul 2 e țintă.
 
-**5. Studioul de 4 zile rămâne în decembrie.** Nu se potrivește cu o mutare și cu 6 streamuri într-o lună. În octombrie faci doar ce acoperă Turcia: 8 reel-uri de mobilitate și birou și 4 de bucătărie.
+**5. Pregătești Turcia ca pe o mică producție.** eSIM de date, copii de siguranță în 2 locuri, autentificare în doi pași înainte de zbor, colțul de filmat testat la sosire. Instagram, Twitch și Amazon pot cere verificări suplimentare dintr-o țară nouă.
 
-**6. Kick și Spotify: mai târziu.** Pe Kick nu pui nimic înainte să citești clauza de exclusivitate din contractul Twitch Partner. Spotify e opțional și se face din România, după întoarcere.
+**6. Studioul de 4 zile rămâne în decembrie.** Nu se potrivește cu o mutare și cu 6 streamuri într-o lună. În octombrie faci doar ce acoperă Turcia.
 
-**7. Cele două „stop-uri” sunt reale.** Dacă numărătoarea 90/180 depășește limita, scurtezi sau amâni zborul. Dacă contabila sau avocatul spun că munca online din Turcia e o problemă, streamul din Turcia se oprește până la clarificare. Nu te costă nimic să întrebi acum.
+**7. Kick și Spotify: mai târziu.** Pe Kick nu pui nimic înainte să citești clauza de exclusivitate din contractul Twitch Partner. Spotify e opțional, după întoarcere, din România.
 
-**8. Un lucru pe care nu-l fac fără tine:** reel-ul de sală din 13 octombrie. Dacă a fost filmat în sala din Turcia sau fără acordul scris al unei săli, nu se postează. Îmi spui unde a fost filmat.
+**8. Cele două „stop-uri” sunt reale.** Dacă numărătoarea 90/180 depășește limita, scurtezi sau amâni zborul. Dacă contabila sau avocatul nu-ți dau un „da” scris pentru munca online din Turcia, treci pe regim prudent: doar streamuri, fără sesiunea pentru abonați din Turcia (se mută pe 22 nov, în România), fără emailuri către branduri și fără contact cu clienții KM. Decizia o iei luni 26 oct, nu mai târziu.
 
 ## Ce presupun și ce am nevoie de la tine
 
-**Presupun:** zbor pe 29 octombrie, întoarcere pe 15 noiembrie (17 zile), un perete simplu cu lumină artificială în Turcia, un laptop și un telefon bun, internet de minimum ~6 Mbps la upload, aceeași ținută acoperitoare și același perete la toate filmările, fără sală filmată în Turcia.
+**Presupun:** zbor pe 29 octombrie, întoarcere pe 15 noiembrie (18 zile), un perete simplu cu lumină artificială în Turcia, un laptop și un telefon bun, internet de minimum ~6 Mbps la upload, aceeași ținută acoperitoare și același perete la toate filmările, fără sală filmată în Turcia. Reel-urile = 12 reel-uri și 2 carusele acum; programul de 30 de zile se filmează în decembrie.
 
-**Trei întrebări:**
-1. Datele de intrare și ieșire din Turcia din ultimele 6 luni, pentru calculul 90/180.
-2. Ziua mutării, a notarului și a predării cheilor (am pus notarul și cheile pe 27 oct, mutarea pe 25–26 oct; spune-mi dacă sunt altele).
-3. Unde filmezi în România (care perete) și ce echipament iei în Turcia.
+**Întrebări:**
+1. Datele de intrare și ieșire din Turcia de la 1 ianuarie 2026, pentru calculul 90/180. Biletul de întoarcere e luat, se poate schimba?
+2. Ai internet la țară (duminică 18 și 25 oct)? Te întorci duminică seara sau luni dimineața? (Luni la 10:00 ai stream în București.)
+3. Ziua notarului și a predării cheilor (am pus notarul marți 27, cheile miercuri 28 după stream), unde dormi 27–29 oct și ora zborului.
+4. Ce produse Bewit și Revu Natural folosești cu adevărat.
+5. Programarea la păr e „în jur de 1 noiembrie”: ești în Turcia atunci. O muți sau o faci acolo?
 
 ## Regula de aur
 
@@ -53,18 +69,18 @@ Tot ce e aici se bifează în **Pașii Kristinei**: categoria „Plecarea în Tu
 
 | Prioritate | Ce | Când |
 |---|---|---|
-| **Obligatoriu** | Zilele din Turcia numărate (90/180) | 15 oct |
+| **Obligatoriu** | Asigurarea de sănătate plătită | 15–16 oct |
+| **Obligatoriu** | Zilele din Turcia numărate (90/180); decizie la ora 12 | 15–16 oct |
+| **Obligatoriu** | Emailul către contabilă (15 oct) și către avocat (19 oct), răspuns scris până pe 26 oct | 15–26 oct |
+| **Obligatoriu** | Lotul 1 filmat la peretele alb (R1–R4, KM1, KM2), pe laptop și pe stick | 15–16 oct |
 | **Obligatoriu** | PDF-ul live, cu formular de email și test cu alt email | 16–20 oct |
-| **Obligatoriu** | Lotul 1 filmat (R1–R4, KM1), montat și programat | 19–20 oct |
-| **Obligatoriu** | Emailurile către contabilă și avocat, trimise | 20 oct |
 | **Obligatoriu** | eSIM, autentificare în doi pași, copii de siguranță în 2 locuri | 25–27 oct |
-| **Obligatoriu** | Notarul și predarea cheilor | 27 oct |
-| **Important** | Lotul 2 filmat (B1–B4, KM2–KM4) și montat | 26–27 oct |
+| **Obligatoriu** | Notarul și predarea cheilor | 27–28 oct |
+| **Important** | Fișierul Canva al e-book-ului deschis; KDP Select verificat | 15–16 oct |
+| **Important** | Lotul 2 filmat (B1–B4) și montat | 26–27 oct |
 | **Important** | Postările programate în Instagram și TikTok, verificate | 27–28 oct |
-| **Important** | Contractul Twitch Partner citit (exclusivitate) | 18 oct |
-| **Important** | Instagram: postările vechi arhivate și cererea de review trimisă | 18 oct |
-| **Dacă ai timp** | Cele 4 poze pătrate pentru PDF (aceeași ținută și perete) | 26 oct |
-| **Dacă ai timp** | Discord pentru abonați cu rol legat de Twitch | 28 oct |
+| **Important** | Contractul Twitch citit (exclusivitate); Instagram arhivat și review trimis | 18 oct |
+| **Dacă ai timp** | KM3 și KM4; Discord pentru abonați cu rol legat de Twitch | 22–26 oct |
 
 ---
 ## Calendar zi cu zi
@@ -73,66 +89,71 @@ Orele sunt estimări pentru tine singură. Fiecare zi are același grup în trac
 
 | Zi | Unde | Temă | Timp | Ce faci |
 |---|---|---|---|---|
-| Joi 15 oct | RO | Aterizare și lucruri mici | ~2 h | Panourile Twitch (About, bio, Rules), bannerul, programul în Twitch; mesajul către proprietar și cel pentru notar; îmi trimiți datele din Turcia (90/180); alegi colțul de filmat și stream |
-| Vin 16 oct | RO | Game night (primul cu pauze) | ~5 h | Cont Payhip (40 min), goalurile pe ecran (30 min), stream cu pauză de stretching la fiecare oră, 3 clipuri din stream, viewerii înainte și după pauze |
-| Sâm 17 oct | RO | Liber | 0 | Fără telefon de muncă. Sala e opțională. |
-| Dum 18 oct | RO | Instagram, formularul de email, conturile | ~4 h | Arhivezi postările mai vechi de 1 ian 2026 în loturi (ținta: gata azi) și trimiți cererea de review; grupul de email „Desk stretch” în MailerLite cu emailul de bun venit (60 min); TikTok-ul cu terapii devine @kmwellnessconcept; decizia pentru domeniu; citești contractul Twitch Partner (exclusivitate) |
-| Lun 19 oct | RO | Move Monday + lot de filmat 1 | ~4,5 h | Stream 10:00, apoi o oră de filmat: R1–R4 și KM1 pentru KM; scrii cele 5 descrieri pe loc; clipurile pe laptop și pe disc (2 locuri) |
-| Mar 20 oct | RO | PDF-ul live, montaj R1–R4, emailuri | ~5,5 h | Dimineața PDF-ul pe link permanent (Payhip, produs gratuit), formularul de email, Linktree și panoul Twitch, test cu alt email; montezi R1–R4 (2 h); emailurile la contabilă și la avocat, cu întrebările pentru Turcia; abia apoi postezi R1 ca Trial Reel |
-| Mie 21 oct | RO | Cook with me (clătitele) + K1 | ~5 h | Stream; în plus, K1 filmat de sus și 3 poze la 45° (45 min); postezi R2 |
-| Joi 22 oct | RO | Terapii, mutare, administrativ | ~5 h | Cele 2 terapii și masa pliantă (datele tale), documentele pentru avocat, programarea la psiholog; postezi R3 și KM1 pe KM; mesajul către Twitch Partner support |
-| Vin 23 oct | RO | Game night + R4 + carusel | ~5 h | Stream cu pauze; postezi R4 și caruselul C1; 3 clipuri din stream; fixezi sus coarda, yoga în iarbă și R1 |
-| Sâm 24 oct | RO | Liber | 0 | Liber. Dacă mutarea nu încape în altă zi, o iei pe cea de duminică și îți dai sâmbăta liberă în Turcia. |
-| Dum 25 oct | RO | Mutare (ziua 1), cifre, autentificare | ~5 h | Ceasul se dă înapoi cu 1 oră (04:00). Echipamentul de terapie la părinți (3 h); cifrele reel-urilor și ale stream-ului; TikTok nou @kristinemaia; eSIM și autentificarea în doi pași |
-| Lun 26 oct | RO | Move Monday + lot de filmat 2 | ~5 h | Stream 10:00 (ora României), apoi filmezi B1–B4 (mobilitate, 4 reel-uri) și pentru KM, KM2, KM3 și KM4 (câte 10 min la cameră). Opțional, 25 min: cele 4 poze pătrate pentru PDF, aceeași ținută și același perete. Ultima zi de filmat din România |
-| Mar 27 oct | RO | Montaj lot 2, programare, notar, chei | ~6 h | Montezi B1–B4, K1 și KM2–KM4 pentru KM; programezi tot în Instagram (și TikTok până pe 7 nov); notarul și predarea cheilor; copiile în 2 locuri |
-| Mie 28 oct | RO | Cook with me (ultimul din România), împachetat | ~6 h | Stream (K4 somon cu broccoli filmat de sus, poze); anunți sesiunea pentru abonați din 8 nov; Discord pentru abonați; împachetezi, programul din Twitch, TikTok programat până pe 7 nov |
-| Joi 29 oct | RO→TR | Zbor | 0 | Nimic de lucru. Postările programate ies singure (K2 pe KM, B1 pe Kristine Maia). Pașaportul la tine, eSIM-ul activat la aterizare. |
-| Vin 30 oct | TR | Test al colțului + Game night (opțional) | ~4 h | Testezi colțul (upload de 3 ori, microfon, fundal fără ferestre). Dacă upload-ul e sub ~6 Mbps sau nu ești odihnită, sari peste stream și anunți simplu; altfel Game night cu pauze |
+| Joi 15 oct | RO | Aterizare, decizii și emailul către contabilă | ~4 h | Ești în București până sâmbătă. Azi, ușor după aterizare: asigurarea de sănătate (URGENT) plătită; emailul către contabilă trimis; zilele din Turcia pentru 90/180; mesajele către proprietar și către cei 2 clienți; fișierul Canva al e-book-ului deschis; contul MailerLite; dacă ai energie, R1, R2 și KM1 filmate la peretele alb; panourile Twitch (restul pe vineri) |
+| Vin 16 oct | RO | Game night (primul cu pauze), Payhip și comenzi | ~5,5 h | Înainte de stream, la peretele alb: restul filmărilor din lotul 1 (R3, R4, KM1, KM2, ~45 min) și clipurile copiate pe laptop și pe stick; stream cu pauză de stretching la fiecare oră; cont Payhip (40 min); mesajul către moderatori; prima tranșă de 1.500 lei pentru avocat; masa pliantă și echipamentul lipsă comandate; duba rezervată; KDP Select verificat; starea profilului Google; decizia 90/180 la ora 12 |
+| Sâm 17 oct | RO | Liber · drum la țară | 0 | Fără telefon de muncă. Mergi la țară până duminică seara; sala e opțională. |
+| Dum 18 oct | RO | La țară: PDF-ul, formularul, Instagram și conturile | ~5 h | Ești la țară (e nevoie de internet; dacă nu e, hotspot sau rămâne pe luni). În ordine: PDF-ul citit și cu linkurile verificate, linkul permanent pe Payhip, apoi grupul de email și emailul de bun venit; documentele pentru avocat; arhivarea postărilor vechi și cererea de review; contractul Twitch (exclusivitate); TikTok-ul cu terapii devine @kmwellnessconcept; un clip de test în colțul ales |
+| Lun 19 oct | RO | Move Monday + montaj R1–R4 | ~5,5 h | Stream 10:00; apoi un cadru de 10 secunde din fiecare clip, descrierile (6) și montajul R1–R4; emailul către avocat (cu întrebările în plus); mesajul cu IBAN către cei 2 clienți; proprietarul confirmat sau sunat |
+| Mar 20 oct | RO | PDF-ul live, montaj KM1 și KM2 | ~2,5 h | Dimineața formularul și Linktree, apoi testul cu alt email (până la 12:00; fără el, R1 așteaptă sau iese cu linkul Payhip); montezi KM1 și KM2; abia apoi postezi R1 ca Trial Reel |
+| Mie 21 oct | RO | Cook with me (clătitele) + K1 | ~5 h | Stream; după el K1 filmat de sus, cu 3 poze la 45°, și 3 poze la bolul cu ton (pagina 25 din e-book); montezi K1; postezi R2; decizi ce spui în loc de „!ebook” |
+| Joi 22 oct | RO | Terapii și pregătirea mutării | ~5 h | Postezi R3 și KM1; trusa mobilă împachetată; cele 2 terapii (datele tale); lista „ce iei unde”; Discord-ul pentru abonați, testat cu un moderator; Instagram: dacă arhivarea nu s-a terminat, o termini acum |
+| Vin 23 oct | RO | Game night + carusel C1 | ~5 h | Stream cu pauze; caruselul C1 postat; 3 clipuri din stream; fixezi sus coarda, yoga în iarbă și R1 (sau R2, dacă R1 nu se poate fixa). Dacă proprietarul n-a confirmat notarul, treci pe confirmare scrisă |
+| Sâm 24 oct | RO | Liber · drum la țară cu cutiile | 0 | Liber de telefon de muncă. Drumul la țară cu cutiile și cu echipamentul de terapie (după a doua ședință) e mutare, nu muncă; dacă nu încape, îl muți pe duminică, nu pe altă zi liberă. Sâmbăta nu e zi de rezervă; rezerva pentru mutare e miercuri dimineața. |
+| Dum 25 oct | RO | La țară: cifre, conturi, Vinted | ~4 h | Ceasul se dă înapoi cu 1 oră (04:00). Ești la țară (internet?); seara înapoi în București. Cifrele; arhiva veche verificată; eSIM, autentificare în doi pași; programul din Twitch, cu ora de iarnă; internetul din Turcia întrebat; TikTok nou @kristinemaia |
+| Lun 26 oct | RO | Move Monday + lot de filmat 2 + go/no-go | ~5,5 h | Stream 10:00 (ora României); apoi B1–B4 (4 reel-uri de mobilitate), opțional KM3 și KM4, descrierile lotului 2, copii în 2 locuri; răspunsurile contabilei și ale avocatului citite: go/no-go pentru Turcia |
+| Mar 27 oct | RO | Notar, montaj B1, programare, împachetat | ~5,5 h | Notarul (confirmarea scrisă); citit contoare și anulat utilități; montezi B1; programezi K1, B1, KM2, R4 și K5, plus TikTok până pe 6 nov; lista „Înainte să postezi” pe fiecare; împachetezi tot, în afară de echipamentul de stream; asigurare și bilet |
+| Mie 28 oct | RO | Cook with me (ultimul din România), chei, răspuns automat | ~6 h | Stream (K4 somon cu broccoli filmat de sus); după stream echipamentul împachetat și cheile predate cu poze în fiecare cameră; răspuns automat pe KM și pe Google; copie finală; sesiunea pentru abonați anunțată, doar dacă go/no-go a dat „da” |
+| Joi 29 oct | RO→TR | Zbor | 0,5 h | Nimic de lucru, în afară de testul colțului seara. Postările programate ies singure (B1 pe Kristine Maia, KM2 pe KM). Pașaportul la tine, eSIM-ul activat la aterizare. |
+| Vin 30 oct | TR | Game night (opțional) | ~4 h | Dacă upload-ul e sub ~6 Mbps sau nu ești odihnită, sari peste stream; atunci Chill Sunday de pe 1 nov devine stream obligatoriu, ca săptămâna să aibă 3. Verifici lista postărilor programate |
 | Sâm 31 oct | TR | Liber | 0 | Liber, fără telefon de muncă. |
-| Dum 1 nov | TR | Cifre și plan | ~1,5 h | Cifrele reel-urilor și ale stream-ului, punctele Plus; verifici răspunsul de la Instagram (review) și că postările programate au ieșit; planul săptămânii |
-| Lun 2 nov | TR | Move Monday + montaj | ~4,5 h | Stream 10:00 ora României (11:00 în Turcia); după el montezi 2 reel-uri din bancă; TikTok programat pe web pentru 8–16 nov |
-| Mar 3 nov | TR | E-book în Canva, partea 1 | ~4 h | Paginile 3, 5, 6, 8, 11, 12 și 13 din e-book (textele sunt gata de copiat); o oră de montaj |
-| Mie 4 nov | TR | Cook with me | ~4 h | Stream cu o rețetă din e-book (dacă nu ai bucătărie, îl înlocuiești cu un stream de întrebări și stretching) |
-| Joi 5 nov | TR | Media kit, carusel și recenzii | ~4 h | Media kitul de o pagină (90 min); caruselul C2 pentru duminică (60 min); recenziile către 3 clienți, dacă Google a aprobat profilul; KM3 pe KM iese singur |
-| Vin 6 nov | TR | Game night + amintire pentru abonați | ~4,5 h | Stream cu pauze; amintești de sesiunea de duminică; TikTok programat până pe 16 nov |
+| Dum 1 nov | TR | Cifre și plan | ~2,5 h | Cifrele reel-urilor și ale stream-ului, punctele Plus; cele 3 întrebări de siguranță; testul de înscriere repetat; răspunsul de la Instagram (review) citit; domeniul kristinemaia.com; planul săptămânii |
+| Lun 2 nov | TR | Move Monday + montaj B2 și reelul din stream | ~5 h | Stream 10:00 ora României (11:00 în Turcia); montezi B2 (pentru marți) și reelul din stream (cu numele din chat ascunse); le programezi, cu ora verificată; TikTok 7–12 nov |
+| Mar 3 nov | TR | E-book în Canva, partea 1 + B3 | ~4 h | Întâi cele 3 pagini cu text de schiță (5, 8, 15) și titlurile (3, 33); montezi B3 (pentru marți 10 nov) și îl programezi |
+| Mie 4 nov | TR | Cook with me | ~4 h | Stream cu o rețetă din e-book (dacă nu ai bucătărie, „Întrebări + stretching”); KM3 montat și programat, dacă l-ai filmat |
+| Joi 5 nov | TR | Media kit și carusel C2 | ~3,5 h | Media kitul de o pagină (90 min), doar dacă go/no-go nu e „nu”; caruselul C2, programat pentru duminică; K5 iese singur; fără mesaje către clienți |
+| Vin 6 nov | TR | Game night + TikTok 13–16 nov | ~4,5 h | Stream cu pauze; reelul din stream iese singur; TikTok programat pentru 13–16 nov; amintire pentru sesiunea de abonați, doar dacă ai dat „da” |
 | Sâm 7 nov | TR | Liber | 0 | Liber. |
-| Dum 8 nov | TR | Prima sesiune live pentru abonați | ~2,5 h | 30 de minute de mobilitate, înregistrate și puse în Discord; cifrele |
-| Lun 9 nov | TR | Move Monday + montaj | ~4,5 h | Stream; montezi reelul din arhiva veche (dacă trece cele 4 întrebări) sau bolul de ton |
-| Mar 10 nov | TR | E-book în Canva, partea 2 | ~4 h | Paginile 14, 15, 25, 33, lista de cumpărături, pagina bonus și cuprinsul |
-| Mie 11 nov | TR | Cook with me | ~4 h | Stream cu o rețetă din e-book |
-| Joi 12 nov | TR | Primele 6 emailuri către branduri | ~3 h | Emailurile către branduri (contracte doar cu părți din afara Turciei); brief-ul pentru coperta nouă; KM4 iese singur pe KM |
-| Vin 13 nov | TR | Game night | ~4 h | Stream cu pauze; ultimul din test |
+| Dum 8 nov | TR | Sesiunea pentru abonați, doar dacă ai răspunsul scris „da” | ~2,5 h | Dacă go/no-go a dat „da”: 30 de minute de mobilitate pentru abonați, înregistrate și puse în Discord. Altfel e pe 22 nov, în România, iar ziua de azi e liberă. Caruselul C2 iese singur |
+| Lun 9 nov | TR | Move Monday + montaj K4 și B4 | ~5 h | Stream; montezi K4 (pentru joi) și B4 (pentru vineri) și le programezi, cu ora verificată |
+| Mar 10 nov | TR | E-book în Canva, partea 2 + export | ~4,5 h | Greșelile mici de pe paginile 6, 11, 12, 13; graficul de la 14; pagina 25; lista de cumpărături; pagina bonus; cuprinsul; exportul și comprimarea |
+| Mie 11 nov | TR | Cook with me | ~3,5 h | Stream cu o rețetă din e-book (sau „Întrebări + stretching”); KM4 montat și programat, dacă l-ai filmat |
+| Joi 12 nov | TR | Emailurile către branduri (doar cu „da”) | ~3 h | Cele 6 emailuri, cu textele corectate, doar către branduri din afara Turciei și doar dacă go/no-go nu e „nu”; altfel pe 16 nov. Briefing-ul pentru coperta nouă |
+| Vin 13 nov | TR | Game night | ~3,5 h | Stream cu pauze; viewerii medii înainte și după pauză notați imediat; B4 iese singur |
 | Sâm 14 nov | TR | Liber | 0 | Liber. Faci bagajul. |
-| Dum 15 nov | TR→RO | Bilanț | ~2 h | Cele 8 cifre ale lunii, rezultatul testului cu pauzele de stretching, clipurile noi, deciziile: formatul care rămâne, data săptămânii de studio din decembrie |
+| Dum 15 nov | TR→RO | Bilanț (scurt) și colțul nou | ~1,5 h | Cifrele lunii, rezultatul testului cu pauzele, deciziile; colțul de acasă pregătit seara |
 
 ---
 
 ## Ce iese în fiecare zi (postări programate)
 
-Le programezi în Romania, pe **27 și 28 octombrie**, după montaj. Verifici fusul orar al contului înainte. Muzica în tendință nu se poate atașa unui reel programat, deci folosești muzica din bibliotecă.
+Le programezi din România, pe **27 și 28 octombrie**, după montaj. Verifici fusul orar al contului înainte. Muzica în tendință nu se poate atașa unui reel programat, deci folosești muzica din bibliotecă.
 
 ```
 Instagram Kristine Maia (engleză)
 Mar 20 oct  R1 Neck after 4 hours of gaming (Trial Reel)
 Mie 21 oct  R2 60-second stretch break, do it with me
 Joi 22 oct  R3 Wrists for mouse and keyboard
-Vin 23 oct  R4 5-minute morning desk reset + carusel C1
-Mar 27 oct  K1 Protein pancakes in 15 minutes
+Vin 23 oct  Carusel C1 Why your neck hurts after 4 hours of gaming
+Mie 28 oct  K1 Protein pancakes in 15 minutes (la 7 zile după filmare)
 Joi 29 oct  B1 Hips after a long stream
-Vin 30 oct  B2 Lower back after a desk day
-Mar 3 nov   B3 Upper back and shoulders (the gamer hunch)
-Joi 5 nov   K5 White fish with rice & veggies
-Vin 6 nov   Reel din stream: chat doing the stretch break with me
-Dum 8 nov   Carusel C2: 3 things I do after every stream
-Mar 10 nov  B4 Warm-up before gaming: 4 moves in 1 minute
+Vin 30 oct  R4 5-minute morning desk reset (ținut pentru Turcia)
+Mar 3 nov   B2 Lower back after a desk day
+Joi 5 nov   K5 White fish with rice & veggies (doar dacă a fost filmat curat)
+Vin 6 nov   Reel din stream: 2-minute rope break with the chat (Dope Rope, #ad, cod KRISTINEMAIA)
+Dum 8 nov   Carusel C2 3 things I do after every stream
+Mar 10 nov  B3 Upper back and shoulders (the gamer hunch)
 Joi 12 nov  K4 Salmon & garlic broccoli
-Vin 13 nov  From my archive: 3 moves for a stiff lower back (dacă trece cele 4 întrebări; altfel reelul cu bolul de ton)
+Vin 13 nov  B4 Warm-up before gaming: 4 moves in 1 minute
 
 Instagram KM Wellness Concept (română), joi
-22 oct KM1 · 29 oct KM2 · 5 nov KM3 · 12 nov KM4
+22 oct KM1 · 29 oct KM2 · 5 nov KM3 (dacă l-ai filmat) · 12 nov KM4 (dacă l-ai filmat)
 
-TikTok (web, maxim 10 zile înainte): programezi pe 28 oct până pe 7 nov, apoi din Turcia pe 6–7 nov până pe 16 nov.
+Ce programezi de unde:
+27 oct, din România: K1, B1, KM2, R4, K5 (5 postări) și TikTok până pe 6 nov
+2 nov, din Turcia: B2 și reelul din stream; TikTok 7–12 nov
+3 nov: B3 · 9 nov: K4 și B4 · 4 și 11 nov: KM3 și KM4
+6 nov: TikTok 13–16 nov
+La fiecare programare din Turcia verifici că ora afișată e ora României. Sâmbăta nu postezi nimic manual.
 ```
 
 **KM1–KM4 (contul KM, în română):** KM1 „3 semne că ai nevoie de masaj de recuperare după birou”, KM2 „Ce este drenajul limfatic”, KM3 „Cum arată o ședință de masaj de recuperare, pas cu pas” (fără promisiuni medicale), KM4 „Întrebările pe care le pun la prima ședință” (propunere).
@@ -141,47 +162,123 @@ TikTok (web, maxim 10 zile înainte): programezi pe 28 oct până pe 7 nov, apoi
 
 ---
 
+## Cât de lungi să fie stream-urile și cu ce le umpli
+
+Ai construit comunitatea cu stream-uri de 6–7 ore, combinând activități: mic dejun, yoga, gătit, gaming. Ideea e bună și o păstrăm, dar în altă formă. Regula ta din noiembrie e **12–16 ore live pe săptămână**, iar orele contează (când ai scăzut cu 68%, ai pierdut 23% din viewerii medii). Problema nu e lungimea, ci timpul: cât ești în mutare și fără ședințe, un stream de 7 ore îți mănâncă ziua întreagă, iar ziua aceea e și ziua de filmat, de montat și de somn.
+
+**Propunerea (se ridică treptat):**
+- **Până pe 28 octombrie (mutare): 3–3,5 ore pe stream**, luni, miercuri, vineri. ~10 ore pe săptămână.
+- **Din 30 octombrie, în Turcia: 4–4,5 ore pe stream** (zilele sunt mai ușoare). 12–13 ore pe săptămână, în țintă.
+- **Din 16 noiembrie, după bilanț: o zi pe săptămână de 5–6 ore**, doar dacă numărul de viewer și somnul o permit.
+
+**Rutina combinată, în trei formate (le ai deja):**
+- **Move Monday (10:00):** mic dejun simplu gătit în stream (20–30 min), segmentul de mobilitate sau yoga ușoară (45 min), apoi gaming până la finalul orei.
+- **Cook with me (miercuri):** gătitul (1–1,5 ore), mâncatul împreună cu chatul (30 min), apoi gaming sau o oră de „Întrebări + stretching”.
+- **Game night (vineri):** gaming cu pauză de stretching de 2 minute la fiecare oră.
+- **Chill Sunday (opțional, 2 ore):** pictură sau recuperare; se transformă în stream obligatoriu doar dacă ai sărit peste vineri.
+
+**De ce merge:** variația ține chatul treaz, fiecare activitate îți dă alt tip de clip, iar tot ce filmezi în stream devine conținut.
+
+**3 clipuri după fiecare stream.** Am pus pasul în fiecare stream din tracker: alegi 3 clipuri de 30–60 de secunde din VOD sau din markerele puse în timpul live-ului, le salvezi în `01_BRUT/clipuri-stream`, cu data în nume. Din ele ies reelul „din stream” de pe 6 nov și materialul pentru următoarele săptămâni.
+
+---
+
+## Colaborările: Dope Rope, Bewit, Revu Natural
+
+Ai trei coduri: **Dope Rope** (coarda) KRISTINEMAIA 10%, **Revu Natural** KRISTINE20 20%, **Bewit** KRISTINE15 15%. Cum scoți bani din ele fără să te schimbi în reclamă:
+
+1. **Un brand pe stream, o dată pe stream, 60 de secunde.** Luni: Dope Rope (coarda, încălzire sau pauză de coardă). Miercuri: Bewit, doar produsele pe care le folosești cu adevărat. Vineri: Revu Natural (rutina de recuperare după o seară lungă, umeri și gât). Spui „afiliere”; comenzile din chat (!coarda, !bewit, !revu) răspund cu codul.
+2. **Un reel pe săptămână, cel mult, făcut din ce filmezi oricum.** Cel mai bun candidat: pauza de coardă din Game night (vineri 23 oct), tăiată pentru reelul din stream de pe 6 nov. Reelul cu coarda e cel mai bun al tău (12,6K vizualizări), deci merită repetat. Din Turcia nu creezi livrabile noi pentru branduri.
+3. **Aceleași patru locuri, tot timpul:** Linktree (cele 3 coduri), panourile și comenzile de pe Twitch, highlight-ul CODES de pe Instagram, descrierile reel-urilor.
+4. **Cu #ad și fără cuvinte interzise.** „Afiliere” și #ad la fiecare mențiune; niciodată „fix”, „cure”, „treat”, „heal”, „relieve pain”.
+5. **Cifrele lunare.** Le ceri fiecărui brand: câte vânzări a adus codul. Le notezi în lista lunară; după 2 luni vezi care merită mai mult loc.
+6. **Avocatul citește:** întrebarea despre afiliere e în emailul către el.
+
+Pașii sunt în tracker, în „Produse și colaborări” (pc1–pc3). Ca să-i pun în rotație, am nevoie de lista produselor Bewit și Revu pe care le folosești cu adevărat.
+
+---
+
+## Fișiere: stick-ul, folderele și numele
+
+Da, pune-le pe stick, dar ca **a doua copie**, nu ca singura. Regula: laptop + stick + cloud. Stick-ul nu stă în aceeași geantă cu laptopul (un furt ia ambele).
+
+```
+STICK/
+  01_BRUT/            clipurile brute (și 01_BRUT/clipuri-stream/)
+  02_EDITAT/          reel-urile montate
+  03_PROGRAMAT/       copia a ce e programat, cu data postării în nume
+  04_PDF-EBOOK/       PDF-ul, exporturile Canva, textele e-book-ului, „Ebook - Final.pdf”, baza de date nutriționale
+  05_ACTE/            confirmări de plată, contracte; doar dacă stick-ul e criptat
+```
+
+Numele: `AAAA-LL-ZZ_cont_cod_titlu`, de exemplu `2026-10-29_KM_B1_hips.mp4` sau `2026-10-28_EN_K1_pancakes.mp4`. Pe telefon ai și reel-urile gata de programat, pentru că programarea se face din telefon. Dacă nu criptezi stick-ul, în 05_ACTE nu pui nimic.
+
+---
+
+## Bani, facturi și programări
+
+Categoria „Bani, facturi și programări (lunar)” din tracker:
+- **URGENT:** asigurarea de sănătate pe anul acesta; contabila îți spune suma și termenul.
+- **Avocat:** a doua și ultima tranșă (2 × 1.500 lei luna asta): vineri 16 și miercuri 28 oct.
+- **Lunar (octombrie pe 25, noiembrie pe 30):** Engie, PPC, Digi, MyInfo, Netflix, Claude, Instagram verified plătite; chiria primită; facturile trimise în contabilitate; facturile de plătit plătite; programările lunii.
+- **Programări:** unghii (data o notezi), păr (~1 nov, dar ești în Turcia).
+- **Anual:** asigurarea mașinii și rovinieta (notezi datele de expirare; dacă expiră cât ești plecată, plătești înainte).
+- **Vinted, la țară:** 10–15 piese cu poze, titluri și prețuri (duminică 25 oct).
+- **Grupul de moderatori:** mesajul despre regula cu trecutul e gata de copiat (vineri 16 oct).
+
+---
 ## Turcia: rutina și regulile
 
 **Ritmul săptămânii (3 streamuri, 1 zi cu montaj și 1 zi cu Canva):**
 - **Luni:** Move Monday, 10:00 ora României (11:00 în Turcia după 25 oct), apoi montaj de 45 min.
 - **Marți (3 și 10 nov):** e-book în Canva, în blocuri de 2 × 90 min.
 - **Miercuri:** Cook with me, cu o rețetă din e-book (dacă nu ai bucătărie, stream de întrebări și stretching).
-- **Joi (5 și 12 nov):** administrativ (media kit, emailuri către branduri).
+- **Joi (5 și 12 nov):** administrativ (media kit, emailuri către branduri, doar cu „da” scris).
 - **Vineri:** Game night, cu pauză de stretching la fiecare oră.
 - **Sâmbătă:** liber, fără telefon de muncă.
-- **Duminică:** cifrele și planul săptămânii (8 nov: sesiunea pentru abonați).
+- **Duminică:** cifrele și planul săptămânii (8 nov: sesiunea pentru abonați, doar cu „da” scris; altfel pe 22 nov).
 
 **Regulile pe scurt:**
-- Fără terapie, clienți sau bani locali. Contracte și plăți doar cu părți din afara Turciei, către firma din România.
+- Fără terapie, clienți, programări sau bani locali. Pe @kmwellnessconcept și pe Google pui un răspuns automat „Revin cu programările din 16 noiembrie”, fără motiv.
+- Contracte, prețuri și livrabile sponsorizate nu se negociază și nu se semnează din Turcia.
 - Fără sala din Turcia în cadru, nici în fundal.
-- Fără ferestre, oraș, adresă sau locație marcată în cadru; postările rămân cu locația nemarcată, iar reperele de loc se postează cu 7 zile întârziere.
+- Fără ferestre, oraș, adresă sau locație marcată în cadru; postările rămân cu locația nemarcată. Filmările cu fundal neutru pot ieși a doua zi; orice are un reper de loc așteaptă 7 zile.
 - Programul rămâne pe ora României.
 - Maxim 90 din 180 de zile. Numeri zilele.
 - Dacă somnul e sub 6 ore trei nopți la rând, sau ratezi un stream, sau ți-e groază să deschizi chatul: treci pe varianta minimă.
 
-**Internet și conturi:** eSIM de date (10–25 €), SIM-ul românesc doar pentru SMS și autentificare. Amazon KDP și Spotify nu le atingi din Turcia.
+**Internet și conturi:** eSIM de date ca legătură de urgență (10–25 €), SIM-ul românesc doar pentru SMS și autentificare. Amazon KDP și Spotify nu le deschizi din Turcia.
 
 ---
-## Dacă nu ajungi: varianta minimă
+## Dacă nu ajungi: lista de tăiat, în ordine
+
+Când o zi alunecă, tai în ordinea asta:
+1. Cele 4 poze pătrate pentru PDF (ies din plan).
+2. KM4, apoi KM3, și postul și răspunsurile de pe Google.
+3. Reelul din arhivă și caruselul C2.
+4. Media kitul (90 min) și emailurile către branduri (120 min) merg pe 16–20 nov.
+5. B4 și reelul din stream.
+6. Streamul de vineri 30 oct și Chill Sunday.
+7. Paginile 14, 25, lista de cumpărături și bonusul din e-book, după întoarcere; rămân 5, 8 și 15.
+
+**Nu tai niciodată:** emailurile către contabilă și avocat trimise, numărătoarea 90/180, PDF-ul live cu testul de înscriere, notarul și cheile, eSIM-ul, copiile de siguranță și autentificarea în doi pași, R1 și R2 postate, cele 3 streamuri pe săptămână (2 în varianta minimă) și sâmbăta liberă.
 
 | Dacă… | Atunci… |
 |---|---|
-| Lotul 2 din 26 oct nu se filmează | Programezi doar lotul 1 și K1, K4, K5. Din 6 nov postezi cu pauze: 2 reel-uri pe săptămână în loc de 3 |
+| Lotul 2 din 26 oct nu se filmează | Programezi R4, K1, K5 și B1; din 6 nov postezi 2 reel-uri pe săptămână în loc de 3 |
 | Upload-ul din Turcia e sub ~6 Mbps | Streamezi doar luni și vineri; miercuri înlocuiești cu un anunț și un clip programat |
-| Răspunsul avocatului e „nu” pentru munca din Turcia | Streamul din Turcia se oprește (Vacation Mode), rămân reel-urile programate și e-book-ul |
-| Mutarea nu încape | Mutarea trece pe seara de sâmbătă și pe duminică; sâmbăta liberă o iei în Turcia |
+| Răspunsul avocatului sau al contabilei nu e „da” | Regim prudent: streamuri, reel-uri programate și e-book; restul pe 16 nov |
+| Mutarea nu încape | Partea de la țară și cutiile nepermanente merg pe 17–18 nov; sâmbăta nu e zi de rezervă |
 | Somnul scade sub 6 ore trei nopți | 2 streamuri pe săptămână, 2 reel-uri, două săptămâni |
+| Fișierul Canva lipsește | Marți 3 și 10 nov devin zile de montaj; e-book-ul trece pe după întoarcere, iar data de pe KDP se mută |
 
 ---
 
-## Ce nu facem acum
+## Amânat conștient (nu e uitat)
 
-- Studioul de 4 zile: rămâne în decembrie; data o hotărăști pe 15 noiembrie.
-- Kick: abia după ce citești clauza de exclusivitate.
-- Spotify: opțional, după întoarcere, din România.
-- Reel-ul din arhiva veche de yoga: doar dacă trece cele 4 întrebări (ținută, cadru, text, muzică).
-- Caruselul C3 și cele 6 emailuri către branduri trimise în masă: C3 după întoarcere, emailurile pe 12 nov, doar către părți din afara Turciei.
+- **Decembrie:** săptămâna de studio cu programul de 30 de zile și montajul lui (data o hotărăști pe 15 nov).
+- **După 16 nov:** KDP (încărcarea), coperta nouă, linkul de plată și sediul firmei (după contabilă), recenziile și postul pe Google, partea de la țară a mutării, conținutul vechi (StopNCII, DMCA), caruselul C3.
+- **Opțional:** PDF v1.1 cu pozele tale, Spotify, ediția directă pe Payhip (după rezultatul de la KDP Select și după 23 nov).
 
 ---
 
