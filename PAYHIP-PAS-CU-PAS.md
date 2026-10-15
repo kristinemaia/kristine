@@ -22,7 +22,8 @@ Caută în **Settings** zona pentru magazin (poate apărea ca **Store**, **Profi
 |---|---|
 | Numele magazinului | `Kristine Maia` |
 | Adresa (URL) | `kristinemaia` → payhip.com/kristinemaia |
-| Poza de profil | aceeași ca pe Instagram și Twitch |
+| Logo-ul magazinului (Store logo) | `payhip-logo-1000x1000.png`; dacă Payhip vrea un logo lat (în antet), `payhip-logo-orizontal-1200x300.png` |
+| Poza de profil (dacă o cere separat) | aceeași ca pe Instagram și Twitch |
 | Bannerul (header) | `payhip-banner-1500x500.png` |
 | Culoarea | `#8A3459` (vișiniul din banner) |
 | Linkuri sociale | Instagram @kristinemaia11, Twitch twitch.tv/kristinemaia |

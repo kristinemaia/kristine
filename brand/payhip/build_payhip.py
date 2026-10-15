@@ -10,7 +10,7 @@ def b64(f):
 P1, P2 = b64('prev-desk-stretch-2.png'), b64('prev-desk-stretch-1.png')
 CSS = """
 :root{--bg:#FFF9F6;--ink:#2B2431;--muted:#5C5466;--pink:#F8DCE6;--pink2:#F1C3D6;--berry:#8A3459;--blue:#DDE9F7;--mint:#D8F0E4;--lilac:#E9E1F7;--lilac-ink:#4C3A78}
-*{box-sizing:border-box}body{margin:0}
+*{box-sizing:border-box}body{margin:0;background:transparent}
 .c{position:relative;overflow:hidden;background:var(--bg);color:var(--ink);font-family:Figtree,sans-serif}
 .sh{position:absolute;border-radius:50%}
 h1{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-.035em;margin:0;line-height:.95}
@@ -62,7 +62,7 @@ const { chromium } = require('playwright');
 (async () => { const [html, out, w, h] = process.argv.slice(2); const b = await chromium.launch();
  const p = await b.newPage({ viewport: { width: +w, height: +h }, deviceScaleFactor: 1 });
  await p.goto('file://' + html, { waitUntil: 'networkidle' }); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300);
- await (await p.$('#c')).screenshot({ path: out }); await b.close(); })();
+ await (await p.$('#c')).screenshot({ path: out, omitBackground: true }); await b.close(); })();
 """
 def render(name, body, w, h):
     doc = ('<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@600;700&display=swap" rel="stylesheet"><style>%s</style></head><body>%s</body></html>') % (CSS, body)
@@ -74,6 +74,18 @@ def render(name, body, w, h):
     subprocess.run(['node', js, html, os.path.join(HERE, name), str(w), str(h)], check=True, env=env)
     os.unlink(html); os.unlink(js)
     print('gata:', name)
+LOGO = card(1000, 1000, """
+<div class="sh" style="width:620px;height:620px;left:-170px;top:520px;background:var(--pink)"></div>
+<div class="sh" style="width:520px;height:520px;right:-180px;top:-180px;background:var(--lilac)"></div>
+<div class="sh" style="width:240px;height:240px;right:120px;bottom:-60px;background:var(--mint)"></div>
+<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
+ <h1 style="font-size:190px;line-height:.86">Kristine<br>Maia</h1>
+ <p style="font-size:40px;font-weight:700;color:var(--berry);margin:34px 0 0;letter-spacing:.06em">MOVE · RECOVER · EAT WELL</p>
+</div>
+""")
+WORD = '<div class="c" id="c" style="width:1200px;height:300px;background:transparent;display:flex;align-items:center;justify-content:center"><h1 style="font-size:150px">Kristine Maia<span style="color:var(--berry)">.</span></h1></div>'
+render('payhip-logo-1000x1000.png', LOGO, 1000, 1000)
+render('payhip-logo-orizontal-1200x300.png', WORD, 1200, 300)
 render('payhip-produs-1280x720.png', WIDE, 1280, 720)
 render('payhip-produs-1080x1080.png', SQUARE, 1080, 1080)
 render('payhip-banner-1500x500.png', BANNER, 1500, 500)

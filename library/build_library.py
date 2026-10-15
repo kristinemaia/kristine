@@ -81,8 +81,8 @@ GROUPS = [
         "items": [
             {"kind": "img", "slug": "payhip-img", "title": "Imaginile pentru Payhip",
              "base": "brand/payhip", "keep": True,
-             "images": ["payhip-produs-1280x720.png", "payhip-produs-1080x1080.png", "payhip-banner-1500x500.png"],
-             "desc": "Coperta PDF-ului gratuit (lată și pătrată) și bannerul magazinului."},
+             "images": ["payhip-logo-1000x1000.png", "payhip-logo-orizontal-1200x300.png", "payhip-produs-1280x720.png", "payhip-produs-1080x1080.png", "payhip-banner-1500x500.png"],
+             "desc": "Logo-ul magazinului (pătrat și orizontal, fundal transparent), coperta PDF-ului gratuit (lată și pătrată) și bannerul."},
             {"kind": "img", "slug": "twitch-banner", "title": "Bannerul Twitch (2 mărimi)",
              "base": "brand/twitch", "keep": True,
              "images": ["twitch-banner-2400x960.png", "twitch-banner-1200x480.png"],
