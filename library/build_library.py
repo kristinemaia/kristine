@@ -89,6 +89,9 @@ GROUPS = [
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
+            {"kind": "pdf", "slug": "calendar", "title": "Calendarul săptămânal, de printat (17 oct – 15 nov)",
+             "src": "calendar/Calendar-saptamanal.pdf", "name": "Calendar-saptamanal.pdf",
+             "desc": "O pagină pe săptămână, pe zile, colorat pe tipuri (stream, conținut, postare, bani, sală, viață), cu loc de notițe; plus o pagină goală pentru săptămânile următoare."},
             {"kind": "doc", "slug": "plan-turcia", "title": "Planul 15 octombrie – 15 noiembrie", "src": "PLAN-TURCIA.md",
              "desc": "România până pe 28 oct, Turcia până pe 15 nov: ce filmezi, ce programezi și ce faci zi cu zi."},
             {"kind": "doc", "slug": "emailuri-contabila-avocat", "title": "Emailuri către contabilă și avocat",
