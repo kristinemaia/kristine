@@ -79,6 +79,10 @@ GROUPS = [
         "id": "brand", "name": "Brand", "note": "Bannere și imagini pentru conturile tale",
         "zip": ("Brand-Kristine.zip", "brand"),
         "items": [
+            {"kind": "img", "slug": "payhip-img", "title": "Imaginile pentru Payhip",
+             "base": "brand/payhip", "keep": True,
+             "images": ["payhip-produs-1280x720.png", "payhip-produs-1080x1080.png", "payhip-banner-1500x500.png"],
+             "desc": "Coperta PDF-ului gratuit (lată și pătrată) și bannerul magazinului."},
             {"kind": "img", "slug": "twitch-banner", "title": "Bannerul Twitch (2 mărimi)",
              "base": "brand/twitch", "keep": True,
              "images": ["twitch-banner-2400x960.png", "twitch-banner-1200x480.png"],
@@ -89,6 +93,8 @@ GROUPS = [
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
+            {"kind": "doc", "slug": "payhip", "title": "Payhip, pas cu pas (PDF-ul gratuit)", "src": "PAYHIP-PAS-CU-PAS.md",
+             "desc": "Ce e Payhip, profilul, produsul gratuit, textele în engleză, testul și unde pui linkul."},
             {"kind": "pdf", "slug": "calendar", "title": "Calendarul săptămânal, de printat (17 oct – 15 nov)",
              "src": "calendar/Calendar-saptamanal.pdf", "name": "Calendar-saptamanal.pdf",
              "desc": "O pagină pe săptămână, pe zile, colorat pe tipuri (stream, conținut, postare, bani, sală, viață), cu loc de notițe; plus o pagină goală pentru săptămânile următoare."},
@@ -107,7 +113,7 @@ GROUPS = [
             {"kind": "doc", "slug": "filmare-sala", "title": "Filmarea reel-urilor la sală", "src": "@FILMARE-SALA.md",
              "desc": "Pas cu pas, pentru sala din București."},
             {"kind": "doc", "slug": "emailuri-branduri", "title": "Primele 6 emailuri către branduri",
-             "src": "@EMAILURI-BRANDURI.md", "desc": "Texte gata de trimis și cum le trimiți."},
+             "src": "EMAILURI-BRANDURI.md", "desc": "Texte gata de trimis și cum le trimiți."},
             {"kind": "doc", "slug": "mutare", "title": "Mutarea din apartament", "src": "MUTARE.md",
              "desc": "Decizia, pașii și mesajul pentru proprietar."},
             {"kind": "doc", "slug": "stergere-continut", "title": "Ștergerea conținutului vechi",

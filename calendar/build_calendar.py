@@ -14,45 +14,46 @@ CAT = {  # cod: (eticheta, fundal, text)
 }
 
 WEEKS = [
- dict(title='Weekendul 17–18 octombrie', where='București → țară', goal='Mutarea gata; PDF-ul pregătit; reel-urile filmate', days=[
-   ('Sâm 17', [('V', 'Ultimele lucruri din mutare'), ('C', 'Dacă apuci dimineața: R1–R4 și KM1–KM4 (lista de filmat)'), ('V', 'Drum la țară')]),
-   ('Dum 18', [('A', 'Payhip, PDF pe link permanent, grup MailerLite + email de bun venit'), ('A', 'Documente pentru avocat'), ('A', 'Instagram: arhivare + cerere de review'), ('A', 'Contract Twitch: exclusivitate'), ('C', 'Filmat R1–R4, KM1–KM4, dacă n-ai făcut sâmbătă'), ('V', 'Seara înapoi în București')]),
+ dict(title='Vineri 16 – duminică 18 octombrie', where='București → țară (sâmbătă)', goal='Mutarea gata; reel-urile filmate la țară', days=[
+   ('Vin 16', [('V', 'Ultimele lucruri mutate'), ('A', 'Avocat: tranșa 1 (1.500 lei)'), ('A', 'Twitch: goal-uri, cadoul de la Kelly, About, 5 clipuri'), ('C', 'Dacă apuci: R1–R4 la un perete simplu'), ('S', 'Game night, doar dacă ai energie')]),
+   ('Sâm 17', [('G', 'Sală, dimineața'), ('V', 'Drum la țară'), ('C', 'Filmat: R1–R4, KM1–KM4 (lista de filmat)'), ('C', 'Dacă ai timp: K1 clătite + poze ton'), ('S', 'Opțional: stream scurt de la țară')]),
+   ('Dum 18', [('V', 'Liber'), ('V', 'Seara înapoi în București')]),
  ]),
- dict(title='Săptămâna 1 · 19–25 octombrie', where='București; weekend la țară', goal='PDF-ul live și primele reel-uri', days=[
-   ('Lun 19', [('S', 'Move Monday 10:00 (3 h)'), ('C', 'Montaj R1–R4 + 6 descrieri'), ('A', 'Email la avocat (seara)'), ('A', 'IBAN către cei 2 clienți')]),
-   ('Mar 20', [('A', 'PDF live: formular, Linktree, test cu alt email (până la 12)'), ('C', 'Montaj KM1, KM2'), ('P', 'R1 · 17:00 (Trial Reel)'), ('G', 'Sală, dimineața')]),
-   ('Mie 21', [('S', 'Cook with me + cacao Bewit'), ('C', 'K1 clătite filmat de sus + poze ton'), ('C', 'Montaj K1'), ('P', 'R2 · 17:00'), ('G', 'Sală (sau vineri)')]),
-   ('Joi 22', [('V', 'Cele 2 terapii'), ('P', 'R3 · 17:00 · KM1 · 19:00'), ('A', 'Discord abonați, testat')]),
-   ('Vin 23', [('S', 'Game night: pauză cu coarda, Revu la final'), ('P', 'Carusel C1'), ('C', '3 clipuri din stream')]),
-   ('Sâm 24', [('V', 'Liber · drum la țară cu cutiile'), ('G', 'Sală (opțional)')]),
-   ('Dum 25', [('V', 'Ceasul −1 h (ora de iarnă)'), ('A', 'Cifre + cele 3 întrebări'), ('A', 'eSIM, 2FA, program Twitch'), ('A', 'Lista lunară octombrie'), ('V', 'Vinted · seara înapoi')]),
+ dict(title='Săptămâna 1 · 19–25 octombrie', where='București; weekend la țară', goal='PDF-ul gratuit live, primele reel-uri, emailurile către branduri; TikTok zilnic', days=[
+   ('Lun 19', [('S', 'Stream 10–11 (Move Monday)'), ('C', 'Montaj R1–R4 + descrieri'), ('A', 'Adresele de colaborări la cele 6 branduri'), ('A', 'TikTok @kristinemaia + primul clip'), ('A', 'Instagram: arhivare + review'), ('G', 'Sală')]),
+   ('Mar 20', [('A', 'PDF-ul pe Payhip (ghidul pas cu pas) + test'), ('C', 'Montaj KM1, KM2'), ('P', 'R1 · 17:00, după test'), ('S', 'Stream de marți'), ('G', 'Sală')]),
+   ('Mie 21', [('S', 'Cook with me + cacao Bewit (#ad)'), ('A', 'Media kit (90 min)'), ('C', 'Montaj K1, dacă e filmat'), ('P', 'R2 · 17:00; programat R3 + KM1'), ('G', 'Sală')]),
+   ('Joi 22', [('V', 'Liber'), ('P', 'R3 și KM1 ies singure')]),
+   ('Vin 23', [('S', 'Game night: pauză cu coarda, Revu la final'), ('A', '6 emailuri către branduri'), ('A', 'Avocat: tranșa 2 (ultima)'), ('P', 'Carusel C1'), ('G', 'Sală')]),
+   ('Sâm 24', [('G', 'Sală'), ('V', 'Drum la țară cu cutiile'), ('C', 'Filmat: B1–B4, KM3–KM4, K4, reel Bewit, reel Revu, poza de copertă'), ('V', 'Vinted')]),
+   ('Dum 25', [('V', 'Liber'), ('V', 'Seara înapoi în București')]),
  ]),
- dict(title='Săptămâna 2 · 26 octombrie – 1 noiembrie', where='București; din 29 oct, Turcia', goal='Tot ce pleacă e programat; zbor liniștit', days=[
-   ('Lun 26', [('S', 'Move Monday 10:00'), ('C', 'Filmat B1–B4 (+ KM3–KM4 dacă lipsesc)'), ('A', 'Go / no-go: contabilă + avocat'), ('A', 'Copii în 2 locuri')]),
-   ('Mar 27', [('C', 'Montaj B1'), ('P', 'Programat: K1, B1, KM2, R4, K5 + TikTok până pe 6 nov'), ('A', 'Notar, dacă e fixat'), ('V', 'Bagaj, asigurare, check-in'), ('G', 'Sală dimineața (fără notar)')]),
-   ('Mie 28', [('S', 'Cook with me (ultimul din RO) + K4 somon'), ('A', 'Avocat: tranșa 2 (1.500 lei)'), ('A', 'Răspuns automat KM și Google'), ('V', 'Echipamentul de stream împachetat'), ('P', 'K1 (programat)')]),
+ dict(title='Săptămâna 2 · 26 octombrie – 1 noiembrie', where='București; din 29 oct, Turcia', goal='Tot ce pleacă e programat; e-book-ul gata, ideal', days=[
+   ('Lun 26', [('S', 'Stream 10–11'), ('C', 'Ales dublele + descrieri'), ('C', 'E-book partea 1'), ('A', 'Discord abonați · program Twitch'), ('G', 'Sală')]),
+   ('Mar 27', [('S', 'Stream de marți'), ('C', 'Montaj B1–B4, K4'), ('C', 'E-book partea 2 + export'), ('P', 'Programat IG + TikTok până pe 6 nov'), ('G', 'Sală')]),
+   ('Mie 28', [('S', 'Ultimul stream din România'), ('A', 'Răspuns automat pe KM'), ('V', 'Bagaj · clipurile pe laptop și stick'), ('G', 'Sală')]),
    ('Joi 29', [('V', 'Zbor după-amiază'), ('V', 'Seara: testul colțului'), ('P', 'B1 · KM2 (programate)')]),
-   ('Vin 30', [('S', 'Game night (opțional)'), ('P', 'R4 (programat)'), ('A', 'Verifici postările programate')]),
-   ('Sâm 31', [('V', 'Liber'), ('G', 'Sală')]),
-   ('Dum 1', [('A', 'Cifre + cele 3 întrebări'), ('A', 'Test înscriere PDF · domeniul site-ului'), ('V', 'Păr'), ('G', 'Sală'), ('S', 'Chill Sunday doar dacă ai sărit vineri')]),
+   ('Vin 30', [('S', 'Game night (opțional)'), ('A', 'Revenire la branduri (un mesaj)'), ('P', 'R4 (programat)'), ('G', 'Sală (opțional)')]),
+   ('Sâm 31', [('G', 'Sală'), ('A', 'Cifre + cele 3 întrebări'), ('A', 'Lista lunară'), ('C', 'Montaj')]),
+   ('Dum 1', [('V', 'Liber'), ('V', 'Păr')]),
  ]),
- dict(title='Săptămâna 3 · 2–8 noiembrie', where='Turcia (program pe ora României)', goal='Ritmul din Turcia; e-book partea 1', days=[
-   ('Lun 2', [('S', 'Move Monday 10:00 RO (11:00 TR)'), ('C', 'Montaj B2 + reelul cu coarda'), ('P', 'Programat B2, reel din stream; TikTok 7–12 nov')]),
-   ('Mar 3', [('C', 'E-book Canva, partea 1 (pag. 5, 8, 15, 3, 33)'), ('C', 'Montaj B3'), ('P', 'B2 (programat)'), ('G', 'Sală')]),
-   ('Mie 4', [('S', 'Cook with me + cacao Bewit'), ('C', 'KM3 montat (opțional)')]),
-   ('Joi 5', [('A', 'Media kit (dacă go/no-go nu e „nu”)'), ('C', 'Carusel C2'), ('P', 'K5 · KM3 (programate)'), ('G', 'Sală')]),
-   ('Vin 6', [('S', 'Game night'), ('A', 'TikTok programat 13–16 nov'), ('P', 'Reel din stream (programat)')]),
-   ('Sâm 7', [('V', 'Liber'), ('G', 'Sală')]),
-   ('Dum 8', [('S', 'Sesiune abonați, doar cu „da” scris'), ('A', 'Cifre + cele 3 întrebări'), ('P', 'Carusel C2 (programat)'), ('G', 'Sală')]),
+ dict(title='Săptămâna 3 · 2–8 noiembrie', where='Turcia (program pe ora României)', goal='Ritmul din Turcia: 4 streamuri, montaj, TikTok zilnic', days=[
+   ('Lun 2', [('S', 'Move Monday 10:00 RO (11:00 TR)'), ('C', 'Montaj B2, reel coarda, reel Bewit'), ('P', 'Programate; TikTok 7–12 nov'), ('G', 'Sală')]),
+   ('Mar 3', [('S', 'Stream de marți'), ('C', 'Montaj B3 + carusel C2'), ('P', 'B2 (programat)'), ('G', 'Sală')]),
+   ('Mie 4', [('S', 'Cook with me + cacao Bewit'), ('C', 'KM3 (opțional)'), ('P', 'Reel Bewit (programat)'), ('G', 'Sală')]),
+   ('Joi 5', [('V', 'Liber'), ('P', 'K5 și KM3 ies singure')]),
+   ('Vin 6', [('S', 'Game night + Revu'), ('A', 'TikTok 13–16 nov'), ('P', 'Reel cu coarda (programat)'), ('G', 'Sală')]),
+   ('Sâm 7', [('G', 'Sală'), ('C', 'Montaj: ce a rămas'), ('A', 'Cifre')]),
+   ('Dum 8', [('V', 'Liber'), ('P', 'Carusel C2 iese singur')]),
  ]),
- dict(title='Săptămâna 4 · 9–15 noiembrie', where='Turcia; 15 nov întoarcere', goal='E-book exportat; branduri; bilanț', days=[
-   ('Lun 9', [('S', 'Move Monday 10:00 RO'), ('C', 'Montaj K4 + B4'), ('P', 'Programat K4, B4')]),
-   ('Mar 10', [('C', 'E-book partea 2 + export'), ('P', 'B3 (programat)'), ('G', 'Sală')]),
-   ('Mie 11', [('S', 'Cook with me'), ('C', 'KM4 montat (opțional)')]),
-   ('Joi 12', [('A', 'Emailuri către branduri (doar cu „da”)'), ('A', 'Brief pentru copertă'), ('P', 'K4 · KM4 (programate)'), ('G', 'Sală')]),
-   ('Vin 13', [('S', 'Game night: notezi viewerii'), ('P', 'B4 (programat)')]),
-   ('Sâm 14', [('V', 'Liber · bagajul'), ('G', 'Sală')]),
-   ('Dum 15', [('V', 'Întoarcere'), ('A', 'Bilanț scurt'), ('V', 'Colțul de acasă pregătit')]),
+ dict(title='Săptămâna 4 · 9–15 noiembrie', where='Turcia; 15 nov întoarcere', goal='Ultimele reel-uri programate; bilanț', days=[
+   ('Lun 9', [('S', 'Move Monday 10:00 RO'), ('C', 'Montaj K4, B4, reel Revu'), ('P', 'Programate'), ('G', 'Sală')]),
+   ('Mar 10', [('S', 'Stream de marți'), ('A', 'Brief copertă e-book'), ('P', 'B3 (programat)'), ('G', 'Sală')]),
+   ('Mie 11', [('S', 'Cook with me'), ('C', 'KM4 (opțional)'), ('P', 'Reel Revu (programat)'), ('G', 'Sală')]),
+   ('Joi 12', [('V', 'Liber'), ('P', 'K4 și KM4 ies singure')]),
+   ('Vin 13', [('S', 'Game night: notezi viewerii'), ('P', 'B4 (programat)'), ('G', 'Sală')]),
+   ('Sâm 14', [('G', 'Sală'), ('V', 'Bagaj'), ('A', 'Bilanț scurt')]),
+   ('Dum 15', [('V', 'Întoarcere'), ('V', 'Colțul de acasă pregătit')]),
  ]),
  dict(title='Săptămâna · ______________________', where='', goal='', days=[(d, []) for d in ('Luni', 'Marți', 'Miercuri', 'Joi', 'Vineri', 'Sâmbătă', 'Duminică')], blank=True),
 ]
@@ -97,7 +98,7 @@ def page(w):
     out.append('</div><div class="leg">')
     for c, (lab, bg, fg) in CAT.items():
         out.append('<span><i style="background:%s;border:1px solid %s"></i>%s</span>' % (bg, fg, lab))
-    out.append('<span class="foot">Sâmbăta e liberă · 3 streamuri pe săptămână · 4 vizite la sală · Bifezi pătrățelul când e gata</span></div></section>')
+    out.append('<span class="foot">Liber joia și duminica · streamuri luni, marți, miercuri, vineri · sală 5 zile · filmat sâmbăta, la țară · TikTok zilnic · bifezi pătrățelul</span></div></section>')
     return ''.join(out)
 
 def build():
