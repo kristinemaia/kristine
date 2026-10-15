@@ -7,10 +7,16 @@ Rezultat: brand/twitch/banner.html  (sursa)
           brand/twitch/twitch-banner-2400x960.png   (încărcarea principală, ascuțită pe ecrane mari)
           brand/twitch/twitch-banner-1200x480.png   (dimensiunea recomandată de Twitch, dacă o refuză pe prima)
 
+Varianta cu poza ta (poza NU se salvează în repo; se pune doar în fișierele din --out-dir):
+          python3 brand/twitch/build_banner.py --photo POZA.jpg --out-dir /un/folder --name twitch-banner-poza
+          (--photo = un pătrat decupat cu fața la mijloc; apare într-un cerc, în dreapta)
+
 Culorile și fonturile sunt cele ale site-ului (website/assets/style.css). Ilustrațiile sunt cele din PDF-ul
 gratuit (studio/_source/pdf/build_pdf.py). Fără poze, fără adresă web (domeniul nu e conectat încă),
 fără locație.
 """
+import argparse
+import base64
 import os
 import subprocess
 import sys
@@ -23,7 +29,7 @@ import build_pdf  # noqa: E402  (are protecție __main__, deci nu rulează nimic
 
 NAME = "Kristine Maia"
 TAGLINE = 'Mobility, recovery &amp; good food<br>for people who <em>sit</em> all day'
-CHIPS = [("blue", "Move Monday"), ("mint", "Cook with me"), ("lilac", "Game night")]
+CHIPS = [("blue", "Move"), ("mint", "Cook with me"), ("lilac", "Game night")]
 
 HTML = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 <title>Kristine Maia · banner Twitch</title>
@@ -56,6 +62,12 @@ h1{margin:0;font-family:var(--display);font-weight:800;font-size:96px;line-heigh
 .ic.a{width:196px;height:196px;left:834px;top:34px}
 .ic.b{width:172px;height:172px;left:986px;top:166px}
 .ic.c{width:156px;height:156px;left:846px;top:270px}
+.ph{position:absolute;left:792px;top:52px;width:376px;height:376px;border-radius:50%;border:8px solid var(--paper);box-shadow:0 14px 36px rgba(43,36,49,.16);overflow:hidden;background:var(--paper)}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.bd{position:absolute;border-radius:50%;background:var(--paper);box-shadow:0 8px 22px rgba(43,36,49,.14);display:grid;place-items:center}
+.bd svg{width:74%;height:74%;display:block}
+.bd.n{width:104px;height:104px;left:748px;top:318px}
+.bd.s{width:92px;height:92px;left:1098px;top:36px}
 </style></head><body>
 <div id="b">
   <div class="sh s1"></div><div class="sh s2"></div><div class="sh s3"></div><div class="sh s4"></div>
@@ -64,19 +76,22 @@ h1{margin:0;font-family:var(--display);font-weight:800;font-size:96px;line-heigh
     <p class="tag">__TAG__</p>
     <div class="chips">__CHIPS__</div>
   </div>
-  <div class="ic a">__NECK__</div>
-  <div class="ic b">__SHOULDERS__</div>
-  <div class="ic c">__HIPS__</div>
+  __ART__
 </div>
 </body></html>
 """
 
 
-def build_html():
+def build_html(photo=None):
     chips = "".join('<span class="chip %s">%s</span>' % (c, t) for c, t in CHIPS)
-    return (HTML.replace("__NAME__", NAME).replace("__TAG__", TAGLINE).replace("__CHIPS__", chips)
-            .replace("__NECK__", build_pdf.art_neck()).replace("__SHOULDERS__", build_pdf.art_shoulders())
-            .replace("__HIPS__", build_pdf.art_hips()))
+    if photo:
+        data = base64.b64encode(open(photo, "rb").read()).decode()
+        art = ('<div class="ph"><img src="data:image/jpeg;base64,%s" alt=""></div>'
+               '<div class="bd n">%s</div><div class="bd s">%s</div>') % (data, build_pdf.art_neck(), build_pdf.art_shoulders())
+    else:
+        art = ('<div class="ic a">%s</div><div class="ic b">%s</div><div class="ic c">%s</div>'
+               % (build_pdf.art_neck(), build_pdf.art_shoulders(), build_pdf.art_hips()))
+    return HTML.replace("__NAME__", NAME).replace("__TAG__", TAGLINE).replace("__CHIPS__", chips).replace("__ART__", art)
 
 
 RENDER_JS = r"""
@@ -111,15 +126,21 @@ def render(html_path, out_path, scale):
 
 
 def main():
-    html_path = os.path.join(HERE, "banner.html")
-    open(html_path, "w", encoding="utf-8").write(build_html())
-    big = os.path.join(HERE, "twitch-banner-2400x960.png")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--photo", help="pătrat decupat cu fața la mijloc (JPG); nu se salvează în repo")
+    ap.add_argument("--out-dir", default=HERE)
+    ap.add_argument("--name", default="twitch-banner")
+    a = ap.parse_args()
+    os.makedirs(a.out_dir, exist_ok=True)
+    html_path = os.path.join(a.out_dir, a.name + ".html") if a.photo else os.path.join(HERE, "banner.html")
+    open(html_path, "w", encoding="utf-8").write(build_html(a.photo))
+    big = os.path.join(a.out_dir, a.name + "-2400x960.png")
     render(html_path, big, 2)
     from PIL import Image
     im = Image.open(big).convert("RGB")
     assert im.size == (2400, 960), im.size
     im.save(big, optimize=True)
-    small = os.path.join(HERE, "twitch-banner-1200x480.png")
+    small = os.path.join(a.out_dir, a.name + "-1200x480.png")
     im.resize((1200, 480), Image.LANCZOS).save(small, optimize=True)
     print("gata:", big, os.path.getsize(big) // 1024, "KB |", small, os.path.getsize(small) // 1024, "KB")
 
