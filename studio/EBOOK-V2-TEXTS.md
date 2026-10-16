@@ -9,7 +9,7 @@ _14 October 2026. Page numbers refer to "Ebook - Final.pdf" (39 pages). Keep you
 **Old:** "As someone passionate about health and wellness, I understand the challenges…"
 
 **New:**
-> I'm a sports science graduate and a certified recovery massage therapist, and I've spent the last five years streaming for hours a day, so I know exactly what long sessions at a desk do to a body and to an appetite. This book is the food side of how I stay healthy while sitting a lot: simple portions you can measure with your hands, foods that fill you up without weighing you down, and quick meals that fit around a long day. Nothing here is medical advice; it's what works for me, explained so it can work for you.
+> I'm a sports science graduate, a certified recovery massage therapist and a mobility & recovery coach, and I've spent the last five years streaming for hours a day, so I know exactly what long sessions at a desk do to a body and to an appetite. This book is the food side of how I stay healthy while sitting a lot: simple portions you can measure with your hands, foods that fill you up without weighing you down, and quick meals that fit around a long day. Nothing here is medical advice; it's what works for me, explained so it can work for you.
 
 Add at the bottom of the page, small: *Not medical advice. If you have a medical condition, are pregnant or breastfeeding, or take medication, talk to your doctor before changing how you eat.*
 
@@ -133,11 +133,9 @@ One shop, every recipe in this book.
 
 **Header:** BEFORE YOU CLOSE THE BOOK: UNSTIFF IN 5 MINUTES
 
-> Food is half of how I stay well while sitting for hours. The other half takes five minutes and no equipment. I made it into a free follow-along you can do at your desk, with the five moves I use between streams: neck, shoulders, wrists, hips, lower back.
+> Food is half of how I stay well while sitting for hours. The other half takes five minutes and no equipment. I made it into a free follow-along you can do at your desk, with the moves I use between streams for four areas: neck, shoulders, wrists, hips and back.
 >
-> Get it here: [link to the free PDF / video]
->
-> If you want the full version, a 30-day plan for people who sit all day, it's at [link, when the program exists].
+> Get it free here: payhip.com/kristinemaia
 
 ---
 
