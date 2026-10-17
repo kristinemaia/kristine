@@ -1,6 +1,6 @@
 # Conversația noastră, rezumat
 
-_10–11 octombrie 2026 · rezumat în ordine cronologică. Conversația completă, cuvânt cu cuvânt, e în sesiunea Claude (vezi finalul)._
+_10–17 octombrie 2026 · rezumat în ordine cronologică. Conversația completă, cuvânt cu cuvânt, e în sesiunea Claude (vezi finalul)._
 
 ---
 
@@ -67,6 +67,21 @@ _10–11 octombrie 2026 · rezumat în ordine cronologică. Conversația complet
 **Ce mi-ai spus:** nu merită să ții un apartament atât de scump doar ca să locuiești în el. Stream poți face de oriunde. Casa de la țară e departe de București, dar ai acolo camerele de stream. Chiria trebuie plătită în 4 zile, exact când te întorci. Vrei să-i spui direct proprietarului că a intervenit ceva. Nu vrei să plătești încă 650 € doar ca să stai acolo. Nu vrei să te justifici în fața comunității. În primele 2 zile în București ai 2 terapii.
 
 **Ce am răspuns:** nu merită (~3.750–4.000 lei pe lună doar pentru locuit, față de o garanție de 650 € pierdută o singură dată). Te uiți în contract la preaviz. Nu te oprești din plătit fără o înțelegere. Îi propui proprietarului ca garanția să acopere preavizul și să rămâi 2–3 zile ca să faci terapiile și să te muți. Pentru donatori, un mesaj scurt de mulțumire, fără justificări. Folosești cele 2 terapii ca să le spui clienților ce opțiuni noi ai, să le ceri recenzii și să le propui pachete. Toate mesajele și pașii sunt în `MUTARE.md`.
+
+## 14. 12–17 octombrie: de la plan la program
+**Ce mi-ai spus:** am mutat aproape tot din apartament și l-am predat pe 16. Calculatorul e la părinți. Încasările din terapie între 17 august și 26 septembrie au fost de 4.200 lei. Ieșirile în Turcia: 23–26 septembrie, 4–15 octombrie, apoi 29 octombrie (zbor după-amiaza) – 15 noiembrie. Am internet la țară și am vorbit cu proprietarul. Liberă joi și duminică, stream luni/marți/miercuri/vineri (sâmbătă opțional), sală de 5 ori pe săptămână, filmat doar în weekend la țară. TikTok zilnic din 19 octombrie. Mă tund în Turcia. Am vorbit cu contabila; avocatul nu mai are nevoie de documente.
+
+**Ce am făcut:** am reorganizat tot planul pe zile (15 octombrie – 15 noiembrie), cu locuri și ore, într-un tracker și într-un calendar de printat. Am verificat zilele din Turcia (34 din 90). Am scris emailurile către contabilă și avocat, cu întrebările despre muncă din Turcia. Am făcut reel-urile R/B/KM cu mișcări și text pe ecran, caruselele de terapie (4 × 5 slide-uri), emailurile către 6 branduri, lista de cumpărături pentru weekend.
+
+## 15. Twitch, e-book, Payhip
+**Ce mi-ai spus:** schimb stream goal-urile, cadoul de la Kelly, secțiunea About (mobilitate, workout, viață sănătoasă, fără program fix, fără PDF încă), regulile, mesajul pentru moderatori, 5 clipuri la top. Bannerul cu „good vibes only”. Magazin Payhip cu logo (pătrat și orizontal). E-book-ul e în Canva, editările de pe 16 octombrie sunt făcute.
+
+**Ce am făcut:** textele pentru Twitch (bio, About, reguli, mesajul pentru moderatori, clipurile pe fiecare stream), bannerul în două mărimi, imaginile Payhip, ghidul Payhip pas cu pas, mărimile de text pe pagină și pașii de export din Canva (PDF-ul se numește acum doar „PDF”; autorul vine din contul Canva care exportă; Canva Pro doar dacă merită: trial de 30 de zile din ~21 octombrie, anulat ~18 noiembrie).
+
+## 16. Brandurile și produsele
+**Ce mi-ai spus:** Bewit (cacao ceremonială, două feluri, uleiuri esențiale, ulei de bază), Revu Natural (creme de masaj, Astrocalm, suplimente pentru articulații), Dope Rope.
+
+**Ce am făcut:** rotație pe zile (luni Dope Rope, miercuri Bewit, vineri Revu), emailuri către 6 branduri (trimitere vineri 23 octombrie, reamintire 30), mențiune „afiliere” pe fiecare postare.
 
 ---
 

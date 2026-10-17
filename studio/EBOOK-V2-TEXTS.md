@@ -1,5 +1,7 @@
 # E-book v2 — replacement texts (paste into Canva)
 
+> **Actualizat 17 octombrie:** editările din Canva (14 puncte) sunt făcute. Rămâne: exportul (PDF, mai mic de 10 MB pentru KDP și de 15 MB pentru Payhip), apoi verifici autorul, titlul și mărimea. Autorul vine din contul Canva care exportă; dacă e greșit, trimite-mi PDF-ul și îl repar. Canva Pro doar dacă PDF-ul conține elemente premium; altfel le înlocuiești.
+
 _14 October 2026. Page numbers refer to "Ebook - Final.pdf" (39 pages). Keep your design; replace only the text blocks below. Nutrition figures marked ≈ are approximate and should be checked against the database you used for the book._
 
 ---

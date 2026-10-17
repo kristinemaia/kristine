@@ -2,6 +2,18 @@
 
 _11 octombrie 2026_
 
+> **Actualizat 17 octombrie: așa arată viața ta acum (are prioritate peste ce scrie mai jos dacă se contrazic)**
+> - Apartamentul e eliberat din 16 oct; echipamentul e instalat la părinți, în București. Data la notar o ai când spune proprietarul.
+> - **Liber joi și duminică.** Stream luni, marți, miercuri, vineri (sâmbăta, opțional). Sală luni, marți, miercuri sau joi, vineri, sâmbătă (cardio + greutăți).
+> - **Filmezi doar în weekend, la casa de la țară** (sâmbătă 17 și 24 oct, cu internet; revii duminică seara). Montezi în timpul săptămânii, la București.
+> - **TikTok zilnic din 19 oct.** Instagram Kristine Maia: reel-uri 17:00; KM Wellness Concept: reel joi 19:00 și caruselul duminica 19:00.
+> - **Zboară joi 29 oct după-amiază** spre Turcia, înapoi pe 15 nov. În Turcia: 23–26 sept (4) + 4–15 oct (12) + 29 oct–15 nov (18) = **34 din 90 de zile**, marjă 56. Frizerie/coafor în Turcia în jur de 1 nov.
+> - Din Turcia streamezi de la sală (cu acord scris, fără alți oameni, fără logo sau ferestre în cadru) sau de acasă, cu fundal.
+> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revu Natural (cremă de masaj).
+> - **Bani reali (terapie):** 4.200 lei încasați între 17 aug și 26 sept (~3.100 lei/lună). Avocat: încă 2 tranșe de 1.500 lei. Asigurarea de sănătate: urgentă, săptămâna asta.
+> - Contabila a vorbit cu tine; avocatul nu mai primește documente. Nu trebuie nimic despre eSIM sau ora (ai SIM bun, ceasul se schimbă singur; în România trecem la ora de iarnă pe 25 oct).
+> - Planul zilnic complet, cu locuri și ore: `PLAN-TURCIA.md` și Calendarul de printat. Bifezi în Tracker.
+
 ## Decizia
 Nu merită să păstrezi un apartament de 650 €/lună doar ca să locuiești în el. Stream poți face de oriunde, iar terapia nu se rentează acolo acum. Te muți: echipamentul de terapie la părinți (București), restul la casa de la țară (unde ai deja camerele de stream).
 
@@ -49,3 +61,11 @@ Nu e o justificare, e un gest de respect. Fără detalii personale.
 - [ ] Confirmarea scrisă a proprietarului că nu mai aveți nimic de împărțit.
 - [ ] Contabila: muți sediul sau punctul de lucru al firmei, dacă e la apartament.
 - [ ] Masă pliantă pentru terapia la domiciliu.
+
+---
+
+## Stare la 17 octombrie
+- Apartamentul a fost eliberat joi 15 și vineri 16 octombrie (trebuia predat până la ora 13:00). Calculatorul și echipamentul de stream sunt instalate la casa părinților, în București.
+- **Data la notar** nu e stabilită: aștepți ca proprietarul să spună data. Până atunci nu semnezi nimic și nu trimiți documente suplimentare.
+- Sediul firmei: întrebarea e în emailul către contabilă (ce se schimbă la adresa apartamentului și în ce ordine).
+- Clienții de terapie: de acum la domiciliu; nu mai există o cameră de terapie.

@@ -1,6 +1,10 @@
-# Reel-urile de filmat în apartament (15–16 octombrie)
+# Reel-urile de filmat la țară (sâmbătă 17 și 24 octombrie)
 
-Le filmezi înainte să eliberezi apartamentul. Ai **peretele alb** pentru reel-urile de mișcare (engleză, contul Kristine Maia) și **camera de terapie** pentru reel-urile KM (română, contul @kmwellnessconcept).
+**Actualizat 17 octombrie:** apartamentul e eliberat, deci filmezi **la casa de la țară, sâmbătă 17 și sâmbătă 24 octombrie** (duminică, dacă rămâne ceva). Joi și duminică seara ești liberă de filmat; montezi în timpul săptămânii, la București.
+- Ai **un perete alb** (sau cel mai gol perete de acolo) pentru reel-urile de mișcare R și B (engleză, contul Kristine Maia).
+- Pentru reel-urile **KM** (română, @kmwellnessconcept) nu mai există o cameră de terapie. Filmezi cu un **fundal calm**: un perete neutru, o masă cu prosop împăturit, ulei, lumină caldă. Nu le prezinți ca „cabinetul tău”, ci „vin la tine, la domiciliu”.
+- **Sâmbătă 17:** R1–R4 și KM1–KM2 (obligatoriu), plus pozele pentru copertă și caruselele C1–C2 și stream-ul „Cook with me” de la țară. **Sâmbătă 24:** B1–B4 și KM3–KM4, plus ce a rămas.
+- Rețetele pe care le filmezi în weekend (K1 clătite, K4 somon, K5 pește alb) sunt în **Reel-uri din studio**, iar lista de cumpărături e în folderul Plan.
 
 Mai jos ai, în ordine: tabelul cu tot (ce, unde, cât durează, când se postează), ordinea în care filmezi, pregătirea comună, apoi fiecare reel cu pozițiile, secundele, lumina, ce scrii pe ecran, descrierea și hashtag-urile, gata de copiat.
 
@@ -12,22 +16,22 @@ Mai jos ai, în ordine: tabelul cu tot (ce, unde, cât durează, când se postea
 
 | Cod | Titlu | Cont | Unde | Durata | Postare (ora României) |
 |---|---|---|---|---|---|
-| R1 | Neck after 4 hours of gaming: 3 moves | Kristine Maia | perete alb, pe scaun | 35 s | Mar 20 oct, 17:00 (Trial Reel) |
-| R2 | 60-second stretch break, do it with me | Kristine Maia | perete alb, pe scaun | 60 s | Mie 21 oct, 17:00 |
-| R3 | Wrists for mouse and keyboard: 3 moves | Kristine Maia | perete alb, la masă, cadru pe mâini | 30 s | Joi 22 oct, 17:00 |
-| R4 | 5-minute morning desk reset (the 60-second version) | Kristine Maia | perete alb, pe scaun | 60 s | Vin 30 oct, 17:00 |
-| B1 | Hips after a long stream | Kristine Maia | perete alb, pe saltea | 40 s | Joi 29 oct, 17:00 |
-| B2 | Lower back after a desk day | Kristine Maia | perete alb, pe saltea | 40 s | Mar 3 nov, 17:00 |
-| B3 | Upper back and shoulders (the gamer hunch) | Kristine Maia | perete alb, în picioare + saltea | 40 s | Mar 10 nov, 17:00 |
-| B4 | Warm-up before gaming: 4 moves in 1 minute | Kristine Maia | perete alb, în picioare | 45 s | Vin 13 nov, 17:00 |
-| KM1 | 3 semne că ai nevoie de masaj de recuperare după birou | KM | camera de terapie | 35 s | Joi 22 oct, 19:00 |
-| KM2 | Ce este drenajul limfatic | KM | camera de terapie | 35 s | Joi 29 oct, 19:00 |
-| KM3 | Cum arată o ședință, pas cu pas | KM | camera de terapie | 45 s | Joi 5 nov, 19:00 |
-| KM4 | Întrebările pe care le pun la prima ședință | KM | camera de terapie | 35 s | Joi 12 nov, 19:00 |
+| R1 | Neck after 4 hours of gaming: 3 moves | Kristine Maia | perete alb la țară, pe scaun | 35 s | Mar 20 oct, 17:00 (Trial Reel) |
+| R2 | 60-second stretch break, do it with me | Kristine Maia | perete alb la țară, pe scaun | 60 s | Mie 21 oct, 17:00 |
+| R3 | Wrists for mouse and keyboard: 3 moves | Kristine Maia | perete alb la țară, la masă, cadru pe mâini | 30 s | Joi 22 oct, 17:00 |
+| R4 | 5-minute morning desk reset (the 60-second version) | Kristine Maia | perete alb la țară, pe scaun | 60 s | Vin 30 oct, 17:00 |
+| B1 | Hips after a long stream | Kristine Maia | perete alb la țară, pe saltea | 40 s | Joi 29 oct, 17:00 |
+| B2 | Lower back after a desk day | Kristine Maia | perete alb la țară, pe saltea | 40 s | Mar 3 nov, 17:00 |
+| B3 | Upper back and shoulders (the gamer hunch) | Kristine Maia | perete alb la țară, în picioare + saltea | 40 s | Mar 10 nov, 17:00 |
+| B4 | Warm-up before gaming: 4 moves in 1 minute | Kristine Maia | perete alb la țară, în picioare | 45 s | Vin 13 nov, 17:00 |
+| KM1 | 3 semne că ai nevoie de masaj de recuperare după birou | KM | fundal calm, la țară | 35 s | Joi 22 oct, 19:00 |
+| KM2 | Ce este drenajul limfatic | KM | fundal calm, la țară | 35 s | Joi 29 oct, 19:00 |
+| KM3 | Cum arată o ședință, pas cu pas | KM | fundal calm, la țară | 45 s | Joi 5 nov, 19:00 |
+| KM4 | Întrebările pe care le pun la prima ședință | KM | fundal calm, la țară | 35 s | Joi 12 nov, 19:00 |
 
 **Ora:** 17:00 ora României pentru contul în engleză (seara în Europa, dimineața în America); 19:00 pentru KM (clienții din România). După 2 săptămâni, o ajustezi după Insights.
 
-**Trebuie azi:** R1–R4 și KM1–KM2. **Dacă ai timp:** B1–B4 și KM3–KM4. Ce nu filmezi acum se filmează luni 26 oct, cu un fundal simplu.
+**Trebuie sâmbătă 17:** R1–R4 și KM1–KM2. **Dacă ai timp:** B1–B4 și KM3–KM4. Ce nu filmezi sâmbătă 17 se filmează sâmbătă 24.
 
 ---
 
@@ -41,7 +45,7 @@ Mai jos ai, în ordine: tabelul cu tot (ce, unde, cât durează, când se postea
 | 3 | Masă, cadru strâns pe mâini | R3 | 10 min |
 | 4 | În picioare, cu spatele la perete | B3 (partea în picioare), B4 | 15 min |
 | 5 | Saltea, camera din lateral, jos | B1, B2, ultima mișcare din B3 | 25 min |
-| 6 | Camera de terapie | KM1–KM4 și cadrele de umplutură | 50 min |
+| 6 | Fundalul calm pentru KM | KM1–KM4 și cadrele de umplutură | 50 min |
 | 7 | Copiere | totul pe laptop și pe stick, în `01_BRUT` | 10 min |
 
 **Total:** ~2 ore și jumătate cu tot. Fără B-uri: ~1 oră și jumătate.
@@ -190,7 +194,7 @@ E reel-ul care vinde PDF-ul: arăți pe scurt cele 4 zone din el.
 
 ---
 
-## 5. Reel-urile din camera de terapie (română, contul KM)
+## 5. Reel-urile cu fundal calm (română, contul KM)
 
 **Setup:** stai lângă masa de masaj sau pe marginea ei, cadru de la piept în sus, camera la nivelul ochilor, la ~1,5 m. Lumina principală din față. În spate: masa cu un prosop curat, uleiurile aranjate. **Fără client, fără diplome cu numele tău legal, fără dry needling, ventuze sau reiki în cadru sau în text.** Vorbești liniștit, ca și cum i-ai explica unui client.
 
@@ -245,12 +249,12 @@ Programări la domiciliu, în săptămânile anunțate: link în bio
 - prosoapele aranjate, lumina caldă
 - un cadru larg cu tine lângă masă, zâmbind spre cameră
 
-Camera de terapie e doar fundal: de acum lucrezi la domiciliu, deci n-o prezinți ca „cabinetul tău”.
+Nu mai ai o cameră de terapie: lucrezi la domiciliu, deci fundalul e doar fundal, nu „cabinetul tău”.
 
 ---
 
 ## 6. După filmare
 
-- Totul pe laptop și pe stick, în `01_BRUT`, cu nume de forma `2026-10-15_EN_R1_neck_dubla2.mp4`, `2026-10-15_KM_KM1.mp4`.
-- Luni 19 oct: alegi dublele, montezi R1–R4. Marți 20: KM1 și KM2.
+- Totul pe laptop și pe stick, în `01_BRUT`, cu nume de forma `2026-10-17_EN_R1_neck_dubla2.mp4`, `2026-10-17_KM_KM1.mp4`.
+- Luni 19 oct (după sală): alegi dublele și montezi R1–R2. Marți 20: R3–R4 și KM1–KM2. Postezi R1 marți 20 la 17:00.
 - Fiecare reel trece prin lista „Înainte să postezi” (tracker, categoria „Plecarea în Turcia”).
