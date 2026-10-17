@@ -44,6 +44,8 @@ GROUPS = [
         "items": [
             {"kind": "doc", "slug": "harta-reeluri", "title": "Harta reel-urilor: unde găsești ce",
              "src": "studio/HARTA-REELURI.md", "desc": "Pentru fiecare reel: în ce fișier sunt mișcările, când îl filmezi și când îl postezi."},
+            {"kind": "doc", "slug": "gatit-reeluri", "title": "Reel-urile cu gătit: K1, bolul cu ton, K4, K5",
+             "src": "studio/GATIT-REELURI.md", "desc": "Cadrele, secundele, textul de pe ecran, vocea, descrierea și hashtag-urile pentru gătit; ce filmezi sâmbătă 17 și când postezi."},
             {"kind": "doc", "slug": "filmare-apartament", "title": "Reel-urile de filmat la țară (17 și 24 oct)",
              "src": "studio/FILMARE-APARTAMENT.md", "desc": "Mișcările pentru R1–R4, B1–B4 și KM1–KM4: poziții, secunde, lumină, text pe ecran, descriere, hashtag-uri, data postării."},
             {"kind": "pdf", "slug": "desk-stretch", "title": "The 5-minute desk stretch (3 pagini)",
