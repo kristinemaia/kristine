@@ -45,7 +45,7 @@ def cta(n, k, extra=''):
 def c1():
     s = []
     s.append(frame(1, '<div style="position:absolute;left:80px;right:80px;top:300px"><h1 style="font-size:116px">Why your neck hurts after 4 hours of gaming</h1><p style="font-size:42px;color:var(--muted);margin-top:50px;font-weight:600">And 3 small things that help →</p></div>', 1))
-    s.append(mid(2, 'What\'s happening', ['Your head drifts forward as you focus on the screen.', 'Your shoulders round toward it.', 'Your neck muscles work the whole session to hold your head up.'], 2, photo=img('shoulders.jpg'), pos='center 18%'))
+    s.append(mid(2, 'What\'s happening', ['Your head drifts forward as you focus on the screen.', 'Your shoulders round toward it.', 'Your neck muscles work the whole session to hold your head up.'], 2, photo=img('portrait2.jpg'), pos='center 12%'))
     s.append(mid(3, 'Why gaming makes it worse', ['You\'re focused, so you forget to move.', 'The screen sits a little too low.', 'One position for hours, with no break.'], 3, 'var(--blue)', 'var(--mint)', photo=img('hips.jpg'), pos='center 12%'))
     n, sh = img('neck.jpg'), img('shoulders.jpg')
     s.append(frame(4, '<div style="position:absolute;left:80px;right:80px;top:170px"><h2 style="margin-bottom:0">3 small fixes</h2></div>'
