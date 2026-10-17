@@ -12,6 +12,8 @@
 > - Contabila a vorbit cu tine; avocatul nu mai primește documente. Nu trebuie nimic despre eSIM sau ora (ai SIM bun, ceasul se schimbă singur; în România trecem la ora de iarnă pe 25 oct).
 > - Planul zilnic complet, cu locuri și ore: `PLAN-TURCIA.md` și Calendarul de printat. Bifezi în Tracker.
 
+> **Site-ul la 18 octombrie:** fără nimic despre terapie (pagina `terapie.html` a fost scoasă). Rămâne „Licențiată în Educație Fizică și Sport” la credențiale. Pozele tale sunt puse (`assets/kristine.jpg`, `kristine-about.jpg`, pozele din rutine), coperta e-book-ului „Stream Day Kitchen” e în magazin, PDF-ul gratuit are buton spre Payhip și previzualizare. Programul de pe Twitch e cel real: luni, marți, miercuri, vineri; joi și duminică libere. **De completat:** linkul exact al produsului gratuit din Payhip (în `LINKS`, `PAYHIP`) și linkul Amazon al e-book-ului (`AMAZON`).
+
 Site static (HTML + CSS + puțin JavaScript), fără abonamente lunare și fără platformă. Merge pe orice găzduire gratuită.
 
 ## Paginile
@@ -23,7 +25,6 @@ Site static (HTML + CSS + puțin JavaScript), fără abonamente lunare și făr�
 | `live.html` | Programul de pe Twitch, avantajul pentru abonați, regulile de chat |
 | `about.html` | Povestea ta și ce ești |
 | `brands.html` | Pagina pentru branduri (cifre, formate, contact) |
-| `terapie.html` | KM Wellness Concept, în română (prețuri, unde, cum rezervi) |
 | `legal.html` | Disclaimer, confidențialitate, cumpărături (de verificat cu avocatul) |
 
 Fișierele comune:
@@ -32,8 +33,8 @@ Fișierele comune:
 - `build_site.py`: generează toate paginile cu același header și footer.
 
 ## Ce trebuie completat (caută „TODO” în fișiere)
-1. **Pozele:** pune `assets/kristine.jpg` și `assets/kristine-about.jpg`. Pe prima pagină și pe pagina About, literele „KM” țin locul pozei; comentariul TODO de lângă ele îți arată exact ce scrii în loc.
-2. **Formularul de email:** fă cont gratuit pe **MailerLite** (sau Kit), creează un formular cu PDF-ul „5-minute desk stretch” ca automatizare de bun venit, copiază codul de embed și pune-l în locul formularului marcat cu TODO (apare pe index, free, shop și about). Până atunci, formularul afișează doar un mesaj de mulțumire.
+1. **Pozele:** sunt puse (`assets/kristine.jpg`, `kristine-about.jpg`). Le înlocuiești cu altele cu același nume, dacă vrei.
+2. **Formularul de email (opțional, acum PDF-ul se ia din Payhip):** fă cont gratuit pe **MailerLite** (sau Kit), creează un formular cu PDF-ul „5-minute desk stretch” ca automatizare de bun venit, copiază codul de embed și pune-l în locul formularului marcat cu TODO (apare pe index, free, shop și about). Până atunci, formularul afișează doar un mesaj de mulțumire.
 3. **Evaluarea video:** fă un link de programare cu plată (Calendly + Stripe, sau Payhip ca „serviciu”) și pune-l în `build_site.py` la `"BOOK"`.
 4. **Codurile de reducere:** linkurile de afiliere pentru Dope Rope, Revu Natural și Bewit, în `build_site.py` (secțiunea SHOP, `#TODO-link-...`).
 5. **E-book-ul și programul:** acum butoanele „Tell me when it's out” / „Join the waitlist” duc la formularul de email. Când sunt gata pe Payhip, pui linkul Payhip în locul lui `#free`.

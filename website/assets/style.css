@@ -391,3 +391,11 @@ input[type=range]:focus-visible{outline:3px solid var(--ink);outline-offset:2px;
 @media (min-width:881px){.stage{max-width:min(440px,45vh)}.hero{padding-top:0}.q{padding-top:24px}}
 /* Pe telefon, locul pentru poză de pe About e mai mic */
 @media (max-width:880px){.portrait{max-width:160px;aspect-ratio:1;border-radius:50%;font-size:56px}}
+
+/* —— actualizare 18 oct: PDF-ul gratuit, coperta e-book-ului, pozele din rutine —— */
+.free-act{display:flex;flex-wrap:wrap;gap:18px 28px;align-items:center;margin-top:14px}
+.pdf-prev{width:150px;height:auto;border-radius:12px;box-shadow:0 10px 30px rgba(43,36,49,.18);background:#fff}
+.free-act .fine{margin:10px 0 0;max-width:34ch}
+.routine-photo{width:100%;max-width:340px;aspect-ratio:1;object-fit:cover;border-radius:22px;margin-top:6px;background:var(--mint)}
+.book{width:140px;height:auto;border-radius:10px;box-shadow:0 10px 28px rgba(43,36,49,.2);justify-self:start}
+@media (max-width:560px){.pdf-prev{width:120px}.book{width:120px}}

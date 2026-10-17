@@ -153,7 +153,7 @@ GROUPS = [
         "zip": ("Site-Kristine.zip", "site"),
         "items": [
             {"kind": "site", "title": "Site-ul (previzualizare)", "href": "site/index.html",
-             "desc": "Cele 8 pagini: home, free, shop, live, terapie, brands, about, legal."},
+             "desc": "Cele 7 pagini: home, free, shop, live, about, brands, legal."},
             {"kind": "doc", "slug": "site-readme", "title": "Cum pui site-ul online", "src": "website/README.md",
              "desc": "Paginile, ce trebuie completat (TODO) și cum îl publici gratuit."},
         ],
