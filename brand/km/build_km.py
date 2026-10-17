@@ -4,7 +4,7 @@ Rulezi: python3 brand/km/build_km.py  ->  brand/km/out/KM-C1-*.png ... + brand/k
 import html, os, subprocess, tempfile, zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, 'out'); os.makedirs(OUT, exist_ok=True)
-CRED = 'Masaj de recuperare și drenaj limfatic'
+CRED = 'Masaj de recuperare'
 DISC = 'Informații generale, nu sfat medical.'
 CTA = ['Programări la domiciliu, în săptămânile anunțate', 'Link în bio']
 SETS = [
@@ -13,10 +13,10 @@ SETS = [
    ('Pentru cine e', ['Stai multe ore pe scaun sau în picioare', 'Faci sport și vrei o oră pentru corp', 'Ai zile lungi și cauți un moment de liniște', 'Vrei să te simți mai relaxat(ă) seara']),
    ('Când mergi întâi la medic', ['Dureri puternice sau care apar brusc', 'O afecțiune, o operație sau un tratament în curs', 'Sarcină', 'Febră sau o infecție', 'Un răspuns de la medic vine înainte de orice masaj.']),
  ]),
- ('C2', 'drenaj-limfatic', 'Drenajul limfatic, pe înțelesul tuturor', [
-   ('Ce este', ['Un masaj cu mișcări lente, ușoare și ritmice.', 'Mâinile urmează traseul vaselor limfatice, fără presiune puternică.', 'Durează în jur de o oră.']),
-   ('Cum se simte', ['Liniștitor, ca o plimbare lentă', 'Fără apăsare puternică', 'Mulți îl aleg pentru senzația de picioare grele după zile lungi']),
-   ('Ce e bine să știi', ['Nu e potrivit pentru oricine.', 'Dacă ai o afecțiune, vorbește întâi cu medicul.', 'Beți apă după ședință și mișcați-vă ușor în ziua aceea.']),
+ ('C2', 'zonele-incordate', 'Unde se adună încordarea după o zi la birou', [
+   ('Gât și umeri', ['Capul înainte și umerii ridicați, ore în șir.', 'Seara, gâtul și umerii sunt „de piatră”.', 'Ce ajută: pauze scurte și mișcare, nu doar un masaj.']),
+   ('Partea de sus a spatelui', ['Stai aplecat(ă) spre ecran.', 'Între omoplați se adună încordarea.', 'Un masaj de recuperare poate fi un moment de relaxare pentru zona asta.']),
+   ('Cum lucrăm', ['Alegem împreună zonele care te deranjează.', 'Presiune medie, pe care o reglezi tu.', 'Nu înlocuiește un consult medical.']),
  ]),
  ('C3', 'sedinta-pas-cu-pas', 'O ședință la domiciliu, pas cu pas', [
    ('1 · Programarea', ['Alegi o zi, stabilim ora.', 'Ajung la tine cu masa pliantă, prosoape și uleiuri.', 'Ai nevoie doar de un loc liniștit, de ~2 × 2 m.']),
@@ -33,10 +33,10 @@ SETS = [
    ('Locul', ['Un spațiu liniștit, de ~2 × 2 m.', 'O temperatură plăcută în cameră.', 'Telefonul pe silențios, ca să te poți relaxa.', 'Vin eu cu masa pliantă, prosoape și uleiuri.']),
    ('În timpul ședinței', ['Presiunea o alegi tu: „mai ușor” sau „mai apăsat”.', 'Respiră lent; nu trebuie să faci nimic altceva.', 'Poți spune „stop” oricând.']),
  ]),
- ('C6', 'recuperare-sau-drenaj', 'Masaj de recuperare sau drenaj limfatic?', [
-   ('Masaj de recuperare', ['Presiune medie, adaptată ție.', 'Zonele încordate după zile lungi: gât, umeri, spate.', 'Potrivit când stai mult jos sau faci sport.']),
-   ('Drenaj limfatic', ['Mișcări lente, ușoare, ritmice.', 'Fără presiune puternică.', 'Mulți îl aleg pentru senzația de picioare grele.']),
-   ('Cum alegi', ['Spune-mi ce simți și ce vrei de la ședință.', 'Îți explic diferența, fără grabă.', 'Dacă ai o afecțiune, vorbește întâi cu medicul.']),
+ ('C6', 'prima-sedinta-intrebari', 'Prima ședință: ce te întreb și de ce', [
+   ('Despre tine', ['Cum dormi și cât stai pe scaun.', 'Ce zone te deranjează și de când.', 'Ce presiune îți place.']),
+   ('Despre sănătate', ['Dacă ai afecțiuni, operații sau un tratament în curs.', 'Dacă un răspuns ține de medic, te trimit întâi la medic.', 'Siguranța ta e pe primul loc.']),
+   ('Apoi', ['Stabilim zonele pe care lucrăm.', 'Începem doar când te simți la aproape.', 'Poți spune „stop” oricând.']),
  ]),
  ('C7', 'dupa-sedinta', 'După ședință: ce faci în următoarele ore', [
    ('În prima oră', ['Bea un pahar cu apă.', 'Mergi ușor, fără efort intens.', 'Evită să te grăbești imediat spre altceva.']),

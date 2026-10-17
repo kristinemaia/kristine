@@ -52,8 +52,8 @@ Bună ziua, [numele avocatului],
 Plec în Turcia pe 29 octombrie și revin pe 15 noiembrie. Aș avea nevoie de răspunsuri **în scris** la câteva puncte, ca să știu ce pot face și ce nu.
 
 **Practicile din terapia mea (KM Wellness Concept)** 🛑
-1. Sunt certificată în masaj de recuperare, drenaj limfatic, dry needling și ventuzoterapie. Ce acte îmi trebuie ca să practic **legal** dry needling și ventuze în România și să le pot menționa în comunicarea publică? Atașez certificatele: [lista].
-2. Până când am răspunsul, rămân în comunicare doar la masaj de recuperare și drenaj. Confirmați că e prudent?
+1. Sunt certificată în masaj de recuperare, dry needling și ventuzoterapie. Ce acte îmi trebuie ca să practic **legal** dry needling și ventuze în România și să le pot menționa în comunicarea publică? Atașez certificatele: [lista].
+2. Până când am răspunsul, rămân în comunicare doar la masaj de recuperare. Confirmați că e prudent?
 3. Ce formulări sunt permise (și interzise) în anunțuri pentru o terapie care nu e prestată de un medic? Folosesc „Not medical advice”, dar vreau să știu dacă e suficient.
 
 **Contul fals care folosește imaginea mea**

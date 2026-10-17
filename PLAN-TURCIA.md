@@ -159,7 +159,7 @@ Ce programezi de unde:
 La fiecare programare din Turcia verifici că ora afișată e ora României. Sâmbăta nu postezi nimic manual.
 ```
 
-**KM1–KM4 (contul KM, în română):** KM1 „3 semne că ai nevoie de masaj de recuperare după birou”, KM2 „Ce este drenajul limfatic”, KM3 „Cum arată o ședință de masaj de recuperare, pas cu pas” (fără promisiuni medicale), KM4 „Întrebările pe care le pun la prima ședință” (propunere).
+**KM1–KM4 (contul KM, în română):** KM1 „3 semne că ai nevoie de masaj de recuperare după birou”, KM2 „Pentru cine e masajul de recuperare”, KM3 „Cum arată o ședință de masaj de recuperare, pas cu pas” (fără promisiuni medicale), KM4 „Întrebările pe care le pun la prima ședință” (propunere).
 
 **Bucătărie:** K1 clătitele (filmate 21 oct), K4 somonul (28 oct), K5 peștele alb (deja filmat și montat).
 

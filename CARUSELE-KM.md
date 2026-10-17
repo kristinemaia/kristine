@@ -2,14 +2,14 @@
 
 Patru carusele de câte 5 slide-uri, 1080 × 1350, în stilul calm alb-verde al contului. Sunt gata de urcat: nu cer poze cu tine. Dacă vrei un portret, îl pui pe ultimul slide, în locul bulinei.
 
-**Reguli de siguranță folosite:** fără promisiuni medicale, fără „tratează / vindecă / elimină durerea”, fără dry needling, ventuze sau reiki, fără numele legal. La fiecare: „Informații generale, nu sfat medical.” Linia de calificări: Licențiată în Educație Fizică și Sport · masaj de recuperare și drenaj limfatic.
+**Reguli de siguranță folosite:** fără promisiuni medicale, fără „tratează / vindecă / elimină durerea”, fără dry needling, ventuze sau reiki, fără numele legal. La fiecare: „Informații generale, nu sfat medical.” Linia de calificări: Licențiată în Educație Fizică și Sport · masaj de recuperare.
 
 ## Calendarul
 
 | Cod | Titlu | Programezi pentru | Ora |
 |---|---|---|---|
 | C1 | Masaj de recuperare: ce este, de fapt? | Duminică 25 oct | 19:00 |
-| C2 | Drenajul limfatic, pe înțelesul tuturor | Duminică 1 nov | 19:00 |
+| C2 | Unde se adună încordarea după o zi la birou | Duminică 1 nov | 19:00 |
 | C3 | O ședință la domiciliu, pas cu pas | Duminică 8 nov | 19:00 |
 | C4 | 5 obiceiuri simple pentru cine stă la birou | Duminică 15 nov | 19:00 |
 
@@ -29,24 +29,24 @@ Pentru cine e, și când mergi întâi la medic: pe slide-uri.
 Programări la domiciliu, în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+KM Wellness Concept · masaj de recuperare
 
 #masajderecuperare #masaj #recuperare #kmwellnessconcept #sanatate #wellness #birou
 ```
 
-### C2 · Drenajul limfatic
+### C2 · Unde se adună încordarea după o zi la birou
 ```
-Drenajul limfatic, pe înțelesul tuturor 💧
-Mișcări lente, ușoare și ritmice, fără presiune puternică. Mulți îl aleg pentru senzația de picioare grele după zile lungi.
+Unde se adună încordarea după o zi la birou 💺
+Gâtul, umerii și partea de sus a spatelui: de obicei acolo. Pauzele scurte și mișcarea ajută mult; un masaj de recuperare poate fi un moment de relaxare în plus.
 
-Salvează postarea pentru când ai nevoie de ea.
+Salvează postarea pentru zilele lungi.
 
 Programări la domiciliu, în săptămânile anunțate. Link în bio.
 
-Informații generale, nu sfat medical. Dacă ai o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
+KM Wellness Concept · masaj de recuperare
 
-#drenajlimfatic #masaj #recuperare #kmwellnessconcept #wellness #picioaregrele
+#masajderecuperare #birou #kmwellnessconcept #wellness #gatsiumeri #relaxare
 ```
 
 ### C3 · O ședință, pas cu pas
@@ -59,7 +59,7 @@ Vin la tine cu masa pliantă, prosoape și uleiuri. Tu ai nevoie doar de un loc 
 Programări în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+KM Wellness Concept · masaj de recuperare
 
 #masajladomiciliu #masajderecuperare #kmwellnessconcept #wellness #recuperare
 ```
@@ -72,7 +72,7 @@ O pauză pe oră, umerii jos, ecranul la nivelul ochilor, tălpile pe podea, ap�
 Trimite-i unui coleg care stă toată ziua pe scaun.
 
 Informații generale, nu sfat medical.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+KM Wellness Concept · masaj de recuperare
 
 #birou #pauzadebirou #mobilitate #sanatate #kmwellnessconcept #wellness #stailabirou
 ```
@@ -86,7 +86,7 @@ KM Wellness Concept · masaj de recuperare și drenaj limfatic
 ---
 
 ## Setul 2: C5–C8 (adăugat 18 octombrie)
-Fără mențiunea despre facultate; linia de sub apel e doar „Masaj de recuperare și drenaj limfatic”. Le programezi pentru duminicile următoare, la 19:00: **22 noiembrie (C5), 29 noiembrie (C6), 6 decembrie (C7), 13 decembrie (C8).** Le poți programa dinainte, din Turcia.
+Fără mențiunea despre facultate; linia de sub apel e doar „Masaj de recuperare”. Le programezi pentru duminicile următoare, la 19:00: **22 noiembrie (C5), 29 noiembrie (C6), 6 decembrie (C7), 13 decembrie (C8).** Le poți programa dinainte, din Turcia.
 
 ### C5 · Cum te pregătești pentru o ședință la domiciliu
 ```
@@ -98,25 +98,24 @@ Presiunea o alegi tu. Poți spune „stop” oricând.
 Programări la domiciliu, în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical. Dacă ai o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+KM Wellness Concept · masaj de recuperare
 
 #masajderecuperare #masajladomiciliu #kmwellnessconcept #wellness #recuperare #relaxare
 ```
 
-### C6 · Masaj de recuperare sau drenaj limfatic?
+### C6 · Prima ședință: ce te întreb și de ce
 ```
-Masaj de recuperare sau drenaj limfatic? 🤍
-Recuperare: presiune medie, pentru zonele încordate după zile lungi.
-Drenaj limfatic: mișcări lente, ușoare, ritmice, fără presiune puternică.
+Prima ședință: ce te întreb și de ce 🤍
+Cum dormi, cât stai pe scaun, ce zone te deranjează, dacă ai afecțiuni sau un tratament în curs, ce presiune îți place. Dacă un răspuns ține de medic, te trimit întâi la medic.
 
-Spune-mi ce simți și îți explic diferența. Salvează postarea pentru când ai nevoie de ea.
+Siguranța ta e pe primul loc. Poți spune „stop” oricând.
 
 Programări în săptămânile anunțate. Link în bio.
 
-Informații generale, nu sfat medical. Dacă ai o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+Informații generale, nu sfat medical.
+KM Wellness Concept · masaj de recuperare
 
-#masajderecuperare #drenajlimfatic #kmwellnessconcept #masaj #wellness #sanatate
+#masajderecuperare #kmwellnessconcept #masaj #wellness #sanatate #primasedinta
 ```
 
 ### C7 · După ședință: ce faci în următoarele ore
@@ -129,7 +128,7 @@ Dacă apar dureri neobișnuite sau orice te îngrijorează, vorbești cu medicul
 Programări la domiciliu, în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+KM Wellness Concept · masaj de recuperare
 
 #masajderecuperare #dupamasaj #kmwellnessconcept #wellness #relaxare #recuperare
 ```
@@ -142,7 +141,7 @@ KM Wellness Concept · masaj de recuperare și drenaj limfatic
 Programări în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical. Dacă ai o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+KM Wellness Concept · masaj de recuperare
 
 #masajderecuperare #mituridespremasaj #kmwellnessconcept #masaj #wellness #sanatate
 ```

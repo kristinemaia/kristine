@@ -99,7 +99,7 @@ GROUPS = [
              "desc": "C1 (Why your neck hurts after 4 hours of gaming) și C2 (3 things I do after every stream), 1080 × 1350, în engleză."},
             {"kind": "img", "slug": "km-carusele", "title": "Carusele KM (40 de imagini)",
              "base": "brand/km/out", "keep": True,
-             "images": ["KM-C1-masaj-de-recuperare-%d.png" % i for i in range(1, 6)] + ["KM-C2-drenaj-limfatic-%d.png" % i for i in range(1, 6)] + ["KM-C3-sedinta-pas-cu-pas-%d.png" % i for i in range(1, 6)] + ["KM-C4-obiceiuri-birou-%d.png" % i for i in range(1, 6)] + ["KM-C5-cum-te-pregatesti-%d.png" % i for i in range(1, 6)] + ["KM-C6-recuperare-sau-drenaj-%d.png" % i for i in range(1, 6)] + ["KM-C7-dupa-sedinta-%d.png" % i for i in range(1, 6)] + ["KM-C8-mituri-despre-masaj-%d.png" % i for i in range(1, 6)],
+             "images": ["KM-C1-masaj-de-recuperare-%d.png" % i for i in range(1, 6)] + ["KM-C2-zonele-incordate-%d.png" % i for i in range(1, 6)] + ["KM-C3-sedinta-pas-cu-pas-%d.png" % i for i in range(1, 6)] + ["KM-C4-obiceiuri-birou-%d.png" % i for i in range(1, 6)] + ["KM-C5-cum-te-pregatesti-%d.png" % i for i in range(1, 6)] + ["KM-C6-prima-sedinta-intrebari-%d.png" % i for i in range(1, 6)] + ["KM-C7-dupa-sedinta-%d.png" % i for i in range(1, 6)] + ["KM-C8-mituri-despre-masaj-%d.png" % i for i in range(1, 6)],
              "desc": "Opt carusele de câte 5 slide-uri, 1080 × 1350, gata de urcat pe @kmwellnessconcept (C1–C4 pentru octombrie–noiembrie, C5–C8 pentru 22 noiembrie – 13 decembrie)."},
             {"kind": "img", "slug": "twitch-banner", "title": "Bannerul Twitch (2 mărimi)",
              "base": "brand/twitch", "keep": True,

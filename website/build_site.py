@@ -597,7 +597,7 @@ terapie = """
   <p class="kicker">KM Wellness Concept</p>
   <h1>Masaj de <em>recuperare</em></h1>
   <p class="lead">Ședințe de masaj de recuperare și sportiv în București, în săptămânile anunțate pe <a href="{KM_INSTA}">@kmwellnessconcept</a>.</p>
-  <p class="small muted">Licențiată în Educație Fizică și Sport · terapeut certificat în masaj de recuperare și drenaj limfatic</p>
+  <p class="small muted">Licențiată în Educație Fizică și Sport · terapeut certificat în masaj de recuperare</p>
   <div class="actions"><a class="btn" href="{KM_INSTA}">Scrie-mi pe Instagram</a><a class="tl nw" href="tel:+40737071122">+40 737 071 122</a></div>
 </section>
 

@@ -25,7 +25,7 @@ Mai jos ai, în ordine: tabelul cu tot (ce, unde, cât durează, când se postea
 | B3 | Upper back and shoulders (the gamer hunch) | Kristine Maia | perete alb la țară, în picioare + saltea | 40 s | Mar 10 nov, 17:00 |
 | B4 | Warm-up before gaming: 4 moves in 1 minute | Kristine Maia | perete alb la țară, în picioare | 45 s | Vin 13 nov, 17:00 |
 | KM1 | 3 semne că ai nevoie de masaj de recuperare după birou | KM | fundal calm, la țară | 35 s | Joi 22 oct, 19:00 |
-| KM2 | Ce este drenajul limfatic | KM | fundal calm, la țară | 35 s | Joi 29 oct, 19:00 |
+| KM2 | Pentru cine e masajul de recuperare | KM | fundal calm, la țară | 35 s | Joi 29 oct, 19:00 |
 | KM3 | Cum arată o ședință, pas cu pas | KM | fundal calm, la țară | 45 s | Joi 5 nov, 19:00 |
 | KM4 | Întrebările pe care le pun la prima ședință | KM | fundal calm, la țară | 35 s | Joi 12 nov, 19:00 |
 
@@ -206,11 +206,11 @@ E reel-ul care vinde PDF-ul: arăți pe scurt cele 4 zone din el.
 [prima linie, din fiecare reel]
 
 Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare și drenaj limfatic
+KM Wellness Concept · masaj de recuperare
 Programări la domiciliu, în săptămânile anunțate: link în bio
 ```
 
-**Hashtag-uri KM:** `#masajderecuperare #drenajlimfatic #masaj #recuperare #kmwellnessconcept`
+**Hashtag-uri KM:** `#masajderecuperare #masaj #recuperare #kmwellnessconcept`
 
 ### KM1 · 3 semne că ai nevoie de masaj de recuperare după birou · 35 s
 **Pe ecran:** `3 semne că ai nevoie de un masaj de recuperare`
@@ -219,12 +219,12 @@ Programări la domiciliu, în săptămânile anunțate: link în bio
 
 **Prima linie din descriere:** `Te recunoști în măcar unul?`
 
-### KM2 · Ce este drenajul limfatic · 35 s
-**Pe ecran:** `Ce este, de fapt, drenajul limfatic?`
+### KM2 · Pentru cine e masajul de recuperare · 35 s
+**Pe ecran:** `Pentru cine e masajul de recuperare?`
 **Spui:**
-> Drenajul limfatic e un masaj cu mișcări lente, ușoare și ritmice, care urmează traseul vaselor limfatice. Nu e un masaj puternic. Mulți îl aleg pentru senzația de picioare grele după zile lungi pe scaun sau în picioare. Dacă ai o afecțiune, vorbește întâi cu medicul.
+> Masajul de recuperare e pentru oricine stă multe ore pe scaun sau în picioare, face sport sau are zile lungi și vrea o oră pentru corp. E un masaj cu presiune medie, pe care o alegi tu. Nu e pentru oricine: dacă ai o afecțiune, o operație sau un tratament în curs, vorbește întâi cu medicul.
 
-**Prima linie din descriere:** `Ușor, lent și ritmic. Asta e drenajul limfatic.`
+**Prima linie din descriere:** `Pentru cine e masajul de recuperare?`
 
 ### KM3 · Cum arată o ședință, pas cu pas · 45 s
 **Pe ecran:** `Cum arată o ședință de masaj de recuperare`
