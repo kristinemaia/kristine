@@ -41,7 +41,7 @@ _Gata de folosit: `5-minute-desk-stretch.pdf` (3 pagini, cu ilustrații desenate
 |---|---|---|---|
 | 1 | Neck | 1:20 | Chin tucks (8 repetări lente) · Side neck stretch (20 s pe parte) |
 | 2 | Shoulders | 1:00 | Shoulder rolls (8) · Shoulder blade squeeze (8) |
-| 3 | Wrists | 1:10 | Palm-up stretch (15 s pe mână) · Palm-down stretch (15 s pe mână) · Tendon glides (3 runde) |
+| 3 | Wrists | 1:10 | Palm-out stretch (15 s pe mână) · Palm-down stretch (15 s pe mână) · Tendon glides (3 runde) |
 | 4 | Hips & back | 1:30 | Seated figure-4 (30 s pe parte) · Seated twist (15 s pe parte) |
 
 **Total: 1:20 + 1:00 + 1:10 + 1:30 = 5:00.** Dacă adaugi o mișcare, scoți alta: timpii trebuie să dea tot 5:00.

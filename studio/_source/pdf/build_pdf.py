@@ -50,7 +50,7 @@ ROWS = [
     {
         "key": "wrists", "tone": "mint", "title": "Wrists", "time": "1:10",
         "moves": [
-            ("Palm-up stretch", "Arm straight, palm up. Gently pull the fingers back with your other hand.", "15 s each hand"),
+            ("Palm-out stretch", "Arm straight, palm facing forward. Gently pull the fingers back with your other hand.", "15 s each hand"),
             ("Palm-down stretch", "Arm straight, palm down. Gently press the back of the hand toward you.", "15 s each hand"),
             ("Tendon glides", "Open hand, hook fist, full fist, flat fist, straight fingers. Slowly, one shape at a time.", "3 rounds"),
         ],
@@ -105,7 +105,7 @@ DETAIL = {
          "Hold for 1 to 2 seconds."),
     ],
     "wrists": [
-        ("Arm straight, palm up. With your other hand, gently pull the fingers back toward the floor.",
+        ("Arm straight in front, palm facing forward, fingers up. With your other hand, gently pull the fingers back toward you.",
          "A stretch along the inside of your forearm. No pain, no tingling.",
          "Bend the elbow a little and pull less."),
         ("Arm straight, palm down. Gently press the back of the hand toward you, fingers pointing down.",
@@ -140,11 +140,11 @@ P3_SUB = "Short and often is easier to keep than long and rare."
 P3_BADGE = ("7", "day check-in")
 P3_SHORT = [
     {"tone": "pink", "title": "The 1-minute reset", "time": "1:00",
-     "moves": ["Chin tucks, 4 slow reps", "Shoulder rolls, 4 backwards", "Palm-up stretch, 8 s each hand", "Seated twist, 8 s each side"],
+     "moves": ["Chin tucks, 4 slow reps", "Shoulder rolls, 4 backwards", "Palm-out stretch, 8 s each hand", "Seated twist, 8 s each side"],
      "note": "For the gap between two matches."},
     {"tone": "blue", "title": "The 2-minute version", "time": "2:00",
      "moves": ["Chin tucks, 6 slow reps", "Side neck stretch, 10 s each side", "Shoulder rolls, 6 backwards",
-               "Palm-up and palm-down stretch, 10 s each hand", "Seated figure-4, 10 s each side"],
+               "Palm-out and palm-down stretch, 10 s each hand", "Seated figure-4, 10 s each side"],
      "note": "For the top of the hour."},
 ]
 P3_WHEN_TITLE = "When to do it"
