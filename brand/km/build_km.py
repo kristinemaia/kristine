@@ -4,7 +4,7 @@ Rulezi: python3 brand/km/build_km.py  ->  brand/km/out/KM-C1-*.png ... + brand/k
 import html, os, subprocess, tempfile, zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, 'out'); os.makedirs(OUT, exist_ok=True)
-CRED = 'Licențiată în Educație Fizică și Sport · masaj de recuperare și drenaj limfatic'
+CRED = 'Masaj de recuperare și drenaj limfatic'
 DISC = 'Informații generale, nu sfat medical.'
 CTA = ['Programări la domiciliu, în săptămânile anunțate', 'Link în bio']
 SETS = [
@@ -28,7 +28,28 @@ SETS = [
    ('3 · Ecranul la nivelul ochilor', ['Marginea de sus a ecranului, aproape de ochi.', 'Tălpile pe podea, spatele sprijinit.', 'Coatele aproape de corp.']),
    ('4 și 5 · Apă și mers', ['Un pahar cu apă lângă tine, tot timpul.', '5–10 minute de mers după masa de prânz.', 'Un masaj nu înlocuiește mișcarea de zi cu zi.']),
  ]),
+('C5', 'cum-te-pregatesti', 'Cum te pregătești pentru o ședință la domiciliu', [
+   ('Înainte de ședință', ['Mănâncă ușor cu 1–2 ore înainte.', 'Bea apă în ziua aceea.', 'Poartă haine comode.', 'Spune-mi dacă ai afecțiuni, operații sau tratamente în curs.']),
+   ('Locul', ['Un spațiu liniștit, de ~2 × 2 m.', 'O temperatură plăcută în cameră.', 'Telefonul pe silențios, ca să te poți relaxa.', 'Vin eu cu masa pliantă, prosoape și uleiuri.']),
+   ('În timpul ședinței', ['Presiunea o alegi tu: „mai ușor” sau „mai apăsat”.', 'Respiră lent; nu trebuie să faci nimic altceva.', 'Poți spune „stop” oricând.']),
+ ]),
+ ('C6', 'recuperare-sau-drenaj', 'Masaj de recuperare sau drenaj limfatic?', [
+   ('Masaj de recuperare', ['Presiune medie, adaptată ție.', 'Zonele încordate după zile lungi: gât, umeri, spate.', 'Potrivit când stai mult jos sau faci sport.']),
+   ('Drenaj limfatic', ['Mișcări lente, ușoare, ritmice.', 'Fără presiune puternică.', 'Mulți îl aleg pentru senzația de picioare grele.']),
+   ('Cum alegi', ['Spune-mi ce simți și ce vrei de la ședință.', 'Îți explic diferența, fără grabă.', 'Dacă ai o afecțiune, vorbește întâi cu medicul.']),
+ ]),
+ ('C7', 'dupa-sedinta', 'După ședință: ce faci în următoarele ore', [
+   ('În prima oră', ['Bea un pahar cu apă.', 'Mergi ușor, fără efort intens.', 'Evită să te grăbești imediat spre altceva.']),
+   ('Seara', ['Odihnă și un duș călduț.', 'Un somn bun.', 'Observă cum te simți; fiecare corp reacționează diferit.']),
+   ('Când vorbești cu medicul', ['Dureri neobișnuite sau care persistă.', 'Amețeală sau orice te îngrijorează.', 'Dacă nu ești sigur(ă), întreabă.']),
+ ]),
+ ('C8', 'mituri-despre-masaj', '4 mituri despre masaj', [
+   ('Mit 1 și 2', ['„Trebuie să doară ca să funcționeze.” Nu: presiunea e confortabilă și o alegi tu.', '„Un masaj înlocuiește mișcarea.” Nu: mersul și pauzele de la birou rămân importante.']),
+   ('Mit 3 și 4', ['„O ședință rezolvă tot.” Fiecare corp e diferit; spune-mi ce simți și vedem ce ți se potrivește.', '„Masajul e doar pentru cine face sport.” Nu: e pentru oricine stă mult jos sau în picioare.']),
+   ('Ce rămâne valabil', ['Masajul nu înlocuiește un consult medical.', 'Dacă ai o afecțiune, medicul vine primul.', 'Informațiile de aici sunt generale.']),
+ ]),
 ]
+
 CSS = """
 :root{--bg:#F3F8F5;--ink:#26322D;--green:#1C6550;--mint:#D8F0E4;--sage:#BFE0D0;--cream:#FFF9F6;--muted:#546A61}
 *{box-sizing:border-box}body{margin:0}

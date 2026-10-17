@@ -206,7 +206,7 @@ E reel-ul care vinde PDF-ul: arăți pe scurt cele 4 zone din el.
 [prima linie, din fiecare reel]
 
 Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · Licențiată în Educație Fizică și Sport · masaj de recuperare și drenaj limfatic
+KM Wellness Concept · masaj de recuperare și drenaj limfatic
 Programări la domiciliu, în săptămânile anunțate: link în bio
 ```
 
