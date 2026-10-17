@@ -13,7 +13,7 @@ _14 October 2026. Page numbers refer to "Ebook - Final.pdf" (39 pages). Keep you
 **Old:** "As someone passionate about health and wellness, I understand the challenges…"
 
 **New:**
-> I'm a sports science graduate, a certified recovery massage therapist and a mobility & recovery coach, and I've spent the last five years streaming for hours a day, so I know exactly what long sessions at a desk do to a body and to an appetite. This book is the food side of how I stay healthy while sitting a lot: simple portions you can measure with your hands, foods that fill you up without weighing you down, and quick meals that fit around a long day. Nothing here is medical advice; it's what works for me, explained so it can work for you.
+> I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and a mobility & recovery coach, and I've spent the last five years streaming for hours a day, so I know exactly what long sessions at a desk do to a body and to an appetite. This book is the food side of how I stay healthy while sitting a lot: simple portions you can measure with your hands, foods that fill you up without weighing you down, and quick meals that fit around a long day. Nothing here is medical advice; it's what works for me, explained so it can work for you.
 
 Add at the bottom of the page, small: *Not medical advice. If you have a medical condition, are pregnant or breastfeeding, or take medication, talk to your doctor before changing how you eat.*
 

@@ -71,7 +71,7 @@ FOOT_LEFT = (
 )
 FOOT_RIGHT_TITLE = "Hi, I'm Kristine"
 FOOT_RIGHT = (
-    "Sports science graduate, certified recovery massage therapist and mobility &amp; recovery coach. "
+    "Degree in Physical Education and Sport, certified recovery massage therapist and mobility &amp; recovery coach. "
     "<b>Not medical advice.</b> This is general mobility. If you have pain, an injury or a medical "
     "condition, check with a doctor first, and stop if anything feels sharp."
 )
@@ -174,7 +174,7 @@ P3_STOP = (
     "Stop if you feel sharp pain, numbness, tingling or dizziness. If it does not settle, check with a doctor. "
     "<b>Not medical advice.</b> This is general mobility. If you have pain, an injury or a medical condition, "
     "check with a doctor first."
-    "<br>Kristine Maia · sports science graduate · certified recovery massage therapist · mobility &amp; recovery coach"
+    "<br>Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility &amp; recovery coach"
 )
 FOOTLINE = "The 5-minute desk stretch · Kristine Maia · linktr.ee/kristinemaia"
 

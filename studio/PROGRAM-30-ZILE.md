@@ -690,7 +690,7 @@ Ia-ți **o zi liberă între A și B**, ca să nu te obosești. Dacă o zi iese 
 
 - **Spui:** „loosen up”, „ease”, „gentle”, „feels better”, „general mobility”, „make some room”.
 - **Nu spui:** „fix”, „cure”, „treat”, „heal”, „relieve pain”, „rehab”, „therapy”, „correct your posture”. Nu pomenești diagnostice (hernie, sciatică, tendinită) și nu promiți că dispare vreo durere.
-- **Cum te prezinți:** „sports science graduate, certified recovery massage therapist, mobility & recovery coach”. Nu „kinetoterapeut”, „physiotherapist”, „yoga teacher” sau „nutritionist”.
+- **Cum te prezinți:** „degree in Physical Education and Sport, certified recovery massage therapist, mobility & recovery coach”. Nu „kinetoterapeut”, „physiotherapist”, „yoga teacher” sau „nutritionist”.
 - **„Not medical advice”:** pe ecran în fiecare zi și spus cu voce tare în ziua 1.
 - **Dacă cineva scrie că are durere:** „I can't give medical advice. Please check with your doctor.” și nimic mai mult.
 - **Ziua 30:** auto-evaluarea de la 0 la 10 e subiectivă. Nu o numești „rezultat” sau „progres măsurat”.

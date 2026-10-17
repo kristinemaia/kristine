@@ -187,12 +187,9 @@ LIST_PERKS = "Download it and you'll also hear first about the updated e-book, t
 # Programul de pe Twitch. data-day: 1 = luni, 3 = miercuri, 5 = vineri (pentru „Today / Next up”).
 # Duminica nu are data-day, pentru că e doar în unele săptămâni.
 WEEK_HOME = """
-      <ul class="days">
-        <li data-day="1"><span class="dw dw-mint">Mon</span><p><b>Move Monday</b><span class="desc">A live mobility session. Follow along from your chair.</span></p></li>
-        <li data-day="2"><span class="dw dw-lilac">Tue</span><p><b>Chill stream</b><span class="desc">Gaming or just chatting, with stretch breaks.</span></p></li>
-        <li data-day="3"><span class="dw dw-pink">Wed</span><p><b>Cook with me</b><span class="desc">Quick healthy meals for long days.</span></p></li>
-        <li data-day="5"><span class="dw dw-blue">Fri</span><p><b>Game night</b><span class="desc">With a 2-minute stretch break every hour. My signature.</span></p></li>
-        <li><span class="dw some">Sat</span><p><b>Bonus stream</b><span class="desc">Some weekends, announced on the day. Thursday and Sunday are days off.</span></p></li>
+      <p class="streams-intro">My streams change from day to day. You might find a workout, a mobility session, yoga, cooking, gaming, just chatting, or simply good vibes.</p>
+      <ul class="topics" aria-label="What happens on stream">
+        <li>Workouts</li><li>Mobility</li><li>Yoga</li><li>Cooking</li><li>Gaming</li><li>Just chatting</li><li>Good vibes</li>
       </ul>"""
 
 
@@ -263,7 +260,7 @@ home = """
     </div>
 
     <div class="intro">
-      <p>I'm <strong>Kristine</strong>, a sports science graduate and mobility coach. On my Twitch game nights we stop for a 2-minute stretch every hour. Your turn.</p>
+      <p>I'm <strong>Kristine</strong>. I have a degree in Physical Education and Sport and coach mobility. When I game on Twitch, we stop for a 2-minute stretch every hour. Your turn.</p>
       <p class="small"><a href="#free">Or skip to the free 5-minute desk stretch</a></p>
     </div>
   </div>
@@ -304,18 +301,18 @@ home = """
       <h2 id="me-title">Hi, I'm Kristine. I sit for a living too.</h2>
       <p>Twitch Partner, 72K followers, 5 years live. My chat kept telling me about stiff necks, sore wrists and whatever food was closest. So we work on it together, a few minutes at a time.</p>
       <ul class="creds">
-        <li>Sports science graduate <span>(degree in Physical Education and Sport)</span></li>
+        <li>Degree in Physical Education and Sport</li>
         <li>Mobility &amp; recovery coach</li>
       </ul>
       <p><a class="tl" href="about.html">More about me</a></p>
     </div>
 
     <div class="week">
-      <p class="kicker">Every week on Twitch</p>
-      <h3>Your week on Twitch.</h3>
+      <p class="kicker">Live on Twitch</p>
+      <h3>What's on stream.</h3>
 """ + WEEK_HOME + """
       <p class="perk">Subs get a monthly live 30-minute mobility session, with recordings in Discord.</p>
-      <p class="small muted">Exact times are on my <a href="{TWITCH}/schedule">Twitch schedule</a>.</p>
+      <p class="small muted">Streams are announced on my <a href="{TWITCH}/schedule">Twitch schedule</a>.</p>
       <a class="btn" href="{TWITCH}">Follow on Twitch</a>
     </div>
   </div>
@@ -451,7 +448,7 @@ shop = """
 <section class="wrap block pt-s" aria-labelledby="faq-title">
   <div class="block-head"><p class="kicker">Questions</p><h2 id="faq-title">Before you buy</h2></div>
   <div class="faq">
-    <details><summary>Is this medical treatment?</summary><p>No. I'm a sports science graduate and mobility coach. Everything here is general exercise and education, not a diagnosis or treatment. If you have pain or an injury, see a doctor.</p></details>
+    <details><summary>Is this medical treatment?</summary><p>No. I have a degree in Physical Education and Sport and coach mobility. Everything here is general exercise and education, not a diagnosis or treatment. If you have pain or an injury, see a doctor.</p></details>
     <details><summary>Do I need equipment?</summary><p>A chair, a wall and a bit of floor space. Some routines use a resistance band, which is optional.</p></details>
     <details><summary>How do I get my product after paying?</summary><p>You get an email with your download or access link right after payment.</p></details>
     <details><summary>Refunds</summary><p>See the purchase terms on the <a href="legal.html">legal page</a>.</p></details>
@@ -473,20 +470,17 @@ live = """
 <section class="wrap page-head">
   <p class="kicker">Live on Twitch</p>
   <h1>Come for the stream. Stay for the <em>stretch</em>.</h1>
-  <p class="lead">Five years live and 72K followers. The streams are relaxed, the chat is kind, and on game night we stand up for two minutes every hour.</p>
+  <p class="lead">Five years live and 72K followers. The streams are relaxed, the chat is kind, and when I game we stand up for two minutes every hour.</p>
   <div class="actions"><a class="btn" href="{TWITCH}">Watch on Twitch</a><a class="tl" href="{TWITCH}/schedule">See the schedule</a></div>
 </section>
 
 <section class="wrap pb-m" aria-labelledby="week-title">
-  <h2 id="week-title">Your week on Twitch.</h2>
-  <ul class="days lg mt-s">
-    <li data-day="1"><span class="dw dw-mint">Mon</span><p><b>Move Monday</b><span class="desc">20–60 minutes of mobility inside the stream. Bring a chair, a wall or a mat.</span></p></li>
-    <li data-day="2"><span class="dw dw-lilac">Tue</span><p><b>Chill stream</b><span class="desc">Gaming or just chatting, with a stretch break every hour.</span></p></li>
-    <li data-day="3"><span class="dw dw-pink">Wed</span><p><b>Cook with me</b><span class="desc">Recipes from Stream Day Kitchen, made live. Ask anything in chat.</span></p></li>
-    <li data-day="5"><span class="dw dw-blue">Fri</span><p><b>Game night</b><span class="desc">Chill gaming, up to three hours, with a 2-minute stretch break every hour.</span></p></li>
-    <li><span class="dw some">Sat</span><p><b>Bonus stream</b><span class="desc">Some weekends, announced on the day. Thursday and Sunday are days off.</span></p></li>
+  <h2 id="week-title">What's on stream.</h2>
+  <p class="lead mt-s">My streams change from day to day. You might find a workout, a mobility session, yoga, cooking, gaming, just chatting, or simply good vibes. Bring a chair, a wall or a mat if you want to move with me.</p>
+  <ul class="topics lg" aria-label="What happens on stream">
+    <li>Workouts</li><li>Mobility</li><li>Yoga</li><li>Cooking</li><li>Gaming</li><li>Just chatting</li><li>Good vibes</li>
   </ul>
-  <p class="small muted mt-s">Exact times are on my <a href="{TWITCH}/schedule">Twitch schedule</a>.</p>
+  <p class="small muted mt-s">Streams are announced on my <a href="{TWITCH}/schedule">Twitch schedule</a>.</p>
 </section>
 
 <section class="wrap block pt-s">
@@ -513,7 +507,7 @@ live = """
 page(
     "live.html",
     "Live on Twitch · Kristine Maia",
-    "Move Monday, Chill Tuesday, Cook with me and Game night with a 2-minute stretch break every hour. Weekly schedule and subscriber sessions.",
+    "Live on Twitch: workouts, mobility, yoga, cooking, gaming and just chatting, with a 2-minute stretch break every hour when I game. Subscriber sessions.",
     live,
 )
 
@@ -533,10 +527,10 @@ about = """
     <div class="prose">
       <p class="lead">I help people who sit all day move better, recover faster and eat well, without making it complicated.</p>
       <p>I've streamed on Twitch for five years and built a community of 72,000 people around the world. I studied sport: I hold a degree in Physical Education and Sport, and I coach mobility and recovery for people who sit all day.</p>
-      <p>On stream I train, cook, paint and play games. Over the years my chat kept telling me the same thing: stiff necks, sore wrists, tight hips, too much takeaway. So I started doing something about it live, two minutes at a time. That became Move Monday, Cook with me and the hourly stretch break on game night, and it's what everything on this site is built on.</p>
+      <p>On stream I train, cook, paint and play games. Over the years my chat kept telling me the same thing: stiff necks, sore wrists, tight hips, too much takeaway. So I started doing something about it live, two minutes at a time. That became the hourly stretch break when I game, and it's what everything on this site is built on.</p>
       <h2>What I am</h2>
       <ul class="creds">
-        <li>Sports science graduate <span>(degree in Physical Education and Sport)</span></li>
+        <li>Degree in Physical Education and Sport</li>
         <li>Mobility &amp; recovery coach</li>
       </ul>
       <p class="muted">I'm not a medical professional, and nothing here is medical advice, a diagnosis or a treatment.</p>
@@ -548,7 +542,7 @@ about = """
 page(
     "about.html",
     "About Kristine Maia",
-    "Sports science graduate, mobility coach and Twitch Partner helping people who sit all day.",
+    "Degree in Physical Education and Sport, mobility coach and Twitch Partner helping people who sit all day.",
     about,
 )
 
@@ -578,9 +572,9 @@ brands = """
 <section class="wrap block">
   <div class="cols">
     <div><p class="kicker">Good fits</p><h2>What I promote</h2><ul><li>Ergonomics: desks, chairs, mice and keyboards</li><li>Recovery tools: massage guns, rollers, creams</li><li>Nutrition: quick meals, protein, healthy snacks</li><li>Sportswear, mats and training gear</li></ul><p class="small muted">I say no to anything that doesn't fit a health-focused audience.</p></div>
-    <div><p class="kicker">Formats</p><h2>How we can work together</h2><ul><li>Sponsored segment inside Move Monday or Cook with me</li><li>Dedicated sponsored stream</li><li>Instagram reels package (2–4 reels)</li><li>Discount code for my community, tracked</li><li>Longer-term ambassador or advisory role</li></ul><p class="small muted">All sponsored content is clearly labelled.</p></div>
+    <div><p class="kicker">Formats</p><h2>How we can work together</h2><ul><li>Sponsored segment inside a stream (a workout, a cooking stream or gaming)</li><li>Dedicated sponsored stream</li><li>Instagram reels package (2–4 reels)</li><li>Discount code for my community, tracked</li><li>Longer-term ambassador or advisory role</li></ul><p class="small muted">All sponsored content is clearly labelled.</p></div>
   </div>
-  <div class="notice mt-m"><strong>Current partners:</strong> Dope Rope (jump ropes), Revu Natural (recovery creams) and Bewit (natural products), all with tracked discount codes for my community. On stream they rotate through the week: Dope Rope on Mondays, Bewit on Wednesdays and Revu Natural on Fridays, each with a short reel.</div>
+  <div class="notice mt-m"><strong>Current partners:</strong> Dope Rope (jump ropes), Revu Natural (recovery creams) and Bewit (natural products), all with tracked discount codes for my community. Each one gets a short segment on stream and a reel.</div>
 </section>
 """
 page(
@@ -606,7 +600,7 @@ legal = """
     <h2>Who runs this site</h2>
     <p class="muted">[TODO: denumirea firmei], CUI [TODO], [TODO: sediul]. Contact: {EMAIL}.</p>
     <h2>Not medical advice</h2>
-    <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I am a sports science graduate and mobility coach, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
+    <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I have a degree in Physical Education and Sport and coach mobility, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
     <h2>Privacy</h2>
     <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>

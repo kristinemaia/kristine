@@ -399,3 +399,9 @@ input[type=range]:focus-visible{outline:3px solid var(--ink);outline-offset:2px;
 .routine-photo{width:100%;max-width:340px;aspect-ratio:1;object-fit:cover;border-radius:22px;margin-top:6px;background:var(--mint)}
 .book{width:140px;height:auto;border-radius:10px;box-shadow:0 10px 28px rgba(43,36,49,.2);justify-self:start}
 @media (max-width:560px){.pdf-prev{width:120px}.book{width:120px}}
+
+/* —— ce se întâmplă pe stream (fără program fix) —— */
+.streams-intro{margin:6px 0 14px;line-height:1.5}
+.topics{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:10px}
+.topics li{background:#fff;color:var(--ink);padding:9px 16px;border-radius:99px;font-weight:600;font-size:15px;box-shadow:0 1px 0 rgba(43,36,49,.06)}
+.topics.lg li{font-size:18px;padding:11px 20px}

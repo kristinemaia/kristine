@@ -24,7 +24,7 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Hi [Name / FlexiSpot team],
 >
-> I'm Kristine Maia, a Twitch Partner with 72K followers and around [150] average live viewers, plus 12.7K on Instagram (142K views in the last 30 days). I'm a sports science graduate, a certified recovery massage therapist and a mobility & recovery coach, and my streams mix relaxed gaming with a 2-minute stretch break every hour.
+> I'm Kristine Maia, a Twitch Partner with 72K followers and around [150] average live viewers, plus 12.7K on Instagram (142K views in the last 30 days). I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and a mobility & recovery coach, and my streams mix relaxed gaming with a 2-minute stretch break every hour.
 >
 > My audience sits 6–10 hours a day, and my whole channel is about undoing that. A standing desk is the one piece of furniture I'd genuinely recommend to them.
 >
@@ -43,7 +43,7 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Hi [Name / Therabody team],
 >
-> I'm Kristine Maia, a sports science graduate, certified recovery massage therapist and mobility & recovery coach. I stream on Twitch to 72K followers (around [150] live viewers on average) and show people who sit all day simple ways to move and recover.
+> I'm Kristine Maia. I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and mobility & recovery coach. I stream on Twitch to 72K followers (around [150] live viewers on average) and show people who sit all day simple ways to move and recover.
 >
 > Gamers and desk workers almost never think about recovery, and that is the gap I fill. I'd like to show my community how I use a Theragun on the areas that get tight after long sessions (forearms and upper back), as general information, not medical advice.
 >
@@ -62,7 +62,7 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Hi [Name / Huel team],
 >
-> I'm Kristine Maia, a Twitch Partner (72K followers, around [150] average viewers) and sports science graduate. I run a weekly "Cook with me" stream where I make quick, healthy meals for people who game or work long hours at a desk.
+> I'm Kristine Maia, a Twitch Partner (72K followers, around [150] average viewers) with a degree in Physical Education and Sport. I run a weekly "Cook with me" stream where I make quick, healthy meals for people who game or work long hours at a desk.
 >
 > The real problem my community has is eating badly on long days. I'd love to show an honest "6-hour stream day" with Huel built in, next to my own recipes, so viewers see a realistic routine, not a perfect one.
 >
@@ -81,7 +81,7 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Hi [Name / Myprotein team],
 >
-> I'm Kristine Maia, a Twitch Partner with 72K followers and a sports science graduate. I cook quick, high-protein meals live on stream for people who sit all day.
+> I'm Kristine Maia, a Twitch Partner with 72K followers, and I have a degree in Physical Education and Sport. I cook quick, high-protein meals live on stream for people who sit all day.
 >
 > My protein pancakes are one of the most requested recipes in my community, and I'd love to make Myprotein part of them: a sponsored "Cook with me" stream plus recipe reels, with a code for my audience across Europe and the US.
 >
@@ -98,7 +98,7 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Hi [Name / Manduka team],
 >
-> I'm Kristine Maia, a Twitch Partner (72K followers) and sports science graduate. Every Monday I run a live mobility session for gamers and desk workers, people who would never walk into a yoga studio but desperately need to move.
+> I'm Kristine Maia, a Twitch Partner (72K followers) with a degree in Physical Education and Sport. Every Monday I run a live mobility session for gamers and desk workers, people who would never walk into a yoga studio but desperately need to move.
 >
 > I'd like to bring Manduka into that weekly session: the mat would be on screen every Monday, plus 2 follow-along reels ("5-minute desk reset", "hips after a long stream"), with a code for my community.
 >
@@ -115,7 +115,7 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Hi [Name / Logitech team],
 >
-> I'm Kristine Maia, a Twitch Partner with 72K followers, a sports science graduate and a certified recovery massage therapist. Tired wrists and forearms come up in my chat all the time, and my content shows simple moves and setup changes that make long sessions more comfortable.
+> I'm Kristine Maia, a Twitch Partner with 72K followers, with a degree in Physical Education and Sport and a certified recovery massage therapist. Tired wrists and forearms come up in my chat all the time, and my content shows simple moves and setup changes that make long sessions more comfortable.
 >
 > I'd love to pair those wrist routines with Logitech's ergonomic range: a sponsored stream segment where I switch my setup live, plus 2 reels on comfortable setups for gamers, with a code for my community.
 >

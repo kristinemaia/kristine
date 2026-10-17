@@ -46,7 +46,7 @@ _Ce poți filma în fiecare spațiu din casă, ce spui și ce din e-book trebuie
 
 ```
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · sports science graduate · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 ```
 
@@ -100,7 +100,7 @@ Se taie din **introducerea zilei 1 + N1 + S1** (ziua C și ziua A).
 **Filmezi nou, în ziua D.** Cadru de la piept în sus, aceeași ținută și lumină, te uiți în cameră.
 - Pe ecran: `Mobility, recovery & good food for people who sit all day.`
 - Spui:
-  > Hi, I'm Kristine. I've streamed on Twitch for five years, so I know what a long day in a chair feels like. I'm a sports science graduate, a certified recovery massage therapist, and a mobility and recovery coach. Here you'll find short stretch breaks you can do from your chair, easy recipes for long stream days, and a 30-day mobility program that's coming soon. Start with the free five-minute desk stretch. The link is in my bio.
+  > Hi, I'm Kristine. I've streamed on Twitch for five years, so I know what a long day in a chair feels like. I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist, and a mobility and recovery coach. Here you'll find short stretch breaks you can do from your chair, easy recipes for long stream days, and a 30-day mobility program that's coming soon. Start with the free five-minute desk stretch. The link is in my bio.
 - Îl fixezi (Pin) în profilul de Instagram. Nu spui orașul, nu pomenești trecutul, nu pomenești relații.
 
 ### L7 Behind the scenes: 30 days, one room · 30 s
@@ -134,7 +134,7 @@ Ideea e bună ca **scară spre PDF și program**, nu ca sursă de bani. Pași:
    - Numele emisiunii: `Kristine Maia · Mobility & Recovery`
 4. **Descrierea fiecărui episod** (copiezi):
    ```
-   Guided stretching and mobility with Kristine Maia: sports science graduate, certified recovery massage therapist, mobility & recovery coach.
+   Guided stretching and mobility with Kristine Maia: degree in Physical Education and Sport, certified recovery massage therapist, mobility & recovery coach.
    General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
    Free 5-minute desk stretch: [link]
    ```

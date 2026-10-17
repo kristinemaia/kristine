@@ -32,7 +32,7 @@ Caută în **Settings** zona pentru magazin (poate apărea ca **Store**, **Profi
 
 **Descrierea magazinului (About):**
 ```
-Hi, I'm Kristine. Sports science graduate · certified recovery massage therapist · mobility & recovery coach.
+Hi, I'm Kristine. Degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach.
 I stream on Twitch and make short stretch breaks, easy recipes and recovery routines for people who sit all day: gamers, streamers and desk workers.
 Start with the free 5-minute desk stretch.
 General mobility, not medical advice.
@@ -64,7 +64,7 @@ What's inside:
 
 Who it's for: gamers, streamers and anyone who sits for hours.
 
-Made by Kristine Maia, sports science graduate, certified recovery massage therapist and mobility & recovery coach.
+Made by Kristine Maia, degree in Physical Education and Sport, certified recovery massage therapist and mobility & recovery coach.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
 ```

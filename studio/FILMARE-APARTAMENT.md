@@ -69,7 +69,7 @@ Mai jos ai, în ordine: tabelul cu tot (ce, unde, cât durează, când se postea
 [prima linie, din fiecare reel]
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · sports science graduate · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 ```
 

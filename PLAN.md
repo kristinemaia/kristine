@@ -35,7 +35,7 @@ Fișiere însoțitoare: `CONTINUT.md` (stream-uri, reel-uri, Instagram) · `STER
 
 **Cum te prezinți corect:**
 - RO: *Licențiată în Educație Fizică și Sport · terapeut certificat în masaj de recuperare, drenaj limfatic, dry needling și ventuzoterapie*
-- EN: *Sports science graduate · certified recovery massage therapist · mobility & recovery coach*
+- EN: *Degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach*
 - **Nu** folosești „kinetoterapeut”, „physical therapist” sau „yoga instructor” (până nu ai certificarea).
 - Pe conținutul de mobilitate pui: *„Not medical advice.”*
 
