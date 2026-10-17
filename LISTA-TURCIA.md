@@ -49,18 +49,22 @@ Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 o
 
 **Greutatea:** majoritatea companiilor permit 8–10 kg la bagajul de mână, plus un rucsac mic. Verifică la compania ta și cântărește valiza acasă. Hainele grele (geaca, cizmele, blugii) le porți, deci nu intră în cântar.
 
-**Decizia pentru geci și încălțăminte (două palete: gri, albastru, negru, plus maro):**
-- **Geaca scurtă bej** e puntea între cele două palete: merge cu gri, albastru, negru și cu maro. Intră în valiză.
-- **Geaca de piele** o porți pe tine în avion și pe zilele cu ploaie: oprește vântul, rezistă la apă.
-- **Geaca de piele întoarsă maro** rămâne acasă: se strică în ploaie și, cu două geci deja, a treia ocupă prea mult loc. Dacă prognoza e uscată în prima săptămână, nu ai nevoie de ea.
-- **Cizmele cowboy** le porți pe tine în avion. Merg cu blugii albaștri, cu topurile maro și cu geaca bej. Hotărăște la ieșire, în funcție de zi: dacă plouă tare, adidașii negri 9060.
-- **Adidașii negri 9060** în valiză: ploaie, drum lung, comisioane. Perechea de antrenament în valiză (dacă adidașii gri 9060 sunt ai tăi de antrenament, ei sunt a doua pereche).
-- **Dior bleumarin cu alb:** a patra pereche, doar dacă mai ai loc. **Dior roz:** acasă.
-- **Topuri maro:** 2 în valiză (în loc de 2 din cele gri), ca să ai 2 ținute maro: bej + maro + blugi + cizme.
+**Actualizare 18 octombrie: la Istanbul mergi mai mult la sală și acasă, cu ieșiri puține (cumpărături, coafor).** Deci pachetul se schimbă: mai mult sport și trening, mai puține ținute de oraș.
 
-**Ținute maro (2), cu piesele de mai sus:**
-1. Blugi albaștri + top maro + geacă bej + cizme cowboy.
-2. Pantaloni de trening gri (sau blugi negri) + top maro + geacă de piele + adidași negri 9060.
+**Încălțăminte (2 perechi):**
+- **Adidașii negri (Adidas):** pe tine în avion. Casual, merg cu orice și țin bine în ploaie.
+- **Adidașii gri New Balance 9060:** pentru sală și trening. Merg bine la cardio și greutăți ușoare; dacă ridici greu (genuflexiuni, îndreptări), o talpă mai plată e mai stabilă.
+- **Cizmele cowboy, cizmele lungi, Dior bleumarin cu alb și Dior roz:** rămân acasă. Nu ai ocazii pentru ele și ocupă cel mai mult loc.
+
+**Geci (2):**
+- **Geaca de piele**, pe tine în avion (merge și la cumpărături și la coafor).
+- **O geacă de ploaie subțire** (se strânge mic) sau geaca bej ca strat ușor. A treia, de piele întoarsă, rămâne acasă.
+
+**Haine (în loc de multe ținute de oraș):**
+- **Sport:** 4–5 seturi (colanți, topuri, tricouri), pentru că speli o dată la câteva zile.
+- **Trening casual:** 2 seturi (gri și negru), pentru acasă și stream.
+- **Oraș:** 1–2 perechi de blugi, 2–3 bluze de corp, un pulover subțire, hanoracul gri. Atât ajunge pentru ieșirile scurte.
+- **Reel-uri și stream:** 3 ținute simple, fără logo, în gri, albastru sau negru.
 
 **Istanbul, 29 octombrie – 15 noiembrie (vreme orientativă):** în jur de 15–19 °C ziua la început și 11–15 °C spre mijlocul lui noiembrie, cu 8–12 °C noaptea. Sunt zile cu ploaie și vânt, mai ales dinspre mare. Nu e frig de îngheț, dar e umed. Verifică prognoza cu o zi înainte de plecare, ca să fii sigură.
 
