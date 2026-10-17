@@ -47,7 +47,7 @@ def c1():
     s.append(frame(1, '<div style="position:absolute;left:80px;right:80px;top:300px"><h1 style="font-size:116px">Why your neck hurts after 4 hours of gaming</h1><p style="font-size:42px;color:var(--muted);margin-top:50px;font-weight:600">And 3 small things that help →</p></div>', 1))
     s.append(mid(2, 'What\'s happening', ['Your head drifts forward as you focus on the screen.', 'Your shoulders round toward it.', 'Your neck muscles work the whole session to hold your head up.'], 2, photo=img('portrait2.jpg'), pos='center 12%'))
     s.append(mid(3, 'Why gaming makes it worse', ['You\'re focused, so you forget to move.', 'The screen sits a little too low.', 'One position for hours, with no break.'], 3, 'var(--blue)', 'var(--mint)', photo=img('hips.jpg'), pos='center 12%'))
-    n, sh = img('neck.jpg'), img('shoulders.jpg')
+    n, sh = img('neck.jpg'), img('shoulders2.jpg')
     s.append(frame(4, '<div style="position:absolute;left:80px;right:80px;top:170px"><h2 style="margin-bottom:0">3 small fixes</h2></div>'
         '<div class="card" style="left:80px;top:330px;width:440px;height:440px"><img src="%s"></div><div class="card" style="left:560px;top:330px;width:440px;height:440px"><img src="%s"></div>'
         '<div style="position:absolute;left:80px;top:800px;width:440px;font-size:40px;font-weight:700;line-height:1.2">1 · Chin tucks<span style="display:block;font-size:32px;font-weight:600;color:var(--muted);margin-top:8px">Glide your chin straight back. 8 slow reps.</span></div>'
@@ -58,7 +58,7 @@ def c1():
 def c2():
     s = []
     s.append(frame(1, '<div class="card" style="left:90px;top:640px;width:620px;height:620px;border-radius:50%%;box-shadow:0 18px 50px rgba(43,36,49,.18)"><img src="%s"></div><div style="position:absolute;left:80px;right:80px;top:190px"><h1 style="font-size:112px">3 things I do after every stream</h1><p style="font-size:40px;color:var(--muted);margin-top:34px;font-weight:600">Swipe →</p></div>' % img('portrait.jpg'), 1))
-    sh, wr, cc = img('shoulders.jpg'), img('wrists.jpg'), img('cacao.jpg')
+    sh, wr, cc = img('shoulders2.jpg'), img('wrists.jpg'), img('cacao.jpg')
     def photo_slide(n, head, text, photo, k, a, b):
         return frame(n, '<div style="position:absolute;left:80px;right:80px;top:190px"><h2>%s</h2><p style="font-size:44px;line-height:1.3;font-weight:600;margin:0">%s</p></div><div class="card" style="left:190px;top:650px;width:700px;height:590px"><img src="%s"></div><div class="foot" style="bottom:30px">%s</div>' % (head, E(text), photo, DISC), k, a, b)
     s.append(photo_slide(2, '1 · Shoulder blade squeeze', 'Pull your shoulder blades back and down. Hold 3 seconds, 8 reps.', sh, 2, 'var(--blue)', 'var(--lilac)'))
