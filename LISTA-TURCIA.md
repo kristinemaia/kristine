@@ -17,16 +17,16 @@ Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 o
 
 ## 2b. Haine pentru 17 zile, doar bagaj de mână și rucsac (propus)
 
-**Regula:** o singură paletă (negru, gri, alb, plus roz prăfuit ca accent), ca să se combine totul. Încălțămintea și geaca cea mai groasă le porți **pe tine în avion**.
+**Regula:** o singură paletă: nuanțe de gri și de albastru, plus negru (blugi albaștri sau negri, colanți negri, trening gri sau negru), ca să se combine totul. Geaca de piele merge peste orice din ele. Încălțămintea și geaca cea mai groasă le porți **pe tine în avion**.
 
-**Pe tine în avion:** blugi negri sau gri, un body de corp cu mânecă lungă, hanoracul gri, **geaca cea mai caldă** (puffer sau palton), **cizmele lungi** (dacă sunt comode) și un fular.
+**Pe tine în avion:** blugii (albaștri sau negri), un body de corp cu mânecă lungă, hanoracul gri, **geaca de piele**, **cizmele lungi** (dacă sunt comode) și un fular.
 
 **În valiză (cam 4–5 kg de haine):**
 - **Treninguri și colanți:** 1 set de trening casual gri (hanorac + pantaloni; stream și acasă), 1 pereche de pantaloni de trening negri sau gri, 2 perechi de colanți (negru + unul colorat), 1 hanorac în plus.
 - **Bluze:** 3 bluze de corp (negru, gri, alb), 1 pulover subțire gri.
 - **Blugi:** 1 pereche (în avion porți deja una).
 - **Sport (sală, cardio, greutăți):** 3 sutiene sau topuri, 3 tricouri, 2 colanți, 6 perechi de șosete sport.
-- **Reel-uri și stream:** 3 ținute simple, fără logo, în culori care se văd pe perete (lila, roz prăfuit, bleumarin, verde mentă). Setul tău roz cu „one one” nu e pentru brand.
+- **Reel-uri și stream:** 3 ținute simple (gri, albastru sau negru), fără logo, în culori care se văd pe perete (lila, roz prăfuit, bleumarin, verde mentă). Setul roz cu „one one” rămâne acasă (are logo).
 - **Lenjerie:** 9 perechi, 3 perechi de șosete normale, 1 pereche de șosete groase, pijamale (poate fi un trening).
 - **Accesorii:** căciulă subțire, mănuși ușoare, fular (pe tine), un prosop mic pentru sală.
 
@@ -35,7 +35,7 @@ Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 o
 - **Adidașii de antrenament** în rucsac sau valiză (de preferat negri sau albi, ca să meargă și la ținute casual).
 - **A doua pereche de adidași, mai groși:** o lași acasă dacă ai cizme și adidași de antrenament. Ocupă cel mai mult loc și ai deja pe cineva care îi acoperă.
 
-**Geci:** în avion porți geaca caldă. Dacă mai ai loc, o geacă subțire care se strânge mic (puffer ultrausor) sau un hanorac gros și o ploaie. Nu iei două geci groase.
+**Geci:** geaca de piele o porți pe tine (oprește vântul, dar nu ține de cald). Pentru frig o pui peste hanorac sau pulover. A doua geacă: dacă e groasă și voluminoasă, o porți tu în avion și lași geaca de piele în valiză; dacă e subțire sau se strânge mic, o pui în valiză. Nu iei două geci groase.
 
 **Rucsac (spate):** laptop și încărcător, telefon, microfon, trepied mic, lumină, power bank, acte, punga cu lichide, o schimbare de haine (în caz că valiza ajunge târziu).
 
