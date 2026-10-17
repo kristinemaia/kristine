@@ -49,7 +49,14 @@ Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 o
 
 **Greutatea:** majoritatea companiilor permit 8–10 kg la bagajul de mână, plus un rucsac mic. Verifică la compania ta și cântărește valiza acasă. Hainele grele (geaca, cizmele, blugii) le porți, deci nu intră în cântar.
 
-**Spune-mi:** în ce oraș din Turcia stai și cu ce companie zbori. Pe litoral e mai cald și geaca groasă nu mai e necesară; la Istanbul e mai rece și ploios.
+**Istanbul, 29 octombrie – 15 noiembrie (vreme orientativă):** în jur de 15–19 °C ziua la început și 11–15 °C spre mijlocul lui noiembrie, cu 8–12 °C noaptea. Sunt zile cu ploaie și vânt, mai ales dinspre mare. Nu e frig de îngheț, dar e umed. Verifică prognoza cu o zi înainte de plecare, ca să fii sigură.
+
+**Ce înseamnă asta pentru bagaj:**
+- **Geaca groasă nu e necesară.** Geaca de piele peste hanorac sau pulover ajunge pentru cele mai multe zile. Dacă a doua geacă e groasă și voluminoasă, o lași acasă.
+- **Pentru ploaie:** o pelerină subțire sau o geacă de ploaie care se strânge mic (mai bine decât a doua geacă groasă), eventual o umbrelă mică. Hanoracul cu glugă ajută.
+- **Cizmele:** de piele sau impermeabile, cu talpă care nu alunecă (Istanbulul are multe pante și pietre ude). Evită piele întoarsă (se strică în ploaie).
+- **Straturi:** 2 bluze de corp cu mânecă lungă, un pulover subțire și hanoracul, în loc de o haină groasă.
+- **Fular și căciulă subțire:** de ajuns, mănușile doar pentru zilele cele mai reci (le pui în rucsac).
 
 ## 3. Brandurile (propus, pentru postările de luni, miercuri și vineri)
 - [ ] Dope Rope (luni)
