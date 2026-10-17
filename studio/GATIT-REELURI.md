@@ -28,12 +28,15 @@ _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țar�
 
 | Secunde | Cadru |
 |---|---|
-| 0–3 | ingredientele aliniate |
-| 3–9 | amestecul |
-| 9–17 | întoarsul în tigaie |
-| 17–23 | farfuria gata |
-| 23–26 | `15 minutes` |
-| 26–30 | `Recipe in the caption` |
+| 0–2 | **Hook:** clătitele gata, prim-plan, cu textul `Stream-day breakfast in 15 minutes.` pe ecran din prima secundă |
+| 2–5 | ingredientele aliniate |
+| 5–11 | amestecul |
+| 11–19 | întoarsul în tigaie |
+| 19–25 | farfuria gata (alt unghi decât la început) |
+| 25–28 | `15 minutes` |
+| 28–30 | `Recipe in the caption` |
+
+**De ce farfuria gata la început:** oamenii decid în 1–2 secunde dacă rămân. Un cadru cu clătitele gata (aburi, un strop de unt de arahide, afine) le dă un motiv să urmărească tot. Cadrul de la început trebuie să fie diferit de cel de la final (la început prim-plan, la final cu farfuria în mână).
 
 **Voce:** „Protein pancakes, fifteen minutes. Mix, pour, flip. Full recipe in the caption.”
 **Descriere:** `Stream-day breakfast in 15 minutes.` + rețeta din e-book, pe pași + `General food ideas, not medical advice.` + `Free 5-minute desk stretch → link in bio` (și `#ad` doar dacă folosești un produs de afiliere).
