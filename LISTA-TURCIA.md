@@ -49,6 +49,15 @@ Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 o
 
 **Greutatea:** majoritatea companiilor permit 8–10 kg la bagajul de mână, plus un rucsac mic. Verifică la compania ta și cântărește valiza acasă. Hainele grele (geaca, cizmele, blugii) le porți, deci nu intră în cântar.
 
+**Decizia pentru geci și încălțăminte (paleta gri, albastru, negru):**
+- **Geaca de piele** (neagră sau închisă) o porți pe tine în avion: merge cu toate, rezistă la ploaie și la murdărie.
+- **Geaca scurtă bej** intră în valiză: se potrivește cu gri, albastru și negru și o porți pe zilele mai calde (17–19 °C).
+- **Geaca de piele întoarsă maro** rămâne acasă: se strică în ploaie, nu e din aceeași paletă și ocupă loc.
+- **Încălțăminte:** adidașii negri 9060 pe tine în avion (merg cu toate, ascund murdăria), plus perechea de antrenament în valiză. Dacă adidașii gri 9060 sunt perechea ta de antrenament, ei sunt a doua pereche și restul rămâne acasă.
+- **Cizmele cowboy:** rămân acasă dacă nu faci o ținută maro întreagă. Sunt grele, ocupă cel mai mult loc și nu ai nevoie de ele în ploaie.
+- **Dior bleumarin cu alb:** a treia pereche, doar dacă mai ai loc; se potrivesc cu paleta, dar se murdăresc ușor în ploaie.
+- **Dior roz (ghetuța):** acasă, e în afara paletei.
+
 **Istanbul, 29 octombrie – 15 noiembrie (vreme orientativă):** în jur de 15–19 °C ziua la început și 11–15 °C spre mijlocul lui noiembrie, cu 8–12 °C noaptea. Sunt zile cu ploaie și vânt, mai ales dinspre mare. Nu e frig de îngheț, dar e umed. Verifică prognoza cu o zi înainte de plecare, ca să fii sigură.
 
 **Ce înseamnă asta pentru bagaj:**
