@@ -2,10 +2,10 @@
 
 _Început 17 octombrie. Ce ai spus tu e bifat la „Ce ai cerut”; restul sunt propuneri de la mine, pe care le tai sau le păstrezi. Mai adaugi pe parcurs: spune-mi și o completez._
 
-Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 octombrie.
+Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 octombrie. **Ai doar bagaj de mână și rucsac**, deci tot ce e lichid trebuie să respecte regula de 100 ml.
 
 ## 1. Ce ai cerut
-- [ ] **Alcool sanitar (spirt), o sticlă mică** (100–200 ml). Îl pui în **bagajul de cală**, închis bine și într-o pungă, nu în bagajul de mână (peste 100 ml nu trece, iar lichidele sunt oricum limitate). Alege alcool de până la 70%; dacă ai îndoieli, verifică regulile companiei aeriene.
+- [ ] **Alcool sanitar (spirt), o sticlă mică de maximum 100 ml**, în punga transparentă pentru lichide (cu restul lichidelor, maximum 1 litru în total). Alege alcool de până la 70%; dacă ai îndoieli, verifică regulile companiei aeriene.
 - [ ] **Ace.** Spune-mi ce fel: de cusut (nicio problemă) sau de dry needling/acupunctură. Dacă sunt pentru terapie, nu ai ce face cu ele în Turcia (nu primești bani și nu lucrezi acolo), iar avocatul nu a răspuns încă la întrebarea despre dry needling. Atunci le lași acasă.
 - [ ] **Oregano uscat**, într-o pungă mică sau un borcănel. (În Turcia găsești și acolo, „kekik”, foarte bun și ieftin: poți cumpăra la fața locului.)
 - [ ] **Esență de vanilie.** O sticluță mică, în bagajul de cală. În Turcia găsești „vanilya”, deci n-ar fi o catastrofă dacă o uiți.
@@ -15,10 +15,46 @@ Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 o
 - [ ] Alte condimente care contează în rețetele tale (sare de mare, scorțișoară, ardei, usturoi granulat), în pungi mici.
 - [ ] Boluri mici, o lingură de măsură, o rangă de silicon, un prosop curat: doar dacă gătești în Turcia.
 
+## 2b. Haine pentru 17 zile, doar bagaj de mână și rucsac (propus)
+
+**Regula:** o singură paletă (negru, gri, alb, plus roz prăfuit ca accent), ca să se combine totul. Încălțămintea și geaca cea mai groasă le porți **pe tine în avion**.
+
+**Pe tine în avion:** blugi negri sau gri, un body de corp cu mânecă lungă, hanoracul gri, **geaca cea mai caldă** (puffer sau palton), **cizmele lungi** (dacă sunt comode) și un fular.
+
+**În valiză (cam 4–5 kg de haine):**
+- **Treninguri și colanți:** 1 set de trening casual gri (hanorac + pantaloni; stream și acasă), 1 pereche de pantaloni de trening negri sau gri, 2 perechi de colanți (negru + unul colorat), 1 hanorac în plus.
+- **Bluze:** 3 bluze de corp (negru, gri, alb), 1 pulover subțire gri.
+- **Blugi:** 1 pereche (în avion porți deja una).
+- **Sport (sală, cardio, greutăți):** 3 sutiene sau topuri, 3 tricouri, 2 colanți, 6 perechi de șosete sport.
+- **Reel-uri și stream:** 3 ținute simple, fără logo, în culori care se văd pe perete (lila, roz prăfuit, bleumarin, verde mentă). Setul tău roz cu „one one” nu e pentru brand.
+- **Lenjerie:** 9 perechi, 3 perechi de șosete normale, 1 pereche de șosete groase, pijamale (poate fi un trening).
+- **Accesorii:** căciulă subțire, mănuși ușoare, fular (pe tine), un prosop mic pentru sală.
+
+**Încălțăminte, maximum 2 perechi în afară de cele din avion:**
+- **Cizmele lungi** porți pe tine în avion.
+- **Adidașii de antrenament** în rucsac sau valiză (de preferat negri sau albi, ca să meargă și la ținute casual).
+- **A doua pereche de adidași, mai groși:** o lași acasă dacă ai cizme și adidași de antrenament. Ocupă cel mai mult loc și ai deja pe cineva care îi acoperă.
+
+**Geci:** în avion porți geaca caldă. Dacă mai ai loc, o geacă subțire care se strânge mic (puffer ultrausor) sau un hanorac gros și o ploaie. Nu iei două geci groase.
+
+**Rucsac (spate):** laptop și încărcător, telefon, microfon, trepied mic, lumină, power bank, acte, punga cu lichide, o schimbare de haine (în caz că valiza ajunge târziu).
+
+**Cum le combini (în 8 ținute):**
+1. Blugi + bluză de corp + cizme + geacă (oraș, coafor).
+2. Blugi + pulover + cizme (cină).
+3. Treningul gri + adidași (stream, acasă).
+4. Colanți negri + hanorac + adidași (comisioane).
+5. Pantaloni de trening + body + adidași (zi liberă).
+6–8. Ținute de sală (3 seturi, speli o dată în jumătate).
+
+**Greutatea:** majoritatea companiilor permit 8–10 kg la bagajul de mână, plus un rucsac mic. Verifică la compania ta și cântărește valiza acasă. Hainele grele (geaca, cizmele, blugii) le porți, deci nu intră în cântar.
+
+**Spune-mi:** în ce oraș din Turcia stai și cu ce companie zbori. Pe litoral e mai cald și geaca groasă nu mai e necesară; la Istanbul e mai rece și ploios.
+
 ## 3. Brandurile (propus, pentru postările de luni, miercuri și vineri)
 - [ ] Dope Rope (luni)
 - [ ] Bewit cacao (miercuri) și uleiurile esențiale, uleiul de bază
-- [ ] Revu Natural: crema de masaj (vineri). În bagajul de cală, nu în cel de mână, dacă recipientul depășește 100 ml.
+- [ ] Revu Natural: crema de masaj (vineri). Dacă recipientul depășește 100 ml, nu trece în bagajul de mână: ia un recipient mic sau cumpără-l în Turcia.
 
 ## 4. Stream, filmat și muncă (propus; fișa e și în tracker)
 - [ ] Laptop, încărcător, stick USB cu copiile de siguranță
