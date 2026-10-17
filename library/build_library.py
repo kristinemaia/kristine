@@ -46,6 +46,8 @@ GROUPS = [
              "src": "studio/HARTA-REELURI.md", "desc": "Pentru fiecare reel: în ce fișier sunt mișcările, când îl filmezi și când îl postezi."},
             {"kind": "doc", "slug": "poze-de-facut", "title": "Pozele de făcut: PDF, copertă, e-book, carusele",
              "src": "studio/POZE-DE-FACUT.md", "desc": "Cele 4 poze pentru PDF, poza de copertă, pozele pentru rețete și pentru caruselele C2 și KM: poziție, cadru, lumină, nume de fișier."},
+            {"kind": "doc", "slug": "branduri-reeluri", "title": "Reel-urile pentru branduri: Bewit, Revu Natural, Dope Rope",
+             "src": "studio/BRANDURI-REELURI.md", "desc": "Cadre, secunde, text pe ecran, descriere cu #ad și hashtag-uri pentru cele 3 reel-uri de colaborare; regulile și datele de postare."},
             {"kind": "doc", "slug": "gatit-reeluri", "title": "Reel-urile cu gătit: K1, bolul cu ton, K4, K5",
              "src": "studio/GATIT-REELURI.md", "desc": "Cadrele, secundele, textul de pe ecran, vocea, descrierea și hashtag-urile pentru gătit; ce filmezi sâmbătă 17 și când postezi."},
             {"kind": "doc", "slug": "filmare-apartament", "title": "Reel-urile de filmat la țară (17 și 24 oct)",
