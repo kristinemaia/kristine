@@ -106,6 +106,8 @@ GROUPS = [
              "desc": "O pagină pe săptămână, pe zile, colorat pe tipuri (stream, conținut, postare, bani, sală, viață), cu loc de notițe; plus o pagină goală pentru săptămânile următoare."},
             {"kind": "doc", "slug": "lista-cumparaturi", "title": "Lista de cumpărături pentru weekend (17–18 oct)", "src": "LISTA-CUMPARATURI-WEEKEND.md",
              "desc": "Ingrediente pentru clătite, bolul cu ton și poza de copertă, cu căsuțe de bifat."},
+            {"kind": "doc", "slug": "lista-turcia", "title": "Lista pentru Turcia (29 oct – 15 nov)", "src": "LISTA-TURCIA.md",
+             "desc": "Ce ai cerut (spirt, ace, oregano, vanilie) și ce propun eu; o completezi pe parcurs."},
             {"kind": "doc", "slug": "carusele-km", "title": "Carusele pentru contul KM (4, în română)", "src": "CARUSELE-KM.md",
              "desc": "Calendarul, descrierile și hashtag-urile; imaginile sunt în Brand."},
             {"kind": "doc", "slug": "plan-turcia", "title": "Planul 15 octombrie – 15 noiembrie", "src": "PLAN-TURCIA.md",
