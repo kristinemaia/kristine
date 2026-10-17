@@ -51,17 +51,18 @@ Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 o
 
 **Actualizare 18 octombrie: la Istanbul mergi mai mult la sală și acasă, cu ieșiri puține (cumpărături, coafor).** Deci pachetul se schimbă: mai mult sport și trening, mai puține ținute de oraș.
 
-**Încălțăminte (2 perechi):**
-- **Adidașii negri (Adidas):** pe tine în avion. Casual, merg cu orice și țin bine în ploaie.
-- **Adidașii gri New Balance 9060:** pentru sală și trening. Merg bine la cardio și greutăți ușoare; dacă ridici greu (genuflexiuni, îndreptări), o talpă mai plată e mai stabilă.
-- **Cizmele cowboy, cizmele lungi, Dior bleumarin cu alb și Dior roz:** rămân acasă. Nu ai ocazii pentru ele și ocupă cel mai mult loc.
+**Încălțăminte (3 perechi, dacă porți ghetele pe tine în avion):**
+- **O pereche de ghete sau cizme scurte** (nu cele cowboy lungi), pe tine în avion. Pentru ținutele casual, coafor, cumpărături.
+- **Adidașii negri (Adidas):** în valiză, pentru ploaie și zile casual.
+- **Adidașii gri New Balance 9060:** pentru sală. Dacă lipsește loc, îi lași acasă și folosești adidașii negri și la sală.
+- **Rămân acasă:** cizmele cowboy, Dior bleumarin cu alb și Dior roz.
 
 **Geci (2):**
 - **Geaca de piele**, pe tine în avion (merge și la cumpărături și la coafor).
 - **O geacă de ploaie subțire** (se strânge mic) sau geaca bej ca strat ușor. A treia, de piele întoarsă, rămâne acasă.
 
 **Haine (în loc de multe ținute de oraș):**
-- **Sport:** 4–5 seturi (colanți, topuri, tricouri), pentru că speli o dată la câteva zile.
+- **Sport:** 2 seturi la plecare (colanți, topuri, tricouri), plus 2 seturi noi cumpărate în Istanbul în primele zile. Cumperi fără logo, în gri, albastru sau negru, ca să se potrivească cu reel-urile. Speli o dată la 2–3 zile.
 - **Trening casual:** 2 seturi (gri și negru), pentru acasă și stream.
 - **Oraș:** 1–2 perechi de blugi, 2–3 bluze de corp, un pulover subțire, hanoracul gri. Atât ajunge pentru ieșirile scurte.
 - **Reel-uri și stream:** 3 ținute simple, fără logo, în gri, albastru sau negru.
