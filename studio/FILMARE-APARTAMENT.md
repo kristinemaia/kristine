@@ -63,6 +63,22 @@ Mai jos ai, în ordine: tabelul cu tot (ce, unde, cât durează, când se postea
 - **Scaunul:** simplu, fără rotile, fără brațe, ca să se vadă cum stai.
 - **Pe ecran, la montaj (șablonul A):** textul mare în primele 2 secunde, subtitrări în engleză, la final „Gentle pull only. Stop if it's sharp.” și „Free 5-minute desk stretch → link in bio”.
 
+### Ținutele cumpărate (18 oct) și unde merge fiecare
+
+Numerele sunt cele din pozele tale, în ordine: 1 tricou antracit, 2 bluză neagră cu fermoar scurt, 3 jachetă crem + pantaloni roz, 4 maiou alb + pantaloni roz, 5 gri-lila cu decolteu în V, 6 set alb cu fermoar, 7 set verde.
+
+| Ținuta | Peretele alb | Sală | Living |
+|---|---|---|---|
+| **7 · Setul verde** | **da, prima alegere** | **da, prima alegere** (colanții arată linia genunchilor și a șoldurilor) | da |
+| **2 · Bluza neagră cu fermoar + pantaloni negri largi** | da (R1, reel-uri pe scaun) | doar pentru reel-uri pe scaun sau în picioare, fără exerciții cu aparate (pantalonii largi se prind) | da |
+| **1 · Tricoul antracit + pantaloni largi** | da (Revu, umeri, gât) | nu | da |
+| **3 · Jachetă crem + pantaloni roz evazați** | nu (albul se pierde pe alb) | nu | da, dacă fundalul nu e alb sau bej (test de 10 s) |
+| **4 · Maiou alb + pantaloni roz** | nu | nu | nu pentru mobilitate; la stream sau poze |
+| **6 · Setul alb cu fermoar** | nu | nu: alb + sudoare + lumina din sală = material transparent | da, cu fermoarul tras sus și pe fundal închis |
+| **5 · Gri-lila cu decolteu în V** | nu | nu | nu pentru mobilitate |
+
+Reguli pentru **sală** (cu aprobarea ta): aprobarea în scris păstrată pe telefon, fără alți oameni în cadru, fără numele sălii sau logo, fără ferestre spre stradă, colanți (nu evazați) la orice exercițiu cu genunchii sau cu aparate. La **living**: înainte de fiecare ținută, un test de 10 secunde pe camera telefonului, ca să vezi dacă se vede din fundal și dacă materialul e opac sub lumină. Pantalonii evazați sau largi ascund linia piciorului, deci la reel-urile de pe saltea (B) porți colanții.
+
 **Descrierea pentru toate reel-urile de mișcare (R și B), o copiezi și pui doar prima linie diferită:**
 
 ```
