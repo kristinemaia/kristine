@@ -75,7 +75,7 @@ Doar pentru ce nu e filmat încă (starea o vezi în Tracker → „Statistică�
 | Revu Natural · umeri (sâm 24) | peretele alb | **tricou antracit** (umeri liberi, guler rotund sub claviculă) |
 | Dope Rope · pauza de coardă (din stream) | stream | ce porți deja la stream |
 | Reel-uri noi la sală (dacă le faci) | sala, cu aprobarea ta | **verde** (colanți); fără pantaloni largi sau evazați, fără alb |
-| Reel-uri noi în living | living | **verde** sau **antracit cu fermoar**; albul doar după un test de 10 s pe camera telefonului |
+| Reel-uri noi în living (la țară) | colțul cu peretele alb din stânga, sau podeaua din fața canapelei pentru reel-uri pe saltea | **verde** sau **antracit cu fermoar** pe peretele alb; **albul** merge doar pe fundalul canapelei gri; negrul se pierde pe canapea și pe podeaua roșie |
 
 Albul (jacheta crem, maioul, setul alb) și gri-lila cu decolteu în V rămân pentru stream, poze sau living pe fundal închis, nu pentru mobilitate. Regulile pentru sală: aprobarea în scris pe telefon, fără alți oameni în cadru, fără numele sălii sau logo, fără ferestre spre stradă.
 
