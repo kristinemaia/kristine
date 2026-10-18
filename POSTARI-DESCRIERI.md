@@ -241,6 +241,15 @@ Warm up first, jump gently, stop if anything hurts.
 #jumprope #warmup #streamerlife #cardio #gamerfitness
 ```
 
+**Dacă filmezi reel-ul la sala din București (Reel 4, „5-minute warm-up”), folosești această descriere în loc de cea de mai sus:**
+```
+#ad 5-minute warm-up. Just a rope. 🪢
+Code KRISTINEMAIA (10% off) · link in bio. Affiliate: I earn a small commission at no extra cost to you.
+Warm up first, jump gently, stop if anything hurts.
+
+#jumprope #gymwarmup #warmup #cardio #gamerfitness
+```
+
 ### Bewit · Mie 11 nov, 17:00 · My evening cacao ritual
 ```
 #ad My evening cacao ritual after a long stream. Five quiet minutes, screens off. ☕

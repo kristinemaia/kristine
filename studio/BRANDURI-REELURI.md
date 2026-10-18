@@ -65,7 +65,7 @@ General mobility and self-care, not medical advice. Stop if anything feels sharp
 **Atenție:** nu spui „pentru dureri” sau „pentru articulații”. Suplimentele pentru articulații nu intră în reel.
 
 ## 3. Dope Rope · 2-minute rope break · 20–30 s
-**Sursa:** clip din streamul de vineri (pauza de 2 minute cu coarda), sau o filmare scurtă separată, în sală.
+**Sursa:** filmare scurtă la sala din București, săptămâna aceasta, după antrenament (Reel 4 din „Filmarea reel-urilor la sală”: 4 variante de sărituri, ~5–6 s fiecare; aprobarea sălii în scris pe telefon). Dacă nu apuci, clip din streamul de vineri (pauza de 2 minute cu coarda). Descrierea pentru varianta de la sală e în „Toate descrierile”.
 **Pe ecran:** `2-minute rope break`
 
 | Secunde | Cadru |
