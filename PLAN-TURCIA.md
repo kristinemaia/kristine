@@ -168,6 +168,21 @@ La fiecare programare din Turcia verifici că ora afișată e ora României. Sâ
 
 ---
 
+## Rezerva de conținut (dacă rămâi peste 15 nov sau nu filmezi în Turcia)
+
+Nu știi încă dacă te întorci pe 15 nov sau prelungești. Planul actual acoperă reel-urile Kristine Maia până pe **18 nov**, caruselele KM până pe **13 dec** și caruselele în engleză până pe **8 nov**. Ca să nu depinzi de filmat în Turcia, mai ai nevoie de ~9 reel-uri, care acoperă până pe **10 dec** (3 pe săptămână).
+
+**Reel-urile din rezervă** (în Biblioteca → Plan → „Toate descrierile”, secțiunea 1b, cu descrieri gata): K6 portions without a scale (vin 20 nov) · O1 desk in 10 seconds (mar 24 nov) · K2 overnight tiramisu oats (joi 26 nov) · K7 3 swaps (vin 27 nov) · O3 mouse hand (mar 1 dec) · K3 hot meal in 10 minutes (joi 3 dec) · K8 desk snacks (vin 4 dec) · O7 neck stiff (mar 8 dec) · K9 12 things in my kitchen (joi 10 dec).
+
+**Când le filmezi:** sâmbătă 24 oct e deja plină (B3, K4, Bewit, Revu, living, poze). Rezerva o filmezi **duminică 25 oct, dimineața, la țară** (cele 6 de bucătărie ~2 ore, cele 3 de birou ~45 min), sau o lași deoparte dacă nu ai energie. Fără rezervă, în Turcia filmezi la sală (cu aprobarea ei), o dată pe săptămână, câteva reel-uri.
+
+**Cum le programezi:**
+- **Instagram:** până la ~75 de zile înainte, deci tot ce ai pe 27 oct poți să programezi până pe 10 dec dintr-o dată.
+- **TikTok pe web:** maximum 10 zile înainte, deci nu poți programa dinainte pentru toată perioada. Ai nevoie de o sesiune de 20 de minute **o dată la ~8 zile** (duminica), în care programezi următoarele zile din clipurile strânse (clipuri din stream, reel-urile deja montate).
+- **Decizia** rămâi sau te întorci: o iei până pe **8 nov**. Până atunci nu schimbi nimic; rezerva e programată oricum.
+
+---
+
 ## Cât de lungi să fie stream-urile și cu ce le umpli
 
 Ai construit comunitatea cu stream-uri de 6–7 ore, combinând activități: mic dejun, yoga, gătit, gaming. Ideea e bună și o păstrăm, dar în altă formă. Regula ta din noiembrie e **12–16 ore live pe săptămână**, iar orele contează (când ai scăzut cu 68%, ai pierdut 23% din viewerii medii). Problema nu e lungimea, ci timpul: cât ești în mutare și fără ședințe, un stream de 7 ore îți mănâncă ziua întreagă, iar ziua aceea e și ziua de filmat, de montat și de somn.

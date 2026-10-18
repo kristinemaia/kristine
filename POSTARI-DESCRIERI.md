@@ -261,6 +261,121 @@ General mobility and self-care, not medical advice. Stop if anything feels sharp
 
 ---
 
+# 1b. Rezervă: reel-uri în plus, pentru după 18 noiembrie (opțional)
+
+Pentru cazul în care rămâi în Turcia peste 15 nov sau nu filmezi acolo. Le filmezi înainte de plecare (vezi PLAN-TURCIA, „Rezerva de conținut”) și le programezi pe Instagram, care permite programarea cu până la ~75 de zile înainte. Dacă te întorci pe 15 nov, datele se mută pur și simplu mai devreme. Toate la 17:00, pe @kristinemaia11. La K6 și K7 verifici cifrele din carte înainte; la K2 și K3 lipești rețeta în locul lui `[REȚETA]`.
+
+### K6 · Portions without a scale · Vin 20 nov, 17:00
+```
+No scale needed: your hand is the measure. ✋
+
+General food ideas, not medical advice.
+Free 5-minute desk stretch → link in bio
+
+#handportions #healthyeating #easymeals #streamerlife #nutritionbasics
+```
+
+### O1 · Your desk in 10 seconds: 3 checks · Mar 24 nov, 17:00
+```
+Your desk in 10 seconds: 3 checks. 🖥️
+
+A comfortable setup, not a perfect one.
+
+General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
+Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Free 5-minute desk stretch → link in bio
+
+#desksetup #ergonomics #deskjob #gamersetup #workfromhome
+```
+
+### K2 · Overnight tiramisu oats · Joi 26 nov, 17:00
+```
+Dessert for breakfast: 5 minutes the night before. ☕
+
+[REȚETA]
+
+General food ideas, not medical advice.
+Free 5-minute desk stretch → link in bio
+
+#overnightoats #tiramisu #breakfastideas #easyrecipes #streamerlife
+```
+
+### K7 · 3 swaps that keep you full · Vin 27 nov, 17:00
+```
+3 swaps that keep you full. 🥣
+
+Swap one thing, keep the plate. Small change, same meal.
+
+General food ideas, not medical advice.
+Free 5-minute desk stretch → link in bio
+
+#foodswaps #healthyeating #mealideas #easyrecipes #streamerlife
+```
+
+### O3 · Mouse hand tired? Check this first · Mar 1 dec, 17:00
+```
+Mouse hand tired? Check this first. 🖱️
+
+Wrist in line with the forearm, mouse close, elbow by your side, then this stretch.
+
+General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
+Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Free 5-minute desk stretch → link in bio
+
+#mousehand #wriststretch #gamerhealth #deskjob #officeworker
+```
+
+### K3 · A hot meal in 10 minutes · Joi 3 dec, 17:00
+```
+A hot meal in 10 minutes, between two matches. 🍳
+
+[REȚETA]
+
+General food ideas, not medical advice.
+Free 5-minute desk stretch → link in bio
+
+#quickmeals #omelette #gamerfood #easyrecipes #streamerlife
+```
+
+### K8 · Stream-day desk snacks · Vin 4 dec, 17:00
+```
+My stream-day desk snacks (3 things). 🍎
+
+What I keep at my desk on a long stream day.
+
+General food ideas, not medical advice.
+Free 5-minute desk stretch → link in bio
+
+#desksnacks #streamersnacks #healthysnacks #gamerfood #streamerlife
+```
+
+### O7 · Why your neck feels stiff after hours of gaming · Mar 8 dec, 17:00
+```
+Why your neck feels stiff after 4 hours of gaming. You don't need a perfect posture, you need to move more often.
+
+Try one minute every hour.
+
+General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
+Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Free 5-minute desk stretch → link in bio
+
+#neckstretch #gamerhealth #deskjob #mobility #posture
+```
+
+### K9 · 12 things I always keep in my kitchen · Joi 10 dec, 17:00
+```
+12 things I always keep in my kitchen. 🧺
+
+What's in my kitchen on a long stream day.
+
+General food ideas, not medical advice.
+Free 5-minute desk stretch → link in bio
+
+#kitchenstaples #pantryessentials #healthykitchen #mealideas #streamerlife
+```
+
+---
+
 # 2. KM Wellness Concept · @kmwellnessconcept (română)
 
 Pe acest cont **nu** apare linia cu diploma. Doar „KM Wellness Concept · masaj de recuperare”.
