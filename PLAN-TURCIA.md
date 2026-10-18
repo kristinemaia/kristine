@@ -141,12 +141,15 @@ Mie 28 oct  K1 Protein pancakes in 15 minutes (la 7 zile după filmare)
 Joi 29 oct  B1 Hips after a long stream
 Vin 30 oct  R4 5-minute morning desk reset (ținut pentru Turcia)
 Mar 3 nov   B2 Lower back after a desk day
+Mie 4 nov   Reel din sală: Sit all day? 3 machines undo the chair (propunere)
 Joi 5 nov   K5 White fish with rice & veggies (doar dacă a fost filmat curat)
 Vin 6 nov   Reel din stream: 2-minute rope break with the chat (Dope Rope, #ad, cod KRISTINEMAIA)
 Dum 8 nov   Carusel C2 3 things I do after every stream
 Mar 10 nov  B3 Upper back and shoulders (the gamer hunch)
+Mie 11 nov  Reel Bewit: my evening cacao ritual (#ad, KRISTINE15)
 Joi 12 nov  K4 Salmon & garlic broccoli
 Vin 13 nov  B4 Warm-up before gaming: 4 moves in 1 minute
+Mie 18 nov  Reel Revu Natural: 60-second shoulder reset (#ad, KRISTINE20)
 
 Instagram KM Wellness Concept (română), duminică 19:00, doar carusele (reel-urile KM sunt pe pauză din 18 oct)
 25 oct C1 · 1 nov C2 · 8 nov C3 · 15 nov C4 · 22 nov C5 · 29 nov C6 · 6 dec C7 · 13 dec C8

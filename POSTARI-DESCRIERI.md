@@ -31,6 +31,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 | Vin 30 oct | 17:00 | Kristine Maia | R4 · 5-minute morning desk reset |
 | Dum 1 nov | 19:00 | KM | Carusel C2 · Unde se adună încordarea |
 | Mar 3 nov | 17:00 | Kristine Maia | B2 · Lower back after a desk day |
+| Mie 4 nov | 17:00 | Kristine Maia | Reel din sală · Sit all day? 3 machines undo the chair (propunere) |
 | Joi 5 nov | 17:00 | Kristine Maia | K5 · White fish with rice & veggies |
 | Vin 6 nov | 17:00 | Kristine Maia | Dope Rope · 2-minute rope break (#ad) |
 | Dum 8 nov | 17:00 | Kristine Maia | Carusel C2 · 3 things I do after every stream |
@@ -138,6 +139,18 @@ Kristine Maia · degree in Physical Education and Sport · certified recovery ma
 Free 5-minute desk stretch → link in bio
 
 #warmup #gamerhealth #mobility #stretchbreak #twitchstreamer
+```
+
+### Sală · Mie 4 nov, 17:00 (propunere) · Sit all day? 3 machines undo the chair
+Nu știu ce aparate arăți: dacă îmi spui, adaug numele lor în descriere. Fără numele sălii și fără logo.
+```
+Sit all day? These are the 3 machines I use to undo the chair. 🏋️
+Save it for your next gym day.
+
+General fitness ideas, not medical advice. If you have pain or an injury, check with a doctor first.
+Free 5-minute desk stretch → link in bio
+
+#gymtok #deskjob #gamerhealth #mobility #gymworkout
 ```
 
 ## Carusele
