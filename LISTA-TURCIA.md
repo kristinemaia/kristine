@@ -25,7 +25,7 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 
 **Regula:** o singură paletă: nuanțe de gri și de albastru, plus negru (blugi albaștri sau negri, colanți negri, trening gri sau negru), ca să se combine totul. Geaca de piele merge peste orice din ele. Încălțămintea și geaca cea mai groasă le porți **pe tine în avion**.
 
-**Pe tine în avion:** blugii (albaștri sau negri), un body de corp cu mânecă lungă, hanoracul gri, **geaca de piele**, **adidașii negri Dolce & Gabbana** și un fular.
+**Pe tine în avion:** blugii (albaștri sau negri), un body de corp cu mânecă lungă, hanoracul gri, **geaca de piele**, **cizmele negre lungi** și un fular.
 
 **În valiză (cam 4–5 kg de haine):**
 - **Treninguri și colanți:** 1 set de trening casual gri (hanorac + pantaloni; stream și acasă), 1 pereche de pantaloni de trening negri sau gri, 2 perechi de colanți (negru + unul colorat), 1 hanorac în plus.
@@ -37,7 +37,7 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 - **Accesorii:** căciulă subțire, mănuși ușoare, fular (pe tine), un prosop mic pentru sală.
 
 **Încălțăminte, maximum 2 perechi în afară de cele din avion:**
-- **Adidașii negri Dolce & Gabbana** porți pe tine în avion.
+- **Cizmele negre lungi** porți pe tine în avion.
 - **Adidașii de antrenament** în rucsac sau valiză (de preferat negri sau albi, ca să meargă și la ținute casual).
 
 **Geci:** geaca de piele o porți pe tine (oprește vântul, dar nu ține de cald). Pentru frig o pui peste hanorac sau pulover. A doua geacă: dacă e groasă și voluminoasă, o porți tu în avion și lași geaca de piele în valiză; dacă e subțire sau se strânge mic, o pui în valiză. Nu iei două geci groase.
@@ -45,21 +45,21 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 **Rucsac (spate):** laptop și încărcător, telefon, microfon, trepied mic, lumină, power bank, acte, punga cu lichide, o schimbare de haine (în caz că valiza ajunge târziu).
 
 **Cum le combini (în 8 ținute):**
-1. Blugi + bluză de corp + adidașii negri + geacă (oraș, coafor).
-2. Blugi + pulover + adidașii negri (cină).
+1. Blugi + bluză de corp + cizmele negre + geacă (oraș, coafor).
+2. Blugi + pulover + cizmele negre (cină).
 3. Treningul gri + adidași (stream, acasă).
 4. Colanți negri + hanorac + adidași (comisioane).
 5. Pantaloni de trening + body + adidași (zi liberă).
 6–8. Ținute de sală (3 seturi, speli o dată în jumătate).
 
-**Greutatea:** majoritatea companiilor permit 8–10 kg la bagajul de mână, plus un rucsac mic. Verifică la compania ta și cântărește valiza acasă. Hainele grele (geaca, adidașii negri, blugii) le porți, deci nu intră în cântar.
+**Greutatea:** majoritatea companiilor permit 8–10 kg la bagajul de mână, plus un rucsac mic. Verifică la compania ta și cântărește valiza acasă. Hainele grele (geaca, cizmele, blugii) le porți, deci nu intră în cântar.
 
 **Actualizare 18 octombrie: la Istanbul mergi mai mult la sală și acasă, cu ieșiri puține (cumpărături, coafor).** Deci pachetul se schimbă: mai mult sport și trening, mai puține ținute de oraș.
 
-**Încălțăminte (2 perechi, fără cizme):** nu ai alte cizme la țară decât cele cowboy, care rămân acasă (pielea întoarsă se strică în ploaie și nu se potrivesc cu paleta).
-- **Adidașii negri Dolce & Gabbana (groși):** **pe tine în avion**, ca să nu ocupe loc în valiză. Merg la ținutele casual, coafor, cumpărături.
+**Încălțăminte (2 perechi, a treia opțională):**
+- **Cizmele negre lungi, cu talpă groasă (piele întoarsă cu elastic):** **pe tine în avion**, deci nu ocupă loc și nu cântăresc în bagaj. Sunt negre, merg cu toate cele 5 ținute și țin pantalonii uscați pe ploaie. Înainte de plecare le dai cu spray impermeabilizant pentru piele întoarsă. Negru peste negru: colanții și blugii negri se bagă în cizmă; blugii albaștri strâmți la fel, cei largi se poartă peste.
 - **Adidașii gri New Balance 9060:** în valiză, pentru sală.
-- **Dacă ai nevoie de ceva pentru ploaie:** cumperi la Istanbul o pereche de ghete scurte impermeabile (negre, fără logo), nu iei de acasă.
+- **Adidașii negri Dolce & Gabbana:** rămân acasă, ca să nu ocupe loc (cizmele îi înlocuiesc). Dacă pe 28 oct mai e loc în valiză, îi poți lua ca schimb.
 - **Opțional, dacă mai e loc la închiderea valizei (miercuri 28 oct):** adidașii roz Alexander McQueen din piele (cu spray impermeabilizant; ~1 kg, masivi). Merg cu blugi albaștri sau negri și alb.
 - **Rămân acasă:** cizmele cowboy, Dior bleumarin cu alb.
 
