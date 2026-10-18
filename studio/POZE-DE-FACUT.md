@@ -26,7 +26,7 @@ Format: **pătrat 1:1, minimum 1600 × 1600 px.** Mișcarea la jumătatea ei, nu
 Coperta nouă: **tu gătind, mâncarea în față**, fără cântar și fără panglică de măsurat (erau pe coperta veche).
 
 - **Format:** vertical, raport 1:1,6 (Kindle), **minimum 1600 × 2560 px.**
-- **Cadrul:** de la talie în sus, ții un bol (de exemplu tonul cu roșii și spanac baby) la nivelul pieptului, ușor spre cameră. Privirea spre bol sau spre cameră, zâmbet.
+- **Cadrul:** de la talie în sus, ții un bol (de exemplu salata cu ton și fasole roșie) la nivelul pieptului, ușor spre cameră. Privirea spre bol sau spre cameră, zâmbet.
 - **Locul pentru titlu:** **treimea de sus a pozei rămâne goală** (perete sau fundal simplu): acolo intră titlul, citibil la 200 × 300 px.
 - **Fundal:** simplu și neutru, la bucătărie. Fără etichete, fereastră, oameni sau obiecte personale.
 - **Lumină:** caldă, din față-stânga. Mâncarea să arate proaspătă: pozele le faci imediat după ce e gata.

@@ -104,14 +104,14 @@ The alcohol chart is off-brand for a book about eating well around long sessions
 
 Keep page 24. Replace page 25 with (same layout as the "White fish with tomatoes and baby spinach" page: icon list of ingredients, nutrition line, time pill, description):
 
-**TUNA WITH TOMATOES AND BABY SPINACH**
+**TUNA AND RED BEAN SALAD**
 
-Ingredients: 1 can tuna in water (≈ 120 g drained) · Tomatoes · Baby spinach · Lemon slices · Olive oil · Salt and pepper (to taste)
+Ingredients: 1 can tuna in water (≈ 120 g drained) · 120 g canned red kidney beans, drained and rinsed · Tomatoes · Baby spinach · Lemon slices · Olive oil · Salt and pepper (to taste)
 
-Nutritional information (per serving): Calories ≈ 190 kcal | Protein ≈ 28 g | Fat ≈ 6 g | Carbohydrates ≈ 6 g · Preparation time ≈ 5 - 10 minutes
-_(estimate: check against your tuna's label before you export)_
+Nutritional information (per serving): Calories ≈ 320 kcal | Protein ≈ 36 g | Fat ≈ 7 g | Carbohydrates ≈ 28 g · Preparation time ≈ 5 - 10 minutes
+_(estimate: check against the labels of your tuna and your beans before you export)_
 
-Description: Enjoy a light and flavorful meal with our Tuna with Tomatoes and Baby Spinach: no oven, no pan, nothing to wash but a plate. Drain the tuna. Wash the tomatoes and baby spinach thoroughly, slice the tomatoes and arrange them on a serving plate with the spinach. Flake the tuna on top and add a few lemon slices. Season with a squeeze of fresh lemon juice, a drizzle of olive oil, salt and pepper, to taste. This dish is not only delicious but also nutritious, providing a good source of protein, vitamins, and minerals. Enjoy it as a light and healthy lunch or dinner. Feel free to customize the recipe to suit your preferences: add a few canned white beans, a handful of rocket or extra herbs or spices for added flavor. Bon appétit!
+Description: Enjoy a filling, flavorful salad with our Tuna and Red Bean Salad: no oven, no pan, nothing to wash but a plate. Drain the tuna, then drain and rinse the red beans. Wash the tomatoes and baby spinach thoroughly, slice the tomatoes and arrange them on a serving plate with the spinach. Add the beans, flake the tuna on top and finish with a few lemon slices. Season with a squeeze of fresh lemon juice, a drizzle of olive oil, salt and pepper, to taste. Red beans add plant protein and fiber, so this dish is not only delicious but also filling, providing a good source of protein, fiber, vitamins, and minerals. Enjoy it as a light and healthy lunch or dinner. Feel free to customize the recipe to suit your preferences: add a handful of rocket, some sliced red onion or extra herbs and spices for added flavor. Bon appétit!
 
 ---
 
@@ -125,7 +125,7 @@ Description: Enjoy a light and flavorful meal with our Tuna with Tomatoes and Ba
 
 **Header:** WHAT'S ALWAYS IN MY KITCHEN
 
-Proteins: eggs · Greek yogurt · cottage cheese · firm tofu · canned tuna · white fish fillets (frozen) · salmon (frozen) · canned chickpeas and white beans.
+Proteins: eggs · Greek yogurt · cottage cheese · firm tofu · canned tuna · white fish fillets (frozen) · salmon (frozen) · canned chickpeas, white beans and red kidney beans.
 Carbs: oats · rye crispbread · black or brown rice · wholemeal pasta · sweet potatoes · potatoes.
 Vegetables and fruit: baby spinach · rocket · broccoli · mushrooms (canned and fresh) · cherry tomatoes · cucumber · peppers · frozen mixed vegetables · berries (frozen) · apples · lemons · avocado.
 Flavour: olive oil · butter · soy sauce · garlic · onions · paprika · chili flakes · dried basil and oregano · cinnamon · vanilla essence · cocoa powder · maple syrup · peanut butter · tahini · chia seeds · protein powder (optional).
