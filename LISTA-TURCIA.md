@@ -60,7 +60,8 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 - **Adidașii negri Dolce & Gabbana (groși):** **pe tine în avion**, ca să nu ocupe loc în valiză. Merg la ținutele casual, coafor, cumpărături.
 - **Adidașii gri New Balance 9060:** în valiză, pentru sală.
 - **Dacă ai nevoie de ceva pentru ploaie:** cumperi la Istanbul o pereche de ghete scurte impermeabile (negre, fără logo), nu iei de acasă.
-- **Rămân acasă:** cizmele cowboy, Dior bleumarin cu alb, Dior roz.
+- **Opțional, dacă mai e loc la închiderea valizei (miercuri 28 oct):** adidașii roz Alexander McQueen din piele (cu spray impermeabilizant; ~1 kg, masivi). Merg cu blugi albaștri sau negri și alb.
+- **Rămân acasă:** cizmele cowboy, Dior bleumarin cu alb.
 
 **Geci (2):**
 - **Geaca de piele**, pe tine în avion (merge și la cumpărături și la coafor).
