@@ -2,7 +2,7 @@
 
 Patru carusele de câte 5 slide-uri, 1080 × 1350, în stilul calm alb-verde al contului. Sunt gata de urcat: nu cer poze cu tine. Dacă vrei un portret, îl pui pe ultimul slide, în locul bulinei.
 
-**Reguli de siguranță folosite:** fără promisiuni medicale, fără „tratează / vindecă / elimină durerea”, fără dry needling, ventuze sau reiki, fără numele legal. La fiecare: „Informații generale, nu sfat medical.” Linia de calificări: Licențiată în Educație Fizică și Sport · masaj de recuperare.
+**Reguli de siguranță folosite:** fără promisiuni medicale, fără „tratează / vindecă / elimină durerea”, fără dry needling, ventuze sau reiki, fără numele legal. La fiecare: „Informații generale, nu sfat medical.” Linia de sub apel: „KM Wellness Concept · masaj de recuperare”, fără mențiunea despre facultate.
 
 ## Calendarul
 

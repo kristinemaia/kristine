@@ -113,6 +113,8 @@ GROUPS = [
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
+            {"kind": "doc", "slug": "postari-descrieri", "title": "Toate descrierile și hashtag-urile, gata de copiat", "src": "POSTARI-DESCRIERI.md",
+             "desc": "Fiecare postare, pe cont și pe dată: Kristine Maia (reel-uri, carusele, gătit, colaborări), KM Wellness Concept (reel-uri și 8 carusele) și TikTok. O casetă pe postare, cu hashtag-urile incluse."},
             {"kind": "doc", "slug": "payhip", "title": "Payhip, pas cu pas (PDF-ul gratuit)", "src": "PAYHIP-PAS-CU-PAS.md",
              "desc": "Ce e Payhip, profilul, produsul gratuit, textele în engleză, testul și unde pui linkul."},
             {"kind": "pdf", "slug": "calendar", "title": "Calendarul săptămânal, de printat (17 oct – 15 nov)",
@@ -124,7 +126,7 @@ GROUPS = [
              "desc": "Ce ai cerut (spirt, ace, oregano, vanilie) și ce propun eu; o completezi pe parcurs."},
             {"kind": "doc", "slug": "carusele-en", "title": "Carusele în engleză: calendar și descrieri", "src": "CARUSELE-EN.md",
              "desc": "C1 (23 oct) și C2 (8 nov): slide-urile, descrierile de copiat și hashtag-urile."},
-            {"kind": "doc", "slug": "carusele-km", "title": "Carusele pentru contul KM (4, în română)", "src": "CARUSELE-KM.md",
+            {"kind": "doc", "slug": "carusele-km", "title": "Carusele pentru contul KM (8, în română)", "src": "CARUSELE-KM.md",
              "desc": "Calendarul, descrierile și hashtag-urile; imaginile sunt în Brand."},
             {"kind": "doc", "slug": "plan-turcia", "title": "Planul 15 octombrie – 15 noiembrie", "src": "PLAN-TURCIA.md",
              "desc": "România până pe 28 oct, Turcia până pe 15 nov: ce filmezi, ce programezi și ce faci zi cu zi."},

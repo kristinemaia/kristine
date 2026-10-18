@@ -20,6 +20,8 @@ _Actualizat 17 octombrie 2026. Aici afli, pentru fiecare reel, în ce fișier su
 
 **Caruselele (imagini, nu video):** KM-C1…C4 sunt în **Brand → Carusele KM**, textele în **Plan → Carusele pentru contul KM**.
 
+**Descrierile și hashtag-urile, gata de copiat (toate postările, ambele conturi, TikTok):** Plan → „Toate descrierile și hashtag-urile, gata de copiat”.
+
 **Reel-urile pe zile și ore:** Calendarul de printat și Planul 15 octombrie – 15 noiembrie (folderul Plan).
 
 **Rețetele și ingredientele de sâmbătă:** Plan → Lista de cumpărături pentru weekend.
