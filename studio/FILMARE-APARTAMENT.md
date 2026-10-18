@@ -194,7 +194,9 @@ E reel-ul care vinde PDF-ul: arăți pe scurt cele 4 zone din el.
 
 ---
 
-## 5. Reel-urile cu fundal calm (română, contul KM)
+## 5. Reel-urile cu fundal calm (română, contul KM) · PE PAUZĂ din 18 octombrie
+
+**Nu filmezi pentru terapie deocamdată.** Contul KM are doar caruselele (duminica, 19:00). Secțiunea rămâne aici pentru când reiei reel-urile; nu e nimic de făcut din ea acum.
 
 **Setup:** stai lângă masa de masaj sau pe marginea ei, cadru de la piept în sus, camera la nivelul ochilor, la ~1,5 m. Lumina principală din față. În spate: masa cu un prosop curat, uleiurile aranjate. **Fără client, fără diplome cu numele tău legal, fără dry needling, ventuze sau reiki în cadru sau în text.** Vorbești liniștit, ca și cum i-ai explica unui client.
 

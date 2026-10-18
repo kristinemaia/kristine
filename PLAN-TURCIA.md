@@ -83,7 +83,7 @@ Streamurile și filmările stau în București, la colțul tău. La țară faci 
 | **Important** | Lotul 2 filmat (B1–B4) și montat | 26–27 oct |
 | **Important** | Postările programate în Instagram și TikTok, verificate | 27–28 oct |
 | **Important** | Contractul Twitch citit (exclusivitate); Instagram arhivat și review trimis | 18 oct |
-| **Dacă ai timp** | KM3 și KM4; Discord pentru abonați cu rol legat de Twitch | 22–26 oct |
+| **Dacă ai timp** | Discord pentru abonați cu rol legat de Twitch | 22–26 oct |
 
 ---
 ## Calendar zi cu zi
@@ -97,29 +97,29 @@ Orele sunt estimări pentru tine singură. Fiecare zi are același grup în trac
 | Sâm 17 oct | RO | Liber · drum la țară | 0 | Fără telefon de muncă. Mergi la țară până duminică seara; sala e opțională. |
 | Dum 18 oct | RO | La țară: PDF-ul, formularul, Instagram și conturile | ~5 h | Ești la țară, cu internet. În ordine: PDF-ul citit și cu linkurile verificate, linkul permanent pe Payhip, apoi grupul de email și emailul de bun venit; documentele pentru avocat; arhivarea postărilor vechi și cererea de review; contractul Twitch (exclusivitate); TikTok-ul cu terapii devine @kmwellnessconcept; un clip de test în colțul ales |
 | Lun 19 oct | RO | Move Monday + montaj R1–R4 | ~5,5 h | Stream 10:00; apoi un cadru de 10 secunde din fiecare clip, descrierile (6) și montajul R1–R4; emailul către avocat (cu întrebările în plus); mesajul cu IBAN către cei 2 clienți; proprietarul confirmat sau sunat |
-| Mar 20 oct | RO | PDF-ul live, montaj KM1 și KM2 | ~2,5 h | Dimineața formularul și Linktree, apoi testul cu alt email (până la 12:00; fără el, R1 așteaptă sau iese cu linkul Payhip); montezi KM1 și KM2; abia apoi postezi R1 ca Trial Reel |
+| Mar 20 oct | RO | PDF-ul live | ~2,5 h | Dimineața formularul și Linktree, apoi testul cu alt email (până la 12:00; fără el, R1 așteaptă sau iese cu linkul Payhip); abia apoi postezi R1 ca Trial Reel |
 | Mie 21 oct | RO | Cook with me (clătitele) + K1 | ~5 h | Stream; după el K1 filmat de sus, cu 3 poze la 45°, și 3 poze la salata cu ton și fasole roșie (pagina 25 din e-book); montezi K1; postezi R2; decizi ce spui în loc de „!ebook” |
-| Joi 22 oct | RO | Terapii și pregătirea mutării | ~5 h | Postezi R3 și KM1; trusa mobilă împachetată; cele 2 terapii (datele tale); lista „ce iei unde”; Discord-ul pentru abonați, testat cu un moderator; Instagram: dacă arhivarea nu s-a terminat, o termini acum |
+| Joi 22 oct | RO | Terapii și pregătirea mutării | ~5 h | Postezi R3; trusa mobilă împachetată; cele 2 terapii (datele tale); lista „ce iei unde”; Discord-ul pentru abonați, testat cu un moderator; Instagram: dacă arhivarea nu s-a terminat, o termini acum |
 | Vin 23 oct | RO | Game night + carusel C1 | ~5 h | Stream cu pauze; caruselul C1 postat; 3 clipuri din stream; fixezi sus coarda, yoga în iarbă și R1 (sau R2, dacă R1 nu se poate fixa). Dacă proprietarul n-a confirmat notarul, treci pe confirmare scrisă |
 | Sâm 24 oct | RO | Liber · drum la țară cu cutiile | 0 | Liber de telefon de muncă. Drumul la țară cu cutiile e mutare, nu muncă; dacă nu încape, îl muți pe duminică. Sâmbăta nu e zi de rezervă pentru muncă. |
 | Dum 25 oct | RO | La țară: cifre, conturi, Vinted | ~4 h | Ceasul se dă înapoi cu 1 oră (04:00). Ești la țară, cu internet; seara înapoi în București. Cifrele; arhiva veche verificată; eSIM, autentificare în doi pași; programul din Twitch, cu ora de iarnă; internetul din Turcia întrebat; TikTok nou @kristinemaia |
-| Lun 26 oct | RO | Move Monday + lot de filmat 2 + go/no-go | ~5,5 h | Stream 10:00 (ora României); apoi B1–B4 (4 reel-uri de mobilitate), opțional KM3 și KM4, descrierile lotului 2, copii în 2 locuri; răspunsurile contabilei și ale avocatului citite: go/no-go pentru Turcia |
-| Mar 27 oct | RO | Notar, montaj B1, programare, împachetat | ~5,5 h | Notarul, dacă proprietarul l-a fixat azi; montezi B1; programezi K1, B1, KM2, R4 și K5, plus TikTok până pe 6 nov; lista „Înainte să postezi” pe fiecare; împachetezi tot, în afară de echipamentul de stream; asigurare și bilet |
+| Lun 26 oct | RO | Move Monday + lot de filmat 2 + go/no-go | ~5,5 h | Stream 10:00 (ora României); apoi B1–B4 (4 reel-uri de mobilitate), descrierile lotului 2, copii în 2 locuri; răspunsurile contabilei și ale avocatului citite: go/no-go pentru Turcia |
+| Mar 27 oct | RO | Notar, montaj B1, programare, împachetat | ~5,5 h | Notarul, dacă proprietarul l-a fixat azi; montezi B1; programezi K1, B1, R4 și K5, plus TikTok până pe 6 nov; lista „Înainte să postezi” pe fiecare; împachetezi tot, în afară de echipamentul de stream; asigurare și bilet |
 | Mie 28 oct | RO | Cook with me (ultimul din România), răspuns automat | ~5 h | Stream (K4 somon cu broccoli filmat de sus); după stream echipamentul împachetat; răspuns automat pe KM și pe Google; a doua tranșă pentru avocat; copie finală; sesiunea pentru abonați anunțată, doar dacă go/no-go a dat „da” |
-| Joi 29 oct | RO→TR | Zbor după-amiază | 0,5 h | Dimineața bagajul închis; seara, după aterizare, testul colțului. Postările programate ies singure (B1 pe Kristine Maia, KM2 pe KM). Pașaportul la tine, eSIM-ul activat la aterizare. |
+| Joi 29 oct | RO→TR | Zbor după-amiază | 0,5 h | Dimineața bagajul închis; seara, după aterizare, testul colțului. Postările programate ies singure (B1 pe Kristine Maia; pe KM ies caruselele duminica). Pașaportul la tine, eSIM-ul activat la aterizare. |
 | Vin 30 oct | TR | Game night (opțional) | ~4 h | Dacă upload-ul e sub ~6 Mbps sau nu ești odihnită, sari peste stream; atunci Chill Sunday de pe 1 nov devine stream obligatoriu, ca săptămâna să aibă 3. Verifici lista postărilor programate |
 | Sâm 31 oct | TR | Liber | 0 | Liber, fără telefon de muncă. |
 | Dum 1 nov | TR | Cifre și plan | ~2,5 h | Cifrele reel-urilor și ale stream-ului, punctele Plus; cele 3 întrebări de siguranță; testul de înscriere repetat; răspunsul de la Instagram (review) citit; domeniul kristinemaia.com; planul săptămânii |
 | Lun 2 nov | TR | Move Monday + montaj B2 și reelul din stream | ~5 h | Stream 10:00 ora României (11:00 în Turcia); montezi B2 (pentru marți) și reelul din stream (cu numele din chat ascunse); le programezi, cu ora verificată; TikTok 7–12 nov |
 | Mar 3 nov | TR | E-book în Canva, partea 1 + B3 | ~4 h | Întâi cele 3 pagini cu text de schiță (5, 8, 15) și titlurile (3, 33); montezi B3 (pentru marți 10 nov) și îl programezi |
-| Mie 4 nov | TR | Cook with me | ~4 h | Stream cu o rețetă din e-book (dacă nu ai bucătărie, „Întrebări + stretching”); KM3 montat și programat, dacă l-ai filmat |
+| Mie 4 nov | TR | Cook with me | ~4 h | Stream cu o rețetă din e-book (dacă nu ai bucătărie, „Întrebări + stretching”) |
 | Joi 5 nov | TR | Media kit și carusel C2 | ~3,5 h | Media kitul de o pagină (90 min), doar dacă go/no-go nu e „nu”; caruselul C2, programat pentru duminică; K5 iese singur; fără mesaje către clienți |
 | Vin 6 nov | TR | Game night + TikTok 13–16 nov | ~4,5 h | Stream cu pauze; reelul din stream iese singur; TikTok programat pentru 13–16 nov; amintire pentru sesiunea de abonați, doar dacă ai dat „da” |
 | Sâm 7 nov | TR | Liber | 0 | Liber. |
 | Dum 8 nov | TR | Sesiunea pentru abonați, doar dacă ai răspunsul scris „da” | ~2,5 h | Dacă go/no-go a dat „da”: 30 de minute de mobilitate pentru abonați, înregistrate și puse în Discord. Altfel e pe 22 nov, în România, iar ziua de azi e liberă. Caruselul C2 iese singur |
 | Lun 9 nov | TR | Move Monday + montaj K4 și B4 | ~5 h | Stream; montezi K4 (pentru joi) și B4 (pentru vineri) și le programezi, cu ora verificată |
 | Mar 10 nov | TR | E-book în Canva, partea 2 + export | ~4,5 h | Greșelile mici de pe paginile 6, 11, 12, 13; graficul de la 14; pagina 25; lista de cumpărături; pagina bonus; cuprinsul; exportul și comprimarea |
-| Mie 11 nov | TR | Cook with me | ~3,5 h | Stream cu o rețetă din e-book (sau „Întrebări + stretching”); KM4 montat și programat, dacă l-ai filmat |
+| Mie 11 nov | TR | Cook with me | ~3,5 h | Stream cu o rețetă din e-book (sau „Întrebări + stretching”) |
 | Joi 12 nov | TR | Emailurile către branduri (doar cu „da”) | ~3 h | Cele 6 emailuri, cu textele corectate, doar către branduri din afara Turciei și doar dacă go/no-go nu e „nu”; altfel pe 16 nov. Briefing-ul pentru coperta nouă |
 | Vin 13 nov | TR | Game night | ~3,5 h | Stream cu pauze; viewerii medii înainte și după pauză notați imediat; B4 iese singur |
 | Sâm 14 nov | TR | Liber | 0 | Liber. Faci bagajul. |
@@ -148,18 +148,18 @@ Mar 10 nov  B3 Upper back and shoulders (the gamer hunch)
 Joi 12 nov  K4 Salmon & garlic broccoli
 Vin 13 nov  B4 Warm-up before gaming: 4 moves in 1 minute
 
-Instagram KM Wellness Concept (română), joi
-22 oct KM1 · 29 oct KM2 · 5 nov KM3 (dacă l-ai filmat) · 12 nov KM4 (dacă l-ai filmat)
+Instagram KM Wellness Concept (română), duminică 19:00, doar carusele (reel-urile KM sunt pe pauză din 18 oct)
+25 oct C1 · 1 nov C2 · 8 nov C3 · 15 nov C4 · 22 nov C5 · 29 nov C6 · 6 dec C7 · 13 dec C8
 
 Ce programezi de unde:
-27 oct, din România: K1, B1, KM2, R4, K5 (5 postări) și TikTok până pe 6 nov
+27 oct, din România: K1, B1, R4, K5 (4 postări) și TikTok până pe 6 nov
 2 nov, din Turcia: B2 și reelul din stream; TikTok 7–12 nov
-3 nov: B3 · 9 nov: K4 și B4 · 4 și 11 nov: KM3 și KM4
+3 nov: B3 · 9 nov: K4 și B4
 6 nov: TikTok 13–16 nov
 La fiecare programare din Turcia verifici că ora afișată e ora României. Sâmbăta nu postezi nimic manual.
 ```
 
-**KM1–KM4 (contul KM, în română):** KM1 „3 semne că ai nevoie de masaj de recuperare după birou”, KM2 „Pentru cine e masajul de recuperare”, KM3 „Cum arată o ședință de masaj de recuperare, pas cu pas” (fără promisiuni medicale), KM4 „Întrebările pe care le pun la prima ședință” (propunere).
+**KM1–KM4 (contul KM, în română): pe pauză din 18 octombrie** (nu filmezi pentru terapie deocamdată; textele rămân în Studio dacă le reiei). KM1 „3 semne că ai nevoie de masaj de recuperare după birou”, KM2 „Pentru cine e masajul de recuperare”, KM3 „Cum arată o ședință de masaj de recuperare, pas cu pas” (fără promisiuni medicale), KM4 „Întrebările pe care le pun la prima ședință” (propunere).
 
 **Bucătărie:** K1 clătitele (filmate 21 oct), K4 somonul (28 oct), K5 peștele alb (deja filmat și montat).
 

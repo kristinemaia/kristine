@@ -13,7 +13,7 @@ Patru carusele de câte 5 slide-uri, 1080 × 1350, în stilul calm alb-verde al 
 | C3 | O ședință la domiciliu, pas cu pas | Duminică 8 nov | 19:00 |
 | C4 | 5 obiceiuri simple pentru cine stă la birou | Duminică 15 nov | 19:00 |
 
-Reel-urile KM rămân joia (22 oct, 29 oct, 5 nov, 12 nov). Caruselele ies duminica, deci contul are 2 postări pe săptămână fără să faci nimic în Turcia. Programezi pe 27 oct, din România, împreună cu restul.
+**Reel-urile KM sunt pe pauză din 18 octombrie** (nu filmezi pentru terapie deocamdată). Contul are doar caruselele, duminica, o postare pe săptămână, fără să faci nimic în Turcia. Programezi pe 27 oct, din România, împreună cu restul.
 
 **Important:** pe perioada plecării, în profil ai răspunsul automat „Revin cu programările din 16 noiembrie”. Caruselele nu cer programări noi: trimit spre „link în bio”, unde apar programările din săptămânile anunțate.
 

@@ -5,7 +5,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 **Conturile**
 - **@kristinemaia11** · Instagram, engleză (marca ta). Ora de postare: 17:00.
 - **@kmwellnessconcept** · Instagram, română (masaj de recuperare). Ora de postare: 19:00.
-- TikTok: la fel, câte un cont pentru fiecare (secțiunea 4).
+- TikTok: câte un cont pentru fiecare (secțiunea 4).
 
 **Reguli la toate**
 - La postările cu **#ad** pornești în Instagram și „Paid partnership”.
@@ -24,24 +24,20 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 | Mar 20 oct | 17:00 | Kristine Maia | R1 · Neck after gaming (Trial Reel) |
 | Mie 21 oct | 17:00 | Kristine Maia | R2 · 60-second stretch break |
 | Joi 22 oct | 17:00 | Kristine Maia | R3 · Wrists for mouse and keyboard |
-| Joi 22 oct | 19:00 | KM | KM1 · 3 semne că ai nevoie de masaj de recuperare |
 | Vin 23 oct | 17:00 | Kristine Maia | Carusel C1 · Why your neck hurts |
 | Dum 25 oct | 19:00 | KM | Carusel C1 · Masaj de recuperare: ce este |
 | Mie 28 oct | 17:00 | Kristine Maia | K1 · Protein pancakes |
 | Joi 29 oct | 17:00 | Kristine Maia | B1 · Hips after a long stream |
-| Joi 29 oct | 19:00 | KM | KM2 · Pentru cine e masajul de recuperare |
 | Vin 30 oct | 17:00 | Kristine Maia | R4 · 5-minute morning desk reset |
 | Dum 1 nov | 19:00 | KM | Carusel C2 · Unde se adună încordarea |
 | Mar 3 nov | 17:00 | Kristine Maia | B2 · Lower back after a desk day |
 | Joi 5 nov | 17:00 | Kristine Maia | K5 · White fish with rice & veggies |
-| Joi 5 nov | 19:00 | KM | KM3 · Cum arată o ședință |
 | Vin 6 nov | 17:00 | Kristine Maia | Dope Rope · 2-minute rope break (#ad) |
 | Dum 8 nov | 17:00 | Kristine Maia | Carusel C2 · 3 things I do after every stream |
 | Dum 8 nov | 19:00 | KM | Carusel C3 · O ședință, pas cu pas |
 | Mar 10 nov | 17:00 | Kristine Maia | B3 · Upper back and shoulders |
 | Mie 11 nov | 17:00 | Kristine Maia | Bewit · My evening cacao ritual (#ad) |
 | Joi 12 nov | 17:00 | Kristine Maia | K4 · Salmon & garlic broccoli |
-| Joi 12 nov | 19:00 | KM | KM4 · Întrebările de la prima ședință |
 | Vin 13 nov | 17:00 | Kristine Maia | B4 · Warm-up before gaming |
 | Dum 15 nov | 19:00 | KM | Carusel C4 · 5 obiceiuri pentru birou |
 | Mie 18 nov | 17:00 | Kristine Maia | Revu Natural · 60-second shoulder reset (#ad) |
@@ -256,53 +252,9 @@ General mobility and self-care, not medical advice. Stop if anything feels sharp
 
 Pe acest cont **nu** apare linia cu diploma. Doar „KM Wellness Concept · masaj de recuperare”.
 
-## Reel-uri (joi, 19:00)
+**Reel-urile KM1–KM4 sunt pe pauză (18 octombrie):** nu filmezi pentru terapie deocamdată. Pe cont ies doar caruselele de mai jos, duminica. Descrierile reel-urilor sunt păstrate la finalul secțiunii, pentru când le reiei.
 
-### KM1 · Joi 22 oct · 3 semne că ai nevoie de masaj de recuperare după birou
-```
-Te recunoști în măcar unul?
-
-Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare
-Programări la domiciliu, în săptămânile anunțate: link în bio
-
-#masajderecuperare #masaj #recuperare #kmwellnessconcept
-```
-
-### KM2 · Joi 29 oct · Pentru cine e masajul de recuperare
-```
-Pentru cine e masajul de recuperare?
-
-Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare
-Programări la domiciliu, în săptămânile anunțate: link în bio
-
-#masajderecuperare #masaj #recuperare #kmwellnessconcept
-```
-
-### KM3 · Joi 5 nov · Cum arată o ședință, pas cu pas
-```
-Fără surprize: așa arată o ședință cu mine.
-
-Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare
-Programări la domiciliu, în săptămânile anunțate: link în bio
-
-#masajderecuperare #masaj #recuperare #kmwellnessconcept
-```
-
-### KM4 · Joi 12 nov · Întrebările de la prima ședință
-```
-Întrebări simple, pentru o ședință sigură.
-
-Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
-KM Wellness Concept · masaj de recuperare
-Programări la domiciliu, în săptămânile anunțate: link în bio
-
-#masajderecuperare #masaj #recuperare #kmwellnessconcept
-```
-
-## Carusele (duminică, 19:00)
+## Carusele (duminică, 19:00) · singurele postări planificate pe contul KM
 
 ### C1 · Dum 25 oct · Masaj de recuperare: ce este, de fapt?
 ```
@@ -420,6 +372,53 @@ KM Wellness Concept · masaj de recuperare
 #masajderecuperare #mituridespremasaj #kmwellnessconcept #masaj #wellness #sanatate
 ```
 
+### Pe pauză: reel-urile KM1–KM4 (descrieri păstrate)
+
+#### KM1 · Joi 22 oct · 3 semne că ai nevoie de masaj de recuperare după birou
+```
+Te recunoști în măcar unul?
+
+Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
+KM Wellness Concept · masaj de recuperare
+Programări la domiciliu, în săptămânile anunțate: link în bio
+
+#masajderecuperare #masaj #recuperare #kmwellnessconcept
+```
+
+#### KM2 · Joi 29 oct · Pentru cine e masajul de recuperare
+```
+Pentru cine e masajul de recuperare?
+
+Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
+KM Wellness Concept · masaj de recuperare
+Programări la domiciliu, în săptămânile anunțate: link în bio
+
+#masajderecuperare #masaj #recuperare #kmwellnessconcept
+```
+
+#### KM3 · Joi 5 nov · Cum arată o ședință, pas cu pas
+```
+Fără surprize: așa arată o ședință cu mine.
+
+Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
+KM Wellness Concept · masaj de recuperare
+Programări la domiciliu, în săptămânile anunțate: link în bio
+
+#masajderecuperare #masaj #recuperare #kmwellnessconcept
+```
+
+#### KM4 · Joi 12 nov · Întrebările de la prima ședință
+```
+Întrebări simple, pentru o ședință sigură.
+
+Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
+KM Wellness Concept · masaj de recuperare
+Programări la domiciliu, în săptămânile anunțate: link în bio
+
+#masajderecuperare #masaj #recuperare #kmwellnessconcept
+```
+
+
 ---
 
 # 3. Povești și bio (pe scurt)
@@ -478,23 +477,22 @@ Stretch break between games #stretchbreak #gamerhealth #twitchstreamer
 
 ## @kmwellnessconcept (română)
 
-Primul rând din descrierea de la Instagram + 3 hashtag-uri. Fără linia cu programările (TikTok nu are „link în bio” pentru toți; pui „detalii în bio”).
+Fără reel-uri KM, aici merg caruselele ca **postări foto** (TikTok acceptă 5–35 de imagini): aceleași slide-uri din Brand → Carusele KM, cu o descriere scurtă. Una pe săptămână, în aceeași zi cu Instagram. Prima linie din descrierea Instagram + 3 hashtag-uri; fără „link în bio” (scrii „detalii în bio”).
 
 ```
-Te recunoști în măcar unul? #masajderecuperare #recuperare #kmwellnessconcept
+Masaj de recuperare: ce este, de fapt? #masajderecuperare #kmwellnessconcept #recuperare
 ```
 ```
-Pentru cine e masajul de recuperare? #masajderecuperare #masaj #kmwellnessconcept
+Unde se adună încordarea după o zi la birou 💺 #birou #masajderecuperare #kmwellnessconcept
 ```
 ```
-Fără surprize: așa arată o ședință cu mine. #masajderecuperare #masajladomiciliu #kmwellnessconcept
+Cum arată o ședință la domiciliu, pas cu pas 🌿 #masajladomiciliu #masajderecuperare #kmwellnessconcept
 ```
 ```
-Întrebări simple, pentru o ședință sigură. #masajderecuperare #primasedinta #kmwellnessconcept
+5 obiceiuri simple pentru cine stă la birou 🖥️ #birou #mobilitate #kmwellnessconcept
 ```
-```
-Informații generale, nu sfat medical. Detalii în bio. #masajderecuperare #kmwellnessconcept
-```
+
+(La C5–C8 la fel: primul rând din descrierea Instagram + `#masajderecuperare #kmwellnessconcept` + un hashtag din lista postării.)
 
 ---
 
