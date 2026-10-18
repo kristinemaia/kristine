@@ -2,7 +2,7 @@
 
 Ce gătești și filmezi sâmbătă:
 - **Clătite proteice (K1)**, la streamul de gătit și pentru reel, plus poze fixe la 45°.
-- **Bolul cu ton și fasole albă**, pentru cele 3 poze din e-book (pagina 25) și ca masă.
+- **Tonul cu roșii și spanac baby**, pentru cele 3 poze din e-book (pagina 25) și ca masă.
 - **O farfurie colorată pentru coperta cărții.** Poți folosi bolul sau clătitele cu fructe.
 
 Cantitățile sunt pentru 2 încercări din fiecare, ca să ai de unde alege cadrele. Rețeta de clătite e cea din e-book (micul dejun): verifică ingredientele cu ea și adaugă ce lipsește.
@@ -24,16 +24,13 @@ Cantitățile sunt pentru 2 încercări din fiecare, ca să ai de unde alege cad
 - [ ] Unt de arahide, 1 borcan mic
 - [ ] Fistic, nuci sau semințe, o mână
 
-## Bol cu ton și fasole albă (2 porții)
+## Tonul cu roșii și spanac baby (2 încercări)
 - [ ] Ton la conservă, în apă, 2 conserve
-- [ ] Fasole albă la conservă, 2 conserve
-- [ ] Roșii cherry, 250 g
-- [ ] Castravete, 1
-- [ ] Ceapă roșie, 1
-- [ ] Lămâi, 2 (una pentru bol, una pentru decor)
-- [ ] Rucola sau spanac baby, 100 g
-- [ ] Ulei de măsline
-- [ ] Oregano uscat, sare, piper
+- [ ] Roșii, 4–5 (sau cherry, 250 g)
+- [ ] Spanac baby, 100–150 g
+- [ ] Lămâi, 2 (una pentru felii, una pentru decor)
+- [ ] Ulei de măsline, sare, piper
+- [ ] Opțional: fasole albă la conservă (doar dacă o ai deja; nu e în rețeta din carte)
 
 ## Pentru poza de copertă (mâncare colorată în față)
 - [ ] Un bol alb sau bej, fără model
@@ -59,4 +56,4 @@ Somon cu broccoli (K4), plus reel-urile cu cacao Bewit și cu crema Revu. Lista 
 ## Înainte să pleci
 1. Verifici ce ai deja în casă la țară și tai de pe listă.
 2. Cumperi ce rămâne vineri seara sau sâmbătă dimineața, de pe drum.
-3. Ingredientele proaspete (roșii, castravete, ceapă, rucola, banane) nu stau în mașină mult.
+3. Ingredientele proaspete (roșii, spanac baby, banane) nu stau în mașină mult.

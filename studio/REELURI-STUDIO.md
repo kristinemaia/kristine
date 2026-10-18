@@ -186,7 +186,7 @@ Aici e partea de „good food” din promisiune. **Ziua D, 10:00–13:30:** găt
 
 #### K5 White fish with rice & veggies · 30 s
 - Pe ecran: `Dinner after the stream: white fish, rice, veggies.`
-- E-book: **paginile 24 și 25 sunt două rețete aproape identice.** Pagina 24 rămâne (e rețeta pe care o filmezi), iar pagina 25 devine **Tuna and white bean bowl**, fără gătit, 10 minute (textul e gata în `EBOOK-V2-TEXTS.md`). Filmezi o singură versiune.
+- E-book: **paginile 24 și 25 sunt două rețete aproape identice.** Pagina 24 rămâne (e rețeta pe care o filmezi), iar pagina 25 devine **Tuna with tomatoes and baby spinach**, fără gătit, 5–10 minute (textul e gata în `EBOOK-V2-TEXTS.md`). Filmezi o singură versiune.
 
 #### K6 ★ Portions without a scale · 40 s
 - Pe ecran: `No scale needed: your hand is the measure.`
@@ -213,7 +213,7 @@ Aici e partea de „good food” din promisiune. **Ziua D, 10:00–13:30:** găt
 - Nu e în carte: devine **lista de cumpărături de o pagină** din versiunea 2 (și poate un al doilea PDF gratuit).
 
 #### K10 Serie: Test kitchen · 5 reel-uri × 20–25 s
-- Cele 5 rețete noi pentru carte: **Greek-yogurt protein bowl · tuna-chickpea desk salad · egg-veg muffins · hummus snack plate · red lentil soup.** Toate merg într-o bucătărie vegetarian-pescetariană (ton și ouă, fără carne). Pentru versiunea 2 de acum ajunge una: **Tuna and white bean bowl** (pagina 25, scrisă deja în `EBOOK-V2-TEXTS.md`), care ține locul lui „tuna-chickpea desk salad”. Celelalte patru sunt pentru o versiune ulterioară.
+- Cele 5 rețete noi pentru carte: **Greek-yogurt protein bowl · tuna-chickpea desk salad · egg-veg muffins · hummus snack plate · red lentil soup.** Toate merg într-o bucătărie vegetarian-pescetariană (ton și ouă, fără carne). Pentru versiunea 2 de acum ajunge una: **Tuna with tomatoes and baby spinach** (pagina 25, scrisă deja în `EBOOK-V2-TEXTS.md`), care ține locul lui „tuna-chickpea desk salad”. Celelalte patru sunt pentru o versiune ulterioară.
 - Pe ecran: `New recipe for the e-book: [name].` Voce ca la K1.
 - Le filmezi când le testezi, nu neapărat în ziua D. Caloriile le calculezi dintr-o bază de date (USDA FoodData Central sau Cronometer) și le scrii „approx.”.
 
@@ -225,7 +225,7 @@ Aici e partea de „good food” din promisiune. **Ziua D, 10:00–13:30:** găt
 | K2 oats | mic dejun | idem | gata |
 | K3 omletă | mic dejun / „eggs and mushrooms” | idem | gata |
 | K4 somon | pagina 33 | titlul: „Tofu with mixed green salad” → „SALMON WITH GARLIC BROCCOLI” | textul e gata, de pus în Canva |
-| K5 pește alb | paginile 24 și 25 | pagina 24 rămâne; pagina 25 devine „Tuna and white bean bowl” | textul e gata, de pus în Canva |
+| K5 pește alb | paginile 24 și 25 | pagina 24 rămâne; pagina 25 devine „Tuna with tomatoes and baby spinach” | textul e gata, de pus în Canva |
 | K6 metoda mâinii | pagina 5 + graficul de macronutrienți | pagina 5 se înlocuiește cu textul gata; verifici cifrele din grafic | textul e gata, de pus în Canva |
 | K7 swaps | paginile 6, 8 + graficele | pagina 8 se înlocuiește cu textul gata; „Feta · 207 CARBS” (p. 11), „Valnuts” (p. 12), „34g kCal” (p. 13); pagina 6 de verificat | textul e gata, de pus în Canva |
 | K8 gustări | — | — | nou în v2 |
@@ -236,7 +236,7 @@ Aici e partea de „good food” din promisiune. **Ziua D, 10:00–13:30:** găt
 **Versiunea 2 a cărții, pe scurt.** Textele sunt scrise pagină cu pagină în `EBOOK-V2-TEXTS.md` (de lipit în Canva), iar în tracker au o categorie a lor, „E-book v2”:
 1. Înlocuiești paginile 3 (al doilea paragraf, cu linia de credențiale), 5, 8 și 15 cu textele gata.
 2. Corectezi paginile 11 (Feta), 12 (Walnuts), 13 (unitățile) și 33 (titlul) și verifici pagina 6.
-3. Pagina 24 rămâne, iar pagina 25 devine „Tuna and white bean bowl”.
+3. Pagina 24 rămâne, iar pagina 25 devine „Tuna with tomatoes and baby spinach”.
 4. Pagina 14 (graficul cu alcool) e opțională: o păstrezi sau o înlocuiești cu lista de cumpărături.
 5. Două pagini noi: lista de cumpărături („What's always in my kitchen”, din K9) și bonusul cu PDF-ul de 5 minute. Cuprinsul (pagina 2) îl actualizezi la final.
 6. Export din Canva: PDF Standard (nu Print), „Flatten PDF” și „Compress”, sub 10 MB pentru Kindle și sub 15 MB pentru Payhip (acum are 92,9 MB). Autorul, din File → Settings: Kristine Maia.

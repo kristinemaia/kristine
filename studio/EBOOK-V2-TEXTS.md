@@ -102,15 +102,16 @@ The alcohol chart is off-brand for a book about eating well around long sessions
 
 ## Page 24 or 25 — replace the duplicate "White fish with rice and veggies"
 
-Keep page 24. Replace page 25 with:
+Keep page 24. Replace page 25 with (same layout as the "White fish with tomatoes and baby spinach" page: icon list of ingredients, nutrition line, time pill, description):
 
-**TUNA AND WHITE BEAN BOWL (no cooking, 10 minutes)**
+**TUNA WITH TOMATOES AND BABY SPINACH**
 
-Ingredients: 1 can tuna in water (≈ 120 g drained) · 150 g canned white beans, rinsed · 1 handful cherry tomatoes, halved · ½ cucumber, diced · ¼ red onion, thinly sliced · 1 tbsp olive oil · juice of ½ lemon · salt, pepper, dried oregano · a handful of rocket or spinach.
+Ingredients: 1 can tuna in water (≈ 120 g drained) · Tomatoes · Baby spinach · Lemon slices · Olive oil · Salt and pepper (to taste)
 
-Nutritional information (per serving): Calories ≈ 420 kcal | Protein ≈ 38 g | Fat ≈ 16 g | Carbohydrates ≈ 30 g · Preparation time ≈ 10 minutes
+Nutritional information (per serving): Calories ≈ 190 kcal | Protein ≈ 28 g | Fat ≈ 6 g | Carbohydrates ≈ 6 g · Preparation time ≈ 5 - 10 minutes
+_(estimate: check against your tuna's label before you export)_
 
-Description: This is my desk lunch on long stream days: no pan, no oven, nothing to wash but a bowl. Drain the tuna and rinse the beans. Put everything in a bowl, add the oil, lemon, salt, pepper and oregano, and mix. If you have five more minutes, let it sit so the onion softens. Swap the tuna for 150 g of cubed baked tofu for a plant version. Eat it as it is or stuffed into a wholemeal pita.
+Description: Enjoy a light and flavorful meal with our Tuna with Tomatoes and Baby Spinach: no oven, no pan, nothing to wash but a plate. Drain the tuna. Wash the tomatoes and baby spinach thoroughly, slice the tomatoes and arrange them on a serving plate with the spinach. Flake the tuna on top and add a few lemon slices. Season with a squeeze of fresh lemon juice, a drizzle of olive oil, salt and pepper, to taste. This dish is not only delicious but also nutritious, providing a good source of protein, vitamins, and minerals. Enjoy it as a light and healthy lunch or dinner. Feel free to customize the recipe to suit your preferences: add a few canned white beans, a handful of rocket or extra herbs or spices for added flavor. Bon appétit!
 
 ---
 

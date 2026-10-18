@@ -26,7 +26,7 @@ Format: **pătrat 1:1, minimum 1600 × 1600 px.** Mișcarea la jumătatea ei, nu
 Coperta nouă: **tu gătind, mâncarea în față**, fără cântar și fără panglică de măsurat (erau pe coperta veche).
 
 - **Format:** vertical, raport 1:1,6 (Kindle), **minimum 1600 × 2560 px.**
-- **Cadrul:** de la talie în sus, ții un bol (de exemplu bolul cu ton și fasole albă) la nivelul pieptului, ușor spre cameră. Privirea spre bol sau spre cameră, zâmbet.
+- **Cadrul:** de la talie în sus, ții un bol (de exemplu tonul cu roșii și spanac baby) la nivelul pieptului, ușor spre cameră. Privirea spre bol sau spre cameră, zâmbet.
 - **Locul pentru titlu:** **treimea de sus a pozei rămâne goală** (perete sau fundal simplu): acolo intră titlul, citibil la 200 × 300 px.
 - **Fundal:** simplu și neutru, la bucătărie. Fără etichete, fereastră, oameni sau obiecte personale.
 - **Lumină:** caldă, din față-stânga. Mâncarea să arate proaspătă: pozele le faci imediat după ce e gata.
@@ -37,7 +37,7 @@ Coperta nouă: **tu gătind, mâncarea în față**, fără cântar și fără p
 ## 3. Pozele pentru rețetele din e-book (la 45°)
 Când gătești K1 și faci bolul, ia 2–3 poze fixe de fiecare, **la 45°**, imediat după ce mâncarea e gata.
 - `POZA_reteta_clatite_1…3`: farfuria cu clătite, la 45°, una cu o furculiță.
-- `POZA_reteta_bol-ton_1…3`: (1) de sus, bolul întreg; (2) la 45°, cu furculița; (3) ingredientele înainte de amestec.
+- `POZA_reteta_ton-rosii_1…3`: (1) de sus, farfuria întreagă; (2) la 45°, cu furculița; (3) ingredientele înainte de aranjat.
 - Fundal curat, farfurii simple, fără etichete și fără mâinile în prim-plan cu bijuterii sau lucruri personale.
 
 ## 4. Pozele pentru caruselele pentru Kristine Maia (engleză)

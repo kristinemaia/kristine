@@ -1,4 +1,4 @@
-# Reel-urile cu gătit (K1, bolul cu ton, K4, K5)
+# Reel-urile cu gătit (K1, tonul cu roșii și spanac, K4, K5)
 
 _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țară, la un loc. Lista de cumpărături e în folderul Plan, iar celelalte reel-uri (K2, K3, K6–K10) sunt în „Reel-uri din studio”, secțiunea 5._
 
@@ -9,7 +9,7 @@ _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țar�
 | Cod | Reel | Filmezi | Postezi (17:00) |
 |---|---|---|---|
 | K1 | Protein pancakes in 15 minutes (30 s) | sâmbătă 17 oct, la țară | miercuri 28 oct |
-| (bol) | Tuna and white bean bowl: 3 poze fixe la 45° pentru e-book, pagina 25 (reel doar dacă iese curat) | sâmbătă 17 oct | după ce îl ai montat |
+| (bol) | Tuna with tomatoes and baby spinach: 3 poze fixe la 45° pentru e-book, pagina 25 (reel doar dacă iese curat) | sâmbătă 17 oct | după ce îl ai montat |
 | K4 | Salmon & garlic broccoli after a long stream (30 s) | sâmbătă 24 oct (sau în streamul de miercuri 28) | joi 12 nov |
 | K5 | White fish with rice & veggies (30 s) | deja filmat | joi 5 nov |
 
@@ -42,8 +42,8 @@ _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țar�
 **Descriere:** `Stream-day breakfast in 15 minutes.` + rețeta din e-book, pe pași + `General food ideas, not medical advice.` + `Free 5-minute desk stretch → link in bio` (și `#ad` doar dacă folosești un produs de afiliere).
 **Hashtag-uri:** `#proteinpancakes #healthybreakfast #streamerlife #easyrecipes #breakfastideas`
 
-## Bolul cu ton și fasole albă · poze pentru e-book (pagina 25)
-3 poze fixe: (1) de sus, bolul întreg; (2) la 45°, cu furculița; (3) ingredientele înainte de amestec. Fără gătit, 10 minute. Dacă iese frumos, poți face din el un reel de 20–25 s: `No-cook dinner in 10 minutes.`
+## Tonul cu roșii și spanac baby · poze pentru e-book (pagina 25)
+3 poze fixe: (1) de sus, farfuria întreagă; (2) la 45°, cu furculița; (3) ingredientele înainte de aranjat (ton, roșii, spanac, lămâie). Fără gătit, 5–10 minute. Dacă iese frumos, poți face din el un reel de 20–25 s: `No-cook tuna plate in 5 minutes.`
 
 ## K4 · Salmon & garlic broccoli after a long stream · 30 s
 **Pe ecran:** `After a long stream: salmon & broccoli in [X] minutes.` (X = timpul din pagina rețetei)
