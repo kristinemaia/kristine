@@ -25,7 +25,7 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 
 **Regula:** o singură paletă: nuanțe de gri și de albastru, plus negru (blugi albaștri sau negri, colanți negri, trening gri sau negru), ca să se combine totul. Geaca de piele merge peste orice din ele. Încălțămintea și geaca cea mai groasă le porți **pe tine în avion**.
 
-**Pe tine în avion:** blugii (albaștri sau negri), un body de corp cu mânecă lungă, hanoracul gri, **geaca de piele**, **ghete sau cizme scurte** (nu cele cowboy lungi) și un fular.
+**Pe tine în avion:** blugii (albaștri sau negri), un body de corp cu mânecă lungă, hanoracul gri, **geaca de piele**, **adidașii negri Dolce & Gabbana** și un fular.
 
 **În valiză (cam 4–5 kg de haine):**
 - **Treninguri și colanți:** 1 set de trening casual gri (hanorac + pantaloni; stream și acasă), 1 pereche de pantaloni de trening negri sau gri, 2 perechi de colanți (negru + unul colorat), 1 hanorac în plus.
@@ -37,31 +37,30 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 - **Accesorii:** căciulă subțire, mănuși ușoare, fular (pe tine), un prosop mic pentru sală.
 
 **Încălțăminte, maximum 2 perechi în afară de cele din avion:**
-- **Ghetele sau cizmele scurte** porți pe tine în avion.
+- **Adidașii negri Dolce & Gabbana** porți pe tine în avion.
 - **Adidașii de antrenament** în rucsac sau valiză (de preferat negri sau albi, ca să meargă și la ținute casual).
-- **A doua pereche de adidași, mai groși:** o lași acasă dacă ai cizme și adidași de antrenament. Ocupă cel mai mult loc și ai deja pe cineva care îi acoperă.
 
 **Geci:** geaca de piele o porți pe tine (oprește vântul, dar nu ține de cald). Pentru frig o pui peste hanorac sau pulover. A doua geacă: dacă e groasă și voluminoasă, o porți tu în avion și lași geaca de piele în valiză; dacă e subțire sau se strânge mic, o pui în valiză. Nu iei două geci groase.
 
 **Rucsac (spate):** laptop și încărcător, telefon, microfon, trepied mic, lumină, power bank, acte, punga cu lichide, o schimbare de haine (în caz că valiza ajunge târziu).
 
 **Cum le combini (în 8 ținute):**
-1. Blugi + bluză de corp + cizme + geacă (oraș, coafor).
-2. Blugi + pulover + cizme (cină).
+1. Blugi + bluză de corp + adidașii negri + geacă (oraș, coafor).
+2. Blugi + pulover + adidașii negri (cină).
 3. Treningul gri + adidași (stream, acasă).
 4. Colanți negri + hanorac + adidași (comisioane).
 5. Pantaloni de trening + body + adidași (zi liberă).
 6–8. Ținute de sală (3 seturi, speli o dată în jumătate).
 
-**Greutatea:** majoritatea companiilor permit 8–10 kg la bagajul de mână, plus un rucsac mic. Verifică la compania ta și cântărește valiza acasă. Hainele grele (geaca, cizmele, blugii) le porți, deci nu intră în cântar.
+**Greutatea:** majoritatea companiilor permit 8–10 kg la bagajul de mână, plus un rucsac mic. Verifică la compania ta și cântărește valiza acasă. Hainele grele (geaca, adidașii negri, blugii) le porți, deci nu intră în cântar.
 
 **Actualizare 18 octombrie: la Istanbul mergi mai mult la sală și acasă, cu ieșiri puține (cumpărături, coafor).** Deci pachetul se schimbă: mai mult sport și trening, mai puține ținute de oraș.
 
-**Încălțăminte (3 perechi, dacă porți ghetele pe tine în avion):**
-- **O pereche de ghete sau cizme scurte** (nu cele cowboy lungi), pe tine în avion. Pentru ținutele casual, coafor, cumpărături.
-- **Adidașii negri (Adidas):** în valiză, pentru ploaie și zile casual.
-- **Adidașii gri New Balance 9060:** pentru sală. Dacă lipsește loc, îi lași acasă și folosești adidașii negri și la sală.
-- **Rămân acasă:** cizmele cowboy, Dior bleumarin cu alb și Dior roz.
+**Încălțăminte (2 perechi, fără cizme):** nu ai alte cizme la țară decât cele cowboy, care rămân acasă (pielea întoarsă se strică în ploaie și nu se potrivesc cu paleta).
+- **Adidașii negri Dolce & Gabbana (groși):** **pe tine în avion**, ca să nu ocupe loc în valiză. Merg la ținutele casual, coafor, cumpărături.
+- **Adidașii gri New Balance 9060:** în valiză, pentru sală.
+- **Dacă ai nevoie de ceva pentru ploaie:** cumperi la Istanbul o pereche de ghete scurte impermeabile (negre, fără logo), nu iei de acasă.
+- **Rămân acasă:** cizmele cowboy, Dior bleumarin cu alb, Dior roz.
 
 **Geci (2):**
 - **Geaca de piele**, pe tine în avion (merge și la cumpărături și la coafor).
@@ -80,6 +79,9 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 - **Tricoul antracit:** îl iei doar ca strat sub jachetă, nu ca ținută de sine stătătoare la sală.
 - **La Istanbul cumperi:** 2 seturi noi în verde, albastru deschis sau gri deschis. Colanți, nu pantaloni evazați (la aparate și la reel-uri cu genunchii).
 - **Aceleași reguli ca în țară:** aprobarea sălii în scris pe telefon, fără alți oameni în cadru, fără numele sălii sau logo, fără ferestre spre stradă, un test de 10 secunde pe camera telefonului înainte de fiecare ținută.
+
+**Hainele de oraș (verificate pe poza din 18 oct):** paleta bleumarin, negru, gri, alb, bej și blugi se combină între ele. Pachetezi: geaca de piele (pe tine), blugii albaștri (pe tine), blugii negri sau gri închis, colanții negri, bluza bleumarin cu mânecă lungă, bluza neagră cu mânecă lungă, cardiganul gri împletit, topul alb tricotat, tricoul alb, geaca scurtă bej. Rămân acasă: geaca maro, cizmele cowboy, geaca crem de tweed (prea elegantă), cureaua maro. De adăugat: o geacă subțire de ploaie cu glugă (neagră sau bleumarin, care se strânge mic) sau o umbrelă mică, și fularul.
+- Ținutele: (1) blugi albaștri + bleumarin + geaca de piele; (2) blugi negri + top alb tricotat + cardigan gri; (3) colanți negri + bluza neagră + geaca bej; (4) blugi albaștri + bluza neagră + cardigan; (5) blugi negri + bleumarin + geaca bej.
 
 **Istanbul, 29 octombrie – 15 noiembrie (vreme orientativă):** în jur de 15–19 °C ziua la început și 11–15 °C spre mijlocul lui noiembrie, cu 8–12 °C noaptea. Sunt zile cu ploaie și vânt, mai ales dinspre mare. Nu e frig de îngheț, dar e umed. Verifică prognoza cu o zi înainte de plecare, ca să fii sigură.
 
