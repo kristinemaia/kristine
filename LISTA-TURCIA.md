@@ -10,6 +10,12 @@ Zbor: joi 29 octombrie, după-amiază. Bagajul îl închizi miercuri seara, 28 o
 - [ ] **Oregano uscat**, într-o pungă mică sau un borcănel. (În Turcia găsești și acolo, „kekik”, foarte bun și ieftin: poți cumpăra la fața locului.)
 - [ ] **Esență de vanilie.** O sticluță mică, în bagajul de cală. În Turcia găsești „vanilya”, deci n-ar fi o catastrofă dacă o uiți.
 
+- [ ] **Pastă de dinți**, tub de maximum 100 ml, în punga cu lichide.
+- [ ] **Pearl Drops** (pastă sau lichid pentru albit), maximum 100 ml, în punga cu lichide.
+
+## 1b. Punga cu lichide (bagaj de mână)
+O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de maximum 100 ml. Aici intră: spirtul, esența de vanilie, pasta de dinți, Pearl Drops. În rest (propus): periuța de dinți, un deodorant solid, șampon și balsam în sticluțe de călătorie (sau cumperi în Istanbul), demachiant, cremă de față.
+
 ## 2. Pentru mâncare și reel-uri de gătit (propus)
 - [ ] Cacao Bewit (cele 2 feluri): ai postare miercurea.
 - [ ] Alte condimente care contează în rețetele tale (sare de mare, scorțișoară, ardei, usturoi granulat), în pungi mici.
