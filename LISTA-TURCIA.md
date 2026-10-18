@@ -25,19 +25,19 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 
 **Regula:** o singură paletă: nuanțe de gri și de albastru, plus negru (blugi albaștri sau negri, colanți negri, trening gri sau negru), ca să se combine totul. Geaca de piele merge peste orice din ele. Încălțămintea și geaca cea mai groasă le porți **pe tine în avion**.
 
-**Pe tine în avion:** blugii (albaștri sau negri), un body de corp cu mânecă lungă, hanoracul gri, **geaca de piele**, **cizmele lungi** (dacă sunt comode) și un fular.
+**Pe tine în avion:** blugii (albaștri sau negri), un body de corp cu mânecă lungă, hanoracul gri, **geaca de piele**, **ghete sau cizme scurte** (nu cele cowboy lungi) și un fular.
 
 **În valiză (cam 4–5 kg de haine):**
 - **Treninguri și colanți:** 1 set de trening casual gri (hanorac + pantaloni; stream și acasă), 1 pereche de pantaloni de trening negri sau gri, 2 perechi de colanți (negru + unul colorat), 1 hanorac în plus.
 - **Bluze:** 3 bluze de corp (negru, gri, alb), 1 pulover subțire gri.
 - **Blugi:** 1 pereche (în avion porți deja una).
 - **Sport (sală, cardio, greutăți):** 3 sutiene sau topuri, 3 tricouri, 2 colanți, 6 perechi de șosete sport.
-- **Reel-uri și stream:** 3 ținute simple (gri, albastru sau negru), fără logo, în culori care se văd pe perete (lila, roz prăfuit, bleumarin, verde mentă). Setul roz cu „one one” rămâne acasă (are logo).
+- **Reel-uri și stream la sală:** setul verde și jacheta crem (vezi „Sala din Istanbul” mai jos). Setul roz cu „one one” rămâne acasă (are logo).
 - **Lenjerie:** 9 perechi, 3 perechi de șosete normale, 1 pereche de șosete groase, pijamale (poate fi un trening).
 - **Accesorii:** căciulă subțire, mănuși ușoare, fular (pe tine), un prosop mic pentru sală.
 
 **Încălțăminte, maximum 2 perechi în afară de cele din avion:**
-- **Cizmele lungi** porți pe tine în avion.
+- **Ghetele sau cizmele scurte** porți pe tine în avion.
 - **Adidașii de antrenament** în rucsac sau valiză (de preferat negri sau albi, ca să meargă și la ținute casual).
 - **A doua pereche de adidași, mai groși:** o lași acasă dacă ai cizme și adidași de antrenament. Ocupă cel mai mult loc și ai deja pe cineva care îi acoperă.
 
@@ -68,10 +68,18 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 - **O geacă de ploaie subțire** (se strânge mic) sau geaca bej ca strat ușor. A treia, de piele întoarsă, rămâne acasă.
 
 **Haine (în loc de multe ținute de oraș):**
-- **Sport:** 2 seturi la plecare (colanți, topuri, tricouri), plus 2 seturi noi cumpărate în Istanbul în primele zile. Cumperi fără logo, în gri, albastru sau negru, ca să se potrivească cu reel-urile. Speli o dată la 2–3 zile.
+- **Sport:** 2 ținute la plecare (vezi „Sala din Istanbul” mai jos), plus 2 seturi noi cumpărate în Istanbul în primele zile. Cumperi fără logo, în **verde, albastru deschis, gri deschis sau crem**: sala are negru cu galben, deci negrul, antracitul și galbenul se pierd în fundal. Speli o dată la 2–3 zile.
 - **Trening casual:** 2 seturi (gri și negru), pentru acasă și stream.
 - **Oraș:** 1–2 perechi de blugi, 2–3 bluze de corp, un pulover subțire, hanoracul gri. Atât ajunge pentru ieșirile scurte.
 - **Reel-uri și stream:** 3 ținute simple, fără logo, în gri, albastru sau negru.
+
+**Sala din Istanbul (negru cu galben): ținutele pentru stream și reel-uri (18 oct).** Pe un fundal negru cu galben se văd bine verdele, albastrul deschis, griul deschis și cremul; se pierd negrul, antracitul și galbenul. Nu porți galben (se confundă cu sala) și nu pui negru sus. Cu negru porți doar colanții.
+- **Ținuta 1 · setul verde** (jachetă cu fermoar + colanți verzi): prima alegere pentru stream și reel-uri, opac, merge la orice exercițiu.
+- **Ținuta 2 · jacheta crem cu fermoar + colanți verzi sau negri:** pentru încălzire, introduceri și cadrele în care vorbești la cameră; se vede foarte bine pe fundalul negru. Nu o porți la cardio intens: cremul subțire se vede prin material când transpiri.
+- **Rămân acasă:** setul alb, maioul alb, pantalonii roz evazați, gri-lila cu decolteu în V (merg la stream sau poze, nu la sală), plus pantalonii negri largi și bluza antracit cu fermoar (le păstrezi pentru acasă, stream din living și Istanbul fără sală).
+- **Tricoul antracit:** îl iei doar ca strat sub jachetă, nu ca ținută de sine stătătoare la sală.
+- **La Istanbul cumperi:** 2 seturi noi în verde, albastru deschis sau gri deschis. Colanți, nu pantaloni evazați (la aparate și la reel-uri cu genunchii).
+- **Aceleași reguli ca în țară:** aprobarea sălii în scris pe telefon, fără alți oameni în cadru, fără numele sălii sau logo, fără ferestre spre stradă, un test de 10 secunde pe camera telefonului înainte de fiecare ținută.
 
 **Istanbul, 29 octombrie – 15 noiembrie (vreme orientativă):** în jur de 15–19 °C ziua la început și 11–15 °C spre mijlocul lui noiembrie, cu 8–12 °C noaptea. Sunt zile cu ploaie și vânt, mai ales dinspre mare. Nu e frig de îngheț, dar e umed. Verifică prognoza cu o zi înainte de plecare, ca să fii sigură.
 
