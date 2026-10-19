@@ -2,6 +2,9 @@
 
 _19 octombrie 2026. Tot ce ține de imagine, într-un singur loc, pentru reel-urile de pe @kristinemaia11 (engleză). Aceleași culori și aceleași fonturi ca în PDF, în carusele și pe Payhip, ca să te recunoască oamenii de la prima privire._
 
+## 0. Fișiere gata făcute (PNG transparent)
+Pentru fiecare reel ai deja textele gata: hook, final, copertă și etichetele de doză, în Poppins Bold, cu culorile pe zone. Le găsești în Bibliotecă, la Brand: „Reel-uri: texte pentru hook, final și copertă” și „Reel-uri: etichete de doză, timpi și insigna #ad”. Le pui ca **overlay** peste clip: hook, final, copertă și insigna #ad le întinzi peste tot ecranul (stau deja în zona sigură), iar etichetele le micșorezi sau le mărești și le așezi lângă mișcare. Restul documentului explică de ce arată așa, dacă vrei să schimbi ceva.
+
 ## 1. Setări tehnice (CapCut)
 - **Format:** 9:16, **1080 × 1920**, 30 fps. Export 1080p.
 - **Camera:** telefonul vertical. Pentru clipurile filmate orizontal (programul de 30 de zile) decupezi 9:16 din centru.

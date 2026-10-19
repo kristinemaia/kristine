@@ -1,0 +1,22 @@
+OVERLAY-URI PENTRU REEL-URI (PNG transparent)
+================================================
+Fiecare reel are un folder (R1, R2, B1, K1, DopeRope, Bewit, Revu, Rez-...). În el:
+
+  <COD>_1-hook.png       titlul din primele secunde. Fullframe: îl pui peste tot ecranul (Fit / Fill), stă deja în zona sigură.
+  <COD>_2-final.png      finalul (ultimele 3 secunde): avertizarea + invitația spre PDF (sau codul de reducere).
+  <COD>_3-coperta.png    titlul pentru coperta din profil, la mijloc (profilul taie în 3:4).
+  <COD>_eticheta-*.png   etichetele de doză, decupate strâns. Le pui lângă mișcare și le micșorezi sau le mărești cu degetele.
+  <COD>_insigna-ad.png   (la colaborări) insigna #ad, sus-stânga. Fullframe.
+
+Folderul _comune: etichetele „5 minutes … 30 minutes” (pentru K4, K5 și timpul de gătit) și insigna #ad.
+
+CUM LE FOLOSEȘTI
+1. Pui clipul pe timeline.
+2. Adaugi un overlay (în Instagram Edits: Overlay; în CapCut: Overlay → Add overlay) și alegi PNG-ul.
+3. La fișierele hook, final, coperta, #ad: le întinzi peste tot ecranul (Fit to screen). Nu le muți.
+4. Pui hook-ul în secundele 0–3 și finalul în ultimele 3 secunde. Intrare: pop sau estompare de 0,2 s.
+5. Etichetele le pui pe durata mișcării, lângă corp, nu peste față.
+
+CULORI (după zonă): gât roz, umeri albastru, încheieturi mentă, șolduri și spate lila, gătit crem, colaborări vișiniu.
+Fontul din imagini e Poppins Bold. Subtitrările automate din aplicație le pui tot în Poppins, text închis pe cutie crem.
+Documentul complet: Biblioteca → Studio → „Cum arată reel-urile”.

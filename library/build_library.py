@@ -33,6 +33,15 @@ IGDIR = os.environ.get("IGDIR", os.path.join(SCRATCH, "ig"))
 TRACKER_URL = "https://claude.ai/artifact/JPWB5qYKDdc63vJ1QG35yM"
 TITLE = "Biblioteca Kristinei"
 
+
+def _overlay_names():
+    d = os.path.join(REPO, "brand", "reels-overlays", "out-flat")
+    return sorted(os.listdir(d)) if os.path.isdir(d) else []
+
+_OV = _overlay_names()
+_OV_MAIN = [n for n in _OV if any(k in n for k in ("_1-hook", "_2-final", "_3-coperta"))]
+_OV_LAB = [n for n in _OV if n not in _OV_MAIN]
+
 # ----------------------------------------------------------------------
 # Ce intră în bibliotecă
 # ----------------------------------------------------------------------
@@ -105,6 +114,12 @@ GROUPS = [
              "base": "brand/km/out", "keep": True,
              "images": ["KM-C1-masaj-de-recuperare-%d.png" % i for i in range(1, 6)] + ["KM-C2-zonele-incordate-%d.png" % i for i in range(1, 6)] + ["KM-C3-sedinta-pas-cu-pas-%d.png" % i for i in range(1, 6)] + ["KM-C4-obiceiuri-birou-%d.png" % i for i in range(1, 6)] + ["KM-C5-cum-te-pregatesti-%d.png" % i for i in range(1, 6)] + ["KM-C6-prima-sedinta-intrebari-%d.png" % i for i in range(1, 6)] + ["KM-C7-dupa-sedinta-%d.png" % i for i in range(1, 6)] + ["KM-C8-mituri-despre-masaj-%d.png" % i for i in range(1, 6)],
              "desc": "Opt carusele de câte 5 slide-uri, 1080 × 1350, gata de urcat pe @kmwellnessconcept (C1–C4 pentru octombrie–noiembrie, C5–C8 pentru 22 noiembrie – 13 decembrie)."},
+            {"kind": "img", "slug": "reels-overlay-text", "title": "Reel-uri: texte pentru hook, final și copertă (PNG transparent)",
+             "base": "brand/reels-overlays/out-flat", "keep": True, "images": _OV_MAIN,
+             "desc": "Pentru fiecare reel: hook-ul din primele secunde, finalul din ultimele 3 secunde și coperta, 1080 × 1920, Poppins Bold, cu culorile pe zone. Le pui ca overlay peste clip, la tot ecranul."},
+            {"kind": "img", "slug": "reels-overlay-etichete", "title": "Reel-uri: etichete de doză, timpi și insigna #ad (PNG transparent)",
+             "base": "brand/reels-overlays/out-flat", "keep": True, "images": _OV_LAB,
+             "desc": "Etichetele („8 slow reps”, „Neck”, „15 minutes”), în culoarea zonei, decupate strâns, plus insigna #ad. Le pui lângă mișcare."},
             {"kind": "img", "slug": "twitch-banner", "title": "Bannerul Twitch (2 mărimi)",
              "base": "brand/twitch", "keep": True,
              "images": ["twitch-banner-2400x960.png", "twitch-banner-1200x480.png"],
