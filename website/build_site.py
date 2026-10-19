@@ -24,7 +24,7 @@ LINKS = {
     "LINKTREE": "https://linktr.ee/kristinemaia",
     "EMAIL": "kristinemaia527@gmail.com",
     # TODO: pune linkul exact al produsului gratuit din Payhip, după ce îl creezi (marți 20 oct)
-    "PAYHIP": "https://payhip.com/kristinemaia",
+    "PAYHIP": "https://payhip.com/b/myR5B",
     # TODO: linkul cărții pe Amazon, după ce actualizezi oferta în KDP
     "AMAZON": "#TODO-link-amazon",
     # TODO: înlocuiește cu linkul real de programare și plată (Calendly + Stripe sau Payhip)

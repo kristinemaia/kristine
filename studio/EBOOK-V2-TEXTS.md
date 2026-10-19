@@ -140,7 +140,7 @@ One shop, every recipe in this book.
 
 > Food is half of how I stay well while sitting for hours. The other half takes five minutes and no equipment. I made it into a free follow-along you can do at your desk, with the moves I use between streams for four areas: neck, shoulders, wrists, hips and back.
 >
-> Get it free here: payhip.com/kristinemaia
+> Get it free here: payhip.com/b/myR5B
 
 ---
 

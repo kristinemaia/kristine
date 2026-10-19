@@ -1,6 +1,6 @@
 # Payhip, pas cu pas (PDF-ul gratuit)
 
-> **Actualizat 17 octombrie:** logo-ul magazinului (pătrat și orizontal, fundal transparent) și celelalte imagini sunt gata în folderul Brand. Magazinul și PDF-ul gratuit sunt programate pentru **marți 20 octombrie**; PDF-ul trebuie să fie live înainte de plecare (29 oct). Linkul pe care îl pui în e-book, în Twitch (About) și în bio: `payhip.com/kristinemaia`. Pe Twitch ascunzi comanda `!ebook` până e gata.
+> **Actualizat 17 octombrie:** logo-ul magazinului (pătrat și orizontal, fundal transparent) și celelalte imagini sunt gata în folderul Brand. Magazinul și PDF-ul gratuit sunt programate pentru **marți 20 octombrie**; PDF-ul trebuie să fie live înainte de plecare (29 oct). **Linkul produsului gratuit (verificat 19 oct): `https://payhip.com/b/myR5B`.** Îl pui în e-book (pagina bonus), în Twitch (About), în bio-ul de Instagram, în TikTok și pe site. Pe Twitch ascunzi comanda `!ebook` până e gata.
 
 **Când:** marți 20 octombrie, dimineața, înainte de R1. Durează ~60 de minute cu tot.
 
