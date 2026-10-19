@@ -130,6 +130,8 @@ GROUPS = [
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
+            {"kind": "doc", "slug": "tiktok-plan", "title": "TikTok: ce postezi, când și cum (19 oct – 16 nov)", "src": "TIKTOK-PLAN.md",
+             "desc": "Un TikTok pe zi, la 19:00: ce postezi în fiecare zi, descrierea gata de copiat, cum alegi clipurile din stream, cum postezi un reel sau un carusel și ce programezi când."},
             {"kind": "doc", "slug": "postari-descrieri", "title": "Toate descrierile și hashtag-urile, gata de copiat", "src": "POSTARI-DESCRIERI.md",
              "desc": "Fiecare postare, pe cont și pe dată: Kristine Maia (reel-uri, carusele, gătit, colaborări), KM Wellness Concept (reel-uri și 8 carusele) și TikTok. O casetă pe postare, cu hashtag-urile incluse."},
             {"kind": "doc", "slug": "payhip", "title": "Payhip, pas cu pas (PDF-ul gratuit)", "src": "PAYHIP-PAS-CU-PAS.md",
