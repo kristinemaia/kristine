@@ -1,30 +1,29 @@
 # Primele 6 emailuri către branduri (versiunea 2, 16 oct)
 
-**Când:** luni 19 oct cauți adresele (30 min), miercuri 21 faci media kitul, **vineri 23 oct le trimiți pe toate 6**. Revenirea (un singur mesaj) o trimiți vineri 30 oct, celor care n-au răspuns.
-
-**Ce s-a schimbat față de prima variantă:** linia de calificări e cea exactă; fără „pain”, „prevent” sau „areas that hurt”; fără fese în cadru; fără e-book-ul vechi (revine după v2); semnătura are adresa de colaborări.
+**Actualizat luni 19 oct: le trimiți azi.** Revenirea (un singur mesaj) o trimiți luni 26 oct, celor care n-au răspuns (după 7 zile).
 
 _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 
-## Cum le trimiți
-1. Pe site-ul fiecărui brand cauți în subsol sau în meniu: **Creators**, **Partnerships**, **Affiliates**, **Ambassadors**, **Influencer** sau **Press**. Folosește formularul sau adresa de email de acolo. Dacă nu găsești nimic, scrie-le pe Instagram un mesaj scurt în care ceri adresa pentru colaborări.
-2. Completezi ce e între **[paranteze]** (cifrele reale din Twitch Analytics, numele persoanei dacă îl găsești).
-3. Dacă nu primești răspuns în **7 zile**, trimiți un singur mesaj de revenire (îl găsești la final).
-4. Notezi în tabel: brandul, data, răspunsul.
-5. Orice colaborare acceptată: contractul trece pe la avocat, iar postările se marchează cu **#ad** / „Paid partnership”.
+## Unde trimiți fiecare (verificat pe web pe 19 oct; confirmă pe site înainte să apeși „Send”)
+| # | Brand | Unde | Ce ai de făcut |
+|---|---|---|---|
+| 1 | FlexiSpot | https://flexispot.co.uk/affiliate (programul pentru Europa/UK, prin Awin). Nu am găsit o adresă oficială de email. | Te înscrii în program și lipești emailul în câmpul de mesaj sau îl trimiți pe Instagram. |
+| 2 | Therabody | https://app.grin.ai/brands/therabody.com (acceptă propuneri directe de la creatori). Pe therabody.eu nu am găsit un program de afiliere pentru Europa. | Trimiți propunerea prin GRIN, cu media kit-ul. |
+| 3 | Huel | **influencers@huel.com** (parteneriate plătite) și https://huel.com/pages/club-huel-creator-programme (cod de reducere + comision, răspuns în ~5 zile lucrătoare) | Trimiți emailul, iar în paralel aplici la Club Huel. |
+| 4 | Myprotein | **AmbassadorScheme@thehutgroup.com** (creatori cu peste 10.000 de urmăritori; trimiți linkurile profilurilor și de ce te potrivești). Alternativ: Myp-Connect-Partnerships@thehutgroup.com | Trimiți emailul 4. |
+| 5 | Manduka | https://eu-manduka.refersion.com/affiliate/registration (programul european, prin Refersion). Pagina https://www.manduka.com/pages/affiliate e pentru SUA. | Te înscrii la programul european; emailul îl lipești unde cere detalii. |
+| 6 | Logitech | https://Logitech.Com/en-us/influencers-creators-program.html (formular; „nu răspund la toți”) | Completezi formularul cu textul scurt. |
 
-**Ce ceri, în ordinea asta:** produsul + o sumă fixă + un cod de afiliere. Dacă spun doar „afiliere”, ceri măcar produsul gratuit și un cod de reducere pentru comunitate.
-
----
+Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul întreg unde e un câmp de mesaj, sau versiunea scurtă de mai jos.
 
 ## 1. FlexiSpot (birouri reglabile, scaune ergonomice)
 **De ce:** e exact problema publicului tău (stat jos ore întregi). Lucrează des cu streameri și creatori de birou.
 
 > **Subject:** Desk Reset x FlexiSpot – a creator who teaches gamers to sit less
 >
-> Hi [Name / FlexiSpot team],
+> Hi FlexiSpot team,
 >
-> I'm Kristine Maia, a Twitch Partner with 72K followers and around [150] average live viewers, plus 12.7K on Instagram (142K views in the last 30 days). I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and a mobility & recovery coach, and my streams mix relaxed gaming with a 2-minute stretch break every hour.
+> I'm Kristine Maia, a Twitch Partner with 72K followers, plus 12.7K on Instagram (142K views in the last 30 days). I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and a mobility & recovery coach, and my streams mix relaxed gaming with a 2-minute stretch break every hour.
 >
 > My audience sits 6–10 hours a day, and my whole channel is about undoing that. A standing desk is the one piece of furniture I'd genuinely recommend to them.
 >
@@ -34,16 +33,16 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Best,
 > Kristine Maia
-> twitch.tv/kristinemaia · @kristinemaia11 · [adresa de colaborări]
+> twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ## 2. Therabody (Theragun)
 **De ce:** recuperare, exact meseria ta. Ai credibilitate reală: chiar lucrezi cu mâinile pe mușchi.
 
 > **Subject:** Recovery for gamers – Theragun x certified recovery massage therapist
 >
-> Hi [Name / Therabody team],
+> Hi Therabody team,
 >
-> I'm Kristine Maia. I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and mobility & recovery coach. I stream on Twitch to 72K followers (around [150] live viewers on average) and show people who sit all day simple ways to move and recover.
+> I'm Kristine Maia. I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and mobility & recovery coach. I stream on Twitch to 72K followers and show people who sit all day simple ways to move and recover.
 >
 > Gamers and desk workers almost never think about recovery, and that is the gap I fill. I'd like to show my community how I use a Theragun on the areas that get tight after long sessions (forearms and upper back), as general information, not medical advice.
 >
@@ -53,16 +52,16 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Best,
 > Kristine Maia
-> twitch.tv/kristinemaia · @kristinemaia11 · [adresa de colaborări]
+> twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ## 3. Huel (mese complete, rapide)
 **De ce:** „mâncare bună pentru oamenii care stau toată ziua”. Huel lucrează mult cu streameri și oameni care muncesc la birou.
 
-> **Subject:** Stream-day food – Huel x a sports science grad who cooks live
+> **Subject:** Stream-day food – Huel x a mobility coach who cooks live
 >
-> Hi [Name / Huel team],
+> Hi Huel team,
 >
-> I'm Kristine Maia, a Twitch Partner (72K followers, around [150] average viewers) with a degree in Physical Education and Sport. I run a weekly "Cook with me" stream where I make quick, healthy meals for people who game or work long hours at a desk.
+> I'm Kristine Maia, a Twitch Partner (72K followers) with a degree in Physical Education and Sport. I run a weekly "Cook with me" stream where I make quick, healthy meals for people who game or work long hours at a desk.
 >
 > The real problem my community has is eating badly on long days. I'd love to show an honest "6-hour stream day" with Huel built in, next to my own recipes, so viewers see a realistic routine, not a perfect one.
 >
@@ -72,31 +71,35 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Best,
 > Kristine Maia
-> twitch.tv/kristinemaia · @kristinemaia11 · [adresa de colaborări]
+> twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ## 4. Myprotein
-**De ce:** au un program mare pentru creatori, sunt în toată Europa și se potrivesc cu rețetele tale (clătitele proteice din e-book).
+**De ce:** au un program mare pentru creatori, sunt în toată Europa și se potrivesc cu rețetele tale. **Trimiți la:** AmbassadorScheme@thehutgroup.com (cer linkurile profilurilor și de ce te potrivești).
 
-> **Subject:** Protein recipes for gamers – creator partnership
+> **Subject:** Ambassador application – Kristine Maia, Twitch Partner (72K) who cooks high-protein meals live
 >
-> Hi [Name / Myprotein team],
+> Hi Myprotein team,
 >
-> I'm Kristine Maia, a Twitch Partner with 72K followers, and I have a degree in Physical Education and Sport. I cook quick, high-protein meals live on stream for people who sit all day.
+> I'd like to apply for your ambassador scheme. I'm Kristine Maia, a Twitch Partner with 72K followers, with a degree in Physical Education and Sport, and I cook quick, high-protein meals live on stream for people who sit all day.
 >
-> My protein pancakes are one of the most requested recipes in my community, and I'd love to make Myprotein part of them: a sponsored "Cook with me" stream plus recipe reels, with a code for my audience across Europe and the US.
+> My profiles:
+> Twitch: twitch.tv/kristinemaia
+> Instagram: instagram.com/kristinemaia11
 >
-> Could you tell me the best way to join your creator programme, or put me in touch with the right person? I can send my media kit.
+> Why I'm a fit: my protein pancakes are one of the most requested recipes in my community, and my audience is exactly the gamers and desk workers who want simple, filling meals. I'd love to make Myprotein part of them: a "Cook with me" stream plus recipe reels, with a code for my audience across Europe and the US.
+>
+> Could you tell me the next step, or put me in touch with the right person? I can send my media kit.
 >
 > Best,
 > Kristine Maia
-> twitch.tv/kristinemaia · @kristinemaia11 · [adresa de colaborări]
+> twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ## 5. Manduka (saltele și accesorii de yoga)
 **De ce:** canalul tău de yoga a mers foarte bine, iar mobilitatea e segmentul tău principal. O saltea bună apare în fiecare stream de luni.
 
 > **Subject:** Move Monday on a Manduka mat – mobility for people who sit all day
 >
-> Hi [Name / Manduka team],
+> Hi Manduka team,
 >
 > I'm Kristine Maia, a Twitch Partner (72K followers) with a degree in Physical Education and Sport. Every Monday I run a live mobility session for gamers and desk workers, people who would never walk into a yoga studio but desperately need to move.
 >
@@ -106,14 +109,14 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Best,
 > Kristine Maia
-> twitch.tv/kristinemaia · @kristinemaia11 · [adresa de colaborări]
+> twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ## 6. Logitech (mouse și tastaturi ergonomice, seria Lift / Ergo)
 **De ce:** durerea de încheietură e problema nr. 1 la gameri. E un brand mare, deci poate dura, dar se potrivește perfect cu reel-ul „Wrists for mouse and keyboard”.
 
 > **Subject:** Comfortable long sessions – an ergonomic angle for Logitech Lift / Ergo
 >
-> Hi [Name / Logitech team],
+> Hi Logitech team,
 >
 > I'm Kristine Maia, a Twitch Partner with 72K followers, with a degree in Physical Education and Sport and a certified recovery massage therapist. Tired wrists and forearms come up in my chat all the time, and my content shows simple moves and setup changes that make long sessions more comfortable.
 >
@@ -123,9 +126,14 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Best,
 > Kristine Maia
-> twitch.tv/kristinemaia · @kristinemaia11 · [adresa de colaborări]
+> twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ---
+
+## Versiunea scurtă, pentru formulare (FlexiSpot, Therabody, Manduka, Logitech)
+
+> I'm Kristine Maia, a Twitch Partner (72K followers, 12.7K on Instagram) with a degree in Physical Education and Sport. I'm a certified recovery massage therapist and mobility & recovery coach, and my content teaches gamers and desk workers simple ways to move and recover. I'd love to create a sponsored stream segment and 2 short reels around [product/brand], with a code for my community. Happy to send my media kit.
+> twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ## Mesajul de revenire (după 7 zile, o singură dată)
 
@@ -137,7 +145,7 @@ _Trimise de pe: kristinemaia527@gmail.com · semnătura: Kristine Maia_
 >
 > Best,
 > Kristine Maia
-> twitch.tv/kristinemaia · @kristinemaia11 · [adresa de colaborări]
+> twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ## De reținut
 - Trimiți din România. Din Turcia trimiți doar revenirea; nu negociezi, nu semnezi și nu livrezi nimic sponsorizat de acolo.
