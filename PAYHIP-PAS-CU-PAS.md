@@ -38,7 +38,7 @@ Start with the free 5-minute desk stretch.
 General mobility, not medical advice.
 ```
 
-Plățile (PayPal sau Stripe) **nu le legi acum**. Îți trebuie doar pentru produsele cu preț, iar înainte le verifici cu contabila, pe firmă.
+**Corectură (19 oct, după testul tău):** pagina produsului gratuit arăta „Seller is unable to receive payments since their PayPal or Stripe account has not yet been connected” și nu avea buton de descărcare. Deci, pe contul tău, **trebuie legat PayPal sau Stripe chiar și pentru PDF-ul gratuit** (nu se încasează nimic). Conectezi PayPal (Settings → Payment Details → PayPal → Connect) și verifici din nou pagina produsului. Înainte să vinzi ceva cu preț (e-book, program), verifici cu contabila pe ce firmă intră banii și schimbi contul de plată.
 
 ## 3. Produsul gratuit (20 min)
 **Add product → Digital product** (descărcare).
