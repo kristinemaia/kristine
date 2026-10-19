@@ -8,6 +8,9 @@ Fiecare reel are un folder (R1, R2, B1, K1, DopeRope, Bewit, Revu, Rez-...). În
   <COD>_eticheta-*.png   etichetele de doză, decupate strâns. Le pui lângă mișcare și le micșorezi sau le mărești cu degetele.
   <COD>_insigna-ad.png   (la colaborări) insigna #ad, sus-stânga. Fullframe.
 
+Folderul _timer: cronometrul pentru R2 și B4 (60 de secunde). timer-60s-static.png = insigna fullframe; timer-60s-numaratoare.gif = numărătoare inversă 60 -> 0 (GIF transparent); varianta fullframe e deja așezată sus-centru. Dacă aplicația ta nu importă GIF cu transparență, folosești stickerul de cronometru din aplicație.
+Folderul _coperti-gata-facute: copertele finite din cadrele tale (R1, R2, ...).
+
 Folderul _comune: etichetele „5 minutes … 30 minutes” (pentru K4, K5 și timpul de gătit) și insigna #ad.
 
 CUM LE FOLOSEȘTI

@@ -213,6 +213,10 @@ def main():
         for root, _, files in os.walk(OUT):
             for f in sorted(files):
                 full = os.path.join(root, f); z.write(full, os.path.join('Reels-overlays', os.path.relpath(full, OUT)))
+        for extra, arc in (('timer', 'Reels-overlays/_timer'), ('coperti', 'Reels-overlays/_coperti-gata-facute')):
+            d = os.path.join(HERE, extra)
+            if os.path.isdir(d):
+                for fn in sorted(os.listdir(d)): z.write(os.path.join(d, fn), arc + '/' + fn)
         z.write(os.path.join(HERE, 'CITESTE.txt'), 'Reels-overlays/CITESTE.txt') if os.path.exists(os.path.join(HERE, 'CITESTE.txt')) else None
     n = sum(len(f) for _, _, f in os.walk(OUT))
     print('gata:', n, 'fișiere PNG,', round(os.path.getsize(zp) / 1024), 'KB →', zp)

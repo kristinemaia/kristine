@@ -58,7 +58,7 @@ Deci la un reel despre gât: hook și subtitrări pe crem, doar etichetele de do
 |---|---|---|---|---|---|
 | **Hook** (prima propoziție) | secundele 0–2, rămâne 3 s | 70–80 px, ocupă ~80% din lățime, pe 2 rânduri | `#2B2431` | cutie crem `#FFF9F6` la 90%, colțuri rotunjite | sus-centru, y ≈ 300–500 |
 | **Eticheta de doză** („8 slow reps”, „20 s each side”) | pe durata mișcării | 46–52 px | `#2B2431` | pastilă în culoarea zonei (vezi tabelul) | lângă corp, nu peste față; y ≈ 1100–1300 |
-| **Cronometrul** (R2, B4) | tot reelul | sticker din CapCut, 120 px | `#8A3459` | — | sus-centru, sub hook |
+| **Cronometrul** (R2, B4) | tot reelul | fișierul `timer-60s-numaratoare.gif` (numărătoare 60 → 0) sau insigna `timer-60s-static.png`; dacă aplicația nu importă GIF, stickerul de cronometru din aplicație | vișiniu pe crem | — | sus-centru, sub hook |
 | **Subtitrările** | cât vorbești | 52–56 px, 1–2 rânduri | `#2B2431` | cutie crem la 85% | y ≈ 1250–1450 |
 | **Final, rândul 1** (avertizarea) | ultimele 3 s | 52 px | `#2B2431` | cutie crem | y ≈ 1050 |
 | **Final, rândul 2** (invitația spre PDF) | ultimele 3 s | 50 px | alb | cutie vișinie `#8A3459`, colțuri rotunjite | y ≈ 1180 |
