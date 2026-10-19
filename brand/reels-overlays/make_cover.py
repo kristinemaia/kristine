@@ -4,6 +4,7 @@
 Rulezi:   python3 brand/reels-overlays/make_cover.py <cod reel> <imagine> [ieșire.jpg]
 Exemplu:  python3 brand/reels-overlays/make_cover.py R1 cadru-r1.png
 Rezultat: coperti/<COD>_coperta.jpg  (1080 x 1920; profilul Instagram arată partea din mijloc, 3:4)
+Opțional: --sub "text" = un rând mai mic sub titlu (face cutia mai înaltă).
 Opțional: --top N  = unde începe cutia cu titlul (implicit 760); o mută sus când fața ta e în mijloc.
 Barele negre de sus și de jos din screenshot-uri se taie automat.
 Cadrul e tăiat la 9:16 din centru. Titlul vine din build_overlays.py (lista R); îl poți schimba acolo.
@@ -31,6 +32,9 @@ def prepare(path):
     out = tempfile.NamedTemporaryFile(suffix='.png', delete=False); im.save(out.name); return out.name
 
 def main():
+    sub = None
+    if '--sub' in sys.argv:
+        i = sys.argv.index('--sub'); sub = sys.argv[i + 1]; del sys.argv[i:i + 2]
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     topv = 760
     if '--top' in sys.argv:
@@ -46,8 +50,13 @@ def main():
     os.makedirs(os.path.dirname(out), exist_ok=True)
     ext = os.path.splitext(img)[1].lower().lstrip('.'); mime = 'image/png' if ext == 'png' else 'image/jpeg'
     data = base64.b64encode(open(img, 'rb').read()).decode()
-    body = (f'<div style="position:absolute;inset:0;background:url(data:{mime};base64,{data}) center/cover no-repeat"></div>'
-            + bo.box(topv, cover, bo.ZONE[zone] if zone != 'wine' else bo.WINE, '#FFFFFF' if zone == 'wine' else bo.INK, 84, maxw=900, pad='40px 54px'))
+    bgc = bo.ZONE[zone] if zone != 'wine' else bo.WINE; fg = '#FFFFFF' if zone == 'wine' else bo.INK
+    if sub:
+        cov = (f'<div class="box" data-fit="1" style="top:{topv}px;max-width:900px;background:{bgc};color:{fg};font-size:84px;padding:40px 54px">'
+               f'{bo.esc(cover)}<div style="font-size:.62em;font-weight:600;margin-top:14px">{bo.esc(sub)}</div></div>')
+    else:
+        cov = bo.box(topv, cover, bgc, fg, 84, maxw=900, pad='40px 54px')
+    body = (f'<div style="position:absolute;inset:0;background:url(data:{mime};base64,{data}) center/cover no-repeat"></div>' + cov)
     htm = bo.page(body).replace('background:transparent', 'background:#fff')
     js = r"""
 const { chromium } = require('playwright'); const it = JSON.parse(require('fs').readFileSync(process.argv[2], 'utf8'));
