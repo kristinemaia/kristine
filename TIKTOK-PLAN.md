@@ -54,7 +54,8 @@ Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. La reel-uri
 3. **Coperta:** cadrul cu titlul, ca pe Instagram (fișierul `_3-coperta`).
 4. **Subtitrările** sunt deja în clip.
 5. **Setări:** public; comentarii pornite. Muzica: doar cea din biblioteca comercială sau deloc.
-6. **Ora:** 19:00. Programezi de pe computer (tiktok.com → Upload → Schedule): maximum **10 zile înainte** și cu minimum 15 minute înainte.
+6. **Ora:** 19:00. Programezi **doar de pe computer** (TikTok Studio: tiktok.com/tiktokstudio/upload, opțiunea Schedule), maximum **10 zile înainte** și cu minimum 15 minute înainte. Conform surselor pe care le-am găsit (nu documentația TikTok), programarea nu e disponibilă pe un cont personal simplu.
+7. **Dacă nu ai programare** (nu apare opțiunea Schedule în TikTok Studio): postezi manual la 19:00, din telefon, cu o alarmă. Un clip pe zi se postează în 2 minute, deci nu e o problemă mare. Nu încarci certificatul firmei doar pentru asta (verificarea de business e opțională și cere documente ale firmei).
 
 ## 4. Clipurile din stream (tip A), cum le alegi și cum le postezi
 **Ce alegi** (15–45 de secunde):
