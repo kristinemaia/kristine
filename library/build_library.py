@@ -98,6 +98,9 @@ GROUPS = [
         "id": "brand", "name": "Brand", "note": "Bannere și imagini pentru conturile tale",
         "zip": ("Brand-Kristine.zip", "brand"),
         "items": [
+            {"kind": "pdf", "slug": "media-kit", "title": "Media kit (o pagină, pentru branduri)",
+             "src": "brand/media-kit/Kristine-Maia-Media-Kit.pdf", "name": "Kristine-Maia-Media-Kit.pdf",
+             "desc": "PDF-ul de o pagină pe care îl atașezi când un brand răspunde: cifrele tale, ce oferi, colaborările și contactul."},
             {"kind": "img", "slug": "payhip-img", "title": "Imaginile pentru Payhip",
              "base": "brand/payhip", "keep": True,
              "images": ["payhip-logo-1000x1000.png", "payhip-logo-orizontal-1200x300.png", "payhip-produs-1280x720.png", "payhip-produs-1080x1080.png", "payhip-banner-1500x500.png"],
