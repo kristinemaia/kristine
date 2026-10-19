@@ -42,6 +42,8 @@ GROUPS = [
         "id": "studio", "name": "Studio", "note": "PDF-ul gratuit, programul de 30 de zile, reel-urile",
         "zip": ("Studio-Kristine.zip", "studio"),
         "items": [
+            {"kind": "doc", "slug": "stil-vizual-reeluri", "title": "Cum arată reel-urile: fonturi, culori, text pe ecran, copertă",
+             "src": "studio/STIL-VIZUAL-REELURI.md", "desc": "Tot ce ține de imagine: formatul, zonele sigure, culorile pe zone, fonturile, mărimea și locul textului, textul de pe ecran la fiecare reel, coperta și lista de verificare înainte de export."},
             {"kind": "doc", "slug": "harta-reeluri", "title": "Harta reel-urilor: unde găsești ce",
              "src": "studio/HARTA-REELURI.md", "desc": "Pentru fiecare reel: în ce fișier sunt mișcările, când îl filmezi și când îl postezi."},
             {"kind": "doc", "slug": "poze-de-facut", "title": "Pozele de făcut: PDF, copertă, e-book, carusele",

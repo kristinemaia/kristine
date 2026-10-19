@@ -16,6 +16,8 @@ _Actualizat 17 octombrie 2026. Aici afli, pentru fiecare reel, în ce fișier su
 
 **Ordinea de filmat și pregătirea (ținută, lumină, cameră, sunet):** același fișier, secțiunile 2 și 3.
 
+**Imaginea reel-urilor (fonturi, culori, text pe ecran, copertă):** Studio → „Cum arată reel-urile”.
+
 **Pozele (PDF, copertă, e-book, carusele):** Studio → „Pozele de făcut”.
 
 **Caruselele (imagini, nu video):** KM-C1…C4 sunt în **Brand → Carusele KM**, textele în **Plan → Carusele pentru contul KM**.
