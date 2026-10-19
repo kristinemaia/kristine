@@ -63,9 +63,10 @@ ARROW = ('<svg viewBox="0 0 24 24" style="width:.9em;height:.9em;vertical-align:
          'stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>')
 
 def esc(t):
-    h = html.escape(t).replace('→', ARROW)
-    # cuvintele cu cratimă nu se rup la capăt de rând
-    return re.sub(r'(?<![\w>])([\w&;]+(?:-[\w&;]+)+)', r'<span style="white-space:nowrap">\1</span>', h)
+    h = html.escape(t)
+    # cuvintele cu cratimă nu se rup la capăt de rând (înainte de a pune săgeata SVG, ca să nu-i atingem atributele)
+    h = re.sub(r'(?<![\w>])([\w&;]+(?:-[\w&;]+)+)', r'<span style="white-space:nowrap">\1</span>', h)
+    return h.replace('→', ARROW)
 
 CSS = """
 @font-face{font-family:P;font-weight:700;src:url(data:font/ttf;base64,BOLD64)}
