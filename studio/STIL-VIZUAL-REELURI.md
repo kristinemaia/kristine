@@ -29,13 +29,26 @@ Pe 1080 × 1920, ține textul important în interior:
 | **Accent, buton final, colaborări** | vișiniu | `#8A3459` |
 | Text pe vișiniu | alb | `#FFFFFF` |
 
-Fiecare reel de mobilitate are o culoare, după zonă: **gât = roz, umeri = albastru, încheieturi = mentă, șolduri și spate = lila.** Culoarea apare pe etichetele de doză („8 slow reps”) și pe coperta reel-ului. Reel-urile de gătit folosesc crem cu vișiniu. Colaborările folosesc vișiniu cu alb.
+**Culoarea zonei (roz la gât etc.) este culoarea CUTIEI de sub text, nu a textului.** Textul rămâne mereu închis (`#2B2431`), ca să se citească. Un text roz pe fundal deschis nu se citește.
+
+| Element | Text | Cutie (fundal) |
+|---|---|---|
+| Hook (titlul din primele secunde) | închis `#2B2431` | crem `#FFF9F6` |
+| Subtitrările (ce spui) | închis `#2B2431` | crem `#FFF9F6` (la toate reel-urile, nu în roz) |
+| Etichetele de doză („8 slow reps”) | închis `#2B2431` | **culoarea zonei** (la gât: roz `#F8DCE6`) |
+| Coperta reel-ului | închis `#2B2431` | **culoarea zonei** |
+| Finalul, invitația spre PDF | alb | vișiniu `#8A3459` |
+
+Deci la un reel despre gât: hook și subtitrări pe crem, doar etichetele de doză și coperta au cutia roz. Reel-urile de gătit au cutii crem, iar colaborările vișiniu cu alb.
+
+**În aplicație (Instagram Edits, CapCut):** scrii textul, alegi fontul Poppins, apoi folosești opțiunea de **fundal sau evidențiere a textului** (o cutie în spatele literelor). Culoarea textului o pui închisă, culoarea cutiei cea din tabel. Dacă aplicația nu are câmp pentru codul de culoare, alegi cu pipeta sau cu cursorul cea mai apropiată nuanță de roz pal, albastru pal, mentă sau lila. Nu pot verifica exact cum arată meniul în versiunea ta a aplicației.
 
 ## 4. Fonturile
-- **Titluri (hook):** **Bricolage Grotesque, ExtraBold.**
-- **Restul (etichete, subtitrări, final):** **Figtree, Bold sau SemiBold.**
-- **Cum le ai în CapCut:** ambele sunt gratuite pe Google Fonts. În **CapCut pe computer** le instalezi în Windows și apar în listă. În CapCut pe telefon nu le poți adăuga: alegi atunci un sans-serif gros, curat, fără serife și fără scriere de mână (de exemplu Montserrat sau Poppins, dacă apar în listă).
-- **Maximum două fonturi** într-un reel.
+- **În aplicația în care montezi pe telefon (Instagram Edits, CapCut pe telefon): Poppins.** Hook-ul și etichetele: **Poppins Bold**. Subtitrările: **Poppins SemiBold** sau Medium. Un singur font în tot reelul e perfect.
+- **Bricolage Grotesque și Figtree** (fonturile din PDF, carusele și Payhip) sunt pentru designul din Canva: coperta, caruselele, PDF-ul. Nu se pot adăuga în aplicațiile de montaj de pe telefon, deci în reel-uri nu le cauți.
+- Poppins Bold e destul de aproape de aspectul titlurilor tale, deci grila rămâne unitară.
+- **Maximum un font** (Poppins) în reel, ca să nu amesteci stiluri.
+- Dacă în aplicația ta nu apare Poppins în anumite stiluri, alegi cel mai apropiat sans-serif gros, curat, fără serife și fără scriere de mână.
 
 ## 5. Elementele de text, unul câte unul
 | Element | Când apare | Mărime | Culoare | Fundal | Unde |
