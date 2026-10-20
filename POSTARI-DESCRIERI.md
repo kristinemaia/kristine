@@ -9,6 +9,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 
 **Reguli la toate**
 - La postările cu **#ad** pornești în Instagram și „Paid partnership”.
+- **Dope Rope e doar afiliat (fără plată):** fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission…”, ca să se vadă înainte de „more”.
 - Nicio promisiune medicală. Dacă schimbi un text, păstrezi liniile „not medical advice” / „nu sfat medical”.
 - Linia cu diploma apare **doar** pe contul Kristine Maia, niciodată pe KM Wellness Concept.
 - Instagram acceptă până la 30 de hashtag-uri, dar 5–7 bine alese merg mai bine decât 30. Nu adăuga altele.
@@ -33,7 +34,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 | Mar 3 nov | 17:00 | Kristine Maia | B2 · Lower back after a desk day |
 | Mie 4 nov | 17:00 | Kristine Maia | Reel din sală · Sit all day? 3 machines undo the chair (propunere) |
 | Joi 5 nov | 17:00 | Kristine Maia | K5 · White fish with rice & veggies |
-| Vin 6 nov | 17:00 | Kristine Maia | Dope Rope · 2-minute rope break (#ad) |
+| Vin 6 nov | 17:00 | Kristine Maia | Dope Rope · mini reel de 21 s de la sală (afiliat, fără #ad) |
 | Dum 8 nov | 17:00 | Kristine Maia | Carusel C2 · 3 things I do after every stream |
 | Dum 8 nov | 19:00 | KM | Carusel C3 · O ședință, pas cu pas |
 | Mar 10 nov | 17:00 | Kristine Maia | B3 · Upper back and shoulders |
@@ -230,25 +231,18 @@ Free 5-minute desk stretch → link in bio
 More easy meals for long days at a desk: my e-book "Stream Day Kitchen" → link in bio.
 ```
 
-## Colaborări (toate cu #ad și „Paid partnership”)
+## Colaborări (Bewit și Revu Natural cu #ad și „Paid partnership”; Dope Rope doar afiliat, vezi mai jos)
 
 ### Dope Rope · Vin 6 nov, 17:00 · 2-minute rope break
 ```
-#ad The rope break that wakes me up between games. 2 minutes, that's it. 🪢
-Code KRISTINEMAIA (10% off) · link in bio. Affiliate: I earn a small commission at no extra cost to you.
+Affiliate: I earn a small commission if you use my code KRISTINEMAIA (10% off). Link in bio.
+
+20 seconds of rope to wake up before a long stream. 🪢
 Warm up first, jump gently, stop if anything hurts.
 
 #jumprope #warmup #streamerlife #cardio #gamerfitness
 ```
-
-**Dacă filmezi reel-ul la sala din București (Reel 4, „5-minute warm-up”), folosești această descriere în loc de cea de mai sus:**
-```
-#ad 5-minute warm-up. Just a rope. 🪢
-Code KRISTINEMAIA (10% off) · link in bio. Affiliate: I earn a small commission at no extra cost to you.
-Warm up first, jump gently, stop if anything hurts.
-
-#jumprope #gymwarmup #warmup #cardio #gamerfitness
-```
+_Dope Rope e doar afiliat: fără `#ad`, fără „Paid partnership”, fără insigna `#ad` pe ecran. Descrierea e pentru mini reel-ul de 21 de secunde filmat la sala din București; dacă folosești un clip din stream, schimbi a doua linie („2 minutes of rope between games”)._
 
 ### Bewit · Mie 11 nov, 17:00 · My evening cacao ritual
 ```

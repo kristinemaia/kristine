@@ -34,7 +34,7 @@ Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. La reel-uri
 | Mar 3 | B | **B2** Lower back | `For the end of a long desk day. Slow and gentle. #lowerback #mobility #deskjob` |
 | Mie 4 | B | **Sală** „Sit all day? 3 machines” | `Sit all day? These are the 3 machines I use to undo the chair. 🏋️ #gymtok #deskjob #mobility` |
 | Joi 5 | B | **K5** White fish | `Dinner after the stream: white fish, rice, veggies. 🐟 Recipe on Instagram @kristinemaia11 #healthydinner #streamerlife` |
-| Vin 6 | B | **Dope Rope** (#ad) | `#ad 5-minute warm-up. Just a rope. 🪢 Code KRISTINEMAIA #jumprope #warmup #streamerlife` |
+| Vin 6 | B | **Dope Rope** (afiliat, fără #ad) | `Affiliate: I earn a small commission if you use my code KRISTINEMAIA. 20 seconds of rope to wake up before a long stream. 🪢 #jumprope #warmup #streamerlife` |
 | Sâm 7 | A | clip din stream de vineri | secțiunea 4 |
 | Dum 8 | C | **Carusel C2** (#ad pentru cacao) | `#ad My 3-step wind-down after every stream. Swipe 👉 #afterstream #streamerlife #mobility` |
 | Lun 9 | A | clip din Move Monday | `Move Monday with the chat 💪 #workout #twitchstreamer #fitness` |

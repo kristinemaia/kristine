@@ -4,7 +4,7 @@ _18 octombrie 2026. Cele 3 reel-uri pe care le filmezi pentru brandurile cu care
 
 ## Regulile (la toate trei)
 - **Arăți doar ce folosești cu adevărat.** Nimic „de vânzare” pe care nu-l ai în rutina ta.
-- **Mențiunea:** `#ad` în prima linie a descrierii și „Paid partnership” activat în Instagram, plus „Affiliate: I earn a small commission” în descriere.
+- **Mențiunea:** `#ad` în prima linie a descrierii și „Paid partnership” activat în Instagram, plus „Affiliate: I earn a small commission” în descriere. **Excepție, Dope Rope:** e doar afiliat, fără plată. Fără `#ad` și fără „Paid partnership”; prima linie spune „Affiliate: I earn a small commission if you use my code KRISTINEMAIA”.
 - **Codul de reducere** în descriere și pe ecran, în ultima secundă: Dope Rope **KRISTINEMAIA** (10%), Revu Natural **KRISTINE20** (20%), Bewit **KRISTINE15** (15%). Linkul e în bio.
 - **Fără promisiuni medicale:** nu „tratează”, „vindecă”, „detox”, „scade durerea”. Spui „how it feels”, „my ritual”, „after a long stream”.
 - **Un singur reel de brand pe săptămână, cel mult** (din tracker, pasul „Colaborările”).
@@ -77,11 +77,13 @@ General mobility and self-care, not medical advice. Stop if anything feels sharp
 
 **Descriere:**
 ```
-#ad The rope break that wakes me up between games. 2 minutes, that's it. 🪢
-Code KRISTINEMAIA (10% off) · link in bio. Affiliate: I earn a small commission at no extra cost to you.
+Affiliate: I earn a small commission if you use my code KRISTINEMAIA (10% off). Link in bio.
+
+20 seconds of rope to wake up before a long stream. 🪢
 Warm up first, jump gently, stop if anything hurts.
 ```
 **Hashtag-uri:** `#jumprope #warmup #streamerlife #cardio #gamerfitness`
+_(descrierea pentru mini reel-ul de 21 s de la sală, filmat pe 20 oct; fără `#ad`, fiindcă e doar afiliat)_
 
 ## Pașii din tracker
 - Reel Bewit și reel Revu (sâmbătă 24): sunt în „Sâmbătă 24 oct”.

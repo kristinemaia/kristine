@@ -109,7 +109,7 @@ Hook, etichete și final sunt în „Reel-urile de filmat la țară” și „Re
 4. Culoarea cutiei corespunde zonei.
 5. Ultimele 3 secunde: avertizarea și invitația spre PDF (sau codul, la colaborări).
 6. Subtitrările au ortografia verificată.
-7. La colaborări: insigna `#ad` apare cât se vede produsul, iar „Paid partnership” e pornit.
+7. La colaborări: insigna `#ad` apare cât se vede produsul, iar „Paid partnership” e pornit. **Nu la Dope Rope**, care e doar afiliat: fără insigna `#ad` și fără „Paid partnership”, doar linia „Affiliate…” în descriere.
 8. Fără nume din chat, adrese, ferestre sau etichete personale în cadru.
 9. Sunetul: vocea ta clară; muzica foarte slabă (−20 dB) sau deloc. Muzica în tendință nu se poate atașa unui reel programat: folosești muzică din bibliotecă.
 
