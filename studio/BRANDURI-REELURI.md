@@ -4,7 +4,7 @@ _18 octombrie 2026. Cele 3 reel-uri pe care le filmezi pentru brandurile cu care
 
 ## Regulile (la toate trei)
 - **Arăți doar ce folosești cu adevărat.** Nimic „de vânzare” pe care nu-l ai în rutina ta.
-- **Mențiunea:** `#ad` în prima linie a descrierii și „Paid partnership” activat în Instagram, plus „Affiliate: I earn a small commission” în descriere. **Excepție, Dope Rope:** e doar afiliat, fără plată. Fără `#ad` și fără „Paid partnership”; prima linie spune „Affiliate: I earn a small commission if you use my code KRISTINEMAIA”.
+- **Mențiunea:** toate trei sunt doar **afiliere cu cod de reducere**, fără plată. Fără `#ad` și fără „Paid partnership”; prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”. `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit.
 - **Codul de reducere** în descriere și pe ecran, în ultima secundă: Dope Rope **KRISTINEMAIA** (10%), Revu Natural **KRISTINE20** (20%), Bewit **KRISTINE15** (15%). Linkul e în bio.
 - **Fără promisiuni medicale:** nu „tratează”, „vindecă”, „detox”, „scade durerea”. Spui „how it feels”, „my ritual”, „after a long stream”.
 - **Un singur reel de brand pe săptămână, cel mult** (din tracker, pasul „Colaborările”).
@@ -36,8 +36,9 @@ Le programezi dinainte, pe Instagram, înainte de plecare (29 oct). Pe Bewit po�
 **Voce (opțional):** „Five quiet minutes, screens off. This is my evening cacao.”
 **Descriere:**
 ```
-#ad My evening cacao ritual after a long stream. Five quiet minutes, screens off. ☕
-Code KRISTINE15 (15% off) · link in bio. Affiliate: I earn a small commission at no extra cost to you.
+Affiliate: I earn a small commission if you use my code KRISTINE15 (15% off). Link in bio.
+
+My evening cacao ritual after a long stream. Five quiet minutes, screens off. ☕
 General wellness, not medical advice.
 ```
 **Hashtag-uri:** `#cacao #eveningritual #streamerlife #selfcare #winddown`
@@ -57,8 +58,9 @@ General wellness, not medical advice.
 **Voce (opțional):** „After a long stream, this is my 60-second shoulder reset. Gentle, slow, no rush.”
 **Descriere:**
 ```
-#ad My 60-second shoulder reset after a long stream, with Revu Natural. 🤍
-Code KRISTINE20 (20% off) · link in bio. Affiliate: I earn a small commission at no extra cost to you.
+Affiliate: I earn a small commission if you use my code KRISTINE20 (20% off). Link in bio.
+
+My 60-second shoulder reset after a long stream, with Revu Natural. 🤍
 General mobility and self-care, not medical advice. Stop if anything feels sharp.
 ```
 **Hashtag-uri:** `#shoulderreset #streamerlife #selfcare #mobility #gamerhealth`

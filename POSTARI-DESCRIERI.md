@@ -8,8 +8,8 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 - TikTok: câte un cont pentru fiecare (secțiunea 4).
 
 **Reguli la toate**
-- La postările cu **#ad** pornești în Instagram și „Paid partnership”.
-- **Dope Rope e doar afiliat (fără plată):** fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission…”, ca să se vadă înainte de „more”.
+- **Dope Rope, Bewit și Revu Natural sunt doar afiliere cu cod de reducere, fără plată:** fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”, ca să se vadă înainte de „more”.
+- `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit.
 - Nicio promisiune medicală. Dacă schimbi un text, păstrezi liniile „not medical advice” / „nu sfat medical”.
 - Linia cu diploma apare **doar** pe contul Kristine Maia, niciodată pe KM Wellness Concept.
 - Instagram acceptă până la 30 de hashtag-uri, dar 5–7 bine alese merg mai bine decât 30. Nu adăuga altele.
@@ -38,11 +38,11 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 | Dum 8 nov | 17:00 | Kristine Maia | Carusel C2 · 3 things I do after every stream |
 | Dum 8 nov | 19:00 | KM | Carusel C3 · O ședință, pas cu pas |
 | Mar 10 nov | 17:00 | Kristine Maia | B3 · Upper back and shoulders |
-| Mie 11 nov | 17:00 | Kristine Maia | Bewit · My evening cacao ritual (#ad) |
+| Mie 11 nov | 17:00 | Kristine Maia | Bewit · My evening cacao ritual (afiliat) |
 | Joi 12 nov | 17:00 | Kristine Maia | K4 · Salmon & garlic broccoli |
 | Vin 13 nov | 17:00 | Kristine Maia | B4 · Warm-up before gaming |
 | Dum 15 nov | 19:00 | KM | Carusel C4 · 5 obiceiuri pentru birou |
-| Mie 18 nov | 17:00 | Kristine Maia | Revu Natural · 60-second shoulder reset (#ad) |
+| Mie 18 nov | 17:00 | Kristine Maia | Revu Natural · 60-second shoulder reset (afiliat) |
 | Dum 22 nov | 19:00 | KM | Carusel C5 · Cum te pregătești |
 | Dum 29 nov | 19:00 | KM | Carusel C6 · Prima ședință |
 | Dum 6 dec | 19:00 | KM | Carusel C7 · După ședință |
@@ -173,14 +173,14 @@ Kristine Maia · degree in Physical Education and Sport · certified recovery ma
 #neckpain #gamerhealth #deskstretch #mobility #stretchbreak #streamerlife
 ```
 
-### C2 · Dum 8 nov, 17:00 · 3 things I do after every stream (#ad)
-Activezi „Paid partnership” (cacaua Bewit).
+### C2 · Dum 8 nov, 17:00 · 3 things I do after every stream (afiliat)
+Fără „Paid partnership”; mențiunea de afiliat e în descriere (cacaua Bewit).
 ```
 My 3-step wind-down after every stream: shoulders, wrists and five quiet minutes with a warm drink. No equipment, no fuss.
 
 Free 5-minute desk stretch → link in bio
 
-General mobility, not medical advice. #ad for the cacao (affiliate link and code KRISTINE15 in my bio).
+General mobility, not medical advice. Affiliate: I earn a small commission if you use my Bewit code KRISTINE15 (link in bio).
 
 #afterstream #streamerlife #mobility #deskstretch #cacaoritual #wellness
 ```
@@ -231,7 +231,7 @@ Free 5-minute desk stretch → link in bio
 More easy meals for long days at a desk: my e-book "Stream Day Kitchen" → link in bio.
 ```
 
-## Colaborări (Bewit și Revu Natural cu #ad și „Paid partnership”; Dope Rope doar afiliat, vezi mai jos)
+## Colaborări (toate trei doar afiliere cu cod, fără #ad și fără „Paid partnership”)
 
 ### Dope Rope · Vin 6 nov, 17:00 · 2-minute rope break
 ```
@@ -242,12 +242,13 @@ Warm up first, jump gently, stop if anything hurts.
 
 #jumprope #warmup #streamerlife #cardio #gamerfitness
 ```
-_Dope Rope e doar afiliat: fără `#ad`, fără „Paid partnership”, fără insigna `#ad` pe ecran. Descrierea e pentru mini reel-ul de 21 de secunde filmat la sala din București; dacă folosești un clip din stream, schimbi a doua linie („2 minutes of rope between games”)._
+_Dope Rope, Bewit și Revu sunt doar afiliate: fără `#ad`, fără „Paid partnership”, fără insigna `#ad` pe ecran. Descrierea e pentru mini reel-ul de 21 de secunde filmat la sala din București; dacă folosești un clip din stream, schimbi a doua linie („2 minutes of rope between games”)._
 
 ### Bewit · Mie 11 nov, 17:00 · My evening cacao ritual
 ```
-#ad My evening cacao ritual after a long stream. Five quiet minutes, screens off. ☕
-Code KRISTINE15 (15% off) · link in bio. Affiliate: I earn a small commission at no extra cost to you.
+Affiliate: I earn a small commission if you use my code KRISTINE15 (15% off). Link in bio.
+
+My evening cacao ritual after a long stream. Five quiet minutes, screens off. ☕
 General wellness, not medical advice.
 
 #cacao #eveningritual #streamerlife #selfcare #winddown
@@ -255,8 +256,9 @@ General wellness, not medical advice.
 
 ### Revu Natural · Mie 18 nov, 17:00 · 60-second shoulder reset
 ```
-#ad My 60-second shoulder reset after a long stream, with Revu Natural. 🤍
-Code KRISTINE20 (20% off) · link in bio. Affiliate: I earn a small commission at no extra cost to you.
+Affiliate: I earn a small commission if you use my code KRISTINE20 (20% off). Link in bio.
+
+My 60-second shoulder reset after a long stream, with Revu Natural. 🤍
 General mobility and self-care, not medical advice. Stop if anything feels sharp.
 
 #shoulderreset #streamerlife #selfcare #mobility #gamerhealth
@@ -375,6 +377,54 @@ General food ideas, not medical advice.
 Free 5-minute desk stretch → link in bio
 
 #kitchenstaples #pantryessentials #healthykitchen #mealideas #streamerlife
+```
+
+---
+
+# 1c. Încă 4 reel-uri de rezervă (după 10 decembrie, opțional)
+
+Filmate tot la țară, sâmbătă 24 sau duminică 25 oct. Programate pe @kristinemaia11, la 17:00, în continuarea rezervei din 1b.
+
+### K10 · 5-minute tuna & red bean salad · Vin 11 dec, 17:00
+```
+Lunch in 5 minutes: tuna, red beans, tomatoes, spinach. No oven, no pan. 🥗
+
+1 can tuna · 120 g red kidney beans · tomatoes · baby spinach · lemon · olive oil · salt and pepper. Mix and eat.
+
+General food ideas, not medical advice.
+Free 5-minute desk stretch → link in bio
+
+#tunasalad #highprotein #easylunch #mealideas #streamerlife
+```
+
+### M5 · The 20-20-20 screen break · Mar 15 dec, 17:00
+```
+A simple screen-break reminder: every 20 minutes, look at something 20 feet away for 20 seconds. Then roll your shoulders. 👀
+
+General mobility, not medical advice. If your eyes hurt or your vision changes, talk to an eye doctor.
+Free 5-minute desk stretch → link in bio
+
+#screenbreak #eyebreak #gamerhealth #deskjob #mobility
+```
+
+### M6 · Legs stiff after a long sit? 3 moves · Joi 17 dec, 17:00
+```
+Legs stiff after a long sit? 3 gentle moves, from your chair. 🦵
+
+General mobility, not medical advice. Gentle pull only; stop if it's sharp.
+Free 5-minute desk stretch → link in bio
+
+#legstretch #hamstrings #deskjob #gamerhealth #mobility
+```
+
+### M7 · Upper back over your chair · Vin 18 dec, 17:00
+```
+Upper back tight from hunching over a screen? 2 gentle moves, using your chair. 🪑
+
+General mobility, not medical advice. Go slowly; stop if it's sharp or you feel dizzy.
+Free 5-minute desk stretch → link in bio
+
+#upperback #thoracicmobility #gamerhealth #deskjob #mobility
 ```
 
 ---

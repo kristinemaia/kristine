@@ -34,7 +34,7 @@ Dope Rope e deja filmat (clip de 21 s, 20 oct).
 | 14:30 | Copiezi tot pe laptop și pe stick (`01_BRUT`) |
 | după | Opțional: Vinted (poze la lumina zilei), un stream scurt dacă internetul e bun, sala |
 
-Total filmat: ~3 ore. Duminică e liberă, seara înapoi la București.
+Total filmat: ~3 ore. Duminică e liberă (sau blocul opțional de rezervă, mai jos), seara înapoi la București.
 
 ## Ce pui în mașină
 - Trepied, telefon (mod avion, lentila ștearsă), ring light sau lampă, microfon, prelungitor.
@@ -69,8 +69,7 @@ Pe ecran: `After a long stream: salmon & broccoli in [X] minutes.` (X din pagina
 Cadre: somonul la gătit → broccoli → farfuria gata. Camera de sus.
 
 ## Mențiunile
-- **Dope Rope** e doar afiliat: fără `#ad` și fără „Paid partnership”, prima linie „Affiliate: I earn a small commission…”.
-- **Bewit și Revu Natural:** descrierile din „Reel-urile pentru branduri” au `#ad` și „Paid partnership”. Dacă sunt și ele doar afiliate, fără plată, se aplică regula de la Dope Rope. Confirmi înainte de programare.
+Dope Rope, Bewit și Revu Natural sunt doar **afiliere cu cod de reducere**, fără plată: fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”. `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit. Descrierile sunt în „Toate descrierile”.
 
 ## Poze de făcut (aceeași ținută, aceeași lumină, 3–4 variante)
 - `POZA_c2_portret`: la perete, zâmbind, de la piept în sus.
@@ -82,8 +81,39 @@ Format 4:5 vertical (1080 × 1350) pentru C2; minimum 1600 × 1600 px pentru res
 ## Regulile (la toate)
 Ținută opacă și nestrâmtă, fără piele goală în prim-plan; fără ferestre, etichete, nume sau obiecte personale; locația nemarcată; „General mobility, not medical advice.”
 
-## Dacă rămâi peste 15 nov (decizia până pe 8 nov)
-Duminică 25 oct dimineața, opțional: 6 reel-uri de bucătărie din rezervă (K6, K7, K2, K3, K8, K9; ~2 ore) și 3 de birou (O1, O3, O7; ~45 min, setul verde). Sunt în „Rezerva de conținut” din plan.
+## Rezerva: 13 reel-uri în plus (pentru cât stai în Turcia)
+Planul de bază acoperă reel-urile până pe **18 nov**. Rezerva acoperă **20 nov – 18 dec**, câte 3 pe săptămână (mar, joi, vin), programate pe Instagram înainte de plecare. Decizia dacă rămâi sau te întorci o iei până pe 8 nov; până atunci rezerva e programată oricum, iar dacă te întorci, datele se mută mai devreme.
+
+**Când:** după K4, sâmbătă, cât ai energie, **și duminică 25 oct dimineața** (09:00–13:00). Duminica e în mod normal liberă, deci blocul ăsta e opțional. Filmezi în ordinea priorității și te oprești când obosești: ce n-ai filmat, ieșirea din plan se mută la sfârșit.
+
+### Bucătărie (7 reel-uri, ~2 ore 30; bluza neagră cu fermoar, camera de sus)
+| Prioritate | Reel | Iese |
+|---|---|---|
+| A | K6 · Portions without a scale | vin 20 nov |
+| A | K2 · Overnight tiramisu oats | joi 26 nov |
+| A | K7 · 3 swaps that keep you full | vin 27 nov |
+| B | K3 · A hot meal in 10 minutes | joi 3 dec |
+| B | K8 · Stream-day desk snacks | vin 4 dec |
+| B | K9 · 12 things I always keep in my kitchen | joi 10 dec |
+| B | **K10 · 5-minute tuna & red bean salad** (nou) | vin 11 dec |
+
+### Birou și mobilitate (6 reel-uri, ~1 oră 30; setul verde, la peretele alb, cu scaunul fără rotile)
+| Prioritate | Reel | Iese |
+|---|---|---|
+| A | O1 · Your desk in 10 seconds: 3 checks | mar 24 nov |
+| A | O3 · Mouse hand tired? Check this first | mar 1 dec |
+| A | O7 · Why your neck feels stiff after hours of gaming | mar 8 dec |
+| B | **M5 · The 20-20-20 screen break** (nou) | mar 15 dec |
+| B | **M6 · Legs stiff after a long sit? 3 moves** (nou) | joi 17 dec |
+| B | **M7 · Upper back over your chair** (nou) | vin 18 dec |
+
+### Cadrele celor 4 reel-uri noi
+- **K10 (30 s):** de sus, ingredientele în rând (ton, fasole roșie, roșii, spanac, lămâie) → le amesteci în bol → farfuria gata, o furculiță. Pe ecran: `Lunch in 5 minutes`. Rețeta de pe pagina 25 din e-book.
+- **M5 (20 s):** de la piept în sus, pe scaun. Privești în depărtare 20 de secunde (poți arăta un cronometru pe ecran), clipești lent, apoi rotești umerii înapoi de 3 ori. Pe ecran: `Every 20 min: look 20 ft away for 20 s`.
+- **M6 (40 s):** pe scaun, din lateral, de la cap la picioare. (1) Hamstrings: un picior întins, călcâiul pe podea, te apleci ușor din șold, `20 s each side`; (2) gambă: vârful piciorului spre tine, `15 s each side`; (3) cercuri cu glezna, `10 each way`. Pe ecran: `Legs stiff after a long sit? 3 moves.` Final: `Gentle pull only. Stop if it's sharp.`
+- **M7 (35 s):** pe scaun cu spătar solid, din lateral. (1) Mâinile la ceafă, coatele în față, te lași ușor pe spătar, `5 slow reps`; (2) pisică-vacă pe scaun, `8 slow reps`. Pe ecran: `Upper back tight from hunching? 2 moves.` Final: `Go slowly. Stop if it's sharp or you feel dizzy.`
+
+Descrierile celor 4 sunt în „Toate descrierile”, secțiunea 1c; K6–K9, O1, O3, O7 în 1b. La K2 și K3 lipești rețeta în locul lui `[REȚETA]`.
 
 ## După filmare
 Copia pe laptop și pe stick în aceeași seară. Luni 26 oct alegi dublele și scrii descrierile (B3, K4, Bewit, Revu); marți 27 oct montezi B3 și K4; restul montajului merge în Turcia.

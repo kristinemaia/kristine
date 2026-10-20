@@ -149,7 +149,7 @@ Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul î
 
 ## De reținut
 - Trimiți din România. Din Turcia trimiți doar revenirea; nu negociezi, nu semnezi și nu livrezi nimic sponsorizat de acolo.
-- Pe fiecare postare sponsorizată: **#ad** / „Paid partnership”, fără afirmații medicale.
+- Pe fiecare postare sponsorizată (plătită sau cu produs gratuit): **#ad** / „Paid partnership”. La afiliere simplă cu cod: linia „Affiliate: …”. Fără afirmații medicale.
 - Nu exagera cifrele. Folosește cele reale din Twitch Analytics și Instagram Insights.
 - Nu folosi titlurile „physical therapist” sau „yoga instructor”.
 - Dacă un brand îți cere ceva ce nu se potrivește cu tine (conținut sexy, promisiuni medicale), refuzi politicos.

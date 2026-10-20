@@ -12,7 +12,7 @@ _19 octombrie 2026. Un TikTok pe zi, în engleză, până pe 16 noiembrie. Contu
 
 ## 2. Ce postezi în fiecare zi
 
-Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. La reel-urile cu **#ad** pui în TikTok și „Content disclosure → Branded content”, dacă ai opțiunea în postare.
+Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. Dope Rope, Bewit și Revu Natural sunt doar afiliere cu cod: fără `#ad` și fără „Branded content”, cu linia „Affiliate: …” la început. `#ad` și „Content disclosure → Branded content” doar dacă un brand te plătește sau îți dă produse gratuit.
 
 | Data | Tip | Ce | Descriere |
 |---|---|---|---|
@@ -36,17 +36,17 @@ Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. La reel-uri
 | Joi 5 | B | **K5** White fish | `Dinner after the stream: white fish, rice, veggies. 🐟 Recipe on Instagram @kristinemaia11 #healthydinner #streamerlife` |
 | Vin 6 | B | **Dope Rope** (afiliat, fără #ad) | `Affiliate: I earn a small commission if you use my code KRISTINEMAIA. 20 seconds of rope to wake up before a long stream. 🪢 #jumprope #warmup #streamerlife` |
 | Sâm 7 | A | clip din stream de vineri | secțiunea 4 |
-| Dum 8 | C | **Carusel C2** (#ad pentru cacao) | `#ad My 3-step wind-down after every stream. Swipe 👉 #afterstream #streamerlife #mobility` |
+| Dum 8 | C | **Carusel C2** (afiliat pentru cacao) | `Affiliate code KRISTINE15 for the cacao. My 3-step wind-down after every stream. Swipe 👉 #afterstream #streamerlife #mobility` |
 | Lun 9 | A | clip din Move Monday | `Move Monday with the chat 💪 #workout #twitchstreamer #fitness` |
 | Mar 10 | B | **B3** Upper back | `For the gamer hunch: 3 moves, no equipment. #upperback #gamerhealth #mobility` |
-| Mie 11 | B | **Bewit** (#ad) | `#ad My evening cacao ritual after a long stream. Code KRISTINE15 #cacao #eveningritual #streamerlife` |
+| Mie 11 | B | **Bewit** (afiliat) | `Affiliate: I earn a small commission if you use my code KRISTINE15. My evening cacao ritual after a long stream. #cacao #eveningritual #streamerlife` |
 | Joi 12 | B | **K4** Salmon & broccoli | `After a long stream: salmon and garlic broccoli. 🥦 Recipe on Instagram @kristinemaia11 #salmonrecipe #streamerlife` |
 | Vin 13 | B | **B4** Warm-up | `One minute before the first match. Your hands will thank you. #warmup #gamerhealth #twitchstreamer` |
 | Sâm 14 | A | clip din stream de vineri | secțiunea 4 |
 | Dum 15 | A | clip „înapoi acasă” sau din stream | secțiunea 4 |
 | Lun 16 | A | clip din Move Monday | `Move Monday with the chat 💪 #workout #twitchstreamer #fitness` |
 
-**După 16 nov:** același ritm. Miercuri 18 nov: reel-ul Revu Natural (#ad, codul KRISTINE20). Apoi reel-urile din rezervă (K6, O1, K2, K7, O3, K3, K8, O7, K9, descrierile sunt în „Toate descrierile”, secțiunea 1b), tot câte unul pe zi de reel.
+**După 16 nov:** același ritm. Miercuri 18 nov: reel-ul Revu Natural (afiliat, codul KRISTINE20). Apoi reel-urile din rezervă (K6, O1, K2, K7, O3, K3, K8, O7, K9, descrierile sunt în „Toate descrierile”, secțiunea 1b), tot câte unul pe zi de reel.
 
 ## 3. Cum postezi un reel pe TikTok (tip B)
 1. Folosești **același fișier** exportat din aplicația de montaj, 1080 × 1920. Fără filigran de la altă aplicație.
@@ -82,7 +82,7 @@ Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. La reel-uri
 1. TikTok → **+** → **Photos** → alegi cele 5 imagini în ordine (EN-C1 sau EN-C2, din Biblioteca → Brand).
 2. Adaugi muzică (opțional; din biblioteca comercială, încet).
 3. Descrierea din tabel.
-4. **C2** conține o mențiune pentru cacao: `#ad` în descriere și „Content disclosure → Branded content”.
+4. **C2** conține codul Bewit: linia „Affiliate: …” în descriere (afiliere, fără „Branded content”).
 
 ## 6. KM Wellness Concept pe TikTok
 Doar caruselele ca postări foto, **duminica la 19:00**, aceleași imagini ca pe Instagram: 25 oct (C1), 1 nov (C2), 8 nov (C3), 15 nov (C4), apoi 22 nov, 29 nov, 6 dec, 13 dec. Descrierile sunt în „Toate descrierile”, secțiunea 4.
@@ -97,5 +97,5 @@ Pentru clipurile din stream, pregătești fiecare clip în ziua streamului și l
 ## 8. Reguli
 - Fără numele legal, adresa sau obiecte personale în cadru.
 - Fără promisiuni medicale; „General mobility, not medical advice.” la mobilitate.
-- **#ad** pe tot ce e colaborare, plus „Content disclosure”.
+- Afiliere cu cod: linia „Affiliate: …” la început. **#ad** și „Content disclosure” doar la colaborări plătite sau cu produs gratuit.
 - Cifre (viewerii, urmăritori) doar dacă sunt reale, din Analytics.

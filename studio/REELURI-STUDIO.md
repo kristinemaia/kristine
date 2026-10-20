@@ -40,7 +40,7 @@ _Ce poți filma în fiecare spațiu din casă, ce spui și ce din e-book trebuie
 - **Cuvinte care merg:** „loosen up”, „ease”, „gentle”, „feels better”. **Cuvinte care nu merg:** „fix”, „cure”, „treat”, „heal”, „relieve pain”, „rehab”, „correct your posture”.
 - **Titluri care nu merg:** kinetoterapeut, physiotherapist, yoga instructor/teacher, nutritionist.
 - **Dry needling, ventuze (cupping), reiki:** în niciun reel, până vine răspunsul scris de la avocat și de la CFZRO.
-- **Afiliere:** `#ad` pe ecran cât se vede produsul, plus o linie în descriere.
+- **Afiliere:** codul pe ecran și o linie „Affiliate: …” în descriere (`#ad` doar la colaborări plătite).
 
 **Descrierea pentru reel-urile de mișcare (o copiezi la fiecare):**
 
@@ -282,7 +282,7 @@ Aici doar îți spun ce poți face. Sunt cele mai scurte de filmat: **5 noi înt
 
 #### O4 What's on my desk (and what I actually use) · 35 s · filmezi nou
 - Arăți doar ce folosești cu adevărat: **Dope Rope** (coarda de sărit) · **Revu Natural** (cremele de recuperare, după sesiuni lungi) · **Bewit** (produsele naturale din rutina ta zilnică). Coduri: KRISTINEMAIA 10%, KRISTINE20 20%, KRISTINE15 15%.
-- Pe ecran: `#ad · affiliate codes` tot timpul cât se văd produsele.
+- Pe ecran: `affiliate codes` tot timpul cât se văd produsele.
 - Spui: „Three things I actually use. [One line each: what it is and when you use it.] Codes are on screen. These are affiliate codes, so I earn a small commission, at no extra cost to you.”
 - Spui când le folosești, nu ce „tratează”.
 - Descriere: `Affiliate codes: I earn a commission at no extra cost to you.` plus codurile și linkul către pagina de shop.

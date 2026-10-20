@@ -124,7 +124,7 @@ GROUPS = [
              "desc": "Pentru fiecare reel: hook-ul din primele secunde, finalul din ultimele 3 secunde și coperta, 1080 × 1920, Poppins Bold, cu culorile pe zone. Le pui ca overlay peste clip, la tot ecranul."},
             {"kind": "img", "slug": "reels-overlay-etichete", "title": "Reel-uri: etichete de doză, timpi și insigna #ad (PNG transparent)",
              "base": "brand/reels-overlays/out-flat", "keep": True, "images": _OV_LAB,
-             "desc": "Etichetele („8 slow reps”, „Neck”, „15 minutes”), în culoarea zonei, decupate strâns, plus insigna #ad. Le pui lângă mișcare."},
+             "desc": "Etichetele („8 slow reps”, „Neck”, „15 minutes”), în culoarea zonei, decupate strâns, plus insigna #ad (o folosești doar la colaborări plătite, nu la afiliere cu cod). Le pui lângă mișcare."},
             {"kind": "img", "slug": "twitch-panouri", "title": "Twitch: 3 panouri și pop-up-ul pentru OBS",
              "base": "brand/twitch/panels", "keep": True,
              "images": ["panel-1-despre-320.png", "panel-2-pdf-gratuit-320.png", "panel-3-comanda-320.png", "obs-popup-stretch-1920x1080.png"],

@@ -143,13 +143,13 @@ Vin 30 oct  R4 5-minute morning desk reset (ținut pentru Turcia)
 Mar 3 nov   B2 Lower back after a desk day
 Mie 4 nov   Reel din sală: Sit all day? 3 machines undo the chair (propunere)
 Joi 5 nov   K5 White fish with rice & veggies (doar dacă a fost filmat curat)
-Vin 6 nov   Reel din stream: 2-minute rope break with the chat (Dope Rope, #ad, cod KRISTINEMAIA)
+Vin 6 nov   Reel din stream: 2-minute rope break with the chat (Dope Rope, afiliat, cod KRISTINEMAIA)
 Dum 8 nov   Carusel C2 3 things I do after every stream
 Mar 10 nov  B3 Upper back and shoulders (the gamer hunch)
-Mie 11 nov  Reel Bewit: my evening cacao ritual (#ad, KRISTINE15)
+Mie 11 nov  Reel Bewit: my evening cacao ritual (afiliat, cod KRISTINE15)
 Joi 12 nov  K4 Salmon & garlic broccoli
 Vin 13 nov  B4 Warm-up before gaming: 4 moves in 1 minute
-Mie 18 nov  Reel Revu Natural: 60-second shoulder reset (#ad, KRISTINE20)
+Mie 18 nov  Reel Revu Natural: 60-second shoulder reset (afiliat, cod KRISTINE20)
 
 Instagram KM Wellness Concept (română), duminică 19:00, doar carusele (reel-urile KM sunt pe pauză din 18 oct)
 25 oct C1 · 1 nov C2 · 8 nov C3 · 15 nov C4 · 22 nov C5 · 29 nov C6 · 6 dec C7 · 13 dec C8
@@ -211,7 +211,7 @@ Ai trei coduri: **Dope Rope** (coarda) KRISTINEMAIA 10%, **Revu Natural** KRISTI
 1. **Un brand pe stream, o dată pe stream, 60 de secunde.** Luni: Dope Rope (coarda, încălzire sau pauză de coardă). Miercuri: Bewit, doar produsele pe care le folosești cu adevărat. Vineri: Revu Natural (rutina de recuperare după o seară lungă, umeri și gât). Spui „afiliere”; comenzile din chat (!coarda, !bewit, !revu) răspund cu codul.
 2. **Un reel pe săptămână, cel mult, făcut din ce filmezi oricum.** Cel mai bun candidat: pauza de coardă din Game night (vineri 23 oct), tăiată pentru reelul din stream de pe 6 nov. Reelul cu coarda e cel mai bun al tău (12,6K vizualizări), deci merită repetat. Din Turcia nu creezi livrabile noi pentru branduri.
 3. **Aceleași patru locuri, tot timpul:** Linktree (cele 3 coduri), panourile și comenzile de pe Twitch, highlight-ul CODES de pe Instagram, descrierile reel-urilor.
-4. **Cu #ad și fără cuvinte interzise.** „Afiliere” și #ad la fiecare mențiune; niciodată „fix”, „cure”, „treat”, „heal”, „relieve pain”.
+4. **Cu #ad și fără cuvinte interzise.** „Afiliere” la fiecare mențiune (#ad doar la colaborări plătite); niciodată „fix”, „cure”, „treat”, „heal”, „relieve pain”.
 5. **Cifrele lunare.** Le ceri fiecărui brand: câte vânzări a adus codul. Le notezi în lista lunară; după 2 luni vezi care merită mai mult loc.
 6. **Avocatul citește:** întrebarea despre afiliere e în emailul către el.
 

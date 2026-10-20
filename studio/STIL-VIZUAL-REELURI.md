@@ -62,7 +62,7 @@ Deci la un reel despre gât: hook și subtitrări pe crem, doar etichetele de do
 | **Subtitrările** | cât vorbești | 52–56 px, 1–2 rânduri | `#2B2431` | cutie crem la 85% | y ≈ 1250–1450 |
 | **Final, rândul 1** (avertizarea) | ultimele 3 s | 52 px | `#2B2431` | cutie crem | y ≈ 1050 |
 | **Final, rândul 2** (invitația spre PDF) | ultimele 3 s | 50 px | alb | cutie vișinie `#8A3459`, colțuri rotunjite | y ≈ 1180 |
-| **Insigna #ad** (colaborări) | cât se vede produsul | 40 px | alb | cutie vișinie mică | sus-stânga, y ≈ 280 |
+| **Insigna #ad** (doar dacă ești plătită sau primești produs gratuit) | cât se vede produsul | 40 px | alb | cutie vișinie mică | sus-stânga, y ≈ 280 |
 | **Codul de reducere** (colaborări) | ultimele 4 s | 54 px | alb | cutie vișinie | y ≈ 1180 |
 
 **Regulile de scris:**
@@ -90,9 +90,9 @@ Hook, etichete și final sunt în „Reel-urile de filmat la țară” și „Re
 | K4 · Salmon | crem + vișiniu | After a long stream: salmon & broccoli in [X] minutes. | [X] minutes | Recipe in the caption |
 | K5 · White fish | crem + vișiniu | Dinner after the stream: white fish, rice, veggies. | — | Recipe in the caption |
 | Sală · 3 machines | lila | Sit all day? 3 machines undo the chair. | numele aparatului pe fiecare | Not medical advice |
-| Dope Rope | vișiniu + alb | 5-minute warm-up. Just a rope. | 1 min each · 30s rest | Code KRISTINEMAIA · link in bio (+ #ad) |
-| Bewit · Cacao | vișiniu + alb | My evening cacao ritual | — | Code KRISTINE15 · link in bio (+ #ad) |
-| Revu Natural | vișiniu + alb | 60-second shoulder reset | — | Code KRISTINE20 · link in bio (+ #ad) |
+| Dope Rope | vișiniu + alb | 5-minute warm-up. Just a rope. | 1 min each · 30s rest | Code KRISTINEMAIA · link in bio (afiliere, fără #ad) |
+| Bewit · Cacao | vișiniu + alb | My evening cacao ritual | — | Code KRISTINE15 · link in bio (afiliere, fără #ad) |
+| Revu Natural | vișiniu + alb | 60-second shoulder reset | — | Code KRISTINE20 · link in bio (afiliere, fără #ad) |
 
 **Rezerva (după 18 nov):** K6 „No scale needed: your hand is the measure.” · O1 „Your desk in 10 seconds: 3 checks.” · K2 „Dessert for breakfast: 5 minutes the night before.” · K7 „3 swaps that keep you full.” · O3 „Mouse hand tired? Check this first.” · K3 „A hot meal in 10 minutes, between two matches.” · K8 „My stream-day desk snacks (3 things).” · O7 „Why your neck feels stiff after 4 hours of gaming.” · K9 „12 things I always keep in my kitchen.” Culori: cele de gătit crem cu vișiniu, cele de birou albastru.
 
@@ -100,7 +100,7 @@ Hook, etichete și final sunt în „Reel-urile de filmat la țară” și „Re
 - Profilul Instagram arată reel-urile în **3:4**, tăiate din centru. Pune titlul și fața în **mijlocul cadrului** (între y = 300 și y = 1650), nu lângă margini.
 - **Cadrul:** un cadru din reel în care se vede clar fața sau mișcarea, cu 3–4 cuvinte deasupra, din hook (de exemplu „Neck stiff after gaming?”). Același font (Bricolage Grotesque), `#2B2431` pe o cutie în culoarea zonei.
 - **Același aspect la toate:** aceeași poziție a titlului, aceeași dimensiune, doar culoarea cutiei se schimbă după zonă. Așa grila profilului arată ca o serie.
-- **Colaborările:** cutie vișinie cu text alb, plus insigna #ad.
+- **Colaborările:** cutie vișinie cu text alb; insigna #ad doar la colaborări plătite.
 
 ## 8. Înainte să exportezi (lista de verificare)
 1. Format 1080 × 1920, 30 fps.
@@ -109,7 +109,7 @@ Hook, etichete și final sunt în „Reel-urile de filmat la țară” și „Re
 4. Culoarea cutiei corespunde zonei.
 5. Ultimele 3 secunde: avertizarea și invitația spre PDF (sau codul, la colaborări).
 6. Subtitrările au ortografia verificată.
-7. La colaborări: insigna `#ad` apare cât se vede produsul, iar „Paid partnership” e pornit. **Nu la Dope Rope**, care e doar afiliat: fără insigna `#ad` și fără „Paid partnership”, doar linia „Affiliate…” în descriere.
+7. Dope Rope, Bewit și Revu Natural sunt doar afiliere cu cod: fără insigna `#ad` și fără „Paid partnership”, doar linia „Affiliate…” pe prima linie a descrierii. Insigna și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit.
 8. Fără nume din chat, adrese, ferestre sau etichete personale în cadru.
 9. Sunetul: vocea ta clară; muzica foarte slabă (−20 dB) sau deloc. Muzica în tendință nu se poate atașa unui reel programat: folosești muzică din bibliotecă.
 
