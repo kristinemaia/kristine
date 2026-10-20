@@ -61,6 +61,8 @@ GROUPS = [
              "src": "studio/BRANDURI-REELURI.md", "desc": "Cadre, secunde, text pe ecran, descriere cu #ad și hashtag-uri pentru cele 3 reel-uri de colaborare; regulile și datele de postare."},
             {"kind": "doc", "slug": "gatit-reeluri", "title": "Reel-urile cu gătit: K1, bolul cu ton, K4, K5",
              "src": "studio/GATIT-REELURI.md", "desc": "Cadrele, secundele, textul de pe ecran, vocea, descrierea și hashtag-urile pentru gătit; ce filmezi sâmbătă 17 și când postezi."},
+            {"kind": "doc", "slug": "plan-sambata-24-oct", "title": "Sâmbătă 24 oct la țară: planul de filmare",
+             "src": "studio/PLAN-SAMBATA-24-OCT.md", "desc": "Ce filmezi, în ce ținută și în ce ordine: test living, B3, Revu, Bewit, K4 și pozele; programul orelor și ce pui în mașină."},
             {"kind": "doc", "slug": "filmare-apartament", "title": "Reel-urile de filmat la țară (17 și 24 oct)",
              "src": "studio/FILMARE-APARTAMENT.md", "desc": "Mișcările pentru R1–R4, B1–B4 și KM1–KM4: poziții, secunde, lumină, text pe ecran, descriere, hashtag-uri, data postării."},
             {"kind": "pdf", "slug": "desk-stretch", "title": "The 5-minute desk stretch (3 pagini)",
