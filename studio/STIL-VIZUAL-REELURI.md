@@ -90,9 +90,9 @@ Hook, etichete și final sunt în „Reel-urile de filmat la țară” și „Re
 | K4 · Salmon | crem + vișiniu | After a long stream: salmon & broccoli in [X] minutes. | [X] minutes | Recipe in the caption |
 | K5 · White fish | crem + vișiniu | Dinner after the stream: white fish, rice, veggies. | — | Recipe in the caption |
 | Sală · 3 machines | lila | Sit all day? 3 machines undo the chair. | numele aparatului pe fiecare | Not medical advice |
-| Dope Rope | vișiniu + alb | 5-minute warm-up. Just a rope. | 1 min each · 30s rest | Code KRISTINEMAIA · link in bio (afiliere, fără #ad) |
-| Bewit · Cacao | vișiniu + alb | My evening cacao ritual | — | Code KRISTINE15 · link in bio (afiliere, fără #ad) |
-| Revu Natural | vișiniu + alb | 60-second shoulder reset | — | Code KRISTINE20 · link in bio (afiliere, fără #ad) |
+| Dope Rope | vișiniu + alb | 20-second rope warm-up. Just a rope. | 20 seconds | Affiliate: I earn a small commission · Code KRISTINEMAIA · link in bio |
+| Bewit · Cacao | vișiniu + alb | My evening cacao ritual | — | Affiliate: I earn a small commission · Code KRISTINE15 · link in bio |
+| Revu Natural | vișiniu + alb | 60-second shoulder reset | — | Affiliate: I earn a small commission · Code KRISTINE20 · link in bio |
 
 **Rezerva (după 18 nov):** K6 „No scale needed: your hand is the measure.” · O1 „Your desk in 10 seconds: 3 checks.” · K2 „Dessert for breakfast: 5 minutes the night before.” · K7 „3 swaps that keep you full.” · O3 „Mouse hand tired? Check this first.” · K3 „A hot meal in 10 minutes, between two matches.” · K8 „My stream-day desk snacks (3 things).” · O7 „Why your neck feels stiff after 4 hours of gaming.” · K9 „12 things I always keep in my kitchen.” Culori: cele de gătit crem cu vișiniu, cele de birou albastru.
 
