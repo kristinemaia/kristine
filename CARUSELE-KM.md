@@ -76,7 +76,7 @@ KM Wellness Concept · masaj de recuperare
 
 Mici schimbări, zi de zi. Un masaj nu înlocuiește mișcarea de zi cu zi.
 
-💬 Care obiceiu îl uiți cel mai des? Scrie-mi în comentarii.
+💬 Care obicei îl uiți cel mai des? Scrie-mi în comentarii.
 🔖 Salvează postarea pentru zilele lungi la birou și trimite-o unui coleg care stă toată ziua pe scaun.
 
 Programări la domiciliu, în săptămânile anunțate. Link în bio.
