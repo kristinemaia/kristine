@@ -190,8 +190,8 @@ GROUPS = [
         "id": "site", "name": "Site web", "folder": "Site", "note": "kristinemaia.com, înainte să fie online",
         "zip": ("Site-Kristine.zip", "site"),
         "items": [
-            {"kind": "site", "title": "Site-ul (previzualizare)", "href": "site/index.html",
-             "desc": "Cele 7 pagini: home, free, shop, live, about, brands, legal."},
+            {"kind": "site", "title": "Site-ul (previzualizare)", "href": "https://claude.ai/artifact/TJYhwtHpb872MaRQSczrwg",
+             "desc": "Cele 7 pagini într-un singur fișier: home, free, shop, live, about, brands, legal. Meniul merge în pagină."},
             {"kind": "doc", "slug": "site-readme", "title": "Cum pui site-ul online", "src": "website/README.md",
              "desc": "Paginile, ce trebuie completat (TODO) și cum îl publici gratuit."},
         ],
@@ -843,7 +843,7 @@ def item_html(it, gname):
     elif kind == "site":
         href = it["href"]
         acts = ['<a class="b b-main" href="%s" target="_blank" rel="noopener">Deschide</a>' % href]
-        meta = ["8 pagini"]
+        meta = ["7 pagini"]
     else:  # link
         href = it["url"]
         acts = ['<a class="b b-main" href="%s" target="_blank" rel="noopener">Deschide</a>' % href]
