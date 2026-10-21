@@ -86,7 +86,7 @@ Planul de bază acoperă reel-urile până pe **18 nov**. Rezerva acoperă **20 
 
 **Când:** după K4, sâmbătă, cât ai energie, **și duminică 25 oct dimineața** (09:00–13:00). Duminica e în mod normal liberă, deci blocul ăsta e opțional. Filmezi în ordinea priorității și te oprești când obosești: ce n-ai filmat, ieșirea din plan se mută la sfârșit.
 
-### Bucătărie (7 reel-uri, ~2 ore 30; bluza neagră cu fermoar, camera de sus)
+### Bucătărie (6 de filmat, ~2 ore; bluza neagră cu fermoar, camera de sus; K10 e deja filmat)
 | Prioritate | Reel | Iese |
 |---|---|---|
 | A | K6 · Portions without a scale | vin 20 nov |
@@ -95,7 +95,7 @@ Planul de bază acoperă reel-urile până pe **18 nov**. Rezerva acoperă **20 
 | B | K3 · A hot meal in 10 minutes | joi 3 dec |
 | B | K8 · Stream-day desk snacks | vin 4 dec |
 | B | K9 · 12 things I always keep in my kitchen | joi 10 dec |
-| B | **K10 · 5-minute tuna & red bean salad** (nou) | vin 11 dec |
+| B | **K10 · 5-minute tuna & red bean salad**: **deja filmat** (bolul cu ton, 17–18 oct), doar de montat cu overlay-urile „Ton” | vin 11 dec |
 
 ### Birou și mobilitate (6 reel-uri, ~1 oră 30; setul verde, la peretele alb, cu scaunul fără rotile)
 | Prioritate | Reel | Iese |
@@ -108,7 +108,7 @@ Planul de bază acoperă reel-urile până pe **18 nov**. Rezerva acoperă **20 
 | B | **M7 · Upper back over your chair** (nou) | vin 18 dec |
 
 ### Cadrele celor 4 reel-uri noi
-- **K10 (30 s):** de sus, ingredientele în rând (ton, fasole roșie, roșii, spanac, lămâie) → le amesteci în bol → farfuria gata, o furculiță. Pe ecran: `Lunch in 5 minutes`. Rețeta de pe pagina 25 din e-book.
+- **K10:** deja filmat (bolul cu ton). Overlay-urile: hook `No-cook tuna and bean salad in 5 minutes.`, copertă `Tuna & bean salad`, final `Recipe in the caption`, etichetă `5 minutes`. Rețeta de pe pagina 25 din e-book.
 - **M5 (20 s):** de la piept în sus, pe scaun. Privești în depărtare 20 de secunde (poți arăta un cronometru pe ecran), clipești lent, apoi rotești umerii înapoi de 3 ori. Pe ecran: `Every 20 min: look 20 ft away for 20 s`.
 - **M6 (40 s):** pe scaun, din lateral, de la cap la picioare. (1) Hamstrings: un picior întins, călcâiul pe podea, te apleci ușor din șold, `20 s each side`; (2) gambă: vârful piciorului spre tine, `15 s each side`; (3) cercuri cu glezna, `10 each way`. Pe ecran: `Legs stiff after a long sit? 3 moves.` Final: `Gentle pull only. Stop if it's sharp.`
 - **M7 (35 s):** pe scaun cu spătar solid, din lateral. (1) Mâinile la ceafă, coatele în față, te lași ușor pe spătar, `5 slow reps`; (2) pisică-vacă pe scaun, `8 slow reps`. Pe ecran: `Upper back tight from hunching? 2 moves.` Final: `Go slowly. Stop if it's sharp or you feel dizzy.`
