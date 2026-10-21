@@ -418,12 +418,12 @@ shop = """
   <div class="duo">
     <article class="panel p-pink" id="kitchen">
       <img class="book" src="assets/ebook-cover.jpg" alt="Cover of the e-book Stream Day Kitchen by Kristine Maia" width="200" height="320" loading="lazy">
-      <span class="tag">Updated edition</span>
+      <span class="tag">Waitlist · updated edition</span>
       <h3>Stream Day Kitchen</h3>
       <p class="p">€12<small>e-book</small></p>
       <p class="muted">Healthy, filling meals and hand-portion basics for people who sit all day.</p>
       <ul><li>Quick recipes for long days: protein pancakes, a no-cook tuna and white bean bowl, salmon with garlic broccoli and more</li><li>The hand-portion method: eat well without a scale</li><li>A shopping list of what I always keep in my kitchen</li></ul>
-      <a class="btn alt" href="{AMAZON}">Get the e-book</a>
+      <a class="btn alt" href="#free">Join the waitlist</a>
     </article>
     <article class="panel p-blue" id="program">
       <span class="tag">Waitlist</span>
