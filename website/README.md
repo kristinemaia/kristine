@@ -19,10 +19,10 @@ Site static (HTML + CSS + puțin JavaScript), fără abonamente lunare și făr�
 ## Paginile
 | Fișier | Ce e |
 |---|---|
-| `index.html` | Prima pagină: contorul „How many hours did you sit today?” (sliderul, omulețul care se cocoșează, pauza de 60 s), banda roz cu PDF-ul gratuit („5:00”), evaluarea video și ce urmează (e-book, programul de 30 de zile), despre tine + programul de pe Twitch |
+| `index.html` | Prima pagină: contorul „How many hours did you sit today?” (sliderul, omulețul care se cocoșează, pauza de 60 s), banda roz cu PDF-ul gratuit („5:00”), apoi programul de 30 de zile și e-book-ul (ambele pe waitlist) (e-book, programul de 30 de zile), despre tine + programul de pe Twitch |
 | `free.html` | 3 rutine gratuite (gât, încheieturi, șolduri) + formularul pentru PDF |
-| `shop.html` | Evaluarea video (€55), sesiunea pentru abonați, clasele mici (€12), e-book-ul (€12), programul de 30 de zile (waitlist), codurile de reducere, întrebări |
-| `live.html` | Programul de pe Twitch, avantajul pentru abonați, regulile de chat |
+| `shop.html` | E-book-ul (€12) și programul de 30 de zile (€39), ambele pe waitlist; codurile de reducere; întrebări |
+| `live.html` | Programul de pe Twitch, un panou „Support the stream”, regulile de chat |
 | `about.html` | Povestea ta și ce ești |
 | `brands.html` | Pagina pentru branduri (cifre, formate, contact) |
 | `legal.html` | Disclaimer, confidențialitate, cumpărături (de verificat cu avocatul) |
@@ -35,7 +35,7 @@ Fișierele comune:
 ## Ce trebuie completat (caută „TODO” în fișiere)
 1. **Pozele:** sunt puse (`assets/kristine.jpg`, `kristine-about.jpg`). Le înlocuiești cu altele cu același nume, dacă vrei.
 2. **Formularul de email (opțional, acum PDF-ul se ia din Payhip):** fă cont gratuit pe **MailerLite** (sau Kit), creează un formular cu PDF-ul „5-minute desk stretch” ca automatizare de bun venit, copiază codul de embed și pune-l în locul formularului marcat cu TODO (apare pe index, free, shop și about). Până atunci, formularul afișează doar un mesaj de mulțumire.
-3. **Evaluarea video:** fă un link de programare cu plată (Calendly + Stripe, sau Payhip ca „serviciu”) și pune-l în `build_site.py` la `"BOOK"`.
+3. **(Scos din site pe 21 oct)** Evaluarea video, clasa în grup mic și sesiunea lunară pentru abonați nu mai apar. Le reiei doar după ce discuți cu avocatul și ai clienți din programul de 30 de zile.
 4. **Codurile de reducere:** linkurile de afiliere pentru Dope Rope, Revu Natural și Bewit, în `build_site.py` (secțiunea SHOP, `#TODO-link-...`).
 5. **E-book-ul și programul:** acum butoanele „Tell me when it's out” / „Join the waitlist” duc la formularul de email. Când sunt gata pe Payhip, pui linkul Payhip în locul lui `#free`.
 6. **Pagina legală:** datele firmei și politica de retur, verificate de avocat.

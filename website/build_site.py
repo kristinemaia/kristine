@@ -182,7 +182,7 @@ def free_band(title="Start with five minutes.", extra="", chat="Five minutes, on
                 .replace("{extra}", (" " + extra) if extra else ""))
 
 
-LIST_PERKS = "Download it and you'll also hear first about the updated e-book, the 30-day program at the early price and small-group class dates."
+LIST_PERKS = "Download it and you'll also hear first about the updated e-book, the 30-day program at the early price."
 
 # Programul de pe Twitch. data-day: 1 = luni, 3 = miercuri, 5 = vineri (pentru „Today / Next up”).
 # Duminica nu are data-day, pentru că e doar în unele săptămâni.
@@ -251,7 +251,7 @@ home = """
       <p class="chat m-done" id="done-chat" tabindex="-1"><span class="who">kristinemaia</span><span class="say" id="done-line">Notice anything? That's 1 of 480 minutes back.</span></p>
       <p class="m-done">Tomorrow, try the 5-minute version. It's free.</p>
       <a class="btn m-done" href="#free" id="to-free">Get the free desk stretch</a>
-      <p class="next m-done"><a href="#assessment">Want moves picked for how you sit? Assessment, €55</a></p>
+      <p class="next m-done"><a href="shop.html#program">Coming soon: a 30-day plan. Join the waitlist</a></p>
       <p class="spots m-done"><span>Which spot complained most?</span><a href="free.html#neck">Neck</a><a href="free.html#wrists">Wrists</a><a href="free.html#hips">Hips</a></p>
       <p class="m-done"><button class="link-btn" id="again" type="button">Do it again</button></p>
 
@@ -266,24 +266,24 @@ home = """
   </div>
 </section>
 """ + free_band("Now make it <em>five</em> minutes.", LIST_PERKS, chat="Want the longer one on paper?") + """
-<!-- 3. Când un minut nu e destul: evaluarea + ce urmează -->
+<!-- 3. Când un minut nu e destul: ce urmează (waitlist) -->
 <section class="more" aria-labelledby="more-title">
   <div class="wrap">
     <div class="block-head">
       <p class="kicker">When a minute isn't enough</p>
-      <h2 id="more-title">Want a plan made for how you sit?</h2>
+      <h2 id="more-title">Want to go further?</h2>
     </div>
     <div class="more-grid">
-      <article class="offer" id="assessment">
-        <h3>Video mobility assessment</h3>
-        <p class="price">€55<small>30-minute video call</small></p>
-        <p>We look at how you sit, move and train. You get a written plan with 3–5 moves.</p>
-        <p class="fine">Education and load management. Not a diagnosis or treatment.</p>
-        <a class="btn" href="{BOOK}">Book the assessment</a>
+      <article class="offer" id="program-home">
+        <h3>Desk &amp; Gamer Mobility: 30 days</h3>
+        <p class="price">€39<small>€29 for the email list</small></p>
+        <p>10 minutes a day, follow-along videos for neck, upper back, wrists, hips and lower back.</p>
+        <p class="fine">General exercise and education. Not medical advice.</p>
+        <a class="btn" href="#free">Join the waitlist</a>
       </article>
       <div class="soon">
         <p class="kicker">Coming soon</p>
-        <p>The Stream Day Kitchen e-book (new edition) and the 30-day Desk &amp; Gamer Mobility program. People on the email list hear first and get the early price.</p>
+        <p>The Stream Day Kitchen e-book (new edition): healthy, filling meals and hand-portion basics for people who sit all day. People on the email list hear first and get the early price.</p>
         <p class="all"><a href="#free">Join the list</a> · <a href="shop.html">See the shop</a></p>
       </div>
     </div>
@@ -311,7 +311,6 @@ home = """
       <p class="kicker">Live on Twitch</p>
       <h3>What's on stream.</h3>
 """ + WEEK_HOME + """
-      <p class="perk">Subs get a monthly live 30-minute mobility session, with recordings in Discord.</p>
       <p class="small muted">Streams are announced on my <a href="{TWITCH}/schedule">Twitch schedule</a>.</p>
       <a class="btn" href="{TWITCH}">Follow on Twitch</a>
     </div>
@@ -386,33 +385,6 @@ shop = """
   <p class="lead">Everything here is built for people who sit for long hours. Start small. You can always go further.</p>
 </section>
 
-<section class="wrap pb-s" aria-labelledby="work-title">
-  <h2 class="sr" id="work-title">Work with me</h2>
-  <div class="more-grid">
-    <article class="offer" id="assessment">
-      <p class="kicker">1:1 on video · book now</p>
-      <h2>Video mobility assessment</h2>
-      <p class="price">€55<small>30-minute video call</small></p>
-      <ul><li>We look at how you sit, move and train</li><li>A written plan with 3–5 moves made for you</li></ul>
-      <p class="fine">Education and load management. Not a diagnosis or treatment.</p>
-      <a class="btn" href="{BOOK}">Book &amp; pay</a>
-    </article>
-    <div class="soon">
-      <p class="kicker">Live, with me</p>
-      <div class="item" id="twitch-sub">
-        <div class="item-top"><h3>Subscriber mobility session</h3><i></i><span class="p">Twitch sub</span></div>
-        <p>A monthly live 30-minute mobility session for subs, with recordings in Discord. Every sub supports the channel directly.</p>
-        <a href="{TWITCH}">Subscribe on Twitch</a>
-      </div>
-      <div class="item" id="classes">
-        <div class="item-top"><h3>Small-group live class</h3><i></i><span class="p">€12</span></div>
-        <p>45 minutes, 6–8 people. I see you and correct you live. Next dates soon, and they go to the email list first.</p>
-        <a href="#free">Get the dates</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="wrap block" aria-labelledby="soon-title">
   <div class="block-head"><p class="kicker">Coming soon · join the waitlist</p><h2 id="soon-title">Good food and a 30-day plan</h2></div>
   <div class="duo">
@@ -458,7 +430,7 @@ shop = """
 page(
     "shop.html",
     "Shop · Kristine Maia",
-    "Video mobility assessment, Twitch sub sessions, small-group classes, the Stream Day Kitchen e-book, the 30-day Desk & Gamer Mobility program and discount codes.",
+    "The Stream Day Kitchen e-book and the 30-day Desk & Gamer Mobility program (both on the waitlist), plus discount codes for gear I use.",
     shop,
 )
 
@@ -486,9 +458,9 @@ live = """
 <section class="wrap block pt-s">
   <div class="duo">
     <div class="panel p-lilac">
-      <p class="kicker">For subscribers</p>
-      <h2>A monthly live mobility session</h2>
-      <p>Once a month, subs get a 30-minute guided session just for them, with the recording in Discord afterwards. It's the best way to support the channel and get something useful back.</p>
+      <p class="kicker">Support the stream</p>
+      <h2>Subscribing keeps it going</h2>
+      <p>Every sub supports the channel directly and helps me make more mobility and cooking streams. Thank you.</p>
       <a class="btn" href="{TWITCH}">Subscribe on Twitch</a>
     </div>
     <div class="panel plain">
@@ -507,7 +479,7 @@ live = """
 page(
     "live.html",
     "Live on Twitch · Kristine Maia",
-    "Live on Twitch: workouts, mobility, yoga, cooking, gaming and just chatting, with a 2-minute stretch break every hour when I game. Subscriber sessions.",
+    "Live on Twitch: workouts, mobility, yoga, cooking, gaming and just chatting, with a 2-minute stretch break every hour when I game.",
     live,
 )
 
@@ -604,7 +576,7 @@ legal = """
     <h2>Privacy</h2>
     <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>
-    <p class="muted">Digital products are delivered by email right after payment. [TODO: politica de retur, verificată de avocat: de exemplu, dreptul de retragere pentru conținut digital și momentul în care se pierde]. Online assessments can be rescheduled up to 24 hours before the call.</p>
+    <p class="muted">Digital products are delivered by email right after payment. [TODO: politica de retur, verificată de avocat: de exemplu, dreptul de retragere pentru conținut digital și momentul în care se pierde].</p>
     <h2>Affiliate links</h2>
     <p class="muted">Some links on this site are affiliate links. If you buy through them I may earn a small commission at no extra cost to you. Sponsored content is always labelled.</p>
   </div>
