@@ -67,14 +67,24 @@ KM Wellness Concept · masaj de recuperare
 ### C4 · 5 obiceiuri pentru birou
 ```
 5 obiceiuri simple pentru cine stă la birou 🖥️
-O pauză pe oră, umerii jos, ecranul la nivelul ochilor, tălpile pe podea, apă și o plimbare după masă. Mici schimbări, zi de zi.
 
-Trimite-i unui coleg care stă toată ziua pe scaun.
+1️⃣ O pauză de 2 minute pe oră
+2️⃣ Umerii jos și 8 rotiri lente înapoi
+3️⃣ Ecranul la nivelul ochilor
+4️⃣ Un pahar cu apă lângă tine, tot timpul
+5️⃣ 5–10 minute de mers după masa de prânz
 
-Informații generale, nu sfat medical.
+Mici schimbări, zi de zi. Un masaj nu înlocuiește mișcarea de zi cu zi.
+
+💬 Care obiceiu îl uiți cel mai des? Scrie-mi în comentarii.
+🔖 Salvează postarea pentru zilele lungi la birou și trimite-o unui coleg care stă toată ziua pe scaun.
+
+Programări la domiciliu, în săptămânile anunțate. Link în bio.
+
+Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
 
-#birou #pauzadebirou #mobilitate #sanatate #kmwellnessconcept #wellness #stailabirou
+#birou #pauzadebirou #stailabirou #mobilitate #sanatate #wellness #masajderecuperare #kmwellnessconcept #obiceiurisanatoase
 ```
 
 ## Mai târziu (după 16 nov), ideile următoare
