@@ -72,7 +72,7 @@ Cadre: somonul la gătit → broccoli → farfuria gata. Camera de sus.
 Dope Rope, Bewit și Revu Natural sunt doar **afiliere cu cod de reducere**, fără plată: fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”. `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit. Descrierile sunt în „Toate descrierile”.
 
 ## Poze de făcut (aceeași ținută, aceeași lumină, 3–4 variante)
-- `POZA_c2_portret`: la perete, zâmbind, de la piept în sus.
+- `POZA_c2_portret`: la perete, zâmbind, de la piept în sus. **E și poza nouă** pentru ecranul offline de pe Twitch, panoul About și media kit: privire spre cameră, ochelarii pe nas, ținută acoperitoare (setul verde sau bluza neagră cu fermoar), lumină moale din față, perete simplu. Fă 6–8 variante.
 - `POZA_c2_umeri`: blade squeeze zâmbind, din față, de la cap la talie.
 - `POZA_c2_cacao`: cana de cacao în mână, cadru de la piept în jos.
 - `POZA_reteta_somon_1…3`: farfuria la 45°, cu furculița; de sus; ingredientele.
