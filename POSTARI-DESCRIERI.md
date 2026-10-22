@@ -463,17 +463,17 @@ KM Wellness Concept · masaj de recuperare
 #masajderecuperare #birou #kmwellnessconcept #wellness #gatsiumeri #relaxare
 ```
 
-### C3 · Dum 8 nov · O ședință la domiciliu, pas cu pas
+### C3 · Dum 8 nov · O ședință de masaj de recuperare, pas cu pas
 ```
-Cum arată o ședință la domiciliu, pas cu pas 🌿
-1) Programarea, 2) Întrebările de la început, 3) Ședința, cu presiunea aleasă de tine.
+Cum arată o ședință de masaj de recuperare, pas cu pas 🌿
+1) Întrebările de la început, 2) Ședința, cu presiunea aleasă de tine, 3) Finalul: mișcare ușoară și un pahar cu apă.
 
-Vin la tine cu masa pliantă, prosoape și uleiuri. Tu ai nevoie doar de un loc liniștit.
+Poți spune „stop” oricând.
 
 Informații generale, nu sfat medical.
 KM Wellness Concept · masaj de recuperare
 
-#masajladomiciliu #masajderecuperare #kmwellnessconcept #wellness #recuperare
+#masajderecuperare #kmwellnessconcept #wellness #recuperare #masaj
 ```
 
 ### C4 · Dum 15 nov · 5 obiceiuri simple pentru cine stă la birou
@@ -497,17 +497,17 @@ KM Wellness Concept · masaj de recuperare
 #birou #pauzadebirou #stailabirou #mobilitate #sanatate #wellness #masajderecuperare #kmwellnessconcept #obiceiurisanatoase
 ```
 
-### C5 · Dum 22 nov · Cum te pregătești pentru o ședință la domiciliu
+### C5 · Dum 22 nov · Cum te pregătești pentru o ședință de masaj
 ```
-Cum te pregătești pentru o ședință la domiciliu 🌿
-Mănâncă ușor cu 1–2 ore înainte, bea apă, poartă haine comode și alege un loc liniștit, de ~2 × 2 m. Vin eu cu masa pliantă, prosoape și uleiuri.
+Cum te pregătești pentru o ședință de masaj de recuperare 🌿
+Mănâncă ușor cu 1–2 ore înainte, bea apă, poartă haine comode și spune-mi dacă ai afecțiuni sau tratamente în curs.
 
 Presiunea o alegi tu. Poți spune „stop” oricând.
 
 Informații generale, nu sfat medical. Dacă ai o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
 
-#masajderecuperare #masajladomiciliu #kmwellnessconcept #wellness #recuperare #relaxare
+#masajderecuperare #kmwellnessconcept #wellness #recuperare #relaxare #masaj
 ```
 
 ### C6 · Dum 29 nov · Prima ședință: ce te întreb și de ce
@@ -657,7 +657,7 @@ Masaj de recuperare: ce este, de fapt? #masajderecuperare #kmwellnessconcept #re
 Unde se adună încordarea după o zi la birou 💺 #birou #masajderecuperare #kmwellnessconcept
 ```
 ```
-Cum arată o ședință la domiciliu, pas cu pas 🌿 #masajladomiciliu #masajderecuperare #kmwellnessconcept
+Cum arată o ședință de masaj de recuperare, pas cu pas 🌿 #masajderecuperare #kmwellnessconcept
 ```
 ```
 5 obiceiuri simple pentru cine stă la birou 🖥️ #birou #mobilitate #kmwellnessconcept

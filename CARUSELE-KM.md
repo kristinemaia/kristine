@@ -10,7 +10,7 @@ Patru carusele de câte 5 slide-uri, 1080 × 1350, în stilul calm alb-verde al 
 |---|---|---|---|
 | C1 | Masaj de recuperare: ce este, de fapt? | Duminică 25 oct | 19:00 |
 | C2 | Unde se adună încordarea după o zi la birou | Duminică 1 nov | 19:00 |
-| C3 | O ședință la domiciliu, pas cu pas | Duminică 8 nov | 19:00 |
+| C3 | O ședință de masaj de recuperare, pas cu pas | Duminică 8 nov | 19:00 |
 | C4 | 5 obiceiuri simple pentru cine stă la birou | Duminică 15 nov | 19:00 |
 
 **Reel-urile KM sunt pe pauză din 18 octombrie** (nu filmezi pentru terapie deocamdată). Contul are doar caruselele, duminica, o postare pe săptămână, fără să faci nimic în Turcia. Programezi pe 27 oct, din România, împreună cu restul.
@@ -45,17 +45,17 @@ KM Wellness Concept · masaj de recuperare
 #masajderecuperare #birou #kmwellnessconcept #wellness #gatsiumeri #relaxare
 ```
 
-### C3 · O ședință, pas cu pas
+### C3 · O ședință de masaj de recuperare, pas cu pas
 ```
-Cum arată o ședință la domiciliu, pas cu pas 🌿
-1) Programarea, 2) Întrebările de la început, 3) Ședința, cu presiunea aleasă de tine.
+Cum arată o ședință de masaj de recuperare, pas cu pas 🌿
+1) Întrebările de la început, 2) Ședința, cu presiunea aleasă de tine, 3) Finalul: mișcare ușoară și un pahar cu apă.
 
-Vin la tine cu masa pliantă, prosoape și uleiuri. Tu ai nevoie doar de un loc liniștit.
+Poți spune „stop” oricând.
 
 Informații generale, nu sfat medical.
 KM Wellness Concept · masaj de recuperare
 
-#masajladomiciliu #masajderecuperare #kmwellnessconcept #wellness #recuperare
+#masajderecuperare #kmwellnessconcept #wellness #recuperare #masaj
 ```
 
 ### C4 · 5 obiceiuri pentru birou
@@ -90,17 +90,17 @@ KM Wellness Concept · masaj de recuperare
 ## Setul 2: C5–C8 (adăugat 18 octombrie)
 Fără mențiunea despre facultate; linia de sub apel e doar „Masaj de recuperare”. Le programezi pentru duminicile următoare, la 19:00: **22 noiembrie (C5), 29 noiembrie (C6), 6 decembrie (C7), 13 decembrie (C8).** Le poți programa dinainte, din Turcia.
 
-### C5 · Cum te pregătești pentru o ședință la domiciliu
+### C5 · Cum te pregătești pentru o ședință de masaj
 ```
-Cum te pregătești pentru o ședință la domiciliu 🌿
-Mănâncă ușor cu 1–2 ore înainte, bea apă, poartă haine comode și alege un loc liniștit, de ~2 × 2 m. Vin eu cu masa pliantă, prosoape și uleiuri.
+Cum te pregătești pentru o ședință de masaj de recuperare 🌿
+Mănâncă ușor cu 1–2 ore înainte, bea apă, poartă haine comode și spune-mi dacă ai afecțiuni sau tratamente în curs.
 
 Presiunea o alegi tu. Poți spune „stop” oricând.
 
 Informații generale, nu sfat medical. Dacă ai o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
 
-#masajderecuperare #masajladomiciliu #kmwellnessconcept #wellness #recuperare #relaxare
+#masajderecuperare #kmwellnessconcept #wellness #recuperare #relaxare #masaj
 ```
 
 ### C6 · Prima ședință: ce te întreb și de ce

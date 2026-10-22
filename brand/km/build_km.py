@@ -18,20 +18,20 @@ SETS = [
    ('Partea de sus a spatelui', ['Stai aplecat(ă) spre ecran.', 'Între omoplați se adună încordarea.', 'Un masaj de recuperare poate fi un moment de relaxare pentru zona asta.']),
    ('Cum lucrăm', ['Alegem împreună zonele care te deranjează.', 'Presiune medie, pe care o reglezi tu.', 'Nu înlocuiește un consult medical.']),
  ]),
- ('C3', 'sedinta-pas-cu-pas', 'O ședință la domiciliu, pas cu pas', [
-   ('1 · Programarea', ['Alegi o zi, stabilim ora.', 'Ajung la tine cu masa pliantă, prosoape și uleiuri.', 'Ai nevoie doar de un loc liniștit, de ~2 × 2 m.']),
-   ('2 · Întrebările', ['La început te întreb cum dormi, ce zone te deranjează și de când.', 'Te întreb de afecțiuni, operații sau tratamente.', 'Dacă un răspuns ține de medic, te trimit întâi la medic.']),
-   ('3 · Ședința', ['Lucrăm doar pe zonele alese.', 'Presiunea o alegi tu.', 'Poți spune „stop” oricând.', 'La final, câteva minute de mișcare ușoară și un pahar cu apă.']),
+ ('C3', 'sedinta-pas-cu-pas', 'O ședință de masaj de recuperare, pas cu pas', [
+   ('1 · Întrebările de la început', ['Te întreb cum dormi, ce zone te deranjează și de când.', 'Te întreb de afecțiuni, operații sau tratamente.', 'Dacă un răspuns ține de medic, te trimit întâi la medic.']),
+   ('2 · Ședința', ['Lucrăm doar pe zonele alese.', 'Presiunea o alegi tu.', 'Poți spune „stop” oricând.']),
+   ('3 · Finalul', ['Câteva minute de mișcare ușoară.', 'Un pahar cu apă.', 'Te întreb cum te-ai simțit și ce ți s-a potrivit.']),
  ]),
  ('C4', 'obiceiuri-birou', '5 obiceiuri simple pentru cine stă la birou', [
    ('1 · O pauză pe oră', ['Ridică-te 2 minute și plimbă-te prin cameră.', 'Setează o alarmă; fără ea, uiți.', '2 · Umerii jos, apoi 8 rotiri lente înapoi.']),
    ('3 · Ecranul la nivelul ochilor', ['Marginea de sus a ecranului, aproape de ochi.', 'Tălpile pe podea, spatele sprijinit.', 'Coatele aproape de corp.']),
    ('4 și 5 · Apă și mers', ['Un pahar cu apă lângă tine, tot timpul.', '5–10 minute de mers după masa de prânz.', 'Un masaj nu înlocuiește mișcarea de zi cu zi.']),
  ]),
-('C5', 'cum-te-pregatesti', 'Cum te pregătești pentru o ședință la domiciliu', [
+('C5', 'cum-te-pregatesti', 'Cum te pregătești pentru o ședință de masaj', [
    ('Înainte de ședință', ['Mănâncă ușor cu 1–2 ore înainte.', 'Bea apă în ziua aceea.', 'Poartă haine comode.', 'Spune-mi dacă ai afecțiuni, operații sau tratamente în curs.']),
-   ('Locul', ['Un spațiu liniștit, de ~2 × 2 m.', 'O temperatură plăcută în cameră.', 'Telefonul pe silențios, ca să te poți relaxa.', 'Vin eu cu masa pliantă, prosoape și uleiuri.']),
-   ('În timpul ședinței', ['Presiunea o alegi tu: „mai ușor” sau „mai apăsat”.', 'Respiră lent; nu trebuie să faci nimic altceva.', 'Poți spune „stop” oricând.']),
+   ('Ce e bine să știi', ['Presiunea o alegi tu: „mai ușor” sau „mai apăsat”.', 'Respiră lent; nu trebuie să faci nimic altceva.', 'Telefonul pe silențios, ca să te poți relaxa.']),
+   ('În timpul ședinței', ['Poți spune „stop” oricând.', 'Spune-mi dacă ceva nu e confortabil.', 'La final, un pahar cu apă și o plimbare ușoară.']),
  ]),
  ('C6', 'prima-sedinta-intrebari', 'Prima ședință: ce te întreb și de ce', [
    ('Despre tine', ['Cum dormi și cât stai pe scaun.', 'Ce zone te deranjează și de când.', 'Ce presiune îți place.']),
