@@ -6,7 +6,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, 'out'); os.makedirs(OUT, exist_ok=True)
 CRED = 'Masaj de recuperare'
 DISC = 'Informații generale, nu sfat medical.'
-CTA = ['Programări la domiciliu, în săptămânile anunțate', 'Link în bio']
+CTA = ['Salvează postarea pentru zilele lungi', 'Trimite-o unui coleg']
 SETS = [
  ('C1', 'masaj-de-recuperare', 'Masaj de recuperare: ce este, de fapt?', [
    ('Un masaj cu presiune medie, adaptat ție', ['Lucrăm pe zonele care se simt încordate după zile lungi: gât, umeri, spate, picioare.', 'Presiunea o alegi tu. Spui „mai ușor” sau „mai apăsat” oricând.', 'Nu e un masaj de relaxare „de spa” și nu înlocuiește un consult medical.']),

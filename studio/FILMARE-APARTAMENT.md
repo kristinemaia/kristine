@@ -225,7 +225,6 @@ E reel-ul care vinde PDF-ul: arăți pe scurt cele 4 zone din el.
 
 Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
-Programări la domiciliu, în săptămânile anunțate: link în bio
 ```
 
 **Hashtag-uri KM:** `#masajderecuperare #masaj #recuperare #kmwellnessconcept`

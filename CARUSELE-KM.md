@@ -15,7 +15,7 @@ Patru carusele de câte 5 slide-uri, 1080 × 1350, în stilul calm alb-verde al 
 
 **Reel-urile KM sunt pe pauză din 18 octombrie** (nu filmezi pentru terapie deocamdată). Contul are doar caruselele, duminica, o postare pe săptămână, fără să faci nimic în Turcia. Programezi pe 27 oct, din România, împreună cu restul.
 
-**Important:** pe perioada plecării, în profil ai răspunsul automat „Revin cu programările din 16 noiembrie”. Caruselele nu cer programări noi: trimit spre „link în bio”, unde apar programările din săptămânile anunțate.
+**Important:** pe perioada plecării, în profil ai răspunsul automat „Revin cu programările din 16 noiembrie”. Caruselele nu cer programări și nu trimit spre un link: ultimul slide cere doar să salvezi și să trimiți postarea mai departe.
 
 ## Descrieri și hashtag-uri (copiezi)
 
@@ -25,8 +25,6 @@ Masaj de recuperare: ce este, de fapt? 👇
 Un masaj cu presiune medie, adaptat ție, pentru zonele care se simt încordate după zile lungi. Presiunea o alegi tu.
 
 Pentru cine e, și când mergi întâi la medic: pe slide-uri.
-
-Programări la domiciliu, în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
@@ -41,8 +39,6 @@ Gâtul, umerii și partea de sus a spatelui: de obicei acolo. Pauzele scurte și
 
 Salvează postarea pentru zilele lungi.
 
-Programări la domiciliu, în săptămânile anunțate. Link în bio.
-
 Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
 
@@ -55,8 +51,6 @@ Cum arată o ședință la domiciliu, pas cu pas 🌿
 1) Programarea, 2) Întrebările de la început, 3) Ședința, cu presiunea aleasă de tine.
 
 Vin la tine cu masa pliantă, prosoape și uleiuri. Tu ai nevoie doar de un loc liniștit.
-
-Programări în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical.
 KM Wellness Concept · masaj de recuperare
@@ -78,8 +72,6 @@ Mici schimbări, zi de zi. Un masaj nu înlocuiește mișcarea de zi cu zi.
 
 💬 Care obicei îl uiți cel mai des? Scrie-mi în comentarii.
 🔖 Salvează postarea pentru zilele lungi la birou și trimite-o unui coleg care stă toată ziua pe scaun.
-
-Programări la domiciliu, în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical. Dacă ai dureri sau o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
@@ -105,8 +97,6 @@ Mănâncă ușor cu 1–2 ore înainte, bea apă, poartă haine comode și alege
 
 Presiunea o alegi tu. Poți spune „stop” oricând.
 
-Programări la domiciliu, în săptămânile anunțate. Link în bio.
-
 Informații generale, nu sfat medical. Dacă ai o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
 
@@ -119,8 +109,6 @@ Prima ședință: ce te întreb și de ce 🤍
 Cum dormi, cât stai pe scaun, ce zone te deranjează, dacă ai afecțiuni sau un tratament în curs, ce presiune îți place. Dacă un răspuns ține de medic, te trimit întâi la medic.
 
 Siguranța ta e pe primul loc. Poți spune „stop” oricând.
-
-Programări în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical.
 KM Wellness Concept · masaj de recuperare
@@ -135,8 +123,6 @@ Un pahar cu apă, mers ușor, o seară liniștită și un somn bun. Observă cum
 
 Dacă apar dureri neobișnuite sau orice te îngrijorează, vorbești cu medicul.
 
-Programări la domiciliu, în săptămânile anunțate. Link în bio.
-
 Informații generale, nu sfat medical.
 KM Wellness Concept · masaj de recuperare
 
@@ -147,8 +133,6 @@ KM Wellness Concept · masaj de recuperare
 ```
 4 mituri despre masaj ❌
 „Trebuie să doară ca să funcționeze”, „înlocuiește mișcarea”, „o ședință rezolvă tot”, „e doar pentru cine face sport”. Pe slide-uri: ce e adevărat.
-
-Programări în săptămânile anunțate. Link în bio.
 
 Informații generale, nu sfat medical. Dacă ai o afecțiune, vorbește întâi cu medicul.
 KM Wellness Concept · masaj de recuperare
