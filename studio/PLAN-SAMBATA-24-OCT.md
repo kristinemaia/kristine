@@ -55,10 +55,10 @@ Pe ecran: `Shoulders rounded from the desk? 3 moves.`
 3. **Thread the needle** pe saltea (din lateral), 10 s, `20 s each side`.
 Final: `Gentle pull only. Stop if it's sharp.`
 
-### Revu Natural · 25–30 s
-Pe ecran: `60-second shoulder reset`. Camera din față, de la piept în sus, la perete.
-Cadre: crema pe mână (3 s) → masaj blând pe umăr și lateral de gât (7 s) → pe trapez, mișcări lente (8 s) → rotire de umeri, 3 repetări (6 s) → `Code KRISTINE20 · link in bio` (5 s).
-Fără „pentru dureri” sau „pentru articulații”.
+### Revu Natural · 15 s, varianta simplă (24 oct): fără exerciții
+Pe ecran: `After a long stream: the cream I reach for.` Camera din față, de la piept în jos, la perete, tricoul antracit.
+Cadre: borcanul/tubul în mână, fără etichete personale (3 s) → crema pe dosul mâinii sau pe antebraț (4 s) → o masezi blând (5 s) → borcanul pe blat + `Code KRISTINE20 · link in bio` (3 s).
+Nu spui ce „tratează” sau „pentru dureri”. Spui doar ce faci: „After a long stream, this is what I reach for.”
 
 ### Bewit · 20–25 s
 Pe ecran: `My evening cacao ritual`. Camera de sus (90°), pe blat curat, lumină caldă din față-stânga.

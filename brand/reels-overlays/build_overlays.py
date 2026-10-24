@@ -47,7 +47,7 @@ R = [
  ('DopeRope', 'wine', '20-second rope warm-up. Just a rope.', 'Just a rope', 'Affiliate: I earn a small commission', 'Code KRISTINEMAIA → link in bio',
   [('20 seconds', 'cream')], False),
  ('Bewit', 'wine', 'My evening cacao ritual', 'Evening cacao ritual', 'Affiliate: I earn a small commission', 'Code KRISTINE15 → link in bio', [], False),
- ('Revu', 'wine', '60-second shoulder reset', 'Shoulder reset', 'Affiliate: I earn a small commission', 'Code KRISTINE20 → link in bio', [], False),
+ ('Revu', 'wine', 'After a long stream: the cream I reach for.', 'The cream I use', 'Affiliate: I earn a small commission', 'Code KRISTINE20 → link in bio', [], False),
  # rezerva (după 18 nov)
  ('Rez-K6', 'cream', 'No scale needed: your hand is the measure.', 'Your hand is the measure', 'General food ideas, not medical advice.', PDF, [], False),
  ('Rez-O1', 'shoulders', 'Your desk in 10 seconds: 3 checks.', 'Desk check: 10 seconds', 'A comfortable setup, not a perfect one.', PDF, [], False),

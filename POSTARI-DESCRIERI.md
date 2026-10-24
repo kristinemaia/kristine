@@ -258,14 +258,14 @@ General wellness, not medical advice.
 #cacao #eveningritual #streamerlife #selfcare #winddown
 ```
 
-### Revu Natural · Mie 18 nov, 17:00 · 60-second shoulder reset
+### Revu Natural · Mie 18 nov, 17:00 · The cream I reach for after a long stream
 ```
 Affiliate: I earn a small commission if you use my code KRISTINE20 (20% off). Link in bio.
 
-My 60-second shoulder reset after a long stream, with Revu Natural. 🤍
-General mobility and self-care, not medical advice. Stop if anything feels sharp.
+The cream I reach for after a long stream. 🤍
+Self-care, not medical advice.
 
-#shoulderreset #streamerlife #selfcare #mobility #gamerhealth
+#revunatural #afterstream #streamerlife #selfcare #winddown
 ```
 
 ---
