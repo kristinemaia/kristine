@@ -9,7 +9,7 @@ _Ultima zi de filmat înainte de plecarea în Turcia (zbor joi 29 oct). Ce filme
 | **Test living** pentru programul de 30 de zile | colțul cu perete alb din stânga | setul verde | 30 min | nu iese; alegi colțul |
 | **B3** · Upper back and shoulders | perete alb, în picioare + saltea | setul verde | 35 min | mar 10 nov, 17:00 |
 | **Poze** pentru C2 (portret zâmbind, blade squeeze) | același perete | setul verde | 15 min | C2, dum 8 nov |
-| **Revu Natural** · 60-second shoulder reset | perete alb | tricoul antracit (umerii liberi) | 20 min | mie 18 nov, 17:00 |
+| **Revu Natural** · the cream I reach for (varianta simplă, 15 s) | perete alb | tricoul antracit (umerii liberi) | 20 min | mie 18 nov, 17:00 |
 | **Bewit** · My evening cacao ritual | bucătărie, camera de sus | bluza neagră cu fermoar | 25 min | mie 11 nov, 17:00 |
 | **Poza cu cana de cacao** (pentru C2) | bucătărie | bluza neagră cu fermoar | 5 min | C2, dum 8 nov |
 | **K4** · Salmon, potatoes & salad | bucătărie, camera de sus | bluza neagră cu fermoar | 40 min | joi 12 nov, 17:00 |
