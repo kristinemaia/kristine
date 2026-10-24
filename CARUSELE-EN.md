@@ -34,8 +34,8 @@ Kristine Maia · degree in Physical Education and Sport · certified recovery ma
 **Hashtag-uri:** `#neckpain #gamerhealth #deskstretch #mobility #stretchbreak #streamerlife`
 
 ## C2 · 3 things I do after every stream
-1. Titlul, cu portretul tău.
-2. **1 · Shoulder blade squeeze** (poza de umeri).
+1. Titlul, cu portretul tău (poza cu ochelari, 24 oct).
+2. **1 · Overhead reach** (poza cu brațele deasupra capului; „Interlace your fingers, reach up and lean gently to each side. 15 seconds each side.”).
 3. **2 · Wrist stretch** (poza cu mâna ridicată, 15 secunde pe mână).
 4. **3 · A warm drink, screens off** (poza cu cana de cacao; până o ai, slide-ul are o ilustrație cu o cană).
 5. **Free 5-minute desk stretch, link in bio.**

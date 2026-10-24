@@ -57,11 +57,11 @@ def c1():
     return s
 def c2():
     s = []
-    s.append(frame(1, '<div class="card" style="left:90px;top:640px;width:620px;height:620px;border-radius:50%%;box-shadow:0 18px 50px rgba(43,36,49,.18)"><img src="%s"></div><div style="position:absolute;left:80px;right:80px;top:190px"><h1 style="font-size:112px">3 things I do after every stream</h1><p style="font-size:40px;color:var(--muted);margin-top:34px;font-weight:600">Swipe →</p></div>' % img('portrait.jpg'), 1))
-    sh, wr, cc = img('shoulders.jpg'), img('wrists.jpg'), img('cacao.jpg')
+    s.append(frame(1, '<div class="card" style="left:90px;top:640px;width:620px;height:620px;border-radius:50%%;box-shadow:0 18px 50px rgba(43,36,49,.18)"><img src="%s"></div><div style="position:absolute;left:80px;right:80px;top:190px"><h1 style="font-size:112px">3 things I do after every stream</h1><p style="font-size:40px;color:var(--muted);margin-top:34px;font-weight:600">Swipe →</p></div>' % (img('c2_portrait.jpg') or img('portrait.jpg')), 1))
+    sh, wr, cc = (img('c2_reach.jpg') or img('shoulders.jpg')), img('wrists.jpg'), img('cacao.jpg')
     def photo_slide(n, head, text, photo, k, a, b):
         return frame(n, '<div style="position:absolute;left:80px;right:80px;top:190px"><h2>%s</h2><p style="font-size:44px;line-height:1.3;font-weight:600;margin:0">%s</p></div><div class="card" style="left:190px;top:650px;width:700px;height:590px"><img src="%s"></div><div class="foot" style="bottom:30px">%s</div>' % (head, E(text), photo, DISC), k, a, b)
-    s.append(photo_slide(2, '1 · Shoulder blade squeeze', 'Pull your shoulder blades back and down. Hold 3 seconds, 8 reps.', sh, 2, 'var(--blue)', 'var(--lilac)'))
+    s.append(photo_slide(2, '1 · Overhead reach', 'Interlace your fingers, reach up and lean gently to each side. 15 seconds each side.', sh, 2, 'var(--blue)', 'var(--lilac)'))
     s.append(photo_slide(3, '2 · Wrist stretch', 'Arm straight, palm facing forward. Gently pull the fingers back toward you. 15 seconds each hand.', wr, 3, 'var(--mint)', 'var(--blue)'))
     if cc:
         s.append(photo_slide(4, '3 · A warm drink, screens off', 'Five quiet minutes. My evening cacao ritual (affiliate, code KRISTINE15).', cc, 4, 'var(--pink)', 'var(--lilac)'))
