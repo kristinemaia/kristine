@@ -10,7 +10,7 @@ _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țar�
 |---|---|---|---|
 | K1 | Protein pancakes in 15 minutes (30 s) | sâmbătă 17 oct, la țară | miercuri 28 oct |
 | (bol) | Tuna and red bean salad: 3 poze fixe la 45° pentru e-book, pagina 25 (reel doar dacă iese curat) | sâmbătă 17 oct | după ce îl ai montat |
-| K4 | Salmon & garlic broccoli after a long stream (30 s) | sâmbătă 24 oct (sau în streamul de miercuri 28) | joi 12 nov |
+| K4 | Salmon, potatoes & salad after a long stream (30 s) | sâmbătă 24 oct (sau în streamul de miercuri 28) | joi 12 nov |
 | K5 | White fish with rice & veggies (30 s) | deja filmat | joi 5 nov |
 
 ## Cum filmezi (la toate)
@@ -45,10 +45,10 @@ _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țar�
 ## Salata cu ton și fasole roșie · poze pentru e-book (pagina 25)
 3 poze fixe: (1) de sus, farfuria întreagă; (2) la 45°, cu furculița; (3) ingredientele înainte de aranjat (ton, fasole roșie, roșii, spanac, lămâie). Fără gătit, 5–10 minute. Dacă iese frumos, poți face din el un reel de 20–25 s: `No-cook tuna and bean salad in 5 minutes.`
 
-## K4 · Salmon & garlic broccoli after a long stream · 30 s
-**Pe ecran:** `After a long stream: salmon & broccoli in [X] minutes.` (X = timpul din pagina rețetei)
-**Cadre:** somonul la gătit · broccoli · farfuria.
-**Voce:** „After a long stream: salmon and garlic broccoli. Full recipe in the caption.”
+## K4 · Salmon, potatoes & salad after a long stream · 30 s
+**Pe ecran:** `After a long stream: salmon, potatoes & salad.`
+**Cadre:** cartofii la cuptor · somonul · salata de roșii · farfuria.
+**Voce:** „After a long stream: salmon, potatoes and salad. Full recipe in the caption.”
 **Atenție la e-book:** pagina 33 are titlul greșit; devine `SALMON WITH GARLIC BROCCOLI`.
 **Hashtag-uri:** `#salmonrecipe #healthydinner #highprotein #easyrecipes #streamerlife`
 

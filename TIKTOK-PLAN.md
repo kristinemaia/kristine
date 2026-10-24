@@ -40,7 +40,7 @@ Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. Dope Rope, 
 | Lun 9 | A | clip din Move Monday | `Move Monday with the chat 💪 #workout #twitchstreamer #fitness` |
 | Mar 10 | B | **B3** Upper back | `For the gamer hunch: 3 moves, no equipment. #upperback #gamerhealth #mobility` |
 | Mie 11 | B | **Bewit** (afiliat) | `Affiliate: I earn a small commission if you use my code KRISTINE15. My evening cacao ritual after a long stream. #cacao #eveningritual #streamerlife` |
-| Joi 12 | B | **K4** Salmon & broccoli | `After a long stream: salmon and garlic broccoli. 🥦 Recipe on Instagram @kristinemaia11 #salmonrecipe #streamerlife` |
+| Joi 12 | B | **K4** Salmon, potatoes & salad | `After a long stream: salmon, potatoes and salad. 🐟 Recipe on Instagram @kristinemaia11 #salmonrecipe #streamerlife` |
 | Vin 13 | B | **B4** Warm-up | `One minute before the first match. Your hands will thank you. #warmup #gamerhealth #twitchstreamer` |
 | Sâm 14 | A | clip din stream de vineri | secțiunea 4 |
 | Dum 15 | A | clip „înapoi acasă” sau din stream | secțiunea 4 |

@@ -39,7 +39,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 | Dum 8 nov | 19:00 | KM | Carusel C3 · O ședință, pas cu pas |
 | Mar 10 nov | 17:00 | Kristine Maia | B3 · Upper back and shoulders |
 | Mie 11 nov | 17:00 | Kristine Maia | Bewit · My evening cacao ritual (afiliat) |
-| Joi 12 nov | 17:00 | Kristine Maia | K4 · Salmon & garlic broccoli |
+| Joi 12 nov | 17:00 | Kristine Maia | K4 · Salmon, potatoes & salad |
 | Vin 13 nov | 17:00 | Kristine Maia | B4 · Warm-up before gaming |
 | Dum 15 nov | 19:00 | KM | Carusel C4 · 5 obiceiuri pentru birou |
 | Mie 18 nov | 17:00 | Kristine Maia | Revu Natural · 60-second shoulder reset (afiliat) |
@@ -214,11 +214,15 @@ Free 5-minute desk stretch → link in bio
 #whitefish #healthydinner #easydinner #mealideas #streamerlife
 ```
 
-### K4 · Joi 12 nov, 17:00 · Salmon & garlic broccoli
+### K4 · Joi 12 nov, 17:00 · Salmon, potatoes & salad
 ```
-After a long stream: salmon and garlic broccoli. 🥦
+After a long stream: salmon, potatoes and salad. 🐟
 
-[REȚETA]
+Serves 1: 160 g salmon fillet · 80 g potatoes · 150 g tomato salad with cheese and onion · olive oil, salt and pepper (optional: 150 g tofu).
+1) Dice the potatoes, season, roast at 200°C (390°F) for 20–25 minutes.
+2) Season the salmon, bake on a lined tray for 12–15 minutes.
+3) Slice tomatoes and onion, toss with cheese, olive oil, salt and pepper.
+4) Serve the salmon on the potatoes with the salad. About 40 minutes, mostly in the oven.
 
 General food ideas, not medical advice.
 Free 5-minute desk stretch → link in bio

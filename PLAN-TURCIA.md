@@ -105,7 +105,7 @@ Orele sunt estimări pentru tine singură. Fiecare zi are același grup în trac
 | Dum 25 oct | RO | La țară: cifre, conturi, Vinted | ~4 h | Ceasul se dă înapoi cu 1 oră (04:00). Ești la țară, cu internet; seara înapoi în București. Cifrele; arhiva veche verificată; eSIM, autentificare în doi pași; programul din Twitch, cu ora de iarnă; internetul din Turcia întrebat; TikTok nou @kristinemaia |
 | Lun 26 oct | RO | Move Monday + lot de filmat 2 + go/no-go | ~5,5 h | Stream 10:00 (ora României); apoi B1–B4 (4 reel-uri de mobilitate), descrierile lotului 2, copii în 2 locuri; răspunsurile contabilei și ale avocatului citite: go/no-go pentru Turcia |
 | Mar 27 oct | RO | Notar, montaj B1, programare, împachetat | ~5,5 h | Notarul, dacă proprietarul l-a fixat azi; montezi B1; programezi K1, B1, R4 și K5, plus TikTok până pe 6 nov; lista „Înainte să postezi” pe fiecare; împachetezi tot, în afară de echipamentul de stream; asigurare și bilet |
-| Mie 28 oct | RO | Cook with me (ultimul din România), răspuns automat | ~5 h | Stream (K4 somon cu broccoli filmat de sus); după stream echipamentul împachetat; răspuns automat pe KM și pe Google; a doua tranșă pentru avocat; copie finală; sesiunea pentru abonați anunțată, doar dacă go/no-go a dat „da” |
+| Mie 28 oct | RO | Cook with me (ultimul din România), răspuns automat | ~5 h | Stream (K4 somon cu cartofi și salată, filmat de sus); după stream echipamentul împachetat; răspuns automat pe KM și pe Google; a doua tranșă pentru avocat; copie finală; sesiunea pentru abonați anunțată, doar dacă go/no-go a dat „da” |
 | Joi 29 oct | RO→TR | Zbor după-amiază | 0,5 h | Dimineața bagajul închis; seara, după aterizare, testul colțului. Postările programate ies singure (B1 pe Kristine Maia; pe KM ies caruselele duminica). Pașaportul la tine, eSIM-ul activat la aterizare. |
 | Vin 30 oct | TR | Game night (opțional) | ~4 h | Dacă upload-ul e sub ~6 Mbps sau nu ești odihnită, sari peste stream; atunci Chill Sunday de pe 1 nov devine stream obligatoriu, ca săptămâna să aibă 3. Verifici lista postărilor programate |
 | Sâm 31 oct | TR | Liber | 0 | Liber, fără telefon de muncă. |
@@ -147,7 +147,7 @@ Vin 6 nov   Reel din stream: 2-minute rope break with the chat (Dope Rope, afili
 Dum 8 nov   Carusel C2 3 things I do after every stream
 Mar 10 nov  B3 Upper back and shoulders (the gamer hunch)
 Mie 11 nov  Reel Bewit: my evening cacao ritual (afiliat, cod KRISTINE15)
-Joi 12 nov  K4 Salmon & garlic broccoli
+Joi 12 nov  K4 Salmon, potatoes & salad
 Vin 13 nov  B4 Warm-up before gaming: 4 moves in 1 minute
 Mie 18 nov  Reel Revu Natural: 60-second shoulder reset (afiliat, cod KRISTINE20)
 

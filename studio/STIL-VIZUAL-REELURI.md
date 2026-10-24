@@ -87,7 +87,7 @@ Hook, etichete și final sunt în „Reel-urile de filmat la țară” și „Re
 | B3 · Upper back | albastru | Shoulders rounded from the desk? 3 moves. | 8 slow reps · 20 s each side · 20 s each side | Gentle pull only. Stop if it's sharp. |
 | B4 · Warm-up | albastru | Before you queue: 4 moves, 1 minute. | cronometru + câte o etichetă | Now go win. |
 | K1 · Pancakes | crem + vișiniu | Stream-day breakfast in 15 minutes. | 15 minutes | Recipe in the caption |
-| K4 · Salmon | crem + vișiniu | After a long stream: salmon & broccoli in [X] minutes. | [X] minutes | Recipe in the caption |
+| K4 · Salmon | crem + vișiniu | After a long stream: salmon, potatoes & salad. | Salmon & potatoes | Recipe in the caption |
 | K5 · White fish | crem + vișiniu | Dinner after the stream: white fish, rice, veggies. | — | Recipe in the caption |
 | Sală · 3 machines | lila | Sit all day? 3 machines undo the chair. | numele aparatului pe fiecare | Not medical advice |
 | Dope Rope | vișiniu + alb | 20-second rope warm-up. Just a rope. | 20 seconds | Affiliate: I earn a small commission · Code KRISTINEMAIA · link in bio |

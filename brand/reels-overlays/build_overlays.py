@@ -41,7 +41,7 @@ R = [
   [('15 minutes', 'cream')], False),
  ('Ton', 'cream', 'No-cook tuna and bean salad in 5 minutes.', 'Tuna & bean salad', None, 'Recipe in the caption',
   [('5 minutes', 'cream')], False),
- ('K4', 'cream', 'After a long stream: salmon & broccoli.', 'Salmon & broccoli', None, 'Recipe in the caption', [], False),
+ ('K4', 'cream', 'After a long stream: salmon, potatoes & salad.', 'Salmon & potatoes', None, 'Recipe in the caption', [], False),
  ('K5', 'cream', 'Dinner after the stream: white fish, rice, veggies.', 'White fish & rice', None, 'Recipe in the caption', [], False),
  ('Sala', 'hips', 'Sit all day? 3 machines undo the chair.', 'Undo the chair', 'Not medical advice.', PDF, [], False),
  ('DopeRope', 'wine', '20-second rope warm-up. Just a rope.', 'Just a rope', 'Affiliate: I earn a small commission', 'Code KRISTINEMAIA → link in bio',

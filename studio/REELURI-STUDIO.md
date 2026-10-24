@@ -179,9 +179,9 @@ Aici e partea de „good food” din promisiune. **Ziua D, 10:00–13:30:** găt
 - Voce: „Ten minutes. Crack, cook, plate. Full recipe in the caption.”
 - E-book: omleta de la birou și „eggs and mushrooms”. **Gata de filmat.** Dacă gătești ambele, scoți două reel-uri din aceeași sesiune.
 
-#### K4 Salmon & broccoli after a long stream · 30 s
-- Pe ecran: `After a long stream: salmon & broccoli in [X] minutes.` (X = timpul din pagina rețetei)
-- Cadre: somonul la gătit · broccoli · farfuria.
+#### K4 Salmon, potatoes & salad after a long stream · 30 s
+- Pe ecran: `After a long stream: salmon, potatoes & salad.` (rețeta din e-book: somon cu cartofi și salată, ~40 de minute)
+- Cadre: cartofii la cuptor · somonul · salata de roșii · farfuria.
 - E-book: **pagina 33 are titlul greșit** („Tofu with mixed green salad”, deși rețeta e somon cu broccoli). Titlul devine **SALMON WITH GARLIC BROCCOLI** (vezi `EBOOK-V2-TEXTS.md`). Îl corectezi înainte să arăți pagina.
 
 #### K5 White fish with rice & veggies · 30 s

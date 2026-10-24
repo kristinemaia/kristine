@@ -9,7 +9,7 @@ _Actualizat 17 octombrie 2026. Aici afli, pentru fiecare reel, în ce fișier su
 | R1–R4 | Birou/scaun: gât, pauză de 60 s, încheieturi, reset de dimineață | Reel-urile de filmat la țară | 4 | sâmbătă 17 | 20 oct, 21 oct, 22 oct, 30 oct (17:00) |
 | B1–B4 | Podea/în picioare: șolduri, zona lombară, spate și umeri, încălzire | Reel-urile de filmat la țară | 4 | sâmbătă 24 | 29 oct, 3 nov, 10 nov, 13 nov (17:00) |
 | KM1–KM4 | **Pe pauză din 18 oct** (nu filmezi pentru terapie deocamdată). Pe contul @kmwellnessconcept ies doar caruselele, duminica la 19:00 | Reel-urile de filmat la țară, secțiunea 5 (păstrate) | 5 | — | — |
-| K1, K4, K5 | Rețete: clătite proteice, somon cu broccoli, pește alb cu orez | **Reel-urile cu gătit** (detalii complete); rețetele K2, K3, K6–K10 în Reel-uri din studio | tot fișierul | sâmbătă 17 (cooking stream) și 24 | după stream, ca clipuri |
+| K1, K4, K5 | Rețete: clătite proteice, somon cu cartofi și salată, pește alb cu orez | **Reel-urile cu gătit** (detalii complete); rețetele K2, K3, K6–K10 în Reel-uri din studio | tot fișierul | sâmbătă 17 (cooking stream) și 24 | după stream, ca clipuri |
 | Bewit, Revu Natural, Dope Rope | Reel-uri de colaborare (afiliere, cu coduri) | **Reel-urile pentru branduri** | tot fișierul | filmezi sâmbătă 24 (Bewit, Revu); Dope Rope din stream | 6 nov, 11 nov, 18 nov |
 | L1–L8, O1… | Living, birou, reel-ul fixat în profil | Reel-uri din studio | 3 și 6 | când ai timp, după 28 oct | vezi fișierul |
 | Cele 38 de clipuri | Programul de 30 de zile (după lansare) | Programul de 30 de zile | 4 | în decembrie | în program |

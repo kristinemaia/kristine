@@ -12,7 +12,7 @@ _Ultima zi de filmat înainte de plecarea în Turcia (zbor joi 29 oct). Ce filme
 | **Revu Natural** · 60-second shoulder reset | perete alb | tricoul antracit (umerii liberi) | 20 min | mie 18 nov, 17:00 |
 | **Bewit** · My evening cacao ritual | bucătărie, camera de sus | bluza neagră cu fermoar | 25 min | mie 11 nov, 17:00 |
 | **Poza cu cana de cacao** (pentru C2) | bucătărie | bluza neagră cu fermoar | 5 min | C2, dum 8 nov |
-| **K4** · Salmon & garlic broccoli | bucătărie, camera de sus | bluza neagră cu fermoar | 40 min | joi 12 nov, 17:00 |
+| **K4** · Salmon, potatoes & salad | bucătărie, camera de sus | bluza neagră cu fermoar | 40 min | joi 12 nov, 17:00 |
 | **3 poze la 45°** ale somonului (e-book, Payhip) | bucătărie | – | 10 min | e-book |
 
 Dope Rope e deja filmat (clip de 21 s, 20 oct).
@@ -64,9 +64,9 @@ Fără „pentru dureri” sau „pentru articulații”.
 Pe ecran: `My evening cacao ritual`. Camera de sus (90°), pe blat curat, lumină caldă din față-stânga.
 Cadre: cacaua (3 s) → torni lapte cald și amesteci (6 s) → cana gata, aburii (7 s) → tu cu cana, un sorb, un zâmbet (5 s) → `Code KRISTINE15 · link in bio` (4 s).
 
-### K4 · Salmon & garlic broccoli · 30 s
-Pe ecran: `After a long stream: salmon & broccoli in [X] minutes.` (X din pagina 33.)
-Cadre: somonul la gătit → broccoli → farfuria gata. Camera de sus.
+### K4 · Salmon, potatoes & salad · 30 s
+Pe ecran: `After a long stream: salmon, potatoes & salad.` (rețeta din e-book, ~40 de minute la 200 °C; nu pui calorii pe ecran)
+Cadre: cartofii tăiați și la cuptor → somonul pe hârtie de copt → salata de roșii cu brânză și ceapă → farfuria gata. Camera de sus.
 
 ## Mențiunile
 Dope Rope, Bewit și Revu Natural sunt doar **afiliere cu cod de reducere**, fără plată: fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”. `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit. Descrierile sunt în „Toate descrierile”.

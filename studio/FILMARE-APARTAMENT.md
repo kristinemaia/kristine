@@ -70,7 +70,7 @@ Doar pentru ce nu e filmat încă (starea o vezi în Tracker → „Statistică�
 | Reel | Unde | Ținuta |
 |---|---|---|
 | B3 · Upper back and shoulders (sâm 24) | peretele alb, la țară | **verde** (colanți, ca să se vadă linia brațelor și a trunchiului) |
-| K4 · Salmon & garlic broccoli (sâm 24) | bucătăria | **antracit cu fermoar**, mânecile date în sus |
+| K4 · Salmon, potatoes & salad (sâm 24) | bucătăria | **antracit cu fermoar**, mânecile date în sus |
 | Bewit · cacao (sâm 24) | bucătăria | **antracit cu fermoar** sau **tricou antracit** |
 | Revu Natural · umeri (sâm 24) | peretele alb | **tricou antracit** (umeri liberi, guler rotund sub claviculă) |
 | Dope Rope · pauza de coardă (din stream) | stream | ce porți deja la stream |
