@@ -64,10 +64,10 @@ def c2():
     s.append(photo_slide(2, '1 · Shoulder blade squeeze', 'Pull your shoulder blades back and down. Hold 3 seconds, 8 reps.', sh, 2, 'var(--blue)', 'var(--lilac)'))
     s.append(photo_slide(3, '2 · Wrist stretch', 'Arm straight, palm facing forward. Gently pull the fingers back toward you. 15 seconds each hand.', wr, 3, 'var(--mint)', 'var(--blue)'))
     if cc:
-        s.append(photo_slide(4, '3 · A warm drink, screens off', 'Five quiet minutes. My evening cacao ritual (#ad).', cc, 4, 'var(--pink)', 'var(--lilac)'))
+        s.append(photo_slide(4, '3 · A warm drink, screens off', 'Five quiet minutes. My evening cacao ritual (affiliate, code KRISTINE15).', cc, 4, 'var(--pink)', 'var(--lilac)'))
     else:
         cup = '<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;background:var(--pink)"><g fill="none" stroke="#8A3459" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M34 52 H82 V74 Q82 92 58 92 Q34 92 34 74 Z" fill="#fff"/><path d="M82 58 H92 Q100 58 100 66 Q100 76 90 76 H82"/><path d="M48 40 Q44 32 50 26 M62 40 Q58 32 64 26"/></g></svg>'
-        s.append(frame(4, '<div style="position:absolute;left:80px;right:80px;top:190px"><h2>3 · A warm drink, screens off</h2><p style="font-size:44px;line-height:1.3;font-weight:600;margin:0">Five quiet minutes. My evening cacao ritual (#ad).</p></div><div class="card" style="left:190px;top:650px;width:700px;height:590px">%s</div><div class="foot" style="bottom:30px">%s</div>' % (cup, DISC), 4, 'var(--pink)', 'var(--lilac)'))
+        s.append(frame(4, '<div style="position:absolute;left:80px;right:80px;top:190px"><h2>3 · A warm drink, screens off</h2><p style="font-size:44px;line-height:1.3;font-weight:600;margin:0">Five quiet minutes. My evening cacao ritual (affiliate, code KRISTINE15).</p></div><div class="card" style="left:190px;top:650px;width:700px;height:590px">%s</div><div class="foot" style="bottom:30px">%s</div>' % (cup, DISC), 4, 'var(--pink)', 'var(--lilac)'))
     s.append(cta(5, 5))
     return s
 JS = r"""

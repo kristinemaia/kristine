@@ -42,14 +42,15 @@ Kristine Maia · degree in Physical Education and Sport · certified recovery ma
 
 **Descrierea (de copiat):**
 ```
+Affiliate: I earn a small commission if you use my Bewit code KRISTINE15 (link in bio).
 My 3-step wind-down after every stream: shoulders, wrists and five quiet minutes with a warm drink. No equipment, no fuss.
 
 Free 5-minute desk stretch → link in bio
 
-General mobility, not medical advice. #ad for the cacao (affiliate link and code KRISTINE15 in my bio).
+General mobility, not medical advice.
 ```
 **Hashtag-uri:** `#afterstream #streamerlife #mobility #deskstretch #cacaoritual #wellness`
-**Atenție:** slide-ul 4 conține „#ad” și cere mențiune de afiliere dacă folosești cacaua Bewit cu codul.
+**Atenție:** Bewit e doar afiliere cu cod, fără plată: fără `#ad` și fără „Paid partnership”. Slide-ul 4 scrie „(affiliate, code KRISTINE15)”, iar prima linie a descrierii e linia de afiliere.
 
 ## Regulile
 - Fără cifre sau promisiuni medicale. Ce e în slide-uri e general, nu sfat medical.
