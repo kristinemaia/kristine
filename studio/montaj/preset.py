@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+"""Presetul de montaj Kristine Maia (ffmpeg): același aspect curat la toate reel-urile.
+Rulezi: python3 studio/montaj/preset.py spec.json <folder cu clipurile> <ieșire.mp4>
+
+Ce face presetul (valorile sunt în PRESET, le schimbi într-un singur loc):
+  · 1080 x 1920, 30 fps, fără sunet (muzica o pui tu)
+  · dizolvări de 0,3 s între toate cadrele; fade-out de 0,3 s la final
+  · aspect curat: contrast +5%, saturație +6%, claritate ușoară (unsharp), lumină +3%
+  · accent pe esențial: hook în primele 3 s, eticheta doar cât durează mișcarea, codul/final în ultimele 3 s
+  · tăieturi scurte: fiecare cadru se oprește înainte de ultimele ~0,3 s din clip
+
+spec.json: {"segments":[{"clip":"IMG_8204","ss":15.2,"d":2.8,"speed":1.0,"crop":null,"label":null}, ...],
+            "hook":"Bewit_1-hook.png", "final":"Bewit_2-final.png", "overlay_dir":"brand/reels-overlays/out/Bewit",
+            "labels":{"eticheta.png":[x,y]}}"""
+import glob, json, os, subprocess, sys
+PRESET = dict(td=0.3, fps=30, eq='eq=contrast=1.05:saturation=1.06:brightness=0.02', sharp='unsharp=5:5:0.6:5:5:0.0', hook=(0.2, 2.8), final_len=3.0)
+spec = json.load(open(sys.argv[1], encoding='utf-8')); src, out = sys.argv[2], sys.argv[3]
+root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')
+OV = os.path.join(root, spec['overlay_dir'])
+def clip(k): return glob.glob(os.path.join(src, '*' + k + '*.mov'))[0]
+inputs, chains, durs, starts = [], [], [], [0.0]
+for i, s in enumerate(spec['segments']):
+    inputs += ['-ss', str(s['ss']), '-t', str(s['d']), '-i', clip(s['clip'])]
+    crop = (s.get('crop') + ',scale=1080:-2:flags=lanczos,pad=1080:1920:0:(1920-ih)/2:color=0xFFF9F6') if s.get('crop') and s.get('frame') else ((s['crop'] + ',scale=1080:1920:flags=lanczos') if s.get('crop') else 'scale=1080:1920:flags=lanczos')
+    chains.append('[%d:v]fps=%d,%s,setpts=(PTS-STARTPTS)/%s,%s,%s,setsar=1,format=yuv420p[v%d]' % (i, PRESET['fps'], crop, s.get('speed', 1.0), PRESET['eq'], PRESET['sharp'], i))
+    durs.append(s['d'] / s.get('speed', 1.0))
+n = len(durs); x, acc, cur = [], 0.0, '[v0]'
+for j in range(1, n):
+    acc += durs[j - 1]; off = acc - j * PRESET['td']; starts.append(off)
+    x.append('%s[v%d]xfade=transition=fade:duration=%.2f:offset=%.2f[x%d]' % (cur, j, PRESET['td'], off, j)); cur = '[x%d]' % j
+total = sum(durs) - (n - 1) * PRESET['td']
+k = n; ov = []
+inputs += ['-i', os.path.join(OV, spec['hook'])]; hook_i = k; k += 1
+fin_i = k; inputs += ['-i', os.path.join(OV, spec['final'])]; k += 1
+fc = ';'.join(chains + x) + ';'
+fc += "%s[%d:v]overlay=0:0:enable='between(t,%.1f,%.1f)'[o0]" % (cur, hook_i, *PRESET['hook'])
+last = '[o0]'
+for idx, s in enumerate(spec['segments']):
+    if s.get('label'):
+        inputs += ['-i', os.path.join(OV, s['label'])]; li = k; k += 1
+        t0 = starts[idx] + (0.1 if idx else PRESET['hook'][1]); t1 = (starts[idx + 1] + 0.1) if idx + 1 < n and spec['segments'][idx + 1].get('label') != s['label'] else (total - PRESET['final_len'] if idx + 1 == n else starts[idx + 1] + 0.1)
+        px, py = s.get('label_pos', [333, 1440])
+        fc += ";%s[%d:v]overlay=%d:%d:enable='between(t,%.2f,%.2f)'[l%d]" % (last, li, px, py, t0, t1, idx); last = '[l%d]' % idx
+fc += ";%s[%d:v]overlay=0:0:enable='gte(t,%.2f)',fade=t=out:st=%.2f:d=0.3[o]" % (last, fin_i, total - PRESET['final_len'], total - 0.3)
+cmd = ['ffmpeg', '-v', 'error', '-y'] + inputs + ['-filter_complex', fc, '-map', '[o]', '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-movflags', '+faststart', out]
+subprocess.run(cmd, check=True); print('gata %.1f s -> %s' % (total, out))

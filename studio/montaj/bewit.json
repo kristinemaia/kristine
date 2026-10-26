@@ -1,0 +1,4 @@
+{"overlay_dir":"brand/reels-overlays/out/Bewit","hook":"Bewit_1-hook.png","final":"Bewit_2-final.png",
+ "segments":[{"clip":"8204","ss":15.2,"d":2.8},{"clip":"8192","ss":0.2,"d":2.4},{"clip":"8193","ss":0.5,"d":7.2,"speed":2.0},
+ {"clip":"8195","ss":2.0,"d":9.0,"speed":2.0},{"clip":"8204","ss":3.5,"d":8.2,"speed":1.8},
+ {"clip":"8213","ss":4.0,"d":6.0,"crop":"crop=560:996:185:430"}]}
