@@ -21,12 +21,17 @@ h1{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-
 .foot{position:absolute;left:90px;right:90px;text-align:center;font-size:30px;font-weight:600;color:var(--muted)}
 """
 def page(body): return ('<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@600;700;800&display=swap" rel="stylesheet"><style>' + CSS + '</style></head><body>' + body + '</body></html>')
+pic = base64.b64encode(open(os.path.join(HERE, 'coarda-poza.jpg'), 'rb').read()).decode()
 S1 = ('<div class="s"><div class="b" style="width:780px;height:780px;background:var(--mint);right:-300px;top:-220px"></div><div class="b" style="width:640px;height:640px;background:var(--pink);left:-260px;bottom:-120px"></div>'
       '<div class="t" style="top:330px"><span class="tag">MOVE MONDAY</span><h1 style="font-size:110px;margin-top:40px">2 minutes of rope before your first match</h1>'
       '<p class="sub" style="margin:54px 0 0">Wakes the legs up after a long sit.</p></div>'
       '<div style="position:absolute;left:90px;right:90px;top:1230px;background:var(--berry);color:#fff;border-radius:36px;padding:44px 40px;text-align:center"><div style="font-size:34px;font-weight:700;opacity:.9">Dope Rope</div><div style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;font-size:78px;letter-spacing:.02em;margin-top:6px">Code KRISTINEMAIA</div><div style="font-size:36px;font-weight:700;margin-top:10px">link in bio</div></div>'
       '<div class="foot" style="top:1530px;font-size:28px">General mobility, not medical advice.</div></div>')
-jobs = [{'html': page(S1), 'file': os.path.join(OUT, 'Story-luni-DopeRope.png')}]
+S2 = ('<div class="s"><div class="b" style="width:780px;height:780px;background:var(--mint);right:-300px;top:-220px"></div><div class="b" style="width:640px;height:640px;background:var(--pink);left:-260px;bottom:-120px"></div>'
+      '<div class="t" style="top:270px"><span class="tag">MOVE MONDAY</span><h1 style="font-size:104px;margin-top:36px">2 minutes of rope before your first match</h1></div>'
+      '<div style="position:absolute;left:150px;right:150px;top:770px;height:570px;border-radius:40px;overflow:hidden;box-shadow:0 30px 70px rgba(43,36,49,.25)"><img src="data:image/jpeg;base64,' + pic + '" style="display:block;width:100%;height:100%;object-fit:cover;object-position:50% 12%"></div>'
+      '<div style="position:absolute;left:90px;right:90px;top:1370px;background:var(--berry);color:#fff;border-radius:32px;padding:26px 30px;text-align:center"><div style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;font-size:66px;letter-spacing:.02em">Code KRISTINEMAIA</div><div style="font-size:32px;font-weight:700;margin-top:4px">Dope Rope · link in bio</div></div></div>')
+jobs = [{'html': page(S), 'file': os.path.join(OUT, n)} for S, n in ((S1, 'Story-luni-DopeRope.png'), (S2, 'Story-luni-DopeRope-poza.png'))]
 
 js = r"""
 const { chromium } = require('playwright'); const jobs = JSON.parse(require('fs').readFileSync(process.argv[2], 'utf8'));
