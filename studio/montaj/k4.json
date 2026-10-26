@@ -1,0 +1,5 @@
+{"audio":true,"final_dy":-900,"overlay_dir":"brand/reels-overlays/out/K4","hook":"K4_1-hook.png","final":"K4_2-final.png","segments":[
+{"clip":"6491f1ee","ss":0.3,"d":2.8,"speed":1.0,"crop":"crop=855:1520:90:400"},
+{"clip":"f41b7ff9","ss":1.8,"d":3.0,"speed":1.0,"crop":"crop=720:1280:180:0"},
+{"clip":"b4ac07b9","ss":0.2,"d":4.4,"speed":1.0,"crop":null},
+{"clip":"d45ba7c0","ss":0.5,"d":8.0,"speed":1.0,"crop":null}]}
