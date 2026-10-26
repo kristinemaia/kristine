@@ -10,7 +10,10 @@ OV = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'brand
 BG = '0xFFF9F6'
 def panel(crop):  # crop de la talie în sus, apoi pe fundal crem
     return 'crop=%s,scale=1080:-2:flags=lanczos,pad=1080:1920:0:(1920-ih)/2:color=%s' % (crop, BG)
-C1, C2, C3 = panel('1080:840:0:260'), panel('1080:840:0:300'), panel('660:500:0:1150')
+WIDE = len(sys.argv) > 3 and sys.argv[3] == '--wide'   # varianta mai largă: wall angels cu tot corpul (din față), restul tăiat sub talie
+C1 = 'null' if WIDE else panel('1080:840:0:260')
+C2 = panel('1080:1000:0:250') if WIDE else panel('1080:840:0:300')
+C3 = panel('660:560:0:1120') if WIDE else panel('660:500:0:1150')
 SEG = [('699ac151', 0.3, 10.0, 1.15, C1, 1),   # 1 · wall angels
        ('08d62be8', 1.0, 4.5, 1.0, C2, 2),     # 2 · chest opener, o parte
        ('08d62be8', 13.0, 4.5, 1.0, C2, 2),    # 2 · chest opener, cealaltă parte
