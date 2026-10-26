@@ -41,7 +41,7 @@ for idx, s in enumerate(spec['segments']):
         t0 = starts[idx] + (0.1 if idx else PRESET['hook'][1]); t1 = (starts[idx + 1] + 0.1) if idx + 1 < n and spec['segments'][idx + 1].get('label') != s['label'] else (total - PRESET['final_len'] if idx + 1 == n else starts[idx + 1] + 0.1)
         px, py = s.get('label_pos', [333, 1440])
         fc += ";%s[%d:v]overlay=%d:%d:enable='between(t,%.2f,%.2f)'[l%d]" % (last, li, px, py, t0, t1, idx); last = '[l%d]' % idx
-fc += ";%s[%d:v]overlay=0:0:enable='gte(t,%.2f)',fade=t=out:st=%.2f:d=0.3[o]" % (last, fin_i, total - PRESET['final_len'], total - 0.3)
+fc += ";%s[%d:v]overlay=0:%d:enable='gte(t,%.2f)',fade=t=out:st=%.2f:d=0.3[o]" % (last, fin_i, spec.get('final_dy', 0), total - PRESET['final_len'], total - 0.3)
 amap = ['-an']
 if spec.get('audio'):  # păstrează vocea: acrossfade între cadre, curățare ușoară, volum uniform
     ach = ['[%d:a]aresample=48000,asetpts=PTS-STARTPTS[a%d]' % (i, i) for i in range(n)]

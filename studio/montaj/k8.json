@@ -1,6 +1,2 @@
-{"audio":true,"overlay_dir":"brand/reels-overlays/out/Rez-K8","hook":"Rez-K8_1-hook.png","final":"Rez-K8_2-final.png","segments":[
-{"clip":"8150","ss":0.6,"d":2.6,"speed":1.0,"crop":"crop=900:1100:90:150","frame":true},
-{"clip":"8150","ss":5.0,"d":3.4,"speed":1.0,"crop":"crop=900:1100:90:150","frame":true},
-{"clip":"8150","ss":10.0,"d":4.4,"speed":1.0,"crop":"crop=900:1100:90:150","frame":true},
-{"clip":"8150","ss":15.6,"d":3.6,"speed":1.0,"crop":"crop=900:1100:90:150","frame":true},
-{"clip":"8150","ss":20.4,"d":2.4,"speed":1.0,"crop":"crop=900:1100:90:150","frame":true}]}
+{"audio":true,"final_dy":-800,"overlay_dir":"brand/reels-overlays/out/Rez-K8","hook":"Rez-K8_1-hook.png","final":"Rez-K8_2-final.png","segments":[
+{"clip":"8150","ss":0.0,"d":23.1,"speed":1.0,"crop":null}]}
