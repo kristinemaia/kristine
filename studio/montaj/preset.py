@@ -42,5 +42,13 @@ for idx, s in enumerate(spec['segments']):
         px, py = s.get('label_pos', [333, 1440])
         fc += ";%s[%d:v]overlay=%d:%d:enable='between(t,%.2f,%.2f)'[l%d]" % (last, li, px, py, t0, t1, idx); last = '[l%d]' % idx
 fc += ";%s[%d:v]overlay=0:0:enable='gte(t,%.2f)',fade=t=out:st=%.2f:d=0.3[o]" % (last, fin_i, total - PRESET['final_len'], total - 0.3)
-cmd = ['ffmpeg', '-v', 'error', '-y'] + inputs + ['-filter_complex', fc, '-map', '[o]', '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-movflags', '+faststart', out]
+amap = ['-an']
+if spec.get('audio'):  # păstrează vocea: acrossfade între cadre, curățare ușoară, volum uniform
+    ach = ['[%d:a]aresample=48000,asetpts=PTS-STARTPTS[a%d]' % (i, i) for i in range(n)]
+    cur_a = '[a0]'
+    for j in range(1, n):
+        ach.append('%s[a%d]acrossfade=d=%.2f[ax%d]' % (cur_a, j, PRESET['td'], j)); cur_a = '[ax%d]' % j
+    ach.append('%shighpass=f=80,afftdn=nr=10:nf=-40,loudnorm=I=-16:TP=-1.5:LRA=9,afade=t=out:st=%.2f:d=0.3[aout]' % (cur_a, total - 0.3))
+    fc += ';' + ';'.join(ach); amap = ['-map', '[aout]', '-c:a', 'aac', '-b:a', '160k']
+cmd = ['ffmpeg', '-v', 'error', '-y'] + inputs + ['-filter_complex', fc, '-map', '[o]'] + amap + [ '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-movflags', '+faststart', out]
 subprocess.run(cmd, check=True); print('gata %.1f s -> %s' % (total, out))
