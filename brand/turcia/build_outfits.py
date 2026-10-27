@@ -20,8 +20,8 @@ def box(bg, title, items, note=''):
     return '<div class="box" style="background:var(--%s)"><h2>%s</h2><ul>%s</ul>%s</div>' % (bg, title, ''.join('<li>%s</li>' % i for i in items), ('<div class="note">%s</div>' % note) if note else '')
 body = ('<div class="s"><h1>Turcia: ținutele</h1><p class="sub">29 oct – 15 nov · doar bagaj de mână + rucsac</p>'
  + box('pink', 'Pe tine în avion', ['blugi · body · pulover gri', 'haina crem cu fular', 'cizmele negre lungi (spray impermeabilizant)'])
- + box('blue', 'La îndemână (ghiozdan)', ['geacă de ploaie neagră (se strânge mică)', 'vesta neagră', 'umbrelă mică'], 'Frig: bluză + vestă + haina crem. Ploaie: geaca neagră, fără haina crem.')
- + box('mint', 'Oraș și casual (în troler)', ['a doua pereche de blugi · colanți negri', '2–3 tricouri sau bluze', 'rochița mică (pentru ieșiri)', 'trening negru (set) pentru stream și acasă'])
+ + box('blue', 'La îndemână (ghiozdan Samsonite)', ['geacă de ploaie neagră (se strânge mică)', 'vesta neagră', 'umbrelă mică'], 'Ghiozdanul se poate comprima dacă e nevoie. Frig: bluză + vestă + haina crem. Ploaie: geaca neagră, fără haina crem.')
+ + box('mint', 'Oraș și casual (în troler)', ['a doua pereche de blugi · colanți negri', '2–3 tricouri sau bluze', 'rochița mică (pentru ieșiri) · pijamale', 'trening negru (set) pentru stream și acasă'])
  + box('lilac', 'Sală și reel-uri', ['4 schimburi de sală, fără logo', 'setul verde (jachetă + colanți)', 'jacheta crem cu fermoar (nu la cardio intens)', 'șosete sport · prosop mic', 'adidașii gri New Balance 9060'], 'Opțional, dacă mai e loc: a doua pereche de colanți.')
  + '<div class="rule">La sală (negru cu galben): verde, albastru deschis, gri deschis, crem. Fără galben, fără negru sus; negru doar colanții. Fără logo.</div>'
  + '<p class="note" style="margin-top:22px">Rămân acasă: sacoul în carouri, geaca scurtă bej, geaca de piele, geaca maro, treningul bej și cel gri gros, cizmele cowboy, setul alb, pantalonii roz, pantalonii negri largi, setul roz cu logo.</p></div>')
