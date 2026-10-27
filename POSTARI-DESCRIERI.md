@@ -301,7 +301,11 @@ Free 5-minute desk stretch → link in bio
 ```
 Dessert for breakfast: 5 minutes the night before. ☕
 
-[REȚETA]
+Serves 1: 50 g oats · 1 tbsp chia seeds · a shot of coffee · a shot of milk (plant-based works) · rum essence to taste · 100 g Greek yogurt · cinnamon · cocoa powder to garnish · maple syrup to serve.
+1) Blend the oats, chia, rum essence, coffee and milk until smooth.
+2) Pour into a jar with a lid and chill overnight.
+3) In the morning, stir in the Greek yogurt, a dash of cinnamon and a drizzle of maple syrup.
+4) Dust with cocoa and enjoy. About 5 minutes, plus the night in the fridge.
 
 General food ideas, not medical advice.
 Free 5-minute desk stretch → link in bio
