@@ -1,0 +1,6 @@
+{"audio":true,"final_dy":-900,"overlay_dir":"brand/reels-overlays/out/Rez-K2","hook":"Rez-K2_1-hook.png","final":"Rez-K2_2-final.png","segments":[
+{"clip":"4c98d20a","ss":0.8,"d":3.0,"speed":1.0,"crop":"crop=1080:900:0:500","frame":true},
+{"clip":"8a237aef","ss":2.0,"d":3.2,"speed":1.0,"crop":"crop=1080:900:0:500","frame":true},
+{"clip":"9a0b103b","ss":1.5,"d":3.0,"speed":1.0,"crop":"crop=1080:900:0:500","frame":true},
+{"clip":"06930d33","ss":0.5,"d":3.2,"speed":1.0,"crop":"crop=1080:900:0:500","frame":true},
+{"clip":"9f3049f5","ss":2.5,"d":11.0,"speed":1.0,"crop":null}]}
