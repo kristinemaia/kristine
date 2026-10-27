@@ -10,28 +10,32 @@
    "ss": 0.8,
    "d": 3.0,
    "speed": 1.0,
-   "crop": null
+   "crop": null,
+   "gain": 10
   },
   {
    "clip": "8a237aef",
    "ss": 2.0,
    "d": 3.2,
    "speed": 1.0,
-   "crop": null
+   "crop": null,
+   "gain": 10
   },
   {
    "clip": "9a0b103b",
    "ss": 1.5,
    "d": 3.0,
    "speed": 1.0,
-   "crop": null
+   "crop": null,
+   "gain": 10
   },
   {
    "clip": "06930d33",
    "ss": 0.5,
    "d": 3.2,
    "speed": 1.0,
-   "crop": null
+   "crop": null,
+   "gain": 10
   },
   {
    "clip": "9f3049f5",
