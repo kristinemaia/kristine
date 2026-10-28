@@ -29,7 +29,8 @@ STORY = ('<div class="s" style="width:1080px;height:1920px">'
          '<div class="b" style="width:760px;height:760px;background:var(--lilac);right:-300px;top:-220px"></div>'
          '<div class="b" style="width:640px;height:640px;background:var(--pink);left:-260px;bottom:-200px"></div>'
          + content(1080, 300, 128, 54) +
-         '<div style="position:absolute;left:0;right:0;top:1330px;font-size:130px;color:var(--berry);line-height:1">↓</div></div>')
+         '<div style="position:absolute;left:0;right:0;top:1330px;font-size:130px;color:var(--berry);line-height:1">↓</div>'
+         + ('<div style="position:absolute;left:90px;right:90px;top:1500px;font-size:28px;font-weight:600;color:var(--muted)">General wellness, not medical advice.</div>' if title else '') + '</div>')
 POST = ('<div class="s" style="width:1080px;height:1350px">'
         '<div class="b" style="width:700px;height:700px;background:var(--lilac);right:-260px;top:-200px"></div>'
         '<div class="b" style="width:560px;height:560px;background:var(--mint);left:-220px;bottom:-180px"></div>'
