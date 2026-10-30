@@ -143,6 +143,8 @@ GROUPS = [
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
+            {"kind": "doc", "slug": "calendar-continut", "title": "Calendarul de conținut, pe toate platformele (30 oct)", "src": "CALENDAR-CONTINUT.md",
+             "desc": "Ce e postat, ce e programat, ce ai de programat și ce ai de filmat: Instagram, TikTok, KM, story-uri, Twitch, Spotify, YouTube și loturile de filmare la sală, până la Crăciun."},
             {"kind": "doc", "slug": "plan-remote", "title": "Planul remote: cum crești online, de oriunde (30 oct)", "src": "PLAN-REMOTE.md",
              "desc": "Reactualizarea întregului plan pentru o muncă mereu remote: cifrele de acum, diagnosticul, cele patru surse de venit, ce oprești, calendarul nov–mar, săptămâna-tip, pâlnia spre lista de email și drumul spre 2.000 € pe lună."},
             {"kind": "doc", "slug": "plan-reeluri-sala", "title": "Reel-uri doar la sală: serii, calendar nov–dec, promovare", "src": "PLAN-REELURI-SALA.md",
