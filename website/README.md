@@ -12,6 +12,8 @@
 > - Contabila a vorbit cu tine; avocatul nu mai primește documente. Nu trebuie nimic despre eSIM sau ora (ai SIM bun, ceasul se schimbă singur; în România trecem la ora de iarnă pe 25 oct).
 > - Planul zilnic complet, cu locuri și ore: `PLAN-TURCIA.md` și Calendarul de printat. Bifezi în Tracker.
 
+> **Site-ul la 30 octombrie:** în magazin (`shop.html#coaching`) și pe prima pagină apare **coaching-ul online 1:1** (49 €/lună, pe listă de așteptare, fără planuri de alimentație). Butonul „Join the coaching waitlist” deschide acum un email către tine. Când faci pe Payhip produsul gratuit „1:1 online coaching: waitlist”, pui linkul lui în `LINKS`, la `COACHING`, și rulezi din nou `build_site.py`.
+
 > **Site-ul la 18 octombrie:** fără nimic despre terapie (pagina `terapie.html` a fost scoasă). Rămâne „Licențiată în Educație Fizică și Sport” la credențiale. Pozele tale sunt puse (`assets/kristine.jpg`, `kristine-about.jpg`, pozele din rutine), coperta e-book-ului „Stream Day Kitchen” e în magazin, PDF-ul gratuit are buton spre Payhip și previzualizare. Programul de pe Twitch e cel real: luni, marți, miercuri, vineri; joi și duminică libere. **De completat:** linkul exact al produsului gratuit din Payhip (în `LINKS`, `PAYHIP`) și linkul Amazon al e-book-ului (`AMAZON`).
 
 Site static (HTML + CSS + puțin JavaScript), fără abonamente lunare și fără platformă. Merge pe orice găzduire gratuită.
@@ -21,7 +23,7 @@ Site static (HTML + CSS + puțin JavaScript), fără abonamente lunare și făr�
 |---|---|
 | `index.html` | Prima pagină: contorul „How many hours did you sit today?” (sliderul, omulețul care se cocoșează, pauza de 60 s), banda roz cu PDF-ul gratuit („5:00”), apoi programul de 30 de zile și e-book-ul (ambele pe waitlist) (e-book, programul de 30 de zile), despre tine + programul de pe Twitch |
 | `free.html` | 3 rutine gratuite (gât, încheieturi, șolduri) + formularul pentru PDF |
-| `shop.html` | E-book-ul (€12) și programul de 30 de zile (€39), ambele pe waitlist; codurile de reducere; întrebări |
+| `shop.html` | E-book-ul (€12), programul de 30 de zile (€39) și coaching-ul online 1:1 (€49/lună), toate pe waitlist; codurile de reducere; întrebări |
 | `live.html` | Programul de pe Twitch, un panou „Support the stream”, regulile de chat |
 | `about.html` | Povestea ta și ce ești |
 | `brands.html` | Pagina pentru branduri (cifre, formate, contact) |

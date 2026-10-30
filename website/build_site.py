@@ -29,6 +29,9 @@ LINKS = {
     "AMAZON": "#TODO-link-amazon",
     # TODO: înlocuiește cu linkul real de programare și plată (Calendly + Stripe sau Payhip)
     "BOOK": "#TODO-link-programare-si-plata",
+    # Lista de așteptare pentru coaching. Când faci produsul gratuit pe Payhip
+    # („1:1 online coaching: waitlist”, 0 €), pui aici linkul lui (payhip.com/b/...).
+    "COACHING": "mailto:kristinemaia527@gmail.com?subject=1%3A1%20online%20coaching%20waitlist",
 }
 
 FONTS = (
@@ -284,7 +287,8 @@ home = """
       <div class="soon">
         <p class="kicker">Coming soon</p>
         <p>The Stream Day Kitchen e-book (new edition): healthy, filling meals and hand-portion basics for people who sit all day. People on the email list hear first and get the early price.</p>
-        <p class="all"><a href="#free">Join the list</a> · <a href="shop.html">See the shop</a></p>
+        <p class="mt-s">Also coming: <strong>1:1 online coaching</strong> for a small group. A training plan built around your week, with feedback on your form.</p>
+        <p class="all"><a href="#free">Join the list</a> · <a href="shop.html#coaching">Coaching waitlist</a> · <a href="shop.html">See the shop</a></p>
       </div>
     </div>
   </div>
@@ -407,6 +411,20 @@ shop = """
   </div>
 </section>
 
+<section class="wrap block" aria-labelledby="coach-title">
+  <div class="block-head"><p class="kicker">Coming soon · small group</p><h2 id="coach-title">Train with me, one to one</h2></div>
+  <article class="panel p-mint" id="coaching">
+    <span class="tag">Waitlist · limited spots</span>
+    <h3>1:1 online coaching</h3>
+    <p class="p">€49<small>per month</small></p>
+    <p class="muted">A training plan built around your week, at the gym or at home, with feedback on your form. Made for people who sit for long hours and want to get stronger and move better.</p>
+    <ul><li>A plan for your goal, your schedule and your equipment, adjusted every week</li><li>Send me short videos of your sets: I check your form and tell you what to change</li><li>Strength and mobility together, no extreme diets</li><li>A small group, so every client gets real attention</li></ul>
+    <p class="small muted">Not included: personal meal plans or medical advice. I share general food ideas only. If you have pain or an injury, see a doctor first.</p>
+    <a class="btn" href="{COACHING}">Join the coaching waitlist</a>
+    <p class="small muted">People on the waitlist hear first and get founding-client pricing.</p>
+  </article>
+</section>
+
 <section class="wrap block" id="gear" aria-labelledby="gear-title">
   <div class="block-head"><p class="kicker">Gear I actually use</p><h2 id="gear-title">Discount codes</h2><p class="small muted">Affiliate links: I may earn a small commission at no extra cost to you. I only list things I use myself.</p></div>
   <div class="codes">
@@ -421,6 +439,8 @@ shop = """
   <div class="block-head"><p class="kicker">Questions</p><h2 id="faq-title">Before you buy</h2></div>
   <div class="faq">
     <details><summary>Is this medical treatment?</summary><p>No. I have a degree in Physical Education and Sport and coach mobility. Everything here is general exercise and education, not a diagnosis or treatment. If you have pain or an injury, see a doctor.</p></details>
+    <details><summary>How does online coaching work?</summary><p>You tell me your goal, your schedule and what equipment you have. I build your plan, you train and send me short videos of your sets, and every week I check your form and adjust the plan. It is exercise coaching, not treatment.</p></details>
+    <details><summary>Can you write me a meal plan?</summary><p>No. I'm not a dietitian, so I don't write personal meal plans. I share general food ideas, like the quick recipes in my e-book.</p></details>
     <details><summary>Do I need equipment?</summary><p>A chair, a wall and a bit of floor space. Some routines use a resistance band, which is optional.</p></details>
     <details><summary>How do I get my product after paying?</summary><p>You get an email with your download or access link right after payment.</p></details>
     <details><summary>Refunds</summary><p>See the purchase terms on the <a href="legal.html">legal page</a>.</p></details>
@@ -430,7 +450,7 @@ shop = """
 page(
     "shop.html",
     "Shop · Kristine Maia",
-    "The Stream Day Kitchen e-book and the 30-day Desk & Gamer Mobility program (both on the waitlist), plus discount codes for gear I use.",
+    "The Stream Day Kitchen e-book, the 30-day Desk & Gamer Mobility program and 1:1 online coaching (all on the waitlist), plus discount codes for gear I use.",
     shop,
 )
 

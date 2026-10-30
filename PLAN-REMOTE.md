@@ -76,7 +76,12 @@ Plus **chiria**, care merge singură.
 | **Februarie** | challenge gratuit de 7 zile „Desk Reset”, live și cu email (modelul Doc Jen); precomandă program 29 € | |
 | **Martie** | lansarea programului: 39 € timp de 7 zile, apoi 49 €; pachet cu e-book 54 € | reduceri permanente |
 
-**Turcia, dacă rămâi mai mult:** maximum 90 de zile din 180 și mult sub 183 pe an (rezidența fiscală). Fără activitate plătită pe teritoriul Turciei; contractele și plățile merg spre România. Viza de nomad digital cere ~3.000 $/lună din surse din afara Turciei. Întrebările le pui contabilei, nu presupunem.
+**Turcia, dacă rămâi mai mult (ești cu iubitul și nu știi cât stai):**
+- Ai folosit deja 16 zile (23–26 sept și 4–15 oct). Dacă nu ai mai fost în Turcia după 19 mai, poți sta **fără întrerupere cel mult până pe 10 ianuarie 2027** (ziua intrării și a ieșirii se numără). Verifică data pe site-ul oficial sau la consulat înainte să-ți iei biletul de întoarcere.
+- Pe 2026, zilele rămân mult sub 183 (rezidența fiscală), chiar dacă stai până la sfârșitul lui decembrie.
+- **Fără activitate plătită pe teritoriul Turciei.** Lista de așteptare e în regulă (nu vinzi nimic). Dacă ești tot acolo în decembrie, primul client de coaching și vânzarea e-book-ului vin **după răspunsul scris al contabilei** despre munca remote din Turcia; contractele și plățile merg spre România.
+- Viza de nomad digital cere ~3.000 $/lună din surse din afara Turciei. E o întrebare pentru mai târziu, nu pentru acum.
+- Programul de 30 de zile se filmează **în România** (același colț, aceeași lumină). Dacă rămâi în Turcia peste decembrie, filmarea se mută în ianuarie, iar lansarea în aprilie.
 
 ---
 
@@ -148,7 +153,7 @@ Scopul: din cei 150–200 de spectatori și din clipuri, oamenii ajung pe **list
 1. **Twitch:** `!stretch`, timer la 30 de minute, panoul PDF primul (30 de minute).
 2. **Payhip:** produsul gratuit „1:1 online coaching: waitlist” (20 de minute); îl anunți o dată în live și într-un story.
 3. **Contabila:** un email cu veniturile remote (Twitch, VirtuMe ca persoană fizică, chiria, Payhip, coaching online), PFA sau SRL, și Turcia.
-4. **YouTube (duminică 1 nov):** contestația pentru canalul vechi și ce se poate recupera din filmări.
+4. **YouTube (duminică 1 nov):** afli din Gmail data și motivul închiderii, apoi contestația sau „Second chance” (Biblioteca → Plan → „YouTube: recuperarea canalului”).
 5. **VirtuMe:** 2 story-uri pe săptămână; reel-urile primite, doar în story-uri.
 6. **Streamuri:** 4 pe săptămână, cu un segment de 15 minute de la sală, din care tai clipuri.
 7. **Cifrele de start**, notate în Tracker: urmăritori Twitch, Instagram, TikTok, emailuri.
