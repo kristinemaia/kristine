@@ -89,6 +89,8 @@ Plus **lifestyle de sală** (geanta, sală → stream, gustarea de după), făr�
 | 14–20 dec | **lun 14 ★ upper body (20)** · **mar 15 ★ RDL (11)** · **joi 17 ★ sit after leg day (14)** · **vin 18 ★ gym → stream (32)** · **dum 20 ★ grip test (5)** | (sărbători: fără filmare) |
 | 21–27 dec | **lun 21 ★ warm-up (22)** · **mar 22 ★ push-up (12)** · **dum 27 ★ balance test (6)** | |
 
+**Câte pe săptămână și în ce proporție (5 reel-uri):** 2 pentru creștere (Sitting Test, POV), 1 Form Check (lista de coaching), 1 antrenament sau follow-along (PDF-ul, adică lista de email), 1 personal, mâncare sau recovery (cod de afiliere, mai târziu e-book-ul). Vânzarea propriu-zisă se face în **story-uri zilnice cu link**, în live și pe email, nu în fiecare reel. În săptămânile de lansare (e-book în decembrie, programul în martie) adaugi al 6-lea reel și story cu link în fiecare zi. După 4 săptămâni: dacă o serie prinde, treci la 6–7 reel-uri cu acea serie; dacă filmarea și calitatea au de suferit, rămâi la 4.
+
 Reel-urile din rezervă care nu sunt filmate (K6, O1, K7, O3, K3, O7, K9, M5–M7) ies din calendar; în locul lor intră cele de la sală. Rămân K2, K8 și K10, deja filmate.
 
 **Regula de ajustare:** în fiecare duminică te uiți la cifre. Seria care a mers cel mai bine primește **încă un loc** săptămâna următoare; seria cea mai slabă cedează unul. Dacă un reel prinde (de 2× vizualizările obișnuite), **partea a doua** se filmează și se postează în aceeași săptămână.
