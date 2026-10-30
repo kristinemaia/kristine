@@ -5,7 +5,7 @@ _Reactualizat 30 octombrie 2026. Se sprijină pe `PLAN.md` și pe Roadmap (secț
 **Ce s-a schimbat față de planurile de până acum**
 1. Vrei ca munca să fie **mereu remote**. Terapia în persoană iese din plan: rămâne doar dacă vine plătită în avans, când ești oricum în București.
 2. **Twitch e sursa ta dovedită** (150–200 de spectatori, ~500–600 € pe lună), deci e motorul planului.
-3. **VirtuMe e activ** (luna a 2-a din 3 cu minim garantat).
+3. **VirtuMe e o colaborare plătită pe 3 luni** (ești în luna a 2-a). Ce urmează nu se știe: deocamdată sunt puțini abonați plătitori. **Nu intră în planul pe termen lung**; dacă merge mai departe, e un bonus.
 4. Ești în Turcia și **nu știi cât rămâi**. Planul trebuie să meargă de oriunde.
 5. Lista de email are **5 oameni**. Asta e cea mai mare problemă de rezolvat.
 
@@ -20,7 +20,7 @@ _Reactualizat 30 octombrie 2026. Se sprijină pe `PLAN.md` și pe Roadmap (secț
 | TikTok | cont nou, o postare pe zi din 19 oct | Prea devreme pentru concluzii |
 | PDF gratuit (Payhip) | 112 vizualizări, 5 descărcări | Pagina convertește bine (~4,5%). **Lipsește traficul**, nu oferta |
 | Chirie | ~400 €/lună | Stabilă |
-| VirtuMe | ~370 € (400 USD) minim garantat, încă ~o lună | Apoi doar venit din abonamentele fanilor |
+| VirtuMe | ~370 € (400 USD) minim garantat, încă ~o lună | Apoi doar venitul din abonamente, care acum e mic; îl socotim 0 |
 | Donații | necunoscut acum | În Roadmap erau ~500 €/lună; de confirmat |
 | Afiliați (Bewit, Dope Rope, Revu) | mic | |
 | Terapie | 0 luna trecută | Nu mai e bază |
@@ -72,7 +72,7 @@ Plus **chiria**, care merge singură.
 |---|---|---|
 | **Noiembrie** (Turcia, cât stai) | pâlnia (secțiunea 7); 4 streamuri, 12–16 ore pe săptămână; segment „follow-along” de la sală, din care tai clipuri; lista de așteptare pentru coaching (gratuită: nume și email); contestația YouTube; întrebările la contabilă | nicio vânzare din Turcia |
 | **Decembrie** | e-book-ul pe Payhip (12 €, după răspunsul contabilei); filmezi programul de 30 de zile (4 zile scurte, `PROGRAM-30-ZILE.md`); primii 3–5 oameni la coaching, preț de fondator | vânzări doar din România sau cu avizul contabilei |
-| **Ianuarie** | coaching 5–10 oameni; clasa lunară în Discord pentru abonați; decizia pe VirtuMe, după cifrele de după garanție | |
+| **Ianuarie** | coaching 5–10 oameni; clasa lunară în Discord pentru abonați; decizia pe VirtuMe (rămâne sau nu), după cifrele de după garanție | |
 | **Februarie** | challenge gratuit de 7 zile „Desk Reset”, live și cu email (modelul Doc Jen); precomandă program 29 € | |
 | **Martie** | lansarea programului: 39 € timp de 7 zile, apoi 49 €; pachet cu e-book 54 € | reduceri permanente |
 
@@ -137,12 +137,14 @@ Scopul: din cei 150–200 de spectatori și din clipuri, oamenii ajung pe **list
 | Chirie | 400 € | 400 € | 400 € |
 | Twitch | 500–600 € | 550–650 € | 600–750 € |
 | Donații | ? | ? | ? |
-| VirtuMe | ~370 € (garantat) | 0–200 € | 0–200 € |
+| VirtuMe | ~370 € (garantat) | 0 € (bonus dacă apar abonați) | 0 € (bonus dacă apar abonați) |
 | Coaching (49 €/lună) | 0 | 150–250 € (3–5 oameni) | 400–700 € (8–14 oameni) |
 | E-book | 0 | 50–150 € | 50–150 € |
 | Program 30 de zile | 0 | 0 | 400–1.000 € (luna lansării) |
 | Afiliați și sponsori | puțin | 50–150 € | 100–300 € |
-| **Total, fără donații** | **~1.300 €** | **~1.200–1.800 €** | **~1.950–3.500 €** |
+| **Total, fără donații** | **~1.300 €** | **~1.200–1.600 €** | **~1.950–3.300 €** |
+
+**VirtuMe, separat:** colaborarea plătită ține 3 luni. Contractul spune că Twin-ul rămâne online minimum 90 de zile de la lansare, apoi oricare parte îl poate opri cu 30 de zile de preaviz; dacă rămâne, venitul din abonamente e 100% al tău în primele 4 luni. Mai e un **bonus de lansare de 750 USD, plătit după primele 90 de zile, doar dacă ai făcut promovarea cerută** (link în bio și Linktree, `!twin`, Twin-ul în live o dată pe săptămână, 2 story-uri pe săptămână). Deci: faci promovarea până la capăt, iei bonusul, apoi decizi pe cifre.
 
 **Pe scurt:** 2.000 € pe lună, stabil și remote, e realist în **4–6 luni**, nu în noiembrie. Cel mai sigur pas spre el: **coaching-ul online** (10 oameni la 49 € = 490 €) plus Twitch crescut. Dacă donațiile încă vin, ești deja mai aproape.
 
