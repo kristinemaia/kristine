@@ -143,6 +143,8 @@ GROUPS = [
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
+            {"kind": "doc", "slug": "plan-remote", "title": "Planul remote: cum crești online, de oriunde (30 oct)", "src": "PLAN-REMOTE.md",
+             "desc": "Reactualizarea întregului plan pentru o muncă mereu remote: cifrele de acum, diagnosticul, cele patru surse de venit, ce oprești, calendarul nov–mar, săptămâna-tip, pâlnia spre lista de email și drumul spre 2.000 € pe lună."},
             {"kind": "doc", "slug": "tiktok-plan", "title": "TikTok: ce postezi, când și cum (19 oct – 16 nov)", "src": "TIKTOK-PLAN.md",
              "desc": "Un TikTok pe zi, la 19:00: ce postezi în fiecare zi, descrierea gata de copiat, cum alegi clipurile din stream, cum postezi un reel sau un carusel și ce programezi când."},
             {"kind": "doc", "slug": "postari-descrieri", "title": "Toate descrierile și hashtag-urile, gata de copiat", "src": "POSTARI-DESCRIERI.md",
