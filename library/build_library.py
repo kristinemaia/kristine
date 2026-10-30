@@ -143,6 +143,8 @@ GROUPS = [
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
+            {"kind": "doc", "slug": "parteneri", "title": "Parteneri și colaborări: venit de oriunde (30 oct)", "src": "PARTENERI.md",
+             "desc": "Cele 4 tipuri de parteneri, ritmul săptămânal de emailuri, oferta cu prețuri de pornire, regulile (avocat, Turcia, #ad) și cum se organizează munca de oriunde. Merge cu PARTENERI.xlsx și media kit-ul."},
             {"kind": "doc", "slug": "calendar-continut", "title": "Calendarul de conținut, pe toate platformele (30 oct)", "src": "CALENDAR-CONTINUT.md",
              "desc": "Ce e postat, ce e programat, ce ai de programat și ce ai de filmat: Instagram, TikTok, KM, story-uri, Twitch, Spotify, YouTube și loturile de filmare la sală, până la Crăciun."},
             {"kind": "doc", "slug": "plan-remote", "title": "Planul remote: cum crești online, de oriunde (30 oct)", "src": "PLAN-REMOTE.md",

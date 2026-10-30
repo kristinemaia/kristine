@@ -12,9 +12,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 STATS = {
     'twitch_followers': '72K',
-    'instagram_followers': '12.7K',
+    'instagram_followers': '12.6K',
     'streams_per_week': '4',
-    'avg_viewers': None,          # ex. '1.2K' din Twitch Analytics (media pe 30 de zile); None = nu apare
+    'avg_viewers': '150–200',     # din Twitch Analytics (media pe 30 de zile); None = nu apare
 }
 AUDIENCE = None                    # ex. 'Top countries: ... · Main age group: ...' din Analytics; None = nu apare
 EMAIL = 'kristinemaia527@gmail.com'
@@ -24,7 +24,7 @@ def stat_tiles():
          (STATS['instagram_followers'], 'Instagram followers', '@kristinemaia11'),
          (STATS['streams_per_week'] + '×', 'live streams a week', 'with a stretch break every hour')]
     if STATS['avg_viewers']:
-        t.append((STATS['avg_viewers'], 'average live viewers', 'last 30 days, Twitch Analytics'))
+        t.append((STATS['avg_viewers'], 'average live viewers', 'Twitch, recent months'))
     return ''.join(f'<div class="stat"><b>{a}</b><span>{b}</span><i>{c}</i></div>' for a, b, c in t)
 
 CSS = """
@@ -72,11 +72,11 @@ def html(photo):
 <div><h2>Best fit for</h2><ul><li>Ergonomic desk and gaming gear</li><li>Mobility and recovery tools</li><li>Fitness accessories</li><li>Everyday nutrition and healthy food</li></ul></div></div>
 <div><h2>What we can do together</h2><div class="cards">
 <div class="card" style="background:var(--blue)"><b>Sponsored live segment</b><p>A short, natural moment in my stream: I use your product on camera and the chat sees it live.</p></div>
-<div class="card" style="background:var(--pink)"><b>Reels &amp; TikTok</b><p>Short vertical videos (30–60 seconds) made for Instagram and TikTok, with clear captions and #ad.</p></div>
+<div class="card" style="background:var(--pink)"><b>Reels &amp; TikTok</b><p>Short vertical videos filmed in the gym (mobility tests, form checks, follow-alongs), posted 5 times a week, with clear captions and #ad.</p></div>
 <div class="card" style="background:var(--mint)"><b>Stories with your code</b><p>Story posts with a discount code and link for my community, and a pinned panel on my Twitch channel.</p></div>
 <div class="card" style="background:var(--lilac)"><b>Chat command &amp; panel</b><p>A command in my Twitch chat (for example !yourbrand) that gives viewers your link and code.</p></div></div></div>
 <div class="row"><div><h2>Brands I use &amp; share codes for</h2><span class="pill">Dope Rope</span><span class="pill">Bewit</span><span class="pill">Revu Natural</span></div>
-<div><h2>My own products</h2><span class="pill">Free PDF: 5-minute desk stretch</span><span class="pill">Recipe e-book</span></div></div>
+<div><h2>My own products</h2><span class="pill">Free PDF: 5-minute desk stretch</span><span class="pill">Recipe e-book</span><span class="pill">1:1 online coaching</span></div></div>
 <div class="contact"><div><h2>Let's talk</h2><p>{EMAIL}<br>twitch.tv/kristinemaia · instagram.com/kristinemaia11 · TikTok @kristinemaia11</p></div><div class="rates">Rates on request</div></div>
 <div class="foot">General mobility and recipe content, not medical advice. Sponsored posts are marked #ad; affiliate codes are always disclosed.</div>
 </div></div></body></html>"""
