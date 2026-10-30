@@ -58,6 +58,13 @@ R = [
  ('Rez-K8', 'cream', 'My stream-day desk snacks (3 things).', 'Stream-day snacks', 'General food ideas, not medical advice.', PDF, [], False),
  ('Rez-O7', 'neck', 'Why your neck feels stiff after 4 hours of gaming.', 'Why your neck feels stiff', GENTLE, PDF, [], False),
  ('Rez-K9', 'cream', '12 things I always keep in my kitchen.', '12 kitchen staples', 'General food ideas, not medical advice.', PDF, [], False),
+ # reel-uri de sală gândite pentru distribuire și comentarii (30 oct); storyboard: build_storyboards.py
+ ('G1-Test', 'hips', 'Sit all day? Can you pass these 3 tests?', 'The sitting test', 'How many did you pass? Comment 0–3.', PDF,
+  [('Test 1 · Wall angel', 'hips'), ('Test 2 · Deep squat, 10 s', 'hips'), ('Test 3 · Floor to standing, no hands', 'hips')], False),
+ ('G2-POV', 'shoulders', "POV: you sat for 9 hours and now it's leg day.", 'POV: 9 hours sitting', 'Save this for your next leg day.', PDF,
+  [('My hips:', 'shoulders'), ('10-second fixes', 'shoulders'), ('Hip flexors', 'hips'), ('Upper back', 'shoulders'), ('Cat-cow', 'hips'), ('Better.', 'wrists')], False),
+ ('G3-Form', 'wine', '3 cable row mistakes I see in every gym. Are you doing #2?', 'Are you doing #2?', "Send me your row. I'll rate it.", 'Coaching waitlist → link in bio',
+  [('Wrong · shoulders up', 'neck'), ('Right · shoulders down', 'wrists'), ('Wrong · leaning back', 'neck'), ('Right · sit tall', 'wrists'), ('Wrong · elbows out', 'neck'), ('Right · elbows close', 'wrists')], False),
 ]
 TIMES = ['5 minutes', '10 minutes', '15 minutes', '20 minutes', '25 minutes', '30 minutes']
 

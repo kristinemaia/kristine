@@ -145,6 +145,8 @@ GROUPS = [
         "items": [
             {"kind": "doc", "slug": "plan-remote", "title": "Planul remote: cum crești online, de oriunde (30 oct)", "src": "PLAN-REMOTE.md",
              "desc": "Reactualizarea întregului plan pentru o muncă mereu remote: cifrele de acum, diagnosticul, cele patru surse de venit, ce oprești, calendarul nov–mar, săptămâna-tip, pâlnia spre lista de email și drumul spre 2.000 € pe lună."},
+            {"kind": "doc", "slug": "reeluri-virale-sala", "title": "Trei reel-uri de sală făcute pentru distribuire (G1–G3)", "src": "REELURI-VIRALE-SALA.md",
+             "desc": "Testul de stat jos, POV-ul cu 9 ore pe scaun și form check la ramat: cadrele pe secunde, textul de pe ecran, descrierile, cum filmezi și când postezi."},
             {"kind": "doc", "slug": "youtube-recuperare", "title": "YouTube: recuperarea canalului vechi și a filmărilor", "src": "YOUTUBE-RECUPERARE.md",
              "desc": "Cum afli de ce a fost închis, contestația (primul an), programul „Second chance” (după un an), recuperarea accesului, Google Takeout pentru filmări și modelul de contestație în engleză."},
             {"kind": "doc", "slug": "tiktok-plan", "title": "TikTok: ce postezi, când și cum (19 oct – 16 nov)", "src": "TIKTOK-PLAN.md",
