@@ -1,6 +1,6 @@
 # Antrenamentul online: Custom Program, chestionarul și ce filmăm
 
-_30 octombrie 2026 (v2). Pe site e deja pagina `training.html`: un chestionar „smart” de 11 întrebări (două apar doar când e cazul) care dă planul pe loc. Până se deschide programul, butonul duce la lista de așteptare._
+_30 octombrie 2026 (v2). Pe site e deja pagina `training.html`: un chestionar „smart” de 12 întrebări (două apar doar când e cazul), cu vârsta, operațiile și problemele de sănătate care dă planul pe loc. Până se deschide programul, butonul duce la lista de așteptare._
 
 ## 0. Numele: „Custom Program”, sub numele tău
 - **Pe site:** „Your custom program” și butonul **„Join your custom program”**. Numele complet: **Kristine Maia Custom Program**. Oamenii cumpără de la tine și te caută după nume, deci numele tău rămâne pe tot.
@@ -17,9 +17,9 @@ _30 octombrie 2026 (v2). Pe site e deja pagina `training.html`: un chestionar �
 | Traseu | Pentru cine | Sesiuni |
 |---|---|---|
 | **Unstiff** (mobilitate, fără durere) | „vreau să nu mai fiu înțepenit” | 10–20 min |
-| **Unstiff (gentle)** | cine a răspuns „da” la întrebarea de siguranță: doar mobilitate blândă + „întreabă medicul” | 10–20 min |
-| **Desk to Strong** | forță; acasă (fără nimic, benzi, gantere, kettlebell, bară) sau la sală | 20–40 min |
-| **Lean & Strong** | „vreau să slăbesc și să fiu în formă”: forță + o zi de cardio (coardă sau mers înclinat) | 20–40 min |
+| **Unstiff (gentle)** | cine are sub 18 ani sau a bifat inimă, operație în ultimele 6 luni, sarcină sau „medicul mi-a limitat efortul”: doar mobilitate blândă + „întreabă medicul” | 10–20 min |
+| **Get Strong** | forță; acasă (fără nimic, benzi, gantere, kettlebell, bară) sau la sală | 20–40 min |
+| **Shape Up** | „vreau să slăbesc și să fiu în formă”: forță + o zi de cardio (coardă sau mers înclinat; fără sărituri când e cazul) | 20–40 min |
 | **Desk Reset** | „vreau să mă simt bine la birou” (gât, spate, postură): spate de sus, core, mobilitate | 10–20 min |
 | **Resetări de 5 minute** | gât, spatele de sus, lombar, șolduri, încheieturi, genunchi | 5 min |
 
@@ -38,15 +38,31 @@ Fiecare traseu are **începător**, **revenire** (a mai făcut sport, acum nu) �
 | 8 | Câte zile | 2, 3 sau 4 |
 | 9 | **Unde simți după o zi lungă** (gât, umeri și spate sus, lombar, șolduri, încheieturi, genunchi) | resetările de 5 minute pentru zonele alese |
 | 10 | **Cum se simte** (apare doar dacă a ales o zonă): înțepenit, mai bine când mă mișc / **durere** ascuțită, constantă, noaptea, amorțeală, după accidentare | la **durere**: mesaj „mergi la medic sau fizioterapeut”, sare peste ce doare, resetările pentru zona aceea rămân pe dinafară până primește acordul |
-| 11 | **Siguranța:** afecțiune cardiacă sau alta, sarcină, medicul ți-a limitat efortul | la „da”: doar Unstiff (gentle) și „întreabă medicul întâi” |
+| 11 | **Vârsta:** sub 18 / 18–39 / 40–59 / 60+ | sub 18: mesaj „programul e pentru adulți, antrenează-te cu un părinte sau antrenor” și doar mobilitate blândă; 60+: 2 minute de echilibru lângă perete |
+| 12 | **Sănătatea** (bifezi tot ce se aplică sau „None of these”) | vezi tabelul de mai jos |
 
-**Slăbitul, făcut corect:** Lean & Strong = forță (ca să păstreze mușchiul) + o zi de cardio + „cu ~2.000 de pași mai mult pe zi” + idei generale de mâncare (proteină și legume la fiecare masă, porții cu palma). **Fără calorii, fără planuri de dietă, fără promisiuni de kilograme.** Pe pagină scrie clar: educație generală, nu sfat medical sau de dietă.
+**Întrebarea 12, cum gândește:**
+| Bifat | Ce face planul |
+|---|---|
+| Inimă (boală, durere în piept, leșin la efort) · Operație în ultimele 6 luni · Sarcină · Medicul mi-a limitat efortul | **stop**: doar Unstiff (gentle) și „vorbește întâi cu medicul” |
+| Operație mai veche sau proteză | „respectă limitele de la chirurg sau fizioterapeut; sari peste ce încarcă zona” |
+| Hernie de disc sau altă problemă de spate | fără îndoiri și răsuciri cu greutate; „un fizioterapeut să-ți spună ce mișcări ți se potrivesc” |
+| Tensiune mare | expiri la efort, nu ții respirația, fără maxime, te ridici încet de jos |
+| Diabet | apă și o gustare la îndemână; „întreabă medicul cum se potrivește cu tratamentul” |
+| Astm | inhalatorul aproape, încălzire mai lungă, cardio crescut încet |
+| Osteoporoză | **fără sărituri**, fără abdomene cu greutate; forță crescută încet |
+| Hernie | fără efort maxim și fără respirația ținută, core blând, întâi medicul |
+| A născut în ultimele 12 luni | respirație și podea pelviană întâi; **fără sărituri și abdomene** până o lasă medicul sau kinetoterapeutul de podea pelviană |
+
+Toate astea apar în cutia **„Adjusted for you”**, cu „arată planul medicului sau fizioterapeutului înainte să începi”. La osteoporoză, hernie, după naștere sau genunchi, coarda devine automat **mers înclinat sau marș pe loc**.
+
+**Slăbitul, făcut corect:** Shape Up = forță (ca să păstreze mușchiul) + o zi de cardio + „cu ~2.000 de pași mai mult pe zi” + idei generale de mâncare (proteină și legume la fiecare masă, porții cu palma). **Fără calorii, fără planuri de dietă, fără promisiuni de kilograme.** Pe pagină scrie clar: educație generală, nu sfat medical sau de dietă.
 
 **Durerea, făcută corect:** nu „tratăm” durerea. Înțepeneala (trece când te miști) primește resetări; durerea adevărată primește trimitere la specialist. Asta te protejează pe tine și pe ei.
 
 **Răspunsurile nu se trimit nicăieri**, rămân în browser. Abia la înscriere lasă omul emailul.
 
-**Testat:** 4 trasee prin chestionar (slăbit + ambele, birou Express, durere, siguranță „da”), pe telefon și laptop, fără erori.
+**Testat:** 6 drumuri prin chestionar (slăbit + ambele, birou 60+ cu tensiune, durere + osteoporoză, inimă, sub 18, slăbit după naștere + astm), pe telefon și laptop, fără erori.
 
 ## 4. Ce filmăm: o bibliotecă de exerciții, nu antrenamente întregi
 Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o singură dată** (30–40 de secunde, curat), iar eu **montez antrenamentele** din ele, cu cronometru, etichete și pauze. Din ~50 de clipuri ies zeci de antrenamente.
@@ -58,7 +74,7 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 - **Core (6):** dead bug, bird dog, plank, plank lateral, pallof press, hollow hold pentru începători.
 - **Mobilitate (15):** cat-cow, open book, world's greatest stretch, 90/90, flexorii șoldului în genunchi, extensie toracică pe bancă, child's pose cu întindere, wall angel, chin tucks, gâtul lateral, 3 pentru încheieturi, gleznă la perete, deep squat hold.
 - **Încălzire și final (5):** coardă, cercuri de brațe, cercuri de șold, leg swings, respirația de reset.
-- **Cardio pentru Lean & Strong (4):** intervale cu coarda (30/30), mers pe bandă înclinată, step-up rapid pe bancă, „marș” pe loc cu brațele (variantă fără sărituri, pentru acasă și pentru vecini).
+- **Cardio pentru Shape Up (4):** intervale cu coarda (30/30), mers pe bandă înclinată, step-up rapid pe bancă, „marș” pe loc cu brațele (variantă fără sărituri, pentru acasă și pentru vecini).
 
 **Pe lângă bibliotecă:**
 - **4 videouri scurte de început:** bun venit, cum folosești programul și chestionarul, siguranța (semnele la care te oprești), cum îți filmezi forma pentru coaching.
@@ -68,7 +84,7 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 **Cum filmezi biblioteca:** **15 minute în plus la fiecare sesiune de reel-uri** de la sală (8–10 exerciții pe sesiune), deci în ~5–6 săptămâni ai tot. Unghiul pe diagonală (45°), tot corpul, 2 repetări lente plus una normală; aceeași ținută pe lot; fără să vorbești (vocea și indicațiile le pun la montaj, ca text sau voice-over înregistrat separat, în liniște).
 
 **Aceleași filmări, două folosințe (reel-uri + program):**
-- Ce filmezi pentru program e și materie primă pentru Instagram, TikTok și stories. Eu tai din bibliotecă **reel-uri scurte**: „3 mișcări pentru gâtul de birou”, „greșit vs corect”, „ce face Lean & Strong într-o zi”, „încearcă asta între seturi”.
+- Ce filmezi pentru program e și materie primă pentru Instagram, TikTok și stories. Eu tai din bibliotecă **reel-uri scurte**: „3 mișcări pentru gâtul de birou”, „greșit vs corect”, „ce face Shape Up într-o zi”, „încearcă asta între seturi”.
 - **Regula:** pe reel-uri dai **o bucată** (5–10 secunde pe exercițiu, un sfat, o greșeală), iar **antrenamentul întreg, cu ordinea, pauzele și progresia pe 4 săptămâni, rămâne în program**. Altfel nu mai are nimeni motiv să plătească.
 - Fiecare reel de felul ăsta se termină cu **„Build your custom program → link in bio”**, care duce la chestionar.
 - Pentru reel-uri filmezi **în plus** doar cârligul (2–3 secunde la cameră) și, dacă vrei, o variantă vorbită. Restul vine din bibliotecă.
@@ -100,4 +116,5 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 ## 8. Legal (pentru avocat și contabilă)
 - Termenii programului: „not medical advice”, întrebarea de siguranță, dreptul de retragere la conținut digital (se pierde când omul începe să folosească conținutul, cu acordul lui), anularea abonamentului.
 - Pagina de confidențialitate: ce date aduni (doar emailul la înscriere și ce cere Payhip la plată).
+- **Datele de sănătate (vârstă, operații, boli) sunt „date sensibile” după GDPR.** Acum chestionarul **nu le trimite nicăieri** (rămân în browserul omului), deci nu le colectezi. Dacă vreodată le ceri prin formular sau email (de ex. la coaching), îți trebuie **acordul explicit** al omului și o mențiune în pagina de confidențialitate: întreabă avocatul.
 - Facturarea și forma firmei (PFA sau SRL) pentru venituri lunare recurente.

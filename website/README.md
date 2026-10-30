@@ -25,7 +25,7 @@ Site static (HTML + CSS + puțin JavaScript), fără abonamente lunare și făr�
 |---|---|
 | `index.html` | Prima pagină: contorul „How many hours did you sit today?” (sliderul, omulețul care se cocoșează, pauza de 60 s), banda roz cu PDF-ul gratuit („5:00”), apoi programul de 30 de zile și e-book-ul (ambele pe waitlist) (e-book, programul de 30 de zile), despre tine + programul de pe Twitch |
 | `free.html` | 3 rutine gratuite (gât, încheieturi, șolduri) + formularul pentru PDF |
-| `training.html` | Antrenamentul online: chestionarul care dă planul și ce conține Custom Program (pe listă de așteptare) |
+| `training.html` | Antrenamentul online: chestionarul de 12 întrebări (inclusiv vârsta, operațiile și sănătatea) care dă programul și ce conține Custom Program (pe listă de așteptare) |
 | `shop.html` | E-book-ul (€12), programul de 30 de zile (€39) și coaching-ul online 1:1 (€49/lună), toate pe waitlist; codurile de reducere; întrebări |
 | `live.html` | Programul de pe Twitch, un panou „Support the stream”, regulile de chat |
 | `about.html` | Povestea ta și ce ești |

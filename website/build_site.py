@@ -407,7 +407,14 @@ QUIZ = "".join([
     q_radio("days", "8. How many days a week?", [("2", "2 days"), ("3", "3 days"), ("4", "4 days")]),
     q_check("area", "9. Where do you feel it after a long day?", [("neck", "Neck"), ("upper", "Shoulders and upper back"), ("lower", "Lower back"), ("hips", "Hips"), ("wrists", "Wrists and elbows"), ("knees", "Knees")], "Pick any, or none."),
     q_radio("feel", "10. How does it feel?", [("stiff", "Stiff or tight, and better once I move"), ("pain", "Pain: sharp, constant, wakes me up, numbness or tingling, or after an injury")], "", ' id="q-feel" hidden'),
-    q_radio("safe", "11. Do you have a heart or other medical condition, are you pregnant, or has a doctor told you to limit exercise?", [("no", "No"), ("yes", "Yes")]),
+    q_radio("age", "11. How old are you?", [("u18", "Under 18"), ("18", "18 to 39"), ("40", "40 to 59"), ("60", "60 or more")]),
+    q_check("health", "12. Does any of this apply to you?", [
+        ("heart", "Heart condition, chest pain or fainting when active"), ("surg6", "Surgery in the last 6 months"),
+        ("preg", "Pregnant"), ("doc", "A doctor told me to limit exercise"),
+        ("surg", "Older surgery or joint replacement (more than 6 months ago)"), ("spine", "Disc problem or a diagnosed back condition"),
+        ("bp", "High blood pressure"), ("diab", "Diabetes"), ("asthma", "Asthma"), ("osteo", "Osteoporosis or low bone density"),
+        ("hernia", "Hernia"), ("post", "I had a baby in the last 12 months"), ("none", "None of these")],
+        "Pick all that apply. Your answers stay on your phone or computer and are not sent anywhere."),
 ])
 
 training = """
@@ -431,7 +438,7 @@ training = """
   <div class="block-head"><p class="kicker">The quiz</p><h2 id="quiz-title">Build your program</h2></div>
   <form class="quiz" id="quiz-form" novalidate>
     """ + QUIZ + """
-    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question with a choice (questions 6 and 9 are optional).</p>
+    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question (6 and 9 are optional; for 12, pick “None of these” if nothing applies).</p>
     <button class="btn" type="submit">Show my custom program</button>
   </form>
 </section>
@@ -441,7 +448,9 @@ training = """
     <span class="tag">Your custom program</span>
     <h2 id="r-track">Track</h2>
     <p class="muted" id="r-level"></p>
-    <div id="r-safe" class="notice-safe" hidden><b>Check with your doctor first.</b> Because of your answer to the last question, start only with gentle mobility and ask a doctor before you add strength or cardio.</div>
+    <div id="r-age" class="notice-safe" hidden><b>This program is for adults.</b> If you are under 18, show this page to a parent, a PE teacher or a coach and train with them. The gentle mobility below is a safe place to start.</div>
+    <div id="r-safe" class="notice-safe" hidden><b>Check with your doctor first.</b> Because of your health answers, start only with gentle mobility and ask your doctor before you add strength or cardio.</div>
+    <div id="r-adj-w" class="notice-safe" hidden><b>Adjusted for you.</b> Show this plan to your doctor or physio before you start.<ul id="r-adj"></ul></div>
     <div id="r-pain" class="notice-safe" hidden><b>About the pain you mentioned.</b> Sharp, constant or night pain, numbness, tingling or pain after an injury should be checked by a doctor or physiotherapist. Until you have the all-clear, skip any exercise that hurts there; the resets for those spots stay out of your plan.</div>
     <h3>Your week</h3>
     <ul id="r-week"></ul>
@@ -467,12 +476,13 @@ training = """
     <li><b>Your place:</b> home, gym or both, with the equipment you actually have.</li>
     <li><b>Your time:</b> 10 to 40 minutes, 2 to 4 days a week.</li>
     <li><b>Your body:</b> resets for the spots that feel stiff, and a safer plan if something hurts.</li>
+    <li><b>Your health:</b> age, past surgeries and conditions decide what goes in your plan and what stays out.</li>
   </ul>
   <p class="small muted mt-s">Your program is built from these building blocks:</p>
   <div class="tracks">
     <article class="panel p-blue"><h3>Unstiff</h3><p class="muted">Mobility for people who sit all day. 10 to 20 minutes, anywhere.</p></article>
-    <article class="panel p-pink"><h3>Desk to Strong</h3><p class="muted">Strength at home or at the gym, with a focus on legs and glutes, upper body or core. Beginner and intermediate.</p></article>
-    <article class="panel p-lilac"><h3>Lean &amp; Strong</h3><p class="muted">Strength plus short cardio sessions (jump rope, incline walking) and simple daily habits. No crash diets.</p></article>
+    <article class="panel p-pink"><h3>Get Strong</h3><p class="muted">Strength at home or at the gym, with a focus on legs and glutes, upper body or core. Beginner and intermediate.</p></article>
+    <article class="panel p-lilac"><h3>Shape Up</h3><p class="muted">Strength plus short cardio sessions (jump rope, incline walking) and simple daily habits. No crash diets.</p></article>
     <article class="panel p-mint"><h3>Desk Reset</h3><p class="muted">Posture, neck and back: upper-back strength, core and 5-minute resets for the spots that complain.</p></article>
   </div>
   <p class="small muted mt-s">Every program runs in 4-week blocks that get a little harder each week, with gym and home versions. A new workout every week and a monthly live class with me. Want me to check your form and adjust it by hand? That's <a href="shop.html#coaching">1:1 coaching</a>. Founding price for people on the waitlist.</p>
@@ -482,7 +492,7 @@ training = """
   <div class="block-head"><p class="kicker">Questions</p><h2 id="tfaq-title">Before you start</h2></div>
   <div class="faq">
     <details><summary>Is this medical treatment?</summary><p>No. I have a degree in Physical Education and Sport and coach mobility and strength. This is general exercise and education. If you have pain, an injury or a medical condition, see a doctor first.</p></details>
-    <details><summary>Will this help me lose weight?</summary><p>The Lean &amp; Strong track combines strength, short cardio and daily movement, which supports fat loss together with how you eat. I don't promise kilos or write diets. For personal nutrition, talk to a dietitian.</p></details>
+    <details><summary>Will this help me lose weight?</summary><p>The Shape Up track combines strength, short cardio and daily movement, which supports fat loss together with how you eat. I don't promise kilos or write diets. For personal nutrition, talk to a dietitian.</p></details>
     <details><summary>I'm a complete beginner. Is it for me?</summary><p>Yes. The beginner plans start with short sessions and simple moves, and every exercise has an easier option.</p></details>
     <details><summary>Home or gym?</summary><p>Both work. Every workout has a gym version and a home version, and you can mix them in the same week.</p></details>
     <details><summary>Do you make meal plans?</summary><p>No. I'm not a dietitian, so I don't write personal meal plans. I share general food ideas and quick recipes.</p></details>
@@ -502,9 +512,23 @@ training = """
     upper:{2:['Upper body and back','Full body'],3:['Upper body and back','Lower body and core','Shoulders and posture'],4:['Upper body and back','Lower body','Shoulders and posture','Lower body and core']},
     core:{2:['Full body + core finisher','Full body + core finisher'],3:['Lower body + core','Upper body and posture','Core and full body'],4:['Lower body + core','Upper body and posture','Lower body + core','Core and full body']}
   };
+  var ADJ={
+    surg:'Older surgery: follow the limits your surgeon or physio gave you, and skip moves that load that area until they say it is fine.',
+    spine:'Back condition: no heavy bending or twisting under load; a physio should check which moves are right for you.',
+    bp:'High blood pressure: breathe out on the effort, never hold your breath, no max lifts, and get up slowly from the floor.',
+    diab:'Diabetes: keep water and a quick snack nearby, and ask your doctor how training fits with your treatment.',
+    asthma:'Asthma: keep your inhaler nearby, warm up a few extra minutes and build cardio up slowly.',
+    osteo:'Low bone density: no jumping and no loaded rounding of the spine (like weighted sit-ups); strength work built up slowly.',
+    hernia:'Hernia: no heavy straining or breath-holding, gentle core work only, and check with your doctor first.',
+    post:'After a baby: start with breathing and pelvic-floor work; no jumping or crunches until a doctor or pelvic-floor physio clears you.'
+  };
   function val(n){var e=f.querySelector('input[name="'+n+'"]:checked');return e?e.value:null}
   function vals(n){return [].map.call(f.querySelectorAll('input[name="'+n+'"]:checked'),function(x){return x.value})}
   function li(t){var l=document.createElement('li');l.textContent=t;return l}
+  f.addEventListener('change',function(e){
+    var t=e.target; if(t.name!=='health'||!t.checked) return;
+    [].forEach.call(f.querySelectorAll('input[name="health"]'),function(x){ if(t.value==='none'?x.value!=='none':x.value==='none') x.checked=false; });
+  });
   function sync(){
     var pl=val('place'); qEquip.hidden=!(pl==='home'||pl==='both');
     qFeel.hidden=vals('area').length===0;
@@ -512,11 +536,16 @@ training = """
   f.addEventListener('change',sync);
   f.addEventListener('submit',function(e){
     e.preventDefault();
-    var need=['sit','goal','focus','exp','place','time','days','safe']; if(!qFeel.hidden) need.push('feel');
+    var need=['sit','goal','focus','exp','place','time','days','age','health']; if(!qFeel.hidden) need.push('feel');
     for(var i=0;i<need.length;i++){ if(!val(need[i])){ err.hidden=false; var q=f.querySelector('input[name="'+need[i]+'"]'); q.closest('fieldset').scrollIntoView({behavior:'smooth',block:'center'}); return; } }
     err.hidden=true;
-    var a={sit:val('sit'),goal:val('goal'),focus:val('focus'),exp:val('exp'),place:val('place'),time:val('time'),days:+val('days'),safe:val('safe'),feel:val('feel')};
-    var eq=vals('equip'), areas=vals('area'), pain=(a.feel==='pain'&&areas.length>0), safe=(a.safe==='yes');
+    var a={sit:val('sit'),goal:val('goal'),focus:val('focus'),exp:val('exp'),place:val('place'),time:val('time'),days:+val('days'),age:val('age'),feel:val('feel')};
+    var eq=vals('equip'), areas=vals('area'), hl=vals('health'), pain=(a.feel==='pain'&&areas.length>0);
+    var has=function(x){return hl.indexOf(x)>-1}, minor=(a.age==='u18');
+    var safe=minor||['heart','surg6','preg','doc'].some(has);
+    var adj=Object.keys(ADJ).filter(has).map(function(x){return ADJ[x]});
+    if(a.age==='60') adj.push('60 or more: two minutes of balance practice next to a wall on training days.');
+    var noJump=['osteo','post','hernia'].some(has)||areas.indexOf('knees')>-1;
     var mins={'10':'10','20':'20','35':'30 to 40'}[a.time];
     var level=(a.exp==='reg')?'Intermediate':(a.exp==='some'?'Returning beginner':'Beginner');
     var homeKit=eq.length?('home, with '+eq.map(function(x){return {bands:'bands',db:'dumbbells',kb:'a kettlebell',bar:'a pull-up bar'}[x]}).join(', ')):'home, no equipment';
@@ -538,10 +567,10 @@ training = """
       var express=(a.time==='10');
       var s=(a.goal==='fat')?Math.max(2,a.days-1):a.days;
       var plan=SPLIT[a.focus][s];
-      track=(a.goal==='fat'?'Lean & Strong':'Desk to Strong')+(express?' · Express':'');
+      track=(a.goal==='fat'?'Shape Up':'Get Strong')+(express?' · Express':'');
       plan.forEach(function(p,i){ week.push('Day '+(i+1)+': '+p+dayPlace(i)+', '+mins+' minutes'); });
       if(a.goal==='fat'){
-        week.push('Day '+(s+1)+': Cardio, 15 to 20 minutes (jump rope intervals or incline walking)'+(a.place==='both'?' (home or gym)':''));
+        week.push('Day '+(s+1)+': Cardio, 15 to 20 minutes ('+(noJump?'incline walking or marching in place, no jumping':'jump rope intervals or incline walking')+')'+(a.place==='both'?' (home or gym)':''));
         extra.push('Walk a bit more than you do now, for example 2,000 extra steps a day');
         extra.push('Protein and vegetables at each meal; hand portions instead of a scale (general food ideas, not a diet)');
       }
@@ -549,7 +578,10 @@ training = """
     var shownAreas=pain?[]:areas;
     document.getElementById('r-track').textContent=track;
     document.getElementById('r-level').textContent='Level: '+level+' · '+where+(safe?'':' · '+a.days+' days a week · '+mins+' minutes');
-    document.getElementById('r-safe').hidden=!safe;
+    document.getElementById('r-age').hidden=!minor;
+    document.getElementById('r-safe').hidden=!safe||minor;
+    var aj=document.getElementById('r-adj');aj.innerHTML='';adj.forEach(function(t){aj.appendChild(li(t))});
+    document.getElementById('r-adj-w').hidden=safe||!adj.length;
     document.getElementById('r-pain').hidden=!pain;
     var w=document.getElementById('r-week');w.innerHTML='';week.forEach(function(t){w.appendChild(li(t))});
     var ex=document.getElementById('r-extra');ex.innerHTML='';extra.forEach(function(t){ex.appendChild(li(t))});
