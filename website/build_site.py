@@ -32,8 +32,8 @@ LINKS = {
     # Lista de așteptare pentru coaching. Când faci produsul gratuit pe Payhip
     # („1:1 online coaching: waitlist”, 0 €), pui aici linkul lui (payhip.com/b/...).
     "COACHING": "mailto:kristinemaia527@gmail.com?subject=1%3A1%20online%20coaching%20waitlist",
-    # Lista de așteptare pentru Training Club (abonamentul cu antrenamente). Când există pe Payhip, pui linkul aici.
-    "CLUB": "mailto:kristinemaia527@gmail.com?subject=Training%20Club%20waitlist",
+    # Lista de așteptare pentru Custom Program (abonamentul cu programul personalizat). Când există pe Payhip, pui linkul aici.
+    "CLUB": "mailto:kristinemaia527@gmail.com?subject=Custom%20Program%20waitlist",
 }
 
 FONTS = (
@@ -413,32 +413,32 @@ QUIZ = "".join([
 training = """
 <section class="wrap page-head">
   <p class="kicker">Online training</p>
-  <h1>Training built around how much you <em>sit</em>.</h1>
-  <p class="lead">Answer a few quick questions and I'll match you with a plan: stronger, leaner, less stiff, or all three. At home, at the gym or both, in the time you actually have.</p>
-  <div class="actions"><a class="btn" href="#quiz">Start the quiz</a></div>
+  <h1>Your <em>custom</em> program, built around how much you sit.</h1>
+  <p class="lead">Your goal, your stiff spots, your time, home or gym. Answer a few quick questions and your program is built from your answers: stronger, leaner, less stiff, or all three.</p>
+  <div class="actions"><a class="btn" href="#quiz">Build my program</a></div>
 </section>
 
 <section class="wrap block pt-s" aria-labelledby="how-title">
   <div class="block-head"><p class="kicker">How it works</p><h2 id="how-title">Three steps</h2></div>
   <ol class="steps">
     <li><b>Take the quiz.</b> Two minutes. Your answers stay in your browser.</li>
-    <li><b>Get your plan.</b> Your track, your week, and short resets for the spots that feel stiff.</li>
-    <li><b>Train with me.</b> Follow-along videos filmed in the gym, with home versions, 10 to 40 minutes. When the Training Club opens, members get every track and a new workout every week.</li>
+    <li><b>Get your custom program.</b> Your week, day by day, plus short resets for the spots that feel stiff.</li>
+    <li><b>Train with me.</b> Follow-along videos filmed in the gym, with home versions, 10 to 40 minutes. When the Custom Program opens, members get their program, every video and a new workout every week.</li>
   </ol>
 </section>
 
 <section class="wrap block" id="quiz" aria-labelledby="quiz-title">
-  <div class="block-head"><p class="kicker">The quiz</p><h2 id="quiz-title">Find your plan</h2></div>
+  <div class="block-head"><p class="kicker">The quiz</p><h2 id="quiz-title">Build your program</h2></div>
   <form class="quiz" id="quiz-form" novalidate>
     """ + QUIZ + """
     <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question with a choice (questions 6 and 9 are optional).</p>
-    <button class="btn" type="submit">Show my plan</button>
+    <button class="btn" type="submit">Show my custom program</button>
   </form>
 </section>
 
 <section class="wrap block pt-s" id="result" aria-live="polite" hidden>
   <article class="panel p-mint plan">
-    <span class="tag">Your plan</span>
+    <span class="tag">Your custom program</span>
     <h2 id="r-track">Track</h2>
     <p class="muted" id="r-level"></p>
     <div id="r-safe" class="notice-safe" hidden><b>Check with your doctor first.</b> Because of your answer to the last question, start only with gentle mobility and ask a doctor before you add strength or cardio.</div>
@@ -452,7 +452,7 @@ training = """
     <p id="r-breaks"></p>
     <p class="small muted">General exercise and education, not medical or diet advice. Stop if anything feels sharp or painful.</p>
     <div class="row-btns">
-      <a class="btn" href="{CLUB}">Join the Training Club waitlist</a>
+      <a class="btn" href="{CLUB}">Join your custom program (waitlist)</a>
       <a class="btn alt" href="{PAYHIP}">Start today: free 5-minute desk stretch</a>
     </div>
     <p class="small"><a href="shop.html#coaching">Want me to check your form? 1:1 coaching waitlist</a> · <button class="link-btn" id="q-again" type="button">Take the quiz again</button></p>
@@ -460,14 +460,22 @@ training = """
 </section>
 
 <section class="wrap block" aria-labelledby="club-title">
-  <div class="block-head"><p class="kicker">Coming soon · waitlist</p><h2 id="club-title">Inside the Training Club</h2></div>
+  <div class="block-head"><p class="kicker">Coming soon · waitlist</p><h2 id="club-title">What makes it custom</h2></div>
+  <ul class="steps">
+    <li><b>Your goal:</b> no stiffness, stronger, leaner, or feeling better at your desk.</li>
+    <li><b>Your focus:</b> whole body, legs and glutes, upper body and back, or core and posture.</li>
+    <li><b>Your place:</b> home, gym or both, with the equipment you actually have.</li>
+    <li><b>Your time:</b> 10 to 40 minutes, 2 to 4 days a week.</li>
+    <li><b>Your body:</b> resets for the spots that feel stiff, and a safer plan if something hurts.</li>
+  </ul>
+  <p class="small muted mt-s">Your program is built from these building blocks:</p>
   <div class="tracks">
     <article class="panel p-blue"><h3>Unstiff</h3><p class="muted">Mobility for people who sit all day. 10 to 20 minutes, anywhere.</p></article>
     <article class="panel p-pink"><h3>Desk to Strong</h3><p class="muted">Strength at home or at the gym, with a focus on legs and glutes, upper body or core. Beginner and intermediate.</p></article>
     <article class="panel p-lilac"><h3>Lean &amp; Strong</h3><p class="muted">Strength plus short cardio sessions (jump rope, incline walking) and simple daily habits. No crash diets.</p></article>
     <article class="panel p-mint"><h3>Desk Reset</h3><p class="muted">Posture, neck and back: upper-back strength, core and 5-minute resets for the spots that complain.</p></article>
   </div>
-  <p class="small muted mt-s">Every track runs in 4-week blocks that get a little harder each week, with gym and home versions. A new workout every week and a monthly live class with me. Founding price for people on the waitlist.</p>
+  <p class="small muted mt-s">Every program runs in 4-week blocks that get a little harder each week, with gym and home versions. A new workout every week and a monthly live class with me. Want me to check your form and adjust it by hand? That's <a href="shop.html#coaching">1:1 coaching</a>. Founding price for people on the waitlist.</p>
 </section>
 
 <section class="wrap block pt-s" aria-labelledby="tfaq-title">
@@ -560,7 +568,7 @@ training = """
 page(
     "training.html",
     "Online Training · Kristine Maia",
-    "Take the 2-minute quiz and get a training plan built around how much you sit: stronger, leaner or less stiff, at home, at the gym or both.",
+    "Take the 2-minute quiz and get your custom program, built around how much you sit: stronger, leaner or less stiff, at home, at the gym or both.",
     training,
 )
 
