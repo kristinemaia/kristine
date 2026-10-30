@@ -6,7 +6,7 @@ Cele 7 pagini devin secțiuni; meniul le schimbă fără să reîncarce; imagini
 """
 import base64, os, re, sys
 SITE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'website')
-PAGES = ['index', 'free', 'shop', 'live', 'about', 'brands', 'legal']
+PAGES = ['index', 'free', 'training', 'shop', 'live', 'about', 'brands', 'legal']
 rd = lambda p: open(os.path.join(SITE, p), encoding='utf-8').read()
 
 def inline_img(m):
@@ -39,7 +39,7 @@ router = """
   }
   document.addEventListener('click',function(e){
     var a=e.target.closest&&e.target.closest('a[href]'); if(!a) return;
-    var h=a.getAttribute('href'), m=h.match(/^(index|free|shop|live|about|brands|legal)\\.html(?:#(.+))?$/);
+    var h=a.getAttribute('href'), m=h.match(/^(index|free|training|shop|live|about|brands|legal)\\.html(?:#(.+))?$/);
     if(m){e.preventDefault(); show(m[1],m[2]); try{history.replaceState(null,'','#'+m[1]);}catch(x){}
       var nav=document.getElementById('nav-links'); if(nav&&nav.classList.contains('open')) document.querySelector('.menu-btn').click(); return;}
     if(h==='#main'){e.preventDefault(); window.scrollTo(0,0); return;}
@@ -47,7 +47,7 @@ router = """
       if(t){e.preventDefault(); t.scrollIntoView();}}
   });
   [].forEach.call(document.querySelectorAll('a[href$=".html"],a[href*=".html#"]'),function(a){
-    var m=a.getAttribute('href').match(/^(index|free|shop|live|about|brands|legal)\\.html/); if(m) a.dataset.go=m[1];});
+    var m=a.getAttribute('href').match(/^(index|free|training|shop|live|about|brands|legal)\\.html/); if(m) a.dataset.go=m[1];});
   show((location.hash||'').replace('#','')||'index');
 })();
 """

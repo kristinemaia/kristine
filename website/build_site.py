@@ -32,6 +32,8 @@ LINKS = {
     # Lista de așteptare pentru coaching. Când faci produsul gratuit pe Payhip
     # („1:1 online coaching: waitlist”, 0 €), pui aici linkul lui (payhip.com/b/...).
     "COACHING": "mailto:kristinemaia527@gmail.com?subject=1%3A1%20online%20coaching%20waitlist",
+    # Lista de așteptare pentru Training Club (abonamentul cu antrenamente). Când există pe Payhip, pui linkul aici.
+    "CLUB": "mailto:kristinemaia527@gmail.com?subject=Training%20Club%20waitlist",
 }
 
 FONTS = (
@@ -44,6 +46,7 @@ FONTS = (
 NAV = [
     ("index.html", "Home"),
     ("free.html", "Free routines"),
+    ("training.html", "Training"),
     ("shop.html", "Shop"),
     ("live.html", "Live"),
     ("about.html", "About"),
@@ -108,6 +111,7 @@ def footer(lang):
       <div><a class="brand" href="index.html">Kristine <span>Maia</span></a><p>{tag}</p></div>
       <div><h2>{explore}</h2><ul>
         <li><a href="free.html">{free}</a></li>
+        <li><a href="training.html">Training</a></li>
         <li><a href="shop.html">{shop}</a></li>
         <li><a href="live.html">Live</a></li>
         <li><a href="about.html">{about}</a></li>
@@ -378,6 +382,151 @@ page(
 
 
 # =====================================================================
+# 2b. TRAINING (training.html): chestionarul care potrivește planul.
+#    Răspunsurile rămân în browser (nu se trimit nicăieri).
+#    Până se deschide clubul, butoanele duc la lista de așteptare (LINKS["CLUB"]).
+# =====================================================================
+def q_radio(name, legend, opts, hint=""):
+    o = "".join('<label class="opt"><input type="radio" name="%s" value="%s" required><span>%s</span></label>' % (name, v, t) for v, t in opts)
+    h = '<p class="small muted">%s</p>' % hint if hint else ""
+    return '<fieldset class="qf"><legend>%s</legend>%s<div class="opts">%s</div></fieldset>' % (legend, h, o)
+
+def q_check(name, legend, opts, hint=""):
+    o = "".join('<label class="opt"><input type="checkbox" name="%s" value="%s"><span>%s</span></label>' % (name, v, t) for v, t in opts)
+    h = '<p class="small muted">%s</p>' % hint if hint else ""
+    return '<fieldset class="qf"><legend>%s</legend>%s<div class="opts">%s</div></fieldset>' % (legend, h, o)
+
+QUIZ = "".join([
+    q_radio("sit", "1. How many hours do you sit on a normal day?", [("lt4", "Under 4"), ("4-8", "4 to 8"), ("8-12", "8 to 12"), ("12", "12 or more")]),
+    q_radio("goal", "2. What do you want most right now?", [("mob", "Move without stiffness"), ("str", "Get stronger"), ("both", "Both")]),
+    q_radio("exp", "3. How much do you train at the moment?", [("new", "I'm new to training"), ("some", "I trained before, not now"), ("reg", "2 or more times a week")]),
+    q_radio("place", "4. Where will you train?", [("none", "At home, no equipment"), ("home", "At home, bands or dumbbells"), ("gym", "At the gym")]),
+    q_radio("time", "5. How much time per session?", [("10", "10 minutes"), ("20", "20 minutes"), ("35", "30 to 40 minutes")]),
+    q_radio("days", "6. How many days a week?", [("2", "2 days"), ("3", "3 days"), ("4", "4 days")]),
+    q_check("area", "7. What feels stiff or tired after a long day?", [("neck", "Neck"), ("upper", "Upper back"), ("lower", "Lower back"), ("hips", "Hips"), ("wrists", "Wrists"), ("knees", "Knees")], "Pick any, or none."),
+    q_radio("safe", "8. Do you have pain or an injury, a heart or other medical condition, are you pregnant, or has a doctor told you to limit exercise?", [("no", "No"), ("yes", "Yes")]),
+])
+
+training = """
+<section class="wrap page-head">
+  <p class="kicker">Online training</p>
+  <h1>Training built around how much you <em>sit</em>.</h1>
+  <p class="lead">Answer 8 quick questions and I'll match you with a plan: mobility, strength or both, at home or at the gym, in the time you actually have.</p>
+  <div class="actions"><a class="btn" href="#quiz">Start the quiz</a></div>
+</section>
+
+<section class="wrap block pt-s" aria-labelledby="how-title">
+  <div class="block-head"><p class="kicker">How it works</p><h2 id="how-title">Three steps</h2></div>
+  <ol class="steps">
+    <li><b>Take the quiz.</b> Two minutes. Your answers stay in your browser.</li>
+    <li><b>Get your plan.</b> Your track, how many days, how long, and short resets for the spots that feel stiff.</li>
+    <li><b>Train with me.</b> Follow-along videos, filmed in the gym, 10 to 40 minutes. When the Training Club opens, members get every track and a new workout every week.</li>
+  </ol>
+</section>
+
+<section class="wrap block" id="quiz" aria-labelledby="quiz-title">
+  <div class="block-head"><p class="kicker">The quiz</p><h2 id="quiz-title">Find your plan</h2></div>
+  <form class="quiz" id="quiz-form" novalidate>
+    """ + QUIZ + """
+    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer questions 1 to 6 and 8.</p>
+    <button class="btn" type="submit">Show my plan</button>
+  </form>
+</section>
+
+<section class="wrap block pt-s" id="result" aria-live="polite" hidden>
+  <article class="panel p-mint plan">
+    <span class="tag">Your plan</span>
+    <h2 id="r-track">Track</h2>
+    <p class="muted" id="r-level"></p>
+    <div id="r-safe" class="notice-safe" hidden><b>Check with your doctor first.</b> Because of your answer to question 8, start only with gentle mobility and ask a doctor or physiotherapist before you add strength training.</div>
+    <h3>Your week</h3>
+    <ul id="r-week"></ul>
+    <h3 id="r-resets-h">Extra 5-minute resets</h3>
+    <ul id="r-resets"></ul>
+    <h3>On sitting days</h3>
+    <p id="r-breaks"></p>
+    <p class="small muted">General exercise and education, not medical advice. Stop if anything feels sharp or painful.</p>
+    <div class="row-btns">
+      <a class="btn" href="{CLUB}">Join the Training Club waitlist</a>
+      <a class="btn alt" href="{PAYHIP}">Start today: free 5-minute desk stretch</a>
+    </div>
+    <p class="small"><a href="shop.html#coaching">Want me to check your form? 1:1 coaching waitlist</a> · <button class="link-btn" id="q-again" type="button">Take the quiz again</button></p>
+  </article>
+</section>
+
+<section class="wrap block" aria-labelledby="club-title">
+  <div class="block-head"><p class="kicker">Coming soon · waitlist</p><h2 id="club-title">Inside the Training Club</h2></div>
+  <div class="tracks">
+    <article class="panel p-blue"><h3>Unstiff</h3><p class="muted">Mobility for people who sit all day. 10 to 20 minutes, anywhere.</p></article>
+    <article class="panel p-pink"><h3>Desk to Strong · Home</h3><p class="muted">Strength with no equipment, or with bands and dumbbells. Beginner and intermediate.</p></article>
+    <article class="panel p-lilac"><h3>Desk to Strong · Gym</h3><p class="muted">Machines, cables and dumbbells, step by step. Beginner and intermediate.</p></article>
+    <article class="panel p-mint"><h3>5-minute resets</h3><p class="muted">Neck, upper back, lower back, hips and wrists, for the spots that complain.</p></article>
+  </div>
+  <p class="small muted mt-s">Every track runs in 4-week blocks that get a little harder each week. A new workout every week and a monthly live class with me. Founding price for people on the waitlist.</p>
+</section>
+
+<section class="wrap block pt-s" aria-labelledby="tfaq-title">
+  <div class="block-head"><p class="kicker">Questions</p><h2 id="tfaq-title">Before you start</h2></div>
+  <div class="faq">
+    <details><summary>Is this medical treatment?</summary><p>No. I have a degree in Physical Education and Sport and coach mobility and strength. This is general exercise and education. If you have pain, an injury or a medical condition, see a doctor first.</p></details>
+    <details><summary>I'm a complete beginner. Is it for me?</summary><p>Yes. The beginner plans start with short sessions and simple moves, and every exercise has a slower option.</p></details>
+    <details><summary>Can I change my plan later?</summary><p>Yes. Take the quiz again when your week or your goal changes. Club members can switch tracks at any time.</p></details>
+    <details><summary>Do you make meal plans?</summary><p>No. I'm not a dietitian, so I don't write personal meal plans. I share general food ideas and quick recipes.</p></details>
+  </div>
+</section>
+
+<script>
+(function(){
+  var f=document.getElementById('quiz-form'); if(!f) return;
+  var res=document.getElementById('result'), err=document.getElementById('quiz-err');
+  var AREAS={neck:'Neck reset',upper:'Upper back reset',lower:'Lower back reset',hips:'Hips reset',wrists:'Wrists reset',knees:'Knee-friendly hips and ankles (if your knees hurt, check with a doctor or physio first)'};
+  var BREAKS={'lt4':'One 2-minute stretch break in the middle of the day.','4-8':'A 2-minute stretch break every 2 hours.','8-12':'A 2-minute stretch break every 90 minutes. Set a timer.','12':'A 2-minute stretch break every hour, like we do on stream. Set a timer.'};
+  function val(n){var e=f.querySelector('input[name="'+n+'"]:checked');return e?e.value:null}
+  function li(t){var l=document.createElement('li');l.textContent=t;return l}
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var a={sit:val('sit'),goal:val('goal'),exp:val('exp'),place:val('place'),time:val('time'),days:val('days'),safe:val('safe')};
+    for(var k in a){if(!a[k]){err.hidden=false;var q=f.querySelector('input[name="'+k+'"]');if(q)q.closest('fieldset').scrollIntoView({behavior:'smooth',block:'center'});return}}
+    err.hidden=true;
+    var areas=[].map.call(f.querySelectorAll('input[name="area"]:checked'),function(x){return x.value});
+    var mins={'10':'10','20':'20','35':'30 to 40'}[a.time], d=+a.days;
+    var level=(a.exp==='reg')?'Intermediate':'Beginner';
+    var strName={none:'Desk to Strong · Home (no equipment)',home:'Desk to Strong · Home (bands and dumbbells)',gym:'Desk to Strong · Gym'}[a.place];
+    var track, week=[], safe=(a.safe==='yes');
+    if(safe){track='Unstiff (gentle)';level='Beginner';week.push(d+' × '+(a.time==='35'?'20':mins)+' minutes of gentle mobility');}
+    else if(a.goal==='mob'||a.time==='10'){
+      track='Unstiff';
+      for(var i=1;i<=d;i++) week.push('Day '+i+': Unstiff, full-body mobility, '+mins+' minutes');
+      if(a.goal!=='mob') week.push('When you have 20 minutes or more, add one strength day from '+strName+'.');
+    } else {
+      track=strName;
+      var s=(a.goal==='both')?Math.max(2,d-1):d;
+      var plan={2:['Full body A','Full body B'],3:['Lower body and core','Upper body and back','Full body'],4:['Lower body','Upper body and back','Lower body','Upper body and core']}[s];
+      plan.forEach(function(p,i){week.push('Day '+(i+1)+': '+p+', '+mins+' minutes')});
+      if(a.goal==='both') week.push('Day '+(s+1)+': Unstiff, mobility, 20 minutes');
+    }
+    document.getElementById('r-track').textContent=track;
+    document.getElementById('r-level').textContent='Level: '+level+(safe?'':' · '+d+' days a week · '+mins+' minutes');
+    document.getElementById('r-safe').hidden=!safe;
+    var w=document.getElementById('r-week');w.innerHTML='';week.forEach(function(t){w.appendChild(li(t))});
+    var r=document.getElementById('r-resets');r.innerHTML='';
+    if(areas.length){areas.forEach(function(x){r.appendChild(li(AREAS[x]+(x==='knees'?'':', 5 minutes, on any day')))})} else r.appendChild(li('No extra resets needed. Keep the stretch breaks.'));
+    document.getElementById('r-breaks').textContent=BREAKS[a.sit];
+    res.hidden=false; res.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+  document.getElementById('q-again').addEventListener('click',function(){f.reset();res.hidden=true;document.getElementById('quiz').scrollIntoView({behavior:'smooth'})});
+})();
+</script>
+""" + free_band("Start with <em>five</em> minutes.", LIST_PERKS)
+page(
+    "training.html",
+    "Online Training · Kristine Maia",
+    "Take the 2-minute quiz and get a training plan built around how much you sit: mobility, strength or both, at home or at the gym.",
+    training,
+)
+
+
+# =====================================================================
 # 3. SHOP (shop.html)
 #    „Tell me when it's out” / „Join the waitlist” duc la formularul de email (#free).
 #    Când e-book-ul și programul sunt pe Payhip, pui linkul Payhip în locul lui #free.
@@ -604,4 +753,4 @@ legal = """
 """
 page("legal.html", "Legal & Privacy · Kristine Maia", "Legal information, privacy and medical disclaimer.", legal, cur="none")
 
-print("ok: 7 pages written to " + OUT)
+print("ok: 8 pages written to " + OUT)

@@ -143,6 +143,8 @@ GROUPS = [
         "id": "plan", "name": "Plan", "note": "Strategie, conținut, bani, mutare",
         "zip": ("Plan-Kristine.zip", "plan"),
         "items": [
+            {"kind": "doc", "slug": "training-online", "title": "Antrenamentul online: Training Club, chestionarul, ce filmăm", "src": "TRAINING-ONLINE.md",
+             "desc": "Cum funcționează: chestionarul de pe site, traseele (Unstiff, Desk to Strong acasă și la sală, resetările), biblioteca de ~50 de exerciții de filmat, Payhip, prețul propus, calendarul până la deschiderea din martie și ce verifici cu avocatul."},
             {"kind": "doc", "slug": "parteneri", "title": "Parteneri și colaborări: venit de oriunde (30 oct)", "src": "PARTENERI.md",
              "desc": "Cele 4 tipuri de parteneri, ritmul săptămânal de emailuri, oferta cu prețuri de pornire, regulile (avocat, Turcia, #ad) și cum se organizează munca de oriunde. Merge cu PARTENERI.xlsx și media kit-ul."},
             {"kind": "doc", "slug": "calendar-continut", "title": "Calendarul de conținut, pe toate platformele (30 oct)", "src": "CALENDAR-CONTINUT.md",
