@@ -1,10 +1,10 @@
 # Antrenamentul online: Training Club, chestionarul și ce filmăm
 
-_30 octombrie 2026. Pe site e deja pagina `training.html`: chestionarul de 8 întrebări care dă planul. Până se deschide clubul, butonul duce la lista de așteptare._
+_30 octombrie 2026 (v2). Pe site e deja pagina `training.html`: un chestionar „smart” de 11 întrebări (două apar doar când e cazul) care dă planul pe loc. Până se deschide clubul, butonul duce la lista de așteptare._
 
 ## 1. Cum văd eu tot sistemul
 1. **Omul vine pe site** (din reel-uri, stream, bio) și face **chestionarul** (2 minute).
-2. **Primește planul pe loc:** traseul (track), nivelul, câte zile și câte minute, resetările de 5 minute pentru zonele care îl dor și pauzele de stretching.
+2. **Primește planul pe loc:** traseul, nivelul, unde se antrenează (acasă, sală sau ambele), săptămâna zi cu zi, ce face în fiecare zi, resetările de 5 minute pentru zonele înțepenite și pauzele de stretching.
 3. **Se abonează la Training Club** (când se deschide). Primește **toate traseele**, iar chestionarul îi spune de unde să înceapă.
 4. **Urmează videourile follow-along**, filmate la sală, câte 4 săptămâni pe bloc, cu progresie.
 5. **Cine vrea mai mult** trece la **coaching 1:1** (49 €/lună), unde îi corectezi forma pe video. Asta e personalizarea reală; clubul e personalizat prin chestionar.
@@ -12,18 +12,37 @@ _30 octombrie 2026. Pe site e deja pagina `training.html`: chestionarul de 8 în
 ## 2. Ce conține clubul (traseele)
 | Traseu | Pentru cine | Sesiuni |
 |---|---|---|
-| **Unstiff** (mobilitate) | „vreau să nu mai fiu înțepenit”, cine are 10 minute, sau cine a răspuns „da” la întrebarea de siguranță (varianta blândă) | 10–20 min |
-| **Desk to Strong · Home** | forță fără echipament sau cu benzi și gantere | 20–40 min |
-| **Desk to Strong · Gym** | forță cu aparate, cabluri și gantere | 30–40 min |
-| **Resetări de 5 minute** | gât, spatele de sus, lombar, șolduri, încheieturi | 5 min |
+| **Unstiff** (mobilitate, fără durere) | „vreau să nu mai fiu înțepenit” | 10–20 min |
+| **Unstiff (gentle)** | cine a răspuns „da” la întrebarea de siguranță: doar mobilitate blândă + „întreabă medicul” | 10–20 min |
+| **Desk to Strong** | forță; acasă (fără nimic, benzi, gantere, kettlebell, bară) sau la sală | 20–40 min |
+| **Lean & Strong** | „vreau să slăbesc și să fiu în formă”: forță + o zi de cardio (coardă sau mers înclinat) | 20–40 min |
+| **Desk Reset** | „vreau să mă simt bine la birou” (gât, spate, postură): spate de sus, core, mobilitate | 10–20 min |
+| **Resetări de 5 minute** | gât, spatele de sus, lombar, șolduri, încheieturi, genunchi | 5 min |
 
-Fiecare traseu: **începător** și **intermediar**, în **blocuri de 4 săptămâni**, ceva mai grele de la o săptămână la alta. Planul de zile se potrivește singur după chestionar: 2 zile (full body A și B), 3 zile (jos și core, sus și spate, full body) sau 4 zile (jos, sus, jos, sus și core). La „ambele” (forță + mobilitate), o zi devine Unstiff.
+Fiecare traseu are **începător**, **revenire** (a mai făcut sport, acum nu) și **intermediar**, în **blocuri de 4 săptămâni**. La 10 minute pe sesiune, traseul primește eticheta **Express**.
 
-## 3. Chestionarul (e deja pe site)
-1. Câte ore stai jos pe zi · 2. Ce vrei cel mai mult (mobilitate, forță, ambele) · 3. Cât te antrenezi acum · 4. Unde (acasă fără echipament, acasă cu benzi/gantere, sală) · 5. Câte minute pe sesiune · 6. Câte zile pe săptămână · 7. Ce te înțepenește (gât, spate, șolduri, încheieturi, genunchi) · 8. **Întrebarea de siguranță** (durere, accidentare, boală de inimă sau altă afecțiune, sarcină, medicul ți-a limitat efortul).
+## 3. Chestionarul (e deja pe site) și cum gândește
+| # | Întrebarea | Ce schimbă în plan |
+|---|---|---|
+| 1 | Câte ore stai jos pe zi | cât de des sunt pauzele de stretching (de la una pe zi la una pe oră) |
+| 2 | Ce vrei cel mai mult: fără înțepeneală / mai puternic / **să slăbesc și să fiu în formă** / să mă simt bine la birou | alege traseul |
+| 3 | Ce parte vrei să lucrezi mai mult: tot corpul / picioare și fesieri / partea de sus și spatele / core și postură | împarte zilele (ex. 3 zile cu accent pe picioare: picioare, sus, fesieri și core) |
+| 4 | Cât te antrenezi acum | nivelul |
+| 5 | **Unde: acasă / sală / ambele** | la „ambele” zilele alternează sala și acasa; cardio „acasă sau la sală” |
+| 6 | Ce ai acasă (apare doar la acasă/ambele) | exercițiile cu benzi, gantere, kettlebell, bară sau fără nimic |
+| 7 | Câte minute | 10 (Express), 20, 30–40 |
+| 8 | Câte zile | 2, 3 sau 4 |
+| 9 | **Unde simți după o zi lungă** (gât, umeri și spate sus, lombar, șolduri, încheieturi, genunchi) | resetările de 5 minute pentru zonele alese |
+| 10 | **Cum se simte** (apare doar dacă a ales o zonă): înțepenit, mai bine când mă mișc / **durere** ascuțită, constantă, noaptea, amorțeală, după accidentare | la **durere**: mesaj „mergi la medic sau fizioterapeut”, sare peste ce doare, resetările pentru zona aceea rămân pe dinafară până primește acordul |
+| 11 | **Siguranța:** afecțiune cardiacă sau alta, sarcină, medicul ți-a limitat efortul | la „da”: doar Unstiff (gentle) și „întreabă medicul întâi” |
 
-**La „da” pe întrebarea 8:** doar mobilitate blândă și mesajul „vorbește întâi cu un medic sau fizioterapeut”. Asta te protejează pe tine și pe ei.
+**Slăbitul, făcut corect:** Lean & Strong = forță (ca să păstreze mușchiul) + o zi de cardio + „cu ~2.000 de pași mai mult pe zi” + idei generale de mâncare (proteină și legume la fiecare masă, porții cu palma). **Fără calorii, fără planuri de dietă, fără promisiuni de kilograme.** Pe pagină scrie clar: educație generală, nu sfat medical sau de dietă.
+
+**Durerea, făcută corect:** nu „tratăm” durerea. Înțepeneala (trece când te miști) primește resetări; durerea adevărată primește trimitere la specialist. Asta te protejează pe tine și pe ei.
+
 **Răspunsurile nu se trimit nicăieri**, rămân în browser. Abia la înscriere lasă omul emailul.
+
+**Testat:** 4 trasee prin chestionar (slăbit + ambele, birou Express, durere, siguranță „da”), pe telefon și laptop, fără erori.
 
 ## 4. Ce filmăm: o bibliotecă de exerciții, nu antrenamente întregi
 Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o singură dată** (30–40 de secunde, curat), iar eu **montez antrenamentele** din ele, cu cronometru, etichete și pauze. Din ~50 de clipuri ies zeci de antrenamente.
@@ -35,6 +54,7 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 - **Core (6):** dead bug, bird dog, plank, plank lateral, pallof press, hollow hold pentru începători.
 - **Mobilitate (15):** cat-cow, open book, world's greatest stretch, 90/90, flexorii șoldului în genunchi, extensie toracică pe bancă, child's pose cu întindere, wall angel, chin tucks, gâtul lateral, 3 pentru încheieturi, gleznă la perete, deep squat hold.
 - **Încălzire și final (5):** coardă, cercuri de brațe, cercuri de șold, leg swings, respirația de reset.
+- **Cardio pentru Lean & Strong (4):** intervale cu coarda (30/30), mers pe bandă înclinată, step-up rapid pe bancă, „marș” pe loc cu brațele (variantă fără sărituri, pentru acasă și pentru vecini).
 
 **Pe lângă bibliotecă:**
 - **4 videouri scurte de început:** bun venit, cum folosești clubul și chestionarul, siguranța (semnele la care te oprești), cum îți filmezi forma pentru coaching.

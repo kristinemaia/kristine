@@ -382,36 +382,39 @@ page(
 
 
 # =====================================================================
-# 2b. TRAINING (training.html): chestionarul care potrivește planul.
+# 2b. TRAINING (training.html): chestionarul care potrivește planul (versiunea 2).
 #    Răspunsurile rămân în browser (nu se trimit nicăieri).
 #    Până se deschide clubul, butoanele duc la lista de așteptare (LINKS["CLUB"]).
 # =====================================================================
-def q_radio(name, legend, opts, hint=""):
-    o = "".join('<label class="opt"><input type="radio" name="%s" value="%s" required><span>%s</span></label>' % (name, v, t) for v, t in opts)
+def q_radio(name, legend, opts, hint="", extra=""):
+    o = "".join('<label class="opt"><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, v, t) for v, t in opts)
     h = '<p class="small muted">%s</p>' % hint if hint else ""
-    return '<fieldset class="qf"><legend>%s</legend>%s<div class="opts">%s</div></fieldset>' % (legend, h, o)
+    return '<fieldset class="qf"%s><legend>%s</legend>%s<div class="opts">%s</div></fieldset>' % (extra, legend, h, o)
 
-def q_check(name, legend, opts, hint=""):
+def q_check(name, legend, opts, hint="", extra=""):
     o = "".join('<label class="opt"><input type="checkbox" name="%s" value="%s"><span>%s</span></label>' % (name, v, t) for v, t in opts)
     h = '<p class="small muted">%s</p>' % hint if hint else ""
-    return '<fieldset class="qf"><legend>%s</legend>%s<div class="opts">%s</div></fieldset>' % (legend, h, o)
+    return '<fieldset class="qf"%s><legend>%s</legend>%s<div class="opts">%s</div></fieldset>' % (extra, legend, h, o)
 
 QUIZ = "".join([
     q_radio("sit", "1. How many hours do you sit on a normal day?", [("lt4", "Under 4"), ("4-8", "4 to 8"), ("8-12", "8 to 12"), ("12", "12 or more")]),
-    q_radio("goal", "2. What do you want most right now?", [("mob", "Move without stiffness"), ("str", "Get stronger"), ("both", "Both")]),
-    q_radio("exp", "3. How much do you train at the moment?", [("new", "I'm new to training"), ("some", "I trained before, not now"), ("reg", "2 or more times a week")]),
-    q_radio("place", "4. Where will you train?", [("none", "At home, no equipment"), ("home", "At home, bands or dumbbells"), ("gym", "At the gym")]),
-    q_radio("time", "5. How much time per session?", [("10", "10 minutes"), ("20", "20 minutes"), ("35", "30 to 40 minutes")]),
-    q_radio("days", "6. How many days a week?", [("2", "2 days"), ("3", "3 days"), ("4", "4 days")]),
-    q_check("area", "7. What feels stiff or tired after a long day?", [("neck", "Neck"), ("upper", "Upper back"), ("lower", "Lower back"), ("hips", "Hips"), ("wrists", "Wrists"), ("knees", "Knees")], "Pick any, or none."),
-    q_radio("safe", "8. Do you have pain or an injury, a heart or other medical condition, are you pregnant, or has a doctor told you to limit exercise?", [("no", "No"), ("yes", "Yes")]),
+    q_radio("goal", "2. What do you want most right now?", [("mob", "Move without stiffness"), ("str", "Get stronger"), ("fat", "Lose some fat and get fitter"), ("desk", "Feel better at my desk (neck, back, posture)")]),
+    q_radio("focus", "3. Which part do you want to work on most?", [("whole", "Whole body"), ("lower", "Legs and glutes"), ("upper", "Upper body and back"), ("core", "Core and posture")]),
+    q_radio("exp", "4. How much do you train at the moment?", [("new", "I'm new to training"), ("some", "I trained before, not now"), ("reg", "2 or more times a week")]),
+    q_radio("place", "5. Where will you train?", [("home", "At home"), ("gym", "At the gym"), ("both", "Both")]),
+    q_check("equip", "6. What do you have at home?", [("bands", "Resistance bands"), ("db", "Dumbbells"), ("kb", "Kettlebell"), ("bar", "Pull-up bar")], "Pick any, or none.", ' id="q-equip" hidden'),
+    q_radio("time", "7. How much time per session?", [("10", "10 minutes"), ("20", "20 minutes"), ("35", "30 to 40 minutes")]),
+    q_radio("days", "8. How many days a week?", [("2", "2 days"), ("3", "3 days"), ("4", "4 days")]),
+    q_check("area", "9. Where do you feel it after a long day?", [("neck", "Neck"), ("upper", "Shoulders and upper back"), ("lower", "Lower back"), ("hips", "Hips"), ("wrists", "Wrists and elbows"), ("knees", "Knees")], "Pick any, or none."),
+    q_radio("feel", "10. How does it feel?", [("stiff", "Stiff or tight, and better once I move"), ("pain", "Pain: sharp, constant, wakes me up, numbness or tingling, or after an injury")], "", ' id="q-feel" hidden'),
+    q_radio("safe", "11. Do you have a heart or other medical condition, are you pregnant, or has a doctor told you to limit exercise?", [("no", "No"), ("yes", "Yes")]),
 ])
 
 training = """
 <section class="wrap page-head">
   <p class="kicker">Online training</p>
   <h1>Training built around how much you <em>sit</em>.</h1>
-  <p class="lead">Answer 8 quick questions and I'll match you with a plan: mobility, strength or both, at home or at the gym, in the time you actually have.</p>
+  <p class="lead">Answer a few quick questions and I'll match you with a plan: stronger, leaner, less stiff, or all three. At home, at the gym or both, in the time you actually have.</p>
   <div class="actions"><a class="btn" href="#quiz">Start the quiz</a></div>
 </section>
 
@@ -419,8 +422,8 @@ training = """
   <div class="block-head"><p class="kicker">How it works</p><h2 id="how-title">Three steps</h2></div>
   <ol class="steps">
     <li><b>Take the quiz.</b> Two minutes. Your answers stay in your browser.</li>
-    <li><b>Get your plan.</b> Your track, how many days, how long, and short resets for the spots that feel stiff.</li>
-    <li><b>Train with me.</b> Follow-along videos, filmed in the gym, 10 to 40 minutes. When the Training Club opens, members get every track and a new workout every week.</li>
+    <li><b>Get your plan.</b> Your track, your week, and short resets for the spots that feel stiff.</li>
+    <li><b>Train with me.</b> Follow-along videos filmed in the gym, with home versions, 10 to 40 minutes. When the Training Club opens, members get every track and a new workout every week.</li>
   </ol>
 </section>
 
@@ -428,7 +431,7 @@ training = """
   <div class="block-head"><p class="kicker">The quiz</p><h2 id="quiz-title">Find your plan</h2></div>
   <form class="quiz" id="quiz-form" novalidate>
     """ + QUIZ + """
-    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer questions 1 to 6 and 8.</p>
+    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question with a choice (questions 6 and 9 are optional).</p>
     <button class="btn" type="submit">Show my plan</button>
   </form>
 </section>
@@ -438,14 +441,16 @@ training = """
     <span class="tag">Your plan</span>
     <h2 id="r-track">Track</h2>
     <p class="muted" id="r-level"></p>
-    <div id="r-safe" class="notice-safe" hidden><b>Check with your doctor first.</b> Because of your answer to question 8, start only with gentle mobility and ask a doctor or physiotherapist before you add strength training.</div>
+    <div id="r-safe" class="notice-safe" hidden><b>Check with your doctor first.</b> Because of your answer to the last question, start only with gentle mobility and ask a doctor before you add strength or cardio.</div>
+    <div id="r-pain" class="notice-safe" hidden><b>About the pain you mentioned.</b> Sharp, constant or night pain, numbness, tingling or pain after an injury should be checked by a doctor or physiotherapist. Until you have the all-clear, skip any exercise that hurts there; the resets for those spots stay out of your plan.</div>
     <h3>Your week</h3>
     <ul id="r-week"></ul>
+    <div id="r-extra-w" hidden><h3>Every day</h3><ul id="r-extra"></ul></div>
     <h3 id="r-resets-h">Extra 5-minute resets</h3>
     <ul id="r-resets"></ul>
     <h3>On sitting days</h3>
     <p id="r-breaks"></p>
-    <p class="small muted">General exercise and education, not medical advice. Stop if anything feels sharp or painful.</p>
+    <p class="small muted">General exercise and education, not medical or diet advice. Stop if anything feels sharp or painful.</p>
     <div class="row-btns">
       <a class="btn" href="{CLUB}">Join the Training Club waitlist</a>
       <a class="btn alt" href="{PAYHIP}">Start today: free 5-minute desk stretch</a>
@@ -458,19 +463,20 @@ training = """
   <div class="block-head"><p class="kicker">Coming soon · waitlist</p><h2 id="club-title">Inside the Training Club</h2></div>
   <div class="tracks">
     <article class="panel p-blue"><h3>Unstiff</h3><p class="muted">Mobility for people who sit all day. 10 to 20 minutes, anywhere.</p></article>
-    <article class="panel p-pink"><h3>Desk to Strong · Home</h3><p class="muted">Strength with no equipment, or with bands and dumbbells. Beginner and intermediate.</p></article>
-    <article class="panel p-lilac"><h3>Desk to Strong · Gym</h3><p class="muted">Machines, cables and dumbbells, step by step. Beginner and intermediate.</p></article>
-    <article class="panel p-mint"><h3>5-minute resets</h3><p class="muted">Neck, upper back, lower back, hips and wrists, for the spots that complain.</p></article>
+    <article class="panel p-pink"><h3>Desk to Strong</h3><p class="muted">Strength at home or at the gym, with a focus on legs and glutes, upper body or core. Beginner and intermediate.</p></article>
+    <article class="panel p-lilac"><h3>Lean &amp; Strong</h3><p class="muted">Strength plus short cardio sessions (jump rope, incline walking) and simple daily habits. No crash diets.</p></article>
+    <article class="panel p-mint"><h3>Desk Reset</h3><p class="muted">Posture, neck and back: upper-back strength, core and 5-minute resets for the spots that complain.</p></article>
   </div>
-  <p class="small muted mt-s">Every track runs in 4-week blocks that get a little harder each week. A new workout every week and a monthly live class with me. Founding price for people on the waitlist.</p>
+  <p class="small muted mt-s">Every track runs in 4-week blocks that get a little harder each week, with gym and home versions. A new workout every week and a monthly live class with me. Founding price for people on the waitlist.</p>
 </section>
 
 <section class="wrap block pt-s" aria-labelledby="tfaq-title">
   <div class="block-head"><p class="kicker">Questions</p><h2 id="tfaq-title">Before you start</h2></div>
   <div class="faq">
     <details><summary>Is this medical treatment?</summary><p>No. I have a degree in Physical Education and Sport and coach mobility and strength. This is general exercise and education. If you have pain, an injury or a medical condition, see a doctor first.</p></details>
-    <details><summary>I'm a complete beginner. Is it for me?</summary><p>Yes. The beginner plans start with short sessions and simple moves, and every exercise has a slower option.</p></details>
-    <details><summary>Can I change my plan later?</summary><p>Yes. Take the quiz again when your week or your goal changes. Club members can switch tracks at any time.</p></details>
+    <details><summary>Will this help me lose weight?</summary><p>The Lean &amp; Strong track combines strength, short cardio and daily movement, which supports fat loss together with how you eat. I don't promise kilos or write diets. For personal nutrition, talk to a dietitian.</p></details>
+    <details><summary>I'm a complete beginner. Is it for me?</summary><p>Yes. The beginner plans start with short sessions and simple moves, and every exercise has an easier option.</p></details>
+    <details><summary>Home or gym?</summary><p>Both work. Every workout has a gym version and a home version, and you can mix them in the same week.</p></details>
     <details><summary>Do you make meal plans?</summary><p>No. I'm not a dietitian, so I don't write personal meal plans. I share general food ideas and quick recipes.</p></details>
   </div>
 </section>
@@ -479,49 +485,82 @@ training = """
 (function(){
   var f=document.getElementById('quiz-form'); if(!f) return;
   var res=document.getElementById('result'), err=document.getElementById('quiz-err');
-  var AREAS={neck:'Neck reset',upper:'Upper back reset',lower:'Lower back reset',hips:'Hips reset',wrists:'Wrists reset',knees:'Knee-friendly hips and ankles (if your knees hurt, check with a doctor or physio first)'};
+  var qEquip=document.getElementById('q-equip'), qFeel=document.getElementById('q-feel');
+  var AREAS={neck:'Neck reset',upper:'Shoulders and upper back reset',lower:'Lower back reset',hips:'Hips reset',wrists:'Wrists and elbows reset',knees:'Knee-friendly hips and ankles'};
   var BREAKS={'lt4':'One 2-minute stretch break in the middle of the day.','4-8':'A 2-minute stretch break every 2 hours.','8-12':'A 2-minute stretch break every 90 minutes. Set a timer.','12':'A 2-minute stretch break every hour, like we do on stream. Set a timer.'};
+  var SPLIT={
+    whole:{2:['Full body A','Full body B'],3:['Lower body and core','Upper body and back','Full body'],4:['Lower body','Upper body and back','Lower body','Upper body and core']},
+    lower:{2:['Legs and glutes','Full body'],3:['Legs and glutes','Upper body and back','Glutes and core'],4:['Legs','Upper body and back','Glutes and hamstrings','Upper body and core']},
+    upper:{2:['Upper body and back','Full body'],3:['Upper body and back','Lower body and core','Shoulders and posture'],4:['Upper body and back','Lower body','Shoulders and posture','Lower body and core']},
+    core:{2:['Full body + core finisher','Full body + core finisher'],3:['Lower body + core','Upper body and posture','Core and full body'],4:['Lower body + core','Upper body and posture','Lower body + core','Core and full body']}
+  };
   function val(n){var e=f.querySelector('input[name="'+n+'"]:checked');return e?e.value:null}
+  function vals(n){return [].map.call(f.querySelectorAll('input[name="'+n+'"]:checked'),function(x){return x.value})}
   function li(t){var l=document.createElement('li');l.textContent=t;return l}
+  function sync(){
+    var pl=val('place'); qEquip.hidden=!(pl==='home'||pl==='both');
+    qFeel.hidden=vals('area').length===0;
+  }
+  f.addEventListener('change',sync);
   f.addEventListener('submit',function(e){
     e.preventDefault();
-    var a={sit:val('sit'),goal:val('goal'),exp:val('exp'),place:val('place'),time:val('time'),days:val('days'),safe:val('safe')};
-    for(var k in a){if(!a[k]){err.hidden=false;var q=f.querySelector('input[name="'+k+'"]');if(q)q.closest('fieldset').scrollIntoView({behavior:'smooth',block:'center'});return}}
+    var need=['sit','goal','focus','exp','place','time','days','safe']; if(!qFeel.hidden) need.push('feel');
+    for(var i=0;i<need.length;i++){ if(!val(need[i])){ err.hidden=false; var q=f.querySelector('input[name="'+need[i]+'"]'); q.closest('fieldset').scrollIntoView({behavior:'smooth',block:'center'}); return; } }
     err.hidden=true;
-    var areas=[].map.call(f.querySelectorAll('input[name="area"]:checked'),function(x){return x.value});
-    var mins={'10':'10','20':'20','35':'30 to 40'}[a.time], d=+a.days;
-    var level=(a.exp==='reg')?'Intermediate':'Beginner';
-    var strName={none:'Desk to Strong · Home (no equipment)',home:'Desk to Strong · Home (bands and dumbbells)',gym:'Desk to Strong · Gym'}[a.place];
-    var track, week=[], safe=(a.safe==='yes');
-    if(safe){track='Unstiff (gentle)';level='Beginner';week.push(d+' × '+(a.time==='35'?'20':mins)+' minutes of gentle mobility');}
-    else if(a.goal==='mob'||a.time==='10'){
+    var a={sit:val('sit'),goal:val('goal'),focus:val('focus'),exp:val('exp'),place:val('place'),time:val('time'),days:+val('days'),safe:val('safe'),feel:val('feel')};
+    var eq=vals('equip'), areas=vals('area'), pain=(a.feel==='pain'&&areas.length>0), safe=(a.safe==='yes');
+    var mins={'10':'10','20':'20','35':'30 to 40'}[a.time];
+    var level=(a.exp==='reg')?'Intermediate':(a.exp==='some'?'Returning beginner':'Beginner');
+    var homeKit=eq.length?('home, with '+eq.map(function(x){return {bands:'bands',db:'dumbbells',kb:'a kettlebell',bar:'a pull-up bar'}[x]}).join(', ')):'home, no equipment';
+    var where={home:homeKit,gym:'gym',both:'gym and '+homeKit}[a.place];
+    var dayPlace=function(i){ if(a.place!=='both') return ''; return (i%2===0)?' (gym)':' (home)'; };
+    var track, week=[], extra=[];
+    if(safe){
+      track='Unstiff (gentle)'; level='Beginner';
+      for(var j=1;j<=a.days;j++) week.push('Day '+j+': gentle mobility, '+(a.time==='35'?'20':mins)+' minutes');
+    } else if(a.goal==='mob'){
       track='Unstiff';
-      for(var i=1;i<=d;i++) week.push('Day '+i+': Unstiff, full-body mobility, '+mins+' minutes');
-      if(a.goal!=='mob') week.push('When you have 20 minutes or more, add one strength day from '+strName+'.');
+      for(var j=1;j<=a.days;j++) week.push('Day '+j+': Unstiff, full-body mobility, '+mins+' minutes');
+    } else if(a.goal==='desk'){
+      track='Desk Reset';
+      var dr=['Upper back and core strength','Unstiff: neck, shoulders and hips','Upper back, glutes and core','Unstiff: full body'];
+      for(var j=0;j<a.days;j++) week.push('Day '+(j+1)+': '+dr[j]+dayPlace(j)+', '+mins+' minutes');
+      extra.push('A 5-minute reset at your desk, once a day');
     } else {
-      track=strName;
-      var s=(a.goal==='both')?Math.max(2,d-1):d;
-      var plan={2:['Full body A','Full body B'],3:['Lower body and core','Upper body and back','Full body'],4:['Lower body','Upper body and back','Lower body','Upper body and core']}[s];
-      plan.forEach(function(p,i){week.push('Day '+(i+1)+': '+p+', '+mins+' minutes')});
-      if(a.goal==='both') week.push('Day '+(s+1)+': Unstiff, mobility, 20 minutes');
+      var express=(a.time==='10');
+      var s=(a.goal==='fat')?Math.max(2,a.days-1):a.days;
+      var plan=SPLIT[a.focus][s];
+      track=(a.goal==='fat'?'Lean & Strong':'Desk to Strong')+(express?' · Express':'');
+      plan.forEach(function(p,i){ week.push('Day '+(i+1)+': '+p+dayPlace(i)+', '+mins+' minutes'); });
+      if(a.goal==='fat'){
+        week.push('Day '+(s+1)+': Cardio, 15 to 20 minutes (jump rope intervals or incline walking)'+(a.place==='both'?' (home or gym)':''));
+        extra.push('Walk a bit more than you do now, for example 2,000 extra steps a day');
+        extra.push('Protein and vegetables at each meal; hand portions instead of a scale (general food ideas, not a diet)');
+      }
     }
+    var shownAreas=pain?[]:areas;
     document.getElementById('r-track').textContent=track;
-    document.getElementById('r-level').textContent='Level: '+level+(safe?'':' · '+d+' days a week · '+mins+' minutes');
+    document.getElementById('r-level').textContent='Level: '+level+' · '+where+(safe?'':' · '+a.days+' days a week · '+mins+' minutes');
     document.getElementById('r-safe').hidden=!safe;
+    document.getElementById('r-pain').hidden=!pain;
     var w=document.getElementById('r-week');w.innerHTML='';week.forEach(function(t){w.appendChild(li(t))});
+    var ex=document.getElementById('r-extra');ex.innerHTML='';extra.forEach(function(t){ex.appendChild(li(t))});
+    document.getElementById('r-extra-w').hidden=!extra.length;
     var r=document.getElementById('r-resets');r.innerHTML='';
-    if(areas.length){areas.forEach(function(x){r.appendChild(li(AREAS[x]+(x==='knees'?'':', 5 minutes, on any day')))})} else r.appendChild(li('No extra resets needed. Keep the stretch breaks.'));
+    if(shownAreas.length){shownAreas.forEach(function(x){r.appendChild(li(AREAS[x]+', 5 minutes, on any day'))})}
+    else r.appendChild(li(pain?'Resets for those spots come after your doctor or physio says it is okay.':'No extra resets needed. Keep the stretch breaks.'));
     document.getElementById('r-breaks').textContent=BREAKS[a.sit];
     res.hidden=false; res.scrollIntoView({behavior:'smooth',block:'start'});
   });
-  document.getElementById('q-again').addEventListener('click',function(){f.reset();res.hidden=true;document.getElementById('quiz').scrollIntoView({behavior:'smooth'})});
+  document.getElementById('q-again').addEventListener('click',function(){f.reset();sync();res.hidden=true;document.getElementById('quiz').scrollIntoView({behavior:'smooth'})});
+  sync();
 })();
 </script>
 """ + free_band("Start with <em>five</em> minutes.", LIST_PERKS)
 page(
     "training.html",
     "Online Training · Kristine Maia",
-    "Take the 2-minute quiz and get a training plan built around how much you sit: mobility, strength or both, at home or at the gym.",
+    "Take the 2-minute quiz and get a training plan built around how much you sit: stronger, leaner or less stiff, at home, at the gym or both.",
     training,
 )
 
