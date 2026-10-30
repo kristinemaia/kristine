@@ -1,44 +1,58 @@
 # Calendarul de conținut, pe toate platformele
 
-_Actualizat vineri, 30 octombrie 2026. Orele sunt ale României (în Turcia e cu o oră mai mult: 18:00 RO = 19:00 TR). Când postezi, programezi sau filmezi ceva, îmi spui și actualizez aici și în Tracker._
+_Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orele sunt ale României (în Turcia e cu o oră mai mult: 18:00 RO = 19:00 TR). Când postezi, programezi sau filmezi ceva, îmi spui și actualizez aici și în Tracker._
 
-**Legendă:** ✅ postat · 🗓 programat · ✏️ gata montat, de programat · 🎬 de filmat · ✂️ de montat (de mine, după ce primesc clipurile)
+**Legendă:** ✅ postat · 🗓 programat de tine (nu mai faci nimic) · ✏️ gata montat, **de programat** · 🎬 **de filmat** · ✂️ de montat (de mine, după ce primesc clipurile)
 
-## 1. Pe scurt: unde ești pe fiecare platformă
+---
 
-| Platformă | Programat până la | Următorul pas | Când |
-|---|---|---|---|
-| Instagram @kristinemaia11 | joi 5 nov (K5) | programezi Dope Rope, caruselul EN C2, B3, Bewit, K4, B4 | până miercuri 4 nov |
-| TikTok @kristinemaia11 | joi 5 nov | programezi 6–15 nov (maximum 10 zile înainte, de pe calculator) | joi 5 nov |
-| KM Wellness Concept | C1 postat; C2 de verificat | verifici dacă C2–C8 sunt programate | sâmbătă 31 oct |
-| Story-uri | zilnic | rotația din secțiunea 5 | zilnic |
-| Twitch | luni, marți, miercuri, vineri | segmentul de 15 minute de la sală, `!stretch`, `!twin` | la fiecare stream |
-| Spotify | episoadele din 25 și 28 oct ✅ | pauză până te întorci în România | — |
-| YouTube | canal închis | contestația sau „Second chance” | duminică 1 nov |
-| Filmare | — | **lotul 1 la sală:** G1, G2, G3, Revu, Mobility between sets | săptămâna 2–6 nov |
+## A. Deja programat de tine: iese singur, nu mai faci nimic
 
-## 2. Instagram @kristinemaia11
+| Platformă | Ce e programat | Programat pe |
+|---|---|---|
+| Instagram @kristinemaia11 | B1 (joi 29 oct) · R4 (vin 30 oct) · B2 (mar 3 nov) · K5 (joi 5 nov), toate la 17:00 | 26 oct |
+| TikTok | o postare pe zi, la 19:00, până **joi 5 nov** inclusiv | 19, 22 și 26 oct |
+| KM Wellness Concept | caruselele C2–C8, duminica la 19:00 (1 nov – 13 dec) | 23 oct |
+| Spotify | Jump rope, duminică 1 nov | 23 oct |
 
-**Ritmul de la 9 nov:** 5 reel-uri pe săptămână. Duminică, luni și marți la 18:00; miercuri, joi și vineri la 17:00.
+## B. De programat de tine, cu termen
 
-### Postat și programat
+| Până când | Unde | Ce |
+|---|---|---|
+| **miercuri 4 nov** | Instagram | Dope Rope (vin 6 nov) · caruselul EN C2 (dum 8 nov) · B3 (mar 10 nov) · Bewit (mie 11 nov) · K4 (joi 12 nov) · B4 (vin 13 nov). Descrierile: Biblioteca → Plan → „Toate descrierile”. |
+| **joi 5 nov** | TikTok (pe calculator) | 6–15 nov: Dope Rope, clipul „a guest joined”, caruselul C2, B3, Bewit, K4, B4, clipul „seated stretch”. G1 (9 nov) și G2 (15 nov) intră după ce le montez. |
+| **după fiecare lot montat** | Instagram + TikTok | reel-urile de la sală, la datele din secțiunea D |
+| **dum 15 nov, mar 24 nov, joi 3 dec, dum 13 dec** | TikTok | următoarele 10 zile (TikTok programează maximum 10 zile înainte) |
+
+---
+
+## C. Ce s-a postat deja
+
+| Data | Platformă | Ce |
+|---|---|---|
+| ~13 oct | Instagram | Sală · Sit all day? 3 machines undo the chair |
+| 19 oct | TikTok | primul clip din stream (pauza de stretching) |
+| 20–22 oct | Instagram + TikTok | R1 (Trial Reel), R2, R3 |
+| 21 oct | Spotify | episod nou (anunțat în story) |
+| 23 oct | Instagram + TikTok | caruselul EN C1 · Why your neck hurts |
+| 25 oct | Instagram | K1 · Protein pancakes |
+| 25 oct | KM | caruselul C1 · Masaj de recuperare |
+| 25 oct | Spotify | Jump rope |
+| 28 oct | Spotify | 6-minute yoga for stress and anxiety (story făcut) |
+| 29 oct | Instagram | B1 · Hips after a long stream (programat) |
+| 30 oct | Instagram | VirtuMe · Her AI twin has a hidden talent (feed) · R4 (programat, 17:00) |
+| 19 oct – 30 oct | TikTok | o postare pe zi (reel-uri, C1, clipuri din stream, pastele în 20 de minute) |
+
+---
+
+## D. Instagram @kristinemaia11: tot calendarul
+
+**Ritmul de la 9 nov:** 5 reel-uri pe săptămână. Duminică, luni și marți la 18:00; miercuri, joi și vineri la 17:00. **TikTok:** același reel, aceeași zi, la 19:00.
+
 | Data | Ce | Stare |
 |---|---|---|
-| mar 20 oct | R1 · Neck after 4 hours of gaming (Trial Reel) | ✅ |
-| mie 21 oct | R2 · 60-second stretch break | ✅ |
-| joi 22 oct | R3 · Wrists for mouse and keyboard | ✅ |
-| vin 23 oct | Carusel EN C1 · Why your neck hurts after 4 hours of gaming | ✅ |
-| în jur de 25 oct | K1 · Protein pancakes in 15 minutes | ✅ |
-| oct | Sală · Sit all day? 3 machines undo the chair | ✅ |
-| joi 29 oct | B1 · Hips after a long stream | 🗓 → ✅ dacă a ieșit |
-| vin 30 oct | VirtuMe · Her AI twin has a hidden talent (feed) | ✅ |
-| vin 30 oct, 17:00 | R4 · 5-minute morning desk reset | 🗓 |
 | mar 3 nov | B2 · Lower back after a desk day | 🗓 |
 | joi 5 nov | K5 · White fish with rice & veggies | 🗓 |
-
-### De programat (gata montate) și de filmat
-| Data | Ce | Stare |
-|---|---|---|
 | vin 6 nov, 17:00 | Dope Rope · 20-second rope warm-up (cod KRISTINEMAIA) | ✏️ |
 | dum 8 nov, 17:00 | Carusel EN C2 · 3 things I do after every stream (cod Bewit) | ✏️ |
 | lun 9 nov, 18:00 | **G1** · Sit all day? Can you pass these 3 tests? | 🎬 lotul 1 |
@@ -76,89 +90,104 @@ _Actualizat vineri, 30 octombrie 2026. Orele sunt ale României (în Turcia e cu
 | mar 22 dec, 18:00 | 3 push-up mistakes | 🎬 lotul 6 |
 | dum 27 dec, 18:00 | Balance test: 30 seconds on one leg | 🎬 lotul 6 |
 
-**Ce a ieșit din calendar:** reel-urile din rezervă care nu sunt filmate (K6, O1, K7, O3, K3, O7, K9, M5, M6, M7). Le înlocuiesc reel-urile de la sală.
+**Ce a ieșit din calendar:** reel-urile din rezervă care nu sunt filmate (K6, O1, K7, O3, K3, O7, K9, M5, M6, M7); le înlocuiesc cele de la sală. **VirtuMe pe feed:** cel mult unul pe săptămână (următorul, dacă vrei: „knows her vibe”, joi 12 nov); celelalte merg în story-uri și în Highlight.
 
-**VirtuMe pe feed:** cel mult unul pe săptămână. Dacă vrei următorul, „Her AI twin knows her vibe”, joi 5 nov sau joi 12 nov. Celelalte trei merg doar în story-uri și în Highlight.
-
-## 3. TikTok @kristinemaia11 (zilnic, la 19:00)
+## E. TikTok (zilnic, la 19:00)
 
 | Data | Ce | Stare |
 |---|---|---|
-| 19 oct – 5 nov | clipuri din stream și reel-uri (R1–R4, C1, K1, B1, B2, Sit all day, K5, pastele, stretching în bucătărie) | ✅ / 🗓 |
+| până joi 5 nov | o postare pe zi | 🗓 |
 | vin 6 nov | Dope Rope | ✏️ |
-| sâm 7 nov | clip din stream: „a guest joined” (câinele) | ✏️ tăiat |
-| dum 8 nov | postare foto: caruselul C2 (cod Bewit) | ✏️ |
-| lun 9 nov | G1 (același reel ca pe Instagram) | 🎬 |
-| mar 10 nov | B3 | ✏️ |
-| mie 11 nov | Bewit | ✏️ |
-| joi 12 nov | K4 | ✏️ |
-| vin 13 nov | B4 | ✏️ |
-| sâm 14 nov | clip din stream: seated stretch | ✏️ tăiat |
+| sâm 7 nov | clip din stream: „a guest joined” (câinele) | ✏️ tăiat de mine |
+| dum 8 nov | postare foto: caruselul C2 | ✏️ |
+| lun 9 nov | G1 | 🎬 |
+| mar 10 – vin 13 nov | B3 · Bewit · K4 · B4 | ✏️ |
+| sâm 14 nov | clip din stream: seated stretch | ✏️ tăiat de mine |
 | dum 15 nov | G2 | 🎬 |
 
-**Din 16 nov:** în zilele cu reel pe Instagram, postezi același reel pe TikTok la 19:00. În celelalte zile pui un clip din stream (le tai eu din clipurile pe care mi le trimiți). Clipul „seated reset for your shoulders” e de rezervă pentru o zi liberă.
+**Din 16 nov:** în zilele cu reel pe Instagram, același reel pe TikTok la 19:00. În celelalte zile, un clip din stream (le tai eu din clipurile tale). Rezervă: „seated reset for your shoulders”.
 
-**Sesiunile de programare TikTok** (de pe calculator, maximum 10 zile înainte): **joi 5 nov** (6–15 nov) · **duminică 15 nov** (16–25 nov) · **marți 24 nov** (25 nov – 4 dec) · **joi 3 dec** (4–13 dec) · **duminică 13 dec** (14–23 dec).
+## F. KM Wellness Concept (duminica la 19:00, doar carusele)
+C1 ✅ 25 oct · C2 🗓 1 nov · C3 🗓 8 nov · C4 🗓 15 nov · C5 🗓 22 nov · C6 🗓 29 nov · C7 🗓 6 dec · C8 🗓 13 dec. După 13 dec contul rămâne pe pauză.
 
-## 4. KM Wellness Concept (@kmwellnessconcept), duminica la 19:00, doar carusele
-
-| Data | Carusel | Stare |
-|---|---|---|
-| 25 oct | C1 · Masaj de recuperare: ce este, de fapt? | ✅ |
-| 1 nov | C2 · Unde se adună încordarea după o zi la birou | de verificat |
-| 8 nov | C3 · O ședință de masaj de recuperare, pas cu pas | de verificat |
-| 15 nov | C4 · 5 obiceiuri simple pentru cine stă la birou | de verificat |
-| 22 nov | C5 · Cum te pregătești pentru o ședință de masaj | de verificat |
-| 29 nov | C6 · Prima ședință: ce te întreb și de ce | de verificat |
-| 6 dec | C7 · După ședință: ce faci în următoarele ore | de verificat |
-| 13 dec | C8 · 4 mituri despre masaj | de verificat |
-
-Sâmbătă, 31 oct, deschizi programările contului și îmi spui care sunt deja puse. După 13 dec contul rămâne pe pauză (planul remote).
-
-## 5. Story-uri (Instagram), săptămâna-tip
+## G. Story-uri (Instagram), săptămâna-tip
 
 | Zi | Story-uri |
 |---|---|
 | Luni | Move Monday (anunț) · **Dope Rope** (cod KRISTINEMAIA) |
-| Marți | reelul zilei + sondaj · **VirtuMe** (1 din cele 2 pe săptămână) |
+| Marți | reelul zilei + sondaj · **VirtuMe** (1 din 2) |
 | Miercuri | **Bewit** (cod KRISTINE15) |
-| Joi | culise de la sală · **VirtuMe** (al doilea) |
+| Joi | culise de la sală · **VirtuMe** (2 din 2) |
 | Vineri | **Revu** (cod KRISTINE20) · Game night (anunț) |
-| Sâmbătă | liber (cel mult un story fără muncă) |
+| Sâmbătă | liber |
 | Duminică | reelul zilei + **PDF-ul gratuit** (sticker cu link) · lista de coaching, o dată la două săptămâni |
 
-**Când apare ceva nou:** story pentru fiecare episod nou de Spotify, pentru fiecare reel nou și când se deschide lista de coaching. **Highlights:** START HERE (PDF), COACHING, FORM CHECK, CODES, MY AI TWIN (ultimul, cerut de contract).
+**Când apare ceva nou:** story pentru fiecare episod Spotify, pentru fiecare reel și când se deschide lista de coaching.
 
-## 6. Twitch
+## H. Twitch
+Luni 10:00 RO (11:00 la tine) Move Monday, la sală · marți · miercuri · vineri Game night. **La fiecare stream:** `!stretch` cu timer la 30 de minute, `!twin` și linkul VirtuMe (contract), Twin-ul în live o dată pe săptămână, raiduri la final.
 
-| Zi | Stream | Ce nu lipsește |
+## I. Spotify și YouTube
+- **Spotify:** după Jump rope de pe 1 nov 🗓, pauză până te întorci în România (episoadele noi se încarcă de acolo).
+- **YouTube:** duminică 1 nov afli din Gmail data și motivul închiderii, apoi contestația sau „Second chance”. Canal nou, nu.
+
+---
+
+## J. Cum filmezi ca să iasă foarte bine
+
+### Regulile pentru toate reel-urile de sală
+1. **Telefonul vertical, pe trepied, stabil.** Camera din spate (e mai bună decât cea frontală), 1080p sau 4K la 30 de cadre pe secundă. Ștergi lentila înainte.
+2. **Lumina din față sau din lateral**, niciodată cu o fereastră sau o lampă puternică în spatele tău.
+3. **Tot corpul în cadru** la exercițiile în picioare; lași puțin loc deasupra capului și sub picioare. Pe podea, telefonul jos, la nivelul saltelei.
+4. **Hook-ul separat:** primele 2 secunde le filmezi ca un clip aparte. Te uiți în cameră sau începi direct mișcarea, fără „bună”.
+5. **Fiecare mișcare de 2–3 ori**, încet și controlat. Eu aleg cea mai bună tură.
+6. **O singură ținută pe lot** (verde, albastru deschis, gri deschis sau crem). Fără alți oameni, logo sau ferestre în cadru.
+7. **La form check:** greșelile le arăți cu greutate mică. Corect și greșit, din același unghi.
+8. **La teste:** arăți și un „fail” cu umor; oamenii comentează mai mult când nu e perfect.
+9. **Sunetul:** dacă vorbești, microfonul cu clips; dacă nu, nu contează (pun muzică sau sunet în aplicație).
+10. **În aceeași zi** îmi trimiți clipurile (în ordine, fără să le tai).
+
+### Lotul 1 (săptămâna 2–6 nov) · ~60 de minute
+| Reel | Unghi și cadru | Ce filmezi | Ai referința |
+|---|---|---|---|
+| **G1** Sitting test | diagonală 45°, la înălțimea șoldului, tot corpul | hook cu 3 degete; wall angel; genuflexiune 10 s (din profil); din șezut turcește te ridici fără mâini; final „how many?” | storyboard + video |
+| **G2** POV 9 hours | diagonală, tot corpul | te blochezi la atingerea vârfurilor; cerc de șold amuzant; fandare pe genunchi; open book; cat-cow; flexia din nou, mai jos | storyboard + video |
+| **G3** Form check ramat | din profil, la înălțimea pieptului; la coate, diagonală | hook la aparat; umeri sus/jos; lăsat pe spate/drept; coate depărtate/lipite | storyboard + video |
+| **Revu** la sală | din față, de la talie în sus | după antrenament: borcanul în mână, crema pe antebraț sau umăr, codul KRISTINE20 (15 s) | — |
+| **Mobility between sets** | din față, la înălțimea pieptului | world's greatest stretch, open book, cat-cow, câte 20 s | Biblioteca → „Filmarea reel-urilor la sală” |
+
+### Lotul 2 (9–13 nov)
+| Reel | Unghi și cadru | Ce filmezi |
 |---|---|---|
-| Luni, 10:00 RO (11:00 la tine) | Move Monday, la sală | segmentul de 15 minute follow-along |
-| Marți | stream | pauze de stretching |
-| Miercuri | stream (sală sau Cook with me) | |
-| Vineri | Game night | pauză de stretching în fiecare oră |
+| Gamer hunch | din profil | face pull, ramat, fluturări inverse: câte 4–5 repetări |
+| Overhead reach test | din față, spatele la perete | brațele urcă; reușit și nereușit |
+| Hang 20 s | din față, tot corpul | atârnat de bară 10–20 s; coborâre controlată |
+| Squat form check | diagonală | genunchii intră / ies; călcâiele sus / jos; pieptul cade / sus |
+| 3 stretches after the gym (rezervă) | diagonală | pectorali pe stâlp, flexorii șoldului, dorsali pe bancă |
 
-**La fiecare stream:** `!stretch` (PDF-ul) cu timer la 30 de minute; `!twin` și linkul VirtuMe, cum cere contractul. Twin-ul apare în live cel puțin o dată pe săptămână (primele 90 de zile de la lansare). Raiduri la final, către streameri apropiați ca nișă.
-
-## 7. Spotify și YouTube
-- **Spotify:** 25 oct · Jump rope ✅ · 28 oct · 6-minute yoga for stress and anxiety ✅ (story făcut). Episoadele noi se încarcă din România, deci aici e pauză până te întorci.
-- **YouTube:** duminică, 1 nov: afli din Gmail data și motivul închiderii, apoi contestația sau „Second chance” (Biblioteca → Plan → „YouTube: recuperarea canalului”). Canal nou, nu.
-
-## 8. Ce filmezi (la sală, o sesiune de ~60 de minute pe săptămână)
-
-| Săptămâna | Lotul | Reel-urile |
+### Lotul 3 (16–20 nov)
+| Reel | Unghi și cadru | Ce filmezi |
 |---|---|---|
-| 2–6 nov | **1** | G1 · G2 · G3 · Revu la sală · Mobility between sets |
-| 9–13 nov | **2** | gamer hunch · overhead test · hang 20 s · squat form check · 3 stretches after the gym (rezervă) |
-| 16–20 nov | **3** | things gamers do · hip test 90/90 · first 20-min session · hip thrust form check · gym bag |
-| 23–27 nov | **4** | ankle test · hips between sets · pulldown form check · leg day · foam roller |
-| 30 nov – 4 dec | **5** | upper body 15 min · RDL form check · sit after leg day · gym → stream · grip test |
-| 7–11 dec | **6** | warm-up · push-up form check · balance test · 4 dumbbell moves (rezervă) · snack (rezervă) |
+| Things gamers do at the gym | diagonală | telefonul între seturi, apoi o mișcare de mobilitate în loc; joc de actor |
+| Hip test 90/90 | din față | așezare în 90/90, ridicare fără mâini |
+| First 20-min session | unghiuri amestecate, câte 4 s | goblet squat, ramat, hip thrust, face pull, plank |
+| Hip thrust form check | din profil | arcuirea lombară / bazinul neutru; picioarele prea departe / corect |
+| Gym bag | de sus (geanta) + din față | ce scoți din geantă: coarda, elasticul, sticla, prosopul (fără etichete) |
 
-**Reguli:** o singură ținută pe lot (verde, albastru deschis, gri deschis sau crem); fără alți oameni, logo sau ferestre; telefonul vertical, pe trepied; fiecare mișcare de 2–3 ori. Clipurile mi le trimiți în aceeași zi și le montez cu presetul, cu copertă și descriere.
+### Lotul 4 (23–27 nov)
+| Reel | Unghi și cadru | Ce filmezi |
+|---|---|---|
+| Ankle test | din profil, jos | genunchiul la perete, cu piciorul tot mai departe |
+| Hips between squat sets | din față | cercuri de șold, fandare laterală, deep squat hold |
+| Pulldown form check | diagonală | umeri sus/jos; lăsat pe spate/drept; tras repede/controlat |
+| Leg day | diagonală | deadlift românesc ușor, split squat, glute bridge |
+| Foam roller | de la podea, din lateral | rolul între omoplați, 5–6 rostogoliri lente |
 
-**De montat acum (✂️):** K10 (bolul cu ton, filmat 17–18 oct): îmi trimiți clipurile.
+### Lotul 5 (30 nov – 4 dec) și Lotul 6 (7–11 dec)
+Aceleași reguli: **form check** din profil sau pe diagonală, cu corect și greșit; **testele** din față, cu un „fail”; **POV** cu joc de actor; **lifestyle** fără locație, postat cu întârziere. Înaintea fiecărui lot îți trimit lista detaliată, ca la lotul 1.
 
-## 9. Cine face ce
-- **Tu:** filmezi lotul săptămânii, programezi (Instagram înaintea fiecărei săptămâni, TikTok în sesiunile de mai sus), postezi story-urile și răspunzi la comentarii în prima oră.
-- **Eu:** montajul, copertele, descrierile, clipurile din stream și actualizarea acestui calendar și a Tracker-ului de fiecare dată când îmi spui ce s-a postat.
+---
+
+## K. Cine face ce
+- **Tu:** filmezi lotul săptămânii, programezi (Instagram înaintea fiecărei săptămâni, TikTok în sesiunile din secțiunea B), postezi story-urile și răspunzi la comentarii în prima oră.
+- **Eu:** montajul, copertele, descrierile, clipurile din stream și actualizarea acestui calendar și a Tracker-ului de fiecare dată când îmi spui ce ai postat sau programat.
