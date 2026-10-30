@@ -1,6 +1,6 @@
 # Parteneri și colaborări: cum crești venitul, lucrând de oriunde
 
-_30 octombrie 2026. Instrumentele: `PARTENERI.xlsx` (branduri, creatori, tarife de pornire), media kit-ul actualizat (`brand/media-kit/Kristine-Maia-Media-Kit.pdf`), textele din `EMAILURI-BRANDURI.md`._
+_30 octombrie 2026. Planul mare de creștere și colaborări e în `CRESTERE-COLABORARI.md`. Instrumentele: `PARTENERI.xlsx` (branduri, creatori, tarife de pornire), media kit-ul actualizat (`brand/media-kit/Kristine-Maia-Media-Kit.pdf`), textele din `EMAILURI-BRANDURI.md`._
 
 ## Părerea mea
 Ai ce caută brandurile: **Twitch Partner cu 72K de urmăritori și 150–200 de spectatori live**, o nișă clară (oamenii care stau toată ziua pe scaun) și studii reale. Ce îți lipsește nu e audiența, ci **un sistem**: aceleași 3 tipuri de parteneri, o listă urmărită săptămânal, o ofertă clară cu prețuri și reguli pentru unde lucrezi.
@@ -24,7 +24,7 @@ Ai ce caută brandurile: **Twitch Partner cu 72K de urmăritori și 150–200 de
 Ținta: **20–25 de branduri contactate până la Crăciun**. Din experiența altor creatori, răspund puține; e normal, de aceea contează numărul.
 
 ## Oferta (prețuri de pornire, estimate)
-Pachet de o lună: **400–700 €** · reel pe Instagram și TikTok: **150–300 €** · segment în stream: **150–300 €** · set de story-uri: **80–150 €**. Sunt **estimări**, nu cifre verificate. Le ajustezi după primele răspunsuri. Media kit-ul spune „Rates on request”, iar prețurile le trimiți doar când te întreabă cineva.
+Actualizată pe 30 oct, cu UGC și drepturile pentru reclame: **tabelul complet e în `CRESTERE-COLABORARI.md` (secțiunea 6)** și în foaia „Tarife (pornire)” din `PARTENERI.xlsx`. Pe scurt: UGC **150–250 €** · reel Instagram + TikTok **250–400 €** · segment în stream **150–300 €** · story-uri **80–150 €** · pachet de o lună **800–1.200 €**. Sunt **estimări**; le ajustezi după primele răspunsuri. Media kit-ul spune „Rates on request”.
 
 ## Regulile (ca să nu te coste)
 - **Contractele și tarifele le citește avocatul** înainte să semnezi. Facturile se emit din România.

@@ -145,6 +145,8 @@ GROUPS = [
         "items": [
             {"kind": "doc", "slug": "training-online", "title": "Antrenamentul online: Custom Program, chestionarul, ce filmăm", "src": "TRAINING-ONLINE.md",
              "desc": "Cum funcționează: chestionarul de pe site, traseele (Unstiff, Desk to Strong acasă și la sală, resetările), biblioteca de ~50 de exerciții de filmat, Payhip, prețul propus, calendarul până la deschiderea din martie și ce verifici cu avocatul."},
+            {"kind": "doc", "slug": "crestere-colaborari", "title": "Creșterea pe Instagram și colaborările plătite (30 oct)", "src": "CRESTERE-COLABORARI.md",
+             "desc": "Poziționarea, ce urmărește Instagramul în 2026, standardul de calitate, ritmul săptămânal, cele 6 surse de colaborări plătite (inclusiv UGC și platforme), prețurile, treptele, ce măsori și primii pași."},
             {"kind": "doc", "slug": "parteneri", "title": "Parteneri și colaborări: venit de oriunde (30 oct)", "src": "PARTENERI.md",
              "desc": "Cele 4 tipuri de parteneri, ritmul săptămânal de emailuri, oferta cu prețuri de pornire, regulile (avocat, Turcia, #ad) și cum se organizează munca de oriunde. Merge cu PARTENERI.xlsx și media kit-ul."},
             {"kind": "doc", "slug": "calendar-continut", "title": "Calendarul de conținut, pe toate platformele (30 oct)", "src": "CALENDAR-CONTINUT.md",
