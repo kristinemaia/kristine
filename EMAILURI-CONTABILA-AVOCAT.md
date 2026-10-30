@@ -43,6 +43,23 @@ Mulțumesc,
 
 ---
 
+## 1b. Contabila: terapia pe pauză (30 oct)
+
+**Subiect:** Activitatea de terapie e pe pauză: ce trebuie să fac?
+
+Bună ziua, [numele contabilei],
+
+De acum nu mai fac ședințe de terapie (masaj de recuperare), pe termen nedeterminat. Lucrez doar online: stream pe Twitch, conținut, colaborări cu branduri și, de la începutul anului, antrenamente online pe abonament.
+
+1. Trebuie să suspend sau să modific ceva la activitatea de terapie (cod CAEN, autorizații), ca să nu am obligații sau costuri degeaba?
+2. Activitățile online de mai sus intră în forma actuală, sau trebuie adăugat ceva înainte să încasez din ele?
+3. Dacă pe viitor reiau terapia, cât de ușor o reactivez?
+
+Mulțumesc,
+[prenumele tău]
+
+---
+
 ## 2. Avocatul
 
 **Subiect:** Întrebări înainte de plecare: practicile de terapie, contul fals, contractul Twin și munca din Turcia

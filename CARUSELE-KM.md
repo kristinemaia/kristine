@@ -1,5 +1,7 @@
 # Carusele pentru @kmwellnessconcept (română)
 
+> **30 oct: terapia e pe pauză.** Rămân programate doar **C2, C4 și C8** (generale). **C3, C5, C6 și C7** (despre ședințe) se scot din programare. Vezi `PLAN-REMOTE.md`, „KM Wellness pe pauză”.
+
 Patru carusele de câte 5 slide-uri, 1080 × 1350, în stilul calm alb-verde al contului. Sunt gata de urcat: nu cer poze cu tine. Dacă vrei un portret, îl pui pe ultimul slide, în locul bulinei.
 
 **Reguli de siguranță folosite:** fără promisiuni medicale, fără „tratează / vindecă / elimină durerea”, fără dry needling, ventuze sau reiki, fără numele legal. La fiecare: „Informații generale, nu sfat medical.” Linia de sub apel: „KM Wellness Concept · masaj de recuperare”, fără mențiunea despre facultate.

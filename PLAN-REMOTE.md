@@ -56,8 +56,7 @@ Plus **chiria**, care merge singură.
 
 ## 4. Ce oprești
 
-- **Terapia în persoană ca obiectiv.** Rămâne pe lista de prețuri doar pentru zile în București plătite în avans.
-- **KM Wellness Concept:** caruselele programate până pe 13 dec merg singure; după, contul rămâne pe pauză.
+- **Terapia, de tot (decizia din 30 oct).** Nu mai faci ședințe; KM Wellness Concept intră **pe pauză**, cu 0 ore pe săptămână. Pașii sunt mai jos, în „KM Wellness pe pauză”.
 - **Sesiunea pentru abonați în același live** (nu merge, sunt toți acolo). O înlocuiești cu **o clasă lunară în Discord**, pe canalul cu rol de abonat (modelul Vantana: clasă lunară separată de stream).
 - **Reel-uri VirtuMe pe feed:** cel mult unul pe săptămână; restul în story-uri și în Highlight (contractul cere 2 story-uri pe săptămână, nu reel-uri pe feed).
 - **Spotify:** doar ce ai gata. În România nu plătește.
@@ -65,6 +64,27 @@ Plus **chiria**, care merge singură.
 - **Idei noi, platforme noi, challenge-uri noi până în februarie.**
 
 ---
+
+### KM Wellness pe pauză (30 oct): ce faci o singură dată (~30 de minute)
+**Părerea mea:** nu ștergi nimic, dar nici nu mai investești timp. Contul, numele și profilul Google rămân (recenziile, urmăritorii și numele nu se pierd, dacă vrei vreodată să revii), însă **tot timpul tău merge în @kristinemaia11, TikTok, Twitch, colaborări și Custom Program.** Ștergerea nu-ți aduce nimic în plus, iar pauza e reversibilă.
+
+1. **Scoți din programare caruselele despre ședințe: C3 (8 nov), C5 (22 nov), C6 (29 nov), C7 (6 dec).** Ele descriu o ședință cu tine, pe care acum nu o oferi, iar oamenii ar putea să-ți scrie pentru programare. **C2 (1 nov), C4 (15 nov) și C8 (13 dec)** sunt generale (încordarea de la birou, obiceiuri, mituri), deci le lași să meargă singure.
+2. **Bio-ul KM:** „Programările sunt închise momentan 🌿 Exerciții pentru cine stă mult la birou: @kristinemaia11”
+3. **Răspunsul automat** (în locul celui cu „revin din 16 noiembrie”): „Mulțumesc pentru mesaj! 🌿 Momentan nu am programări. Pentru exerciții și antrenament online mă găsești la @kristinemaia11.” Același text și pe Google.
+4. **Un story pe KM**, cu sticker de mențiune: „Mă concentrez pe antrenamentul online. Ne vedem pe @kristinemaia11 🤍” Îl pui și într-un highlight „NOUTĂȚI”, ca să-l vadă și cine intră mai târziu.
+5. **Google Business Profile:** Edit profile → starea afacerii → **„Temporarily closed”** (închis temporar). Recenziile rămân, nimeni nu mai sună pentru programări.
+6. **Lista de prețuri din profil sau Linktree-ul KM:** o scoți sau scrii „programări închise momentan”.
+7. **Contabila:** emailul scurt din `EMAILURI-CONTABILA-AVOCAT.md` (secțiunea 1b): dacă trebuie să suspenzi sau să modifici ceva la activitatea de terapie, ca să nu plătești degeaba.
+
+**Ce nu mai faci:** reel-uri KM, carusele noi, cereri de recenzii, cod QR, link de plată pentru ședințe.
+
+### Harta focusului (unde merge timpul tău de acum)
+| Prioritate | Ce | Timp |
+|---|---|---|
+| **1. Principal** | Instagram @kristinemaia11 + TikTok (aceleași clipuri), Twitch (stream + comunitate) | ~70% |
+| **2. Bani noi** | colaborări plătite, UGC, Custom Program și coaching | ~25% |
+| **3. Doar întreținere** | VirtuMe până la finalul contractului (story-urile cerute), Spotify doar cu ce ai gata, contestația YouTube | ~5% |
+| **Pe pauză** | KM Wellness Concept, terapia | 0 |
 
 ## 5. Calendarul
 

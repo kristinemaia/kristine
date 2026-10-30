@@ -108,7 +108,8 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 **Din 16 nov:** în zilele cu reel pe Instagram, același reel pe TikTok la 19:00. În celelalte zile, un clip din stream (le tai eu din clipurile tale). Rezervă: „seated reset for your shoulders”.
 
 ## F. KM Wellness Concept (duminica la 19:00, doar carusele)
-C1 ✅ 25 oct · C2 🗓 1 nov · C3 🗓 8 nov · C4 🗓 15 nov · C5 🗓 22 nov · C6 🗓 29 nov · C7 🗓 6 dec · C8 🗓 13 dec. După 13 dec contul rămâne pe pauză.
+**30 oct: terapia e pe pauză, deci KM nu mai primește timp** (detalii în `PLAN-REMOTE.md`, „KM Wellness pe pauză”).
+C1 ✅ 25 oct · C2 🗓 1 nov · ~~C3 8 nov~~ ❌ scos · C4 🗓 15 nov · ~~C5 22 nov~~ ❌ · ~~C6 29 nov~~ ❌ · ~~C7 6 dec~~ ❌ · C8 🗓 13 dec. C3, C5, C6 și C7 descriu ședințele, pe care nu le mai oferi: le **scoți din programare**. După 13 dec contul rămâne pe pauză.
 
 ## G. Story-uri (Instagram), săptămâna-tip
 
