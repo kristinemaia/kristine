@@ -436,3 +436,6 @@ input[type=range]:focus-visible{outline:3px solid var(--ink);outline-offset:2px;
 .quote{margin:0;background:var(--surface,#fff);border-radius:20px;padding:18px 20px}
 .quote blockquote{margin:0 0 8px}
 .quote figcaption{font-size:14px;color:var(--muted)}
+/* Titlul de lângă poză (training.html) */
+.page-head .split{align-items:center}
+.page-head .split h1{font-size:clamp(38px,5vw,62px)}

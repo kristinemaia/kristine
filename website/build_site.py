@@ -431,10 +431,15 @@ QUIZ = "".join([
 
 training = """
 <section class="wrap page-head">
-  <p class="kicker">Online training</p>
-  <h1>Your <em>custom</em> program, built around how much you sit.</h1>
-  <p class="lead">Your goal, your stiff spots, your time, home or gym. Answer a few quick questions and your program is built from your answers: stronger, leaner, less stiff, or all three.</p>
-  <div class="actions"><a class="btn" href="#quiz">Build my program</a></div>
+  <div class="split">
+    <div>
+      <p class="kicker">Online training</p>
+      <h1>Your <em>custom</em> program, built around how much you sit.</h1>
+      <p class="lead">Your goal, your stiff spots, your time, home or gym. Answer a few quick questions and your program is built from your answers: stronger, leaner, less stiff, or all three.</p>
+      <div class="actions"><a class="btn" href="#quiz">Build my program</a></div>
+    </div>
+    <div class="portrait"><img src="assets/training-lunge.jpg" alt="Kristine doing a lunge with dumbbells in the gym" width="900" height="1125"></div>
+  </div>
 </section>
 
 <section class="wrap block pt-s" aria-labelledby="how-title">
@@ -503,7 +508,7 @@ training = """
 <section class="wrap block" aria-labelledby="coachme-title">
   <div class="block-head"><p class="kicker">Who builds your program</p><h2 id="coachme-title">Built by a coach who sits all day too</h2></div>
   <div class="split">
-    <div class="portrait"><img src="assets/kristine.jpg" alt="Kristine Maia smiling" width="600" height="600" loading="lazy"></div>
+    <div class="portrait"><img src="assets/kristine-window.jpg" alt="Kristine Maia in the gym, looking out of the window" width="900" height="1125" loading="lazy"></div>
     <div class="prose">
       <p class="lead">I'm Kristine. I stream for hours, so I know exactly how a long day in a chair feels.</p>
       <ul class="creds">
