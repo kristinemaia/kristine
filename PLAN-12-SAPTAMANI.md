@@ -66,7 +66,7 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 **Săptămâna 2–6 nov: săptămâna de filmare** (Tracker → „Săptămâna de filmare 2–6 nov”)
 - **Tu:** în fiecare zi, un lot de reel-uri + o grupă din bibliotecă (~1,5–2 h); seara îmi trimiți clipurile.
 - **Eu:** montez în ziua următoare: întâi reel-urile pentru noiembrie, apoi exercițiile din bibliotecă (curățate, cu nume).
-- **Luni 9 nov, acasă:** cele 4 videouri vorbite + snack-ul (weekendul e liber).
+- **Luni 9 nov, la sală:** cele 4 videouri vorbite + snack-ul de după sală (weekendul e liber).
 - **Tot săptămâna asta:** plătești domeniul, urci site-ul pe Netlify, legăm kristinemaia.com.
 
 **Săptămâna 9–15 nov: totul pe picioare**

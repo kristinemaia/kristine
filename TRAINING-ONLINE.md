@@ -101,7 +101,9 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 | 5 | luni 30 nov | Împins + gât și încheieturi | flotare înclinată, flotare, împins cu gantere de la podea, împins deasupra capului, împins cu banda, chin tucks, gâtul lateral, cele 3 pentru încheieturi |
 | 6 | luni 7 dec | Încălzire + cardio | coardă, cercuri de brațe, cercuri de șold, leg swings, respirația de reset, gleznă la perete, intervale cu coarda 30/30, mers pe bandă înclinată, step-up rapid, marș pe loc |
 
-Cele **4 videouri de început** (bun venit, cum folosești programul, siguranța, cum îți filmezi forma) le filmezi oricând, acasă, vorbind la cameră.
+Cele **4 videouri de început** (bun venit, cum folosești programul, siguranța, cum îți filmezi forma) le filmezi la sală, vorbind la cameră, într-un colț liniștit (dimineața, când e muzica mai încet), cu microfonul prins de haine.
+
+**31 oct: totul se filmează la sală** (cât ești în Turcia nu ai unde filma acasă). Și **variantele „acasă”** din program se filmează tot la sală, dar să arate ca acasă: pe saltea, într-un colț cu perete simplu, doar cu greutatea corpului, benzi, gantere sau kettlebell, **fără aparate în cadru**. Exercițiile cu peretele (wall sit, wall angel, glezna la perete) le faci la un perete liber. Cine se uită trebuie să creadă „pot face asta și în sufragerie”.
 
 **Cum filmezi biblioteca:** **15 minute în plus la fiecare sesiune de reel-uri** de la sală (8–10 exerciții pe sesiune), deci în ~5–6 săptămâni ai tot. Unghiul pe diagonală (45°), tot corpul, 2 repetări lente plus una normală; aceeași ținută pe lot; fără să vorbești (vocea și indicațiile le pun la montaj, ca text sau voice-over înregistrat separat, în liniște).
 
