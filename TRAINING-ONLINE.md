@@ -88,6 +88,8 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 - **Un antrenament nou pe săptămână**, montat de mine din bibliotecă (asta ține abonații).
 - **O clasă live lunară** (pe Discord sau Twitch, doar pentru membri).
 
+**31 oct: ai sala în fiecare zi, deci biblioteca se filmează într-o săptămână: o grupă pe zi, 2–7 noiembrie, ~30 de minute** (în Tracker: „Biblioteca Custom Program”). Ordinea grupelor rămâne cea de mai jos.
+
 **Ce filmezi la fiecare lot (în cele 15 minute în plus):**
 
 | Lot | Ziua | Grupa | Exercițiile |
