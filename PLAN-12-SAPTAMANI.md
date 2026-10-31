@@ -40,7 +40,7 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 | **De început** | bun venit, cum folosești programul, siguranța, cum îți filmezi forma | | 4 |
 
 **Progresia pe 4 săptămâni** nu cere videouri noi: fiecare traseu are un **tabel** (săptămâna 1: 2 serii, săptămâna 2: 3 serii, săptămâna 3: mai lent, săptămâna 4: mai greu). Chestionarul spune fiecăruia ce traseu, câte zile și ce variantă face.
-**Versiunile Express (10 minute) și nivelul intermediar** vin în v2, după lansare. Le facem din aceleași clipuri.
+**Versiunile Express (10 minute)** le tai din aceleași antrenamente (chestionarul le promite deja), deci intră în v1, fără filmare în plus. **Nivelul intermediar** vine în v2, după lansare.
 
 ---
 
@@ -110,7 +110,7 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 
 ## După 24 ianuarie (pe scurt)
 - **Februarie:** challenge-ul gratuit de 7 zile „Desk Reset”, live și pe email. Aduce oameni noi în program.
-- **Martie:** prețul normal (12 €/lună), versiunile Express și nivelul intermediar.
+- **Martie:** prețul normal (12 €/lună) și nivelul intermediar.
 - **Coaching 1:1:** pornește când ai 5 oameni pe lista lui. Primii din lista de testeri sunt cei mai potriviți.
 
 ---
