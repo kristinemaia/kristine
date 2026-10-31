@@ -19,7 +19,7 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 
 ## Țintele pentru 24 ianuarie (le controlăm noi)
 1. **Reel-uri programate până la sfârșitul lui ianuarie**, 5 pe săptămână, fără pauze.
-2. **Custom Program v1 gata:** 4 trasee, 22 de antrenamente video, 6 resetări, 4 videouri de început.
+2. **Custom Program v1 gata:** 4 trasee, 20 de antrenamente video, 6 resetări, 4 videouri de început.
 3. **150 de oameni pe lista de așteptare** (chestionar + coaching).
 4. **10 testeri** care au făcut 2 săptămâni din program și au dat feedback.
 5. **Lansarea pentru fondatori:** 9 €/lună pentru primii 50 (dacă contabila și avocatul au spus „da” în scris).
