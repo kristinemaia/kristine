@@ -1,6 +1,6 @@
 # Carusele pentru @kmwellnessconcept (română)
 
-> **30 oct: terapia e pe pauză.** Rămân programate doar **C2, C4 și C8** (generale). **C3, C5, C6 și C7** (despre ședințe) se scot din programare. Vezi `PLAN-REMOTE.md`, „KM Wellness pe pauză”.
+> **31 oct: terapia e pe pauză, iar caruselele nu sunt programate.** Nu se mai programează. Vezi `PLAN-REMOTE.md`, „KM Wellness pe pauză”.
 
 Patru carusele de câte 5 slide-uri, 1080 × 1350, în stilul calm alb-verde al contului. Sunt gata de urcat: nu cer poze cu tine. Dacă vrei un portret, îl pui pe ultimul slide, în locul bulinei.
 

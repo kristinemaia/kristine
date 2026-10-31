@@ -109,7 +109,7 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 
 ## F. KM Wellness Concept (duminica la 19:00, doar carusele)
 **30 oct: terapia e pe pauză, deci KM nu mai primește timp** (detalii în `PLAN-REMOTE.md`, „KM Wellness pe pauză”).
-C1 ✅ 25 oct · C2 🗓 1 nov · ~~C3 8 nov~~ ❌ scos · C4 🗓 15 nov · ~~C5 22 nov~~ ❌ · ~~C6 29 nov~~ ❌ · ~~C7 6 dec~~ ❌ · C8 🗓 13 dec. C3, C5, C6 și C7 descriu ședințele, pe care nu le mai oferi: le **scoți din programare**. După 13 dec contul rămâne pe pauză.
+**31 oct:** caruselele KM **nu sunt programate** și nu se mai programează. Contul rămâne pe pauză, cu bio-ul de acum (decizia ta).
 
 ## G. Story-uri (Instagram), săptămâna-tip
 
