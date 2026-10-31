@@ -431,3 +431,8 @@ input[type=range]:focus-visible{outline:3px solid var(--ink);outline-offset:2px;
 .row-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
 .tracks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 @media (max-width:880px){.tracks{grid-template-columns:minmax(0,1fr)}}
+/* Ce spun oamenii (training.html), apare doar când există mesaje */
+.quotes{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));margin-top:12px}
+.quote{margin:0;background:var(--surface,#fff);border-radius:20px;padding:18px 20px}
+.quote blockquote{margin:0 0 8px}
+.quote figcaption{font-size:14px;color:var(--muted)}

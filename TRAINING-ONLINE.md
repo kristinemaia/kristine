@@ -1,6 +1,6 @@
 # Antrenamentul online: Custom Program, chestionarul și ce filmăm
 
-_30 octombrie 2026 (v2). Pe site e deja pagina `training.html`: un chestionar „smart” de 12 întrebări (două apar doar când e cazul), cu vârsta, operațiile și problemele de sănătate care dă planul pe loc. Până se deschide programul, butonul duce la lista de așteptare._
+_30 octombrie 2026 (v2). Pe site e deja pagina `training.html`: un chestionar „smart” de 11–13 întrebări (unele apar doar când e cazul; numerotarea se potrivește singură), cu vârsta, operațiile și problemele de sănătate care dă planul pe loc. Până se deschide programul, butonul duce la lista de așteptare._
 
 ## 0. Numele: „Custom Program”, sub numele tău
 - **Pe site:** „Your custom program” și butonul **„Join your custom program”**. Numele complet: **Kristine Maia Custom Program**. Oamenii cumpără de la tine și te caută după nume, deci numele tău rămâne pe tot.
@@ -33,13 +33,14 @@ Fiecare traseu are **începător**, **revenire** (a mai făcut sport, acum nu) �
 | 3 | Ce parte vrei să lucrezi mai mult: tot corpul / picioare și fesieri / partea de sus și spatele / core și postură | împarte zilele (ex. 3 zile cu accent pe picioare: picioare, sus, fesieri și core) |
 | 4 | Cât te antrenezi acum | nivelul |
 | 5 | **Unde: acasă / sală / ambele** | la „ambele” zilele alternează sala și acasa; cardio „acasă sau la sală” |
-| 6 | Ce ai acasă (apare doar la acasă/ambele) | exercițiile cu benzi, gantere, kettlebell, bară sau fără nimic |
-| 7 | Câte minute | 10 (Express), 20, 30–40 |
+| 6 | Ce ai acasă (apare doar la acasă/ambele; opțional) | benzi, gantere, kettlebell, bară, **„All of these”** sau nimic |
+| 7 | Câte minute | 10 (Express), 20, 30–40 sau **„Choose for me”**: 30–40 la cine se antrenează deja și vrea forță sau slăbit, 20 la ceilalți |
 | 8 | Câte zile | 2, 3 sau 4 |
-| 9 | **Unde simți după o zi lungă** (gât, umeri și spate sus, lombar, șolduri, încheieturi, genunchi) | resetările de 5 minute pentru zonele alese |
-| 10 | **Cum se simte** (apare doar dacă a ales o zonă): înțepenit, mai bine când mă mișc / **durere** ascuțită, constantă, noaptea, amorțeală, după accidentare | la **durere**: mesaj „mergi la medic sau fizioterapeut”, sare peste ce doare, resetările pentru zona aceea rămân pe dinafară până primește acordul |
-| 11 | **Vârsta:** sub 18 / 18–39 / 40–59 / 60+ | sub 18: mesaj „programul e pentru adulți, antrenează-te cu un părinte sau antrenor” și doar mobilitate blândă; 60+: 2 minute de echilibru lângă perete |
-| 12 | **Sănătatea** (bifezi tot ce se aplică sau „None of these”) | vezi tabelul de mai jos |
+| 9 | **Ai dureri sau înțepeneală acum?** (apare doar la „mai puternic” și „slăbit”) | „da” deschide întrebarea despre zone; „nu” sare peste ea |
+| 10 | **Unde le simți** (gât, umeri și spate sus, lombar, șolduri, încheieturi, genunchi). La „fără înțepeneală” și „birou” apare direct, pentru că acolo e chiar miezul programului | resetările de 5 minute pentru zonele alese |
+| 11 | **Cum se simte** (apare doar dacă a ales o zonă): înțepenit, mai bine când mă mișc / **durere** ascuțită, constantă, noaptea, amorțeală, după accidentare | la **durere**: mesaj „mergi la medic sau fizioterapeut”, sare peste ce doare, resetările pentru zona aceea rămân pe dinafară până primește acordul |
+| 12 | **Vârsta:** sub 18 / 18–39 / 40–59 / 60+ | sub 18: mesaj „programul e pentru adulți, antrenează-te cu un părinte sau antrenor” și doar mobilitate blândă; 60+: 2 minute de echilibru lângă perete |
+| 13 | **Sănătatea** (bifezi tot ce se aplică sau „None of these”) | vezi tabelul de mai jos |
 
 **Întrebarea 12, cum gândește:**
 | Bifat | Ce face planul |
@@ -61,6 +62,12 @@ Toate astea apar în cutia **„Adjusted for you”**, cu „arată planul medic
 **Durerea, făcută corect:** nu „tratăm” durerea. Înțepeneala (trece când te miști) primește resetări; durerea adevărată primește trimitere la specialist. Asta te protejează pe tine și pe ei.
 
 **Răspunsurile nu se trimit nicăieri**, rămân în browser. Abia la înscriere lasă omul emailul.
+
+**Numerotarea:** întrebările care nu se aplică nu apar, iar numerele se refac singure (1, 2, 3… fără goluri).
+
+**Pe pagină, sub chestionar:** secțiunea „Built by a coach who sits all day too” (diploma, planurile personalizate și challenge-urile online de până acum, 5 ani pe Twitch). Sub ea apare „What people say” **doar când îmi trimiți mesaje reale de la oameni, cu acordul lor scris**. Fără poze înainte/după.
+
+**Mai târziu:** după ce publicăm e-book-ul, în rezultatul chestionarului apare și „Get the recipes: Stream Day Kitchen e-book”.
 
 **Testat:** 6 drumuri prin chestionar (slăbit + ambele, birou 60+ cu tensiune, durere + osteoporoză, inimă, sub 18, slăbit după naștere + astm), pe telefon și laptop, fără erori.
 

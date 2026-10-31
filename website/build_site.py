@@ -386,29 +386,41 @@ page(
 #    Răspunsurile rămân în browser (nu se trimit nicăieri).
 #    Până se deschide clubul, butoanele duc la lista de așteptare (LINKS["CLUB"]).
 # =====================================================================
+# Ce spun oamenii (pe training.html). Doar mesaje REALE, cu acordul scris al omului.
+# Format: ("textul exact, scurtat dacă e nevoie", "prenumele sau inițiala", "ce a lucrat cu tine").
+# Cât timp lista e goală, secțiunea nu apare pe site.
+TESTIMONIALS = []
+
+def testimonials_html():
+    if not TESTIMONIALS:
+        return ""
+    items = "".join('<figure class="quote"><blockquote>%s</blockquote><figcaption>%s · %s</figcaption></figure>' % t for t in TESTIMONIALS)
+    return '<h3 class="mt-s">What people say</h3><div class="quotes">%s</div>' % items
+
 def q_radio(name, legend, opts, hint="", extra=""):
     o = "".join('<label class="opt"><input type="radio" name="%s" value="%s"><span>%s</span></label>' % (name, v, t) for v, t in opts)
     h = '<p class="small muted">%s</p>' % hint if hint else ""
-    return '<fieldset class="qf"%s><legend>%s</legend>%s<div class="opts">%s</div></fieldset>' % (extra, legend, h, o)
+    return '<fieldset class="qf"%s><legend><span class="qn"></span>%s</legend>%s<div class="opts">%s</div></fieldset>' % (extra, legend, h, o)
 
 def q_check(name, legend, opts, hint="", extra=""):
     o = "".join('<label class="opt"><input type="checkbox" name="%s" value="%s"><span>%s</span></label>' % (name, v, t) for v, t in opts)
     h = '<p class="small muted">%s</p>' % hint if hint else ""
-    return '<fieldset class="qf"%s><legend>%s</legend>%s<div class="opts">%s</div></fieldset>' % (extra, legend, h, o)
+    return '<fieldset class="qf"%s><legend><span class="qn"></span>%s</legend>%s<div class="opts">%s</div></fieldset>' % (extra, legend, h, o)
 
 QUIZ = "".join([
-    q_radio("sit", "1. How many hours do you sit on a normal day?", [("lt4", "Under 4"), ("4-8", "4 to 8"), ("8-12", "8 to 12"), ("12", "12 or more")]),
-    q_radio("goal", "2. What do you want most right now?", [("mob", "Move without stiffness"), ("str", "Get stronger"), ("fat", "Lose some fat and get fitter"), ("desk", "Feel better at my desk (neck, back, posture)")]),
-    q_radio("focus", "3. Which part do you want to work on most?", [("whole", "Whole body"), ("lower", "Legs and glutes"), ("upper", "Upper body and back"), ("core", "Core and posture")]),
-    q_radio("exp", "4. How much do you train at the moment?", [("new", "I'm new to training"), ("some", "I trained before, not now"), ("reg", "2 or more times a week")]),
-    q_radio("place", "5. Where will you train?", [("home", "At home"), ("gym", "At the gym"), ("both", "Both")]),
-    q_check("equip", "6. What do you have at home?", [("bands", "Resistance bands"), ("db", "Dumbbells"), ("kb", "Kettlebell"), ("bar", "Pull-up bar")], "Pick any, or none.", ' id="q-equip" hidden'),
-    q_radio("time", "7. How much time per session?", [("10", "10 minutes"), ("20", "20 minutes"), ("35", "30 to 40 minutes")]),
-    q_radio("days", "8. How many days a week?", [("2", "2 days"), ("3", "3 days"), ("4", "4 days")]),
-    q_check("area", "9. Where do you feel it after a long day?", [("neck", "Neck"), ("upper", "Shoulders and upper back"), ("lower", "Lower back"), ("hips", "Hips"), ("wrists", "Wrists and elbows"), ("knees", "Knees")], "Pick any, or none."),
-    q_radio("feel", "10. How does it feel?", [("stiff", "Stiff or tight, and better once I move"), ("pain", "Pain: sharp, constant, wakes me up, numbness or tingling, or after an injury")], "", ' id="q-feel" hidden'),
-    q_radio("age", "11. How old are you?", [("u18", "Under 18"), ("18", "18 to 39"), ("40", "40 to 59"), ("60", "60 or more")]),
-    q_check("health", "12. Does any of this apply to you?", [
+    q_radio("sit", "How many hours do you sit on a normal day?", [("lt4", "Under 4"), ("4-8", "4 to 8"), ("8-12", "8 to 12"), ("12", "12 or more")]),
+    q_radio("goal", "What do you want most right now?", [("mob", "Move without stiffness"), ("str", "Get stronger"), ("fat", "Lose some fat and get fitter"), ("desk", "Feel better at my desk (neck, back, posture)")]),
+    q_radio("focus", "Which part do you want to work on most?", [("whole", "Whole body"), ("lower", "Legs and glutes"), ("upper", "Upper body and back"), ("core", "Core and posture")]),
+    q_radio("exp", "How much do you train at the moment?", [("new", "I'm new to training"), ("some", "I trained before, not now"), ("reg", "2 or more times a week")]),
+    q_radio("place", "Where will you train?", [("home", "At home"), ("gym", "At the gym"), ("both", "Both")]),
+    q_check("equip", "What do you have at home?", [("bands", "Resistance bands"), ("db", "Dumbbells"), ("kb", "Kettlebell"), ("bar", "Pull-up bar"), ("all", "All of these")], "Optional: pick any, or none.", ' id="q-equip" hidden'),
+    q_radio("time", "How much time per session?", [("10", "10 minutes"), ("20", "20 minutes"), ("35", "30 to 40 minutes"), ("auto", "Choose for me")]),
+    q_radio("days", "How many days a week?", [("2", "2 days"), ("3", "3 days"), ("4", "4 days")]),
+    q_radio("ache", "Do you have pain or stiffness anywhere right now?", [("no", "No"), ("yes", "Yes")], "", ' id="q-ache" hidden'),
+    q_check("area", "Where do you feel it?", [("neck", "Neck"), ("upper", "Shoulders and upper back"), ("lower", "Lower back"), ("hips", "Hips"), ("wrists", "Wrists and elbows"), ("knees", "Knees")], "Pick all that apply.", ' id="q-area" hidden'),
+    q_radio("feel", "How does it feel?", [("stiff", "Stiff or tight, and better once I move"), ("pain", "Pain: sharp, constant, wakes me up, numbness or tingling, or after an injury")], "", ' id="q-feel" hidden'),
+    q_radio("age", "How old are you?", [("u18", "Under 18"), ("18", "18 to 39"), ("40", "40 to 59"), ("60", "60 or more")]),
+    q_check("health", "Does any of this apply to you?", [
         ("heart", "Heart condition, chest pain or fainting when active"), ("surg6", "Surgery in the last 6 months"),
         ("preg", "Pregnant"), ("doc", "A doctor told me to limit exercise"),
         ("surg", "Older surgery or joint replacement (more than 6 months ago)"), ("spine", "Disc problem or a diagnosed back condition"),
@@ -438,7 +450,7 @@ training = """
   <div class="block-head"><p class="kicker">The quiz</p><h2 id="quiz-title">Build your program</h2></div>
   <form class="quiz" id="quiz-form" novalidate>
     """ + QUIZ + """
-    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question (6 and 9 are optional; for 12, pick “None of these” if nothing applies).</p>
+    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question (the equipment one is optional; for the health one, pick “None of these” if nothing applies).</p>
     <button class="btn" type="submit">Show my custom program</button>
   </form>
 </section>
@@ -488,6 +500,23 @@ training = """
   <p class="small muted mt-s">Every program runs in 4-week blocks that get a little harder each week, with gym and home versions. A new workout every week and a monthly live class with me. Want me to check your form and adjust it by hand? That's <a href="shop.html#coaching">1:1 coaching</a>. Founding price for people on the waitlist.</p>
 </section>
 
+<section class="wrap block" aria-labelledby="coachme-title">
+  <div class="block-head"><p class="kicker">Who builds your program</p><h2 id="coachme-title">Built by a coach who sits all day too</h2></div>
+  <div class="split">
+    <div class="portrait"><img src="assets/kristine.jpg" alt="Kristine Maia smiling" width="600" height="600" loading="lazy"></div>
+    <div class="prose">
+      <p class="lead">I'm Kristine. I stream for hours, so I know exactly how a long day in a chair feels.</p>
+      <ul class="creds">
+        <li>Degree in Physical Education and Sport</li>
+        <li>I've written personalized training plans and run online workout challenges</li>
+        <li>5 years live on Twitch, with a stretch break every hour for a community of 72,000</li>
+      </ul>
+      <p class="muted">Every exercise in your program is filmed by me, in the gym, with a home version.</p>
+    </div>
+  </div>
+""" + testimonials_html() + """
+</section>
+
 <section class="wrap block pt-s" aria-labelledby="tfaq-title">
   <div class="block-head"><p class="kicker">Questions</p><h2 id="tfaq-title">Before you start</h2></div>
   <div class="faq">
@@ -503,7 +532,7 @@ training = """
 (function(){
   var f=document.getElementById('quiz-form'); if(!f) return;
   var res=document.getElementById('result'), err=document.getElementById('quiz-err');
-  var qEquip=document.getElementById('q-equip'), qFeel=document.getElementById('q-feel');
+  var qEquip=document.getElementById('q-equip'), qFeel=document.getElementById('q-feel'), qAche=document.getElementById('q-ache'), qArea=document.getElementById('q-area');
   var AREAS={neck:'Neck reset',upper:'Shoulders and upper back reset',lower:'Lower back reset',hips:'Hips reset',wrists:'Wrists and elbows reset',knees:'Knee-friendly hips and ankles'};
   var BREAKS={'lt4':'One 2-minute stretch break in the middle of the day.','4-8':'A 2-minute stretch break every 2 hours.','8-12':'A 2-minute stretch break every 90 minutes. Set a timer.','12':'A 2-minute stretch break every hour, like we do on stream. Set a timer.'};
   var SPLIT={
@@ -526,17 +555,23 @@ training = """
   function vals(n){return [].map.call(f.querySelectorAll('input[name="'+n+'"]:checked'),function(x){return x.value})}
   function li(t){var l=document.createElement('li');l.textContent=t;return l}
   f.addEventListener('change',function(e){
-    var t=e.target; if(t.name!=='health'||!t.checked) return;
-    [].forEach.call(f.querySelectorAll('input[name="health"]'),function(x){ if(t.value==='none'?x.value!=='none':x.value==='none') x.checked=false; });
+    var t=e.target, solo={health:'none',equip:'all'}[t.name]; if(!solo||!t.checked) return;
+    [].forEach.call(f.querySelectorAll('input[name="'+t.name+'"]'),function(x){ if(t.value===solo?x.value!==solo:x.value===solo) x.checked=false; });
   });
+  function clear(n){[].forEach.call(f.querySelectorAll('input[name="'+n+'"]'),function(x){x.checked=false})}
   function sync(){
     var pl=val('place'); qEquip.hidden=!(pl==='home'||pl==='both');
-    qFeel.hidden=vals('area').length===0;
+    // Unde doare: direct la mobilitate/birou; la slăbit/forță doar dacă spune că are dureri sau înțepeneală.
+    var g=val('goal'), body=(g==='mob'||g==='desk');
+    qAche.hidden=body||!g; if(qAche.hidden) clear('ache');
+    qArea.hidden=!(body||val('ache')==='yes'); if(qArea.hidden) clear('area');
+    qFeel.hidden=vals('area').length===0; if(qFeel.hidden) clear('feel');
+    var k=0;[].forEach.call(f.querySelectorAll('fieldset.qf'),function(fs){var q=fs.querySelector('.qn'); if(!fs.hidden){k++; q.textContent=k+'. ';}});
   }
   f.addEventListener('change',sync);
   f.addEventListener('submit',function(e){
     e.preventDefault();
-    var need=['sit','goal','focus','exp','place','time','days','age','health']; if(!qFeel.hidden) need.push('feel');
+    var need=['sit','goal','focus','exp','place','time','days','age','health']; if(!qAche.hidden) need.push('ache'); if(!qFeel.hidden) need.push('feel');
     for(var i=0;i<need.length;i++){ if(!val(need[i])){ err.hidden=false; var q=f.querySelector('input[name="'+need[i]+'"]'); q.closest('fieldset').scrollIntoView({behavior:'smooth',block:'center'}); return; } }
     err.hidden=true;
     var a={sit:val('sit'),goal:val('goal'),focus:val('focus'),exp:val('exp'),place:val('place'),time:val('time'),days:+val('days'),age:val('age'),feel:val('feel')};
@@ -546,9 +581,11 @@ training = """
     var adj=Object.keys(ADJ).filter(has).map(function(x){return ADJ[x]});
     if(a.age==='60') adj.push('60 or more: two minutes of balance practice next to a wall on training days.');
     var noJump=['osteo','post','hernia'].some(has)||areas.indexOf('knees')>-1;
+    var auto=(a.time==='auto');
+    if(auto) a.time=(a.exp==='reg'&&(a.goal==='str'||a.goal==='fat'))?'35':'20';
     var mins={'10':'10','20':'20','35':'30 to 40'}[a.time];
     var level=(a.exp==='reg')?'Intermediate':(a.exp==='some'?'Returning beginner':'Beginner');
-    var homeKit=eq.length?('home, with '+eq.map(function(x){return {bands:'bands',db:'dumbbells',kb:'a kettlebell',bar:'a pull-up bar'}[x]}).join(', ')):'home, no equipment';
+    var homeKit=eq.indexOf('all')>-1?'home, with bands, dumbbells, a kettlebell and a pull-up bar':eq.length?('home, with '+eq.map(function(x){return {bands:'bands',db:'dumbbells',kb:'a kettlebell',bar:'a pull-up bar'}[x]}).join(', ')):'home, no equipment';
     var where={home:homeKit,gym:'gym',both:'gym and '+homeKit}[a.place];
     var dayPlace=function(i){ if(a.place!=='both') return ''; return (i%2===0)?' (gym)':' (home)'; };
     var track, week=[], extra=[];
@@ -577,7 +614,7 @@ training = """
     }
     var shownAreas=pain?[]:areas;
     document.getElementById('r-track').textContent=track;
-    document.getElementById('r-level').textContent='Level: '+level+' · '+where+(safe?'':' · '+a.days+' days a week · '+mins+' minutes');
+    document.getElementById('r-level').textContent='Level: '+level+' · '+where+(safe?'':' · '+a.days+' days a week · '+mins+' minutes'+(auto?' (chosen for you)':''));
     document.getElementById('r-age').hidden=!minor;
     document.getElementById('r-safe').hidden=!safe||minor;
     var aj=document.getElementById('r-adj');aj.innerHTML='';adj.forEach(function(t){aj.appendChild(li(t))});
