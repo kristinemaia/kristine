@@ -1,10 +1,27 @@
-# Planul pe 12 săptămâni: reel-uri + Custom Program (2 noiembrie 2026 – 24 ianuarie 2027)
+# Planul pe 12 săptămâni: reel-uri + Custom Program (2 noiembrie 2026 – 25 ianuarie 2027)
 
 _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → Calendar (ce postezi), `PLAN-REELURI-SALA.md` (reel-urile de sală), `TRAINING-ONLINE.md` (Custom Program), `CRESTERE-COLABORARI.md` (branduri), `PLAN-REMOTE.md` (banii)._
 
+## Ritmul: 5 zile de lucru, 2 libere (31 oct)
+**Lucrezi de luni până vineri; sâmbăta și duminica sunt libere.** Postările merg singure și în weekend, pentru că sunt programate. La comentarii răspunzi luni dimineață.
+
+**Cât lucrezi pe săptămână** (după săptămâna de filmare):
+| Zi | Ce faci | Timp |
+|---|---|---|
+| **Luni** | sala: un lot nou de reel-uri (1 h) + comentarii și story-uri | ~1,5 h + antrenamentul tău |
+| **Marți** | stream + 3 emailuri către branduri | stream + 30 min |
+| **Miercuri** | stream | stream + 20 min comentarii |
+| **Joi** | 3 emailuri către branduri, te uiți la ce am montat și îmi spui ce schimb, story-uri | ~1,5 h |
+| **Vineri** | stream + **cifrele săptămânii (15 min) + programarea pe săptămâna următoare (30 min)** | stream + 1 h |
+| **Sâmbătă, duminică** | liber | 0 |
+
+**Total în afară de stream: ~5–6 ore pe săptămână.** Cu streamurile, în jur de 20 de ore. Încape ușor în 5 zile.
+
+**Durata rămâne tot 12 săptămâni.** Nu orele tale stabilesc durata, ci montajul programului (5 săptămâni, îl fac eu), testul cu oamenii (2 săptămâni), sărbătorile și răspunsul contabilei. Dacă montajul merge repede și răspunsul vine devreme, putem câștiga 1–2 săptămâni; o să-ți spun la punctele de control.
+
 ## De ce 12 săptămâni
 - **E destul de lung** ca să construim Custom Program cap-coadă (filmare → montaj → test → lansare) și **destul de scurt** ca să nu se piardă din vedere.
-- Se termină cu **lansarea pentru fondatori (duminică 24 ianuarie)**, adică primii bani din program.
+- Se termină cu **lansarea pentru fondatori (luni 25 ianuarie)**, adică primii bani din program.
 - Ține cont de Turcia (poți sta cel mult până pe **10 ianuarie**) și de regula că **vânzarea începe doar după răspunsul scris al contabilei și al avocatului**, sau din România.
 
 **Trei faze:**
@@ -13,11 +30,11 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 | **1. Filmăm tot** | 2–15 nov | săptămâna de filmare + montajul primelor reel-uri și al bibliotecii |
 | **2. Construim programul** | 16 nov – 20 dec | eu montez antrenamentele, tu postezi, strângi lista de așteptare și faci colaborările |
 | **Pauza de sărbători** | 21 dec – 3 ian | totul e programat dinainte, tu te odihnești |
-| **3. Testăm și lansăm** | 4–24 ian | 10 oameni testează gratuit, reparăm, lansăm pentru fondatori |
+| **3. Testăm și lansăm** | 4–25 ian | 10 oameni testează gratuit, reparăm, lansăm pentru fondatori |
 
 ---
 
-## Țintele pentru 24 ianuarie (le controlăm noi)
+## Țintele pentru 25 ianuarie (le controlăm noi)
 1. **Reel-uri programate până la sfârșitul lui ianuarie**, 5 pe săptămână, fără pauze.
 2. **Custom Program v1 gata:** 4 trasee, 20 de antrenamente video, 6 resetări, 4 videouri de început.
 3. **150 de oameni pe lista de așteptare** (chestionar + coaching).
@@ -49,7 +66,7 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 **Săptămâna 2–6 nov: săptămâna de filmare** (Tracker → „Săptămâna de filmare 2–6 nov”)
 - **Tu:** în fiecare zi, un lot de reel-uri + o grupă din bibliotecă (~1,5–2 h); seara îmi trimiți clipurile.
 - **Eu:** montez în ziua următoare: întâi reel-urile pentru noiembrie, apoi exercițiile din bibliotecă (curățate, cu nume).
-- **Weekend:** acasă, cele 4 videouri vorbite + snack-ul.
+- **Luni 9 nov, acasă:** cele 4 videouri vorbite + snack-ul (weekendul e liber).
 - **Tot săptămâna asta:** plătești domeniul, urci site-ul pe Netlify, legăm kristinemaia.com.
 
 **Săptămâna 9–15 nov: totul pe picioare**
@@ -57,7 +74,7 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 - **Eu:** termin reel-urile până la 20 decembrie; fac **portofoliul UGC** și actualizez **media kit-ul** cu pozele noi.
 - **Programarea:** pui pe Instagram și TikTok tot ce e gata până pe 6 decembrie.
 
-**Punct de control, duminică 15 nov:** clipurile sunt toate la mine? Site-ul e pe kristinemaia.com? Câți sunt pe lista de așteptare?
+**Punct de control, vineri 13 nov:** clipurile sunt toate la mine? Site-ul e pe kristinemaia.com? Câți sunt pe lista de așteptare?
 
 ---
 
@@ -72,21 +89,13 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 | 7–13 dec | cele 6 resetări + cele 4 videouri de început + tabelele de progresie |
 | 14–20 dec | pagina din Payhip (cursuri + abonament), textele, emailul de bun venit; reel-urile din ianuarie |
 
-**Săptămâna ta, de acum (după filmare)**
-| Zi | Ce faci |
-|---|---|
-| **Luni** | o oră la sală: **un lot nou de reel-uri** pentru ianuarie + partea a doua la ce a mers |
-| **Marți, miercuri, vineri** | stream; în live amintești chestionarul („link in bio, build your custom program”) |
-| **Marți și joi** | 3 emailuri către branduri, în fiecare zi |
-| **În fiecare zi, 15 min** | răspunzi la comentarii și faci story-uri: o dată pe săptămână linkul spre chestionar, o dată coaching-ul |
-| **Duminică** | 15 min cifrele + 20–30 min programarea pe săptămâna următoare |
-| **Joi sau sâmbătă** | liber |
+**Săptămâna ta, de acum (după filmare):** tabelul de sus, „Ritmul”.
 
 **Ce postăm ca să crească lista de așteptare:** o dată pe săptămână un reel care se termină cu **„Build your custom program → link in bio”** (o bucată dintr-un antrenament, „ce face Shape Up într-o zi”, un test), plus caruselul la două săptămâni.
 
 **Decembrie: e-book-ul.** Dacă a venit răspunsul contabilei despre vânzări, îl publicăm pe Payhip în prima săptămână din decembrie (era deja în plan). Dacă nu, rămâne pentru ianuarie, la pachet cu lansarea.
 
-**Puncte de control:** duminică **29 nov** (Unstiff, Desk Reset și Get Strong sunt montate? Câți pe listă?) și duminică **20 dec** (tot programul e montat? Payhip e gata de test?).
+**Puncte de control:** vineri **27 nov** (Unstiff, Desk Reset și Get Strong sunt montate? Câți pe listă?) și vineri **18 dec** (tot programul e montat? Payhip e gata de test?).
 
 ---
 
@@ -97,18 +106,18 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 
 ---
 
-## Faza 3 · Testăm și lansăm (4–24 ianuarie)
+## Faza 3 · Testăm și lansăm (4–25 ianuarie)
 | Săptămâna | Ce facem |
 |---|---|
 | **4–10 ian** | Alegem **10 testeri** din lista de așteptare (diferiți: birou, gameri, începători, cine vrea să slăbească). Le dai acces gratuit pentru 2 săptămâni. Tu: mutarea înapoi, dacă e cazul. |
 | **11–17 ian** | Testerii lucrează; le cerem un mesaj scurt la final (ce le-a plăcut, ce n-a mers, **și acordul să-l folosim pe site**). Eu repar ce spun. |
-| **18–24 ian** | Pregătim lansarea: 3 reel-uri și story-uri zilnice, email către toată lista („founding price 9 € for the first 50”). **Duminică 24 ian: deschiderea pentru fondatori**, dacă avem „da”-ul scris al contabilei și al avocatului. |
+| **18–25 ian** | Pregătim lansarea: 3 reel-uri și story-uri zilnice, email către toată lista („founding price 9 € for the first 50”). **Luni 25 ian: deschiderea pentru fondatori**, dacă avem „da”-ul scris al contabilei și al avocatului. |
 
 **Mesajele testerilor** intră pe site, la „What people say”. Sunt prima dovadă reală.
 
 ---
 
-## După 24 ianuarie (pe scurt)
+## După 25 ianuarie (pe scurt)
 - **Februarie:** challenge-ul gratuit de 7 zile „Desk Reset”, live și pe email. Aduce oameni noi în program.
 - **Martie:** prețul normal (12 €/lună) și nivelul intermediar.
 - **Coaching 1:1:** pornește când ai 5 oameni pe lista lui. Primii din lista de testeri sunt cei mai potriviți.

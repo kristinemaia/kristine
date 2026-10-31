@@ -145,8 +145,8 @@ GROUPS = [
         "items": [
             {"kind": "doc", "slug": "training-online", "title": "Antrenamentul online: Custom Program, chestionarul, ce filmăm", "src": "TRAINING-ONLINE.md",
              "desc": "Cum funcționează: chestionarul de pe site, traseele (Unstiff, Desk to Strong acasă și la sală, resetările), biblioteca de ~50 de exerciții de filmat, Payhip, prețul propus, calendarul până la deschiderea din martie și ce verifici cu avocatul."},
-            {"kind": "doc", "slug": "plan-12-saptamani", "title": "Planul pe 12 săptămâni: reel-uri + Custom Program (2 nov – 24 ian)", "src": "PLAN-12-SAPTAMANI.md",
-             "desc": "Cele 3 faze (filmăm tot, construim programul, testăm și lansăm), țintele pentru 24 ianuarie, ce conține Custom Program v1, ce montez eu săptămână cu săptămână, săptămâna ta și punctele de control."},
+            {"kind": "doc", "slug": "plan-12-saptamani", "title": "Planul pe 12 săptămâni: reel-uri + Custom Program (2 nov – 25 ian)", "src": "PLAN-12-SAPTAMANI.md",
+             "desc": "Cele 3 faze (filmăm tot, construim programul, testăm și lansăm), ritmul de 5 zile pe săptămână, țintele pentru 25 ianuarie, ce conține Custom Program v1, ce montez eu săptămână cu săptămână, săptămâna ta și punctele de control."},
             {"kind": "doc", "slug": "crestere-colaborari", "title": "Creșterea pe Instagram și colaborările plătite (30 oct)", "src": "CRESTERE-COLABORARI.md",
              "desc": "Poziționarea, ce urmărește Instagramul în 2026, standardul de calitate, ritmul săptămânal, cele 6 surse de colaborări plătite (inclusiv UGC și platforme), prețurile, treptele, ce măsori și primii pași."},
             {"kind": "doc", "slug": "parteneri", "title": "Parteneri și colaborări: venit de oriunde (30 oct)", "src": "PARTENERI.md",
