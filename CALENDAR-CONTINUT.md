@@ -1,5 +1,7 @@
 # Calendarul de conținut, pe toate platformele
 
+> **31 oct: toate loturile de reel-uri se filmează în săptămâna 2–6 noiembrie** (un lot pe zi, lotul 6 împărțit pe celelalte zile), împreună cu biblioteca Custom Program. Datele de postare rămân cele de mai jos; ce filmezi devine rezervă. Zi cu zi: Tracker → „Săptămâna de filmare 2–6 nov”.
+
 _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orele sunt ale României (în Turcia e cu o oră mai mult: 18:00 RO = 19:00 TR). Când postezi, programezi sau filmezi ceva, îmi spui și actualizez aici și în Tracker._
 
 **Legendă:** ✅ postat · 🗓 programat de tine (nu mai faci nimic) · ✏️ gata montat, **de programat** · 🎬 **de filmat** · ✂️ de montat (de mine, după ce primesc clipurile)

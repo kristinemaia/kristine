@@ -88,7 +88,7 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 - **Un antrenament nou pe săptămână**, montat de mine din bibliotecă (asta ține abonații).
 - **O clasă live lunară** (pe Discord sau Twitch, doar pentru membri).
 
-**31 oct: ai sala în fiecare zi, deci biblioteca se filmează într-o săptămână: o grupă pe zi, 2–7 noiembrie, ~30 de minute** (în Tracker: „Biblioteca Custom Program”). Ordinea grupelor rămâne cea de mai jos.
+**31 oct: săptămâna de filmare e 2–6 noiembrie (luni–vineri): în fiecare zi un lot de reel-uri + o grupă din bibliotecă (~1,5–2 h).** Încălzirea și cardio (lotul 6 din tabel) se filmează pe bucăți, la încălzire, în primele 4 zile; cele 4 videouri vorbite, acasă, în weekend. Detaliile, zi cu zi, sunt în Tracker → „Săptămâna de filmare 2–6 nov”.
 
 **Ce filmezi la fiecare lot (în cele 15 minute în plus):**
 

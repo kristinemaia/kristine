@@ -1,5 +1,7 @@
 # Reel-uri filmate doar la sală: seriile, calendarul nov–dec și promovarea
 
+> **31 oct: toate loturile de reel-uri se filmează în săptămâna 2–6 noiembrie** (un lot pe zi, lotul 6 împărțit pe celelalte zile), împreună cu biblioteca Custom Program. Datele de postare rămân cele de mai jos; ce filmezi devine rezervă. Zi cu zi: Tracker → „Săptămâna de filmare 2–6 nov”.
+
 _30 octombrie 2026. Merge cu `PLAN-REMOTE.md` (sursele de venit) și `REELURI-VIRALE-SALA.md` (G1–G3, cadru cu cadru). Orele sunt ale României; în Turcia e cu o oră mai mult (18:00 în România = 19:00 la tine)._
 
 ## Părerea mea, pe scurt
