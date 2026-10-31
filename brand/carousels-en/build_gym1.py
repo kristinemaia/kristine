@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Carusel EN „2 moves for your next gym day” (G-C1), același șablon ca build_en.py, 4 slide-uri.
-Pozele: src/gym-lunge.jpg, src/gym-cobra.jpg (de la ședința foto de la sală, cu acordul fotografului).
+Pozele (câte una pe slide): src/gym-window-wide.jpg, gym-lunge.jpg, gym-cobra.jpg, gym-rope-smile.jpg (de la ședința foto de la sală, cu acordul fotografului).
 Rulezi: python3 brand/carousels-en/build_gym1.py -> out/EN-G1-gym-day-*.png"""
 import os
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -15,7 +15,7 @@ lunge, cobra = img('gym-lunge.jpg'), img('gym-cobra.jpg')
 def slides():
     s = []
     s.append(frame(1, '<div style="position:absolute;left:80px;right:80px;top:170px"><h1 style="font-size:104px">Sit all day? 2 moves for your next gym day</h1></div>'
-        '<div class="card" style="left:150px;top:610px;width:780px;height:660px"><img src="%s" style="object-position:center 30%%"></div>' % lunge, 1))
+        '<div class="card" style="left:150px;top:610px;width:780px;height:660px"><img src="%s" style="object-position:40%% center"></div>' % img('gym-window-wide.jpg'), 1))
     s.append(frame(2, '<div style="position:absolute;left:80px;right:80px;top:170px"><h2>1 · Dumbbell lunge</h2>%s</div>'
         '<div class="card" style="left:240px;top:580px;width:600px;height:660px"><img src="%s" style="object-position:center 25%%"></div><div class="foot">%s</div>'
         % (bullets(['Long step back, chest tall', 'Back knee hovers, never slams', '3 sets of 8 per leg']), lunge, DISC), 2, 'var(--blue)', 'var(--mint)'))
@@ -25,7 +25,7 @@ def slides():
     s.append(frame(4, '<div style="position:absolute;left:80px;right:80px;top:230px"><h1 style="font-size:100px">Save this for your next gym day</h1>'
         '<p style="font-size:44px;font-weight:600;margin:40px 0 60px;line-height:1.3">And send it to the friend who sits all day.</p>'
         '<div class="btn">Free 5-minute desk stretch · link in bio</div></div>'
-        '<div class="card" style="left:340px;top:820px;width:400px;height:400px;border-radius:50%%"><img src="%s" style="object-position:center 30%%"></div>' % img('gym-window.jpg'), 4, 'var(--mint)', 'var(--blue)'))
+        '<div class="card" style="left:340px;top:820px;width:400px;height:400px;border-radius:50%%"><img src="%s"></div>' % img('gym-rope-smile.jpg'), 4, 'var(--mint)', 'var(--blue)'))
     return s
 if __name__ == '__main__':
     import json, subprocess, tempfile
