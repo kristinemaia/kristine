@@ -88,6 +88,19 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 - **Un antrenament nou pe săptămână**, montat de mine din bibliotecă (asta ține abonații).
 - **O clasă live lunară** (pe Discord sau Twitch, doar pentru membri).
 
+**Ce filmezi la fiecare lot (în cele 15 minute în plus):**
+
+| Lot | Ziua | Grupa | Exercițiile |
+|---|---|---|---|
+| 1 | luni 2 nov | Mobilitate 1 | cat-cow, open book, world's greatest stretch, 90/90, flexorii șoldului în genunchi, extensie toracică pe bancă, child's pose cu întindere, deep squat hold |
+| 2 | luni 9 nov | Picioare 1 | genuflexiune liberă, goblet squat, split squat, fandare înapoi, glute bridge, step-up, wall sit, ridicări pe vârfuri |
+| 3 | luni 16 nov | Picioare 2 + core | hip thrust pe bancă, deadlift românesc cu gantere, dead bug, bird dog, plank, plank lateral, pallof press, hollow hold pentru începători |
+| 4 | luni 23 nov | Spate (tras) | band pull-apart, ramat cu banda, ramat cu ganteră, ramat la cablu, lat pulldown, face pull, fluturări inverse, wall angel |
+| 5 | luni 30 nov | Împins + gât și încheieturi | flotare înclinată, flotare, împins cu gantere de la podea, împins deasupra capului, împins cu banda, chin tucks, gâtul lateral, cele 3 pentru încheieturi |
+| 6 | luni 7 dec | Încălzire + cardio | coardă, cercuri de brațe, cercuri de șold, leg swings, respirația de reset, gleznă la perete, intervale cu coarda 30/30, mers pe bandă înclinată, step-up rapid, marș pe loc |
+
+Cele **4 videouri de început** (bun venit, cum folosești programul, siguranța, cum îți filmezi forma) le filmezi oricând, acasă, vorbind la cameră.
+
 **Cum filmezi biblioteca:** **15 minute în plus la fiecare sesiune de reel-uri** de la sală (8–10 exerciții pe sesiune), deci în ~5–6 săptămâni ai tot. Unghiul pe diagonală (45°), tot corpul, 2 repetări lente plus una normală; aceeași ținută pe lot; fără să vorbești (vocea și indicațiile le pun la montaj, ca text sau voice-over înregistrat separat, în liniște).
 
 **Aceleași filmări, două folosințe (reel-uri + program):**
