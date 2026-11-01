@@ -88,7 +88,7 @@ Același principiu ca la programul de 30 de zile: **filmezi fiecare exercițiu o
 - **Un antrenament nou pe săptămână**, montat de mine din bibliotecă (asta ține abonații).
 - **O clasă live lunară** (pe Discord sau Twitch, doar pentru membri).
 
-**31 oct: săptămâna de filmare e 2–6 noiembrie (luni–vineri): în fiecare zi un lot de reel-uri + o grupă din bibliotecă (~1,5–2 h).** Încălzirea și cardio (lotul 6 din tabel) se filmează pe bucăți, la încălzire, în primele 4 zile; cele 4 videouri vorbite, acasă, în weekend. Detaliile, zi cu zi, sunt în Tracker → „Săptămâna de filmare 2–6 nov”.
+**31 oct: săptămâna de filmare e 2–6 noiembrie (luni–vineri): în fiecare zi un lot de reel-uri + o grupă din bibliotecă (~1,5–2 h).** Încălzirea și cardio (lotul 6 din tabel) se filmează pe bucăți, la încălzire, în primele 4 zile; cele 4 videouri vorbite, la sală, luni 9 noiembrie. Detaliile, zi cu zi, sunt în Tracker → „Săptămâna de filmare 2–6 nov”.
 
 **Ce filmezi la fiecare lot (în cele 15 minute în plus):**
 
@@ -112,6 +112,23 @@ Cele **4 videouri de început** (bun venit, cum folosești programul, siguranța
 - **Regula:** pe reel-uri dai **o bucată** (5–10 secunde pe exercițiu, un sfat, o greșeală), iar **antrenamentul întreg, cu ordinea, pauzele și progresia pe 4 săptămâni, rămâne în program**. Altfel nu mai are nimeni motiv să plătească.
 - Fiecare reel de felul ăsta se termină cu **„Build your custom program → link in bio”**, care duce la chestionar.
 - Pentru reel-uri filmezi **în plus** doar cârligul (2–3 secunde la cameră) și, dacă vrei, o variantă vorbită. Restul vine din bibliotecă.
+
+## 4b. Drumul omului: de la chestionar la videouri (1 nov)
+1. **Site-ul (kristinemaia.com/training.html), gratuit:** omul face chestionarul și primește pe loc **planul lui**: traseul (Unstiff, Get Strong, Shape Up, Desk Reset), acasă/sală/ambele, câte zile, câte minute, **ce antrenament face în fiecare zi** (A, B, C, cardio), resetările pentru zonele lui și ce are de evitat (sănătate, dureri). Pe site **nu sunt videouri**; răspunsurile nu se trimit nicăieri.
+2. **Butonul din rezultat** îl duce la **abonamentul de pe Payhip** (acum: lista de așteptare). La lansare, butonul se schimbă după traseu: fiecare om ajunge direct la cursul lui.
+3. **Payhip (zona de membri), cu plată:** aici stau **toate videourile**. Fiecare traseu e un **curs**, cu lecțiile în ordine:
+   - Start here: cele 4 videouri de început
+   - Antrenamentul A, B, C (variantele sală și acasă) + versiunile Express de 10 minute
+   - Cardio (Shape Up)
+   - Resetările de 5 minute
+   - Tabelul de progresie pe 4 săptămâni (PDF)
+4. Omul deschide în fiecare zi antrenamentul spus de plan și face **follow-along** cu tine.
+
+**De ce așa:** site-ul rămâne gratuit și simplu (Netlify), iar Payhip se ocupă de plăți, TVA, parole și găzduirea videourilor. Videourile **nu** merg pe YouTube (canalul e închis) și nici pe site.
+
+**Câte videouri urcăm în v1:** 20 de antrenamente + ~14 versiuni Express + 6 resetări + 4 de început ≈ **44 de fișiere**, exportate de mine la 1080p, comprimate cât să se urce ușor. Dacă Payhip are o limită de mărime pe fișier, le comprim mai mult sau împart antrenamentul în două.
+
+**Mai târziu (v2):** butonul „Email me my plan”, care trimite **doar traseul și zilele** (nu răspunsurile despre sănătate) pe email, prin MailerLite, cu acordul omului.
 
 ## 5. Unde stă: site-ul tău + Payhip
 - **Site-ul** (Netlify): pagina Training, chestionarul, planul. Rămâne gratuit și simplu.
