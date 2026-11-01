@@ -77,7 +77,7 @@ def html(photo):
 <div class="card" style="background:var(--lilac)"><b>Chat command &amp; panel</b><p>A command in my Twitch chat (for example !yourbrand) that gives viewers your link and code.</p></div></div></div>
 <div class="row"><div><h2>Brands I use &amp; share codes for</h2><span class="pill">Dope Rope</span><span class="pill">Bewit</span><span class="pill">Revu Natural</span></div>
 <div><h2>My own products</h2><span class="pill">Free PDF: 5-minute desk stretch</span><span class="pill">Recipe e-book</span><span class="pill">1:1 online coaching</span></div></div>
-<div class="contact"><div><h2>Let's talk</h2><p>{EMAIL}<br>twitch.tv/kristinemaia · instagram.com/kristinemaia11 · TikTok @kristinemaia11</p></div><div class="rates">Rates on request</div></div>
+<div class="contact"><div><h2>Let's talk</h2><p>{EMAIL} · kristinemaia.com<br>twitch.tv/kristinemaia · instagram.com/kristinemaia11 · TikTok @kristinemaia11</p></div><div class="rates">Rates on request</div></div>
 <div class="foot">General mobility and recipe content, not medical advice. Sponsored posts are marked #ad; affiliate codes are always disclosed.</div>
 </div></div></body></html>"""
 
