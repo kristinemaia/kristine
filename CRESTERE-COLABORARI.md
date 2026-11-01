@@ -162,3 +162,15 @@ Prețurile se calculează după **vizualizări și rezultate**, nu doar după ur
 5. **Primele 2 Trial Reels** din lotul 1 (G1 cu două hook-uri diferite).
 6. **6 emailuri către branduri** (marți și joi), din `PARTENERI.xlsx`.
 7. **Duminică:** prima măsurătoare în Tracker.
+
+---
+
+## 12. Inspirație: ce luăm și ce nu de la alți creatori (1 nov)
+| Creator | Ce luăm | Ce NU luăm |
+|---|---|---|
+| **Anita Herbert** | programe proprii + povestea personală + mentalitate; comunitate în jurul programelor | estetica de tip „physique”, poze în costum de baie |
+| **Michelle Lewin** | consecvența de ani de zile, branduri pe termen lung, propria aplicație | conținutul centrat pe corp (exact ce a închis canalul de YouTube și monetizarea pe Instagram) |
+| **Built by Becky** (app; de verificat că e același cont) | antrenamente acasă, cu echipament minim, 30–50 min; abonament ~20 $/lună sau ~150 $/an; un loc de comunitate pentru membre | — |
+| **Gainsbybrains** (Sophie; app „Fitness & Food”) | abonament ~18 $/lună sau ~100 $/an; fitness + mâncare + stare de bine | recenziile se plâng că e greu de ales programul → **la noi alege chestionarul** (avantajul nostru) |
+
+**Concluzia:** toate au **programul lor pe abonament**, cu opțiune anuală, și o **comunitate**. Prețurile lor (~18–20 $/lună) arată că 9 €/lună pentru fondatori și 12 €/lună după sunt prețuri de intrare bune; **varianta anuală ~99 €** are sens. **Diferența noastră:** nimeni nu vorbește oamenilor care stau toată ziua (gameri, birou), iar chestionarul alege programul în locul lor.
