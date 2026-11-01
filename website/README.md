@@ -61,7 +61,7 @@ Fișierele comune:
 2. Tragi tot folderul `website` în pagină. Site-ul e online în câteva secunde, pe o adresă de tip `nume.netlify.app`.
 3. Îți faci cont gratuit ca să-l păstrezi și să-l actualizezi (tragi din nou folderul după fiecare modificare).
 
-**Domeniul kristinemaia.com** (acum e la Wix și nu e conectat la nimic):
+**Domeniul kristinemaia.com** (1 nov 2026: plătit la Wix până pe 13 mai 2029; DNS-ul trimite spre Netlify: A `kristinemaia.com` → 75.2.60.5, CNAME `www` → kristinemaia.netlify.app; proiectul Netlify: **kristinemaia**). Pașii de la început, pentru referință:
 - În Netlify: Domain settings → Add a domain → `kristinemaia.com`. Netlify îți arată ce înregistrări DNS să pui.
 - În Wix: Domains → kristinemaia.com → Manage DNS records, și pui înregistrările de la Netlify. (Sau muți domeniul de la Wix la alt registrar; e mai complicat, nu e necesar.)
 - Durează de la câteva minute la 48 de ore până merge.
