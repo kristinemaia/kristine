@@ -2,6 +2,13 @@
 
 _30 octombrie 2026. Pașii vin din pagina de ajutor YouTube despre canalele închise și din anunțul programului „Second chance”. Verifică-i pe pagina oficială înainte să trimiți ceva: regulile se schimbă._
 
+## Situația ta (1 noiembrie 2026)
+- **Două canale închise.** Primul (cel care crescuse mult) a fost închis primul; al doilea, **de yoga** (`youtube.com/channel/UCGa_NzmW5fekZ77YxezNqYQ`), a fost închis pentru **„Circumvention policy”**: un canal nou deschis după închiderea primului.
+- **Ce mai trebuie aflat:** data emailului de la canalul de yoga și **emailul primului canal** (data + motivul). De ele depinde tot.
+- **Drumul cel mai probabil:** „Second chance” (cerere de canal nou) de pe contul **primului** canal, **după un an de la ultima închidere**, dacă motivul primei închideri **nu** a fost copyright. Contestația pentru canalul de yoga are șanse mici, pentru că motivul e clar.
+- **Ce NU faci acum:** niciun canal nou; nu ștergi conturile Google ale celor două canale (cine și-a șters contul nu vede opțiunea „Second chance”); **nu apari în prim-plan în videourile altora pe YouTube** (regula spune „channels in which you prominently feature”), deci colaborările cu alți creatori le faci pe Instagram, TikTok și Twitch, nu pe YouTube.
+- Pagina oficială de verificat înainte de orice cerere: support.google.com/youtube/answer/16369459.
+
 **Regula de bază:** nu face un canal nou cât timp cel vechi e închis. YouTube consideră asta o încercare de a ocoli închiderea și poate închide și canalul nou, plus contul de Google.
 
 ## Pasul 1: afli ce s-a întâmplat (10 minute)
