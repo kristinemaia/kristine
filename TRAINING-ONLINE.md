@@ -139,7 +139,7 @@ Cele **4 videouri de început** (bun venit, cum folosești programul, siguranța
 ## 6. Prețul (propunere, de hotărât împreună)
 - **Custom Program:** 12 €/lună; **preț de fondator 9 €/lună** pentru primii 50 de pe lista de așteptare; varianta anuală ~99 €.
 - **Coaching 1:1:** 49 €/lună (feedback pe formă), maximum 10–20 de oameni.
-- **Programul de 30 de zile** devine blocul „Unstiff” din program. Dacă vrei, îl vinzi și separat, o singură dată (39 €), celor care nu vor abonament.
+- **Programul de 30 de zile nu mai e un produs separat (1 nov).** Ideile lui intră în Unstiff și Desk Reset; pe site, locul lui l-a luat Custom Program. Mai târziu, dacă cer oamenii, un „30-day start” vândut o singură dată, din aceleași videouri.
 
 **Riscul, sincer:** abonamentele au nevoie de conținut nou constant și pierd oameni în fiecare lună. Regula din roadmap: **dacă la 6 luni de la deschidere sunt sub 50 de membri**, trecem pe programe cumpărate o singură dată și clase live.
 

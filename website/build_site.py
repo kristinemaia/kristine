@@ -189,7 +189,7 @@ def free_band(title="Start with five minutes.", extra="", chat="Five minutes, on
                 .replace("{extra}", (" " + extra) if extra else ""))
 
 
-LIST_PERKS = "Download it and you'll also hear first about the updated e-book, the 30-day program at the early price."
+LIST_PERKS = "Download it and you'll also hear first about the updated e-book and the Custom Program at the founding price."
 
 # Programul de pe Twitch. data-day: 1 = luni, 3 = miercuri, 5 = vineri (pentru „Today / Next up”).
 # Duminica nu are data-day, pentru că e doar în unele săptămâni.
@@ -258,7 +258,7 @@ home = """
       <p class="chat m-done" id="done-chat" tabindex="-1"><span class="who">kristinemaia</span><span class="say" id="done-line">Notice anything? That's 1 of 480 minutes back.</span></p>
       <p class="m-done">Tomorrow, try the 5-minute version. It's free.</p>
       <a class="btn m-done" href="#free" id="to-free">Get the free desk stretch</a>
-      <p class="next m-done"><a href="shop.html#program">Coming soon: a 30-day plan. Join the waitlist</a></p>
+      <p class="next m-done"><a href="training.html">Want more? Build your custom program</a></p>
       <p class="spots m-done"><span>Which spot complained most?</span><a href="free.html#neck">Neck</a><a href="free.html#wrists">Wrists</a><a href="free.html#hips">Hips</a></p>
       <p class="m-done"><button class="link-btn" id="again" type="button">Do it again</button></p>
 
@@ -282,11 +282,11 @@ home = """
     </div>
     <div class="more-grid">
       <article class="offer" id="program-home">
-        <h3>Desk &amp; Gamer Mobility: 30 days</h3>
-        <p class="price">€39<small>€29 for the email list</small></p>
-        <p>10 minutes a day, follow-along videos for neck, upper back, wrists, hips and lower back.</p>
+        <h3>Your custom program</h3>
+        <p class="price">Coming soon<small>founding price for the waitlist</small></p>
+        <p>Answer a 2-minute quiz and get a plan built around how much you sit: less stiff, stronger or leaner, at home or at the gym. Follow-along videos with me, 10 to 40 minutes.</p>
         <p class="fine">General exercise and education. Not medical advice.</p>
-        <a class="btn" href="#free">Join the waitlist</a>
+        <a class="btn" href="training.html">Take the quiz</a>
       </article>
       <div class="soon">
         <p class="kicker">Coming soon</p>
@@ -660,7 +660,7 @@ shop = """
 </section>
 
 <section class="wrap block" aria-labelledby="soon-title">
-  <div class="block-head"><p class="kicker">Coming soon · join the waitlist</p><h2 id="soon-title">Good food and a 30-day plan</h2></div>
+  <div class="block-head"><p class="kicker">Coming soon · join the waitlist</p><h2 id="soon-title">Good food and your custom program</h2></div>
   <div class="duo">
     <article class="panel p-pink" id="kitchen">
       <img class="book" src="assets/ebook-cover.jpg" alt="Cover of the e-book Stream Day Kitchen by Kristine Maia" width="200" height="320" loading="lazy">
@@ -672,11 +672,11 @@ shop = """
       <a class="btn alt" href="#free">Join the waitlist</a>
     </article>
     <article class="panel p-blue" id="program">
-      <span class="tag">Waitlist</span>
-      <h3>Desk &amp; Gamer Mobility: 30 days</h3>
-      <p class="p">€39<small>€29 for the email list</small></p>
-      <ul><li>10 minutes a day, follow-along videos</li><li>Neck, upper back, wrists, hips and lower back</li><li>Watch on your phone</li></ul>
-      <a class="btn alt" href="#free">Join the waitlist</a>
+      <span class="tag">Waitlist · founding price</span>
+      <h3>Custom Program</h3>
+      <p class="p">Monthly<small>membership</small></p>
+      <ul><li>A 2-minute quiz builds your plan: goal, focus, home or gym, time</li><li>Follow-along videos, 10 to 40 minutes, with 4-week progressions</li><li>Unstiff, Get Strong, Shape Up and Desk Reset</li></ul>
+      <a class="btn alt" href="training.html">Take the quiz</a>
     </article>
   </div>
 </section>
@@ -720,7 +720,7 @@ shop = """
 page(
     "shop.html",
     "Shop · Kristine Maia",
-    "The Stream Day Kitchen e-book, the 30-day Desk & Gamer Mobility program and 1:1 online coaching (all on the waitlist), plus discount codes for gear I use.",
+    "The Stream Day Kitchen e-book, the Custom Program and 1:1 online coaching (all on the waitlist), plus discount codes for gear I use.",
     shop,
 )
 

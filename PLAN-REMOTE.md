@@ -44,7 +44,7 @@ _Reactualizat 30 octombrie 2026. Se sprijină pe `PLAN.md` și pe Roadmap (secț
 | Sursă | Ce e | Model de urmat (din Roadmap) |
 |---|---|---|
 | **1. Twitch** (motorul) | abonamente, bits, reclame, donații; VirtuMe prin `!twin` | Dr. K (live, 90% gratuit), Xaryu (mișcarea e un segment în stream) |
-| **2. Produse digitale** | PDF gratuit → e-book 12 € → program „Desk & Gamer Mobility, 30 de zile” 39–49 € | Liezl Jayne (PDF → email → produs mic), Kassandra (filmare în serii) |
+| **2. Produse digitale** | PDF gratuit → e-book 12 € → ~~program de 30 de zile~~ **Custom Program pe abonament** (9 € fondatori, apoi 12 €/lună; anual ~99 €) | Liezl Jayne (PDF → email → produs mic), Kassandra (filmare în serii) |
 | **3. Coaching online** (înlocuiește terapia) | antrenamente personalizate cu feedback pe video, 49 €/lună, maxim 10–20 de oameni; evaluare de mobilitate pe video 55–60 € | Ben Patrick (vinzi feedback, nu doar videouri) |
 | **4. Sponsori și afiliați** | ergonomie, gaming, recuperare; cod plus link | Dr. Jordan Tsai, 1HP (brandurile de gaming plătesc pentru sănătate) |
 
@@ -55,6 +55,8 @@ Plus **chiria**, care merge singură.
 ---
 
 ## 4. Ce oprești
+
+- **Programul „Desk & Gamer Mobility, 30 de zile” ca produs separat (decizia din 1 nov).** Nu era filmat încă, iar **Custom Program** face același lucru, dar personalizat. Ideile lui intră în traseele Unstiff și Desk Reset; pe site, locul lui l-a luat Custom Program. Mai târziu, dacă cer oamenii, se poate vinde o dată un „30-day start” făcut din aceleași videouri.
 
 - **Terapia, de tot (decizia din 30 oct).** Nu mai faci ședințe; KM Wellness Concept intră **pe pauză**, cu 0 ore pe săptămână. Pașii sunt mai jos, în „KM Wellness pe pauză”.
 - **Sesiunea pentru abonați în același live** (nu merge, sunt toți acolo). O înlocuiești cu **o clasă lunară în Discord**, pe canalul cu rol de abonat (modelul Vantana: clasă lunară separată de stream).
@@ -91,17 +93,17 @@ Plus **chiria**, care merge singură.
 | Când | Ce faci | Ce nu faci |
 |---|---|---|
 | **Noiembrie** (Turcia, cât stai) | pâlnia (secțiunea 7); 4 streamuri, 12–16 ore pe săptămână; segment „follow-along” de la sală, din care tai clipuri; lista de așteptare pentru coaching (gratuită: nume și email); contestația YouTube; întrebările la contabilă | nicio vânzare din Turcia |
-| **Decembrie** | e-book-ul pe Payhip (12 €, după răspunsul contabilei); filmezi programul de 30 de zile (4 zile scurte, `PROGRAM-30-ZILE.md`); primii 3–5 oameni la coaching, preț de fondator | vânzări doar din România sau cu avizul contabilei |
+| **Decembrie** | e-book-ul pe Payhip (12 €, după răspunsul contabilei); ~~programul de 30 de zile~~ (înlocuit de Custom Program, gata pe 15 nov); primii 3–5 oameni la coaching, preț de fondator | vânzări doar din România sau cu avizul contabilei |
 | **Ianuarie** | coaching 5–10 oameni; clasa lunară în Discord pentru abonați; decizia pe VirtuMe (rămâne sau nu), după cifrele de după garanție | |
-| **Februarie** | challenge gratuit de 7 zile „Desk Reset”, live și cu email (modelul Doc Jen); precomandă program 29 € | |
-| **Martie** | lansarea programului: 39 € timp de 7 zile, apoi 49 €; pachet cu e-book 54 € | reduceri permanente |
+| **Februarie** | challenge gratuit de 7 zile „Desk Reset”, live și cu email (modelul Doc Jen); îi invită în Custom Program | |
+| **Martie** | prețul normal la Custom Program (12 €/lună) și varianta anuală; pachet cu e-book | reduceri permanente |
 
 **Turcia, dacă rămâi mai mult (ești cu iubitul și nu știi cât stai):**
 - Ai folosit deja 16 zile (23–26 sept și 4–15 oct). Dacă nu ai mai fost în Turcia după 19 mai, poți sta **fără întrerupere cel mult până pe 10 ianuarie 2027** (ziua intrării și a ieșirii se numără). Verifică data pe site-ul oficial sau la consulat înainte să-ți iei biletul de întoarcere.
 - Pe 2026, zilele rămân mult sub 183 (rezidența fiscală), chiar dacă stai până la sfârșitul lui decembrie.
 - **Fără activitate plătită pe teritoriul Turciei.** Lista de așteptare e în regulă (nu vinzi nimic). Dacă ești tot acolo în decembrie, primul client de coaching și vânzarea e-book-ului vin **după răspunsul scris al contabilei** despre munca remote din Turcia; contractele și plățile merg spre România.
 - Viza de nomad digital cere ~3.000 $/lună din surse din afara Turciei. E o întrebare pentru mai târziu, nu pentru acum.
-- Programul de 30 de zile se filmează **în România** (același colț, aceeași lumină). Dacă rămâi în Turcia peste decembrie, filmarea se mută în ianuarie, iar lansarea în aprilie.
+- ~~Programul de 30 de zile se filmează **în România**~~ (anulat pe 1 nov: îl înlocuiește Custom Program) (același colț, aceeași lumină). Dacă rămâi în Turcia peste decembrie, filmarea se mută în ianuarie, iar lansarea în aprilie.
 
 ---
 
@@ -160,7 +162,7 @@ Scopul: din cei 150–200 de spectatori și din clipuri, oamenii ajung pe **list
 | VirtuMe | ~370 € (garantat) | 0 € (bonus dacă apar abonați) | 0 € (bonus dacă apar abonați) |
 | Coaching (49 €/lună) | 0 | 150–250 € (3–5 oameni) | 400–700 € (8–14 oameni) |
 | E-book | 0 | 50–150 € | 50–150 € |
-| Program 30 de zile | 0 | 0 | 400–1.000 € (luna lansării) |
+| Custom Program (în locul programului de 30 de zile) | 0 | 0 | 20–30 de membri × 9–12 € (estimare) |
 | Afiliați și sponsori | puțin | 50–150 € | 100–300 € |
 | **Total, fără donații** | **~1.300 €** | **~1.200–1.600 €** | **~1.950–3.300 €** |
 
