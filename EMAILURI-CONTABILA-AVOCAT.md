@@ -60,6 +60,26 @@ Mulțumesc,
 
 ---
 
+## 1c. Contabila și avocatul: dacă rămân mai mult în Turcia (1 nov)
+
+**Subiect:** Șederea mea în Turcia pe termen nedefinit: ce trebuie să știu?
+
+Bună ziua, [numele],
+
+Locuiesc acum în Turcia, la partenerul meu, și nu știu încă pe cât timp: poate câteva luni, poate mai mult. Lucrez doar online (stream pe Twitch, conținut, colaborări cu branduri din afara Turciei și, de anul viitor, antrenamente online pe abonament), iar banii îi încasez în România.
+
+1. Fără viză pot sta 90 de zile din 180; la mine termenul e în jur de **10 ianuarie 2027**. Ce opțiuni am ca să rămân legal după (permis de ședere de scurtă durată, viză de nomad digital sau altceva) și când trebuie depusă cererea?
+2. Dacă stau peste 183 de zile pe an în Turcia, devin rezidentă fiscală acolo? Ce înseamnă asta pentru firma și impozitele mele din România?
+3. Pot să vând online (abonamente, e-book, colaborări plătite) prin firma din România cât locuiesc în Turcia, sau trebuie să schimb ceva?
+4. Asigurarea de sănătate din România mă acoperă în Turcia, sau îmi trebuie una separată (și pentru permisul de ședere)?
+
+Aș avea nevoie de un răspuns în scris, ca să pot planifica următoarele luni.
+
+Mulțumesc,
+[prenumele tău]
+
+---
+
 ## 2. Avocatul
 
 **Subiect:** Întrebări înainte de plecare: practicile de terapie, contul fals, contractul Twin și munca din Turcia
