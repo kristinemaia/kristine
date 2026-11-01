@@ -4,12 +4,34 @@ _30 octombrie 2026. Pașii vin din pagina de ajutor YouTube despre canalele înc
 
 ## Situația ta (1 noiembrie 2026)
 - **Două canale închise.** Primul (cel care crescuse mult) a fost închis primul; al doilea, **de yoga** (`youtube.com/channel/UCGa_NzmW5fekZ77YxezNqYQ`), a fost închis pentru **„Circumvention policy”**: un canal nou deschis după închiderea primului.
-- **Primul canal (try-on haul):** din emailuri, probabil închis din cauza **linkurilor externe către conținut pentru adulți** (OnlyFans). Nu e copyright, deci nu e exclus de la „Second chance”. **Recomandarea mea: nu cerem înapoi canalul vechi** (videourile de tip try-on haul și asocierea cu OnlyFans nu se potrivesc cu brandul de acum, cu branduri de sănătate și cu ștergerea conținutului vechi pe care o faci). Ținta e **un canal nou, curat**, prin „Second chance”.
+- **Primul canal (try-on haul):** din emailuri, probabil închis din cauza **linkurilor externe către conținut pentru adulți** (OnlyFans). Nu e copyright, deci nu e exclus de la „Second chance”. ~~Recomandarea inițială: nu cerem înapoi canalul vechi~~ (schimbată pe 1 nov, vezi „Decizia” mai sus) (videourile de tip try-on haul și asocierea cu OnlyFans nu se potrivesc cu brandul de acum, cu branduri de sănătate și cu ștergerea conținutului vechi pe care o faci). Ținta e **un canal nou, curat**, prin „Second chance”.
 - **17 iunie 2026 (miercuri):** primul canal („KristineMaia”) a primit un **avertisment** (strike) pentru un link extern, `onlyfans.com/kristinemaia`, la politica privind **conținutul sexual și nuditatea**. Un avertisment nu e închiderea; închiderea a venit după (de aflat data și motivul exact din emailul de închidere). Concluzie: primul canal a fost închis **după 17 iunie 2026**, deci **acum mai puțin de un an**; cel mai devreme „Second chance” ar fi **în vara–toamna lui 2027**, la un an de la ultima închidere.
 - **Ce mai trebuie aflat:** data emailului de la canalul de yoga și **emailul primului canal** (data + motivul). De ele depinde tot.
 - **Drumul cel mai probabil:** „Second chance” (cerere de canal nou) de pe contul **primului** canal, **după un an de la ultima închidere**, dacă motivul primei închideri **nu** a fost copyright. Contestația pentru canalul de yoga are șanse mici, pentru că motivul e clar.
 - **Ce NU faci acum:** niciun canal nou; nu ștergi conturile Google ale celor două canale (cine și-a șters contul nu vede opțiunea „Second chance”); **nu apari în prim-plan în videourile altora pe YouTube** (regula spune „channels in which you prominently feature”), deci colaborările cu alți creatori le faci pe Instagram, TikTok și Twitch, nu pe YouTube.
 - Pagina oficială de verificat înainte de orice cerere: support.google.com/youtube/answer/16369459.
+
+## Decizia (1 noiembrie): încercăm contestația pentru PRIMUL canal
+**De ce merită:** primul canal era **monetizat**, crescuse mult și avea **primele videouri cu exerciții pentru program**. Dacă e aprobată, revin canalul, abonații și videourile (monetizarea poate cere o nouă verificare). O contestație refuzată **nu** te scoate din „Second chance”, care rămâne varianta de rezervă din 2027.
+
+**Înainte să trimiți (o singură contestație, deci o facem bine):**
+1. Găsești **emailul de închidere** al primului canal: linkul canalului, data și butonul/linkul **„Appeal”** din el.
+2. Verifici că **nicăieri** nu mai există link către OnlyFans sau alte platforme pentru adulți: Instagram, Linktree, Twitch (panouri, comenzi), TikTok, site. Textul contestației spune asta, deci trebuie să fie adevărat.
+3. Completezi formularul din linkul „Appeal” al **primului** canal, cu textul de mai jos (sub 1.000 de caractere). Nu trimiți de mai multe ori.
+
+**Textul contestației** (înlocuiești [LINK] și [DATE]; dacă ceva nu e adevărat, îmi spui și îl schimb):
+> Hello YouTube team,
+>
+> My channel KristineMaia ([LINK]) was terminated on [DATE]. I understand why: my channel linked to an adult subscription platform, which breaks the sexual content and external links policies. That was my mistake. After the termination I also opened a yoga channel, without understanding that this was not allowed. I am sorry for both.
+>
+> I have removed that link from all my profiles and I no longer promote adult content anywhere. Today I am a Physical Education and Sport graduate creating fitness content for people who sit all day: mobility, strength and simple healthy meals, streamed on Twitch (twitch.tv/kristinemaia).
+>
+> If my channel is reinstated, I will delete or make private every older video that does not fit the Community Guidelines, never link to adult platforms, and publish only educational fitness and cooking videos.
+>
+> Thank you for reviewing my appeal.
+> Kristine Maia
+
+**Dacă e aprobată, chiar în aceeași zi:** pui pe **privat** sau ștergi toate videourile try-on haul și orice nu se potrivește, scoți linkurile vechi din descrieri și din „About”, schimbi poza și bannerul. Abia apoi postezi videouri noi (exercițiile din Custom Program, rutine, rețete).
 
 **Regula de bază:** nu face un canal nou cât timp cel vechi e închis. YouTube consideră asta o încercare de a ocoli închiderea și poate închide și canalul nou, plus contul de Google.
 
