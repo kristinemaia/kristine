@@ -2,6 +2,27 @@
 
 _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → Calendar (ce postezi), `PLAN-REELURI-SALA.md` (reel-urile de sală), `TRAINING-ONLINE.md` (Custom Program), `CRESTERE-COLABORARI.md` (branduri), `PLAN-REMOTE.md` (banii)._
 
+## ⚡ Accelerare (1 noiembrie): Custom Program gata pe 15 noiembrie
+Ai cerut ca partea de antrenamente să fie gata în 2 săptămâni. Se poate, pentru că filmăm totul în 2–6 noiembrie și eu montez în paralel, zi de zi. **„Gata” = toate videourile montate, verificate de tine și urcate pe Payhip, ascunse (nepublicate).** Vânzarea rămâne legată de răspunsul scris al contabilei și al avocatului.
+
+| Zile | Tu | Eu |
+|---|---|---|
+| **2–6 nov** | filmezi (un lot de reel-uri + o grupă pentru program pe zi), seara îmi trimiți clipurile | a doua zi curăț și denumesc exercițiile, montez reel-urile |
+| **7–8 nov** (weekend liber) | — | **Unstiff** (3) + **Desk Reset** (3) |
+| **9 nov** | la sală: cele **4 videouri vorbite** + snack-ul | **Get Strong**, sală + acasă (6) |
+| **10–11 nov** | stream, branduri | **Shape Up**, sală + acasă (8); **resetările** (6); videourile de început |
+| **12 nov** | — | **versiunile Express** (10 min) + **tabelele de progresie** pe 4 săptămâni + textele |
+| **12–13 nov** | **te uiți la tot** pe telefon și îmi scrii ce schimbăm (~1,5 h) | repar ce spui, în aceeași zi |
+| **14–15 nov** | **Payhip**: faci abonamentul și cursurile (pas cu pas de la mine) și urci videourile (~1,5 h pe laptop, cu internet bun) | îți dau textele, copertele și ordinea exactă |
+| **15 nov** | ✅ **Custom Program v1 gata** (ascuns) | |
+
+**Ce se mută mai devreme datorită accelerării:**
+- **Testerii:** 10 oameni din comunitate primesc acces **gratuit** din **16 noiembrie**, pentru 2 săptămâni (accesul gratuit nu e vânzare). Feedback-ul vine până pe **30 noiembrie**.
+- **Lansarea pentru fondatori:** poate veni **în decembrie**, în loc de 25 ianuarie, **dacă** până atunci contabila și avocatul au răspuns în scris. Dacă nu, rămâne 25 ianuarie, cu programul deja testat.
+- **Ce mai rămâne pentru decembrie–ianuarie:** reel-urile, lista de așteptare, e-book-ul, colaborările.
+
+**Ce poate întârzia (spun sincer):** o zi de filmare care nu iese (se mută pe 9 nov), clipurile care nu ajung la mine în aceeași seară, sau dacă la verificarea din 12–13 nov vrei să refilmezi ceva. Atunci „gata” se mută cu câteva zile, nu cu săptămâni.
+
 ## Ritmul: 5 zile de lucru, 2 libere (31 oct)
 **Lucrezi de luni până vineri; sâmbăta și duminica sunt libere.** Postările merg singure și în weekend, pentru că sunt programate. La comentarii răspunzi luni dimineață.
 
@@ -78,7 +99,7 @@ _31 octombrie 2026. Leagă tot ce avem: `CALENDAR-CONTINUT.md` și Tracker → C
 
 ---
 
-## Faza 2 · Construim programul (16 noiembrie – 20 decembrie)
+## Faza 2 · Construim programul (16 noiembrie – 20 decembrie) · _înlocuită de „Accelerare” de mai sus pentru montajul programului; restul rămâne_
 
 **Ce montez eu, săptămână cu săptămână**
 | Săptămâna | Montez |
