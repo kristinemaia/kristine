@@ -11,27 +11,25 @@ _30 octombrie 2026. Pașii vin din pagina de ajutor YouTube despre canalele înc
 - **Ce NU faci acum:** niciun canal nou; nu ștergi conturile Google ale celor două canale (cine și-a șters contul nu vede opțiunea „Second chance”); **nu apari în prim-plan în videourile altora pe YouTube** (regula spune „channels in which you prominently feature”), deci colaborările cu alți creatori le faci pe Instagram, TikTok și Twitch, nu pe YouTube.
 - Pagina oficială de verificat înainte de orice cerere: support.google.com/youtube/answer/16369459.
 
-## Decizia (1 noiembrie): încercăm contestația pentru PRIMUL canal
-**De ce merită:** primul canal era **monetizat**, crescuse mult și avea **primele videouri cu exerciții pentru program**. Dacă e aprobată, revin canalul, abonații și videourile (monetizarea poate cere o nouă verificare). O contestație refuzată **nu** te scoate din „Second chance”, care rămâne varianta de rezervă din 2027.
+## Ce arată emailurile (verificat direct în Gmail, 1 noiembrie, contul kristinemaia527)
+| Data | Ce s-a întâmplat |
+|---|---|
+| oct. 2024 | contestații la videouri try-on haul (unul respins, unul restabilit) |
+| **1 aug 2025** | **primul canal „KristineMaia”** (`youtube.com/channel/UCn8GfW6fEP_EfKOVaLjGb3Q`) **eliminat** pentru „încălcări grave sau repetate” ale politicii privind conținutul sexual și nuditatea |
+| **3 aug 2025** | **contestația pentru canal a fost respinsă** („canalul tău nu va fi restabilit”) |
+| 1 sep 2025 | încă un video try-on haul eliminat pe același canal |
+| **17 iun 2026** | avertisment (strike 1) pe același canal, pentru linkul `onlyfans.com/kristinemaia`, cu interdicție de o săptămână; emailul avertizează explicit să nu folosești alte canale |
+| ? | canalul de yoga (`UCGa_NzmW5fekZ77YxezNqYQ`) închis pentru „circumvention”; emailul e în **celălalt** cont de Gmail, nu în acesta |
 
-**Înainte să trimiți (o singură contestație, deci o facem bine):**
-1. Găsești **emailul de închidere** al primului canal: linkul canalului, data și butonul/linkul **„Appeal”** din el.
-2. Verifici că **nicăieri** nu mai există link către OnlyFans sau alte platforme pentru adulți: Instagram, Linktree, Twitch (panouri, comenzi), TikTok, site. Textul contestației spune asta, deci trebuie să fie adevărat.
-3. Completezi formularul din linkul „Appeal” al **primului** canal, cu textul de mai jos (sub 1.000 de caractere). Nu trimiți de mai multe ori.
+**Ce înseamnă:**
+- **Contestația pentru primul canal NU mai e posibilă:** s-a făcut deja (respinsă pe 3 aug 2025), iar termenul de un an a trecut. Textul de contestație de mai jos rămâne doar ca model.
+- **„Second chance” pentru primul canal:** a trecut un an de la 1 aug 2025 și motivul nu e copyright, deci **poate apărea opțiunea** în YouTube Studio (pe calculator, contul kristinemaia527). Nu știm cum contează închiderea canalului de yoga pentru „circumvention”.
+- **Ciudat:** emailurile din sep 2025 și iun 2026 vorbesc despre **același canal**, ca și cum ar fi fost din nou activ. Trebuie verificat în YouTube Studio ce stare are acum.
 
-**Textul contestației** (înlocuiești [LINK] și [DATE]; dacă ceva nu e adevărat, îmi spui și îl schimb):
-> Hello YouTube team,
->
-> My channel KristineMaia ([LINK]) was terminated on [DATE]. I understand why: my channel linked to an adult subscription platform, which breaks the sexual content and external links policies. That was my mistake. After the termination I also opened a yoga channel, without understanding that this was not allowed. I am sorry for both.
->
-> I have removed that link from all my profiles and I no longer promote adult content anywhere. Today I am a Physical Education and Sport graduate creating fitness content for people who sit all day: mobility, strength and simple healthy meals, streamed on Twitch (twitch.tv/kristinemaia).
->
-> If my channel is reinstated, I will delete or make private every older video that does not fit the Community Guidelines, never link to adult platforms, and publish only educational fitness and cooking videos.
->
-> Thank you for reviewing my appeal.
-> Kristine Maia
-
-**Dacă e aprobată, chiar în aceeași zi:** pui pe **privat** sau ștergi toate videourile try-on haul și orice nu se potrivește, scoți linkurile vechi din descrieri și din „About”, schimbi poza și bannerul. Abia apoi postezi videouri noi (exercițiile din Custom Program, rutine, rețete).
+**Pașii următori:**
+1. Pe calculator, intri pe **studio.youtube.com** cu **kristinemaia527@gmail.com** și faci o captură: canal activ, mesaj de închidere, buton „Request a new channel” / „Solicită un canal nou”?
+2. Din celălalt cont: data emailului „Circumvention policy”.
+3. Dacă apare „Second chance”: **nu apeși imediat**. Pregătim cererea împreună (un refuz e definitiv).
 
 **Regula de bază:** nu face un canal nou cât timp cel vechi e închis. YouTube consideră asta o încercare de a ocoli închiderea și poate închide și canalul nou, plus contul de Google.
 
