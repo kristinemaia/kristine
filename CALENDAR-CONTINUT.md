@@ -156,7 +156,7 @@ Luni 10:00 RO (11:00 la tine) Move Monday, la sală · marți · miercuri · vin
 | **G1** Sitting test | diagonală 45°, la înălțimea șoldului, tot corpul | hook cu 3 degete; wall angel; genuflexiune 10 s (din profil); din șezut turcește te ridici fără mâini; final „how many?” | storyboard + video |
 | **G2** POV 9 hours | diagonală, tot corpul | te blochezi la atingerea vârfurilor; cerc de șold amuzant; fandare pe genunchi; open book; cat-cow; flexia din nou, mai jos | storyboard + video |
 | **G3** Form check ramat | din profil, la înălțimea pieptului; la coate, diagonală | hook la aparat; umeri sus/jos; lăsat pe spate/drept; coate depărtate/lipite | storyboard + video |
-| **Revu** la sală | din față, de la talie în sus | după antrenament: borcanul în mână, crema pe antebraț sau umăr, codul KRISTINE20 (15 s) | — |
+| ~~Revu la sală~~ | — | **anulat (1 nov):** crema nu e la tine în Turcia; pe 18 nov postezi reel-ul Revu filmat deja („the cream I reach for after a long stream”) | — |
 | **Mobility between sets** | din față, la înălțimea pieptului | world's greatest stretch, open book, cat-cow, câte 20 s | Biblioteca → „Filmarea reel-urilor la sală” |
 
 ### Lotul 2 (9–13 nov)

@@ -18,7 +18,9 @@ _30 octombrie 2026. Documentul de bază pentru influență reală și bani din c
 **Bio pe Instagram (propunere):**
 > Fitness for people who sit all day 🎮💻
 > Licensed PE coach · Twitch Partner
-> Build your custom program ↓
+> Free 5-minute desk stretch ↓
+
+_Până se termină Custom Program (ianuarie), linkul din bio duce la **kristinemaia.com** (PDF-ul gratuit). Abia la lansare devine „Build your custom program”._
 
 **Cele 3 piloni (din ce e făcut contul):**
 | Pilon | Cât din postări | Exemple |

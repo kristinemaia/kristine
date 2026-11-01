@@ -13,7 +13,6 @@ _1 noiembrie 2026. O deschizi la sală, din Bibliotecă. Ziua 1 e scrisă în de
 - telefonul încărcat și cu spațiu liber (2–3 GB), trepiedul, microfonul cu clips
 - **o singură ținută pe zi**, sport, cu bustul acoperit, culoare plină (vișiniu, albastru, verde sau gri închis). **Nu bej sau culoarea pielii** (Instagram le poate lua drept nuditate).
 - coarda, un elastic (dacă ai), prosop, apă
-- crema Revu (doar luni)
 
 ## Regulile de cadru
 - telefonul **vertical, pe trepied**, camera din spate, 1080p sau 4K, 30 fps; ștergi lentila
@@ -24,7 +23,7 @@ _1 noiembrie 2026. O deschizi la sală, din Bibliotecă. Ziua 1 e scrisă în de
 
 ---
 
-## Luni 2 noiembrie · ~1,5 ore (în ordinea asta, ca să nu te încălzești de două ori)
+## Luni 2 noiembrie · ~1,5 ore (fără Revu: crema nu e la tine; pe 18 nov postezi reel-ul Revu filmat deja în studio) (în ordinea asta, ca să nu te încălzești de două ori)
 
 ### 1. Încălzirea, filmată (10 min) · pentru Custom Program
 Telefonul pe diagonală (45°), tot corpul. Câte 20–30 de secunde fiecare:
@@ -73,13 +72,8 @@ Diagonală 45°, tot corpul, **2 repetări lente + 1 normală**, fără să vorb
 - [ ] hook: între seturi, te așezi pe saltea și te uiți în cameră (2 s)
 - [ ] (world's greatest stretch, open book, cat-cow le am din pasul 2)
 
-### 4. După antrenament: Revu (5 min)
-Din față, de la talie în sus:
-- [ ] borcanul în mână, crema pe antebraț sau pe umăr (15 s)
-- [ ] dacă vrei să vorbești: „After the gym, this is the cream I reach for. Code KRISTINE20.” (microfonul prins)
-
-### 5. Seara
-- [ ] îmi trimiți clipurile, pe grupe: „Încălzire”, „Custom Program”, „G1”, „G2”, „G3”, „Between sets”, „Revu”
+### 4. Seara
+- [ ] îmi trimiți clipurile, pe grupe: „Încălzire”, „Custom Program”, „G1”, „G2”, „G3”, „Between sets”
 - [ ] copie pe laptop sau în cloud
 
 ---
