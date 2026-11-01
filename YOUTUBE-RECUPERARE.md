@@ -26,6 +26,9 @@ _30 octombrie 2026. Pașii vin din pagina de ajutor YouTube despre canalele înc
 - **„Second chance” pentru primul canal:** a trecut un an de la 1 aug 2025 și motivul nu e copyright, deci **poate apărea opțiunea** în YouTube Studio (pe calculator, contul kristinemaia527). Nu știm cum contează închiderea canalului de yoga pentru „circumvention”.
 - **Ciudat:** emailurile din sep 2025 și iun 2026 vorbesc despre **același canal**, ca și cum ar fi fost din nou activ. Trebuie verificat în YouTube Studio ce stare are acum.
 
+**Verificat în YouTube Studio (1 nov 2026):** „Your channel won't be put back on YouTube at this time… You can no longer appeal this channel because the deadline August 1, 2026 has passed. Currently, your channel does not have access to YouTube's pilot program to apply for a new channel. Please stay tuned.”
+→ **Nu se mai poate face nimic acum.** Verifici o dată pe lună (pe 1, pe calculator, contul kristinemaia527, pagina de contestație din Studio) dacă apare cererea de canal nou. Până atunci: niciun canal nou, conturile nu se șterg, profilurile rămân curate.
+
 **Pașii următori:**
 1. Pe calculator, intri pe **studio.youtube.com** cu **kristinemaia527@gmail.com** și faci o captură: canal activ, mesaj de închidere, buton „Request a new channel” / „Solicită un canal nou”?
 2. Din celălalt cont: data emailului „Circumvention policy”.
