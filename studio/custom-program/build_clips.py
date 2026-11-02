@@ -23,10 +23,10 @@ CLIPS = {
     'mobilitate-deep-squat-hold':         ('Deep squat hold', 'Mobility', 0.4, None),
 }
 def eticheta(titlu, mic, path):
-    """pastila cu numele: crem cu margine vișinie, sus în stânga, sub zona de status a telefonului"""
+    """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
     fb, fm = ImageFont.truetype(os.path.join(FONTS, 'Poppins-SemiBold.ttf'), 54), ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 32)
     im = Image.new('RGBA', (1080, 1920), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    w = max(d.textlength(titlu, font=fb), d.textlength(mic.upper(), font=fm)) + 84; h = 160; x, y = 60, 150
+    w = max(d.textlength(titlu, font=fb), d.textlength(mic.upper(), font=fm)) + 84; h = 160; x, y = 60, 1660
     d.rounded_rectangle([x + 6, y + 8, x + w + 6, y + h + 8], 34, fill=(0, 0, 0, 60))            # umbră discretă
     d.rounded_rectangle([x, y, x + w, y + h], 34, fill=CREAM + (240,), outline=WINE, width=5)
     d.text((x + 42, y + 22), mic.upper(), font=fm, fill=WINE)
