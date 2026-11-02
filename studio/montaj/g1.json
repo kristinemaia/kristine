@@ -29,12 +29,13 @@
   {
    "clip": "G1-floor-to-stand",
    "ss": 0.5,
-   "d": 5.2,
+   "d": 2.9,
    "label": "G1-Test_eticheta-3-test-3-floor-to-standing-no-hands.png",
    "label_pos": [
     46,
     230
-   ]
+   ],
+   "label_d": 2.2
   },
   {
    "clip": "G1-wall-angel",

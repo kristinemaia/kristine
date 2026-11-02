@@ -57,12 +57,12 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | joi 5 nov | K5 · White fish with rice & veggies | 🗓 |
 | vin 6 nov, 17:00 | Dope Rope · 20-second rope warm-up (cod KRISTINEMAIA) | ✏️ |
 | dum 8 nov, 17:00 | Carusel EN C2 · 3 things I do after every stream (cod Bewit) | ✏️ |
-| lun 9 nov, 18:00 | **G1** · Sit all day? Can you pass these 3 tests? | 🎬 lotul 1 |
+| lun 9 nov, 18:00 | **G1** · Sit all day? Can you pass these 3 tests? | ✅ montat (2 nov), de programat |
 | mar 10 nov, 18:00 | B3 · Upper back and shoulders | ✏️ |
 | mie 11 nov, 17:00 | Bewit · My evening cacao ritual (cod KRISTINE15) | ✏️ |
 | joi 12 nov, 17:00 | K4 · Salmon, potatoes & salad | ✏️ |
 | vin 13 nov, 17:00 | B4 · Warm-up before gaming | ✏️ |
-| dum 15 nov, 18:00 | **G2** · POV: you sat for 9 hours and now it's leg day | 🎬 lotul 1 |
+| dum 15 nov, 18:00 | **G2** · POV: you sat for 9 hours and now it's leg day | ✅ montat (2 nov), de programat |
 | lun 16 nov, 18:00 | Mobility between sets: 60 seconds | 🎬 lotul 1 |
 | mar 17 nov, 18:00 | **G3** · 3 cable row mistakes (coaching) | 🎬 lotul 1 |
 | mie 18 nov, 17:00 | Revo · After the gym: the cream I reach for (cod KRISTINE20) | 🎬 lotul 1 |

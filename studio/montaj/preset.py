@@ -41,6 +41,7 @@ for idx, s in enumerate(spec['segments']):
     if s.get('label'):
         inputs += ['-i', os.path.join(OV, s['label'])]; li = k; k += 1
         t0 = starts[idx] + (0.1 if idx else PRESET['hook'][1]); t1 = (starts[idx + 1] + 0.1) if idx + 1 < n and spec['segments'][idx + 1].get('label') != s['label'] else (total - PRESET['final_len'] if idx + 1 == n else starts[idx + 1] + 0.1)
+        if s.get('label_d'): t1 = starts[idx] + s['label_d']   # eticheta dispare mai devreme (ex.: când te ridici și fața urcă sub ea)
         px, py = s.get('label_pos', [333, 1440])
         fc += ";%s[%d:v]overlay=%d:%d:enable='between(t,%.2f,%.2f)'[l%d]" % (last, li, px, py, t0, t1, idx); last = '[l%d]' % idx
 fc += ";%s[%d:v]overlay=0:%d:enable='gte(t,%.2f)',fade=t=out:st=%.2f:d=0.3[o]" % (last, fin_i, spec.get('final_dy', 0), total - PRESET['final_len'], total - 0.3)
