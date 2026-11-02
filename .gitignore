@@ -5,3 +5,6 @@ Stergere-urmarire.xlsx
 # clipurile brute pentru Custom Program (mari, nu intră în git)
 studio/custom-program/clips/
 studio/montaj/clips-g/
+studio/montaj/_curat/
+studio/custom-program/out/
+studio/montaj/out-g/

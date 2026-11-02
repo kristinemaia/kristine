@@ -5,11 +5,11 @@ Rulezi: python3 studio/montaj/preset.py spec.json <folder cu clipurile> <ieșire
 Ce face presetul (valorile sunt în PRESET, le schimbi într-un singur loc):
   · 1080 x 1920, 30 fps, fără sunet (muzica o pui tu)
   · dizolvări de 0,3 s între toate cadrele; fade-out de 0,3 s la final
-  · aspect curat: contrast +5%, saturație +6%, claritate ușoară (unsharp), lumină +3%
+  · aspect curat: contrast +5%, saturație +6%, claritate ușoară (unsharp), lumină +3%; cu "curat":true folosește culoarea din curat.py
   · accent pe esențial: hook în primele 3 s, eticheta doar cât durează mișcarea, codul/final în ultimele 3 s
   · tăieturi scurte: fiecare cadru se oprește înainte de ultimele ~0,3 s din clip
 
-spec.json: {"segments":[{"clip":"IMG_8204","ss":15.2,"d":2.8,"speed":1.0,"crop":null,"label":null}, ...],
+spec.json: {"curat":true (clipuri din curat.py), "hook_dy":0 (mută hook-ul în jos/sus), "segments":[{"clip":"IMG_8204","ss":15.2,"d":2.8,"speed":1.0,"crop":null,"label":null}, ...],
             "hook":"Bewit_1-hook.png", "final":"Bewit_2-final.png", "overlay_dir":"brand/reels-overlays/out/Bewit",
             "labels":{"eticheta.png":[x,y]}}"""
 import glob, json, os, subprocess, sys
@@ -17,7 +17,9 @@ PRESET = dict(td=0.3, fps=30, eq='eq=contrast=1.05:saturation=1.06:brightness=0.
 spec = json.load(open(sys.argv[1], encoding='utf-8')); src, out = sys.argv[2], sys.argv[3]
 root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')
 OV = os.path.join(root, spec['overlay_dir'])
-def clip(k): return glob.glob(os.path.join(src, '*' + k + '*.mov'))[0]
+def clip(k): return sorted(glob.glob(os.path.join(src, '*' + k + '*.mov')) + glob.glob(os.path.join(src, '*' + k + '*.mp4')))[0]
+if spec.get('curat'):  # clipuri trecute deja prin curat.py (culoarea Kristine Maia): fără a doua corecție
+    PRESET['eq'], PRESET['sharp'] = 'null', 'null'
 inputs, chains, durs, starts = [], [], [], [0.0]
 for i, s in enumerate(spec['segments']):
     inputs += ['-ss', str(s['ss']), '-t', str(s['d']), '-i', clip(s['clip'])]
@@ -33,7 +35,7 @@ k = n; ov = []
 inputs += ['-i', os.path.join(OV, spec['hook'])]; hook_i = k; k += 1
 fin_i = k; inputs += ['-i', os.path.join(OV, spec['final'])]; k += 1
 fc = ';'.join(chains + x) + ';'
-fc += "%s[%d:v]overlay=0:0:enable='between(t,%.1f,%.1f)'[o0]" % (cur, hook_i, *PRESET['hook'])
+fc += "%s[%d:v]overlay=0:%d:enable='between(t,%.1f,%.1f)'[o0]" % (cur, hook_i, spec.get('hook_dy', 0), *PRESET['hook'])
 last = '[o0]'
 for idx, s in enumerate(spec['segments']):
     if s.get('label'):
