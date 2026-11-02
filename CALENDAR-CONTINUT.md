@@ -22,7 +22,7 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | Până când | Unde | Ce |
 |---|---|---|
 | **miercuri 4 nov** | Instagram | Dope Rope (vin 6 nov) · caruselul EN C2 (dum 8 nov) · B3 (mar 10 nov) · Bewit (mie 11 nov) · K4 (joi 12 nov) · B4 (vin 13 nov). Descrierile: Biblioteca → Plan → „Toate descrierile”. |
-| **joi 5 nov** | TikTok (pe calculator) | 6–15 nov: Dope Rope, clipul „a guest joined”, caruselul C2, B3, Bewit, K4, B4, clipul „seated stretch”. G1 (9 nov) și G2 (15 nov) intră după ce le montez. |
+| **joi 5 nov** | TikTok (pe calculator) | 6–15 nov: Dope Rope, clipul „a guest joined”, caruselul C2, B3, Bewit, K4, B4, clipul „seated stretch”. **+ G1 (lun 9 nov, 19:00) și G2 (dum 15 nov, 19:00)**, montate. |
 | **după fiecare lot montat** | Instagram + TikTok | reel-urile de la sală, la datele din secțiunea D |
 | **dum 15 nov, mar 24 nov, joi 3 dec, dum 13 dec** | TikTok | următoarele 10 zile (TikTok programează maximum 10 zile înainte) |
 
@@ -57,12 +57,12 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | joi 5 nov | K5 · White fish with rice & veggies | 🗓 |
 | vin 6 nov, 17:00 | Dope Rope · 20-second rope warm-up (cod KRISTINEMAIA) | ✏️ |
 | dum 8 nov, 17:00 | Carusel EN C2 · 3 things I do after every stream (cod Bewit) | ✏️ |
-| lun 9 nov, 18:00 | **G1** · Sit all day? Can you pass these 3 tests? | ✅ montat (2 nov), de programat |
+| lun 9 nov, 18:00 | **G1** · Sit all day? Can you pass these 3 tests? | ✅ programat pe Instagram (2 nov); TikTok pe 5 nov |
 | mar 10 nov, 18:00 | B3 · Upper back and shoulders | ✏️ |
 | mie 11 nov, 17:00 | Bewit · My evening cacao ritual (cod KRISTINE15) | ✏️ |
 | joi 12 nov, 17:00 | K4 · Salmon, potatoes & salad | ✏️ |
 | vin 13 nov, 17:00 | B4 · Warm-up before gaming | ✏️ |
-| dum 15 nov, 18:00 | **G2** · POV: you sat for 9 hours and now it's leg day | ✅ montat (2 nov), de programat |
+| dum 15 nov, 18:00 | **G2** · POV: you sat for 9 hours and now it's leg day | ✅ programat pe Instagram (2 nov); TikTok pe 5 nov |
 | lun 16 nov, 18:00 | Mobility between sets: 60 seconds | 🎬 lotul 1 |
 | mar 17 nov, 18:00 | **G3** · 3 cable row mistakes (coaching) | 🎬 lotul 1 |
 | mie 18 nov, 17:00 | Revo · After the gym: the cream I reach for (cod KRISTINE20) | 🎬 lotul 1 |
