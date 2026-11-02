@@ -1,8 +1,45 @@
-{"curat": true, "hook_dy": -230, "final_dy": 0,
- "overlay_dir": "brand/reels-overlays/out/G1-Test", "hook": "G1-Test_1-hook.png", "final": "G1-Test_2-final.png",
+{
+ "curat": true,
+ "hook_dy": -230,
+ "final_dy": 330,
+ "overlay_dir": "brand/reels-overlays/out/G1-Test",
+ "hook": "G1-Test_1-hook.png",
+ "final": "G1-Test_2-final.png",
  "segments": [
-  {"clip": "G1-wall-angel", "ss": 2.8, "d": 5.2, "label": "G1-Test_eticheta-1-test-1-wall-angel.png", "label_pos": [255, 230]},
-  {"clip": "G1-deep-squat", "ss": 2.6, "d": 3.9, "label": "G1-Test_eticheta-2-test-2-deep-squat-10-s.png", "label_pos": [186, 230]},
-  {"clip": "G1-floor-to-stand", "ss": 0.5, "d": 5.2, "label": "G1-Test_eticheta-3-test-3-floor-to-standing-no-hands.png", "label_pos": [46, 230]},
-  {"clip": "G1-wall-angel", "ss": 8.0, "d": 3.6}
- ]}
+  {
+   "clip": "G1-wall-angel",
+   "ss": 2.8,
+   "d": 5.2,
+   "label": "G1-Test_eticheta-1-test-1-wall-angel.png",
+   "label_pos": [
+    255,
+    230
+   ]
+  },
+  {
+   "clip": "G1-deep-squat",
+   "ss": 2.6,
+   "d": 3.9,
+   "label": "G1-Test_eticheta-2-test-2-deep-squat-10-s.png",
+   "label_pos": [
+    186,
+    230
+   ]
+  },
+  {
+   "clip": "G1-floor-to-stand",
+   "ss": 0.5,
+   "d": 5.2,
+   "label": "G1-Test_eticheta-3-test-3-floor-to-standing-no-hands.png",
+   "label_pos": [
+    46,
+    230
+   ]
+  },
+  {
+   "clip": "G1-wall-angel",
+   "ss": 8.0,
+   "d": 3.6
+  }
+ ]
+}

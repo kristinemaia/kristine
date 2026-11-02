@@ -42,7 +42,7 @@
    ]
   },
   {
-   "clip": "mobilitate-open-book.",
+   "clip": "mobilitate-open-book",
    "ss": 2.0,
    "d": 3.0,
    "label": "G2-POV_eticheta-4-upper-back.png",
@@ -64,7 +64,7 @@
   {
    "clip": "G2-a",
    "ss": 1.0,
-   "d": 5.8,
+   "d": 4.8,
    "label": "G2-POV_eticheta-6-better.png",
    "label_pos": [
     388,
