@@ -33,7 +33,7 @@ def eticheta(titlu, mic, path):
     d.text((x + 42, y + 62), titlu, font=fb, fill=INK)
     im.save(path)
 def construieste(nume):
-    titlu, mic, a, b = CLIPS[nume]; os.makedirs(CUR, exist_ok=True)
+    titlu, mic, a, b = CLIPS[nume]; os.makedirs(CUR, exist_ok=True); os.makedirs(OUT, exist_ok=True)
     c = os.path.join(CUR, nume + '.mp4')
     if not os.path.exists(c): curat.ruleaza(os.path.join(SRC, nume + '.mov'), c)
     b = b if b is not None else curat.dur(c) - 0.4; d = b - a
