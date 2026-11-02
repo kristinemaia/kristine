@@ -10,7 +10,7 @@ _10–17 octombrie 2026 · rezumat în ordine cronologică. Conversația complet
 **Ce am răspuns:** nu-ți lipsesc talentele, îți lipsește un fir comun. Am propus un singur brand: sănătate, mobilitate și mâncare bună pentru oamenii care stau mult la calculator (gameri, birou). Produse în trepte: e-book, program de 30 de zile, abonament, sponsori.
 
 ## 2. Programarea, Turcia, colaborările
-**Ce mi-ai spus:** ți-au plăcut HTML-ul și website-urile. Twitch îți aduce 400–700 €/lună. Ai colaborări cu o coardă de sărit și cu Revu Natural (afiliere) și cu Twin (~400 €/lună, 3 luni). Publicul tău are 18–60 de ani, majoritatea din afara României.
+**Ce mi-ai spus:** ți-au plăcut HTML-ul și website-urile. Twitch îți aduce 400–700 €/lună. Ai colaborări cu o coardă de sărit și cu Revo Natural (afiliere) și cu Twin (~400 €/lună, 3 luni). Publicul tău are 18–60 de ani, majoritatea din afara României.
 
 **Ce am răspuns:** postările de pe Instagram ajung la un public internațional, nu la clienți din București, iar clienții locali caută pe Google (Google Business Profile). Am scris un șablon de email pentru branduri. Programarea o testezi construindu-ți propriul site, nu ca o carieră nouă de la zero acum. În Turcia, fără viză poți sta maximum 90 de zile din 180, iar pentru muncă îți trebuie permis.
 
@@ -79,9 +79,9 @@ _10–17 octombrie 2026 · rezumat în ordine cronologică. Conversația complet
 **Ce am făcut:** textele pentru Twitch (bio, About, reguli, mesajul pentru moderatori, clipurile pe fiecare stream), bannerul în două mărimi, imaginile Payhip, ghidul Payhip pas cu pas, mărimile de text pe pagină și pașii de export din Canva (PDF-ul se numește acum doar „PDF”; autorul vine din contul Canva care exportă; Canva Pro doar dacă merită: trial de 30 de zile din ~21 octombrie, anulat ~18 noiembrie).
 
 ## 16. Brandurile și produsele
-**Ce mi-ai spus:** Bewit (cacao ceremonială, două feluri, uleiuri esențiale, ulei de bază), Revu Natural (creme de masaj, Astrocalm, suplimente pentru articulații), Dope Rope.
+**Ce mi-ai spus:** Bewit (cacao ceremonială, două feluri, uleiuri esențiale, ulei de bază), Revo Natural (creme de masaj, Astrocalm, suplimente pentru articulații), Dope Rope.
 
-**Ce am făcut:** rotație pe zile (luni Dope Rope, miercuri Bewit, vineri Revu), emailuri către 6 branduri (trimitere vineri 23 octombrie, reamintire 30), mențiune „afiliere” pe fiecare postare.
+**Ce am făcut:** rotație pe zile (luni Dope Rope, miercuri Bewit, vineri Revo), emailuri către 6 branduri (trimitere vineri 23 octombrie, reamintire 30), mențiune „afiliere” pe fiecare postare.
 
 ---
 

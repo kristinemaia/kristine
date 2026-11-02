@@ -60,7 +60,7 @@ Streamurile și filmările stau în București, la colțul tău. La țară faci 
 **Ce mai am nevoie:**
 1. De vineri 16 oct, unde stai și de unde streamezi (la părinți?). Ai acolo un perete simplu pentru stream și o bucătărie pentru Cook with me de miercuri 21?
 2. Ziua notarului, când îți răspunde proprietarul.
-3. Ce produse Bewit și Revu Natural folosești cu adevărat.
+3. Ce produse Bewit și Revo Natural folosești cu adevărat.
 
 ## Regula de aur
 
@@ -149,7 +149,7 @@ Mar 10 nov  B3 Upper back and shoulders (the gamer hunch)
 Mie 11 nov  Reel Bewit: my evening cacao ritual (afiliat, cod KRISTINE15)
 Joi 12 nov  K4 Salmon, potatoes & salad
 Vin 13 nov  B4 Warm-up before gaming: 4 moves in 1 minute
-Mie 18 nov  Reel Revu Natural: 60-second shoulder reset (afiliat, cod KRISTINE20)
+Mie 18 nov  Reel Revo Natural: 60-second shoulder reset (afiliat, cod KRISTINE20)
 
 Instagram KM Wellness Concept (română), duminică 19:00, doar carusele (reel-urile KM sunt pe pauză din 18 oct)
 25 oct C1 · 1 nov C2 · 8 nov C3 · 15 nov C4 · 22 nov C5 · 29 nov C6 · 6 dec C7 · 13 dec C8
@@ -174,7 +174,7 @@ Nu știi încă dacă te întorci pe 15 nov sau prelungești. Planul actual acop
 
 **Reel-urile din rezervă** (în Biblioteca → Plan → „Toate descrierile”, secțiunea 1b, cu descrieri gata): K6 portions without a scale (vin 20 nov) · O1 desk in 10 seconds (mar 24 nov) · K2 overnight tiramisu oats (joi 26 nov) · K7 3 swaps (vin 27 nov) · O3 mouse hand (mar 1 dec) · K3 hot meal in 10 minutes (joi 3 dec) · K8 desk snacks (vin 4 dec) · O7 neck stiff (mar 8 dec) · K9 12 things in my kitchen (joi 10 dec).
 
-**Când le filmezi:** sâmbătă 24 oct e deja plină (B3, K4, Bewit, Revu, living, poze). Rezerva o filmezi **duminică 25 oct, dimineața, la țară** (cele 6 de bucătărie ~2 ore, cele 3 de birou ~45 min), sau o lași deoparte dacă nu ai energie. Fără rezervă, în Turcia filmezi la sală (cu aprobarea ei), o dată pe săptămână, câteva reel-uri.
+**Când le filmezi:** sâmbătă 24 oct e deja plină (B3, K4, Bewit, Revo, living, poze). Rezerva o filmezi **duminică 25 oct, dimineața, la țară** (cele 6 de bucătărie ~2 ore, cele 3 de birou ~45 min), sau o lași deoparte dacă nu ai energie. Fără rezervă, în Turcia filmezi la sală (cu aprobarea ei), o dată pe săptămână, câteva reel-uri.
 
 **Cum le programezi:**
 - **Instagram:** până la ~75 de zile înainte, deci tot ce ai pe 27 oct poți să programezi până pe 10 dec dintr-o dată.
@@ -204,18 +204,18 @@ Ai construit comunitatea cu stream-uri de 6–7 ore, combinând activități: mi
 
 ---
 
-## Colaborările: Dope Rope, Bewit, Revu Natural
+## Colaborările: Dope Rope, Bewit, Revo Natural
 
-Ai trei coduri: **Dope Rope** (coarda) KRISTINEMAIA 10%, **Revu Natural** KRISTINE20 20%, **Bewit** KRISTINE15 15%. Cum scoți bani din ele fără să te schimbi în reclamă:
+Ai trei coduri: **Dope Rope** (coarda) KRISTINEMAIA 10%, **Revo Natural** KRISTINE20 20%, **Bewit** KRISTINE15 15%. Cum scoți bani din ele fără să te schimbi în reclamă:
 
-1. **Un brand pe stream, o dată pe stream, 60 de secunde.** Luni: Dope Rope (coarda, încălzire sau pauză de coardă). Miercuri: Bewit, doar produsele pe care le folosești cu adevărat. Vineri: Revu Natural (rutina de recuperare după o seară lungă, umeri și gât). Spui „afiliere”; comenzile din chat (!coarda, !bewit, !revu) răspund cu codul.
+1. **Un brand pe stream, o dată pe stream, 60 de secunde.** Luni: Dope Rope (coarda, încălzire sau pauză de coardă). Miercuri: Bewit, doar produsele pe care le folosești cu adevărat. Vineri: Revo Natural (rutina de recuperare după o seară lungă, umeri și gât). Spui „afiliere”; comenzile din chat (!coarda, !bewit, !revu) răspund cu codul.
 2. **Un reel pe săptămână, cel mult, făcut din ce filmezi oricum.** Cel mai bun candidat: pauza de coardă din Game night (vineri 23 oct), tăiată pentru reelul din stream de pe 6 nov. Reelul cu coarda e cel mai bun al tău (12,6K vizualizări), deci merită repetat. Din Turcia nu creezi livrabile noi pentru branduri.
 3. **Aceleași patru locuri, tot timpul:** Linktree (cele 3 coduri), panourile și comenzile de pe Twitch, highlight-ul CODES de pe Instagram, descrierile reel-urilor.
 4. **Cu #ad și fără cuvinte interzise.** „Afiliere” la fiecare mențiune (#ad doar la colaborări plătite); niciodată „fix”, „cure”, „treat”, „heal”, „relieve pain”.
 5. **Cifrele lunare.** Le ceri fiecărui brand: câte vânzări a adus codul. Le notezi în lista lunară; după 2 luni vezi care merită mai mult loc.
 6. **Avocatul citește:** întrebarea despre afiliere e în emailul către el.
 
-Pașii sunt în tracker, în „Produse și colaborări” (pc1–pc3). Ca să-i pun în rotație, am nevoie de lista produselor Bewit și Revu pe care le folosești cu adevărat.
+Pașii sunt în tracker, în „Produse și colaborări” (pc1–pc3). Ca să-i pun în rotație, am nevoie de lista produselor Bewit și Revo pe care le folosești cu adevărat.
 
 ---
 

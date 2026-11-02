@@ -698,10 +698,9 @@ shop = """
 <section class="wrap block" id="gear" aria-labelledby="gear-title">
   <div class="block-head"><p class="kicker">Gear I actually use</p><h2 id="gear-title">Discount codes</h2><p class="small muted">Affiliate links: I may earn a small commission at no extra cost to you. I only list things I use myself.</p></div>
   <div class="codes">
-    <!-- TODO: pune linkurile reale de afiliere în locul lui #TODO-link-... -->
-    <article class="ticket"><p class="off">10% off</p><h3>Dope Rope</h3><p class="muted">The jump rope I use for my 5-minute warm-up before every gym session.</p><p class="code">Code <b>KRISTINEMAIA</b></p><a class="tl" href="#TODO-link-dope-rope">Shop Dope Rope</a></article>
-    <article class="ticket"><p class="off">20% off</p><h3>Revu Natural</h3><p class="muted">Recovery creams I use after long streams and training.</p><p class="code">Code <b>KRISTINE20</b></p><a class="tl" href="#TODO-link-revu-natural">Shop Revu Natural</a></article>
-    <article class="ticket"><p class="off">15% off</p><h3>Bewit</h3><p class="muted">Natural products that are part of my daily routine.</p><p class="code">Code <b>KRISTINE15</b></p><a class="tl" href="#TODO-link-bewit">Shop Bewit</a></article>
+    <article class="ticket"><p class="off">10% off</p><h3>Dope Rope</h3><p class="muted">The jump rope I use for my 5-minute warm-up before every gym session.</p><p class="code">Code <b>KRISTINEMAIA</b></p><a class="tl" href="https://tr.ee/5f-lNcZRS3" rel="sponsored noopener" target="_blank">Shop Dope Rope</a></article>
+    <article class="ticket"><p class="off">20% off</p><h3>Revo Natural</h3><p class="muted">Recovery creams I use after long streams and training.</p><p class="code">Code <b>KRISTINE20</b></p><a class="tl" href="https://revonatural.ro/" rel="sponsored noopener" target="_blank">Shop Revo Natural</a></article>
+    <article class="ticket"><p class="off">15% off</p><h3>Bewit</h3><p class="muted">Natural products that are part of my daily routine.</p><p class="code">Code <b>KRISTINE15</b></p><a class="tl" href="https://tr.ee/ZLILudyoJa" rel="sponsored noopener" target="_blank">Shop Bewit</a></article>
   </div>
 </section>
 
@@ -836,7 +835,7 @@ brands = """
     <div><p class="kicker">Good fits</p><h2>What I promote</h2><ul><li>Ergonomics: desks, chairs, mice and keyboards</li><li>Recovery tools: massage guns, rollers, creams</li><li>Nutrition: quick meals, protein, healthy snacks</li><li>Sportswear, mats and training gear</li></ul><p class="small muted">I say no to anything that doesn't fit a health-focused audience.</p></div>
     <div><p class="kicker">Formats</p><h2>How we can work together</h2><ul><li>Sponsored segment inside a stream (a workout, a cooking stream or gaming)</li><li>Dedicated sponsored stream</li><li>Instagram reels package (2–4 reels)</li><li>Discount code for my community, tracked</li><li>Longer-term ambassador or advisory role</li></ul><p class="small muted">All sponsored content is clearly labelled.</p></div>
   </div>
-  <div class="notice mt-m"><strong>Current partners:</strong> Dope Rope (jump ropes), Revu Natural (recovery creams) and Bewit (natural products), all with tracked discount codes for my community. Each one gets a short segment on stream and a reel.</div>
+  <div class="notice mt-m"><strong>Current partners:</strong> Dope Rope (jump ropes), Revo Natural (recovery creams) and Bewit (natural products), all with tracked discount codes for my community. Each one gets a short segment on stream and a reel.</div>
 </section>
 """
 page(

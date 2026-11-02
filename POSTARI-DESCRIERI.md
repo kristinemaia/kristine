@@ -8,7 +8,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 - TikTok: câte un cont pentru fiecare (secțiunea 4).
 
 **Reguli la toate**
-- **Dope Rope, Bewit și Revu Natural sunt doar afiliere cu cod de reducere, fără plată:** fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”, ca să se vadă înainte de „more”.
+- **Dope Rope, Bewit și Revo Natural sunt doar afiliere cu cod de reducere, fără plată:** fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”, ca să se vadă înainte de „more”.
 - `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit.
 - Nicio promisiune medicală. Dacă schimbi un text, păstrezi liniile „not medical advice” / „nu sfat medical”.
 - Linia cu diploma apare **doar** pe contul Kristine Maia, niciodată pe KM Wellness Concept.
@@ -42,7 +42,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 | Joi 12 nov | 17:00 | Kristine Maia | K4 · Salmon, potatoes & salad |
 | Vin 13 nov | 17:00 | Kristine Maia | B4 · Warm-up before gaming |
 | Dum 15 nov | 19:00 | KM | Carusel C4 · 5 obiceiuri pentru birou |
-| Mie 18 nov | 17:00 | Kristine Maia | Revu Natural · 60-second shoulder reset (afiliat) |
+| Mie 18 nov | 17:00 | Kristine Maia | Revo Natural · 60-second shoulder reset (afiliat) |
 | Dum 22 nov | 19:00 | KM | Carusel C5 · Cum te pregătești |
 | Dum 29 nov | 19:00 | KM | Carusel C6 · Prima ședință |
 | Dum 6 dec | 19:00 | KM | Carusel C7 · După ședință |
@@ -246,7 +246,7 @@ Warm up first, jump gently, stop if anything hurts.
 
 #jumprope #warmup #streamerlife #cardio #gamerfitness
 ```
-_Dope Rope, Bewit și Revu sunt doar afiliate: fără `#ad`, fără „Paid partnership”, fără insigna `#ad` pe ecran. Descrierea e pentru mini reel-ul de 21 de secunde filmat la sala din București; dacă folosești un clip din stream, schimbi a doua linie („2 minutes of rope between games”)._
+_Dope Rope, Bewit și Revo sunt doar afiliate: fără `#ad`, fără „Paid partnership”, fără insigna `#ad` pe ecran. Descrierea e pentru mini reel-ul de 21 de secunde filmat la sala din București; dacă folosești un clip din stream, schimbi a doua linie („2 minutes of rope between games”)._
 
 ### Bewit · Mie 11 nov, 17:00 · My evening cacao ritual
 ```
@@ -258,14 +258,14 @@ General wellness, not medical advice.
 #cacao #eveningritual #streamerlife #selfcare #winddown
 ```
 
-### Revu Natural · Mie 18 nov, 17:00 · The cream I reach for after a long stream
+### Revo Natural · Mie 18 nov, 17:00 · The cream I reach for after a long stream
 ```
 Affiliate: I earn a small commission if you use my code KRISTINE20 (20% off). Link in bio.
 
 The cream I reach for after a long stream. 🤍
 Self-care, not medical advice.
 
-#revunatural #afterstream #streamerlife #selfcare #winddown
+#revonatural #afterstream #streamerlife #selfcare #winddown
 ```
 
 ---

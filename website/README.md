@@ -7,7 +7,7 @@
 > - **TikTok zilnic din 19 oct.** Instagram Kristine Maia: reel-uri 17:00; KM Wellness Concept: reel joi 19:00 și caruselul duminica 19:00.
 > - **Zboară joi 29 oct după-amiază** spre Turcia, înapoi pe 15 nov. În Turcia: 23–26 sept (4) + 4–15 oct (12) + 29 oct–15 nov (18) = **34 din 90 de zile**, marjă 56. Frizerie/coafor în Turcia în jur de 1 nov.
 > - Din Turcia streamezi de la sală (cu acord scris, fără alți oameni, fără logo sau ferestre în cadru) sau de acasă, cu fundal.
-> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revu Natural (cremă de masaj).
+> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revo Natural (cremă de masaj).
 > - **Bani reali (terapie):** 4.200 lei încasați între 17 aug și 26 sept (~3.100 lei/lună). Avocat: încă 2 tranșe de 1.500 lei. Asigurarea de sănătate: urgentă, săptămâna asta.
 > - Contabila a vorbit cu tine; avocatul nu mai primește documente. Nu trebuie nimic despre eSIM sau ora (ai SIM bun, ceasul se schimbă singur; în România trecem la ora de iarnă pe 25 oct).
 > - Planul zilnic complet, cu locuri și ore: `PLAN-TURCIA.md` și Calendarul de printat. Bifezi în Tracker.
@@ -41,7 +41,7 @@ Fișierele comune:
 1. **Pozele:** sunt puse (`assets/kristine.jpg`, `kristine-about.jpg`). Le înlocuiești cu altele cu același nume, dacă vrei.
 2. **Formularul de email (opțional, acum PDF-ul se ia din Payhip):** fă cont gratuit pe **MailerLite** (sau Kit), creează un formular cu PDF-ul „5-minute desk stretch” ca automatizare de bun venit, copiază codul de embed și pune-l în locul formularului marcat cu TODO (apare pe index, free, shop și about). Până atunci, formularul afișează doar un mesaj de mulțumire.
 3. **(Scos din site pe 21 oct)** Evaluarea video, clasa în grup mic și sesiunea lunară pentru abonați nu mai apar. Le reiei doar după ce discuți cu avocatul și ai clienți din programul de 30 de zile.
-4. **Codurile de reducere:** linkurile de afiliere pentru Dope Rope, Revu Natural și Bewit, în `build_site.py` (secțiunea SHOP, `#TODO-link-...`).
+4. **Codurile de reducere:** linkurile de afiliere pentru Dope Rope, Revo Natural și Bewit, în `build_site.py` (secțiunea SHOP, `#TODO-link-...`).
 5. **E-book-ul și programul:** acum butoanele „Tell me when it's out” / „Join the waitlist” duc la formularul de email. Când sunt gata pe Payhip, pui linkul Payhip în locul lui `#free`.
 6. **Pagina legală:** datele firmei și politica de retur, verificate de avocat.
 

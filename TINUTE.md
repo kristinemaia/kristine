@@ -10,7 +10,7 @@ _18 octombrie 2026. Tot ce ține de haine, la un loc. Lista completă de bagaj p
 |---|---|---|
 | B3 (sâm 24) | peretele alb, la țară | setul verde |
 | K4 și Bewit (sâm 24) | bucătăria | bluza cu fermoar (2) sau tricoul antracit (1) |
-| Revu Natural (sâm 24) | peretele alb | tricoul antracit |
+| Revo Natural (sâm 24) | peretele alb | tricoul antracit |
 | Dope Rope (din stream) | stream | ce porți deja |
 | Reel-uri noi la sală | sala, cu aprobare | setul verde (colanți, fără pantaloni largi sau evazați, fără alb) |
 | Reel-uri noi în living (la țară) | colțul cu peretele alb din stânga sau podeaua din fața canapelei | verde sau bluza cu fermoar pe peretele alb; albul doar pe fundalul canapelei gri; negrul se pierde |

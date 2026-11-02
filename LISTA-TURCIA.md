@@ -96,7 +96,7 @@ O pungă transparentă, cu maximum 1 litru în total și fiecare recipient de ma
 ## 3. Brandurile (propus, pentru postările de luni, miercuri și vineri)
 - [ ] Dope Rope (luni)
 - [ ] Bewit cacao (miercuri) și uleiurile esențiale, uleiul de bază
-- [ ] Revu Natural: crema de masaj (vineri). Dacă recipientul depășește 100 ml, nu trece în bagajul de mână: ia un recipient mic sau cumpără-l în Turcia.
+- [ ] Revo Natural: crema de masaj (vineri). Dacă recipientul depășește 100 ml, nu trece în bagajul de mână: ia un recipient mic sau cumpără-l în Turcia.
 
 ## 4. Stream, filmat și muncă (propus; fișa e și în tracker)
 - [ ] Laptop, încărcător, stick USB cu copiile de siguranță

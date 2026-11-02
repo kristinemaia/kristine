@@ -1,11 +1,11 @@
-# Reel-urile pentru branduri: Bewit, Revu Natural, Dope Rope
+# Reel-urile pentru branduri: Bewit, Revo Natural, Dope Rope
 
 _18 octombrie 2026. Cele 3 reel-uri pe care le filmezi pentru brandurile cu care colaborezi, cu cadre, secunde, text pe ecran, descriere și hashtag-uri. Contul: @kristinemaia11 (engleză)._
 
 ## Regulile (la toate trei)
 - **Arăți doar ce folosești cu adevărat.** Nimic „de vânzare” pe care nu-l ai în rutina ta.
 - **Mențiunea:** toate trei sunt doar **afiliere cu cod de reducere**, fără plată. Fără `#ad` și fără „Paid partnership”; prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”. `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit.
-- **Codul de reducere** în descriere și pe ecran, în ultima secundă: Dope Rope **KRISTINEMAIA** (10%), Revu Natural **KRISTINE20** (20%), Bewit **KRISTINE15** (15%). Linkul e în bio.
+- **Codul de reducere** în descriere și pe ecran, în ultima secundă: Dope Rope **KRISTINEMAIA** (10%), Revo Natural **KRISTINE20** (20%), Bewit **KRISTINE15** (15%). Linkul e în bio.
 - **Fără promisiuni medicale:** nu „tratează”, „vindecă”, „detox”, „scade durerea”. Spui „how it feels”, „my ritual”, „after a long stream”.
 - **Un singur reel de brand pe săptămână, cel mult** (din tracker, pasul „Colaborările”).
 - **Cadre curate:** fără etichete personale, fereastră sau alte persoane. Aceeași ținută și același perete ca în reel-urile de mobilitate (gri, albastru sau negru, fără logo).
@@ -15,7 +15,7 @@ _18 octombrie 2026. Cele 3 reel-uri pe care le filmezi pentru brandurile cu care
 |---|---|---|
 | **Dope Rope** · „2-minute rope break with the chat” | clip din stream, vineri 23 oct sau altă vineri | vineri 6 noiembrie |
 | **Bewit** · „My evening cacao ritual” | sâmbătă 24 oct, în bucătărie | miercuri 11 noiembrie |
-| **Revu Natural** · „60-second shoulder reset after a long stream” | sâmbătă 24 oct | miercuri 18 noiembrie (după ce te întorci) |
+| **Revo Natural** · „60-second shoulder reset after a long stream” | sâmbătă 24 oct | miercuri 18 noiembrie (după ce te întorci) |
 
 Le programezi dinainte, pe Instagram, înainte de plecare (29 oct). Pe Bewit poți folosi pozele de la C2 (cana de cacao).
 
@@ -43,7 +43,7 @@ General wellness, not medical advice.
 ```
 **Hashtag-uri:** `#cacao #eveningritual #streamerlife #selfcare #winddown`
 
-## 2. Revu Natural · 60-second shoulder reset after a long stream · 25–30 s
+## 2. Revo Natural · 60-second shoulder reset after a long stream · 25–30 s
 **Camera:** din față, de la piept în sus, aceeași ținută și același perete ca în R1, fără decolteu în prim-plan (top cu guler sau mânecă).
 **Pe ecran:** `60-second shoulder reset` (primele 2 secunde)
 
@@ -60,7 +60,7 @@ General wellness, not medical advice.
 ```
 Affiliate: I earn a small commission if you use my code KRISTINE20 (20% off). Link in bio.
 
-My 60-second shoulder reset after a long stream, with Revu Natural. 🤍
+My 60-second shoulder reset after a long stream, with Revo Natural. 🤍
 General mobility and self-care, not medical advice. Stop if anything feels sharp.
 ```
 **Hashtag-uri:** `#shoulderreset #streamerlife #selfcare #mobility #gamerhealth`
@@ -88,5 +88,5 @@ Warm up first, jump gently, stop if anything hurts.
 _(descrierea pentru mini reel-ul de 21 s de la sală, filmat pe 20 oct; fără `#ad`, fiindcă e doar afiliat)_
 
 ## Pașii din tracker
-- Reel Bewit și reel Revu (sâmbătă 24): sunt în „Sâmbătă 24 oct”.
+- Reel Bewit și reel Revo (sâmbătă 24): sunt în „Sâmbătă 24 oct”.
 - Reel Dope Rope: clipul din streamul de vineri 6 noiembrie (în planul 15 oct – 15 nov).

@@ -22,7 +22,7 @@ _Reactualizat 30 octombrie 2026. Se sprijină pe `PLAN.md` și pe Roadmap (secț
 | Chirie | ~400 €/lună | Stabilă |
 | VirtuMe | ~370 € (400 USD) minim garantat, încă ~o lună | Apoi doar venitul din abonamente, care acum e mic; îl socotim 0 |
 | Donații | necunoscut acum | În Roadmap erau ~500 €/lună; de confirmat |
-| Afiliați (Bewit, Dope Rope, Revu) | mic | |
+| Afiliați (Bewit, Dope Rope, Revo) | mic | |
 | Terapie | 0 luna trecută | Nu mai e bază |
 
 **Gata de folosit:** PDF-ul gratuit, e-book-ul v2 (exportat, merge pe Payhip după răspunsul contabilei), 14 din 15 reel-uri montate, presetul de montaj, site-ul pe Netlify, episoadele de Spotify, conținutul vechi în curs de ștergere.

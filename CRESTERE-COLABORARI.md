@@ -85,9 +85,9 @@ Calendarul exact e în **Tracker → Calendar** (fixat). Aici e forma săptămâ
 |---|---|---|---|
 | 1 | **Branduri contactate direct** | 6 emailuri pe săptămână (marți și joi), din lista din `PARTENERI.xlsx`. Branduri care livrează internațional: ergonomie, recuperare, nutriție, echipament, periferice de gaming | din noiembrie, continuu |
 | 2 | **Platforme unde brandurile caută creatori** | îți faci profil pe **Collabstr**, **Influee** și **Insense**; pentru Twitch, **StreamElements Sponsorships**. Instagram are și **Creator Marketplace**: verifici în Professional Dashboard dacă apare pentru tine (nu e în toate țările) | profilurile în noiembrie, din Turcia (fără să accepți livrabile plătite acolo) |
-| 3 | **UGC (video-uri pentru reclamele lor)** | filmezi un clip cu produsul; brandul îl folosește în reclame. **Nu depinde de câți urmăritori ai.** Îți fac un portofoliu din clipurile cu Dope Rope, Bewit și Revu | portofoliul în noiembrie |
+| 3 | **UGC (video-uri pentru reclamele lor)** | filmezi un clip cu produsul; brandul îl folosește în reclame. **Nu depinde de câți urmăritori ai.** Îți fac un portofoliu din clipurile cu Dope Rope, Bewit și Revo | portofoliul în noiembrie |
 | 4 | **Reclame de pe contul tău (Partnership ads)** | brandul plătește ca reelul tău să ruleze ca reclamă, de pe numele tău. Ceri o taxă în plus pentru drepturi (vezi prețurile) | la fiecare contract |
-| 5 | **Afilieri** | ai 3 (Dope Rope, Bewit, Revu). Mai adaugi **cel mult 2–3**, doar ce folosești | când apare ceva potrivit |
+| 5 | **Afilieri** | ai 3 (Dope Rope, Bewit, Revo). Mai adaugi **cel mult 2–3**, doar ce folosești | când apare ceva potrivit |
 | 6 | **Brandurile care te găsesc ele** | pagina `brands.html` de pe site, emailul în bio, media kit-ul la zi, eticheta „Paid partnership” activată | continuu |
 
 **Branduri pe care nu le accepți niciodată:** pariuri, cripto, ceaiuri „detox”, pastile de slăbit, orice promite rezultate medicale. Te costă încrederea pe care o construim.
@@ -158,7 +158,7 @@ Prețurile se calculează după **vizualizări și rezultate**, nu doar după ur
 1. **Bio-ul nou** pe Instagram (secțiunea 1) și linkul către chestionar, după ce urci site-ul pe Netlify.
 2. **Setările Instagram:** cont de creator, „Branded content” activat, verifici Creator Marketplace în Professional Dashboard.
 3. **Profiluri pe Collabstr, Influee, Insense** (poze, nișa, link la media kit). Prețurile din secțiunea 6.
-4. **Portofoliul UGC:** îmi spui că vrei și ți-l fac din clipurile cu Dope Rope, Bewit și Revu (o pagină cu 4–6 clipuri).
+4. **Portofoliul UGC:** îmi spui că vrei și ți-l fac din clipurile cu Dope Rope, Bewit și Revo (o pagină cu 4–6 clipuri).
 5. **Primele 2 Trial Reels** din lotul 1 (G1 cu două hook-uri diferite).
 6. **6 emailuri către branduri** (marți și joi), din `PARTENERI.xlsx`.
 7. **Duminică:** prima măsurătoare în Tracker.

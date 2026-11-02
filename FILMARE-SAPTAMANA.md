@@ -24,7 +24,7 @@ _1 noiembrie 2026. O deschizi la sală, din Bibliotecă. Ziua 1 e scrisă în de
 ---
 
 ## Luni 2 noiembrie · ~1,5 ore (în ordinea asta, ca să nu te încălzești de două ori)
-_Fără Revu: crema nu e la tine. Pe 18 noiembrie postezi reel-ul Revu filmat deja în studio._
+_Fără Revo: crema nu e la tine. Pe 18 noiembrie postezi reel-ul Revo filmat deja în studio._
 
 ### 1. Încălzirea, filmată (10 min) · pentru Custom Program
 Telefonul pe diagonală (45°), tot corpul. Câte 20–30 de secunde fiecare:

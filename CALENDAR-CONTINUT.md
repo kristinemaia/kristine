@@ -65,7 +65,7 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | dum 15 nov, 18:00 | **G2** · POV: you sat for 9 hours and now it's leg day | 🎬 lotul 1 |
 | lun 16 nov, 18:00 | Mobility between sets: 60 seconds | 🎬 lotul 1 |
 | mar 17 nov, 18:00 | **G3** · 3 cable row mistakes (coaching) | 🎬 lotul 1 |
-| mie 18 nov, 17:00 | Revu · After the gym: the cream I reach for (cod KRISTINE20) | 🎬 lotul 1 |
+| mie 18 nov, 17:00 | Revo · After the gym: the cream I reach for (cod KRISTINE20) | 🎬 lotul 1 |
 | vin 20 nov, 17:00 | 3 exercises for the gamer hunch | 🎬 lotul 2 |
 | dum 22 nov, 18:00 | Overhead reach test | 🎬 lotul 2 |
 | lun 23 nov, 18:00 | Shoulders stiff from the mouse? Hang for 20 seconds | 🎬 lotul 2 |
@@ -121,7 +121,7 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | Marți | reelul zilei + sondaj · **VirtuMe** (1 din 2) |
 | Miercuri | **Bewit** (cod KRISTINE15) |
 | Joi | culise de la sală · **VirtuMe** (2 din 2) |
-| Vineri | **Revu** (cod KRISTINE20) · Game night (anunț) |
+| Vineri | **Revo** (cod KRISTINE20) · Game night (anunț) |
 | Sâmbătă | liber |
 | Duminică | reelul zilei + **PDF-ul gratuit** (sticker cu link) · lista de coaching, o dată la două săptămâni |
 
@@ -156,7 +156,7 @@ Luni 10:00 RO (11:00 la tine) Move Monday, la sală · marți · miercuri · vin
 | **G1** Sitting test | diagonală 45°, la înălțimea șoldului, tot corpul | hook cu 3 degete; wall angel; genuflexiune 10 s (din profil); din șezut turcește te ridici fără mâini; final „how many?” | storyboard + video |
 | **G2** POV 9 hours | diagonală, tot corpul | te blochezi la atingerea vârfurilor; cerc de șold amuzant; fandare pe genunchi; open book; cat-cow; flexia din nou, mai jos | storyboard + video |
 | **G3** Form check ramat | din profil, la înălțimea pieptului; la coate, diagonală | hook la aparat; umeri sus/jos; lăsat pe spate/drept; coate depărtate/lipite | storyboard + video |
-| ~~Revu la sală~~ | — | **anulat (1 nov):** crema nu e la tine în Turcia; pe 18 nov postezi reel-ul Revu filmat deja („the cream I reach for after a long stream”) | — |
+| ~~Revo la sală~~ | — | **anulat (1 nov):** crema nu e la tine în Turcia; pe 18 nov postezi reel-ul Revo filmat deja („the cream I reach for after a long stream”) | — |
 | **Mobility between sets** | din față, la înălțimea pieptului | world's greatest stretch, open book, cat-cow, câte 20 s | Biblioteca → „Filmarea reel-urilor la sală” |
 
 ### Lotul 2 (9–13 nov)

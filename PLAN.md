@@ -9,7 +9,7 @@ _Actualizat: 11 octombrie 2026 (v5) · include tot ce am vorbit până acum, inc
 > - **TikTok zilnic din 19 oct.** Instagram Kristine Maia: reel-uri 17:00; KM Wellness Concept: reel joi 19:00 și caruselul duminica 19:00.
 > - **Zboară joi 29 oct după-amiază** spre Turcia, înapoi pe 15 nov. În Turcia: 23–26 sept (4) + 4–15 oct (12) + 29 oct–15 nov (18) = **34 din 90 de zile**, marjă 56. Frizerie/coafor în Turcia în jur de 1 nov.
 > - Din Turcia streamezi de la sală (cu acord scris, fără alți oameni, fără logo sau ferestre în cadru) sau de acasă, cu fundal.
-> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revu Natural (cremă de masaj).
+> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revo Natural (cremă de masaj).
 > - **Bani reali (terapie):** 4.200 lei încasați între 17 aug și 26 sept (~3.100 lei/lună). Avocat: încă 2 tranșe de 1.500 lei. Asigurarea de sănătate: urgentă, săptămâna asta.
 > - Contabila a vorbit cu tine; avocatul nu mai primește documente. Nu trebuie nimic despre eSIM sau ora (ai SIM bun, ceasul se schimbă singur; în România trecem la ora de iarnă pe 25 oct).
 > - Planul zilnic complet, cu locuri și ore: `PLAN-TURCIA.md` și Calendarul de printat. Bifezi în Tracker.
@@ -30,7 +30,7 @@ Fișiere însoțitoare: `CONTINUT.md` (stream-uri, reel-uri, Instagram) · `STER
 - Un canal de yoga pe YouTube care a mers foarte bine (închis acum).
 - O firmă cu cod CAEN pentru terapie și o cameră de terapie în București, cu o listă de prețuri profesionistă.
 - E-book pe Amazon: *Stay Healthy and Fit with Kristine Maia* (4,61 €).
-- Colaborări active: coarda de sărit (afiliere), Revu Natural (afiliere), Twin (~400 €/lună, 3 luni).
+- Colaborări active: coarda de sărit (afiliere), Revo Natural (afiliere), Twin (~400 €/lună, 3 luni).
 - Gătit, pictură, blugi pictați și abilități de bază în website-uri.
 
 **Cum te prezinți corect:**
@@ -175,7 +175,7 @@ Nimeni nu combină pe Twitch yoga, antrenamentul, gătitul și o pregătire real
 | Ce | Preț | Când |
 |---|---|---|
 | Conținut gratuit (stream-uri, reel-uri, Spotify) | 0 | mereu |
-| Afiliere: coarda de sărit, Revu Natural | comision | acum |
+| Afiliere: coarda de sărit, Revo Natural | comision | acum |
 | **E-book** (Amazon + versiune directă cu bonusuri) | 4,61 € / 9–15 € | acum / după actualizare |
 | **Program „Desk & Gamer Mobility, 30 de zile”** | 29–49 € | luna 2–3 |
 | Abonament (Instagram / Patreon / Discord) | 4–10 €/lună | luna 3 |

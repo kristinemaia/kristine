@@ -7,7 +7,7 @@ Ai ce caută brandurile: **Twitch Partner cu 72K de urmăritori și 150–200 de
 
 ## Cele 4 tipuri de parteneri, în ordinea în care aduc bani
 1. **Branduri plătite (sponsori):** ergonomie (scaune, birouri, mouse), recuperare (foam roller, pistoale de masaj), nutriție, echipament de sală. Plătesc **o sumă fixă plus cod**. Ofertă: un pachet pe o lună (reel + segment în stream + story-uri + panou).
-2. **Afilieri (venit pasiv):** ai trei active (Bewit, Dope Rope, Revu). Adaugi **cel mult 2–3**, doar lucruri pe care le folosești la sală sau la birou. Mai multe coduri înseamnă mai puțină încredere.
+2. **Afilieri (venit pasiv):** ai trei active (Bewit, Dope Rope, Revo). Adaugi **cel mult 2–3**, doar lucruri pe care le folosești la sală sau la birou. Mai multe coduri înseamnă mai puțină încredere.
 3. **Platforme:** VirtuMe (activ), Twitch. Contractele noi de acest tip trec prin avocat.
 4. **Creatori (cresc audiența, nu aduc bani direct):** streameri și creatori din nișe apropiate (gaming, birou, gătit sănătos): raiduri, „The Sitting Test” în streamul lor, reel-uri Collab, duet pe TikTok. Modelul Dr. K: segmente scurte pe canalele altora.
 

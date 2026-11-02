@@ -51,7 +51,7 @@ Cantitățile sunt pentru 2 încercări din fiecare, ca să ai de unde alege cad
 - [ ] Sare, piper, ulei, zahăr, făină (dacă rețeta cere)
 
 ## Sâmbăta viitoare (24 oct): ca să nu uiți
-Somon cu broccoli (K4), plus reel-urile cu cacao Bewit și cu crema Revu. Lista o fac după ce hotărăști.
+Somon cu broccoli (K4), plus reel-urile cu cacao Bewit și cu crema Revo. Lista o fac după ce hotărăști.
 
 ## Înainte să pleci
 1. Verifici ce ai deja în casă la țară și tai de pe listă.

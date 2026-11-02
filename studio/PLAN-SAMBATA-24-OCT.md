@@ -9,7 +9,7 @@ _Ultima zi de filmat înainte de plecarea în Turcia (zbor joi 29 oct). Ce filme
 | **Test living** pentru programul de 30 de zile | colțul cu perete alb din stânga | setul verde | 30 min | nu iese; alegi colțul |
 | **B3** · Upper back and shoulders | perete alb, în picioare + saltea | setul verde | 35 min | mar 10 nov, 17:00 |
 | **Poze** pentru C2 (portret zâmbind, blade squeeze) | același perete | setul verde | 15 min | C2, dum 8 nov |
-| **Revu Natural** · the cream I reach for (varianta simplă, 15 s) | perete alb | tricoul antracit (umerii liberi) | 20 min | mie 18 nov, 17:00 |
+| **Revo Natural** · the cream I reach for (varianta simplă, 15 s) | perete alb | tricoul antracit (umerii liberi) | 20 min | mie 18 nov, 17:00 |
 | **Bewit** · My evening cacao ritual | bucătărie, camera de sus | bluza neagră cu fermoar | 25 min | mie 11 nov, 17:00 |
 | **Poza cu cana de cacao** (pentru C2) | bucătărie | bluza neagră cu fermoar | 5 min | C2, dum 8 nov |
 | **K4** · Salmon, potatoes & salad | bucătărie, camera de sus | bluza neagră cu fermoar | 40 min | joi 12 nov, 17:00 |
@@ -26,7 +26,7 @@ Dope Rope e deja filmat (clip de 21 s, 20 oct).
 | 10:15 | Test living: clip de 1 minut în 16:9, marcaje cu bandă pe podea, poze cu colțul ales |
 | 10:45 | B3, în setul verde (2–3 duble din fiecare mișcare) |
 | 11:20 | Pozele C2 la perete: portret zâmbind și blade squeeze |
-| 11:35 | Schimbi pe tricoul antracit; Revu la perete |
+| 11:35 | Schimbi pe tricoul antracit; Revo la perete |
 | 12:00 | Pauză, masă |
 | 13:00 | Schimbi pe bluza neagră cu fermoar; pregătești bucătăria (blat curat, lumină, camera de sus) |
 | 13:15 | Bewit + poza cu cana |
@@ -40,7 +40,7 @@ Total filmat: ~3 ore. Duminică e liberă (sau blocul opțional de rezervă, mai
 - Trepied, telefon (mod avion, lentila ștearsă), ring light sau lampă, microfon, prelungitor.
 - Salteaua, un scaun simplu fără rotile (pentru poze), bandă adezivă pentru marcaje.
 - 3 ținute: setul verde, tricoul antracit, bluza neagră cu fermoar; părul prins.
-- Produsele: cacao Bewit, crema Revu Natural (fără etichete personale la vedere), o cană frumoasă fără logo.
+- Produsele: cacao Bewit, crema Revo Natural (fără etichete personale la vedere), o cană frumoasă fără logo.
 - Bucătărie: tocător, tigaie curată, farfurie simplă, prosop, boluri mici. Fără etichete, cântar sau ambalaje străine în cadru.
 - Stick USB pentru copia clipurilor.
 
@@ -55,7 +55,7 @@ Pe ecran: `Shoulders rounded from the desk? 3 moves.`
 3. **Thread the needle** pe saltea (din lateral), 10 s, `20 s each side`.
 Final: `Gentle pull only. Stop if it's sharp.`
 
-### Revu Natural · 15 s, varianta simplă (24 oct): fără exerciții
+### Revo Natural · 15 s, varianta simplă (24 oct): fără exerciții
 Pe ecran: `After a long stream: the cream I reach for.` Camera din față, de la piept în jos, la perete, tricoul antracit.
 Cadre: borcanul/tubul în mână, fără etichete personale (3 s) → crema pe dosul mâinii sau pe antebraț (4 s) → o masezi blând (5 s) → borcanul pe blat + `Code KRISTINE20 · link in bio` (3 s).
 Nu spui ce „tratează” sau „pentru dureri”. Spui doar ce faci: „After a long stream, this is what I reach for.”
@@ -69,7 +69,7 @@ Pe ecran: `After a long stream: salmon, potatoes & salad.` (rețeta din e-book, 
 Cadre: cartofii tăiați și la cuptor → somonul pe hârtie de copt → salata de roșii cu brânză și ceapă → farfuria gata. Camera de sus.
 
 ## Mențiunile
-Dope Rope, Bewit și Revu Natural sunt doar **afiliere cu cod de reducere**, fără plată: fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”. `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit. Descrierile sunt în „Toate descrierile”.
+Dope Rope, Bewit și Revo Natural sunt doar **afiliere cu cod de reducere**, fără plată: fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”. `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit. Descrierile sunt în „Toate descrierile”.
 
 ## Poze de făcut (aceeași ținută, aceeași lumină, 3–4 variante)
 - `POZA_c2_portret`: la perete, zâmbind, de la piept în sus. **E și poza nouă** pentru ecranul offline de pe Twitch, panoul About și media kit: privire spre cameră, ochelarii pe nas, ținută acoperitoare (setul verde sau bluza neagră cu fermoar), lumină moale din față, perete simplu. Fă 6–8 variante.
@@ -116,4 +116,4 @@ Planul de bază acoperă reel-urile până pe **18 nov**. Rezerva acoperă **20 
 Descrierile celor 4 sunt în „Toate descrierile”, secțiunea 1c; K6–K9, O1, O3, O7 în 1b. La K2 și K3 lipești rețeta în locul lui `[REȚETA]`.
 
 ## După filmare
-Copia pe laptop și pe stick în aceeași seară. Luni 26 oct alegi dublele și scrii descrierile (B3, K4, Bewit, Revu); marți 27 oct montezi B3 și K4; restul montajului merge în Turcia.
+Copia pe laptop și pe stick în aceeași seară. Luni 26 oct alegi dublele și scrii descrierile (B3, K4, Bewit, Revo); marți 27 oct montezi B3 și K4; restul montajului merge în Turcia.

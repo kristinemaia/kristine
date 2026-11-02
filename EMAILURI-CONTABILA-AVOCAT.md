@@ -99,7 +99,7 @@ Plec în Turcia pe 29 octombrie și revin pe 15 noiembrie. Aș avea nevoie de r�
 
 **Colaborarea cu Twin**
 6. Atașez contractul de colaborare cu Twin. Aveți observații despre exclusivitate, durată, drepturile asupra conținutului și posibilitatea de a-l lua de la capăt?
-7. Pot continua în același timp colaborările de afiliere (Dope Rope, Revu Natural, Bewit; cu codul de reducere și mențiunea „afiliere”) fără să încalc ceva?
+7. Pot continua în același timp colaborările de afiliere (Dope Rope, Revo Natural, Bewit; cu codul de reducere și mențiunea „afiliere”) fără să încalc ceva?
 
 **Agenția din 2023**
 8. Atașez contractul din 2023, mesajele și plățile de la agenție. Cum stau cu eventualele obligații rămase și cu conținutul din acea perioadă?

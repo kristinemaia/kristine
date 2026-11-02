@@ -12,7 +12,7 @@ _19 octombrie 2026. Un TikTok pe zi, în engleză, până pe 16 noiembrie. Contu
 
 ## 2. Ce postezi în fiecare zi
 
-Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. Dope Rope, Bewit și Revu Natural sunt doar afiliere cu cod: fără `#ad` și fără „Branded content”, cu linia „Affiliate: …” la început. `#ad` și „Content disclosure → Branded content” doar dacă un brand te plătește sau îți dă produse gratuit.
+Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. Dope Rope, Bewit și Revo Natural sunt doar afiliere cu cod: fără `#ad` și fără „Branded content”, cu linia „Affiliate: …” la început. `#ad` și „Content disclosure → Branded content” doar dacă un brand te plătește sau îți dă produse gratuit.
 
 | Data | Tip | Ce | Descriere |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Coloana „Descriere” e gata de copiat. Hashtag-urile sunt în ea. Dope Rope, 
 | Dum 15 | A | clip „înapoi acasă” sau din stream | secțiunea 4 |
 | Lun 16 | A | clip din Move Monday | `Move Monday with the chat 💪 #workout #twitchstreamer #fitness` |
 
-**După 16 nov:** același ritm. Miercuri 18 nov: reel-ul Revu Natural (afiliat, codul KRISTINE20). Apoi reel-urile din rezervă (K6, O1, K2, K7, O3, K3, K8, O7, K9, descrierile sunt în „Toate descrierile”, secțiunea 1b), tot câte unul pe zi de reel.
+**După 16 nov:** același ritm. Miercuri 18 nov: reel-ul Revo Natural (afiliat, codul KRISTINE20). Apoi reel-urile din rezervă (K6, O1, K2, K7, O3, K3, K8, O7, K9, descrierile sunt în „Toate descrierile”, secțiunea 1b), tot câte unul pe zi de reel.
 
 ## 3. Cum postezi un reel pe TikTok (tip B)
 1. Folosești **același fișier** exportat din aplicația de montaj, 1080 × 1920. Fără filigran de la altă aplicație.

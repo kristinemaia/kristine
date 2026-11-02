@@ -9,7 +9,7 @@ _Versiunea 1 punea în roșu și postări inofensive de viață reală, ceea ce 
 > - **TikTok zilnic din 19 oct.** Instagram Kristine Maia: reel-uri 17:00; KM Wellness Concept: reel joi 19:00 și caruselul duminica 19:00.
 > - **Zboară joi 29 oct după-amiază** spre Turcia, înapoi pe 15 nov. În Turcia: 23–26 sept (4) + 4–15 oct (12) + 29 oct–15 nov (18) = **34 din 90 de zile**, marjă 56. Frizerie/coafor în Turcia în jur de 1 nov.
 > - Din Turcia streamezi de la sală (cu acord scris, fără alți oameni, fără logo sau ferestre în cadru) sau de acasă, cu fundal.
-> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revu Natural (cremă de masaj).
+> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revo Natural (cremă de masaj).
 > - **Bani reali (terapie):** 4.200 lei încasați între 17 aug și 26 sept (~3.100 lei/lună). Avocat: încă 2 tranșe de 1.500 lei. Asigurarea de sănătate: urgentă, săptămâna asta.
 > - Contabila a vorbit cu tine; avocatul nu mai primește documente. Nu trebuie nimic despre eSIM sau ora (ai SIM bun, ceasul se schimbă singur; în România trecem la ora de iarnă pe 25 oct).
 > - Planul zilnic complet, cu locuri și ore: `PLAN-TURCIA.md` și Calendarul de printat. Bifezi în Tracker.

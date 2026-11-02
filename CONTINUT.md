@@ -7,7 +7,7 @@
 > - **TikTok zilnic din 19 oct.** Instagram Kristine Maia: reel-uri 17:00; KM Wellness Concept: reel joi 19:00 și caruselul duminica 19:00.
 > - **Zboară joi 29 oct după-amiază** spre Turcia, înapoi pe 15 nov. În Turcia: 23–26 sept (4) + 4–15 oct (12) + 29 oct–15 nov (18) = **34 din 90 de zile**, marjă 56. Frizerie/coafor în Turcia în jur de 1 nov.
 > - Din Turcia streamezi de la sală (cu acord scris, fără alți oameni, fără logo sau ferestre în cadru) sau de acasă, cu fundal.
-> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revu Natural (cremă de masaj).
+> - **Branduri în rotație:** luni Dope Rope, miercuri Bewit cacao, vineri Revo Natural (cremă de masaj).
 > - **Bani reali (terapie):** 4.200 lei încasați între 17 aug și 26 sept (~3.100 lei/lună). Avocat: încă 2 tranșe de 1.500 lei. Asigurarea de sănătate: urgentă, săptămâna asta.
 > - Contabila a vorbit cu tine; avocatul nu mai primește documente. Nu trebuie nimic despre eSIM sau ora (ai SIM bun, ceasul se schimbă singur; în România trecem la ora de iarnă pe 25 oct).
 > - Planul zilnic complet, cu locuri și ore: `PLAN-TURCIA.md` și Calendarul de printat. Bifezi în Tracker.
@@ -23,7 +23,7 @@
 | 1 | **Mobilitate / yoga / antrenament** | Pilon principal | A mers deja pe YouTube, devine programul plătit, atrage sponsori de fitness și ergonomie |
 | 2 | **Gătit sănătos** | Pilon principal | Vinde e-book-ul, atrage sponsori de mâncare și suplimente, e relaxant de urmărit |
 | 3 | **Gaming cu „stretch break”** | Pilon de comunitate | Păstrează publicul de gameri și venitul din Twitch. „Stretch break”-ul e semnătura ta |
-| 4 | **Recuperare (ventuze, auto-masaj, role)** | Pilon de credibilitate | Arată pregătirea ta, merge cu Revu Natural, aduce clienți la terapie |
+| 4 | **Recuperare (ventuze, auto-masaj, role)** | Pilon de credibilitate | Arată pregătirea ta, merge cu Revo Natural, aduce clienți la terapie |
 | 5 | Pictură | Bonus, o dată pe lună | Stream liniștit + licitație lunară |
 | — | Blugi pictați | Pauză | Revii după luna 3 |
 | — | Reiki / terapie energetică | În afara conținutului public | Nu se potrivește cu brandul de sănătate |
@@ -53,7 +53,7 @@ Marți și joi: lucrezi la produse, reel-uri și emailuri către branduri. Sâmb
 | **POV** | „POV: you've been gaming for 6 hours and your back hates you” → 3 exerciții | Gaming + mobilitate |
 | **Rețetă rapidă** | „High-protein gamer snack in 5 minutes” | Gătit |
 | **Ce mănânc într-o zi de stream** | „What I eat on a 10-hour stream day” | Gătit |
-| **Recuperare** | „How to use cupping on your own shoulders” (cu produsele Revu) | Recuperare |
+| **Recuperare** | „How to use cupping on your own shoulders” (cu produsele Revo) | Recuperare |
 | **Momente din stream** | Chatul care face stretch break împreună, reacții amuzante | Comunitate |
 
 ### Formula fiecărui reel
@@ -74,7 +74,7 @@ Marți și joi: lucrezi la produse, reel-uri și emailuri către branduri. Sâmb
 | Săpt. | Reel 1 (mobilitate) | Reel 2 (gătit) | Reel 3 (recuperare / afiliere) | Reel 4 (din stream) |
 |---|---|---|---|---|
 | 1 | Neck pain after gaming: 3 exerciții | Gustare proteică în 5 minute | Coarda de sărit: 5 min warm-up | Primul stretch break cu chatul |
-| 2 | Wrist stretches pentru mouse și tastatură | Ce mănânc într-o zi de stream | Auto-masaj cu cremă Revu pe gât/umeri | Moment amuzant de la gătit |
+| 2 | Wrist stretches pentru mouse și tastatură | Ce mănânc într-o zi de stream | Auto-masaj cu cremă Revo pe gât/umeri | Moment amuzant de la gătit |
 | 3 | Lower back după ore la birou | Meal prep pentru o săptămână (din e-book) | Ventuze pe umeri, tutorial | Reacția chatului la un antrenament |
 | 4 | Rutină de 5 minute la birou | Desert sănătos | Coarda de sărit: provocare pentru chat | Timelapse cu pictura lunii |
 
@@ -136,7 +136,7 @@ După fiecare săptămână: te uiți care reel a avut cele mai multe **salvări
   > Mobility, recovery & good food for people who sit all day  
   > Sports science grad · Twitch Partner (72K)  
   > 📩 Collabs: tap Email
-- Linktree: e-book, codurile de reducere (coarda, Revu Natural), Twitch, programul (când apare).
+- Linktree: e-book, codurile de reducere (coarda, Revo Natural), Twitch, programul (când apare).
 - Evidențieri (highlights): păstrezi JUMP ROPE și YOGA. Adaugi **RECIPES**, **RECOVERY**, **CODES**. „Krakow” și alte călătorii le pui într-una singură, **TRAVEL**.
 - **Abonamentul Instagram** (butonul „Subscription” e deja activ): rutine exclusive de mobilitate în fiecare săptămână, pentru 4–5 €/lună.
 - Repuni sus (fixezi) **coarda** și **yoga**. Rochia poate rămâne, pentru că aduce oameni noi.

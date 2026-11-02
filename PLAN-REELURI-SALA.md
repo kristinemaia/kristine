@@ -68,7 +68,7 @@ Plus **lifestyle de sală** (geanta, sală → stream, gustarea de după), făr�
 **F. Recovery**
 27. `Upper back tight after a long day? 45 seconds.` (foam roller)
 28. `Shoulders stiff from the mouse? Hang for 20 seconds.`
-29. `After the gym: the cream I reach for.` (Revu, afiliere, filmat la sală)
+29. `After the gym: the cream I reach for.` (Revo, afiliere, filmat la sală)
 30. `5-minute warm-up. Just a rope.` (Dope Rope, partea 2)
 
 **Lifestyle de sală**
@@ -82,9 +82,9 @@ Plus **lifestyle de sală** (geanta, sală → stream, gustarea de după), făr�
 
 | Săptămâna | Postări (★ = nou, de la sală) | Filmezi în săptămâna asta |
 |---|---|---|
-| 2–8 nov | mar 3 B2 · joi 5 K5 · vin 6 Dope Rope · dum 8 caruselul EN C2 (17:00) | **Lotul 1:** G1, G2, G3, Revu la sală (29), Mobility between sets (23) |
+| 2–8 nov | mar 3 B2 · joi 5 K5 · vin 6 Dope Rope · dum 8 caruselul EN C2 (17:00) | **Lotul 1:** G1, G2, G3, Revo la sală (29), Mobility between sets (23) |
 | 9–15 nov | **lun 9 ★ G1** · mar 10 B3 · mie 11 Bewit · joi 12 K4 · vin 13 B4 · **dum 15 ★ G2** | **Lotul 2:** squat form check (8), overhead test (2), gamer hunch (19), hang 20 s (28), 3 stretches after (26) |
-| 16–22 nov | **lun 16 ★ between sets (23)** · **mar 17 ★ G3 form check** · **mie 18 ★ Revu la sală (29)** · **vin 20 ★ gamer hunch (19)** · **dum 22 ★ overhead test (2)** | **Lotul 3:** things gamers do (15), hip thrust (9), first 20 min (17), hip 90/90 test (3), gym bag (31) |
+| 16–22 nov | **lun 16 ★ between sets (23)** · **mar 17 ★ G3 form check** · **mie 18 ★ Revo la sală (29)** · **vin 20 ★ gamer hunch (19)** · **dum 22 ★ overhead test (2)** | **Lotul 3:** things gamers do (15), hip thrust (9), first 20 min (17), hip 90/90 test (3), gym bag (31) |
 | 23–29 nov | **lun 23 ★ hang 20 s (28)** · **mar 24 ★ squat form check (8)** · joi 26 K2 · **vin 27 ★ things gamers do (15)** · **dum 29 ★ hip test (3)** | **Lotul 4:** pulldown (10), leg day (18), hips between sets (24), ankle test (4), foam roller (27) |
 | 30 nov–6 dec | **lun 30 ★ first 20 min (17)** · **mar 1 ★ hip thrust (9)** · **joi 3 ★ gym bag (31)** · vin 4 K8 · **dum 6 ★ ankle test (4)** | **Lotul 5:** RDL (11), grip test (5), sit after leg day (14), upper body 15 min (20), gym → stream (32) |
 | 7–13 dec | **lun 7 ★ hips between sets (24)** · **mar 8 ★ pulldown (10)** · **joi 10 ★ leg day (18)** · vin 11 K10 · **dum 13 ★ foam roller (27)** | **Lotul 6:** push-up (12), balance test (6), 4 dumbbell moves (21), warm-up (22), snack (33) |
