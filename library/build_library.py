@@ -420,12 +420,32 @@ DOC_PAGE = """<!doctype html>
 <meta name="claude:viewport-fit-sides" content="cover">
 <title>@@TITLE@@ · Biblioteca Kristinei</title>
 @@FONTS@@
-<style>@@CSS@@</style></head>
+<style>@@CSS@@
+.doc input[type=checkbox]{width:22px;height:22px;vertical-align:-5px;accent-color:var(--accent);cursor:pointer}
+.doc li:has(>input[type=checkbox]),.doc li:has(>label>input[type=checkbox]){list-style:none;margin-left:-1.2em;padding:4px 0}
+.doc li label{cursor:pointer}
+.doc li.bifat{color:var(--muted);text-decoration:line-through}</style></head>
 <body>
 <div class="bar"><a href="../index.html">← Biblioteca</a></div>
 <main class="doc wrap">
 @@BODY@@
 </main>
+<script>
+// Bifele din liste rămân bifate pe telefonul tău (salvate local, pe fiecare pagină).
+(function(){
+  var boxes=document.querySelectorAll('main input[type=checkbox]'); if(!boxes.length) return;
+  var key='bif:'+location.pathname, st={};
+  try{ st=JSON.parse(localStorage.getItem(key)||'{}'); }catch(e){}
+  [].forEach.call(boxes,function(cb,i){
+    cb.disabled=false; cb.checked=!!st[i];
+    var li=cb.closest('li'); if(li) li.classList.toggle('bifat',cb.checked);
+    cb.addEventListener('change',function(){
+      st[i]=cb.checked; if(li) li.classList.toggle('bifat',cb.checked);
+      try{ localStorage.setItem(key,JSON.stringify(st)); }catch(e){}
+    });
+  });
+})();
+</script>
 </body></html>
 """
 
