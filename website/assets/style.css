@@ -439,3 +439,43 @@ input[type=range]:focus-visible{outline:3px solid var(--ink);outline-offset:2px;
 /* Titlul de lângă poză (training.html) */
 .page-head .split{align-items:center}
 .page-head .split h1{font-size:clamp(38px,5vw,62px)}
+
+/* ---------- Biblioteca de exerciții și ghidurile de formă (3 nov) ---------- */
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.count{display:inline-block;font:700 13px/1 var(--body);background:var(--pink);color:var(--pink-ink);border-radius:99px;padding:5px 9px;vertical-align:4px;margin-left:6px}
+.vgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:12px}
+@media (max-width:880px){.vgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+.vcard{margin:0;display:grid;gap:6px}
+.vcard video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:18px;background:var(--lilac);display:block}
+.vcard figcaption{font-size:14px;font-weight:600}
+.vcard.big video{border-radius:26px}
+.vcard.big figcaption{display:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.chips a{background:#fff;border:1.5px solid var(--line);border-radius:99px;padding:8px 14px;font-weight:600;font-size:14px;color:var(--ink);text-decoration:none}
+.chips a:hover{border-color:var(--pink-ink);color:var(--pink-ink)}
+.guides{display:grid;gap:56px}
+.guide{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);gap:28px 48px;align-items:start;scroll-margin-top:24px}
+.guide-v{max-width:360px}
+.guide-t{display:grid;gap:12px}
+.guide-t h3{margin-top:8px}
+@media (max-width:880px){.guide{grid-template-columns:minmax(0,1fr)}.guide-v{max-width:300px}}
+
+/* ---------- Limba (meniul de sus) ---------- */
+.lang-l select{font:600 14px var(--body);color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:99px;padding:7px 12px;max-width:150px;cursor:pointer}
+@media (max-width:880px){.nav .lang{padding:12px 0}.lang-l select{max-width:100%;width:100%}}
+/* bara Google Translate de sus nu împinge pagina în jos */
+body{top:0!important}
+.goog-te-banner-frame,iframe.skiptranslate,#goog-gt-tt,.goog-te-balloon-frame{display:none!important}
+#gt-el{display:none}
+
+/* ---------- Butonul de chat (colțul din dreapta jos) ---------- */
+.dm{position:fixed;right:16px;bottom:16px;z-index:50;display:grid;justify-items:end;gap:10px}
+.dm-btn{display:inline-flex;align-items:center;gap:8px;min-height:52px;padding:12px 20px;border:0;border-radius:999px;background:var(--ink);color:#fff;font:700 16px var(--body);cursor:pointer;box-shadow:0 10px 24px rgba(43,36,49,.22)}
+.dm-btn svg{width:22px;height:22px}
+.dm-btn:hover{background:var(--pink-ink)}
+.dm-panel{width:min(320px,calc(100vw - 32px));background:#fff;border:1.5px solid var(--line);border-radius:22px;padding:18px;display:grid;gap:10px;box-shadow:0 18px 40px rgba(43,36,49,.18)}
+.dm-panel[hidden]{display:none}
+.dm-panel .btn{width:100%;min-height:48px;font-size:16px}
+.dm-h{font:800 22px/1.1 var(--display)}
+@media (max-width:480px){.dm-btn span{display:none}.dm-btn{padding:12px 15px}}
+@media print{.dm{display:none}}

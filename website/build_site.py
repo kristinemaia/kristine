@@ -34,7 +34,14 @@ LINKS = {
     "COACHING": "mailto:kristinemaia527@gmail.com?subject=1%3A1%20online%20coaching%20waitlist",
     # Lista de așteptare pentru Custom Program (abonamentul cu programul personalizat). Când există pe Payhip, pui linkul aici.
     "CLUB": "mailto:kristinemaia527@gmail.com?subject=Custom%20Program%20waitlist",
+    # Conversația directă pe Instagram (butonul de chat o oferă până conectăm Tawk.to)
+    "IG_DM": "https://ig.me/m/kristinemaia11",
 }
+
+# Chatul live (Tawk.to). Din codul „Widget Code” primit de la Tawk.to copiezi linkul din s1.src,
+# de forma https://embed.tawk.to/XXXXXXXX/YYYYYYY, și îl pui aici. Gol = butonul de chat
+# oferă Instagram și email (merge și fără Tawk.to).
+TAWK_SRC = ""
 
 FONTS = (
     '<link rel="preconnect" href="https://fonts.googleapis.com">'
@@ -47,6 +54,7 @@ NAV = [
     ("index.html", "Home"),
     ("free.html", "Free routines"),
     ("training.html", "Training"),
+    ("guides.html", "Form guides"),
     ("shop.html", "Shop"),
     ("live.html", "Live"),
     ("about.html", "About"),
@@ -64,11 +72,23 @@ def fill(html):
 NAV_RO = [
     ("index.html", "Acasă"),
     ("free.html", "Rutine gratuite"),
+    ("guides.html", "Ghiduri de formă"),
     ("shop.html", "Magazin"),
     ("live.html", "Live"),
     ("about.html", "Despre"),
     ("brands.html", "Pentru branduri"),
 ]
+
+
+# Limba: engleza e limba site-ului; pentru celelalte limbi, traducerea automată Google pornește doar când
+# vizitatorul alege o limbă (până atunci nu se încarcă nimic de la Google). Chestionarul are translate="no",
+# ca răspunsurile despre sănătate să nu ajungă la Google și notele de siguranță să rămână exacte.
+LANGS = [("ro", "Română"), ("es", "Español"), ("de", "Deutsch"), ("fr", "Français"), ("it", "Italiano"), ("pt", "Português"),
+         ("tr", "Türkçe"), ("pl", "Polski"), ("nl", "Nederlands"), ("hu", "Magyar"), ("ru", "Русский"), ("uk", "Українська"),
+         ("ar", "العربية"), ("hi", "हिन्दी"), ("ja", "日本語"), ("ko", "한국어"), ("zh-CN", "中文")]
+LANG_LI = ('<li class="lang notranslate" translate="no"><label class="lang-l"><span class="vh">Language</span>'
+           '<select id="lang-sel" aria-label="Language: automatic translation"><option value="en">EN · English</option>'
+           + "".join('<option value="%s">%s</option>' % (c, n) for c, n in LANGS) + '</select></label></li>')
 
 
 def header(cur, lang):
@@ -84,7 +104,7 @@ def header(cur, lang):
         '<header class="top"><div class="wrap top-in">\n'
         '  <a class="brand" href="index.html">Kristine <span>Maia</span></a>\n'
         '  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">' + ("Meniu" if ro else "Menu") + '</button>\n'
-        '  <nav aria-label="' + ("Principal" if ro else "Main") + '"><ul class="nav" id="nav-links">' + items + '</ul></nav>\n'
+        '  <nav aria-label="' + ("Principal" if ro else "Main") + '"><ul class="nav" id="nav-links">' + items + LANG_LI + '</ul></nav>\n'
         "</div></header>"
     )
 
@@ -93,11 +113,11 @@ def header(cur, lang):
 FOOT = {
     "en": {"tag": "Mobility, recovery and good food for people who sit all day.", "explore": "Explore",
            "follow": "Follow", "all": "All links", "legal": "Legal &amp; privacy",
-           "free": "Free routines", "shop": "Shop", "about": "About", "brands": "For brands",
+           "free": "Free routines", "guides": "Form guides", "shop": "Shop", "about": "About", "brands": "For brands",
            "note": "Not medical advice. If something hurts, check with a doctor."},
     "ro": {"tag": "Mobilitate, recuperare și mâncare bună pentru cei care stau toată ziua pe scaun.", "explore": "Explorează",
            "follow": "Urmărește", "all": "Toate linkurile", "legal": "Legal și confidențialitate",
-           "free": "Rutine gratuite", "shop": "Magazin", "about": "Despre", "brands": "Pentru branduri",
+           "free": "Rutine gratuite", "guides": "Ghiduri de formă", "shop": "Magazin", "about": "Despre", "brands": "Pentru branduri",
            "note": "Conținutul nu înlocuiește un consult medical."},
 }
 
@@ -112,6 +132,7 @@ def footer(lang):
       <div><h2>{explore}</h2><ul>
         <li><a href="free.html">{free}</a></li>
         <li><a href="training.html">Training</a></li>
+        <li><a href="guides.html">{guides}</a></li>
         <li><a href="shop.html">{shop}</a></li>
         <li><a href="live.html">Live</a></li>
         <li><a href="about.html">{about}</a></li>
@@ -132,6 +153,22 @@ def footer(lang):
     return html
 
 
+# Butonul de chat (colțul din dreapta jos). Cu TAWK_SRC: deschide chatul live (Tawk.to se încarcă abia la apăsare).
+# Fără: un mic panou cu Instagram și email.
+CHAT = (
+    '<div class="dm notranslate" id="dm" translate="no" data-tawk="%s">'
+    '<div class="dm-panel" id="dm-panel" role="dialog" aria-labelledby="dm-h" hidden>'
+    '<p class="dm-h" id="dm-h">Message me</p>'
+    '<p class="small muted">Questions about training, your program or your form? I usually reply within 24 hours.</p>'
+    '<a class="btn" href="{IG_DM}" target="_blank" rel="noopener">Message me on Instagram</a>'
+    '<a class="btn alt" href="mailto:{EMAIL}?subject=Hi%%20Kristine">Email me</a>'
+    '</div>'
+    '<button class="dm-btn" id="dm-btn" type="button" aria-expanded="false" aria-controls="dm-panel">'
+    '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>'
+    '<span>Chat with me</span></button></div>'
+) % TAWK_SRC
+
+
 def page(fname, title, desc, body, lang="en", cur=None):
     html = (
         '<!doctype html>\n<html lang="%(lang)s">\n<head>\n<meta charset="utf-8">\n'
@@ -143,7 +180,7 @@ def page(fname, title, desc, body, lang="en", cur=None):
         '<meta name="theme-color" content="#FFF9F6">\n'
         "%(fonts)s\n"
         '<link rel="stylesheet" href="assets/style.css">\n'
-        "</head>\n<body>\n%(header)s\n<main id=\"main\">\n%(body)s\n</main>\n%(footer)s\n"
+        "</head>\n<body>\n%(header)s\n<main id=\"main\">\n%(body)s\n</main>\n%(footer)s\n%(chat)s\n"
         '<script src="assets/site.js"></script>\n</body>\n</html>\n'
     ) % {
         "lang": lang,
@@ -153,6 +190,7 @@ def page(fname, title, desc, body, lang="en", cur=None):
         "header": header(cur or fname, lang),
         "body": body.strip("\n"),
         "footer": footer(lang),
+        "chat": CHAT,
     }
     with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
         f.write(fill(html))
@@ -389,6 +427,32 @@ page(
 # Ce spun oamenii (pe training.html). Doar mesaje REALE, cu acordul scris al omului.
 # Format: ("textul exact, scurtat dacă e nevoie", "prenumele sau inițiala", "ce a lucrat cu tine").
 # Cât timp lista e goală, secțiunea nu apare pe site.
+# Biblioteca de exerciții (clipurile scurte din assets/video, făcute cu studio/montaj/web_video.py)
+LIBRARY = [
+    ("Warm-up", [("incalzire-coarda", "Jump rope"), ("incalzire-cercuri-brate", "Arm circles"), ("incalzire-cercuri-sold", "Hip circles"),
+                 ("incalzire-leg-swings", "Leg swings"), ("incalzire-leg-swings-lateral", "Lateral leg swings"),
+                 ("incalzire-gambe", "Calf & hamstring stretch"), ("incalzire-respiratie", "Reset breathing")]),
+    ("Mobility", [("mobilitate-cat-cow-v2", "Cat-cow"), ("mobilitate-open-book-v2a", "Open book"),
+                  ("mobilitate-worlds-greatest-stretch", "World's greatest stretch"), ("mobilitate-90-90-v2", "90/90 hip switch"),
+                  ("mobilitate-flexori-sold", "Kneeling hip flexor stretch"), ("mobilitate-childs-pose", "Child's pose reach"),
+                  ("mobilitate-deep-squat-hold", "Deep squat hold")]),
+    ("Legs", [("picioare-genuflexiune", "Bodyweight squat"), ("picioare-goblet-a", "Goblet squat"), ("picioare-goblet-b", "Dumbbell sumo squat"),
+              ("picioare-fandare-inapoi", "Reverse lunge"), ("picioare-fandare-inainte", "Forward lunge"), ("picioare-split-a", "Split squat"),
+              ("picioare-varfuri", "Calf raises"), ("picioare-wall-sit", "Wall sit")]),
+]
+
+def vclip(name, title, cls="vcard"):
+    """un clip care pornește singur, fără sunet, când ajunge pe ecran (și se oprește când iese)"""
+    return ('<figure class="%s"><video muted loop playsinline preload="none" data-auto poster="assets/video/%s.jpg" aria-label="%s, demo video">'
+            '<source src="assets/video/%s.mp4" type="video/mp4"></video><figcaption>%s</figcaption></figure>') % (cls, name, _html.escape(title), name, _html.escape(title))
+
+def library_html():
+    out = ""
+    for group, items in LIBRARY:
+        out += '<h3 class="mt-s">%s <span class="count">%d</span></h3><div class="vgrid">%s</div>' % (group, len(items), "".join(vclip(n, t) for n, t in items))
+    return out
+
+
 TESTIMONIALS = []
 
 def testimonials_html():
@@ -453,14 +517,15 @@ training = """
 
 <section class="wrap block" id="quiz" aria-labelledby="quiz-title">
   <div class="block-head"><p class="kicker">The quiz</p><h2 id="quiz-title">Build your program</h2></div>
-  <form class="quiz" id="quiz-form" novalidate>
+  <p class="small muted notranslate" translate="no">The quiz stays in English, even if you translate the page, so the safety notes stay exact. A Romanian version is coming.</p>
+  <form class="quiz notranslate" id="quiz-form" translate="no" novalidate>
     """ + QUIZ + """
     <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question (the equipment one is optional; for the health one, pick “None of these” if nothing applies).</p>
     <button class="btn" type="submit">Show my custom program</button>
   </form>
 </section>
 
-<section class="wrap block pt-s" id="result" aria-live="polite" hidden>
+<section class="wrap block pt-s notranslate" id="result" translate="no" aria-live="polite" hidden>
   <article class="panel p-mint plan">
     <span class="tag">Your custom program</span>
     <h2 id="r-track">Track</h2>
@@ -503,6 +568,12 @@ training = """
     <article class="panel p-mint"><h3>Desk Reset</h3><p class="muted">Posture, neck and back: upper-back strength, core and 5-minute resets for the spots that complain.</p></article>
   </div>
   <p class="small muted mt-s">Every program runs in 4-week blocks that get a little harder each week, with gym and home versions. A new workout every week and a monthly live class with me. Want me to check your form and adjust it by hand? That's <a href="shop.html#coaching">1:1 coaching</a>. Founding price for people on the waitlist.</p>
+</section>
+
+<section class="wrap block" id="library" aria-labelledby="lib-title">
+  <div class="block-head"><p class="kicker">Inside the program</p><h2 id="lib-title">The exercise library, filmed in the gym</h2>
+  <p class="lead">A preview of the moves your program is built from. More are added every week: back, push, core and the home versions.</p></div>
+""" + library_html() + """
 </section>
 
 <section class="wrap block" aria-labelledby="coachme-title">
@@ -644,6 +715,64 @@ page(
     "Online Training · Kristine Maia",
     "Take the 2-minute quiz and get your custom program, built around how much you sit: stronger, leaner or less stiff, at home, at the gym or both.",
     training,
+)
+
+
+# =====================================================================
+# 2b. GHIDURI DE FORMĂ (guides.html): reel-urile cu greșeli, explicate pe larg
+#     Un ghid nou = încă un element în GUIDES (video din assets/video + texte).
+# =====================================================================
+GUIDES = [
+    {"id": "squat", "video": "ghid-squat", "kicker": "Legs · squat", "title": "3 squat mistakes I see every leg day",
+     "intro": "If you sit all day, your hips and ankles get stiff, and the squat is where it shows. Here are the three mistakes I see most, and the one cue that fixes each.",
+     "fixes": [("Knees cave in", "Push your knees out so they follow your toes, all the way down and all the way up."),
+               ("Chest drops", "Keep your chest up and your eyes forward. Holding a dumbbell at your chest (goblet squat) makes this easier."),
+               ("Heels lift", "Keep your whole foot down and your weight over the middle of your foot. If your heels still lift, squat to a bench and work on your ankles.")],
+     "try": "Film one set from the side with a light weight. Check one mistake at a time.",
+     "who": "Beginners and anyone who sits for long hours. Skip it if your knees or hips hurt (not just feel stiff) and see a physio first."},
+    {"id": "cable-row", "video": "ghid-cable-row", "kicker": "Back · seated cable row", "title": "3 cable row mistakes I see in every gym",
+     "intro": "The seated row is one of the best moves against the desk hunch, if you do it right. These three mistakes move the work away from your upper back.",
+     "fixes": [("Shoulders rounded", "Sit tall and set your shoulders back and down before every pull."),
+               ("Leaning back", "Keep your torso still. If you have to swing to move the weight, it is too heavy."),
+               ("Elbows out", "Keep your elbows close to your sides and pull the handle to your belly button.")],
+     "try": "Use a light weight for the first set and pause for one second with the handle at your belly.",
+     "who": "Anyone who sits a lot and wants a stronger upper back. If you have shoulder or back pain, check with a doctor or physio first."},
+    {"id": "hang", "video": "ghid-hang", "kicker": "Shoulders · hang", "title": "Shoulders stiff from the mouse? Hang for 20 seconds",
+     "intro": "Hanging from a bar lets your shoulders and upper back get long after hours with your arms in front of you. It also trains your grip.",
+     "fixes": [("Grip", "Hands about shoulder width, a full grip around the bar."),
+               ("Feet off, arms long", "Let your body hang and breathe slowly. Start with 10 seconds and build up to 20."),
+               ("Can't hold it yet?", "Keep your toes on the step or a box and take some of your weight. Step down, don't drop.")],
+     "try": "Two or three hangs of 10 to 20 seconds at the end of a session, or between sets.",
+     "who": "Most people who sit all day. Skip it if you have a shoulder injury, shoulder pain or recent surgery, and ask your doctor first."},
+]
+
+def guide_html(g):
+    fx = "".join('<li><b>%s.</b> %s</li>' % (a, b) for a, b in g["fixes"])
+    return ('<article class="guide" id="%(id)s">' % g + '<div class="guide-v">' + vclip(g["video"], g["title"], "vcard big") + '</div>'
+            '<div class="guide-t"><p class="kicker">%(kicker)s</p><h2>%(title)s</h2><p class="lead">%(intro)s</p>' % g +
+            '<h3>What to fix</h3><ol class="steps">%s</ol>' % fx +
+            '<h3>Try this</h3><p class="muted">%(try)s</p><h3>Who it is for</h3><p class="muted">%(who)s</p>' % g +
+            '<div class="row-btns"><button class="btn" type="button" data-open-chat>Send me your video</button>'
+            '<a class="btn alt" href="training.html#quiz">Build my program</a></div></div></article>')
+
+guides = """
+<section class="wrap page-head">
+  <p class="kicker">Form guides</p>
+  <h1>Move <em>better</em>, one mistake at a time.</h1>
+  <p class="lead">Short videos of the mistakes I see most in the gym, with the cue that fixes each one. Filmed by me, for people who sit all day.</p>
+  <nav class="chips" aria-label="Guides">""" + "".join('<a href="#%s">%s</a>' % (g["id"], g["kicker"]) for g in GUIDES) + """</nav>
+</section>
+
+<section class="wrap block pt-0 guides">
+""" + "".join(guide_html(g) for g in GUIDES) + """
+  <p class="small muted">General exercise information, not medical advice. Stop if anything feels sharp or painful.</p>
+</section>
+""" + free_band("Start with <em>five</em> minutes.", LIST_PERKS)
+page(
+    "guides.html",
+    "Form Guides · Kristine Maia",
+    "Short videos of the most common gym mistakes (squat, cable row, hang) and the cue that fixes each one. For people who sit all day.",
+    guides,
 )
 
 
@@ -863,7 +992,7 @@ legal = """
     <h2>Not medical advice</h2>
     <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I have a degree in Physical Education and Sport and coach mobility, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
     <h2>Privacy</h2>
-    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. To ask about, correct or delete your data, email {EMAIL}.</p>
+    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers stay on your device. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>
     <p class="muted">Digital products are delivered by email right after payment. [TODO: politica de retur, verificată de avocat: de exemplu, dreptul de retragere pentru conținut digital și momentul în care se pierde].</p>
     <h2>Affiliate links</h2>
@@ -873,4 +1002,4 @@ legal = """
 """
 page("legal.html", "Legal & Privacy · Kristine Maia", "Legal information, privacy and medical disclaimer.", legal, cur="none")
 
-print("ok: 8 pages written to " + OUT)
+print("ok: 9 pages written to " + OUT)

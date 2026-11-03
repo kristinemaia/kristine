@@ -206,3 +206,81 @@
   update();
   fromHash();
 })();
+
+/* =====================================================================
+   6. clipurile din bibliotecă: pornesc singure, fără sunet, doar când sunt pe ecran
+   7. butonul de chat (Tawk.to dacă e setat, altfel Instagram și email)
+   8. limba: traducere automată Google, pornită doar când alegi o limbă
+   ===================================================================== */
+(function () {
+  'use strict';
+  var RM = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // 6. Clipurile
+  var vids = document.querySelectorAll('video[data-auto]');
+  if (vids.length) {
+    if (RM || !('IntersectionObserver' in window)) {
+      vids.forEach(function (v) { v.controls = true; v.preload = 'metadata'; });
+    } else {
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) {
+          var v = e.target;
+          if (e.isIntersecting) { var p = v.play(); if (p && p.catch) p.catch(function () { v.controls = true; }); }
+          else v.pause();
+        });
+      }, { threshold: 0.35 });
+      vids.forEach(function (v) {
+        io.observe(v);
+        v.addEventListener('click', function () { if (v.paused) v.play(); else v.pause(); });
+      });
+    }
+  }
+
+  // 7. Chatul
+  var dm = document.getElementById('dm'), btn = document.getElementById('dm-btn'), panel = document.getElementById('dm-panel');
+  if (dm && btn && panel) {
+    var tawk = dm.getAttribute('data-tawk'), loaded = false;
+    var setPanel = function (open) { panel.hidden = !open; btn.setAttribute('aria-expanded', open ? 'true' : 'false'); };
+    var openChat = function () {
+      if (tawk) {
+        if (window.Tawk_API && window.Tawk_API.maximize) { window.Tawk_API.maximize(); return; }
+        if (loaded) return;
+        loaded = true; btn.disabled = true;
+        window.Tawk_API = window.Tawk_API || {}; window.Tawk_LoadStart = new Date();
+        window.Tawk_API.onLoad = function () { dm.hidden = true; window.Tawk_API.maximize(); };
+        var s = document.createElement('script'); s.async = true; s.src = tawk; s.charset = 'UTF-8'; s.setAttribute('crossorigin', '*');
+        s.onerror = function () { loaded = false; btn.disabled = false; setPanel(true); };
+        document.head.appendChild(s);
+      } else setPanel(panel.hidden);
+    };
+    btn.addEventListener('click', openChat);
+    document.querySelectorAll('[data-open-chat]').forEach(function (b) { b.addEventListener('click', function () { if (tawk) openChat(); else { setPanel(true); panel.querySelector('a').focus(); } }); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !panel.hidden) { setPanel(false); btn.focus(); } });
+  }
+
+  // 8. Limba
+  var sel = document.getElementById('lang-sel');
+  var getLang = function () { var m = document.cookie.match(/(?:^|;\s*)googtrans=\/en\/([^;]+)/); return m ? decodeURIComponent(m[1]) : 'en'; };
+  var setCookie = function (v) {
+    var base = 'googtrans=' + v + ';path=/', exp = v ? '' : ';expires=Thu, 01 Jan 1970 00:00:00 GMT';
+    document.cookie = base + exp;
+    var h = location.hostname.replace(/^www\./, '');
+    if (h.indexOf('.') > -1) document.cookie = base + ';domain=.' + h + exp;
+  };
+  var loadGT = function () {
+    if (document.getElementById('gt-js')) return;
+    var el = document.createElement('div'); el.id = 'gt-el'; document.body.appendChild(el);
+    window.kmGT = function () { new window.google.translate.TranslateElement({ pageLanguage: 'en', autoDisplay: false }, 'gt-el'); };
+    var s = document.createElement('script'); s.id = 'gt-js'; s.src = 'https://translate.google.com/translate_a/element.js?cb=kmGT';
+    document.body.appendChild(s);
+  };
+  if (sel) {
+    var cur = getLang();
+    sel.value = [].some.call(sel.options, function (o) { return o.value === cur; }) ? cur : 'en';
+    if (cur !== 'en') loadGT();
+    sel.addEventListener('change', function () {
+      if (sel.value === 'en') { setCookie(''); location.reload(); return; }
+      setCookie('/en/' + sel.value); location.reload();
+    });
+  }
+})();
