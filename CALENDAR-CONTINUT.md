@@ -66,10 +66,12 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | lun 16 nov, 18:00 | Mobility between sets: 60 seconds | 🎬 lotul 1 |
 | mar 17 nov, 18:00 | **G3** · 3 cable row mistakes (form check) | ✅ montat (3 nov), de programat |
 | mie 18 nov, 17:00 | Revo · After the gym: the cream I reach for (cod KRISTINE20) | 🎬 lotul 1 |
+| joi 19 nov, 17:00 | **VirtuMe (AI twin) #1** · knows her vibe (eticheta AI + Paid partnership) | ✏️ |
 | vin 20 nov, 17:00 | 3 exercises for the gamer hunch | 🎬 lotul 2 |
 | dum 22 nov, 18:00 | Overhead reach test | 🎬 lotul 2 |
 | lun 23 nov, 18:00 | **G6** · Shoulders stiff from the mouse? Hang for 20 seconds | ✅ montat (3 nov), de programat |
 | mar 24 nov, 18:00 | **G4** · 3 squat mistakes (form check) | ✅ montat (3 nov), de programat |
+| mie 25 nov, 17:00 | **VirtuMe (AI twin) #2** (eticheta AI + Paid partnership) | ✏️ |
 | joi 26 nov, 17:00 | K2 · Overnight tiramisu oats | ✏️ |
 | vin 27 nov, 17:00 | Things gamers do at the gym | 🎬 lotul 3 |
 | dum 29 nov, 18:00 | Hip test: 90/90 without hands | 🎬 lotul 3 |
@@ -92,7 +94,7 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | mar 22 dec, 18:00 | 3 push-up mistakes | 🎬 lotul 6 |
 | dum 27 dec, 18:00 | Balance test: 30 seconds on one leg | 🎬 lotul 6 |
 
-**Ce a ieșit din calendar:** reel-urile din rezervă care nu sunt filmate (K6, O1, K7, O3, K3, O7, K9, M5, M6, M7); le înlocuiesc cele de la sală. **VirtuMe pe feed:** cel mult unul pe săptămână (următorul, dacă vrei: „knows her vibe”, joi 12 nov); celelalte merg în story-uri și în Highlight.
+**Ce a ieșit din calendar:** reel-urile din rezervă care nu sunt filmate (K6, O1, K7, O3, K3, O7, K9, M5, M6, M7); le înlocuiesc cele de la sală. **VirtuMe pe feed:** cel mult unul pe săptămână („knows her vibe” joi 19 nov, al doilea miercuri 25 nov; programările zi cu zi: Bibliotecă → Programări noiembrie); celelalte merg în story-uri și în Highlight.
 
 ## E. TikTok (zilnic, la 19:00)
 

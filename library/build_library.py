@@ -48,6 +48,14 @@ _OV_LAB = [n for n in _OV if n not in _OV_MAIN]
 # kind: link | pdf | doc | img | site
 GROUPS = [
     {
+        "id": "programari", "name": "Programări noiembrie", "folder": "Programari-noiembrie", "note": "Instagram, TikTok, story-uri și ce mai filmăm",
+        "zip": ("Programari-noiembrie.zip", "programari"),
+        "items": [
+            {"kind": "doc", "slug": "programari-noiembrie", "title": "Programările din noiembrie: Instagram, TikTok și ce mai filmăm", "src": "PROGRAMARI-NOIEMBRIE.md",
+             "desc": "Tot noiembrie zi cu zi: cel puțin 5 reel-uri pe săptămână pe Instagram (cu cele 2 reel-uri VirtuMe), TikTok în fiecare zi, story-urile pentru lansarea Custom Program și lista de filmat. Bifezi pe telefon."},
+        ],
+    },
+    {
         "id": "studio", "name": "Studio", "note": "PDF-ul gratuit, programul de 30 de zile, reel-urile",
         "zip": ("Studio-Kristine.zip", "studio"),
         "items": [
