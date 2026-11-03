@@ -16,8 +16,9 @@ CLIPS = {
     'incalzire-coarda':                   ('Jump rope', 'Warm-up', 0.4, None),
     'incalzire-cercuri-brate':            ('Arm circles', 'Warm-up · forward & back', 0.3, None),
     'incalzire-cercuri-sold':             ('Hip circles', 'Warm-up · both ways', 0.3, None),
-    'mobilitate-cat-cow':                 ('Cat-cow', 'Mobility', 0.5, None),
-    'mobilitate-open-book':               ('Open book', 'Mobility · each side', 0.4, None),
+    'mobilitate-cat-cow-v2':              ('Cat-cow', 'Mobility', 0.3, None),   # refilmat 3 nov, din lateral (v1 din față rămâne doar în G2)
+    'mobilitate-open-book-v2a':           ('Open book', 'Mobility · first side', 0.3, None),   # refilmat 3 nov, cu fața la cameră
+    'mobilitate-open-book-v2b':           ('Open book', 'Mobility · other side', 0.3, None),
     'mobilitate-worlds-greatest-stretch': ("World's greatest stretch", 'Mobility · each side', 0.4, None),
     'mobilitate-90-90-v2':                ('90/90 hip switch', 'Mobility', 7.0, None),
     'mobilitate-flexori-sold':            ('Kneeling hip flexor stretch', 'Mobility · each side', 0.4, None),
