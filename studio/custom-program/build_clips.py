@@ -10,6 +10,7 @@ SRC, OUT = os.path.join(ROOT, 'studio/custom-program/clips'), os.path.join(ROOT,
 CUR = os.path.join(ROOT, 'studio/montaj/_curat'); FONTS = os.path.join(ROOT, 'brand/reels-overlays/fonts')
 INK, CREAM, WINE = (43, 36, 49), (255, 249, 246), (138, 52, 89)
 # nume: (titlu EN, eticheta mică, început s, sfârșit s sau None = până la final - 0,4 s)
+#   sau (titlu, eticheta, [(început, sfârșit), ...]) = păstrează doar bucățile astea, legate cu o dizolvare scurtă (ex.: tai întoarcerea între picioare)
 CLIPS = {
     'incalzire-coarda':                   ('Jump rope', 'Warm-up', 0.4, None),
     'incalzire-cercuri-brate':            ('Arm circles', 'Warm-up · forward & back', 0.3, None),
@@ -21,6 +22,7 @@ CLIPS = {
     'mobilitate-flexori-sold':            ('Kneeling hip flexor stretch', 'Mobility · each side', 0.4, None),
     'mobilitate-childs-pose':             ("Child's pose reach", 'Mobility', 0.4, None),
     'mobilitate-deep-squat-hold':         ('Deep squat hold', 'Mobility', 0.4, None),
+    'incalzire-leg-swings':               ('Leg swings', 'Warm-up · front & back · each leg', [(0.2, 4.0), (6.2, 9.5)]),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
@@ -33,15 +35,22 @@ def eticheta(titlu, mic, path):
     d.text((x + 42, y + 62), titlu, font=fb, fill=INK)
     im.save(path)
 def construieste(nume):
-    titlu, mic, a, b = CLIPS[nume]; os.makedirs(CUR, exist_ok=True); os.makedirs(OUT, exist_ok=True)
+    titlu, mic, *rest = CLIPS[nume]; os.makedirs(CUR, exist_ok=True); os.makedirs(OUT, exist_ok=True)
     c = os.path.join(CUR, nume + '.mp4')
     if not os.path.exists(c): curat.ruleaza(os.path.join(SRC, nume + '.mov'), c)
-    b = b if b is not None else curat.dur(c) - 0.4; d = b - a
+    segs = rest[0] if isinstance(rest[0], list) else [(rest[0], rest[1] if rest[1] is not None else curat.dur(c) - 0.4)]
+    td = 0.25; n = len(segs); d = sum(b - a for a, b in segs) - (n - 1) * td
     png = os.path.join(CUR, nume + '-eticheta.png'); eticheta(titlu, mic, png)
-    fc = ("[0:v]setpts=PTS-STARTPTS,fade=t=in:st=0:d=0.25,fade=t=out:st=%.2f:d=0.3[v];"
-          "[1:v]format=rgba,fade=t=in:st=0.3:d=0.35:alpha=1[e];[v][e]overlay=0:0:shortest=1,format=yuv420p[o]") % (d - 0.3)
+    fc = '[0:v]split=%d%s;' % (n, ''.join('[s%d]' % i for i in range(n)))
+    fc += ';'.join('[s%d]trim=%.2f:%.2f,setpts=PTS-STARTPTS[t%d]' % (i, a, b, i) for i, (a, b) in enumerate(segs))
+    cur, acc = '[t0]', 0.0
+    for j in range(1, n):
+        acc += segs[j - 1][1] - segs[j - 1][0]
+        fc += ';%s[t%d]xfade=transition=fade:duration=%.2f:offset=%.2f[x%d]' % (cur, j, td, acc - j * td, j); cur = '[x%d]' % j
+    fc += (";%sfade=t=in:st=0:d=0.25,fade=t=out:st=%.2f:d=0.3[v];"
+           "[1:v]format=rgba,fade=t=in:st=0.3:d=0.35:alpha=1[e];[v][e]overlay=0:0:shortest=1,format=yuv420p[o]") % (cur, d - 0.3)
     out = os.path.join(OUT, nume + '.mp4')
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(a), '-t', '%.2f' % d, '-i', c, '-loop', '1', '-t', '%.2f' % d, '-i', png,
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', c, '-loop', '1', '-t', '%.2f' % d, '-i', png,
                     '-filter_complex', fc, '-map', '[o]', '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-movflags', '+faststart', out], check=True)
     print('gata %-36s %.1f s' % (nume, d))
 if __name__ == '__main__':
