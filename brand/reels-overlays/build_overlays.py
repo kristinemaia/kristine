@@ -65,6 +65,11 @@ R = [
   [('My hips:', 'shoulders'), ('10-second fixes', 'shoulders'), ('Hip flexors', 'hips'), ('Upper back', 'shoulders'), ('Cat-cow', 'hips'), ('Better.', 'wrists')], False),
  ('G3-Form', 'wine', '3 cable row mistakes I see in every gym. Are you doing #2?', 'Are you doing #2?', "Send me your row. I'll rate it.", 'Coaching waitlist → link in bio',
   [('Wrong · shoulders up', 'neck'), ('Right · shoulders down', 'wrists'), ('Wrong · leaning back', 'neck'), ('Right · sit tall', 'wrists'), ('Wrong · elbows out', 'neck'), ('Right · elbows close', 'wrists')], False),
+ # lotul 2 (filmat 3 nov): 3 stretches after the gym (rezervă) și hang
+ ('G5-Stretch', 'hips', '3 stretches I do after every gym session.', '3 stretches after the gym', 'Save it for after your next session.', PDF,
+  [('Chest · 20 s each side', 'shoulders'), ('Lats · 20 s', 'shoulders'), ('Glutes · 20 s each side', 'hips')], False),
+ ('G6-Hang', 'shoulders', 'Shoulders stiff from the mouse? Hang for 20 seconds.', 'Hang for 20 seconds', "Can't hold it yet? Keep your toes on the step.", PDF,
+  [('Feet off, arms long', 'shoulders'), ('Breathe. 10–20 s', 'shoulders')], False),
  # lotul 2: form check genuflexiune (filmat 3 nov), postare 24 nov
  ('G4-Squat', 'wine', '3 squat mistakes I see every leg day. Which one is yours?', 'Which one is yours?', "Send me your squat. I'll rate it.", 'Your custom program → link in bio',
   [('Wrong · knees cave in', 'neck'), ('Right · knees follow toes', 'wrists'), ('Wrong · chest drops', 'neck'), ('Right · chest up', 'wrists'), ('Wrong · heels lift', 'neck'), ('Right · whole foot down', 'wrists')], False),

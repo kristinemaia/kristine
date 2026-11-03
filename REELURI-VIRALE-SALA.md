@@ -92,6 +92,30 @@ Send me your squat and I'll rate it.
 ```
 **Comentariul fixat:** „Mine used to be #3 😅 Yours?”
 
+## G5 · „3 stretches I do after every gym session.” (~19 s) · filmat 3 nov, rezervă
+Pectorali la perete → dorsali pe bancă (logo-ul de pe aparat e estompat) → genunchiul la piept, pe saltea → final la perete.
+
+**Descriere:**
+```
+3 stretches I do after every gym session: chest, lats, glutes. 20 seconds each, easy breathing.
+Gentle stretch only. Stop if it's sharp.
+Free 5-minute desk stretch → link in bio
+
+#stretching #aftergym #mobility #gymroutine #deskjob
+```
+
+## G6 · „Shoulders stiff from the mouse? Hang for 20 seconds.” (~9 s) · filmat 3 nov, postare 23 nov
+Mâinile pe bară → picioarele jos de pe treaptă, brațele lungi → cobori pe treaptă. **De refilmat dacă poți:** atârnatul propriu-zis e ~3,5 s; ideal 10–20 s, dintr-un unghi cu mai puține aparate în spate.
+
+**Descriere:**
+```
+Shoulders stiff from the mouse? Hang from a bar for 20 seconds. Let your shoulders get long and breathe.
+Can't hold it yet? Keep your toes on the step and build up.
+Free 5-minute desk stretch → link in bio
+
+#deadhang #shoulders #gamerhealth #mobility #deskjob
+```
+
 ## Cum filmezi, pe scurt
 - **Toate trei într-o sesiune de ~45 de minute**, cu aceeași ținută (verde, albastru deschis, gri deschis sau crem), fără alți oameni, logo sau ferestre în cadru.
 - Telefonul **vertical, pe trepied**: pe diagonală, la înălțimea șoldului (G1, G2); din profil, la înălțimea pieptului (G3).

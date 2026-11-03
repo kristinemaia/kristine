@@ -1,0 +1,7 @@
+{"curat": true, "hook_dy": -230, "final_dy": 0,
+ "overlay_dir": "brand/reels-overlays/out/G6-Hang", "hook": "G6-Hang_1-hook.png", "final": "G6-Hang_2-final.png",
+ "segments": [
+  {"clip": "Hang", "ss": 0.0, "d": 3.2},
+  {"clip": "Hang", "ss": 5.6, "d": 4.3, "label": "G6-Hang_eticheta-1-feet-off-arms-long.png", "label_pos": [243, 90]},
+  {"clip": "Hang", "ss": 9.6, "d": 1.9}
+ ]}

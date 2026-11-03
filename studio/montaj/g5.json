@@ -1,0 +1,8 @@
+{"curat": true, "hook_dy": 1140, "final_dy": 200,
+ "overlay_dir": "brand/reels-overlays/out/G5-Stretch", "hook": "G5-Stretch_1-hook.png", "final": "G5-Stretch_2-final.png",
+ "segments": [
+  {"clip": "S3-a", "ss": 0.2, "d": 5.2, "label": "G5-Stretch_eticheta-1-chest-20-s-each-side.png", "label_pos": [209, 1460]},
+  {"clip": "S3-b", "ss": 0.5, "d": 6.3, "label": "G5-Stretch_eticheta-2-lats-20-s.png", "label_pos": [354, 1460], "blur": [410, 790, 210, 80]},
+  {"clip": "S3-c", "ss": 0.2, "d": 5.4, "label": "G5-Stretch_eticheta-3-glutes-20-s-each-side.png", "label_pos": [202, 230]},
+  {"clip": "S3-a", "ss": 7.8, "d": 3.0}
+ ]}

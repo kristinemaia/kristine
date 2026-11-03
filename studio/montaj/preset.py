@@ -9,7 +9,7 @@ Ce face presetul (valorile sunt în PRESET, le schimbi într-un singur loc):
   · accent pe esențial: hook în primele 3 s, eticheta doar cât durează mișcarea, codul/final în ultimele 3 s
   · tăieturi scurte: fiecare cadru se oprește înainte de ultimele ~0,3 s din clip
 
-spec.json: {"curat":true (clipuri din curat.py), "hook_dy":0 (mută hook-ul în jos/sus), "segments":[{"clip":"IMG_8204","ss":15.2,"d":2.8,"speed":1.0,"crop":null,"label":null}, ...],
+spec.json: {"curat":true (clipuri din curat.py), "hook_dy":0 (mută hook-ul în jos/sus), la segment "blur":[x,y,w,h], "label_d":s, "segments":[{"clip":"IMG_8204","ss":15.2,"d":2.8,"speed":1.0,"crop":null,"label":null}, ...],
             "hook":"Bewit_1-hook.png", "final":"Bewit_2-final.png", "overlay_dir":"brand/reels-overlays/out/Bewit",
             "labels":{"eticheta.png":[x,y]}}"""
 import glob, json, os, subprocess, sys
@@ -24,7 +24,11 @@ inputs, chains, durs, starts = [], [], [], [0.0]
 for i, s in enumerate(spec['segments']):
     inputs += ['-ss', str(s['ss']), '-t', str(s['d']), '-i', clip(s['clip'])]
     crop = (s.get('crop') + ',scale=1080:-2:flags=lanczos,pad=1080:1920:0:(1920-ih)/2:color=0xFFF9F6') if s.get('crop') and s.get('frame') else ((s['crop'] + ',scale=1080:1920:flags=lanczos') if s.get('crop') else 'scale=1080:1920:flags=lanczos')
-    chains.append('[%d:v]fps=%d,%s,setpts=(PTS-STARTPTS)/%s,%s,%s,setsar=1,format=yuv420p[v%d]' % (i, PRESET['fps'], crop, s.get('speed', 1.0), PRESET['eq'], PRESET['sharp'], i))
+    blur = ''
+    if s.get('blur'):  # [x, y, w, h] în 1080x1920: estompează ceva fix din fundal (un logo de pe aparat)
+        bx, by, bw, bh = s['blur']
+        blur = ',split[a%d][b%d];[b%d]crop=%d:%d:%d:%d,boxblur=18:2[c%d];[a%d][c%d]overlay=%d:%d' % (i, i, i, bw, bh, bx, by, i, i, i, bx, by)
+    chains.append('[%d:v]fps=%d,%s,setpts=(PTS-STARTPTS)/%s%s,%s,%s,setsar=1,format=yuv420p[v%d]' % (i, PRESET['fps'], crop, s.get('speed', 1.0), blur, PRESET['eq'], PRESET['sharp'], i))
     durs.append(s['d'] / s.get('speed', 1.0))
 n = len(durs); x, acc, cur = [], 0.0, '[v0]'
 for j in range(1, n):
