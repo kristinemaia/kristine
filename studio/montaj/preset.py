@@ -9,7 +9,7 @@ Ce face presetul (valorile sunt în PRESET, le schimbi într-un singur loc):
   · accent pe esențial: hook în primele 3 s, eticheta doar cât durează mișcarea, codul/final în ultimele 3 s
   · tăieturi scurte: fiecare cadru se oprește înainte de ultimele ~0,3 s din clip
 
-spec.json: {"curat":true (clipuri din curat.py), "hook_dy":0 (mută hook-ul în jos/sus), la segment "blur":[x,y,w,h], "label_d":s, "segments":[{"clip":"IMG_8204","ss":15.2,"d":2.8,"speed":1.0,"crop":null,"label":null}, ...],
+spec.json: {"curat":true (clipuri din curat.py), "hook_dy":0 (mută hook-ul în jos/sus), la segment "blur":[x,y,w,h], "label_d":s, "glow":[cx,cy,rx,ry] (lumină pe mușchi), "segments":[{"clip":"IMG_8204","ss":15.2,"d":2.8,"speed":1.0,"crop":null,"label":null}, ...],
             "hook":"Bewit_1-hook.png", "final":"Bewit_2-final.png", "overlay_dir":"brand/reels-overlays/out/Bewit",
             "labels":{"eticheta.png":[x,y]}}"""
 import glob, json, os, subprocess, sys
@@ -31,14 +31,25 @@ for i, s in enumerate(spec['segments']):
             t = '%d_%d' % (i, j)
             r = max(1, min(18, min(bw, bh) // 2 - 1)); rc = max(1, min(r, min(bw, bh) // 4 - 1))   # raza încape în cutiile mici
             blur += ',split[a%s][b%s];[b%s]crop=%d:%d:%d:%d,boxblur=luma_radius=%d:luma_power=2:chroma_radius=%d:chroma_power=2[c%s];[a%s][c%s]overlay=%d:%d' % (t, t, t, bw, bh, bx, by, r, rc, t, t, t, bx, by)
-    chains.append('[%d:v]fps=%d,%s,setpts=(PTS-STARTPTS)/%s%s,%s,%s,setsar=1,format=yuv420p[v%d]' % (i, PRESET['fps'], crop, s.get('speed', 1.0), blur, PRESET['eq'], PRESET['sharp'], i))
+    vout = ('p%d' % i) if s.get('glow') else ('v%d' % i)
+    chains.append('[%d:v]fps=%d,%s,setpts=(PTS-STARTPTS)/%s%s,%s,%s,setsar=1,format=yuv420p[%s]' % (i, PRESET['fps'], crop, s.get('speed', 1.0), blur, PRESET['eq'], PRESET['sharp'], vout))
     durs.append(s['d'] / s.get('speed', 1.0))
+# „glow”: [cx, cy, rx, ry] în 1080x1920 = o lumină caldă pe mușchiul care lucrează (ex.: spatele la ramat), aprinsă lin
+glows = [(i, s['glow']) for i, s in enumerate(spec['segments']) if s.get('glow')]
+for gi, (i, (cx, cy, rx, ry)) in enumerate(glows):
+    from PIL import Image, ImageDraw, ImageFilter
+    g = Image.new('RGB', (1080, 1920), (0, 0, 0)); ImageDraw.Draw(g).ellipse([cx - rx, cy - ry, cx + rx, cy + ry], fill=tuple(spec.get('glow_color', (255, 120, 170))))
+    gp = os.path.join(os.path.dirname(os.path.abspath(out)), '_glow-%d.png' % i); g.filter(ImageFilter.GaussianBlur(max(rx, ry) * spec.get('glow_soft', 0.35))).save(gp)
+    inputs += ['-loop', '1', '-t', '%.2f' % durs[i], '-i', gp]
+    d = durs[i]
+    chains.append('[%d:v]fps=30,format=gbrp,fade=t=in:st=0.35:d=0.45,fade=t=out:st=%.2f:d=0.3[g%d];[p%d]format=gbrp[q%d];[q%d][g%d]blend=all_mode=screen:all_opacity=%.2f,format=yuv420p,settb=1/30[v%d]'
+                  % (len(spec['segments']) + gi, max(0.4, d - 0.4), i, i, i, i, i, spec.get('glow_opacity', 0.55), i))
 n = len(durs); x, acc, cur = [], 0.0, '[v0]'
 for j in range(1, n):
     acc += durs[j - 1]; off = acc - j * PRESET['td']; starts.append(off)
     x.append('%s[v%d]xfade=transition=fade:duration=%.2f:offset=%.2f[x%d]' % (cur, j, PRESET['td'], off, j)); cur = '[x%d]' % j
 total = sum(durs) - (n - 1) * PRESET['td']
-k = n; ov = []
+k = n + len(glows); ov = []
 inputs += ['-i', os.path.join(OV, spec['hook'])]; hook_i = k; k += 1
 fin_i = k; inputs += ['-i', os.path.join(OV, spec['final'])]; k += 1
 fc = ';'.join(chains + x) + ';'
