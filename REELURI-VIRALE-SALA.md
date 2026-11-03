@@ -73,6 +73,25 @@ General exercise tips, not medical advice.
 ```
 **De ce contează:** e singurul care arată ce faci ca antrenoare. Fiecare video trimis de cineva e o conversație care poate duce la coaching.
 
+## G4 · „3 squat mistakes I see every leg day. Which one is yours?” (~20 s) · filmat 3 nov, postare 24 nov
+| Secunde | Ce se vede | Text pe ecran |
+|---|---|---|
+| 0–3 | stai lângă perete, apoi cobori | hook (jos, pe podea, ca să nu-ți acopere fața) |
+| 3–8 | genunchii intră ✗, apoi urmăresc vârfurile ✓ | Wrong · knees cave in / Right · knees follow toes |
+| 8–13 | pieptul cade ✗, apoi sus ✓ | Wrong · chest drops / Right · chest up |
+| 13–17 | călcâiele se ridică ✗, apoi toată talpa jos ✓ | Wrong · heels lift / Right · whole foot down |
+| 17–20 | te ridici | Send me your squat. I'll rate it. · Your custom program → link in bio |
+
+**Descriere:**
+```
+3 squat mistakes I see every leg day: knees caving in, chest dropping, heels lifting. Which one is yours? 👇
+Light weight, slow reps, film yourself from the side.
+Send me your squat and I'll rate it.
+
+#squat #formcheck #legday #gymtips #fitnesscoach
+```
+**Comentariul fixat:** „Mine used to be #3 😅 Yours?”
+
 ## Cum filmezi, pe scurt
 - **Toate trei într-o sesiune de ~45 de minute**, cu aceeași ținută (verde, albastru deschis, gri deschis sau crem), fără alți oameni, logo sau ferestre în cadru.
 - Telefonul **vertical, pe trepied**: pe diagonală, la înălțimea șoldului (G1, G2); din profil, la înălțimea pieptului (G3).

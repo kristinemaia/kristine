@@ -65,6 +65,9 @@ R = [
   [('My hips:', 'shoulders'), ('10-second fixes', 'shoulders'), ('Hip flexors', 'hips'), ('Upper back', 'shoulders'), ('Cat-cow', 'hips'), ('Better.', 'wrists')], False),
  ('G3-Form', 'wine', '3 cable row mistakes I see in every gym. Are you doing #2?', 'Are you doing #2?', "Send me your row. I'll rate it.", 'Coaching waitlist → link in bio',
   [('Wrong · shoulders up', 'neck'), ('Right · shoulders down', 'wrists'), ('Wrong · leaning back', 'neck'), ('Right · sit tall', 'wrists'), ('Wrong · elbows out', 'neck'), ('Right · elbows close', 'wrists')], False),
+ # lotul 2: form check genuflexiune (filmat 3 nov), postare 24 nov
+ ('G4-Squat', 'wine', '3 squat mistakes I see every leg day. Which one is yours?', 'Which one is yours?', "Send me your squat. I'll rate it.", 'Your custom program → link in bio',
+  [('Wrong · knees cave in', 'neck'), ('Right · knees follow toes', 'wrists'), ('Wrong · chest drops', 'neck'), ('Right · chest up', 'wrists'), ('Wrong · heels lift', 'neck'), ('Right · whole foot down', 'wrists')], False),
 ]
 TIMES = ['5 minutes', '10 minutes', '15 minutes', '20 minutes', '25 minutes', '30 minutes']
 

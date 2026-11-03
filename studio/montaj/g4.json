@@ -1,0 +1,81 @@
+{
+ "curat": true,
+ "hook_dy": 1140,
+ "final_dy": 200,
+ "overlay_dir": "brand/reels-overlays/out/G4-Squat",
+ "hook": "G4-Squat_1-hook.png",
+ "final": "G4-Squat_2-final.png",
+ "segments": [
+  {
+   "clip": "G4-a",
+   "ss": 0.0,
+   "d": 3.0
+  },
+  {
+   "clip": "G4-a",
+   "ss": 5.0,
+   "d": 2.6,
+   "label": "G4-Squat_eticheta-1-wrong-knees-cave-in.png",
+   "label_pos": [
+    201,
+    1460
+   ]
+  },
+  {
+   "clip": "G4-a",
+   "ss": 8.6,
+   "d": 2.8,
+   "label": "G4-Squat_eticheta-2-right-knees-follow-toes.png",
+   "label_pos": [
+    176,
+    1460
+   ]
+  },
+  {
+   "clip": "G4-b",
+   "ss": 0.7,
+   "d": 2.6,
+   "label": "G4-Squat_eticheta-3-wrong-chest-drops.png",
+   "label_pos": [
+    224,
+    1460
+   ]
+  },
+  {
+   "clip": "G4-b",
+   "ss": 5.0,
+   "d": 2.8,
+   "label": "G4-Squat_eticheta-4-right-chest-up.png",
+   "label_pos": [
+    282,
+    1460
+   ]
+  },
+  {
+   "clip": "G4-c",
+   "ss": 0.8,
+   "d": 2.8,
+   "label": "G4-Squat_eticheta-5-wrong-heels-lift.png",
+   "label_pos": [
+    266,
+    1460
+   ]
+  },
+  {
+   "clip": "G4-c",
+   "ss": 4.8,
+   "d": 3.0,
+   "label": "G4-Squat_eticheta-6-right-whole-foot-down.png",
+   "label_pos": [
+    186,
+    1460
+   ],
+   "label_d": 1.8
+  },
+  {
+   "clip": "G4-c",
+   "ss": 7.7,
+   "d": 2.1
+  }
+ ]
+}
