@@ -9,40 +9,12 @@
   {
    "clip": "G3-b",
    "ss": 0.0,
-   "d": 3.0,
-   "blur": [
-    [
-     0,
-     300,
-     210,
-     150
-    ],
-    [
-     740,
-     340,
-     120,
-     140
-    ]
-   ]
+   "d": 3.0
   },
   {
    "clip": "G3-b",
    "ss": 3.4,
    "d": 3.6,
-   "blur": [
-    [
-     0,
-     300,
-     210,
-     150
-    ],
-    [
-     740,
-     340,
-     120,
-     140
-    ]
-   ],
    "label": "G3-Form_eticheta-1-wrong-shoulders-rounded.png",
    "label_pos": [
     136,
@@ -53,20 +25,6 @@
    "clip": "G3-b",
    "ss": 8.0,
    "d": 3.6,
-   "blur": [
-    [
-     0,
-     300,
-     210,
-     150
-    ],
-    [
-     740,
-     340,
-     120,
-     140
-    ]
-   ],
    "label": "G3-Form_eticheta-2-right-shoulders-back.png",
    "label_pos": [
     198,
@@ -77,20 +35,6 @@
    "clip": "G3-c",
    "ss": 0.0,
    "d": 2.4,
-   "blur": [
-    [
-     0,
-     330,
-     45,
-     90
-    ],
-    [
-     740,
-     270,
-     120,
-     190
-    ]
-   ],
    "label": "G3-Form_eticheta-3-wrong-leaning-back.png",
    "label_pos": [
     208,
@@ -101,20 +45,6 @@
    "clip": "G3-c",
    "ss": 2.3,
    "d": 2.6,
-   "blur": [
-    [
-     0,
-     330,
-     45,
-     90
-    ],
-    [
-     740,
-     270,
-     120,
-     190
-    ]
-   ],
    "label": "G3-Form_eticheta-4-right-sit-tall.png",
    "label_pos": [
     312,
@@ -125,20 +55,6 @@
    "clip": "G3-a",
    "ss": 0.0,
    "d": 1.8,
-   "blur": [
-    [
-     0,
-     320,
-     135,
-     110
-    ],
-    [
-     750,
-     350,
-     100,
-     120
-    ]
-   ],
    "label": "G3-Form_eticheta-5-wrong-elbows-out.png",
    "label_pos": [
     235,
@@ -149,20 +65,6 @@
    "clip": "G3-a",
    "ss": 1.7,
    "d": 1.8,
-   "blur": [
-    [
-     0,
-     320,
-     135,
-     110
-    ],
-    [
-     750,
-     350,
-     100,
-     120
-    ]
-   ],
    "label": "G3-Form_eticheta-6-right-elbows-close.png",
    "label_pos": [
     230,
@@ -172,21 +74,7 @@
   {
    "clip": "G3-b",
    "ss": 0.0,
-   "d": 3.2,
-   "blur": [
-    [
-     0,
-     300,
-     210,
-     150
-    ],
-    [
-     740,
-     340,
-     120,
-     140
-    ]
-   ]
+   "d": 3.2
   }
  ]
 }

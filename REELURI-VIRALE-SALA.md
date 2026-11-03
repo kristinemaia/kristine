@@ -55,7 +55,7 @@ Free 5-minute desk stretch → link in bio
 **Sunet:** un sunet amuzant sau în trend, din biblioteca Instagram, pus din aplicație.
 
 ## G3 · „3 cable row mistakes I see in every gym. Are you doing #2?” (~20 s) · filmat și montat 3 nov, postare 17 nov
-_În montaj sunt estompate reclama luminoasă și semnul roșu din fundal (pot fi numele sălii)._
+_Fundalul rămâne așa cum e (reclamele luminoase sunt în regulă, 3 nov)._
 | Secunde | Ce se vede | Text pe ecran |
 |---|---|---|
 | 0–2,5 | ești la aparatul de ramat, te uiți în cameră | hook |
@@ -93,7 +93,7 @@ Send me your squat and I'll rate it.
 ```
 **Comentariul fixat:** „Mine used to be #3 😅 Yours?”
 
-## G5 · „3 stretches I do after every gym session.” (~19 s) · filmat 3 nov, rezervă
+## G5 · „3 stretches I do after every gym session.” (~19 s) · filmat 3 nov · **de refilmat**
 Pectorali la perete → dorsali pe bancă (logo-ul de pe aparat e estompat) → genunchiul la piept, pe saltea → final la perete.
 
 **Descriere:**
@@ -106,7 +106,7 @@ Free 5-minute desk stretch → link in bio
 ```
 
 ## G6 · „Shoulders stiff from the mouse? Hang for 20 seconds.” (~9 s) · filmat 3 nov, postare 23 nov
-Mâinile pe bară → picioarele jos de pe treaptă, brațele lungi → cobori pe treaptă. **De refilmat dacă poți:** atârnatul propriu-zis e ~3,5 s; ideal 10–20 s, dintr-un unghi cu mai puține aparate în spate.
+Mâinile pe bară → picioarele jos de pe treaptă, brațele lungi → cobori pe treaptă. Aprobat așa cum e (3 nov).
 
 **Descriere:**
 ```

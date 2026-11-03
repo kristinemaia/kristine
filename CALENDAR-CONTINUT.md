@@ -68,7 +68,7 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | mie 18 nov, 17:00 | Revo · After the gym: the cream I reach for (cod KRISTINE20) | 🎬 lotul 1 |
 | vin 20 nov, 17:00 | 3 exercises for the gamer hunch | 🎬 lotul 2 |
 | dum 22 nov, 18:00 | Overhead reach test | 🎬 lotul 2 |
-| lun 23 nov, 18:00 | **G6** · Shoulders stiff from the mouse? Hang for 20 seconds | ✅ montat (3 nov, provizoriu: atârnat ~3,5 s) |
+| lun 23 nov, 18:00 | **G6** · Shoulders stiff from the mouse? Hang for 20 seconds | ✅ montat (3 nov), de programat |
 | mar 24 nov, 18:00 | **G4** · 3 squat mistakes (form check) | ✅ montat (3 nov), de programat |
 | joi 26 nov, 17:00 | K2 · Overnight tiramisu oats | ✏️ |
 | vin 27 nov, 17:00 | Things gamers do at the gym | 🎬 lotul 3 |
