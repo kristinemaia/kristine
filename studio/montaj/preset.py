@@ -25,9 +25,12 @@ for i, s in enumerate(spec['segments']):
     inputs += ['-ss', str(s['ss']), '-t', str(s['d']), '-i', clip(s['clip'])]
     crop = (s.get('crop') + ',scale=1080:-2:flags=lanczos,pad=1080:1920:0:(1920-ih)/2:color=0xFFF9F6') if s.get('crop') and s.get('frame') else ((s['crop'] + ',scale=1080:1920:flags=lanczos') if s.get('crop') else 'scale=1080:1920:flags=lanczos')
     blur = ''
-    if s.get('blur'):  # [x, y, w, h] în 1080x1920: estompează ceva fix din fundal (un logo de pe aparat)
-        bx, by, bw, bh = s['blur']
-        blur = ',split[a%d][b%d];[b%d]crop=%d:%d:%d:%d,boxblur=18:2[c%d];[a%d][c%d]overlay=%d:%d' % (i, i, i, bw, bh, bx, by, i, i, i, bx, by)
+    if s.get('blur'):  # [x, y, w, h] sau o listă de cutii, în 1080x1920: estompează ceva fix din fundal (logo, reclamă)
+        boxes = s['blur'] if isinstance(s['blur'][0], list) else [s['blur']]
+        for j, (bx, by, bw, bh) in enumerate(boxes):
+            t = '%d_%d' % (i, j)
+            r = max(1, min(18, min(bw, bh) // 2 - 1)); rc = max(1, min(r, min(bw, bh) // 4 - 1))   # raza încape în cutiile mici
+            blur += ',split[a%s][b%s];[b%s]crop=%d:%d:%d:%d,boxblur=luma_radius=%d:luma_power=2:chroma_radius=%d:chroma_power=2[c%s];[a%s][c%s]overlay=%d:%d' % (t, t, t, bw, bh, bx, by, r, rc, t, t, t, bx, by)
     chains.append('[%d:v]fps=%d,%s,setpts=(PTS-STARTPTS)/%s%s,%s,%s,setsar=1,format=yuv420p[v%d]' % (i, PRESET['fps'], crop, s.get('speed', 1.0), blur, PRESET['eq'], PRESET['sharp'], i))
     durs.append(s['d'] / s.get('speed', 1.0))
 n = len(durs); x, acc, cur = [], 0.0, '[v0]'

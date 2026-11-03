@@ -54,19 +54,20 @@ Free 5-minute desk stretch → link in bio
 ```
 **Sunet:** un sunet amuzant sau în trend, din biblioteca Instagram, pus din aplicație.
 
-## G3 · „3 cable row mistakes I see in every gym. Are you doing #2?” (~21 s)
+## G3 · „3 cable row mistakes I see in every gym. Are you doing #2?” (~20 s) · filmat și montat 3 nov, postare 17 nov
+_În montaj sunt estompate reclama luminoasă și semnul roșu din fundal (pot fi numele sălii)._
 | Secunde | Ce se vede | Text pe ecran |
 |---|---|---|
 | 0–2,5 | ești la aparatul de ramat, te uiți în cameră | hook |
-| 2,5–5 / 5–7,5 | umerii ridicați, apoi jos și înapoi | Wrong · shoulders up / Right · shoulders down |
+| 2,5–5 / 5–7,5 | umerii aplecați în față, apoi drepți, trași înapoi | Wrong · shoulders rounded / Right · shoulders back |
 | 7,5–10 / 10–12,5 | lăsată pe spate, apoi trunchiul drept | Wrong · leaning back / Right · sit tall |
 | 12,5–15 / 15–17,5 | coatele depărtate, apoi lipite (telefonul pe diagonală) | Wrong · elbows out / Right · elbows close |
-| 17,5–21 | te uiți în cameră | Send me your row. I'll rate it. · Coaching waitlist → link in bio |
+| 17,5–20 | te uiți în cameră | Send me your row. I'll rate it. · Your custom program → link in bio |
 
 **Descriere:**
 ```
 3 cable row mistakes I see in every gym. Which one are you guilty of? 👇
-Send me your row and I'll rate it. 1:1 online coaching waitlist → link in bio
+Send me your row and I'll rate it. Your custom program → link in bio
 General exercise tips, not medical advice.
 
 #formcheck #cablerow #backworkout #gymtips #fitnesscoach

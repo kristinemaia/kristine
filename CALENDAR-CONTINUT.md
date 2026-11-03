@@ -64,7 +64,7 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | vin 13 nov, 17:00 | B4 · Warm-up before gaming | ✏️ |
 | dum 15 nov, 18:00 | **G2** · POV: you sat for 9 hours and now it's leg day | ✅ programat pe Instagram (2 nov); TikTok pe 5 nov |
 | lun 16 nov, 18:00 | Mobility between sets: 60 seconds | 🎬 lotul 1 |
-| mar 17 nov, 18:00 | **G3** · 3 cable row mistakes (coaching) | 🎬 lotul 1 |
+| mar 17 nov, 18:00 | **G3** · 3 cable row mistakes (form check) | ✅ montat (3 nov), de programat |
 | mie 18 nov, 17:00 | Revo · After the gym: the cream I reach for (cod KRISTINE20) | 🎬 lotul 1 |
 | vin 20 nov, 17:00 | 3 exercises for the gamer hunch | 🎬 lotul 2 |
 | dum 22 nov, 18:00 | Overhead reach test | 🎬 lotul 2 |
