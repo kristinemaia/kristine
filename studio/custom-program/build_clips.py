@@ -28,6 +28,9 @@ CLIPS = {
     'incalzire-gambe-2':                  ('Calf & hamstring stretch', 'Warm-up · other leg', [(0.6, 3.9), (5.6, 7.7)]),
     'incalzire-respiratie':               ('Reset breathing', 'Warm-up · arms up as you breathe in', 0.3, None),
     'picioare-genuflexiune':              ('Bodyweight squat', 'Legs 1', 0.3, None),
+    'picioare-goblet-a':                  ('Goblet squat', 'Legs 1 · dumbbell at your chest', 0.3, None),
+    'picioare-goblet-b':                  ('Dumbbell sumo squat', 'Legs · variation', 0.3, None),
+    'picioare-fandare-inainte':           ('Forward lunge', 'Legs 1 · alternate legs', 0.3, None),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
