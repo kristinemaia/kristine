@@ -20,26 +20,26 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | mar 3 | 17:00 · B2 · Lower back after a desk day 🗓 | postare programată 🗓 |
 | mie 4 | — | postare programată 🗓 |
 | joi 5 | 17:00 · K5 · White fish with rice & veggies 🗓 | postare programată 🗓 |
-| vin 6 | 17:00 · **Dope Rope** · 20-second rope warm-up (afiliat) 🗓 | Dope Rope ✏️ |
+| vin 6 | 17:00 · **Dope Rope** · 20-second rope warm-up (afiliat) 🗓 | Dope Rope 🗓 |
 | sâm 7 | — | clip din stream: „a guest joined” ✏️ |
 | dum 8 | 17:00 · **Carusel C2** · 3 things I do after every stream 🗓 | caruselul C2, ca postare foto ✏️ |
 
 ### Săptămâna 9–15 nov
 | Ziua | Instagram | TikTok, 19:00 |
 |---|---|---|
-| lun 9 | 18:00 · **G1** · Sit all day? 3 tests 🗓 | G1 ✏️ |
+| lun 9 | 18:00 · **G1** · Sit all day? 3 tests 🗓 | G1 🗓 |
 | mar 10 | 18:00 · B3 · Upper back and shoulders 🗓 | B3 ✏️ |
 | mie 11 | 17:00 · Bewit · My evening cacao ritual (afiliat) 🗓 | Bewit ✏️ |
 | joi 12 | 17:00 · K4 · Salmon, potatoes & salad ✏️ | K4 ✏️ |
 | vin 13 | 17:00 · B4 · Warm-up before gaming ✏️ | B4 ✏️ |
 | sâm 14 | — | clip din stream: seated stretch ✏️ |
-| dum 15 | 18:00 · **G2** · POV: 9 hours, then leg day 🗓 | G2 ✏️ |
+| dum 15 | 18:00 · **G2** · POV: 9 hours, then leg day 🗓 | G2 🗓 |
 
 ### Săptămâna 16–22 nov · lansarea Custom Program
 | Ziua | Instagram | TikTok, 19:00 |
 |---|---|---|
 | lun 16 | 18:00 · Mobility between sets 🎬 | Mobility between sets 🎬 |
-| mar 17 | 18:00 · **G3** · 3 cable row mistakes ✏️ | G3 ✏️ |
+| mar 17 | 18:00 · **G3** · 3 cable row mistakes ✏️ | G3 🗓 |
 | mie 18 | 17:00 · Revo · After the gym (afiliat) ✏️ | Revo ✏️ |
 | joi 19 | 17:00 · **VirtuMe #1** · knows her vibe (AI + Paid partnership) ✏️ | VirtuMe #1 (dacă permite contractul) ✏️ |
 | vin 20 | 17:00 · Gamer hunch 🎬 | Gamer hunch 🎬 |
@@ -68,8 +68,9 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 - [x] **Instagram, programat pe 3 nov:** Dope Rope (6) · C2 (8) · G1 (9) · B3 (10) · Bewit (11) · G2 (15)
 - [ ] **Instagram, mai ai de programat:** K4 (12) · B4 (13)
 - [ ] **Instagram, oricând până pe 16 nov:** G3 (17) · Revo (18) · VirtuMe #1 (19) · G6 (23) · G4 (24) · VirtuMe #2 (25) · K2 (26)
-- [ ] **joi 5 nov, TikTok (pe laptop):** 6–15 nov
-- [ ] **duminică 15 nov, TikTok:** 16–25 nov
+- [x] **TikTok, programat pe 3 nov:** 4 · 5 · 6 (Dope Rope) · 9 (G1) · 15 (G2) · 17 (G3)
+- [ ] **TikTok, mai ai de programat (pe laptop sau din browser):** 7 (clipul cu câinele) · 8 (C2) · 10 (B3) · 11 (Bewit) · 12 (K4) · 13 (B4) · 14 (seated stretch)
+- [ ] **duminică 15 nov, TikTok:** 16 · 18–25 nov (17 e deja programat)
 - [ ] **marți 24 nov, TikTok:** 26 nov – 4 dec
 
 ---
