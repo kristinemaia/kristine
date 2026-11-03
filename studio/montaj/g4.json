@@ -22,8 +22,8 @@
    ]
   },
   {
-   "clip": "G4-a",
-   "ss": 8.6,
+   "clip": "mus-G4-2",
+   "ss": 0.0,
    "d": 2.8,
    "label": "G4-Squat_eticheta-2-right-knees-follow-toes.png",
    "label_pos": [
@@ -42,8 +42,8 @@
    ]
   },
   {
-   "clip": "G4-b",
-   "ss": 5.0,
+   "clip": "mus-G4-4",
+   "ss": 0.0,
    "d": 2.8,
    "label": "G4-Squat_eticheta-4-right-chest-up.png",
    "label_pos": [
@@ -62,8 +62,8 @@
    ]
   },
   {
-   "clip": "G4-c",
-   "ss": 4.8,
+   "clip": "mus-G4-6",
+   "ss": 0.0,
    "d": 3.0,
    "label": "G4-Squat_eticheta-6-right-whole-foot-down.png",
    "label_pos": [
