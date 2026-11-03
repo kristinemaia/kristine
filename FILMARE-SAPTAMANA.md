@@ -79,6 +79,47 @@ Diagonală 45°, tot corpul, **2 repetări lente + 1 normală**, fără să vorb
 
 ---
 
+## Marți 3 noiembrie · ~1,5 ore (în ordinea asta)
+_G1 și G2 sunt montate și programate: nu mai filmezi nimic pentru ele. Prosopul: pe partea simplă sau deloc._
+
+### 1. Încălzirea pentru picioare (5 min) · Custom Program
+Diagonală 45°, tot corpul, 20–30 s fiecare:
+- [ ] leg swings (înainte-înapoi, apoi lateral; ambele picioare)
+- [ ] glezna la perete (genunchiul spre perete; ambele picioare)
+- [ ] respirația de reset (stai drept, 3 respirații lente)
+
+### 2. Picioare 1 (30 min) · Custom Program
+Diagonală 45°, tot corpul, **2 repetări lente + 1 normală**, fără aparate în cadru:
+- [ ] genuflexiune liberă
+- [ ] goblet squat (cu o ganteră sau un kettlebell)
+- [ ] split squat (ambele picioare)
+- [ ] fandare înapoi (ambele picioare)
+- [ ] glute bridge (pe saltea, din lateral)
+- [ ] step-up pe bancă (ambele picioare)
+- [ ] wall sit (la un perete simplu, 10 s)
+- [ ] ridicări pe vârfuri
+
+### 3. Reel-uri (30 min)
+- [ ] **Squat form check** (diagonală): genunchii intră ✗ / ies ✓; călcâiele sus ✗ / jos ✓; pieptul cade ✗ / sus ✓
+- [ ] **Hang 20 s** (din față, tot corpul): atârnat de bară 10–20 s, coborâre controlată
+- [ ] **Gamer hunch** (din profil): face pull, ramat, fluturări inverse, câte 4–5 repetări
+- [ ] **Overhead reach test** (din față, spatele la perete): brațele urcă, o dată reușit, o dată nereușit
+- [ ] **G3 · cable row** (din profil, la înălțimea pieptului; greutate mică): hook la aparat; umeri sus ✗ / jos ✓; lăsată pe spate ✗ / drept ✓; coate depărtate ✗ / lipite ✓ (diagonală); final în cameră
+- [ ] **Mobility between sets**: hook, te așezi pe saltea și te uiți în cameră (2 s)
+
+### 4. Refilmări pentru Custom Program (15 min)
+- [ ] cat-cow **din lateral**
+- [ ] open book **cu fața la cameră**, ambele părți, tot corpul în cadru
+- [ ] extensie toracică pe bancă (din lateral)
+
+### 5. Dacă mai ai timp
+- [ ] **3 stretches after the gym**: pectorali pe stâlp, flexorii șoldului, dorsali pe bancă
+
+### Seara
+- [ ] îmi trimiți clipurile pe grupe: „Încălzire”, „Picioare 1”, „Reel-uri”, „Refilmări”
+
+---
+
 ## Restul săptămânii (lista completă e în Tracker, la fiecare zi)
 | Ziua | Reel-uri | Custom Program | La încălzire |
 |---|---|---|---|
