@@ -23,6 +23,8 @@ CLIPS = {
     'mobilitate-childs-pose':             ("Child's pose reach", 'Mobility', 0.4, None),
     'mobilitate-deep-squat-hold':         ('Deep squat hold', 'Mobility', 0.4, None),
     'incalzire-leg-swings':               ('Leg swings', 'Warm-up · front & back · each leg', [(0.2, 4.0), (6.2, 9.5)]),
+    'incalzire-leg-swings-lateral':       ('Lateral leg swings', 'Warm-up · side to side · each leg', [(0.2, 7.3), (9.3, 13.6)]),
+    'incalzire-gambe':                    ('Calf & hamstring stretch', 'Warm-up · toes up · each leg', [(0.2, 3.9), (5.9, 7.7)]),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
