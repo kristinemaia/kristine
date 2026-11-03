@@ -101,7 +101,7 @@ TikTok programează **cel mult 10 zile înainte**, de pe calculator (TikTok Stud
 - [ ] things gamers do at the gym: telefonul între seturi, apoi o mișcare de mobilitate în loc (27 nov)
 - [ ] hip test 90/90: așezare în 90/90, ridicare fără mâini, din față (29 nov)
 - [ ] first 20-min session: goblet squat, ramat, hip thrust, face pull, plank, câte 4 s (30 nov)
-- [ ] G5 · 3 stretches after the gym: refilmare (rezervă)
+- [ ] G5 · 3 stretches after the gym: refilmare, totul **din profil**: piept la perete sau la stâlp, dorsali pe bancă, flexorii șoldului în genunchi (rezervă)
 
 **Pentru Custom Program (gata pe 15 nov):**
 - [ ] Picioare 1: glute bridge, step-up pe bancă
@@ -110,5 +110,6 @@ TikTok programează **cel mult 10 zile înainte**, de pe calculator (TikTok Stud
 - [ ] Spate (joi 5 nov)
 - [ ] Împins + gât și încheieturi (vineri 6 nov)
 - [ ] cele 4 videouri vorbite + snack-ul (luni 9 nov, la sală)
+- [ ] **cardio:** 5 aparate × 3 clipuri + 5 variante acasă (lista: Bibliotecă → Programări noiembrie → „Cardio în Custom Program”)
 
 **Pentru decembrie** (loturile 4–6, după 9 nov): ankle test, hips between squat sets, lat pulldown mistakes, leg day, foam roller, upper body 15 min, RDL mistakes, push-up mistakes, balance test, gym → stream, grip test, 5-minute warm-up.
