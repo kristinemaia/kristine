@@ -22,19 +22,13 @@
    ]
   },
   {
-   "clip": "G3-b",
-   "ss": 8.0,
+   "clip": "mus-G3-2",
+   "ss": 0.0,
    "d": 3.6,
    "label": "G3-Form_eticheta-2-right-shoulders-back.png",
    "label_pos": [
     198,
     1460
-   ],
-   "glow": [
-    215,
-    610,
-    95,
-    200
    ]
   },
   {
@@ -49,19 +43,13 @@
    "speed": 0.7
   },
   {
-   "clip": "G3-c",
-   "ss": 2.3,
+   "clip": "mus-G3-4",
+   "ss": 0.0,
    "d": 2.6,
    "label": "G3-Form_eticheta-4-right-sit-tall.png",
    "label_pos": [
     312,
     1460
-   ],
-   "glow": [
-    175,
-    600,
-    95,
-    200
    ]
   },
   {
@@ -75,19 +63,13 @@
    ]
   },
   {
-   "clip": "G3-a",
-   "ss": 1.7,
+   "clip": "mus-G3-6",
+   "ss": 0.0,
    "d": 1.8,
    "label": "G3-Form_eticheta-6-right-elbows-close.png",
    "label_pos": [
     230,
     1460
-   ],
-   "glow": [
-    245,
-    610,
-    95,
-    200
    ]
   },
   {
@@ -95,11 +77,5 @@
    "ss": 0.0,
    "d": 3.2
   }
- ],
- "glow_opacity": 0.95,
- "glow_color": [
-  255,
-  60,
-  140
  ]
 }

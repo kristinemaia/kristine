@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Mușchiul care se aprinde (stilul „muscle highlight”): o formă de mușchi, desenată pe corp, care urmărește mișcarea.
 Rulezi: python3 studio/montaj/muschi.py <clip.mp4> <ss> <d> <ieșire.mp4> <mușchi.json>
-mușchi.json: {"t": 9.5, "color": [255,40,60], "shapes": [[[x,y], ...], ...], "track": [x, y, w, h], "pulse": true}
+mușchi.json: {"t": 9.5, "color": [255,40,60], "shapes": [[[x,y], ...], ...], "track": [x, y, w, h], "on": [[0.2, 1.5]]}
   t      = secunda (din clip) la care sunt desenate formele
   shapes = poligoane în 1080x1920, fiecare un mușchi (le fac pe rând cu grila de coordonate)
   track  = zona din corp după care se mișcă formele (fluxul optic, cv2)"""
@@ -39,8 +39,12 @@ for k in range(k0 + 1, n): off[k] = off[k - 1] + np.array(shift(frames[k - 1], f
 for k in range(k0 - 1, -1, -1): off[k] = off[k + 1] - np.array(shift(frames[k], frames[k + 1]))
 for k, f in enumerate(frames):
     t = k / 30.0
-    a = min(1.0, max(0.0, (t - 0.25) / 0.35)) * min(1.0, max(0.0, (d - t) / 0.3))      # apare și dispare lin
-    if cfg.get('pulse', True): a *= 0.8 + 0.2 * np.sin(t * 2 * np.pi * 1.2)
+    # lumina apare doar în ferestrele „on” (secunde de la începutul bucății), de ex. cât brațele sunt întinse și nu acoperă spatele
+    a = 0.0
+    for t0, t1 in cfg.get('on', [[0.25, d - 0.3]]):
+        if t0 <= t <= t1:
+            u = (t - t0) / max(0.01, t1 - t0)
+            a = max(a, min(1.0, (t - t0) / 0.25, (t1 - t) / 0.25) * (0.75 + 0.25 * np.sin(np.pi * u)))   # un singur puls, lin
     M = np.float32([[1, 0, off[k][0]], [0, 1, off[k][1]]])
     m = cv2.warpAffine(base, M, (W, H))[..., None] * a * cfg.get('opacity', 0.62)
     # culoarea intră ca lumină: amestec „soft light” peste piele/haine, plus o strălucire ușoară
