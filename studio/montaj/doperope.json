@@ -1,0 +1,5 @@
+{"curat": true, "hook_dy": 1100, "final_dy": 480,
+ "overlay_dir": "brand/reels-overlays/out/DopeRope", "hook": "DopeRope_1-hook.png", "final": "DopeRope_2-final.png",
+ "segments": [
+  {"clip": "DR-7953", "ss": 0.3, "d": 20.3, "label": "DopeRope_eticheta-1-20-seconds.png", "label_pos": [328, 1440]}
+ ]}
