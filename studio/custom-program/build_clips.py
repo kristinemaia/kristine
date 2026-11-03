@@ -36,6 +36,7 @@ CLIPS = {
     'picioare-split-a':                   ('Split squat', 'Legs 1 · first leg', 0.3, None),
     'picioare-split-b':                   ('Split squat', 'Legs 1 · other leg', 3.0, None),
     'picioare-varfuri':                   ('Calf raises', 'Legs 1 · hand on the wall', 0.3, None, 'crop=1000:1778:20:0'),
+    'picioare-wall-sit':                  ('Wall sit', 'Legs 1 · hold', 0.2, None, 'crop=1000:1778:20:0'),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
