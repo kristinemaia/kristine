@@ -60,8 +60,8 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | lun 9 nov, 18:00 | **G1** · Sit all day? Can you pass these 3 tests? | ✅ programat pe Instagram (2 nov); TikTok pe 5 nov |
 | mar 10 nov, 18:00 | B3 · Upper back and shoulders | 🗓 |
 | mie 11 nov, 17:00 | Bewit · My evening cacao ritual (cod KRISTINE15) | 🗓 |
-| joi 12 nov, 17:00 | K4 · Salmon, potatoes & salad | ✏️ |
-| vin 13 nov, 17:00 | B4 · Warm-up before gaming | ✏️ |
+| joi 12 nov, 17:00 | K4 · Salmon, potatoes & salad | 🗓 |
+| vin 13 nov, 17:00 | B4 · Warm-up before gaming | 🗓 |
 | dum 15 nov, 18:00 | **G2** · POV: you sat for 9 hours and now it's leg day | ✅ programat pe Instagram (2 nov); TikTok pe 5 nov |
 | lun 16 nov, 18:00 | Mobility between sets: 60 seconds | 🎬 lotul 1 |
 | mar 17 nov, 18:00 | **G3** · 3 cable row mistakes (form check) | ✅ montat (3 nov), de programat |

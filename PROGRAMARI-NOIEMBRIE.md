@@ -30,8 +30,8 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | lun 9 | 18:00 · **G1** · Sit all day? 3 tests 🗓 | G1 🗓 |
 | mar 10 | 18:00 · B3 · Upper back and shoulders 🗓 | B3 🗓 |
 | mie 11 | 17:00 · Bewit · My evening cacao ritual (afiliat) 🗓 | Bewit 🗓 |
-| joi 12 | 17:00 · K4 · Salmon, potatoes & salad ✏️ | K4 🗓 |
-| vin 13 | 17:00 · B4 · Warm-up before gaming ✏️ | B4 🗓 |
+| joi 12 | 17:00 · K4 · Salmon, potatoes & salad 🗓 | K4 🗓 |
+| vin 13 | 17:00 · B4 · Warm-up before gaming 🗓 | B4 🗓 |
 | sâm 14 | — | clip din stream: seated stretch 🗓 |
 | dum 15 | 18:00 · **G2** · POV: 9 hours, then leg day 🗓 | G2 🗓 |
 
@@ -66,7 +66,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 
 ### Când programezi
 - [x] **Instagram, programat pe 3 nov:** Dope Rope (6) · C2 (8) · G1 (9) · B3 (10) · Bewit (11) · G2 (15)
-- [ ] **Instagram, mai ai de programat:** K4 (12) · B4 (13)
+- [x] **Instagram, programat pe 4 nov:** K4 (12) · B4 (13) (tot până pe 15 nov e programat)
 - [ ] **Instagram, oricând până pe 16 nov:** G3 (17) · Revo (18) · VirtuMe #1 (19) · G6 (23) · G4 (24) · VirtuMe #2 (25) · K2 (26)
 - [x] **TikTok, programat pe 3 nov:** 4 · 5 · 6 (Dope Rope) · 9 (G1) · 15 (G2) · 17 (G3)
 - [x] **TikTok, programat pe 4 nov:** 7 · 8 · 10 · 11 · 12 · 13 · 14 (tot până pe 15 nov e programat)
