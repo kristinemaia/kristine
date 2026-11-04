@@ -8,7 +8,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 - TikTok: câte un cont pentru fiecare (secțiunea 4).
 
 **Reguli la toate**
-- **Dope Rope, Bewit și Revo Natural sunt doar afiliere cu cod de reducere, fără plată:** fără `#ad` și fără „Paid partnership”. Prima linie a descrierii spune „Affiliate: I earn a small commission if you use my code …”, ca să se vadă înainte de „more”.
+- **Dope Rope, Bewit și Revo Natural sunt doar afiliere cu cod de reducere, fără plată:** fără `#ad` și fără „Paid partnership”. **Din 4 nov (decizia Kristinei):** fără fraza „Affiliate: I earn a small commission…”; descrierea spune codul, iar la hashtag-uri rămâne doar `#affiliate`, ca marcaj minim.
 - `#ad` și „Paid partnership” doar dacă un brand te plătește sau îți dă produse gratuit.
 - Nicio promisiune medicală. Dacă schimbi un text, păstrezi liniile „not medical advice” / „nu sfat medical”.
 - Linia cu diploma apare **doar** pe contul Kristine Maia, niciodată pe KM Wellness Concept.
@@ -250,12 +250,11 @@ _Dope Rope, Bewit și Revo sunt doar afiliate: fără `#ad`, fără „Paid part
 
 ### Bewit · Mie 11 nov, 17:00 · My evening cacao ritual
 ```
-Affiliate: I earn a small commission if you use my code KRISTINE15 (15% off). Link in bio.
-
 My evening cacao ritual after a long stream. Five quiet minutes, screens off. ☕
+Code KRISTINE15 for 15% off (link in bio).
 General wellness, not medical advice.
 
-#cacao #eveningritual #streamerlife #selfcare #winddown
+#cacao #eveningritual #streamerlife #selfcare #winddown #affiliate
 ```
 
 ### Revo Natural · Mie 18 nov, 17:00 · The cream I reach for after a long stream
