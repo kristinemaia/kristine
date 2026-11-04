@@ -11,9 +11,12 @@ import build_stream_videos as B
 L, ff, ENC, CUR, OUT = B.L, B.ff, B.ENC, B.CUR, B.OUT
 CUT = 0.6
 # (clip curat, secunda de start) · se schimbă la fiecare 0,6 s
-MONTAGE = [('DR-7953', 7.0), ('mus-G4-2', 1.0), ('mus-G3-2', 0.3), ('picioare-goblet-a', 2.2), ('G1-floor-to-stand', 3.0),
-           ('incalzire-coarda', 3.0), ('Hang', 6.2), ('mobilitate-worlds-greatest-stretch', 6.0), ('picioare-fandare-inapoi', 2.0), ('G2-b', 5.0)]
-WORDS = [('GAMING.', 0, 3), ('GYM.', 3, 6), ('STRETCH', 6, 8), ('BREAKS.', 8, 10)]   # (cuvânt, de la tăietura, până la)
+MONTAGE = [('mus-G4-2', 1.0), ('mus-G3-2', 0.3), ('picioare-goblet-a', 2.2),            # GYM.
+           ('DR-7953', 7.0), ('incalzire-coarda', 3.0), ('DR-7953', 13.0),                    # JUMPING.
+           ('cook-1', 1.0), ('cook-2', 2.0), ('cook-3', 1.4), ('cook-4', 9.0),                 # COOKING.
+           ('mobilitate-worlds-greatest-stretch', 6.0), ('G2-b', 5.0)]                         # STRETCH BREAKS.
+# (cuvânt, de la tăietura, până la) · GAMING. intră aici când primesc clipurile din joc
+WORDS = [('GYM.', 0, 3), ('JUMPING.', 3, 6), ('COOKING.', 6, 10), ('STRETCH', 10, 11), ('BREAKS.', 11, 12)]
 
 def layers():
     num = lambda n: ('<div class="s" style="display:grid;place-items:center"><h1 style="font-size:620px;color:#fff;line-height:1">%s</h1></div>' % n)
@@ -22,7 +25,7 @@ def layers():
         side = 'left:70px' if i % 2 == 0 else 'right:70px'
         pages.append((L('word_%d.png' % i),
             '<div class="s"><h1 style="position:absolute;%s;top:50%%;transform:translateY(-50%%);font-size:%dpx;color:#fff;'
-            'text-shadow:0 10px 40px rgba(0,0,0,.45);max-width:620px;line-height:.9">%s</h1></div>' % (side, 170 if len(w) < 8 else 150, w)))
+            'text-shadow:0 10px 40px rgba(0,0,0,.45);max-width:620px;line-height:.9">%s</h1></div>' % (side, 170 if len(w) < 8 else 140, w)))
     pages.append((L('title_v2.png'),
         '<div class="s" style="background:#8A3459">'
         '<div class="b" style="width:900px;height:900px;background:#A2456C;right:-280px;top:-400px"></div>'
@@ -30,7 +33,7 @@ def layers():
         '<div style="position:absolute;left:0;right:0;top:220px;text-align:center;color:#fff">'
         '<span class="pill" style="background:#FFF9F6;color:#8A3459;font-size:44px;padding:16px 44px;letter-spacing:.08em">● LIVE NOW</span>'
         '<h1 style="font-size:250px;margin-top:40px;color:#fff">Kristine Maia</h1>'
-        '<p style="font-size:62px;font-weight:800;margin:30px 0 0;letter-spacing:.02em">GAMING · GYM · STRETCH BREAKS</p>'
+        '<p style="font-size:56px;font-weight:800;margin:30px 0 0;letter-spacing:.02em">GAMING · GYM · COOKING · STRETCH BREAKS</p>'
         '<p style="font-size:40px;font-weight:600;margin:28px 0 0;opacity:.9">Grab water. Sit tall. Let\'s go.</p></div></div>'))
     B.render(pages)
 
