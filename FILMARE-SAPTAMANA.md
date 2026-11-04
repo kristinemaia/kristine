@@ -120,6 +120,47 @@ Diagonală 45°, tot corpul, **2 repetări lente + 1 normală**, fără aparate 
 
 ---
 
+## Miercuri 4 noiembrie · ~2 ore (în ordinea asta)
+_Prosopul alb pe saltea; telefonul fix pe trepied. La reel-urile cu greșit/corect ții **o secundă jos** în mișcare (acolo pun mușchiul luminat) și filmezi din unghiul în care se vede mușchiul._
+
+### 1. Încălzirea + cardio la bandă (10 min) · Custom Program
+- [ ] coardă 30 s / pauză 30 s (o rundă e destul)
+- [ ] banda: înclinarea pusă (10–12%), apoi mers fără să te ții de bare (din lateral, ecranul în afara cadrului)
+- [ ] banda: 10 s de mers mai repede (pentru intervale)
+
+### 2. Ce a rămas din Picioare 1 (10 min)
+- [ ] glute bridge, pe saltea, din lateral
+- [ ] step-up pe bancă, ambele picioare (muți telefonul când schimbi piciorul)
+
+### 3. Picioare 2 + core (30 min) · Custom Program
+Diagonală 45° sau profil, tot corpul, **2 repetări lente + 1 normală**:
+- [ ] hip thrust pe bancă (din profil)
+- [ ] deadlift românesc cu gantere (din profil)
+- [ ] dead bug (pe saltea, din lateral)
+- [ ] bird dog (pe saltea, din lateral)
+- [ ] plank, 10 s (din lateral)
+- [ ] plank lateral, 10 s pe fiecare parte (din față)
+- [ ] pallof press cu elasticul sau la cablu (din față), ambele părți
+- [ ] hollow hold pentru începători, 10 s (din lateral)
+
+### 4. Reel-uri (40 min)
+- [ ] **3 hip thrust mistakes** (din profil, greutate mică): spatele arcuit ✗ / bazinul neutru, bărbia în piept ✓ · picioarele prea departe ✗ / tibiile verticale sus ✓ · urci repede ✗ / o secundă sus, strângi fesele ✓ · hook: te uiți în cameră pe bancă · final în cameră
+- [ ] **Hip test: 90/90 without hands** (din față): te așezi în 90/90, apoi încerci să te ridici fără mâini; o dată reușit, o dată „fail” cu umor
+- [ ] **Things gamers do at the gym** (diagonală, joc de actor): stai pe telefon între seturi ✗, apoi pui telefonul jos și faci o mișcare de mobilitate ✓
+- [ ] **Your first 20-minute session** (unghiuri amestecate, câte 4 s): goblet squat, ramat, hip thrust, face pull, plank
+
+### 5. Dacă mai ai timp (de ieri)
+- [ ] hook „Mobility between sets”: te așezi pe saltea și te uiți în cameră, 2 s (pentru 16 nov)
+- [ ] gamer hunch: face pull, ramat, fluturări inverse, din profil (pentru 20 nov)
+- [ ] overhead reach test: din față, cu spatele la perete, reușit / nereușit (pentru 22 nov)
+- [ ] extensia toracică pe bancă (Custom Program)
+- [ ] G5 · stretching after gym, totul din profil: piept la perete, dorsali pe bancă, flexorii șoldului
+
+### Seara
+- [ ] îmi trimiți clipurile pe grupe: „Încălzire/cardio”, „Picioare 1”, „Picioare 2 + core”, „Reel-uri”
+
+---
+
 ## Restul săptămânii (lista completă e în Tracker, la fiecare zi)
 | Ziua | Reel-uri | Custom Program | La încălzire |
 |---|---|---|---|
