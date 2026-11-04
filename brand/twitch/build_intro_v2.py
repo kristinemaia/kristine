@@ -11,12 +11,13 @@ import build_stream_videos as B
 L, ff, ENC, CUR, OUT = B.L, B.ff, B.ENC, B.CUR, B.OUT
 CUT = 0.6
 # (clip curat, secunda de start) · se schimbă la fiecare 0,6 s
-MONTAGE = [('mus-G4-2', 1.0), ('mus-G3-2', 0.3), ('picioare-goblet-a', 2.2),            # GYM.
+MONTAGE = [('gaming-1', 3.0), ('gaming-1', 6.0),                                          # GAMING. (stream, pauza de stretch)
+           ('mus-G4-2', 1.0), ('mus-G3-2', 0.3), ('picioare-goblet-a', 2.2),            # GYM.
            ('DR-7953', 7.0), ('incalzire-coarda', 3.0), ('DR-7953', 13.0),                    # JUMPING.
            ('cook-1', 1.0), ('cook-2', 2.0), ('cook-3', 1.4), ('cook-4', 9.0),                 # COOKING.
            ('mobilitate-worlds-greatest-stretch', 6.0), ('G2-b', 5.0)]                         # STRETCH BREAKS.
-# (cuvânt, de la tăietura, până la) · GAMING. intră aici când primesc clipurile din joc
-WORDS = [('GYM.', 0, 3), ('JUMPING.', 3, 6), ('COOKING.', 6, 10), ('STRETCH', 10, 11), ('BREAKS.', 11, 12)]
+# (cuvânt, de la tăietura, până la)
+WORDS = [('GAMING.', 0, 2), ('GYM.', 2, 5), ('JUMPING.', 5, 8), ('COOKING.', 8, 12), ('STRETCH', 12, 13), ('BREAKS.', 13, 14)]
 
 def layers():
     num = lambda n: ('<div class="s" style="display:grid;place-items:center"><h1 style="font-size:620px;color:#fff;line-height:1">%s</h1></div>' % n)
