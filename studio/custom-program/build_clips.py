@@ -38,6 +38,13 @@ CLIPS = {
     'picioare-split-b':                   ('Split squat', 'Legs 1 · other leg', 3.0, None),
     'picioare-varfuri':                   ('Calf raises', 'Legs 1 · hand on the wall', 0.3, None, 'crop=1000:1778:20:0'),
     'picioare-wall-sit':                  ('Wall sit', 'Legs 1 · hold', 0.2, None, 'crop=1000:1778:20:0'),
+    # joi 5 nov: spate + core
+    'spate-face-pull':                    ('Face pull', 'Back · rope to your face, elbows high', 0.3, None),
+    'spate-lat-pulldown':                 ('Lat pulldown', 'Back · bar to your upper chest', 0.3, None),
+    'spate-lat-pulldown-b':               ('Lat pulldown', 'Back · slight lean back', 0.3, None),
+    'core-plank':                         ('Plank', 'Core · hold, body in one line', 0.3, None),
+    'core-plank-leg-lift':                ('Plank with leg lift', 'Core · alternate legs', 0.3, None),
+    'mobilitate-cobra':                   ('Cobra stretch', 'Mobility · chest up, hips down', 0.3, None),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
