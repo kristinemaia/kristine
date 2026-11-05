@@ -161,6 +161,39 @@ Diagonală 45° sau profil, tot corpul, **2 repetări lente + 1 normală**:
 
 ---
 
+## Joi 5 noiembrie · ~1,5 ore · spate + core (picioarele se odihnesc după ziua de ieri)
+_Prosopul alb, telefonul fix pe trepied. Ramatul la cablu și wall angel le avem deja din G1 și G3._
+
+### 1. Reel-ul cel mai urgent (2 min)
+- [ ] **hook „Mobility between sets”**: te așezi pe saltea între seturi și te uiți în cameră, 2 s (iese pe 16 nov)
+
+### 2. Spate pentru Custom Program (30 min)
+Din profil sau diagonală, tot corpul, **2 repetări lente + 1 normală**:
+- [ ] band pull-apart (din față)
+- [ ] ramat cu banda (din profil)
+- [ ] ramat cu ganteră, sprijinită pe bancă (din profil), ambele mâini
+- [ ] lat pulldown (din spate, ca să se vadă spatele)
+- [ ] face pull la cablu (din profil)
+- [ ] fluturări inverse cu gantere, aplecată (din profil)
+
+### 3. Core pentru Custom Program (20 min)
+- [ ] dead bug (pe saltea, din lateral)
+- [ ] bird dog (din lateral)
+- [ ] plank, 10 s (din lateral)
+- [ ] plank lateral, 10 s pe fiecare parte (din față)
+- [ ] pallof press cu banda sau la cablu (din față), ambele părți
+- [ ] hollow hold pentru începători, 10 s (din lateral)
+
+### 4. Reel-uri din aceleași exerciții (20 min)
+- [ ] **gamer hunch** (20 nov): face pull, ramat, fluturări inverse, câte 4–5 repetări, din profil
+- [ ] **overhead reach test** (22 nov): din față, cu spatele la perete, o dată reușit, o dată nereușit
+- [ ] **bonus: 3 lat pulldown mistakes** (8 dec), **din spate**, pentru mușchii luminați: umerii ridicați ✗ / jos ✓ · lăsată pe spate ✗ / dreaptă ✓ · tras repede ✗ / controlat, o secundă jos ✓
+
+### Mutate pe vineri 6
+hip thrust și reel-ul cu hip thrust · deadlift românesc · glute bridge · step-up · hip test 90/90 · things gamers do · first 20-min session · cardio la bandă
+
+---
+
 ## Restul săptămânii (lista completă e în Tracker, la fiecare zi)
 | Ziua | Reel-uri | Custom Program | La încălzire |
 |---|---|---|---|
