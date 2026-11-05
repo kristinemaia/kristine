@@ -45,6 +45,7 @@ CLIPS = {
     'core-plank':                         ('Plank', 'Core · hold, body in one line', 0.3, None),
     'core-plank-leg-lift':                ('Plank with leg lift', 'Core · alternate legs', 0.3, None),
     'mobilitate-cobra':                   ('Cobra stretch', 'Mobility · chest up, hips down', 0.3, None),
+    'core-bird-dog':                      ('Bird dog', 'Core · opposite arm and leg', 0.3, None),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
