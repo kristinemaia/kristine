@@ -1,0 +1,8 @@
+{"curat": true, "hook_dy": -80, "final_dy": -600,
+ "overlay_dir": "brand/reels-overlays/out/MBS", "hook": "MBS_1-hook.png", "final": "MBS_2-final.png",
+ "segments": [
+  {"clip": "MBS-8550", "ss": 0.2, "d": 9.0, "label": "MBS_eticheta-1-cat-cow-6-slow-rounds.png", "label_pos": [175, 230]},
+  {"clip": "MBS-8551", "ss": 1.5, "d": 7.5, "label": "MBS_eticheta-2-chest-opener-20-s-each-side.png", "label_pos": [116, 230]},
+  {"clip": "MBS-8552", "ss": 0.8, "d": 8.5, "label": "MBS_eticheta-3-lying-twist-20-s-each-side.png", "label_pos": [149, 230]},
+  {"clip": "MBS-8552", "ss": 9.0, "d": 3.0}
+ ]}

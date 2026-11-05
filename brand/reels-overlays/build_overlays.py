@@ -65,6 +65,9 @@ R = [
   [('My hips:', 'shoulders'), ('10-second fixes', 'shoulders'), ('Hip flexors', 'hips'), ('Upper back', 'shoulders'), ('Cat-cow', 'hips'), ('Better.', 'wrists')], False),
  ('G3-Form', 'wine', '3 cable row mistakes I see in every gym. Are you doing #2?', 'Are you doing #2?', "Send me your row. I'll rate it.", 'Your custom program → link in bio',
   [('Wrong · shoulders rounded', 'neck'), ('Right · shoulders back', 'wrists'), ('Wrong · leaning back', 'neck'), ('Right · sit tall', 'wrists'), ('Wrong · elbows out', 'neck'), ('Right · elbows close', 'wrists')], False),
+ # lotul 1 (refilmat 5 nov): Mobility between sets, postare 16 nov
+ ('MBS', 'hips', 'Mobility between sets: 60 seconds.', 'Mobility between sets', 'Save it for your next session.', PDF,
+  [('Cat-cow · 6 slow rounds', 'hips'), ('Chest opener · 20 s each side', 'shoulders'), ('Lying twist · 20 s each side', 'hips')], False),
  # lotul 2 (filmat 3 nov): 3 stretches after the gym (rezervă) și hang
  ('G5-Stretch', 'hips', '3 stretches I do after every gym session.', '3 stretches after the gym', 'Save it for after your next session.', PDF,
   [('Chest · 20 s each side', 'shoulders'), ('Lats · 20 s', 'shoulders'), ('Glutes · 20 s each side', 'hips')], False),

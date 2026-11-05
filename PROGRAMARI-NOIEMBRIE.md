@@ -38,7 +38,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 ### Săptămâna 16–22 nov · lansarea Custom Program
 | Ziua | Instagram | TikTok, 19:00 |
 |---|---|---|
-| lun 16 | 18:00 · Mobility between sets 🎬 | Mobility between sets 🎬 |
+| lun 16 | 18:00 · **Mobility between sets** ✏️ | Mobility between sets ✏️ |
 | mar 17 | 18:00 · **G3** · 3 cable row mistakes ✏️ | G3 🗓 |
 | mie 18 | 17:00 · Revo · After the gym (afiliat) ✏️ | Revo ✏️ |
 | joi 19 | 17:00 · **VirtuMe #1** · knows her vibe (AI + Paid partnership) ✏️ | VirtuMe #1 (dacă permite contractul) ✏️ |
@@ -88,7 +88,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 ## 4. Ce mai filmăm în noiembrie
 
 **Pentru reel-urile din noiembrie** (în ordinea datelor):
-- [ ] hook „Mobility between sets”: te așezi pe saltea și te uiți în cameră, 2 s (pentru 16 nov)
+- [x] Mobility between sets: refilmat și montat (5 nov)
 - [ ] gamer hunch: face pull, ramat, fluturări inverse, câte 4–5 repetări, din profil (20 nov)
 - [ ] overhead reach test: din față, cu spatele la perete, o dată reușit, o dată nereușit (22 nov)
 - [ ] things gamers do at the gym: telefonul între seturi, apoi o mișcare de mobilitate în loc (27 nov)

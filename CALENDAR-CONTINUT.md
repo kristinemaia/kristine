@@ -63,7 +63,7 @@ _Actualizat vineri, 30 octombrie 2026, după ce mi-ai spus ce ai programat. Orel
 | joi 12 nov, 17:00 | K4 · Salmon, potatoes & salad | 🗓 |
 | vin 13 nov, 17:00 | B4 · Warm-up before gaming | 🗓 |
 | dum 15 nov, 18:00 | **G2** · POV: you sat for 9 hours and now it's leg day | ✅ programat pe Instagram (2 nov); TikTok pe 5 nov |
-| lun 16 nov, 18:00 | Mobility between sets: 60 seconds | 🎬 lotul 1 |
+| lun 16 nov, 18:00 | **MBS** · Mobility between sets: 60 seconds | ✅ montat (5 nov), de programat |
 | mar 17 nov, 18:00 | **G3** · 3 cable row mistakes (form check) | ✅ montat (3 nov), de programat |
 | mie 18 nov, 17:00 | Revo · After the gym: the cream I reach for (cod KRISTINE20) | 🎬 lotul 1 |
 | joi 19 nov, 17:00 | **VirtuMe (AI twin) #1** · knows her vibe (eticheta AI + Paid partnership) | ✏️ |

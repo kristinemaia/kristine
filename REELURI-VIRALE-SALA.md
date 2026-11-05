@@ -117,6 +117,19 @@ Free 5-minute desk stretch → link in bio
 #deadhang #shoulders #gamerhealth #mobility #deskjob
 ```
 
+## MBS · „Mobility between sets: 60 seconds.” (~27 s) · refilmat 5 nov, postare 16 nov
+Cat-cow (hook) → chest opener la perete → lying twist pe saltea → final „Save it for your next session.”
+
+**Descriere:**
+```
+Mobility between sets: 60 seconds instead of scrolling. 📵
+Cat-cow, chest opener, lying twist. Do it while you rest, then go back to your set.
+General mobility, not medical advice.
+Free 5-minute desk stretch → link in bio
+
+#mobility #gymtips #restday #stretching #gamerhealth
+```
+
 ## Cum filmezi, pe scurt
 - **Toate trei într-o sesiune de ~45 de minute**, cu aceeași ținută (verde, albastru deschis, gri deschis sau crem), fără alți oameni, logo sau ferestre în cadru.
 - Telefonul **vertical, pe trepied**: pe diagonală, la înălțimea șoldului (G1, G2); din profil, la înălțimea pieptului (G3).
