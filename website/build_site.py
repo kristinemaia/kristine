@@ -435,10 +435,12 @@ LIBRARY = [
     ("Mobility", [("mobilitate-cat-cow-v2", "Cat-cow"), ("mobilitate-open-book-v2a", "Open book"),
                   ("mobilitate-worlds-greatest-stretch", "World's greatest stretch"), ("mobilitate-90-90-v2", "90/90 hip switch"),
                   ("mobilitate-flexori-sold", "Kneeling hip flexor stretch"), ("mobilitate-childs-pose", "Child's pose reach"),
-                  ("mobilitate-deep-squat-hold", "Deep squat hold")]),
+                  ("mobilitate-deep-squat-hold", "Deep squat hold"), ("mobilitate-cobra", "Cobra stretch")]),
     ("Legs", [("picioare-genuflexiune", "Bodyweight squat"), ("picioare-goblet-a", "Goblet squat"), ("picioare-goblet-b", "Dumbbell sumo squat"),
               ("picioare-fandare-inapoi", "Reverse lunge"), ("picioare-fandare-inainte", "Forward lunge"), ("picioare-split-a", "Split squat"),
               ("picioare-varfuri", "Calf raises"), ("picioare-wall-sit", "Wall sit")]),
+    ("Back", [("spate-lat-pulldown", "Lat pulldown"), ("spate-face-pull", "Face pull")]),
+    ("Core", [("core-plank", "Plank"), ("core-plank-leg-lift", "Plank with leg lift"), ("core-bird-dog", "Bird dog")]),
 ]
 
 def vclip(name, title, cls="vcard"):
@@ -572,7 +574,7 @@ training = """
 
 <section class="wrap block" id="library" aria-labelledby="lib-title">
   <div class="block-head"><p class="kicker">Inside the program</p><h2 id="lib-title">The exercise library, filmed in the gym</h2>
-  <p class="lead">A preview of the moves your program is built from. More are added every week: back, push, core and the home versions.</p></div>
+  <p class="lead">A preview of the moves your program is built from. More are added every week: push, cardio and the home versions.</p></div>
 """ + library_html() + """
 </section>
 

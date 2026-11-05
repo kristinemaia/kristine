@@ -113,6 +113,22 @@ Cele **4 videouri de început** (bun venit, cum folosești programul, siguranța
 - Fiecare reel de felul ăsta se termină cu **„Build your custom program → link in bio”**, care duce la chestionar.
 - Pentru reel-uri filmezi **în plus** doar cârligul (2–3 secunde la cameră) și, dacă vrei, o variantă vorbită. Restul vine din bibliotecă.
 
+## 4a. Ce e filmat și montat până acum (actualizat 5 nov)
+_Toate clipurile sunt montate (culoarea, numele exercițiului jos) și sunt pe site, în Training → „The exercise library”._
+
+| Grupa | Gata ✅ | Mai trebuie filmat ⬜ |
+|---|---|---|
+| **Încălzire** | coardă, cercuri de brațe, cercuri de șold, leg swings (înainte-înapoi și lateral), gambe (ambele picioare), respirația de reset | gleznă la perete |
+| **Mobilitate** | cat-cow (din lateral), open book (ambele părți), world's greatest stretch, 90/90, flexorii șoldului, child's pose, deep squat hold, cobra stretch | extensie toracică pe bancă |
+| **Picioare 1** | genuflexiune liberă, goblet squat, sumo squat cu gantera, split squat (ambele), fandare înapoi, fandare înainte, ridicări pe vârfuri, wall sit | glute bridge, step-up |
+| **Picioare 2 + core** | plank, plank cu ridicarea piciorului, bird dog | hip thrust, deadlift românesc, dead bug, plank lateral, pallof press, hollow hold |
+| **Spate** | lat pulldown (2 variante), face pull, ramat la cablu (din G3), wall angel (din G1) | band pull-apart, ramat cu banda, ramat cu ganteră, fluturări inverse |
+| **Împins + gât și încheieturi** | — | toată grupa (vineri 6 nov) |
+| **Cardio** | — | bandă, bicicletă cu spătar, spinning, stepper, eliptică (vezi „Cardio în Custom Program”) |
+| **Videourile vorbite** | — | bun venit, cum folosești programul, siguranța, cum îți filmezi forma (luni 9 nov) |
+
+**Pentru Custom Program v1 (15 nov) ajung:** Unstiff și Desk Reset (încălzirea și mobilitatea sunt gata), Get Strong și Shape Up pentru picioare și spate. Împinsul și cardio intră când le filmăm vineri.
+
 ## 4b. Drumul omului: de la chestionar la videouri (1 nov)
 1. **Site-ul (kristinemaia.com/training.html), gratuit:** omul face chestionarul și primește pe loc **planul lui**: traseul (Unstiff, Get Strong, Shape Up, Desk Reset), acasă/sală/ambele, câte zile, câte minute, **ce antrenament face în fiecare zi** (A, B, C, cardio), resetările pentru zonele lui și ce are de evitat (sănătate, dureri). Pe site **nu sunt videouri**; răspunsurile nu se trimit nicăieri.
 2. **Butonul din rezultat** îl duce la **abonamentul de pe Payhip** (acum: lista de așteptare). La lansare, butonul se schimbă după traseu: fiecare om ajunge direct la cursul lui.

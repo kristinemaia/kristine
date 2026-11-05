@@ -13,7 +13,8 @@ LIST = [(os.path.join(PROG, n + '.mp4'), n, 540, 1.5) for n in [
     'mobilitate-cat-cow-v2', 'mobilitate-open-book-v2a', 'mobilitate-worlds-greatest-stretch', 'mobilitate-90-90-v2',
     'mobilitate-flexori-sold', 'mobilitate-childs-pose', 'mobilitate-deep-squat-hold',
     'picioare-genuflexiune', 'picioare-goblet-a', 'picioare-goblet-b', 'picioare-fandare-inapoi', 'picioare-fandare-inainte',
-    'picioare-split-a', 'picioare-varfuri', 'picioare-wall-sit']] + [
+    'picioare-split-a', 'picioare-varfuri', 'picioare-wall-sit',
+    'spate-face-pull', 'spate-lat-pulldown', 'core-plank', 'core-plank-leg-lift', 'core-bird-dog', 'mobilitate-cobra']] + [
     (os.path.join(REEL, 'G4-Squat.mp4'), 'ghid-squat', 720, 4.0),
     (os.path.join(REEL, 'G3-Form.mp4'), 'ghid-cable-row', 720, 4.0),
     (os.path.join(REEL, 'G6-Hang.mp4'), 'ghid-hang', 720, 4.0)]
