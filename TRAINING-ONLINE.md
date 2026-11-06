@@ -121,7 +121,7 @@ _Toate clipurile sunt montate (culoarea, numele exercițiului jos) și sunt pe s
 | **Încălzire** | coardă, cercuri de brațe, cercuri de șold, leg swings (înainte-înapoi și lateral), gambe (ambele picioare), respirația de reset | gleznă la perete |
 | **Mobilitate** | cat-cow (din lateral), open book (ambele părți), world's greatest stretch, 90/90, flexorii șoldului, child's pose, deep squat hold, cobra stretch | extensie toracică pe bancă |
 | **Picioare 1** | genuflexiune liberă, goblet squat, sumo squat cu gantera, split squat (ambele), fandare înapoi, fandare înainte, ridicări pe vârfuri, wall sit | glute bridge, step-up |
-| **Picioare 2 + core** | plank, plank cu ridicarea piciorului, bird dog | hip thrust, deadlift românesc, dead bug, plank lateral, pallof press, hollow hold |
+| **Picioare 2 + core** | plank, plank cu ridicarea piciorului, bird dog, plank lateral | hip thrust, deadlift românesc, dead bug, pallof press, hollow hold |
 | **Spate** | lat pulldown (2 variante), face pull, ramat la cablu (din G3), wall angel (din G1) | band pull-apart, ramat cu banda, ramat cu ganteră, fluturări inverse |
 | **Împins + gât și încheieturi** | — | toată grupa (vineri 6 nov) |
 | **Cardio** | — | bandă, bicicletă cu spătar, spinning, stepper, eliptică (vezi „Cardio în Custom Program”) |

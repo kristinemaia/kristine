@@ -440,7 +440,7 @@ LIBRARY = [
               ("picioare-fandare-inapoi", "Reverse lunge"), ("picioare-fandare-inainte", "Forward lunge"), ("picioare-split-a", "Split squat"),
               ("picioare-varfuri", "Calf raises"), ("picioare-wall-sit", "Wall sit")]),
     ("Back", [("spate-lat-pulldown", "Lat pulldown"), ("spate-face-pull", "Face pull")]),
-    ("Core", [("core-plank", "Plank"), ("core-plank-leg-lift", "Plank with leg lift"), ("core-bird-dog", "Bird dog")]),
+    ("Core", [("core-plank", "Plank"), ("core-plank-leg-lift", "Plank with leg lift"), ("core-bird-dog", "Bird dog"), ("core-plank-lateral", "Side plank")]),
 ]
 
 def vclip(name, title, cls="vcard"):

@@ -215,7 +215,7 @@ _Prioritatea e programul (lansare 15 nov). Prosopul alb, telefonul fix pe trepie
 
 ### 3. Core (15 min) · Custom Program
 - [ ] dead bug (din lateral)
-- [ ] plank lateral, 10 s pe fiecare parte (din față)
+- [x] plank lateral (filmat joi, montat)
 - [ ] pallof press cu banda sau la cablu, ambele părți (din față)
 - [ ] hollow hold pentru începători, 10 s (din lateral)
 
