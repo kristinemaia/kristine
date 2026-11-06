@@ -47,6 +47,14 @@ CLIPS = {
     'mobilitate-cobra':                   ('Cobra stretch', 'Mobility · chest up, hips down', 0.3, None),
     'core-bird-dog':                      ('Bird dog', 'Core · opposite arm and leg', 0.3, None),
     'core-plank-lateral':                 ('Side plank', 'Core · hold, then switch sides', 0.2, None),
+    # vineri 6 nov: gât, încheieturi, glute bridge
+    'gat-lateral':                        ('Neck side stretch', 'Neck · ear toward shoulder, both sides', 0.3, None),
+    'gat-chin-tucks':                     ('Chin tucks', 'Neck · slide your chin straight back', 0.3, None),
+    'gat-semicercuri':                    ('Neck half circles', 'Neck · slow, no full circles', 0.3, None),
+    'incheieturi-palma-jos':              ('Wrist stretch, palm down', 'Wrists · 15 s each hand', 0.3, None),
+    'incheieturi-palma-sus':              ('Wrist stretch, palm up', 'Wrists · 15 s each hand', 0.3, None),
+    'incheieturi-cercuri':                ('Wrist circles', 'Wrists · both ways', 0.3, None),
+    'picioare-glute-bridge':              ('Glute bridge', 'Legs · squeeze at the top', 0.3, None),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
