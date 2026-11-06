@@ -194,6 +194,39 @@ hip thrust și reel-ul cu hip thrust · deadlift românesc · glute bridge · st
 
 ---
 
+## Vineri 6 noiembrie · ~2 ore · împins + ce lipsește pentru Custom Program
+_Prioritatea e programul (lansare 15 nov). Prosopul alb, telefonul fix pe trepied, 2 repetări lente + 1 normală._
+
+### 1. Împins + gât și încheieturi (35 min) · Custom Program
+- [ ] flotare înclinată, cu mâinile pe bancă (din profil)
+- [ ] flotare (din profil); dacă vrei, și varianta pe genunchi
+- [ ] împins cu gantere de la podea (din profil)
+- [ ] împins deasupra capului cu gantere, în picioare (din față-diagonală)
+- [ ] împins cu banda, în picioare (din profil)
+- [ ] chin tucks: bărbia spre spate, ca un „dublu bărbie” (din profil, aproape, de la piept în sus)
+- [ ] gâtul lateral: urechea spre umăr, ambele părți (din față)
+- [ ] încheieturile: cercuri, palma în sus întinsă, palma în jos întinsă (din față, aproape)
+
+### 2. Picioare 2 (20 min) · Custom Program
+- [ ] hip thrust pe bancă (din profil)
+- [ ] deadlift românesc cu gantere (din profil)
+- [ ] glute bridge pe saltea (din profil)
+- [ ] step-up pe bancă, ambele picioare (muți telefonul)
+
+### 3. Core (15 min) · Custom Program
+- [ ] dead bug (din lateral)
+- [ ] plank lateral, 10 s pe fiecare parte (din față)
+- [ ] pallof press cu banda sau la cablu, ambele părți (din față)
+- [ ] hollow hold pentru începători, 10 s (din lateral)
+
+### 4. Dacă mai ai energie (reel)
+- [ ] **3 hip thrust mistakes** (din profil, greutate mică; întâi greșit, apoi corect): spatele arcuit ✗ / bazinul neutru ✓ · picioarele prea departe ✗ / tibiile verticale ✓ · urci repede ✗ / o secundă sus ✓
+
+### Mutate pe luni 9 (cu videourile vorbite)
+spate: band pull-apart, ramat cu banda, ramat cu ganteră, fluturări inverse · extensia toracică · glezna la perete · reel-urile gamer hunch și overhead reach test · cardio la aparate
+
+---
+
 ## Restul săptămânii (lista completă e în Tracker, la fiecare zi)
 | Ziua | Reel-uri | Custom Program | La încălzire |
 |---|---|---|---|
