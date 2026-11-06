@@ -679,3 +679,14 @@ Cum arată o ședință de masaj de recuperare, pas cu pas 🌿 #masajderecupera
 - Numele tău legal, adresa, cartierul, orarele exacte de plecare.
 - Reiki, ventuze, dry needling (pe contul KM).
 - „Diet”, „guilt-free”, „clean eating” și promisiuni de slăbit (pe contul Kristine Maia).
+
+
+### W1 · Sâm 14 nov, 18:00 · Carusel „This week I filmed my whole program” (anunțul lansării)
+```
+This week I filmed my whole program. 40+ exercises, every one with a home version. 🎬
+Legs, back, core, mobility, built for people who sit all day.
+
+Your custom program launches 16 November. Take the 2-minute quiz → link in bio
+
+#customprogram #gymgirl #onlinecoaching #deskjob #mobility #gamerhealth
+```

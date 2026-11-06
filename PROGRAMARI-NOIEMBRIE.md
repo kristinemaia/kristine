@@ -32,7 +32,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | mie 11 | 17:00 · Bewit · My evening cacao ritual (afiliat) 🗓 | Bewit 🗓 |
 | joi 12 | 17:00 · K4 · Salmon, potatoes & salad 🗓 | K4 🗓 |
 | vin 13 | 17:00 · B4 · Warm-up before gaming 🗓 | B4 🗓 |
-| sâm 14 | — | clip din stream: seated stretch 🗓 |
+| sâm 14 | 18:00 · **Carusel W1** · This week I filmed my whole program (anunțul lansării) ✏️ | clip din stream: seated stretch 🗓 |
 | dum 15 | 18:00 · **G2** · POV: 9 hours, then leg day 🗓 | G2 🗓 |
 
 ### Săptămâna 16–22 nov · lansarea Custom Program
