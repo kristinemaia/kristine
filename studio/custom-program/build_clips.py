@@ -55,6 +55,13 @@ CLIPS = {
     'incheieturi-palma-sus':              ('Wrist stretch, palm up', 'Wrists · 15 s each hand', 0.3, None),
     'incheieturi-cercuri':                ('Wrist circles', 'Wrists · both ways', 0.3, None),
     'picioare-glute-bridge':              ('Glute bridge', 'Legs · squeeze at the top', 0.3, None),
+    'core-dead-bug':                      ('Dead bug', 'Core · low back stays down', 0.3, None),
+    'core-high-plank':                    ('High plank', 'Core · hands under shoulders', 0.3, None),
+    'core-tabletop-crunch':               ('Tabletop crunch', 'Core · legs up, slow', 0.3, None),
+    'core-russian-twist':                 ('Russian twist', 'Core · lean back, rotate', 0.3, None),
+    'spate-swimmers':                     ('Prone swimmers', 'Back · arms sweep low and slow', 0.3, None),
+    'spate-ramat-gantera':                ('One-arm dumbbell row', 'Back · elbow to your hip, each side', 0.3, None),
+    'impins-flotare-inclinata':           ('Incline push-up', 'Push · hands on a bench', 0.3, None),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
