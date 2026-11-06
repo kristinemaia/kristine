@@ -62,6 +62,18 @@ CLIPS = {
     'spate-swimmers':                     ('Prone swimmers', 'Back · arms sweep low and slow', 0.3, None),
     'spate-ramat-gantera':                ('One-arm dumbbell row', 'Back · elbow to your hip, each side', 0.3, None),
     'impins-flotare-inclinata':           ('Incline push-up', 'Push · hands on a bench', 0.3, None),
+    'mobilitate-open-book-v3a':           ('Open book', 'Mobility · first side', 0.3, None),   # refilmat 6 nov
+    'mobilitate-open-book-v3b':           ('Open book', 'Mobility · other side', 0.3, None),
+    'picioare-hip-thrust':                ('Hip thrust', 'Legs · upper back on a bench, squeeze at the top', 0.3, None),
+    'picioare-rdl':                       ('Romanian deadlift', 'Legs · hips back, dumbbells close to your legs', 0.3, None),
+    'spate-fluturari-inverse':            ('Reverse fly', 'Back · hinge forward, arms wide', 0.3, None),
+    'impins-umeri-gantere':               ('Seated shoulder press', 'Push · dumbbells up, ribs down', 0.3, None),
+    'umeri-ridicari-frontale':            ('Front raise', 'Shoulders · to shoulder height, slow', 0.3, None),
+    'umeri-ridicari-laterale':            ('Lateral raise', 'Shoulders · elbows soft, to shoulder height', 0.3, None),
+    'mobilitate-triceps':                 ('Triceps stretch', 'Mobility · 20 s each arm', 0.3, None),
+    'cardio-spinning':                    ('Spin bike', 'Cardio · seat at hip height', 0.3, None),
+    'cardio-bicicleta-spatar':            ('Recumbent bike', 'Cardio · easy on knees and back', 0.3, None),
+    'cardio-banda':                       ('Incline walk', 'Cardio · don\'t hold the rails', 0.3, None),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
