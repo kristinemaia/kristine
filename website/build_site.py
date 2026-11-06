@@ -432,15 +432,23 @@ LIBRARY = [
     ("Warm-up", [("incalzire-coarda", "Jump rope"), ("incalzire-cercuri-brate", "Arm circles"), ("incalzire-cercuri-sold", "Hip circles"),
                  ("incalzire-leg-swings", "Leg swings"), ("incalzire-leg-swings-lateral", "Lateral leg swings"),
                  ("incalzire-gambe", "Calf & hamstring stretch"), ("incalzire-respiratie", "Reset breathing")]),
-    ("Mobility", [("mobilitate-cat-cow-v2", "Cat-cow"), ("mobilitate-open-book-v2a", "Open book"),
+    ("Mobility", [("mobilitate-cat-cow-v2", "Cat-cow"), ("mobilitate-open-book-v3a", "Open book"),
                   ("mobilitate-worlds-greatest-stretch", "World's greatest stretch"), ("mobilitate-90-90-v2", "90/90 hip switch"),
                   ("mobilitate-flexori-sold", "Kneeling hip flexor stretch"), ("mobilitate-childs-pose", "Child's pose reach"),
-                  ("mobilitate-deep-squat-hold", "Deep squat hold"), ("mobilitate-cobra", "Cobra stretch")]),
+                  ("mobilitate-deep-squat-hold", "Deep squat hold"), ("mobilitate-cobra", "Cobra stretch"), ("mobilitate-triceps", "Triceps stretch")]),
     ("Legs", [("picioare-genuflexiune", "Bodyweight squat"), ("picioare-goblet-a", "Goblet squat"), ("picioare-goblet-b", "Dumbbell sumo squat"),
               ("picioare-fandare-inapoi", "Reverse lunge"), ("picioare-fandare-inainte", "Forward lunge"), ("picioare-split-a", "Split squat"),
-              ("picioare-varfuri", "Calf raises"), ("picioare-wall-sit", "Wall sit")]),
-    ("Back", [("spate-lat-pulldown", "Lat pulldown"), ("spate-face-pull", "Face pull")]),
-    ("Core", [("core-plank", "Plank"), ("core-plank-leg-lift", "Plank with leg lift"), ("core-bird-dog", "Bird dog"), ("core-plank-lateral", "Side plank")]),
+              ("picioare-varfuri", "Calf raises"), ("picioare-wall-sit", "Wall sit"),
+              ("picioare-glute-bridge", "Glute bridge"), ("picioare-hip-thrust", "Hip thrust"), ("picioare-rdl", "Romanian deadlift")]),
+    ("Back", [("spate-lat-pulldown", "Lat pulldown"), ("spate-face-pull", "Face pull"), ("spate-ramat-gantera", "One-arm dumbbell row"),
+              ("spate-fluturari-inverse", "Reverse fly"), ("spate-swimmers", "Prone swimmers")]),
+    ("Push & shoulders", [("impins-flotare-inclinata", "Incline push-up"), ("impins-umeri-gantere", "Seated shoulder press"),
+              ("umeri-ridicari-laterale", "Lateral raise"), ("umeri-ridicari-frontale", "Front raise")]),
+    ("Core", [("core-plank", "Plank"), ("core-plank-leg-lift", "Plank with leg lift"), ("core-bird-dog", "Bird dog"), ("core-plank-lateral", "Side plank"),
+              ("core-high-plank", "High plank"), ("core-dead-bug", "Dead bug"), ("core-tabletop-crunch", "Tabletop crunch"), ("core-russian-twist", "Russian twist")]),
+    ("Neck & wrists", [("gat-chin-tucks", "Chin tucks"), ("gat-lateral", "Neck side stretch"), ("gat-semicercuri", "Neck half circles"),
+              ("incheieturi-palma-sus", "Wrist stretch, palm up"), ("incheieturi-palma-jos", "Wrist stretch, palm down"), ("incheieturi-cercuri", "Wrist circles")]),
+    ("Cardio", [("cardio-banda", "Incline walk"), ("cardio-spinning", "Spin bike"), ("cardio-bicicleta-spatar", "Recumbent bike")]),
 ]
 
 def vclip(name, title, cls="vcard"):
@@ -574,7 +582,7 @@ training = """
 
 <section class="wrap block" id="library" aria-labelledby="lib-title">
   <div class="block-head"><p class="kicker">Inside the program</p><h2 id="lib-title">The exercise library, filmed in the gym</h2>
-  <p class="lead">A preview of the moves your program is built from. More are added every week: push, cardio and the home versions.</p></div>
+  <p class="lead">A preview of the moves your program is built from. More are added every week, including the home versions.</p></div>
 """ + library_html() + """
 </section>
 
