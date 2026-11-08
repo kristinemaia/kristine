@@ -259,6 +259,44 @@ Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi 
 - [ ] Un bec cald, de 2.700 K, pentru lustra din mijloc
 - [ ] Borcane la fel, cu etichete (ovăz, orez, paste, nuci)
 
+### Livingul, de sus: zonele și unde stă fiecare lucru (după poza cu tot livingul, 8 noiembrie)
+Tot livingul e o singură cameră cu mai multe roluri: stat, citit, stream, birou și trecere spre bucătărie. Ca să fie ușor pentru amândoi, fiecare parte are o zonă, iar fiecare lucru are un singur loc. Schița de sus e pe pagina cu schițe, la „Livingul, de sus”.
+
+**Zonele:**
+1. **Zona de stat:** canapeaua, pouful cu tava (măsuța voastră) și covorul. Lângă canapea, un coș cu capac pentru pleduri.
+2. **Colțul de citit:** fotoliul, lampa și măsuța cu harta.
+3. **Raftul din stânga:** radioul, trofeele, lumânările; jos, cutiile împletite.
+4. **Raftul din dreapta** e fundalul streamului: câteva lucruri frumoase sus, iar jos cutiile pentru controllere și pentru echipamentul de sală.
+5. **Biroul de sub televizor:** are un stăpân și o cutie a lui sub birou.
+6. **Colțul de stream:** la fel, stăpânul lui și cutia lui.
+7. **Insula:** blatul liber, doar tava de fructe. Sub ea, depozitul cu cutii etichetate, iar sertarul de sus devine locul de încărcat telefoanele.
+8. **Culoarul liber:** de la hol spre bucătărie și spre birouri, cam 80 cm. Pe jos nu stă nimic, iar robotul trece singur.
+9. **Balconul:** mopul, găleata și uscătorul, într-un dulăpior închis. Din poze pare că ușa de balcon e chiar în spatele canapelei. Dacă vreți să ieșiți des, canapeaua modulară se poate trage cu 70–80 cm în față.
+
+**Unde stă fiecare lucru:**
+
+| Lucrul | Locul lui |
+|---|---|
+| Telecomenzile | pe tava de pe puf |
+| Pledurile | împăturite, în coșul cu capac de lângă canapea |
+| Telefoanele, la încărcat | în sertarul de sus al insulei, cu un prelungitor cu USB („sertarul de încărcare”) |
+| Controllerele și căștile | în cutia împletită de pe raftul din dreapta |
+| Benzile și coarda | în cealaltă cutie împletită de pe raftul din dreapta |
+| Acte, cabluri de rezervă, aparate | în cutiile etichetate din dulapul de sub insulă |
+| Lucrurile fiecăruia | în cutia de sub biroul lui; fiecare birou are un stăpân |
+| Gențile, rucsacul, pălăria | pe cârligele de la intrare |
+| Cănile și paharele | seara, în mașina de spălat vase |
+| Notițele | pe tabla albă cu ramă, nu pe perete |
+| Ce nu știi unde merge | în coșul „al nimănui” de la intrarea în living; duminica îl goliți |
+
+**Ca să rămână așa, pentru amândoi:**
+- **Seara, 10 minute, împreună:** cănile în mașina de vase, pledul împăturit în coș, telecomenzile pe tavă, birourile libere, podeaua liberă. Apoi porniți robotul.
+- **Duminica, 20 de minute în living:** praf pe rafturi, aspirat canapeaua (părul pisicilor se vede pe catifea), scuturat pledurile, golit coșul „al nimănui”.
+- **În zonele comune** (canapeaua, insula, pouful) nimic personal nu rămâne peste noapte.
+- **Ce intră nou în living** (decor, mobilă, aparate) hotărâți împreună și îi găsiți locul înainte să-l cumpărați.
+
+**Ce mai cumpărați pentru living, pe lângă ce e mai jos:** un coș cu capac pentru pleduri, un prelungitor cu USB pentru sertarul de încărcare, 2 cutii mici pentru sub birouri și un coș pentru „al nimănui”.
+
 ### Livingul (după poza din 8 noiembrie)
 **Cum arată acum:** o canapea mare, bleumarin, în L, cu puf, în fața ușii de balcon cu draperii negre. În colț e un raft negru plin de lucruri mărunte. Pe peretele din dreapta sunt televizorul, cu cablul atârnând și hârtii lipite deasupra, și două birouri cu scaunul de gaming. În stânga e sacul de box. Pe canapea, pledul e întins, iar pe braț e un lucru colorat. Podeaua e frumoasă, dar goală.
 
