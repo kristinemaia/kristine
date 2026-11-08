@@ -2,6 +2,8 @@
 
 _8 noiembrie 2026. Un plan pe 7 zile ca să vă încapă lucrurile amândurora, iar casa să fie curată și cochetă._
 
+**Schițele (cum arată fiecare loc după organizare, lângă pozele tale):** https://claude.ai/artifact/Q5gZ8Laf2bGrZj8V49zg36
+
 **Pe scurt:** nu ești „dezorganizată”. Ați pus două vieți într-o singură casă fără un sistem. O casă arată ordonată când fiecare lucru are un loc fix și suprafețele sunt libere. Tot planul pleacă de aici.
 
 ## Cele 5 reguli
