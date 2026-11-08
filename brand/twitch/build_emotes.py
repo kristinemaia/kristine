@@ -87,19 +87,29 @@ def squat(t):
     figure(d, hip, sh, hd, [P(.66, .4 + dy), P(.82, .4 + dy)], [P(.66, .42 + dy), P(.82, .42 + dy)],
            [knee, P(.58, .93)], [(knee[0] + 14, knee[1] + 6), P(.62, .93)])
     return im
-# 4. Water: sticla de apă care se înclină spre „gură”, cu picături
+# 4. Water: sticla „sare” și apa țâșnește afară pe sus, în picături care cad
 def water(t):
-    im = canvas().rotate(0); d = ImageDraw.Draw(im); k = ease(t)
+    im = canvas(); d = ImageDraw.Draw(im)
+    hop = abs(math.sin(math.pi * t)) * .05                      # sticla sare puțin
     b = Image.new('RGBA', (N, N), (0, 0, 0, 0)); db = ImageDraw.Draw(b)
-    db.rounded_rectangle([N * .34, N * .26, N * .66, N * .9], 60, fill=INK); db.rounded_rectangle([N * .34 + 14, N * .26 + 14, N * .66 - 14, N * .9 - 14], 48, fill=BLUE)
-    db.rectangle([N * .34 + 14, N * .26 + 14, N * .66 - 14, N * .5], fill=CREAM)
-    db.rounded_rectangle([N * .41, N * .12, N * .59, N * .3], 22, fill=INK); db.rounded_rectangle([N * .41 + 12, N * .12 + 12, N * .59 - 12, N * .3 - 12], 14, fill=WINE)
-    db.rectangle([N * .34 + 14, N * .6, N * .66 - 14, N * .7], fill=WINE)
-    b = b.rotate(-25 * k, resample=Image.BICUBIC, center=(N * .5, N * .6)); im.alpha_composite(b)
-    if k > .35:
-        for i, (x, y) in enumerate([(.2, .3), (.14, .48), (.24, .6)]):
-            c = P(x, y + .05 * k); r = 20
-            d.ellipse([c[0] - r - 9, c[1] - r - 9, c[0] + r + 9, c[1] + r + 9], fill=INK); d.ellipse([c[0] - r, c[1] - r, c[0] + r, c[1] + r], fill=BLUE)
+    y0 = .4 - hop
+    db.rounded_rectangle([N * .33, N * y0, N * .67, N * (y0 + .6)], 60, fill=INK); db.rounded_rectangle([N * .33 + 14, N * y0 + 14, N * .67 - 14, N * (y0 + .6) - 14], 48, fill=BLUE)
+    db.rectangle([N * .33 + 14, N * y0 + 14, N * .67 - 14, N * (y0 + .2)], fill=CREAM)
+    db.rectangle([N * .33 + 14, N * (y0 + .33), N * .67 - 14, N * (y0 + .42)], fill=WINE)
+    db.rounded_rectangle([N * .42, N * (y0 - .08), N * .58, N * (y0 + .03)], 18, fill=INK); db.rounded_rectangle([N * .42 + 11, N * (y0 - .08) + 11, N * .58 - 11, N * (y0 + .03) - 11], 12, fill=BLUE)
+    b = b.rotate(8 * math.sin(2 * math.pi * t), resample=Image.BICUBIC, center=(N * .5, N * .7)); im.alpha_composite(b); d = ImageDraw.Draw(im)
+    # jetul: 6 picături care pleacă din gât, urcă în evantai și cad
+    top = (N * .5, N * (y0 - .08))
+    for i in range(6):
+        ph = (t + i / 6) % 1.0
+        ang = math.radians(-90 + (-45 + 18 * i))
+        v = N * 1.0; g = N * 2.3
+        x = top[0] + math.cos(ang) * v * ph * .9
+        y = top[1] + math.sin(ang) * v * ph + .5 * g * ph * ph
+        r = 22 - 8 * ph
+        if 0 < y < N - r:
+            d.ellipse([x - r - 8, y - r - 8, x + r + 8, y + r + 8], fill=INK); d.ellipse([x - r, y - r, x + r, y + r], fill=BLUE)
+            d.ellipse([x - r * .45, y - r * .55, x - r * .05, y - r * .15], fill=CREAM)
     return im
 # 5. GG: literele „pulsează”
 def gg(t):
