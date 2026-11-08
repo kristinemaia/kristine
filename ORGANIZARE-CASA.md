@@ -74,12 +74,43 @@ Nu e „el îmi spune ce fac greșit”, ci „cum vrem să funcționeze casa no
 - **Noptiera:** cel mult 3 lucruri (lampa, ceva de citit, crema). Încărcătorul trece prin spate.
 - **Un coș de rufe cu două compartimente** (alb și colorat).
 
-### Baia
-- Fiecare are un coș sau o parte de raft a lui.
-- Pe chiuvetă stau doar săpunul, periuțele și cel mult 1–2 lucruri, în recipiente asortate.
-- **Cosmeticele, într-un organizator cu sertare** (ten, păr, machiaj, unghii). Ce e expirat sau n-ai folosit de 6 luni pleacă.
-- **Prosoape de aceeași culoare** (alb, crem sau gri): baia arată mai cochetă imediat.
-- Sub chiuvetă: produsele de curățenie, într-un singur coș.
+### Baia (după poza din 8 noiembrie)
+**Cum arată acum:** baia e bună în sine (faianță crem cu dungă neagră, blat lung, dulapuri dedesubt, uscător de prosoape). Pare dezordonată din 4 motive:
+1. **Ustensilele de curățenie** stau în colțul dintre duș și toaletă: mopul cu găleata, mătura, făraşul, uscătorul de rufe pliat, o cârpă pe jos.
+2. **Cosmeticele** stau toate pe blat: sticle, spray-uri, trusa roz, coșulețul.
+3. **Covorașele cu SpongeBob și scăunelul roșu.** Sunt cele mai colorate lucruri din baie și le vezi primele.
+4. **Lipsește placa de la butonul de tras apa**, deasupra toaletei, așa că se vede mecanismul. De aici impresia de „neterminat”.
+
+**1. Colțul cu ustensile se golește.**
+- Mopul, găleata, mătura și uscătorul de rufe merg pe balcon sau în cămară, dacă aveți.
+- Dacă trebuie să rămână în baie: un suport de perete pentru mop și mătură în colț (în Turcia, „mop tutucu”). Găleata stă dedesubt, cu mopul în ea și fără cârpa udă. Cârpa se usucă și se pune în dulap.
+- Rămân la vedere doar peria de toaletă și coșul de gunoi, care sunt deja asortate (inox).
+
+**2. Blatul, aproape gol.**
+- **Pe blat rămân doar:** săpunul, un pahar pentru periuțe și **o tavă** cu cel mult 5–6 produse pe care le folosești zilnic.
+- **Tot restul intră în dulapurile de sub chiuvetă și în dulapul de sus**, în cutii sau coșuri la fel, pe categorii: ten, păr, corp, machiaj, rezerve.
+- **Fiecare are coșul lui.** Tu pe ale tale, el pe ale lui.
+- **Înainte:** scoți tot de pe blat. Ce e gol, expirat sau n-ai mai folosit de 6 luni pleacă.
+- **Pentru un aspect mai cochet:** dozatoare la fel pentru săpun, șampon și gel de duș, negre sau albe. Negrul se potrivește cu dunga din faianță.
+
+**3. Textilele.**
+- **Un singur covoraș simplu, crem, bej sau gri, în fața dușului.** Acolo ieși ud și chiar e nevoie de el, mai mult decât în fața toaletei.
+- **Covorașele cu SpongeBob** sunt amuzante, dar sunt cele mai „gălăgioase” lucruri din baie. Dacă sunt ale lui și ține la ele, păstrați unul. Hotărâți împreună.
+- **Prosoape de aceeași culoare**, de exemplu albe sau crem. Fiecare are prosopul lui: unul pe uscător, unul pe cârligul de lângă duș. Mai puneți un cârlig, ca să fie două.
+- **Scăunelul roșu:** dacă îl folosiți la ceva anume, îl înlocuiți cu unul mic, alb sau din lemn. Dacă nu, iese din baie.
+- Rolele de rezervă de hârtie igienică stau în dulap sau într-un coș.
+
+**4. Placa de la butonul de tras apa.** Uită-te pe mecanism ce marcă e (Geberit, Grohe, Vitra și altele) și fă-i o poză. Cu poza, la un magazin de bricolaj (de exemplu Koçtaş) sau la un instalator, găsiți placa potrivită. E o schimbare mică, iar baia arată imediat terminată.
+
+**Litiera nu merge în baia asta.** Baia e mică, aici e mașina de spălat (zgomotul sperie pisicile), iar ușa ar trebui să stea mereu deschisă.
+
+**Ce cumpărați pentru baie:**
+- [ ] Placa pentru butonul de tras apa (după marca mecanismului)
+- [ ] Suport de perete pentru mop și mătură (doar dacă rămân în baie)
+- [ ] O tavă pentru blat și 4–5 cutii sau coșuri la fel pentru dulapuri
+- [ ] Dozatoare la fel (săpun, șampon, gel de duș)
+- [ ] Un covoraș simplu pentru duș
+- [ ] Prosoape de aceeași culoare și un al doilea cârlig
 
 ### Bucătăria
 - **Pe blat, cel mult 3–4 lucruri:** fierbătorul sau espressorul, suportul de ustensile, o tavă cu ulei, sare și piper.
