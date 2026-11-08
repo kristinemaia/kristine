@@ -59,7 +59,7 @@ Nu e „el îmi spune ce fac greșit”, ci „cum vrem să funcționeze casa no
 **2. Sacii negri din colț.** Dacă e gunoi, îl duceți azi. Dacă sunt lucrurile tale de la mutare, cu ei începi triajul.
 
 **3. Intrarea devine o intrare adevărată:**
-- **În colțul unde e acum litiera:** un pantofar îngust, de 17–25 cm adâncime (în Turcia îl găsești ca „ince ayakkabılık”). Deasupra pui o tăviță pentru chei și o plantă mică sigură pentru pisici. La ușă rămân doar pantofii de săptămâna asta, restul merg în pantofar.
+- **În colțul unde e acum litiera:** un pantofar îngust, de 17–25 cm adâncime (în Turcia îl găsești ca „ince ayakkabılık”). Deasupra pui o tăviță pentru chei și o plantă mică sigură pentru pisici. La ușă rămân doar pantofii de săptămâna asta, restul merg în pantofar. Tot în pantofar, un coș pentru căciuli, fulare și mănuși.
 - **Pe peretele lung din dreapta** (între ușa din mijloc și calorifer): un șir de cârlige sau un cuier de perete, la vreo 1,70 m, pentru geci și genți. Câte 2 cârlige pentru fiecare și unul pentru musafiri. Lângă cârlige pui o oglindă: holul pare mai mare și te vezi înainte să pleci. Folosiți oglinda mare din living, cea cu chipurile desenate, prinsă de perete, ca să nu cadă peste pisici sau peste robot.
 - **Căsuța pisicilor** poate rămâne lângă calorifer, pentru că pisicilor le place la cald. Sau o mutați în living, lângă o fereastră. Oricum, apa și mâncarea stau departe de litieră.
 - **Un preș pe interior**, la ușă, ca să nu intre praful în casă.
@@ -116,20 +116,32 @@ Restul hainelor tale merg în sertarele noi și în partea ta de bară.
 - **Îl păstrez, dar nu-l folosesc** (amintiri, haine de sezon, echipament): în cutii cu capac, etichetate, în compartimentul gol de sus sau sub pat.
 - **Îl folosesc:** în secțiunea lui.
 
-**2. Apoi, harta ta (o propunere):**
+**2. Harta ta, pe compartimente (actualizat pe 8 noiembrie).** Secțiunea ta ține hainele de zi cu zi, hainele de vară, lenjeriile de pat și păturile. Fiecare compartiment are o literă, ca în schiță. Regula: ce folosești zilnic stă la mijloc, între genunchi și ochi; ce folosești rar stă sus sau jos de tot.
 
-| Unde | Ce pui |
-|---|---|
-| Sus de tot, compartimentul gol | Cutiile lui cu lucruri păstrate și hainele de vară ale amândurora, în pungi vacuum |
-| Stânga, cele 2 rafturi | Tricourile și bluzele tale, împăturite |
-| Stânga, bara scurtă | Bluzele care se șifonează și jachetele tale, pe umerașe la fel |
-| Stânga, jos | Păturile, într-o husă cu fermoar („hurç”) sau într-o pungă vacuum, cu etichetă |
-| Dreapta, raftul de sus | Căciuli, fulare, mănuși, într-un coș |
-| Dreapta, al doilea raft | Hanorace și pulovere |
-| Dreapta, al treilea raft (cel mai la îndemână) | Seturile de sală, pe care le folosești cel mai des |
-| Dreapta, al patrulea raft | Colanți, haine de casă, pijamale |
-| Sertarul mic | Lenjerie și șosete, cu separatoare |
-| Jos, sub sertar | Lenjeriile de pat, fiecare set în fața lui de pernă |
+| | Unde | Ce pui | Cât de des |
+|---|---|---|---|
+| A | Sus, stânga | Hainele tale de vară, în 2–3 pungi vacuum puse una peste alta | până în aprilie, deloc |
+| B | Primul raft din stânga | Tricourile, în teancuri la aceeași lățime, cu separator între ele | zilnic |
+| C | Al doilea raft din stânga | Bluzele și topurile | zilnic |
+| D | Bara scurtă | Bluzele care se șifonează și jachetele, pe umerașe la fel | zilnic |
+| E | Jos, stânga | Păturile, într-o husă cu fermoar („hurç”) sau într-o pungă vacuum | rar |
+| F | Sus, dreapta | Restul hainelor de vară, în pungi vacuum | până în aprilie, deloc |
+| G | Dreapta, al doilea raft | Hanorace și pulovere, într-o cutie din material | des |
+| H | Dreapta, al treilea raft | Seturile de sală (cel mai la îndemână) | zilnic |
+| I | Dreapta, al patrulea raft | Haine de casă și pijamale | zilnic |
+| J | Sertarul mic | Lenjerie și șosete, cu separatoare | zilnic |
+| K | Jos, dreapta | Cele 3 seturi de lenjerie de pat (fiecare în fața lui de pernă), iar deasupra o pungă vacuum cu haine de vară, dacă nu încap toate sus | o dată pe săptămână |
+
+**Ce se mută din secțiunea ta, ca să încapă tot:**
+- **Cutia lui cu lucruri păstrate** merge sus, în secțiunea lui, lângă hainele lui de vară.
+- **Căciulile, fularele și mănușile** merg la intrare, într-un coș în pantofar, pentru că le iei când pleci.
+- **Echipamentul de sală** merge în living, într-o cutie împletită.
+- **Hainele de vară pe care nu le-ai purtat vara asta** nu intră în pungi: le dai mai departe. Dacă nu încape ceva, scoatem haine, nu cumpărăm dulap.
+
+**Ce măsori, ca totul să fie chitit:** fiecare compartiment, de la A la K: lățimea, înălțimea și adâncimea. Trimite-mi măsurile pe litere.
+- **O cutie se potrivește** când e cu 3–4 cm mai îngustă și mai joasă decât compartimentul și cu vreo 5 cm mai puțin în adâncime.
+- **Pungile vacuum:** mărimea medie (cam 50 × 70 cm). Una ține cam 10–12 tricouri sau 5–6 pulovere și, strânsă, are cam 10 cm grosime.
+- **Toate cutiile la fel** (aceeași culoare, același model), doar mărimea se schimbă după compartiment.
 
 **Lenjeriile de pat și păturile (actualizat pe 8 noiembrie).** Ele stau jos de tot, în secțiunea ta, așa că au locul lor fix:
 - **Câte seturi păstrați:** două pentru patul vostru (unul pe pat, unul de schimb), plus unul pentru musafiri. Celelalte pleacă.
@@ -175,9 +187,9 @@ Restul hainelor tale merg în sertarele noi și în partea ta de bară.
 | Secțiunea | Ce ține | Al cui |
 |---|---|---|
 | 1. Bara cu cămăși, raftul deschis, cele 4 sertare | Cămășile, tricourile, lenjeria lui | El |
-| 2. Rafturi, bara scurtă, sertarul mic | Hainele tale de zi cu zi și de sală | Tu, după triajul lui |
+| 2. Rafturi, bara scurtă, sertarul mic | Hainele tale (de zi cu zi, de sală, de vară), lenjeriile de pat și păturile | Tu, după triajul lui |
 | 3. Bara cu geci, compartimentul de jos | Gecile și paltoanele amândurora (sus), pantalonii și blugii (jos), un turn de sertare | Amândoi |
-| Compartimentul gol de sus | Hainele de vară, în pungi vacuum, și cutiile lui cu lucruri păstrate | Amândoi |
+| Sus, în secțiunea 1 (deasupra barei) | Hainele lui de vară, în pungi vacuum, și cutia lui cu lucruri păstrate | El |
 
 Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi unde se pune înapoi fiecare lucru.
 
