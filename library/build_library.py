@@ -53,6 +53,8 @@ GROUPS = [
         "items": [
             {"kind": "doc", "slug": "programari-noiembrie", "title": "Programările din noiembrie: Instagram, TikTok și ce mai filmăm", "src": "PROGRAMARI-NOIEMBRIE.md",
              "desc": "Tot noiembrie zi cu zi: cel puțin 5 reel-uri pe săptămână pe Instagram (cu cele 2 reel-uri VirtuMe), TikTok în fiecare zi, story-urile pentru lansarea Custom Program și lista de filmat. Bifezi pe telefon."},
+            {"kind": "doc", "slug": "facturi-lunare", "title": "Facturile și plățile lunare (Digi, Engie, PPC, PE Furnizare, chiria)", "src": "FACTURI-LUNARE.md",
+             "desc": "Ce ai plătit și ce mai e de plătit luna asta, pe locuri (apartamentul închiriat, casa de la țară), plus ce încasezi de la chiriaș: chiria și 180 lei pentru utilitățile blocului."},
             {"kind": "doc", "slug": "cardio", "title": "Cardio în Custom Program: aparatele, formatele și ce filmăm", "src": "CARDIO.md",
              "desc": "Aparatele din sală (bandă, bicicleta cu spătar, spinning, stepper, eliptică) și variantele de acasă, cum le alege programul după quiz, cele 3 formate de cardio, lista de filmat cu bife și reel-urile din aceleași filmări."},
         ],
