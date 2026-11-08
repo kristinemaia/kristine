@@ -113,7 +113,7 @@ Restul hainelor tale merg în sertarele noi și în partea ta de bară.
 
 **1. Întâi triajul lui (20–30 de minute, cu el).** Lucrurile sunt ale lui, deci el hotărăște. Tu doar îl ajuți să meargă repede: scoateți tot și el pune fiecare lucru într-o grămadă.
 - **Nu-l mai vreau:** donat (containerele de haine, „giysi kumbarası”) sau vândut (aplicația Dolap).
-- **Îl păstrez, dar nu-l folosesc** (amintiri, haine de sezon, echipament): în cutii cu capac, etichetate, în compartimentul gol de sus sau sub pat.
+- **Îl păstrez, dar nu-l folosesc** (amintiri, haine de sezon, echipament): în cutii cu capac, etichetate, în dulapul de lângă birou.
 - **Îl folosesc:** în secțiunea lui.
 
 **2. Harta ta, pe compartimente (actualizat pe 8 noiembrie).** Secțiunea ta ține hainele de zi cu zi, hainele de vară, lenjeriile de pat și păturile. Fiecare compartiment are o literă, ca în schiță. Regula: ce folosești zilnic stă la mijloc, între genunchi și ochi; ce folosești rar stă sus sau jos de tot.
@@ -133,7 +133,7 @@ Restul hainelor tale merg în sertarele noi și în partea ta de bară.
 | K | Jos, dreapta | Cele 3 seturi de lenjerie de pat (fiecare în fața lui de pernă), iar deasupra o pungă vacuum cu haine de vară, dacă nu încap toate sus | o dată pe săptămână |
 
 **Ce se mută din secțiunea ta, ca să încapă tot:**
-- **Cutia lui cu lucruri păstrate** merge sus, în secțiunea lui, lângă hainele lui de vară.
+- **Cutia lui cu lucruri păstrate** merge în dulapul de lângă birou (vezi „Colțul de stream”).
 - **Căciulile, fularele și mănușile** merg la intrare, într-un coș în pantofar, pentru că le iei când pleci.
 - **Echipamentul de sală** merge în living, într-o cutie împletită.
 - **Hainele de vară pe care nu le-ai purtat vara asta** nu intră în pungi: le dai mai departe. Dacă nu încape ceva, scoatem haine, nu cumpărăm dulap.
@@ -189,7 +189,7 @@ Restul hainelor tale merg în sertarele noi și în partea ta de bară.
 | 1. Bara cu cămăși, raftul deschis, cele 4 sertare | Cămășile, tricourile, lenjeria lui | El |
 | 2. Rafturi, bara scurtă, sertarul mic | Hainele tale (de zi cu zi, de sală, de vară), lenjeriile de pat și păturile | Tu, după triajul lui |
 | 3. Bara cu geci, compartimentul de jos | Gecile și paltoanele amândurora (sus), pantalonii și blugii (jos), un turn de sertare | Amândoi |
-| Sus, în secțiunea 1 (deasupra barei) | Hainele lui de vară, în pungi vacuum, și cutia lui cu lucruri păstrate | El |
+| Sus, în secțiunea 1 (deasupra barei) | Hainele lui de vară, în pungi vacuum | El |
 
 Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi unde se pune înapoi fiecare lucru.
 
@@ -299,6 +299,35 @@ Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi 
 8. **Pe canapea**, lucrul colorat de pe spătar își găsește un loc al lui, în dulap sau pe balcon.
 
 **Ce cumpărați pentru colț:** canal de cablu alb, 2 cutii împletite (la fel ca la celălalt raft), o lampă de podea (sau mutați aici lampa din living) și o bandă de prindere pentru oglindă.
+
+### Colțul de stream și dulapul de lângă birou (după poza din 8 noiembrie)
+**Cum arată acum:** biroul negru de stream stă lângă insula bucătăriei. Pe birou sunt laptopul culcat, cu o cârpă pe el, monitorul, microfonul pe suport, cabluri și inelul de lumină pe trepied. De sus atârnă un cablu negru, pe lângă perete. Pe blatul din spate (aceeași insulă ca în bucătărie) s-au adunat genți, sticle, cutii și cabluri. Sub blat e un dulap: acolo puteți pune ce nu folosiți des.
+
+1. **Pe birou:** monitorul, tastatura, mouse-ul și telefonul pe suport. Laptopul închis stă pe un suport vertical, nu culcat, cu lucruri pe el.
+2. **Sub birou:** o tăviță pentru cabluri prinsă de blat („masa altı kablo düzenleyici”), cu prelungitorul în ea. Cablurile, strânse cu bandă velcro. Pe jos nu atârnă nimic.
+3. **Microfonul, pe un braț prins de birou.** Eliberezi blatul și îl tragi în față doar când faci stream.
+4. **Inelul de lumină** rămâne pe trepied, lângă birou. Cablul lui coboară pe piciorul trepiedului.
+5. **Cablul negru care atârnă de sus** intră într-un canal alb, pe colțul peretelui.
+6. **Blatul din spate rămâne liber**, doar cu tava de fructe. Se vede pe stream și e primul loc unde se adună lucrurile.
+7. **Dulapul de sub blat devine depozitul pentru ce folosiți rar.** Puneți cutii la fel, cu etichete:
+   - **acte:** contracte, garanții, bonuri;
+   - **aparate:** camera, telefoanele vechi, ce nu folosiți zilnic;
+   - **cabluri:** cablurile și încărcătoarele de rezervă;
+   - **stream:** luminile, suporturile și accesoriile de rezervă;
+   - **ale lui:** lucrurile lui pe care le păstrează, dar nu le folosește (înainte stăteau în secțiunea ta de dulap);
+   - **sezon:** decorul de sărbători și ce scoateți o dată pe an.
+   Pe interiorul ușii lipiți o foaie cu lista cutiilor, ca să găsiți orice fără să scoateți tot.
+
+**Important:** dulapul e pentru ce folosiți rar, nu pentru ce nu folosiți deloc. Ce n-ați atins de un an se dă mai departe, altfel dulapul se umple și dezordinea se mută înăuntru.
+
+**Pleacă de aici:** tot ce stă pe blatul din spate, cârpa de pe laptop, prosopul de hârtie de pe biroul alb și desenele de pe perete (pe tabla cu ramă; dacă sunt desenate direct pe perete, se șterg cu un burete magic, „sihirli sünger”).
+
+**Ce cumpărați pentru colțul de stream:**
+- [ ] O tăviță pentru cabluri, prinsă sub birou, și bandă velcro
+- [ ] Un suport vertical pentru laptop
+- [ ] Un braț pentru microfon, prins de birou
+- [ ] Un canal de cablu alb, pentru cablul de pe perete
+- [ ] 6 cutii la fel, cu capac și etichete, pentru dulapul de sub blat (măsurați dulapul înainte)
 
 ### Pisicile
 - Bolurile pe un covoraș sau o tavă care se șterge ușor.
