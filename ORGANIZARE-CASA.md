@@ -123,13 +123,22 @@ Restul hainelor tale merg în sertarele noi și în partea ta de bară.
 | Sus de tot, compartimentul gol | Cutiile lui cu lucruri păstrate și hainele de vară ale amândurora, în pungi vacuum |
 | Stânga, cele 2 rafturi | Tricourile și bluzele tale, împăturite |
 | Stânga, bara scurtă | Bluzele care se șifonează și jachetele tale, pe umerașe la fel |
-| Stânga, jos | Gențile, într-un coș, sau pantofii, în cutii |
+| Stânga, jos | Păturile, într-o husă cu fermoar („hurç”) sau într-o pungă vacuum, cu etichetă |
 | Dreapta, raftul de sus | Căciuli, fulare, mănuși, într-un coș |
 | Dreapta, al doilea raft | Hanorace și pulovere |
 | Dreapta, al treilea raft (cel mai la îndemână) | Seturile de sală, pe care le folosești cel mai des |
 | Dreapta, al patrulea raft | Colanți, haine de casă, pijamale |
 | Sertarul mic | Lenjerie și șosete, cu separatoare |
-| Jos, sub sertar | Un coș mare pentru echipamentul de sală (benzile, coarda) |
+| Jos, sub sertar | Lenjeriile de pat, fiecare set în fața lui de pernă |
+
+**Lenjeriile de pat și păturile (actualizat pe 8 noiembrie).** Ele stau jos de tot, în secțiunea ta, așa că au locul lor fix:
+- **Câte seturi păstrați:** două pentru patul vostru (unul pe pat, unul de schimb), plus unul pentru musafiri. Celelalte pleacă.
+- **Un set, un pachet:** cearșaful și husa de plapumă se împăturesc și intră în una dintre fețele de pernă din același set. Când schimbi patul, scoți un singur pachet, fără să cauți piesele.
+- **Unde stau:** pachetele, în picioare, în compartimentul de sub sertar, cu eticheta „lenjerii”.
+- **Păturile** (și plapuma de musafiri): într-o husă cu fermoar („hurç”) sau într-o pungă vacuum, jos, sub bara scurtă, cu eticheta „pături”.
+- **Dacă patul are ladă sub saltea** („bazalı yatak”), păturile și plapuma de musafiri merg acolo, iar jos, în dulap, se eliberează loc.
+- **Gențile:** cea de zi cu zi pe cârligul de la intrare, celelalte pe cârligele stenderului.
+- **Echipamentul de sală** (benzi, coardă) se mută în living, într-una dintre cutiile împletite de pe raftul de lângă televizor, aproape de locul unde filmezi.
 
 **3. Ca rafturile să nu se mai răvășească:**
 - **Coșuri sau cutii din material pe rafturi**, care se trag ca un sertar. Au „sertarele” pe care le voiai, fără să montezi nimic. În Turcia le găsești ca „kumaş saklama kutusu”. Măsori rafturile (lățime, adâncime, înălțime) și iei cutii toate la fel, de aceeași culoare.
@@ -243,7 +252,7 @@ Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi 
 
 **Camera are două roluri: living și stream.** Ce se vede în spatele vostru pe cameră e fundalul streamului, deci partea aceea trebuie să fie cea mai ordonată. Înainte de fiecare stream: 10 secunde de test pe cameră, să vezi ce intră în cadru.
 
-1. **Raftul din colț e fundal.** Jos, două cutii împletite pentru tot ce e mărunt (cabluri, controllere, încărcătoare). Pe celelalte rafturi, câte 2–3 lucruri: cărți, o plantă sigură pentru pisici, o poză. Sus, un tablou pictat de tine.
+1. **Raftul din colț e fundal.** Jos, două cutii împletite: una pentru cabluri, controllere și încărcătoare, una pentru echipamentul de sală (benzi, coardă). Pe celelalte rafturi, câte 2–3 lucruri: cărți, o plantă sigură pentru pisici, o poză. Sus, un tablou pictat de tine.
 2. **Canapeaua:** 3–4 perne în culori calde (crem, camel, verde-salvie), care se potrivesc cu albastrul închis. Pledul împăturit, nu întins.
 3. **Pouful devine măsuță:** o tavă mare deasupra, cu o lumânare și telecomanda.
 4. **Un covor mare, într-o nuanță medie** (bej sau gri). Adună zona de stat la un loc, reduce ecoul pe stream, iar pe el nu se văd nici firele pisicii albe, nici ale celei negre.
