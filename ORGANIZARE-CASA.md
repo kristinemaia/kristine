@@ -138,6 +138,38 @@ Restul hainelor tale merg în sertarele noi și în partea ta de bară.
 
 **Împărțirea, varianta nouă (de discutat cu el):** secțiunea asta e a ta, după triajul lui. Prima secțiune rămâne a lui, cu cele 4 sertare. Dacă îți mai trebuie loc, primești un sertar acolo sau o bucată de bară.
 
+#### Dulapul, a treia secțiune (după poza din 8 noiembrie)
+**Cum arată acum:** sus e o bară cu geci și paltoane. Imediat sub ea e un raft cu tricouri și blugi puși grămadă, iar paltoanele lungi (cel vișiniu, de exemplu) cad peste grămezi. Dedesubt e un compartiment înalt cu teancuri de blugi și tricouri, care ocupă doar jumătate din înălțime. Jumătatea de sus e goală. Mai jos e un sertar.
+
+**Două probleme, ambele ușor de rezolvat:**
+1. **Hainele de pe bară ating raftul de dedesubt.** Grămezile de pe raft se răvășesc, iar paltoanele se șifonează.
+2. **În compartimentul de jos se pierde jumătate din înălțime.**
+
+**1. Coborâți raftul din mijloc, dacă se poate (gratis).**
+- Uită-te pe pereții laterali ai dulapului: dacă vezi șiruri de găurele, raftul stă pe niște știfturi și se poate muta.
+- Coborât cu 15–20 cm, raftul face loc paltoanelor să atârne liber. Compartimentul de jos încape în continuare teancurile.
+- Pe raftul de sub bară nu mai stau grămezi. Rămâne gol sau ține un rând de cutii joase la fel (căciuli, curele, fulare).
+
+**2. Folosiți și jumătatea goală a compartimentului de jos.**
+- **Aici intră cel mai bine turnurile de sertare** pe care le voiai: deasupra e raft, nu haine care să le încurce. Un turn alb sau transparent, lângă teancurile de blugi.
+- **Sau un raft suplimentar:** un raft care stă singur, pe picioare („dolap içi raf”), face două niveluri din unul.
+- **Blugii și pantalonii:** împăturiți în trei, pe culori, câte 5–6 pe teanc, cu separatoare de raft între teancuri.
+
+**3. Bara cu geci și paltoane.**
+- **Umerașe la fel**, ca în celelalte secțiuni.
+- **Gecile de primăvară și de vară** (cele subțiri) merg sus, în pungi vacuum. Acum rămân doar cele de iarnă.
+- **Geaca pe care o porți zilnic** stă pe cârligele de la intrare, nu în dulap.
+
+#### Harta întregului dulap (propunere de discutat cu el)
+| Secțiunea | Ce ține | Al cui |
+|---|---|---|
+| 1. Bara cu cămăși, raftul deschis, cele 4 sertare | Cămășile, tricourile, lenjeria lui | El |
+| 2. Rafturi, bara scurtă, sertarul mic | Hainele tale de zi cu zi și de sală | Tu, după triajul lui |
+| 3. Bara cu geci, compartimentul de jos | Gecile și paltoanele amândurora (sus), pantalonii și blugii (jos), un turn de sertare | Amândoi |
+| Compartimentul gol de sus | Hainele de vară, în pungi vacuum, și cutiile lui cu lucruri păstrate | Amândoi |
+
+Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi unde se pune înapoi fiecare lucru.
+
 ### Baia (după poza din 8 noiembrie)
 **Cum arată acum:** baia e bună în sine (faianță crem cu dungă neagră, blat lung, dulapuri dedesubt, uscător de prosoape). Pare dezordonată din 4 motive:
 1. **Ustensilele de curățenie** stau în colțul dintre duș și toaletă: mopul cu găleata, mătura, fărașul, uscătorul de rufe pliat, o cârpă pe jos.
