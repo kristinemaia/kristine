@@ -50,6 +50,7 @@ CLIPS = {
     # vineri 6 nov: gât, încheieturi, glute bridge
     'gat-lateral':                        ('Neck side stretch', 'Neck · ear toward shoulder, both sides', 0.3, None),
     'gat-chin-tucks':                     ('Chin tucks', 'Neck · slide your chin straight back', 0.3, None),
+    'gat-chin-tucks-sezut':               ('Chin tucks', 'Neck · seated, slide your chin straight back', 0.2, None),   # din profil, mai clar
     'gat-semicercuri':                    ('Neck half circles', 'Neck · slow, no full circles', 0.3, None),
     'incheieturi-palma-jos':              ('Wrist stretch, palm down', 'Wrists · 15 s each hand', 0.3, None),
     'incheieturi-palma-sus':              ('Wrist stretch, palm up', 'Wrists · 15 s each hand', 0.3, None),
@@ -68,7 +69,7 @@ CLIPS = {
     'picioare-rdl':                       ('Romanian deadlift', 'Legs · hips back, dumbbells close to your legs', 0.3, None),
     'spate-fluturari-inverse':            ('Reverse fly', 'Back · hinge forward, arms wide', 0.3, None),
     'impins-umeri-gantere':               ('Seated shoulder press', 'Push · dumbbells up, ribs down', 0.3, None),
-    'umeri-ridicari-frontale':            ('Front raise', 'Shoulders · to shoulder height, slow', 0.3, None),
+    'brate-biceps-curl':                  ('Biceps curl', 'Arms · elbows by your sides', 0.3, None),
     'umeri-ridicari-laterale':            ('Lateral raise', 'Shoulders · elbows soft, to shoulder height', 0.3, None),
     'mobilitate-triceps':                 ('Triceps stretch', 'Mobility · 20 s each arm', 0.3, None),
     'cardio-spinning':                    ('Spin bike', 'Cardio · seat at hip height', 0.3, None),

@@ -123,8 +123,8 @@ _Toate clipurile sunt montate (culoarea nouă, mai blândă, din 6 nov; numele e
 | **Picioare** | genuflexiune, goblet squat, sumo squat, split squat, fandare înapoi și înainte, ridicări pe vârfuri, wall sit, glute bridge, hip thrust, deadlift românesc | step-up |
 | **Core** | plank, high plank, plank cu piciorul ridicat, plank lateral, bird dog, dead bug, tabletop crunch, russian twist | pallof press, hollow hold (opționale: avem destul) |
 | **Spate** | lat pulldown, face pull, ramat la cablu, ramat cu ganteră, fluturări inverse, prone swimmers, wall angel | band pull-apart, ramat cu banda (pentru varianta de acasă) |
-| **Împins + umeri** | flotare înclinată, shoulder press, ridicări frontale, ridicări laterale | flotare (de la podea), împins cu banda (acasă) |
-| **Gât și încheieturi** | gâtul lateral, chin tucks, semicercuri, încheieturi palma jos, palma sus, cercuri | — gata |
+| **Împins, umeri și brațe** | flotare înclinată, shoulder press, ridicări laterale, biceps curl | flotare (de la podea), împins cu banda (acasă) |
+| **Gât și încheieturi** | gâtul lateral, chin tucks (așezată, din profil), semicercuri, încheieturi palma jos, palma sus, cercuri | — gata |
 | **Cardio** | spinning, bicicletă cu spătar, bandă înclinată | stepper, eliptică (opționale) |
 | **Videourile vorbite** | — | bun venit, cum folosești programul, siguranța, cum îți filmezi forma (luni 9 nov) |
 

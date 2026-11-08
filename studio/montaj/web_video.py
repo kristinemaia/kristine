@@ -15,10 +15,10 @@ LIST = [(os.path.join(PROG, n + '.mp4'), n, 540, 1.5) for n in [
     'picioare-genuflexiune', 'picioare-goblet-a', 'picioare-goblet-b', 'picioare-fandare-inapoi', 'picioare-fandare-inainte',
     'picioare-split-a', 'picioare-varfuri', 'picioare-wall-sit',
     'spate-face-pull', 'spate-lat-pulldown', 'core-plank', 'core-plank-leg-lift', 'core-bird-dog', 'core-plank-lateral', 'mobilitate-cobra',
-    'gat-lateral', 'gat-chin-tucks', 'gat-semicercuri', 'incheieturi-palma-jos', 'incheieturi-palma-sus', 'incheieturi-cercuri',
+    'gat-lateral', 'gat-chin-tucks-sezut', 'gat-semicercuri', 'incheieturi-palma-jos', 'incheieturi-palma-sus', 'incheieturi-cercuri',
     'picioare-glute-bridge', 'picioare-hip-thrust', 'picioare-rdl', 'core-dead-bug', 'core-high-plank', 'core-tabletop-crunch', 'core-russian-twist',
     'spate-swimmers', 'spate-ramat-gantera', 'spate-fluturari-inverse', 'impins-flotare-inclinata', 'impins-umeri-gantere',
-    'umeri-ridicari-laterale', 'umeri-ridicari-frontale', 'mobilitate-triceps', 'cardio-spinning', 'cardio-bicicleta-spatar', 'cardio-banda']] + [
+    'umeri-ridicari-laterale', 'brate-biceps-curl', 'mobilitate-triceps', 'cardio-spinning', 'cardio-bicicleta-spatar', 'cardio-banda']] + [
     (os.path.join(REEL, 'G4-Squat.mp4'), 'ghid-squat', 720, 4.0),
     (os.path.join(REEL, 'G3-Form.mp4'), 'ghid-cable-row', 720, 4.0),
     (os.path.join(REEL, 'G6-Hang.mp4'), 'ghid-hang', 720, 4.0)]
