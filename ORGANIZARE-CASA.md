@@ -76,7 +76,7 @@ Nu e „el îmi spune ce fac greșit”, ci „cum vrem să funcționeze casa no
 
 ### Baia (după poza din 8 noiembrie)
 **Cum arată acum:** baia e bună în sine (faianță crem cu dungă neagră, blat lung, dulapuri dedesubt, uscător de prosoape). Pare dezordonată din 4 motive:
-1. **Ustensilele de curățenie** stau în colțul dintre duș și toaletă: mopul cu găleata, mătura, făraşul, uscătorul de rufe pliat, o cârpă pe jos.
+1. **Ustensilele de curățenie** stau în colțul dintre duș și toaletă: mopul cu găleata, mătura, fărașul, uscătorul de rufe pliat, o cârpă pe jos.
 2. **Cosmeticele** stau toate pe blat: sticle, spray-uri, trusa roz, coșulețul.
 3. **Covorașele cu SpongeBob și scăunelul roșu.** Sunt cele mai colorate lucruri din baie și le vezi primele.
 4. **Lipsește placa de la butonul de tras apa**, deasupra toaletei, așa că se vede mecanismul. De aici impresia de „neterminat”.
