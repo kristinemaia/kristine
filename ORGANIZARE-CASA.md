@@ -74,6 +74,36 @@ Nu e „el îmi spune ce fac greșit”, ci „cum vrem să funcționeze casa no
 - **Noptiera:** cel mult 3 lucruri (lampa, ceva de citit, crema). Încărcătorul trece prin spate.
 - **Un coș de rufe cu două compartimente** (alb și colorat).
 
+#### Dulapul lui, o secțiune (după poza din 8 noiembrie)
+**Cum arată acum:** o bară cu haine pe umerașe amestecate (plastic alb, albastru, verde, catifea roz și vișinie, metal). Dedesubt e un raft deschis cu 3 grămezi de haine împăturite (cea din mijloc e răvășită) și câteva lucruri mici fără loc (o cutiuță, o pungă, o hârtie). Mai jos sunt 4 sertare, iar tu ai doar unul. În oglindă se vede și stenderul alb din cameră, cu hainele și geanta ta.
+
+**Întâi, ceva important:** cu un singur sertar, nici cel mai ordonat om n-ar avea unde să-și pună lucrurile. O parte din „dezordine” vine din lipsa de spațiu, nu de la tine. Asta intră în discuția cu el: când te-ai mutat, dulapul trebuie împărțit din nou, iar el trebuie să-și facă triajul ca să elibereze loc.
+
+**1. Sertare noi pe raftul deschis.** Raftul de deasupra celor 4 sertare e locul ideal.
+- Puneți acolo **2 turnuri de sertare stivuibile**, albe sau transparente, unul lângă altul. Din grămezile de acum ies 4–6 sertare noi. În Turcia le găsești ca „çekmeceli düzenleyici” (IKEA, Trendyol, Koçtaş).
+- **Înainte să cumperi, măsori raftul:** lățimea, adâncimea și înălțimea de la raft până la tivul cămășilor. Turnurile trebuie să intre sub haine, cu 3–4 cm loc liber deasupra.
+- **Hainele lungi** (paltonul crem, cu fularul) le mutați la un capăt al barei, unde sub ele nu e sertar. Sau paltonul ajunge pe cârligele de la intrare.
+- **Variantă, dacă în cameră e loc:** o comodă îngustă doar pentru tine, care poate ține și loc de noptieră.
+
+**2. Mai mult loc în sertarele care există deja, fără să cumperi mobilă.**
+- **Pliere verticală** (hainele stau „în picioare”, ca dosarele): în același sertar încap cam de două ori mai multe și le vezi pe toate dintr-o privire.
+- **Separatoare de sertar** („çekmece içi düzenleyici”): lenjerie, șosete, colanți, seturi de sală, fiecare în compartimentul lui.
+
+**3. Bara cu umerașe.**
+- **Umerașe identice, subțiri, din catifea**, de aceeași culoare (negru sau crem). Pe bară se eliberează mult loc, iar o parte din el poate fi a ta.
+- **Hainele grupate pe tipuri și pe culori:** cămăși, sacouri și jachete, hanorace, paltoane.
+- **Hainele de vară** (cămășile cu mânecă scurtă, tricourile subțiri) merg în pungi vacuum, pe raftul de sus sau sub pat. Asta e partea lui de triaj.
+- **Lucrurile mici de pe raft** (cutiuța, punga, hârtia) își găsesc un loc sau pleacă.
+
+**4. Stenderul tău.** Poate arăta ca într-un butic dacă:
+- ține doar hainele de săptămâna asta, pe umerașe la fel;
+- geanta stă pe un cârlig, nu pe umeraș;
+- jos, pe raftul lui, stau cel mult 2–3 perechi de pantofi, în pereche.
+
+Restul hainelor tale merg în sertarele noi și în partea ta de bară.
+
+**Împărțirea, ca propunere de discutat cu el:** sertarele noi de pe raft și unul dintre cele 4 de jos sunt ale tale, plus o bucată de bară. Celelalte 3 sertare și restul barei sunt ale lui, după triaj. Dacă au mai rămas și alte secțiuni de dulap, le puneți și pe ele în calcul.
+
 ### Baia (după poza din 8 noiembrie)
 **Cum arată acum:** baia e bună în sine (faianță crem cu dungă neagră, blat lung, dulapuri dedesubt, uscător de prosoape). Pare dezordonată din 4 motive:
 1. **Ustensilele de curățenie** stau în colțul dintre duș și toaletă: mopul cu găleata, mătura, fărașul, uscătorul de rufe pliat, o cârpă pe jos.
