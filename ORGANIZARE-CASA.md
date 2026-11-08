@@ -30,11 +30,39 @@ Nu e „el îmi spune ce fac greșit”, ci „cum vrem să funcționeze casa no
 
 ## Pe camere
 
-### Intrarea
-- Cuier sau cârlige: 2 pentru fiecare (geaca și geanta de zi) și unul pentru musafiri.
-- Un bol sau o tăviță pentru chei, căști, ochelari.
-- La ușă stau doar pantofii de săptămâna asta. Restul merg în dulap sau în cutii.
-- Un coș pentru plase și pungi de cumpărături.
+### Intrarea (după poza din 8 noiembrie)
+**Cum arată acum:** în colțul dintre ușa de la intrare (cea închisă la culoare, din stânga) și ușa din mijloc stă litiera, cu o pungă pe jos în fața ei. Pe peretele din dreapta, lângă calorifer, sunt căsuța pisicilor și bolul. În colțul din dreapta jos sunt niște saci negri. În rest, holul n-are nimic: niciun loc pentru pantofi, geci sau chei.
+
+**1. Litiera pleacă de la intrare.** Ai avut dreptate, din trei motive:
+- E primul lucru pe care îl vezi și îl miroși când intri.
+- Pisicile vor liniște la litieră. La ușă se sună, se intră și se iese.
+- E prea aproape de bolul cu mâncare, iar pisicile nu vor să mănânce lângă toaletă.
+
+**Unde s-o mutați.** Hotărâți împreună, pentru că pisicile sunt obișnuite cu locul ăsta.
+- **Cel mai bine:** un loc liniștit, pe unde nu se trece des. De exemplu, a doua baie, o cămară, un colț dintr-o cameră folosită mai rar sau un balcon închis, dacă nu e frig.
+- **Nu:** în bucătărie, lângă mâncare și apă sau lângă mașina de spălat.
+- **Dacă nu există alt loc:** un dulap pentru litieră (pe Trendyol îl cauți ca „kedi tuvalet dolabı”). Arată ca o comodă și ascunde litiera și mirosul, iar deasupra pui tava pentru chei.
+
+**Cum o mutați fără „accidente”:**
+- Pui o litieră în locul nou, cu același nisip, și le arăți pisicilor unde e.
+- Pe cea veche o mai lași 3–5 zile și o scoți abia după ce vezi că o folosesc pe cea nouă.
+- **Cu 2 pisici, ideal sunt 2 litiere**, în locuri diferite. Veterinarii recomandă câte una pentru fiecare pisică, plus una.
+
+**Ce mai trebuie lângă litieră:**
+- Un covoraș pentru nisip în fața ei, ca să nu-l mai ducă prin casă.
+- Un coș mic cu pedală și capac pentru nisipul strâns, golit zilnic. Fără pungi pe jos.
+- Lopățica, într-un suport, alături.
+- Curățatul litierei intră în împărțirea treburilor: cine o face și în ce zile.
+
+**2. Sacii negri din colț.** Dacă e gunoi, îl duceți azi. Dacă sunt lucrurile tale de la mutare, cu ei începi triajul.
+
+**3. Intrarea devine o intrare adevărată:**
+- **În colțul unde e acum litiera:** un pantofar îngust, de 17–25 cm adâncime (în Turcia îl găsești ca „ince ayakkabılık”). Deasupra pui o tăviță pentru chei și o plantă mică sigură pentru pisici. La ușă rămân doar pantofii de săptămâna asta, restul merg în pantofar.
+- **Pe peretele lung din dreapta** (între ușa din mijloc și calorifer): un șir de cârlige sau un cuier de perete, la vreo 1,70 m, pentru geci și genți. Câte 2 cârlige pentru fiecare și unul pentru musafiri. Lângă cârlige pui o oglindă: holul pare mai mare și te vezi înainte să pleci.
+- **Căsuța pisicilor** poate rămâne lângă calorifer, pentru că pisicilor le place la cald. Sau o mutați în living, lângă o fereastră. Oricum, apa și mâncarea stau departe de litieră.
+- **Un preș pe interior**, la ușă, ca să nu intre praful în casă.
+- **Un coș pentru plase și pungi** de cumpărături, în pantofar sau lângă el.
+- **Înainte să cumperi:** verifici cum se deschid ușile, ca pantofarul să nu le blocheze. Măsori și cele două locuri: colțul dintre uși și peretele din dreapta, până la calorifer.
 
 ### Dormitorul și dulapul (cel mai important)
 - **Dulapul se împarte clar:** de exemplu, stânga tu, dreapta el (sau pe rafturi).
