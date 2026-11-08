@@ -10,11 +10,13 @@ _Actualizat 8 noiembrie 2026. Bifezi când plătești. Fără numere de cont sau
 | **Engie** | apartamentul închiriat (îți dă chiriașul înapoi) | factura 92,24 lei, rest de plată 13,27 lei | 23 nov | ✅ plătit (8 nov) |
 | **PPC** | apartamentul închiriat (îți dă chiriașul înapoi) | — | — | ⏳ factura n-a venit încă |
 | **PE Furnizare** (PEenergie) | casa de la țară (studioul de filmare) | — | — | ⏳ de verificat: aplicația nu se conectează încă |
+| **Contabilitatea** (firma) | KRISTINE MAIA CONCEPT SRL | ~400 lei / lună (poate fi mai mult în lunile încărcate) | când trimite contabila factura | ⏳ aștepți factura de la contabilă |
 
 - [x] Digi plătit
 - [x] Engie plătit
 - [ ] PPC: când vine factura, o plătești
 - [ ] PE Furnizare: intri în aplicație (sau pe site, din browser) și verifici factura
+- [ ] Contabilitatea: plătești când vine factura de la contabilă (de regulă 400 lei; în lunile cu mai multe documente, poate fi mai mult)
 
 ## De încasat de la chiriaș
 - [ ] **chiria**, în ziua de plată a chiriei
