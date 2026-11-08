@@ -60,7 +60,7 @@ Nu e „el îmi spune ce fac greșit”, ci „cum vrem să funcționeze casa no
 
 **3. Intrarea devine o intrare adevărată:**
 - **În colțul unde e acum litiera:** un pantofar îngust, de 17–25 cm adâncime (în Turcia îl găsești ca „ince ayakkabılık”). Deasupra pui o tăviță pentru chei și o plantă mică sigură pentru pisici. La ușă rămân doar pantofii de săptămâna asta, restul merg în pantofar.
-- **Pe peretele lung din dreapta** (între ușa din mijloc și calorifer): un șir de cârlige sau un cuier de perete, la vreo 1,70 m, pentru geci și genți. Câte 2 cârlige pentru fiecare și unul pentru musafiri. Lângă cârlige pui o oglindă: holul pare mai mare și te vezi înainte să pleci.
+- **Pe peretele lung din dreapta** (între ușa din mijloc și calorifer): un șir de cârlige sau un cuier de perete, la vreo 1,70 m, pentru geci și genți. Câte 2 cârlige pentru fiecare și unul pentru musafiri. Lângă cârlige pui o oglindă: holul pare mai mare și te vezi înainte să pleci. Folosiți oglinda mare din living, cea cu chipurile desenate, prinsă de perete, ca să nu cadă peste pisici sau peste robot.
 - **Căsuța pisicilor** poate rămâne lângă calorifer, pentru că pisicilor le place la cald. Sau o mutați în living, lângă o fereastră. Oricum, apa și mâncarea stau departe de litieră.
 - **Un preș pe interior**, la ușă, ca să nu intre praful în casă.
 - **Un coș pentru plase și pungi** de cumpărături, în pantofar sau lângă el.
@@ -251,7 +251,7 @@ Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi 
 6. **O lampă de podea cu lumină caldă**, lângă canapea. Seara, numai cu lustra, camera pare rece.
 7. **Hârtiile lipite pe perete** se mută pe o tablă albă cu ramă, în același loc. **Cablul televizorului** intră într-un canal alb, lipit pe perete.
 8. **Birourile:** pe blat, doar tastatura, mouse-ul și ce folosiți la stream. Sub birou, cutii închise. La colțul de stream: lumina pe un suport, microfonul pe braț și cablurile strânse cu bandă velcro. Rola de prosoape merge în bucătărie.
-9. **Colțul de sport:** sacul de box și un coș pentru saltea, benzi și coardă.
+9. **Al doilea raft negru, din colțul din stânga** (cel cu radioul), se ordonează la fel ca acesta, cu aceleași cutii jos. Detaliile sunt mai jos, la „Colțul cu fotoliul”.
 
 **Balconul:** e un loc bun pentru mop, găleată și uscătorul de rufe, într-un dulăpior închis de balcon („balkon dolabı”). Litiera nu merge pe un balcon deschis: iarna e frig și ud, iar la etaj înalt pisicile pot cădea. Dacă pisicile ies pe balcon, puneți plasă de protecție („kedi filesi”).
 
@@ -264,6 +264,20 @@ Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi 
 - [ ] O tavă mare pentru puf
 - [ ] O tablă albă cu ramă și un canal de cablu alb
 - [ ] Bandă velcro pentru cabluri
+
+### Colțul cu fotoliul (după poza din 8 noiembrie)
+**Cum arată acum:** e cealaltă parte a livingului, spre hol. Aici sunt oglinda mare, cu chipurile desenate, sprijinită de perete la intrarea în living, fotoliul cu pledul aruncat pe el, măsuța rotundă cu harta și vaza, robotul de aspirat, al doilea raft negru (cu radioul vechi, trofee, lumânări, rucsacul și pălăria) și peretele lung cu boxele și aerul condiționat. Cablul boxei de sus se vede pe tot peretele.
+
+1. **Oglinda mare se mută la intrare**, pe peretele cu cârligele, în locul oglinzii pe care ți-o propusesem. O prindeți de perete, ca să nu cadă peste pisici sau peste robot.
+2. **Cablul boxei de sus** intră într-un canal alb, lipit pe perete, până la priză. La fel la boxa din colț.
+3. **Pe fotoliu:** pledul împăturit pe spătar și o singură pernă.
+4. **O lampă de podea cu lumină caldă** lângă fotoliu. Colțul devine locul de citit sau de băut ceaiul.
+5. **Peretele gol de deasupra fotoliului:** un tablou pictat de tine, cu mijlocul la vreo 1,50 m de podea.
+6. **Raftul din colț, la fel ca cel de lângă televizor:** sus radioul vechi, trofeele toate pe același raft, lumânările pe farfurie, jos aceleași cutii împletite ca la celălalt raft. Două rafturi la fel, de o parte și de alta a ferestrei, arată gândite. Rucsacul și pălăria merg pe cârligele de la intrare.
+7. **Măsuța cu harta rămâne**, cu vaza. Pe jos nu stă nimic: robotul de aspirat curăță mai bine când podeaua e liberă.
+8. **Pe canapea**, lucrul colorat de pe spătar își găsește un loc al lui, în dulap sau pe balcon.
+
+**Ce cumpărați pentru colț:** canal de cablu alb, 2 cutii împletite (la fel ca la celălalt raft), o lampă de podea (sau mutați aici lampa din living) și o bandă de prindere pentru oglindă.
 
 ### Pisicile
 - Bolurile pe un covoraș sau o tavă care se șterge ușor.
