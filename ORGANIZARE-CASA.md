@@ -216,11 +216,32 @@ Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi 
 - **Proteina, suplimentele și cacaua într-un singur coș.**
 - **În frigider:** ce e mai vechi în față, ce e nou în spate.
 
-### Livingul
-- **Un coș mare cu capac** pentru pleduri și pentru „lucrurile fără loc”, golit în fiecare duminică.
-- **Măsuța: o tavă cu 3 lucruri** (o lumânare, o plantă mică, telecomanda). Cu o tavă, totul pare ordonat.
-- **Cablurile:** un canal de cablu sau bandă, iar prelungitorul stă într-o cutie.
-- **Colțul tău de lucru sau de stream** (dacă faci de acasă): un singur colț, cu echipamentul într-o cutie sau pe un raft, ca să-l strângi în 2 minute.
+### Livingul (după poza din 8 noiembrie)
+**Cum arată acum:** o canapea mare, bleumarin, în L, cu puf, în fața ușii de balcon cu draperii negre. În colț e un raft negru plin de lucruri mărunte. Pe peretele din dreapta sunt televizorul, cu cablul atârnând și hârtii lipite deasupra, și două birouri cu scaunul de gaming. În stânga e sacul de box. Pe canapea, pledul e întins, iar pe braț e un lucru colorat. Podeaua e frumoasă, dar goală.
+
+**Camera are două roluri: living și stream.** Ce se vede în spatele vostru pe cameră e fundalul streamului, deci partea aceea trebuie să fie cea mai ordonată. Înainte de fiecare stream: 10 secunde de test pe cameră, să vezi ce intră în cadru.
+
+1. **Raftul din colț e fundal.** Jos, două cutii împletite pentru tot ce e mărunt (cabluri, controllere, încărcătoare). Pe celelalte rafturi, câte 2–3 lucruri: cărți, o plantă sigură pentru pisici, o poză. Sus, un tablou pictat de tine.
+2. **Canapeaua:** 3–4 perne în culori calde (crem, camel, verde-salvie), care se potrivesc cu albastrul închis. Pledul împăturit, nu întins.
+3. **Pouful devine măsuță:** o tavă mare deasupra, cu o lumânare și telecomanda.
+4. **Un covor mare, într-o nuanță medie** (bej sau gri). Adună zona de stat la un loc, reduce ecoul pe stream, iar pe el nu se văd nici firele pisicii albe, nici ale celei negre.
+5. **O perdea transparentă, crem, pe a doua bară a galeriei** („tül perde”). Ziua lumina intră moale, iar seara trageți draperiile negre.
+6. **O lampă de podea cu lumină caldă**, lângă canapea. Seara, numai cu lustra, camera pare rece.
+7. **Hârtiile lipite pe perete** se mută pe o tablă albă cu ramă, în același loc. **Cablul televizorului** intră într-un canal alb, lipit pe perete.
+8. **Birourile:** pe blat, doar tastatura, mouse-ul și ce folosiți la stream. Sub birou, cutii închise. La colțul de stream: lumina pe un suport, microfonul pe braț și cablurile strânse cu bandă velcro. Rola de prosoape merge în bucătărie.
+9. **Colțul de sport:** sacul de box și un coș pentru saltea, benzi și coardă.
+
+**Balconul:** e un loc bun pentru mop, găleată și uscătorul de rufe, într-un dulăpior închis de balcon („balkon dolabı”). Litiera nu merge pe un balcon deschis: iarna e frig și ud, iar la etaj înalt pisicile pot cădea. Dacă pisicile ies pe balcon, puneți plasă de protecție („kedi filesi”).
+
+**Ce cumpărați pentru living:**
+- [ ] Un covor mare, bej sau gri (măsurați zona din fața canapelei)
+- [ ] O perdea transparentă, crem, pentru a doua bară
+- [ ] O lampă de podea cu lumină caldă
+- [ ] 2 cutii împletite pentru raftul din colț și 1–2 cutii închise pentru sub birou
+- [ ] 2–3 perne noi, în culori calde
+- [ ] O tavă mare pentru puf
+- [ ] O tablă albă cu ramă și un canal de cablu alb
+- [ ] Bandă velcro pentru cabluri
 
 ### Pisicile
 - Bolurile pe un covoraș sau o tavă care se șterge ușor.
