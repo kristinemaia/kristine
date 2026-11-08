@@ -210,11 +210,33 @@ Așa dulapul e împărțit pe tipuri de haine, nu pe grămezi. Știți amândoi 
 - [ ] Un covoraș simplu pentru duș
 - [ ] Prosoape de aceeași culoare și un al doilea cârlig
 
-### Bucătăria
-- **Pe blat, cel mult 3–4 lucruri:** fierbătorul sau espressorul, suportul de ustensile, o tavă cu ulei, sare și piper.
-- **Borcane la fel, cu etichete,** pentru ovăz, orez, paste, nuci și semințe. Arată foarte bine și în cadru, dacă filmezi acolo.
-- **Proteina, suplimentele și cacaua într-un singur coș.**
+### Bucătăria (după poza din 8 noiembrie)
+**Cum arată acum:** bucătăria e mare și frumoasă: dulapuri albe, lumină caldă sub dulapuri, mașină de spălat vase, cuptor și frigider încastrate. Pare dezordonată din 4 motive:
+1. **Cutii de carton pe dulapuri**, până în tavan, mai ales deasupra cuptorului și a frigiderului.
+2. **Blatul plin de aparate și lucruri mărunte:** două fierbătoare electrice și ceainicul, două aparate de cafea, air fryerul, sticle, căni, buretele, uscătorul de vase.
+3. **Insula** e locul unde se lasă de toate: farfurii, pungi, bandă adezivă, o cutie rotundă, genți.
+4. **Lumina amestecată:** becul din lustra din mijloc e rece, albastru, iar restul luminilor sunt calde.
+
+**Ce faceți:**
+1. **Deasupra dulapurilor:** cutiile goale ale aparatelor pleacă (garanția e pe bon, nu pe cutie). Ce trebuie să stea sus intră în 2–3 cutii la fel, cu capac („rezerve”, „rar folosite”). Restul rămâne gol. De decor păstrați un singur lucru, de exemplu vaza cu flori uscate.
+2. **Stația de cafea și ceai**, la capătul din dreapta, pe o tavă: un singur fierbător electric, aparatul de cafea pe care îl folosiți zilnic și suportul de căni. Cănile stau în dulapul de deasupra.
+3. **Zona de gătit, lângă plită:** air fryerul și ceainicul. În sertarele de sub plită: ustensilele, condimentele și uleiurile.
+4. **Între plită și chiuvetă:** blat de lucru, cu tocătorul de lemn sprijinit de perete și un borcan cu ustensile.
+5. **La chiuvetă** stau doar săpunul și buretele, într-un suport mic. Aveți mașină de spălat vase, deci uscătorul de vase poate sta în dulap. Blatul de deasupra mașinii rămâne liber.
+6. **Dulapurile cu geam:** paharele și cănile pe rânduri, la fel. Prin sticla mată se vede ordinea, nu grămada.
+7. **Insula:** blatul gol, doar o tavă cu un bol de fructe. Gențile și pungile merg pe cârligele de la intrare. Două scaune la fel.
+8. **Un singur „sertar cu de toate”**, cu separatoare: bandă adezivă, foarfecă, baterii, încărcătoare, pixuri și ruleta.
+9. **Becul din lustra din mijloc:** puneți unul cald (2.700 K), ca să fie un singur alb în toată bucătăria. Dacă filmați aici, lumina amestecată arată urât pe cameră. Blatul dintre plită și chiuvetă, cu faianța și lumina de sub dulapuri, e un cadru bun pentru reel-urile de gătit.
+- **Proteina, suplimentele și cacaua** stau într-un singur coș, într-un dulap.
 - **În frigider:** ce e mai vechi în față, ce e nou în spate.
+
+**Ce cumpărați pentru bucătărie:**
+- [ ] 2–3 cutii la fel, cu capac, pentru deasupra dulapurilor
+- [ ] O tavă pentru stația de cafea și una pentru bolul de fructe de pe insulă
+- [ ] Un suport mic pentru săpun și burete
+- [ ] Separatoare pentru „sertarul cu de toate”
+- [ ] Un bec cald, de 2.700 K, pentru lustra din mijloc
+- [ ] Borcane la fel, cu etichete (ovăz, orez, paste, nuci)
 
 ### Livingul (după poza din 8 noiembrie)
 **Cum arată acum:** o canapea mare, bleumarin, în L, cu puf, în fața ușii de balcon cu draperii negre. În colț e un raft negru plin de lucruri mărunte. Pe peretele din dreapta sunt televizorul, cu cablul atârnând și hârtii lipite deasupra, și două birouri cu scaunul de gaming. În stânga e sacul de box. Pe canapea, pledul e întins, iar pe braț e un lucru colorat. Podeaua e frumoasă, dar goală.
