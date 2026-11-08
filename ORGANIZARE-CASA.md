@@ -102,7 +102,41 @@ Nu e „el îmi spune ce fac greșit”, ci „cum vrem să funcționeze casa no
 
 Restul hainelor tale merg în sertarele noi și în partea ta de bară.
 
-**Împărțirea, ca propunere de discutat cu el:** sertarele noi de pe raft și unul dintre cele 4 de jos sunt ale tale, plus o bucată de bară. Celelalte 3 sertare și restul barei sunt ale lui, după triaj. Dacă au mai rămas și alte secțiuni de dulap, le puneți și pe ele în calcul.
+**Împărțirea, ca propunere de discutat cu el:** sertarele noi de pe raft și unul dintre cele 4 de jos sunt ale tale, plus o bucată de bară. Celelalte 3 sertare și restul barei sunt ale lui, după triaj. Dacă au mai rămas și alte secțiuni de dulap, le puneți și pe ele în calcul. _(Actualizat mai jos, după poza cu a doua secțiune.)_
+
+#### Dulapul, a doua secțiune (după poza din 8 noiembrie)
+**Cum arată acum:** în stânga sunt rafturi, apoi o bară scurtă cu 3 haine (o geacă de piele, una maro și un cardigan vișiniu), iar jos, pe fundul dulapului, lucruri puse grămadă. În dreapta sunt 4 rafturi cu grămezi răvășite, un sertar mic, iar sub el o grămadă înghesuită. Sus de tot e un compartiment gol. Aici ai pus câteva bluze, dar cea mai mare parte sunt lucruri pe care el nu le folosește.
+
+**Secțiunea asta poate deveni a ta.** E mai bine decât turnurile de sertare din prima secțiune: ai rafturi, bară și sertar, fără să cumperi mobilă. Turnurile nu mai sunt urgente. Vezi întâi cât loc ai aici.
+
+**1. Întâi triajul lui (20–30 de minute, cu el).** Lucrurile sunt ale lui, deci el hotărăște. Tu doar îl ajuți să meargă repede: scoateți tot și el pune fiecare lucru într-o grămadă.
+- **Nu-l mai vreau:** donat (containerele de haine, „giysi kumbarası”) sau vândut (aplicația Dolap).
+- **Îl păstrez, dar nu-l folosesc** (amintiri, haine de sezon, echipament): în cutii cu capac, etichetate, în compartimentul gol de sus sau sub pat.
+- **Îl folosesc:** în secțiunea lui.
+
+**2. Apoi, harta ta (o propunere):**
+
+| Unde | Ce pui |
+|---|---|
+| Sus de tot, compartimentul gol | Cutiile lui cu lucruri păstrate și hainele de vară ale amândurora, în pungi vacuum |
+| Stânga, cele 2 rafturi | Tricourile și bluzele tale, împăturite |
+| Stânga, bara scurtă | Bluzele care se șifonează și jachetele tale, pe umerașe la fel |
+| Stânga, jos | Gențile, într-un coș, sau pantofii, în cutii |
+| Dreapta, raftul de sus | Căciuli, fulare, mănuși, într-un coș |
+| Dreapta, al doilea raft | Hanorace și pulovere |
+| Dreapta, al treilea raft (cel mai la îndemână) | Seturile de sală, pe care le folosești cel mai des |
+| Dreapta, al patrulea raft | Colanți, haine de casă, pijamale |
+| Sertarul mic | Lenjerie și șosete, cu separatoare |
+| Jos, sub sertar | Un coș mare pentru echipamentul de sală (benzile, coarda) |
+
+**3. Ca rafturile să nu se mai răvășească:**
+- **Coșuri sau cutii din material pe rafturi**, care se trag ca un sertar. Au „sertarele” pe care le voiai, fără să montezi nimic. În Turcia le găsești ca „kumaş saklama kutusu”. Măsori rafturile (lățime, adâncime, înălțime) și iei cutii toate la fel, de aceeași culoare.
+- **Unde rămân teancuri:** hainele se împăturesc toate la aceeași mărime, cel mult o palmă și jumătate de teanc, iar la capete pui separatoare de raft („raf ayırıcı”).
+- **O etichetă pe fiecare cutie:** sală, casă, căciuli și altele. Așa știi unde pui înapoi și știe și el.
+
+**4. Stenderul.** După ce ai secțiunea asta, pe stender rămân doar hainele de săptămâna asta. Sau îl scoateți de tot, dacă hainele tale încap în dulap. Camera se eliberează și pare mult mai mare.
+
+**Împărțirea, varianta nouă (de discutat cu el):** secțiunea asta e a ta, după triajul lui. Prima secțiune rămâne a lui, cu cele 4 sertare. Dacă îți mai trebuie loc, primești un sertar acolo sau o bucată de bară.
 
 ### Baia (după poza din 8 noiembrie)
 **Cum arată acum:** baia e bună în sine (faianță crem cu dungă neagră, blat lung, dulapuri dedesubt, uscător de prosoape). Pare dezordonată din 4 motive:
