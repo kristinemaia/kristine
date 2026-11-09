@@ -21,7 +21,7 @@ def slides():
         '<div class="card" style="left:200px;top:590px;width:680px;height:690px"><img src="%s" style="object-position:center 22%%"></div>' % img('wk-side.jpg'), 1))
     s.append(frame(2, '<div style="position:absolute;left:80px;right:80px;top:170px"><h2>Filmed by me, for people who sit all day</h2>%s</div>'
         '<div class="card" style="left:240px;top:640px;width:600px;height:640px"><img src="%s" style="object-position:center 20%%"></div>'
-        % (bullets(['Every move with a home version', 'Short, follow-along videos']), img('wk-front-walk.jpg')), 2, 'var(--blue)', 'var(--mint)'))
+        % (bullets(['Home options for most moves', 'Short, follow-along videos']), img('wk-front-walk.jpg')), 2, 'var(--blue)', 'var(--mint)'))
     s.append(frame(3, '<div style="position:absolute;left:80px;right:80px;top:150px"><h2>Legs, back, core, mobility</h2></div>'
         + tile('wk-picioare-goblet-a.jpg', 'Legs', 80, 300) + tile('wk-spate-lat-pulldown.jpg', 'Back', 560, 300)
         + tile('wk-core-plank-lateral.jpg', 'Core', 80, 810) + tile('wk-mobilitate-worlds-greatest-stretch.jpg', 'Mobility', 560, 810), 3, 'var(--lilac)', 'var(--pink)'))
@@ -29,7 +29,7 @@ def slides():
         '<div class="card" style="left:240px;top:700px;width:600px;height:580px"><img src="%s" style="object-position:center 18%%"></div>'
         % (bullets(['Your goal, your time, home or gym', 'A 2-minute quiz builds it']), img('wk-front-hip.jpg')), 4, 'var(--mint)', 'var(--blue)'))
     s.append(frame(5, '<div style="position:absolute;left:80px;right:80px;top:300px"><h1 style="font-size:100px">Your custom program</h1>'
-        '<p style="font-size:48px;font-weight:700;margin:36px 0 0;color:var(--wine)">Launching 16 November</p>'
+        '<p style="font-size:48px;font-weight:700;margin:36px 0 0;color:var(--wine)">Opening soon · join the waitlist</p>'
         '<p style="font-size:40px;font-weight:600;margin:30px 0 70px;line-height:1.3">Take the 2-minute quiz and get your plan.</p>'
         '<div class="btn">kristinemaia.com · link in bio</div></div>', 5, 'var(--pink)', 'var(--lilac)'))
     return s
