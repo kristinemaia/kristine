@@ -683,10 +683,10 @@ Cum arată o ședință de masaj de recuperare, pas cu pas 🌿 #masajderecupera
 
 ### W1 · Sâm 14 nov, 18:00 · Carusel „This week I filmed my whole program” (anunțul lansării)
 ```
-This week I filmed my whole program. 40+ exercises, every one with a home version. 🎬
+This week I filmed my whole program. 40+ exercises, in the gym, with home options too. 🎬
 Legs, back, core, mobility, built for people who sit all day.
 
-Your custom program launches 16 November. Take the 2-minute quiz → link in bio
+Doors open soon. Take the 2-minute quiz and join the waitlist → link in bio
 
 #customprogram #gymgirl #onlinecoaching #deskjob #mobility #gamerhealth
 ```
