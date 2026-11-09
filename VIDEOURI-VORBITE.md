@@ -1,4 +1,4 @@
-# Cele 4 videouri vorbite pentru Custom Program (luni 9 nov, la sală)
+# Cele 4 videouri vorbite pentru Custom Program (marți 10 nov, la sală)
 
 _Le filmezi la sală, într-un colț liniștit, cu microfonul prins de haine. Telefonul vertical, pe trepied, la nivelul ochilor, tu de la talie în sus, un perete simplu în spate. Engleză, simplu, ca și cum vorbești cu un prieten. Nu trebuie să le spui cuvânt cu cuvânt: citește-le de 2–3 ori și spune-le cu vorbele tale. Fiecare: 45–90 de secunde._
 

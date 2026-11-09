@@ -102,7 +102,10 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 - [ ] Picioare 2 + core (miercuri 4 nov)
 - [ ] Spate (joi 5 nov)
 - [ ] Împins + gât și încheieturi (vineri 6 nov)
-- [ ] cele 4 videouri vorbite + snack-ul (luni 9 nov, la sală)
+- [ ] cele 4 videouri vorbite + snack-ul (**marți 10 nov**, la sală)
+- [ ] alternativa la coardă, pentru încălzire: marș pe loc cu genunchii sus + step jack, câte 20 s, din față (marți 10 nov)
+- [ ] flotare de la podea, din profil (marți 10 nov)
+- [x] variantele de acasă cu elastic: **scoase** (nu ai elastic). Le înlocuim cu ce avem deja filmat: fluturări inverse, ramat cu ganteră, prone swimmers, flotare înclinată, împins cu gantere mici
 - [ ] **cardio:** 5 aparate × 3 clipuri + 5 variante acasă (lista: Bibliotecă → Programări noiembrie → „Cardio în Custom Program”)
 
 **Pentru decembrie** (loturile 4–6, după 9 nov): ankle test, hips between squat sets, lat pulldown mistakes, leg day, foam roller, upper body 15 min, RDL mistakes, push-up mistakes, balance test, gym → stream, grip test, 5-minute warm-up.

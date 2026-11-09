@@ -118,15 +118,15 @@ _Toate clipurile sunt montate (culoarea nouă, mai blândă, din 6 nov; numele e
 
 | Grupa | Gata ✅ | Mai trebuie filmat ⬜ |
 |---|---|---|
-| **Încălzire** | coardă, cercuri de brațe, cercuri de șold, leg swings (înainte-înapoi și lateral), gambe, respirația de reset | gleznă la perete |
+| **Încălzire** | coardă, cercuri de brațe, cercuri de șold, leg swings (înainte-înapoi și lateral), gambe, respirația de reset | gleznă la perete · **alternativa la coardă** (pentru cine nu sare): marș pe loc cu genunchii sus, step jack (jumping jack fără săritură) |
 | **Mobilitate** | cat-cow, open book (refilmat 6 nov), world's greatest stretch, 90/90, flexorii șoldului, child's pose, deep squat hold, cobra, triceps stretch | extensie toracică pe bancă |
 | **Picioare** | genuflexiune, goblet squat, sumo squat, split squat, fandare înapoi și înainte, ridicări pe vârfuri, wall sit, glute bridge, hip thrust, deadlift românesc | step-up |
-| **Core** | plank, high plank, plank cu piciorul ridicat, plank lateral, bird dog, dead bug, tabletop crunch, russian twist | pallof press, hollow hold (opționale: avem destul) |
-| **Spate** | lat pulldown, face pull, ramat la cablu, ramat cu ganteră, fluturări inverse, prone swimmers, wall angel | band pull-apart, ramat cu banda (pentru varianta de acasă) |
-| **Împins, umeri și brațe** | flotare înclinată, shoulder press, ridicări laterale, biceps curl | flotare (de la podea), împins cu banda (acasă) |
+| **Core** | plank, high plank, plank cu piciorul ridicat, plank lateral, bird dog, dead bug, tabletop crunch, russian twist | hollow hold (opțional). Pallof press scos (ne trebuia elastic) |
+| **Spate** | lat pulldown, face pull, ramat la cablu, ramat cu ganteră, fluturări inverse, prone swimmers, wall angel | — gata. **Acasă, fără elastic:** fluturări inverse și ramat cu gantere mici (sau sticle de apă), prone swimmers |
+| **Împins, umeri și brațe** | flotare înclinată, shoulder press, ridicări laterale, biceps curl | flotare (de la podea). **Acasă, fără elastic:** flotare înclinată + împins cu gantere mici |
 | **Gât și încheieturi** | gâtul lateral, chin tucks (așezată, din profil), semicercuri, încheieturi palma jos, palma sus, cercuri | — gata |
 | **Cardio** | spinning, bicicletă cu spătar, bandă înclinată | stepper, eliptică (opționale) |
-| **Videourile vorbite** | — | bun venit, cum folosești programul, siguranța, cum îți filmezi forma (luni 9 nov) |
+| **Videourile vorbite** | — | bun venit, cum folosești programul, siguranța, cum îți filmezi forma (**marți 10 nov**) |
 
 **Pentru Custom Program v1 (15 nov) e aproape tot gata:** toate cele 4 trasee au exercițiile de bază. Luni 9 rămân videourile vorbite și câteva variante de acasă (cu banda).
 

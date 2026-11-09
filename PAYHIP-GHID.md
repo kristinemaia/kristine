@@ -1,6 +1,12 @@
 # Payhip, pas cu pas: cum facem pagina pentru Custom Program
 
-_Pentru 14–15 nov, pe laptop, cu internet bun (~1,5 ore). Payhip îl ai deja. **Nu publici produsul** (îl lași ascuns) până nu vine răspunsul scris al contabilei și al avocatului despre vânzări._
+**Când:**
+- **joi 12 nov, seara (~30 min):** pasul 1, setările contului. Nu depinde de videouri.
+- **sâmbătă 14 nov (~1 oră):** pașii 2 și 3, cursurile și abonamentul. Până atunci îți dau videourile exportate și numite în ordine.
+- **duminică 15 nov:** pasul 4, testul cu cuponul de 100%, pe telefon.
+- **luni 16 nov:** cuponul ajunge la testeri.
+
+_Pe laptop, cu internet bun. Payhip îl ai deja. **Nu publici produsul** (îl lași ascuns) până nu vine răspunsul scris al contabilei și al avocatului despre vânzări._
 
 ## 1. Setările contului (o dată)
 - [ ] **Settings → Account**: numele magazinului „Kristine Maia”, logo/poză, moneda **EUR**
