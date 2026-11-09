@@ -14,7 +14,7 @@ STATS = {
     'twitch_followers': '72K',
     'instagram_followers': '12.6K',
     'streams_per_week': '4',
-    'avg_viewers': '150–200',     # din Twitch Analytics (media pe 30 de zile); None = nu apare
+    'avg_viewers': '1.5–2.3K',    # spectatori unici pe stream (rezumatele Twitch, 6–7 nov 2026); None = nu apare
 }
 AUDIENCE = None                    # ex. 'Top countries: ... · Main age group: ...' din Analytics; None = nu apare
 EMAIL = 'kristinemaia527@gmail.com'
@@ -24,7 +24,7 @@ def stat_tiles():
          (STATS['instagram_followers'], 'Instagram followers', '@kristinemaia11'),
          (STATS['streams_per_week'] + '×', 'live streams a week', 'with a stretch break every hour')]
     if STATS['avg_viewers']:
-        t.append((STATS['avg_viewers'], 'average live viewers', 'Twitch, recent months'))
+        t.append((STATS['avg_viewers'], 'unique viewers per stream', 'Twitch, November 2026'))
     return ''.join(f'<div class="stat"><b>{a}</b><span>{b}</span><i>{c}</i></div>' for a, b, c in t)
 
 CSS = """
