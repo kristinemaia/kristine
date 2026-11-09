@@ -130,6 +130,9 @@ Free 5-minute desk stretch → link in bio
 #mobility #gymtips #restday #stretching #gamerhealth
 ```
 
+## Regula pentru site (9 nov)
+Fiecare reel cu greșit/corect (form check) intră și pe site, în **Form guides**: video + „What to fix” + „Try this” + „Who it is for”. Îl adaug eu de fiecare dată.
+
 ## Cum filmezi, pe scurt
 - **Toate trei într-o sesiune de ~45 de minute**, cu aceeași ținută (verde, albastru deschis, gri deschis sau crem), fără alți oameni, logo sau ferestre în cadru.
 - Telefonul **vertical, pe trepied**: pe diagonală, la înălțimea șoldului (G1, G2); din profil, la înălțimea pieptului (G3).

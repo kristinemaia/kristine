@@ -4,7 +4,8 @@ Rulezi: python3 studio/montaj/web_video.py   →  website/assets/video/<nume>.mp
 540 x 960 (reel-urile din ghiduri 720 x 1280), fără sunet, mici (~1 MB), pornesc repede (faststart)."""
 import os, subprocess
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')
-OUT = os.path.join(ROOT, 'website/assets/video')
+OUT = os.path.join(ROOT, 'studio/custom-program/web')        # toate clipurile, ușoare (pentru Payhip și previzualizări)
+SITE = os.path.join(ROOT, 'website/assets/video')           # pe site ajung doar previzualizarea și ghidurile
 PROG = os.path.join(ROOT, 'studio/custom-program/out'); REEL = os.path.join(ROOT, 'studio/montaj/out-g')
 # (sursa, nume pe site, lățime, secunda pentru copertă)
 LIST = [(os.path.join(PROG, n + '.mp4'), n, 540, 1.5) for n in [
@@ -30,3 +31,15 @@ for src, name, w, t in LIST:
                         '-c:v', 'libx264', '-preset', 'slow', '-crf', '29', '-profile:v', 'main', '-movflags', '+faststart', mp4], check=True)
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(t), '-i', src, '-frames:v', '1', '-vf', 'scale=%d:%d' % (w, h), '-q:v', '6', jpg], check=True)
     print('%-36s %5.0f KB' % (name, os.path.getsize(mp4) / 1024))
+# site-ul: doar clipurile din PREVIEW (website/build_site.py) și ghidurile de formă; restul se șterge din folderul site-ului
+import re, shutil
+pv = set(re.findall(r'\("([a-z0-9-]+)", "[^"]+", "[^"]+"\)', open(os.path.join(ROOT, 'website/build_site.py'), encoding='utf-8').read()))
+keep = pv | {n for _, n, _, _ in LIST if n.startswith('ghid-')}
+os.makedirs(SITE, exist_ok=True)
+for f in os.listdir(SITE):
+    if f.rsplit('.', 1)[0] not in keep: os.remove(os.path.join(SITE, f))
+for n in keep:
+    for ext in ('mp4', 'jpg'):
+        src = os.path.join(OUT, n + '.' + ext)
+        if os.path.exists(src): shutil.copy2(src, os.path.join(SITE, n + '.' + ext))
+print('pe site:', len(keep), 'clipuri')

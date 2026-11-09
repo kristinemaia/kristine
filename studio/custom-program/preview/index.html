@@ -1,0 +1,205 @@
+<title>Custom Program Preview</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: o coloană de aplicație de membri (ca pe telefon), cu playerul sus și antrenamentul zilei dedesubt. */
+:root{
+  --bg:#FFF9F6; --card:#FFFFFF; --ink:#2B2431; --muted:#665D70; --line:#EDE2EA;
+  --wine:#8A3459; --wine-ink:#FFFFFF; --pink:#F8DCE6; --mint:#D8F0E4; --mint-ink:#1C6550; --blue:#DDE9F7;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Figtree",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#18141B; --card:#221D26; --ink:#F3ECF1; --muted:#B6A9B8; --line:#3A3140;
+  --wine:#D86C9A; --wine-ink:#18141B; --pink:#3D2431; --mint:#1D3A30; --mint-ink:#9BE0C4; --blue:#1F2B3B; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#18141B; --card:#221D26; --ink:#F3ECF1; --muted:#B6A9B8; --line:#3A3140;
+  --wine:#D86C9A; --wine-ink:#18141B; --pink:#3D2431; --mint:#1D3A30; --mint-ink:#9BE0C4; --blue:#1F2B3B; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--body);margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.app{max-width:760px;margin:0 auto;display:grid;gap:20px}
+h1,h2,h3{font-family:var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1{font-size:clamp(28px,6vw,40px);line-height:1.05}
+h2{font-size:22px}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--wine)}
+.note{background:var(--pink);border-radius:14px;padding:10px 14px;font-size:14px}
+.top{display:grid;gap:8px}
+.meta{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--card);border:1.5px solid var(--line);border-radius:99px;padding:4px 12px;font-size:13px;font-weight:600}
+.player{background:var(--card);border:1.5px solid var(--line);border-radius:22px;overflow:hidden;display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr)}
+.player video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#000;display:block}
+.pinfo{padding:18px;display:grid;gap:8px;align-content:start;min-width:0}
+.pinfo .dose{font-family:var(--display);font-size:26px;font-weight:800;color:var(--wine)}
+.pinfo .cue{color:var(--muted)}
+.next{font-size:14px;color:var(--muted)}
+@media (max-width:560px){.player{grid-template-columns:minmax(0,150px) minmax(0,1fr)}.pinfo .dose{font-size:21px}}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{font:700 15px var(--body);border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:9px 16px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.day{display:grid;gap:14px}
+.block h3{font-size:16px;margin-bottom:8px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.block h3 span{font:600 13px var(--body);color:var(--muted)}
+ol{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+li{background:var(--card);border:1.5px solid var(--line);border-radius:16px;display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:12px;align-items:center;padding:8px 12px 8px 8px}
+li.on{border-color:var(--wine)}
+li.done .name{text-decoration:line-through;color:var(--muted)}
+.thumb{width:56px;height:56px;border-radius:12px;object-fit:cover;background:var(--line);cursor:pointer;border:0;padding:0}
+.thumb img{width:100%;height:100%;object-fit:cover;border-radius:12px;display:block}
+.name{font-weight:700;cursor:pointer;background:none;border:0;padding:0;color:inherit;font:inherit;text-align:left}
+.dose-s{font-size:13px;color:var(--muted)}
+input[type=checkbox]{width:24px;height:24px;accent-color:var(--wine);cursor:pointer}
+.soon{background:var(--card);border:1.5px dashed var(--line);border-radius:16px;padding:12px 14px;color:var(--muted);font-size:14px}
+.prog{height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--wine);transition:width .3s}
+button:focus-visible,.name:focus-visible{outline:3px solid var(--wine);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.prog i{transition:none}}
+</style>
+
+<div class="app">
+  <div class="note"><b>Previzualizare pentru Kristine:</b> așa vede un membru programul după ce plătește. Datele sunt un exemplu (traseul Get Strong, 3 zile pe săptămână); fiecare client primește traseul lui din quiz.</div>
+
+  <header class="top">
+    <p class="kicker">Your custom program · Week 1</p>
+    <h1>Get Strong, gym &amp; home</h1>
+    <div class="meta"><span class="chip">3 days a week</span><span class="chip">35–40 minutes</span><span class="chip">Beginner+</span><span class="chip">Week 1 of 4</span></div>
+  </header>
+
+  <section class="player" aria-label="Exercise video">
+    <video id="vid" muted loop playsinline controls poster="incalzire-coarda.jpg"><source id="src" src="incalzire-coarda.mp4" type="video/mp4"></video>
+    <div class="pinfo">
+      <p class="kicker" id="pgroup">Warm-up</p>
+      <h2 id="pname">Jump rope</h2>
+      <div class="dose" id="pdose">2 × 30 s</div>
+      <p class="cue" id="pcue">Light and easy, on the balls of your feet.</p>
+      <p class="next" id="pnext"></p>
+    </div>
+  </section>
+
+  <div class="block">
+    <h3>Today's progress <span id="count">0 of 0 done</span></h3>
+    <div class="prog"><i id="bar"></i></div>
+  </div>
+
+  <div class="tabs" role="tablist" aria-label="Training days">
+    <button role="tab" id="tab-A" aria-selected="true" data-day="A">Day A · Legs &amp; glutes</button>
+    <button role="tab" id="tab-B" aria-selected="false" data-day="B">Day B · Back &amp; push</button>
+    <button role="tab" id="tab-C" aria-selected="false" data-day="C">Day C · Full body + cardio</button>
+  </div>
+
+  <div id="day" class="day"></div>
+
+  <section class="block">
+    <h3>Start here <span>4 short videos</span></h3>
+    <div class="soon">Welcome · How to use your program · Safety first · How to film your form. <b>Filmed on 9 November</b>, added here before launch.</div>
+  </section>
+
+  <section class="block">
+    <h3>5-minute resets <span>any day, at your desk</span></h3>
+    <ol id="resets"></ol>
+  </section>
+</div>
+
+<script>
+const WARM = [
+  ['incalzire-coarda','Jump rope','2 × 30 s','Light and easy, on the balls of your feet.'],
+  ['incalzire-cercuri-brate','Arm circles','10 forward, 10 back','Big, slow circles.'],
+  ['incalzire-leg-swings','Leg swings','10 each leg','Hold the wall, swing front to back.'],
+  ['mobilitate-worlds-greatest-stretch','World\'s greatest stretch','3 each side','Long step, elbow to the floor, then reach up.']];
+const COOL = [
+  ['mobilitate-childs-pose','Child\'s pose reach','40 s','Breathe into your back.'],
+  ['mobilitate-flexori-sold','Kneeling hip flexor stretch','30 s each side','Squeeze the glute of the back leg.'],
+  ['mobilitate-cobra','Cobra stretch','5 slow breaths','Hips stay down, shoulders away from your ears.']];
+const DAYS = {
+  A: [['Warm-up · 5 min', WARM],
+      ['Workout · 3 rounds', [
+        ['picioare-goblet-a','Goblet squat','3 × 10','Dumbbell at your chest, heels down.'],
+        ['picioare-fandare-inapoi','Reverse lunge','3 × 8 each leg','Long step back, chest tall.'],
+        ['picioare-hip-thrust','Hip thrust','3 × 12','Pause one second at the top.'],
+        ['picioare-rdl','Romanian deadlift','3 × 10','Hips back, dumbbells close to your legs.'],
+        ['core-dead-bug','Dead bug','3 × 8 each side','Low back stays on the floor.'],
+        ['picioare-varfuri','Calf raises','2 × 15','Slow down, pause at the top.']]],
+      ['Cool-down · 4 min', COOL]],
+  B: [['Warm-up · 5 min', WARM],
+      ['Workout · 3 rounds', [
+        ['spate-lat-pulldown','Lat pulldown','3 × 10','Bar to your upper chest, shoulders down.'],
+        ['spate-ramat-gantera','One-arm dumbbell row','3 × 10 each side','Elbow to your hip.'],
+        ['impins-flotare-inclinata','Incline push-up','3 × 8','Body in one line, chest to the bench.'],
+        ['impins-umeri-gantere','Seated shoulder press','3 × 10','Ribs down, press straight up.'],
+        ['spate-fluturari-inverse','Reverse fly','2 × 12','Hinge forward, arms wide and soft.'],
+        ['core-plank','Plank','3 × 30 s','One line from head to heels.']]],
+      ['Cool-down · 4 min', COOL]],
+  C: [['Warm-up · 5 min', WARM],
+      ['Workout · 2 rounds', [
+        ['picioare-split-a','Split squat','2 × 8 each leg','Back knee comes down slowly.'],
+        ['spate-face-pull','Face pull','2 × 12','Rope to your face, elbows high.'],
+        ['umeri-ridicari-laterale','Lateral raise','2 × 12','Elbows soft, to shoulder height.'],
+        ['core-bird-dog','Bird dog','2 × 8 each side','Back flat like a table.'],
+        ['core-plank-lateral','Side plank','2 × 20 s each side','Hips high.']]],
+      ['Cardio · 15 min', [['cardio-banda','Incline walk','15 min, easy pace','Incline 8–12%, don\'t hold the rails.']]],
+      ['Cool-down · 4 min', COOL]]};
+const RESETS = [['gat-chin-tucks-sezut','Chin tucks','8 slow reps','Slide your chin straight back.'],
+                ['incheieturi-palma-sus','Wrist stretch, palm up','15 s each hand','Gentle pull, no pain.']];
+
+const $ = s => document.querySelector(s);
+const vid = $('#vid'), src = $('#src');
+let current = 'A', order = [];
+const key = d => 'done-' + d;
+function load(d){ try { return JSON.parse(localStorage.getItem(key(d)) || '[]'); } catch(e){ return []; } }
+function save(d, v){ try { localStorage.setItem(key(d), JSON.stringify(v)); } catch(e){} }
+
+function show(ex, group){
+  const [f, n, dose, cue] = ex;
+  src.src = f + '.mp4'; vid.poster = f + '.jpg'; vid.load();
+  const p = vid.play(); if (p && p.catch) p.catch(() => {});
+  $('#pgroup').textContent = group; $('#pname').textContent = n; $('#pdose').textContent = dose; $('#pcue').textContent = cue;
+  const i = order.findIndex(o => o[0][0] === f);
+  $('#pnext').textContent = (i > -1 && i + 1 < order.length) ? 'Next: ' + order[i + 1][0][1] : '';
+  document.querySelectorAll('li').forEach(li => li.classList.toggle('on', li.dataset.f === f));
+}
+function row(ex, group, done, i, onToggle){
+  const li = document.createElement('li'); li.dataset.f = ex[0];
+  if (done) li.classList.add('done');
+  const tb = document.createElement('button'); tb.className = 'thumb'; tb.setAttribute('aria-label', 'Play ' + ex[1]);
+  const im = document.createElement('img'); im.src = ex[0] + '.jpg'; im.alt = ''; im.loading = 'lazy'; tb.appendChild(im);
+  const mid = document.createElement('div'); mid.style.minWidth = '0';
+  const nb = document.createElement('button'); nb.className = 'name'; nb.textContent = ex[1];
+  const ds = document.createElement('div'); ds.className = 'dose-s'; ds.textContent = ex[2];
+  mid.append(nb, ds);
+  const cb = document.createElement('input'); cb.type = 'checkbox'; cb.id = 'cb-' + current + '-' + i; cb.checked = done; cb.setAttribute('aria-label', 'Done: ' + ex[1]);
+  cb.addEventListener('change', () => { li.classList.toggle('done', cb.checked); onToggle(cb.checked); });
+  [tb, nb].forEach(b => b.addEventListener('click', () => show(ex, group)));
+  li.append(tb, mid, cb); return li;
+}
+function render(){
+  const box = $('#day'); box.innerHTML = ''; order = [];
+  const done = load(current); let i = 0, total = 0;
+  DAYS[current].forEach(([title, list]) => {
+    const sec = document.createElement('section'); sec.className = 'block';
+    const h = document.createElement('h3'); h.textContent = title; sec.appendChild(h);
+    const ol = document.createElement('ol');
+    list.forEach(ex => {
+      const idx = i++; total++; order.push([ex, title]);
+      ol.appendChild(row(ex, title, done.includes(idx), idx, on => {
+        const d = load(current); const k = d.indexOf(idx);
+        if (on && k < 0) d.push(idx); if (!on && k > -1) d.splice(k, 1); save(current, d); progress(total);
+      }));
+    });
+    sec.appendChild(ol); box.appendChild(sec);
+  });
+  progress(total);
+  show(order[0][0], order[0][1]);
+}
+function progress(total){
+  const n = load(current).length;
+  $('#count').textContent = n + ' of ' + total + ' done';
+  $('#bar').style.width = (total ? 100 * n / total : 0) + '%';
+}
+document.querySelectorAll('[role=tab]').forEach(b => b.addEventListener('click', () => {
+  current = b.dataset.day;
+  document.querySelectorAll('[role=tab]').forEach(x => x.setAttribute('aria-selected', x === b ? 'true' : 'false'));
+  render();
+}));
+const rs = $('#resets'); RESETS.forEach((ex, i) => rs.appendChild(row(ex, '5-minute reset', false, 'r' + i, () => {})));
+render();
+</script>

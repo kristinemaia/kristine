@@ -12,6 +12,10 @@ cu același header și footer. Stilul e în assets/style.css, iar JavaScript-ul
 """
 import html as _html
 import os
+import time
+
+# versiunea fișierelor CSS/JS: se schimbă la fiecare build, ca browserele să nu păstreze varianta veche
+VER = time.strftime("%Y%m%d%H%M")
 
 OUT = os.path.dirname(os.path.abspath(__file__))
 
@@ -179,9 +183,9 @@ def page(fname, title, desc, body, lang="en", cur=None):
         '<meta property="og:description" content="%(desc)s">\n'
         '<meta name="theme-color" content="#FFF9F6">\n'
         "%(fonts)s\n"
-        '<link rel="stylesheet" href="assets/style.css">\n'
+        '<link rel="stylesheet" href="assets/style.css?v=%(ver)s">\n'
         "</head>\n<body>\n%(header)s\n<main id=\"main\">\n%(body)s\n</main>\n%(footer)s\n%(chat)s\n"
-        '<script src="assets/site.js"></script>\n</body>\n</html>\n'
+        '<script src="assets/site.js?v=%(ver)s"></script>\n</body>\n</html>\n'
     ) % {
         "lang": lang,
         "title": _html.escape(title),
@@ -191,6 +195,7 @@ def page(fname, title, desc, body, lang="en", cur=None):
         "body": body.strip("\n"),
         "footer": footer(lang),
         "chat": CHAT,
+        "ver": VER,
     }
     with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
         f.write(fill(html))
@@ -456,11 +461,20 @@ def vclip(name, title, cls="vcard"):
     return ('<figure class="%s"><video muted loop playsinline preload="none" data-auto poster="assets/video/%s.jpg" aria-label="%s, demo video">'
             '<source src="assets/video/%s.mp4" type="video/mp4"></video><figcaption>%s</figcaption></figure>') % (cls, name, _html.escape(title), name, _html.escape(title))
 
+# Pe site arătăm doar o previzualizare (câte un clip din fiecare grupă); toate clipurile sunt în program, pe Payhip.
+PREVIEW = [("incalzire-coarda", "Jump rope", "Warm-up"), ("mobilitate-worlds-greatest-stretch", "World's greatest stretch", "Mobility"),
+           ("picioare-goblet-a", "Goblet squat", "Legs"), ("picioare-hip-thrust", "Hip thrust", "Legs"),
+           ("spate-lat-pulldown", "Lat pulldown", "Back"), ("impins-umeri-gantere", "Seated shoulder press", "Push"),
+           ("core-dead-bug", "Dead bug", "Core"), ("gat-chin-tucks-sezut", "Chin tucks", "Neck & wrists"),
+           ("cardio-banda", "Incline walk", "Cardio"), ("mobilitate-cat-cow-v2", "Cat-cow", "Mobility")]
+
 def library_html():
-    out = ""
-    for group, items in LIBRARY:
-        out += '<h3 class="mt-s">%s <span class="count">%d</span></h3><div class="vgrid">%s</div>' % (group, len(items), "".join(vclip(n, t) for n, t in items))
-    return out
+    total = sum(len(items) for _, items in LIBRARY)
+    groups = " · ".join(g for g, _ in LIBRARY)
+    grid = "".join(vclip(n, "%s · %s" % (t, g)) for n, t, g in PREVIEW)
+    return ('<div class="vgrid">%s</div>'
+            '<p class="lead mt-s">A preview of %d moves out of %d+ inside the program: %s, each one filmed in the gym, with home versions.</p>'
+            '<div class="row-btns"><a class="btn" href="#quiz">Build my program</a></div>') % (grid, len(PREVIEW), total, groups)
 
 
 TESTIMONIALS = []
@@ -582,7 +596,7 @@ training = """
 
 <section class="wrap block" id="library" aria-labelledby="lib-title">
   <div class="block-head"><p class="kicker">Inside the program</p><h2 id="lib-title">The exercise library, filmed in the gym</h2>
-  <p class="lead">A preview of the moves your program is built from. More are added every week, including the home versions.</p></div>
+  </div>
 """ + library_html() + """
 </section>
 
