@@ -51,6 +51,8 @@ GROUPS = [
         "id": "programari", "name": "Programări noiembrie", "folder": "Programari-noiembrie", "note": "Instagram, TikTok, story-uri și ce mai filmăm",
         "zip": ("Programari-noiembrie.zip", "programari"),
         "items": [
+            {"kind": "doc", "slug": "calatorie-romania", "title": "Drumul în România (sfârșitul lui noiembrie)", "src": "CALATORIE-ROMANIA.md",
+             "desc": "Primăria (30 nov și 1 dec sunt zile libere), plasturii, contabila, chiriașul, postările cât ești pe drum, zilele în Turcia și ce iei înapoi. Cu bife."},
             {"kind": "doc", "slug": "programari-noiembrie", "title": "Programările din noiembrie: Instagram, TikTok și ce mai filmăm", "src": "PROGRAMARI-NOIEMBRIE.md",
              "desc": "Tot noiembrie zi cu zi: cel puțin 5 reel-uri pe săptămână pe Instagram (cu cele 2 reel-uri VirtuMe), TikTok în fiecare zi, story-urile pentru lansarea Custom Program și lista de filmat. Bifezi pe telefon."},
             {"kind": "doc", "slug": "videouri-vorbite", "title": "Cele 4 videouri vorbite pentru Custom Program (scripturi)", "src": "VIDEOURI-VORBITE.md",
