@@ -21,6 +21,8 @@ _10 noiembrie 2026 · pentru tine, nu pentru clienți. Pornim de la ce mi-ai spu
 
 **Ritmul bun:** ~0,25–0,4 kg pe săptămână (media). Mai repede înseamnă că pierzi și mușchi și forță.
 
+**De unde pornești (poza din sală, 10 nov):** ești deja suplă. Talia e îngustă, conturul abdomenului se vede când îl încordezi, iar umerii și brațele sunt tonifiate. Definirea pe care o vrei e în ultimele 2–3 kg, care se duc cel mai încet. Ținta realistă pentru 7 februarie e **~56–57 kg** și **talia cu 2–4 cm mai mică**, cu forța păstrată. Așa abdomenul se vede și relaxat, nu doar încordat, și apar liniile pe umeri, brațe și picioare. Te uiți mai mult la talie și la poze decât la cântar.
+
 ---
 
 ## 2. Săptămâna
