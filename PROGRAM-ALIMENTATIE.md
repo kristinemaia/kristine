@@ -127,8 +127,8 @@ De ce: o zi întreagă liberă adaugă ușor 2.000–3.000 kcal peste menținere
 
 ## Cumpărăturile pe săptămână
 - [ ] ton în apă: 4–5 conserve
-- [ ] pește alb: biban sau doradă 4 × 130 g (din aceeași comandă cu Cem) sau cod, merluciu 4 × 150 g
-- [ ] somon sau păstrăv: 2 × 120 g
+- [ ] biban sau doradă: 4 × 130 g (aceeași comandă cu Cem, la pescărie)
+- [ ] somon: 2 × 120 g (același cu al lui Cem)
 - [ ] creveți congelați: 300 g (pentru 2 prânzuri D)
 - [ ] ouă: 12–15 · albuș lichid: 1 L (sau încă 6–8 ouă)
 - [ ] chefir: 1,5–2 L · lapte: 1 L
