@@ -75,6 +75,16 @@ CLIPS = {
     'cardio-spinning':                    ('Spin bike', 'Cardio · seat at hip height', 0.3, None),
     'cardio-bicicleta-spatar':            ('Recumbent bike', 'Cardio · easy on knees and back', 0.3, None),
     'cardio-banda':                       ('Incline walk', 'Cardio · don\'t hold the rails', 0.3, None),
+    # marți 10 nov: alternativele la coardă, ce lipsea și câteva în plus
+    'incalzire-mars-pe-loc':              ('March in place', 'Warm-up · knees high, no jumping', 0.3, None),
+    'incalzire-step-jack':                ('Step jacks', 'Warm-up · jumping jacks without the jump', 0.3, None),
+    'incalzire-jumping-jacks':            ('Jumping jacks', 'Warm-up · light and quick', 0.3, None),
+    'incalzire-inchworm':                 ('Inchworm', 'Warm-up · walk out to a plank and back', 0.3, None),
+    'mobilitate-extensie-toracica':       ('Thoracic extension on a bench', 'Mobility · elbows on the bench, chest down', 0.3, None),
+    'mobilitate-rasucire-sezut':          ('Seated spinal twist', 'Mobility · each side, sit tall', 0.3, None),
+    'impins-flotare':                     ('Push-up', 'Push · body in one line', 0.3, None),
+    'core-hollow-hold':                   ('Hollow hold', 'Core · low back pressed down', 0.2, None),
+    'cardio-skaters':                     ('Skaters', 'Cardio · side to side, reach to the floor', 0.3, None),
 }
 def eticheta(titlu, mic, path):
     """pastila cu numele: crem cu margine vișinie, jos în stânga, pe podea (sus îți acoperea fața la exercițiile din picioare)"""
