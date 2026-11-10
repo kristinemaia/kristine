@@ -4,6 +4,8 @@ _10 noiembrie 2026 · pentru tine, nu pentru clienți. Pornim de la ce mi-ai spu
 
 > **Pe scurt:** forța rămâne grea (așa păstrezi mușchiul), cardio-ul e mai mult ușor decât intens, iar definirea vine din mâncare: **~1.650–1.700 kcal pe zi, ~130–140 g proteină**, 4 mese simple din ce gătești deja. Fără cheat days întregi: o masă liberă pe săptămână. Te cântărești dimineața și ne uităm la media săptămânii, nu la o zi.
 
+**Jurnalul de mâncare (pe telefon):** https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL. Notezi ce mănânci (scrii cum ai vorbi și se calculează singur, alegi din lista ta sau iei o masă din plan), greutatea, pașii, apa și pofta de dulce. Vede doar contul tău. Când îmi scrii „uită-te în jurnal”, îl citesc și îți fac bilanțul.
+
 **Ce nu știu încă:** înălțimea și vârsta. Am calculat pentru ~58 kg și o activitate ca a ta (sală + stream-uri lungi stând jos). Scrie-mi-le și potrivesc cifrele. Oricum, după primele 2 săptămâni cântarul ne spune exact cât să mănânci (regulile sunt la secțiunea 6).
 
 ---
@@ -23,6 +25,19 @@ _10 noiembrie 2026 · pentru tine, nu pentru clienți. Pornim de la ce mi-ai spu
 
 ## 2. Săptămâna
 
+### Săptămâna asta (10–15 nov): pornești de marți
+| Zi | Ce faci |
+|---|---|
+| **Marți 10** | **Picioare A**: primul antrenament |
+| **Miercuri 11** | **Upper A** + intervale (~13 min) |
+| **Joi 12** | cardio ușor: bandă înclinată 35–40 min |
+| **Vineri 13** | **Picioare B** |
+| **Sâmbătă 14** | **Upper B** + 30 min cardio ușor |
+| **Duminică 15** | pauză |
+
+Din **luni 16 noiembrie** urmezi săptămâna obișnuită de mai jos.
+
+### Săptămâna obișnuită
 | Zi | Sala | Cardio |
 |---|---|---|
 | **Luni** | **Picioare A** (cvadricepși + forță) | — |
@@ -141,7 +156,7 @@ De ce mai mult ușor decât intens: arde aproape la fel și nu-ți ia din forț�
 
 **Nu trebuie să numeri.** Dacă alegi câte o variantă din fiecare masă de mai jos, ajungi singură la cifrele astea. Prima săptămână cântărește **crud** pastele, ovăzul, cartofii și peștele, ca să-ți faci ochiul; apoi le pui la ochi.
 
-### Ziua ta: 4 mese + 1 extra
+### Ziua ta: 4 mese + desertul
 Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte din rândul ei, deci le schimbi cum vrei. Cifrele sunt aproximative.
 
 **Mic dejun · ~420–460 kcal · 30–38 g proteină**
@@ -164,10 +179,13 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 - **A. Pește la tavă:** 150 g file de pește alb (cod, merluciu, păstrăv) + 250 g cartofi + legume la cuptor (dovlecel, ardei, ceapă) + 1 linguriță ulei pe porție (1 lingură la o tavă de 3 porții).
 - **B. Somon:** 120 g somon + 150 g cartofi (sau 50 g orez crud) + broccoli. Fără ulei în plus, somonul are destulă grăsime.
 - **C. Ouă în sos de roșii (shakshuka):** 2 ouă + 150 g albuș în sos de roșii cu ardei și ceapă + 1 felie de pâine integrală + 20 g feta.
+- **D. Quesadilla cu ton (air fryer):** 1 lipie + 1 conservă de ton + 30 g mozzarella light + ardei, spanac. Se împăturește și stă 5–6 min la 180 °C (~390 kcal, 42 g proteină).
 
-**Extra · ~150–180 kcal:** 15 g nuci sau migdale **și** un fruct, sau laptele din cafea + un fruct. Nu-l sări: de aici vin grăsimile bune.
+**Desertul zilei · ~150–250 kcal:** în fiecare zi, după cină (sau la sfârșitul stream-ului). E deja socotit în calorii, deci nu e o abatere. Variantele sunt mai jos, la „Deserturi”. În zilele fără desert: 15 g nuci și un fruct.
 
-**Exemplu de zi:** ovăz proteic · ton cu paste · shake cu chefir după sală · pește la tavă · nuci + un măr ≈ **1.700 kcal, ~140 g proteină**.
+**Exemplu de zi:** ovăz proteic · ton cu paste · shake cu chefir după sală · pește la tavă · mousse de ciocolată ≈ **1.780 kcal, ~175 g proteină**. Cu desertul ăsta, la prânz pui 50 g paste în loc de 70 și ajungi la ~1.700.
+
+**Exemplu cu ce mănânci deja (azi, 10 nov):** micul dejun (2 ouă, 2 felii de pâine cu unt, 2 felii de brânză, roșie, castravete, gem) a avut **~570 kcal, ~29 g proteină și ~30 g grăsimi**. E bun, doar că are deja jumătate din grăsimile zilei. Pentru restul zilei: prânz cu ton în apă, gustare cu shake și chefir, cină cu pește alb. Așa ajungi la ~1.700 kcal și ~130 g proteină. Dacă vrei să-l păstrezi des: 1 felie de pâine integrală în loc de 2, fără unt și 100 g albuș în plus. Așa scazi ~100 kcal și urci la ~38 g proteină.
 
 **Regulile simple:**
 - **Somon sau păstrăv de 2 ori pe săptămână** (omega-3 și grăsimile de care ai nevoie).
@@ -175,6 +193,40 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 - **Legume la cel puțin 2 mese** (salată, legume la cuptor sau congelate).
 - **Pe stream:** apă, ceai sau băuturi zero; dacă îți e foame, muți gustarea pe stream, nu adaugi una.
 - **Când mănânci în oraș** (sau gătește altcineva): o palmă–o palmă și jumătate de pește sau ouă, un pumn de carbohidrați, două pumni de legume, un deget mare de grăsime.
+
+### Deserturi (îți plac dulciurile, deci intră în fiecare zi)
+Toate sunt gata în 2–10 minute și sunt în jurnal, la „Din plan → Deserturi”, cu caloriile calculate.
+
+| Desert | Cum îl faci | kcal · proteină |
+|---|---|---|
+| **Mousse de ciocolată** | 200 g iaurt grecesc 2% + ½ măsură whey de ciocolată + 1 linguriță cacao + câteva picături de stevia; deasupra, 5 g ciocolată 85% rasă | ~250 · 34 g |
+| **Mug cake proteic** | 1 măsură whey + 1 ou + 15 g ovăz măcinat + 1 linguriță cacao + 30 ml lapte + ½ linguriță praf de copt. 60–90 s la microunde sau 8–10 min la 170 °C în air fryer, în ramekin | ~275 · 34 g |
+| **Înghețată de banană** | 1 banană congelată + 100 g fructe de pădure congelate + ½ măsură whey + puțin lapte, în blender | ~230 · 16 g |
+| **Banană la air fryer cu skyr** | banana tăiată pe lungime, cu scorțișoară, 8 min la 180 °C; lângă, 150 g skyr | ~200 · 18 g |
+| **Măr copt cu brânză de vaci** | mărul tăiat în jumătăți, cu scorțișoară, 12–15 min la 180 °C în air fryer; deasupra, 100 g brânză de vaci cu vanilie și stevia, plus 5 g nuci | ~215 · 14 g |
+| **Clătite de ovăz și banană** | 30 g ovăz + 1 ou + 100 g albuș + ½ banană, mixate; 2–3 clătite mici în tigaia antiaderentă; deasupra, iaurt și fructe. Merg și ca mic dejun | ~350 · 27 g |
+| **Bile cu curmale** (rețeta ta, în varianta proteică) | pentru 4 bile: 2 curmale medjool + 20 g ovăz + ½ măsură whey + 1 linguriță cacao, mixate și rulate. Mănânci 2 | ~140 pentru 2 bile · 8 g |
+| **Cel mai rapid** | 2 pătrățele de ciocolată neagră 85% (10 g), cu ceaiul | ~60 · 1 g |
+
+**Curmalele:** sunt bune, dar dense: o curmală medjool are ~66 kcal. 1–2 pe zi, în rețetă, nu din pungă.
+
+### Îndulcitorul
+- **Primul ales: stevia** (picături sau pudră, eventual amestecată cu fruct de călugăr, monk fruit). Are 0 kcal, nu-ți crește glicemia și rezistă la cuptor. Pune puțină: prea multă lasă un gust amărui.
+- **Cel mai bun îndulcitor e proteina cu aromă** (vanilie, ciocolată): îndulcește și adaugă proteină. Pe lângă ea: scorțișoară, vanilie, cacao, banană coaptă.
+- **Eritritolul** (din multe amestecuri „pentru prăjituri”) e ok din când în când. Nu-l folosi zilnic în cantități mari: în doze mari balonează, iar un studiu din 2023 l-a pus în legătură cu riscul cardiovascular (studiul nu e concludent).
+- **Xilitolul e otrăvitor pentru câini** (și periculos pentru pisici), chiar și în cantități mici, inclusiv din guma de mestecat. Ține-l departe de Jimmy și de pisici, sau mai bine nu-l cumpăra deloc.
+- Gemul 100% fruct e în regulă: o linguriță are ~18 kcal.
+
+### Pofta de dulce seara: ce o oprește
+1. **Mănânci destul peste zi.** Pofta mare de seară vine de cele mai multe ori dintr-o zi cu prea puțină proteină sau cu mese sărite. Pune 30+ g proteină la fiecare masă și nu sări prânzul în zilele cu stream.
+2. **Desertul e planificat, nu interzis.** Îl ai în fiecare zi, după cină. Când știi că urmează, pofta nu mai are putere.
+3. **La cină pui și carbohidrați** (cartofi, paste, pâine). O cină doar cu proteină și salată te lasă cu poftă de dulce la 22:00.
+4. **„Bucătăria se închide”:** după desert te speli pe dinți și bei un ceai de mentă, scorțișoară sau mușețel. E un semnal clar că ziua de mâncat s-a terminat.
+5. **Regula de 10 minute:** dacă vine pofta, bei apă sau ceai și aștepți 10 minute. Dacă tot o ai, mănânci desertul din plan (sau 2 pătrățele de 85%), la masă, nu în fața ecranului.
+6. **Pe stream:** pe birou ai doar apă, ceai sau băuturi zero. Dulciurile nu stau în casă la vedere. Dacă le cumperi, iei porții mici, nu pachetul mare.
+7. **Somnul:** după o noapte scurtă, pofta de dulce e mult mai mare. Pe zilele astea mergi pe desertul cu cea mai multă proteină (mousse sau mug cake).
+8. **În săptămâna dinainte de ciclu** e normal să ai mai multă poftă. Ai voie cu 100–150 kcal în plus (de exemplu un desert mai mare). Notezi asta în jurnal ca să știm de unde vine.
+9. **În jurnal**, la „Poftă de dulce seara?”, bifezi în fiecare seară. După 2 săptămâni vedem în ce zile apare (după stream, după antrenament, înainte de ciclu) și schimbăm masa de dinainte.
 
 ### Masa liberă, în loc de cheat day
 **O masă pe săptămână** (de exemplu sâmbătă seara) mănânci ce vrei, fără să numeri: o porție normală + desert. Atât: **o masă, nu o zi.**
@@ -197,15 +249,31 @@ De ce: o zi întreagă liberă adaugă ușor 2.000–3.000 kcal peste menținere
 - [ ] legume: roșii, roșii cherry, castraveți, ardei, ceapă, spanac, salată, dovlecei, fasole verde și broccoli congelate
 - [ ] fructe: fructe de pădure congelate, mere, banane, lămâi
 - [ ] nuci sau migdale: 100 g · ulei de măsline · passata (sos de roșii) · usturoi, boia, oregano
+- [ ] pentru deserturi: cacao neîndulcită, ciocolată neagră 85%, stevia, scorțișoară, vanilie, skyr, mozzarella light, câteva curmale medjool
 
-### Gătitul de duminică (~1 oră, pentru 3 zile)
-1. Cartofi la cuptor sau fierți: ~1 kg.
-2. Paste fierte: 2–3 porții (70 g crude ≈ 170 g fierte).
-3. O tavă de pește cu legume (ține 2–3 zile la frigider; restul peștelui rămâne congelat până miercuri).
-4. 6 ouă fierte.
-5. Salata spălată, legumele tăiate, sosul de iaurt cu usturoi într-un borcan.
+### Gătit rapid, fără meal prep (10–20 de minute, proaspăt la fiecare masă)
+Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat în porții de 150 g și îl scoți dimineața în frigider (sau îl pui direct congelat în air fryer, cu 4–5 minute în plus).
 
-Miercuri (Cook with me) gătești a doua tură pentru joi–sâmbătă.
+**Air fryer**
+| Ce | Cum | Timp |
+|---|---|---|
+| Pește alb (cod, merluciu) | lămâie, usturoi, boia, 1 linguriță ulei | 10–12 min la 200 °C |
+| Somon sau păstrăv | sare, piper, lămâie, fără ulei | 8–10 min la 200 °C |
+| Creveți | usturoi, boia, puțin ulei | 6–8 min la 200 °C |
+| Cartofi cuburi | 1 linguriță ulei, rozmarin; scuturi coșul la jumătate | 18–20 min la 200 °C (sau 5 min la microunde înainte și 8–10 min în air fryer) |
+| Legume (dovlecel, ardei, broccoli, ceapă) | puțin ulei, sare, oregano | 10–12 min la 190 °C |
+| Quesadilla cu ton | lipie + ton + mozzarella light + legume, împăturită | 5–6 min la 180 °C |
+| Măr sau banană (desert) | cu scorțișoară | 8–15 min la 180 °C |
+
+**Cuptor (o singură tavă, mâna ta lucrează 5 minute):** pește + cartofi felii subțiri + legume, totul în aceeași tavă, 1 linguriță ulei pe porție, 25 min la 200 °C. Cartofii pleacă primii, cu 10 minute înainte.
+
+**Tigaie (5–10 minute)**
+- **Omletă** din 2 ouă + albuș, cu spanac, roșii și ardei, lângă o lipie (micul dejun tău, în varianta cu mai multă proteină).
+- **Ton cu paste:** pastele fierb 9–10 minute, iar în timpul ăsta tai salata și scurgi tonul.
+- **Paste cu creveți:** creveții 3–4 minute cu usturoi, apoi roșiile cherry și pastele.
+- **Shakshuka:** sosul de roșii cu ardei și ceapă 8 minute, apoi spargi ouăle (și pui albușul), încă 5–6 minute cu capac.
+
+**Fără gătit (2 minute):** wrap cu ton, bolul cu iaurt, shake-ul cu chefir, brânza de vaci cu fructe.
 
 ### Suplimente (puține, care chiar ajută)
 - **Proteina:** o ai deja, 1 măsură pe zi (uneori 2, în zilele când nu ajungi la proteină din mâncare).
@@ -241,6 +309,8 @@ Miercuri (Cook with me) gătești a doua tură pentru joi–sâmbătă.
 ---
 
 ## 7. Lista de bifat pentru săptămâna 1
+- [ ] Azi (marți 10 nov): **Picioare A**, primul antrenament
+- [ ] Notezi în jurnal tot ce mănânci (micul dejun de azi e deja trecut)
 - [ ] Îmi scrii înălțimea și vârsta (potrivesc caloriile)
 - [ ] Cumperi creatina și ce lipsește de pe lista de cumpărături
 - [ ] Prima cântărire, talia și primele poze (miercuri 11 nov, dimineața)
