@@ -479,3 +479,7 @@ body{top:0!important}
 .dm-h{font:800 22px/1.1 var(--display)}
 @media (max-width:480px){.dm-btn span{display:none}.dm-btn{padding:12px 15px}}
 @media print{.dm{display:none}}
+/* Chestionar: câmpurile scrise (nume, vârstă, notă) */
+.qin{font:600 16px/1.4 var(--body,inherit);padding:10px 14px;border:2px solid var(--line);border-radius:14px;background:#fff;color:var(--ink);width:100%;max-width:420px}
+textarea.qin{max-width:100%;resize:vertical}
+.qin:focus-visible{outline:3px solid var(--pink-ink);outline-offset:2px}

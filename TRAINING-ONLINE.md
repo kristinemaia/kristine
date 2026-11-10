@@ -26,6 +26,17 @@ _30 octombrie 2026 (v2). Pe site e deja pagina `training.html`: un chestionar �
 Fiecare traseu are **începător**, **revenire** (a mai făcut sport, acum nu) și **intermediar**, în **blocuri de 4 săptămâni**. La 10 minute pe sesiune, traseul primește eticheta **Express**.
 
 ## 3. Chestionarul (e deja pe site) și cum gândește
+
+**Actualizat pe 10 nov:**
+- **Prima întrebare e numele.** Rezultatul începe cu „Hi Ana, here is your plan.”
+- **Nivelul îl alege omul:** Beginner, Intermediate sau Advanced. Cine a răspuns că e nou la antrenament pornește oricum ca Beginner. Cine a făcut pauză primește eticheta „(returning)”.
+- **Vârsta se scrie exact**, ca număr. Programul o încadrează singur: sub 18, 18–39, 40–59, 60+.
+- **La final e o notă opțională** („Anything else you want me to know?”). Dacă omul apasă „Join your custom program”, i se deschide emailul cu numele, traseul, nivelul și nota lui, iar el decide dacă îl trimite. Răspunsurile despre sănătate nu intră niciodată în email.
+- **În rezultat apare „How to start”, după nivel:**
+  - **Beginner:** săptămânile 1–2 sunt de învățat mișcarea, cu greutăți foarte mici și 2 seturi. Greutăți de pornire: gantere de 2–4 kg pentru umeri și brațe, 4–8 kg la goblet squat și ramat, 10–20 kg la lat pulldown, hip thrust întâi fără greutate.
+  - **Intermediate:** 3 seturi de 8–12 repetări; la 12 pe toate seturile, +1–2 kg.
+  - **Advanced:** 3–4 seturi, variante mai grele, plus trimitere spre coaching-ul 1:1.
+  - **Acasă, fără gantere:** variante mai ușoare ale exercițiilor, apoi mai grele.
 | # | Întrebarea | Ce schimbă în plan |
 |---|---|---|
 | 1 | Câte ore stai jos pe zi | cât de des sunt pauzele de stretching (de la una pe zi la una pe oră) |

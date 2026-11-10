@@ -75,12 +75,12 @@ button:focus-visible,.name:focus-visible{outline:3px solid var(--wine);outline-o
 </style>
 
 <div class="app">
-  <div class="note"><b>Previzualizare pentru Kristine:</b> așa vede un membru programul după ce plătește. Datele sunt un exemplu (traseul Get Strong, 3 zile pe săptămână); fiecare client primește traseul lui din quiz.</div>
+  <div class="note"><b>Previzualizare pentru Kristine:</b> așa vede un membru programul după ce plătește. Datele sunt un exemplu (Ana, începătoare, traseul Get Strong, 3 zile pe săptămână); fiecare client primește numele, nivelul și traseul lui din quiz.</div>
 
   <header class="top">
-    <p class="kicker">Your custom program · Week 1</p>
+    <p class="kicker">Hi Ana 👋 · Your custom program · Week 1</p>
     <h1>Get Strong, gym &amp; home</h1>
-    <div class="meta"><span class="chip">3 days a week</span><span class="chip">35–40 minutes</span><span class="chip">Beginner+</span><span class="chip">Week 1 of 4</span></div>
+    <div class="meta"><span class="chip">3 days a week</span><span class="chip">35–40 minutes</span><span class="chip">Beginner</span><span class="chip">Week 1 of 4</span></div>
   </header>
 
   <section class="player" aria-label="Exercise video">
@@ -183,7 +183,7 @@ function lastText(entry){
   return 'Last time: ' + (same ? fmt(kg[0]) + ' kg × ' + entry.s.map(x => x[1]).join(', ') : entry.s.map(x => fmt(x[0]) + '×' + x[1]).join(' · ') + ' kg');
 }
 function tipText(f, entry, target){
-  if (!entry) return 'Pick a weight you can lift for every rep with good form, with 1–2 reps left in the tank. Write it down after each set.';
+  if (!entry) return 'Week 1 is a learning week: start very light, with a weight you could lift 4–5 more times. Write it down after each set.';
   const top = Math.max(...entry.s.map(x => x[0]));
   const hit = entry.s.length && entry.s.every(x => x[1] >= target);
   const step = SMALL.includes(f) ? 1 : 2;

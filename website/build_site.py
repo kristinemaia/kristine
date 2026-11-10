@@ -495,11 +495,21 @@ def q_check(name, legend, opts, hint="", extra=""):
     h = '<p class="small muted">%s</p>' % hint if hint else ""
     return '<fieldset class="qf"%s><legend><span class="qn"></span>%s</legend>%s<div class="opts">%s</div></fieldset>' % (extra, legend, h, o)
 
+def q_input(name, legend, kind="text", hint="", attrs=""):
+    h = '<p class="small muted">%s</p>' % hint if hint else ""
+    if kind == "textarea":
+        field = '<textarea class="qin" name="%s" rows="3" maxlength="600"%s></textarea>' % (name, attrs)
+    else:
+        field = '<input class="qin" type="%s" name="%s"%s>' % (kind, name, attrs)
+    return '<fieldset class="qf"><legend><span class="qn"></span>%s</legend>%s<div class="opts">%s</div></fieldset>' % (legend, h, field)
+
 QUIZ = "".join([
+    q_input("name", "What's your first name?", "text", "So your plan can say hi to you.", ' autocomplete="given-name" maxlength="40" placeholder="First name"'),
     q_radio("sit", "How many hours do you sit on a normal day?", [("lt4", "Under 4"), ("4-8", "4 to 8"), ("8-12", "8 to 12"), ("12", "12 or more")]),
     q_radio("goal", "What do you want most right now?", [("mob", "Move without stiffness"), ("str", "Get stronger"), ("fat", "Lose some fat and get fitter"), ("desk", "Feel better at my desk (neck, back, posture)")]),
     q_radio("focus", "Which part do you want to work on most?", [("whole", "Whole body"), ("lower", "Legs and glutes"), ("upper", "Upper body and back"), ("core", "Core and posture")]),
     q_radio("exp", "How much do you train at the moment?", [("new", "I'm new to training"), ("some", "I trained before, not now"), ("reg", "2 or more times a week")]),
+    q_radio("lvl", "What level do you think you are?", [("beg", "Beginner: I'm still learning the moves"), ("mid", "Intermediate: I train regularly and know the basic lifts"), ("adv", "Advanced: 2+ years of steady training, I train hard")]),
     q_radio("place", "Where will you train?", [("home", "At home"), ("gym", "At the gym"), ("both", "Both")]),
     q_check("equip", "What do you have at home?", [("bands", "Resistance bands"), ("db", "Dumbbells"), ("kb", "Kettlebell"), ("bar", "Pull-up bar"), ("all", "All of these")], "Optional: pick any, or none.", ' id="q-equip" hidden'),
     q_radio("time", "How much time per session?", [("10", "10 minutes"), ("20", "20 minutes"), ("35", "30 to 40 minutes"), ("auto", "Choose for me")]),
@@ -507,7 +517,7 @@ QUIZ = "".join([
     q_radio("ache", "Do you have pain or stiffness anywhere right now?", [("no", "No"), ("yes", "Yes")], "", ' id="q-ache" hidden'),
     q_check("area", "Where do you feel it?", [("neck", "Neck"), ("upper", "Shoulders and upper back"), ("lower", "Lower back"), ("hips", "Hips"), ("wrists", "Wrists and elbows"), ("knees", "Knees")], "Pick all that apply.", ' id="q-area" hidden'),
     q_radio("feel", "How does it feel?", [("stiff", "Stiff or tight, and better once I move"), ("pain", "Pain: sharp, constant, wakes me up, numbness or tingling, or after an injury")], "", ' id="q-feel" hidden'),
-    q_radio("age", "How old are you?", [("u18", "Under 18"), ("18", "18 to 39"), ("40", "40 to 59"), ("60", "60 or more")]),
+    q_input("age", "How old are you?", "number", "", ' inputmode="numeric" min="10" max="100" placeholder="Age" style="max-width:140px"'),
     q_check("health", "Does any of this apply to you?", [
         ("heart", "Heart condition, chest pain or fainting when active"), ("surg6", "Surgery in the last 6 months"),
         ("preg", "Pregnant"), ("doc", "A doctor told me to limit exercise"),
@@ -515,6 +525,7 @@ QUIZ = "".join([
         ("bp", "High blood pressure"), ("diab", "Diabetes"), ("asthma", "Asthma"), ("osteo", "Osteoporosis or low bone density"),
         ("hernia", "Hernia"), ("post", "I had a baby in the last 12 months"), ("none", "None of these")],
         "Pick all that apply. Your answers stay on your phone or computer and are not sent anywhere."),
+    q_input("note", "Anything else you want me to know? (optional)", "textarea", "For example an exercise you love or hate, or your schedule. If you join the waitlist, this note is added to your email so I can read it. Please don't write medical details here."),
 ])
 
 training = """
@@ -544,7 +555,7 @@ training = """
   <p class="small muted notranslate" translate="no">The quiz stays in English, even if you translate the page, so the safety notes stay exact. A Romanian version is coming.</p>
   <form class="quiz notranslate" id="quiz-form" translate="no" novalidate>
     """ + QUIZ + """
-    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question (the equipment one is optional; for the health one, pick “None of these” if nothing applies).</p>
+    <p class="small muted" id="quiz-err" role="alert" hidden>Please answer every question (equipment and the last note are optional; for the health one, pick “None of these” if nothing applies).</p>
     <button class="btn" type="submit">Show my custom program</button>
   </form>
 </section>
@@ -552,6 +563,7 @@ training = """
 <section class="wrap block pt-s notranslate" id="result" translate="no" aria-live="polite" hidden>
   <article class="panel p-mint plan">
     <span class="tag">Your custom program</span>
+    <p class="lead" id="r-hi"></p>
     <h2 id="r-track">Track</h2>
     <p class="muted" id="r-level"></p>
     <div id="r-age" class="notice-safe" hidden><b>This program is for adults.</b> If you are under 18, show this page to a parent, a PE teacher or a coach and train with them. The gentle mobility below is a safe place to start.</div>
@@ -560,6 +572,7 @@ training = """
     <div id="r-pain" class="notice-safe" hidden><b>About the pain you mentioned.</b> Sharp, constant or night pain, numbness, tingling or pain after an injury should be checked by a doctor or physiotherapist. Until you have the all-clear, skip any exercise that hurts there; the resets for those spots stay out of your plan.</div>
     <h3>Your week</h3>
     <ul id="r-week"></ul>
+    <div id="r-start-w" hidden><h3>How to start</h3><p id="r-start"></p></div>
     <div id="r-extra-w" hidden><h3>Every day</h3><ul id="r-extra"></ul></div>
     <h3 id="r-resets-h">Extra 5-minute resets</h3>
     <ul id="r-resets"></ul>
@@ -567,7 +580,7 @@ training = """
     <p id="r-breaks"></p>
     <p class="small muted">General exercise and education, not medical or diet advice. Stop if anything feels sharp or painful.</p>
     <div class="row-btns">
-      <a class="btn" href="{CLUB}">Join your custom program (waitlist)</a>
+      <a class="btn" id="r-join" href="{CLUB}">Join your custom program (waitlist)</a>
       <a class="btn alt" href="{PAYHIP}">Start today: free 5-minute desk stretch</a>
     </div>
     <p class="small"><a href="shop.html#coaching">Want me to check your form? 1:1 coaching waitlist</a> · <button class="link-btn" id="q-again" type="button">Take the quiz again</button></p>
@@ -671,10 +684,14 @@ training = """
   f.addEventListener('change',sync);
   f.addEventListener('submit',function(e){
     e.preventDefault();
-    var need=['sit','goal','focus','exp','place','time','days','age','health']; if(!qAche.hidden) need.push('ache'); if(!qFeel.hidden) need.push('feel');
+    var need=['sit','goal','focus','exp','lvl','place','time','days','health']; if(!qAche.hidden) need.push('ache'); if(!qFeel.hidden) need.push('feel');
+    var nameEl=f.querySelector('input[name="name"]'), ageEl=f.querySelector('input[name="age"]');
+    var nm=nameEl.value.trim(), ageN=parseInt(ageEl.value,10);
+    if(!nm){ err.hidden=false; nameEl.closest('fieldset').scrollIntoView({behavior:'smooth',block:'center'}); nameEl.focus(); return; }
     for(var i=0;i<need.length;i++){ if(!val(need[i])){ err.hidden=false; var q=f.querySelector('input[name="'+need[i]+'"]'); q.closest('fieldset').scrollIntoView({behavior:'smooth',block:'center'}); return; } }
+    if(!(ageN>=10&&ageN<=100)){ err.hidden=false; ageEl.closest('fieldset').scrollIntoView({behavior:'smooth',block:'center'}); ageEl.focus(); return; }
     err.hidden=true;
-    var a={sit:val('sit'),goal:val('goal'),focus:val('focus'),exp:val('exp'),place:val('place'),time:val('time'),days:+val('days'),age:val('age'),feel:val('feel')};
+    var a={sit:val('sit'),goal:val('goal'),focus:val('focus'),exp:val('exp'),place:val('place'),time:val('time'),days:+val('days'),age:(ageN<18?'u18':ageN<40?'18':ageN<60?'40':'60'),feel:val('feel'),lvl:val('lvl')};
     var eq=vals('equip'), areas=vals('area'), hl=vals('health'), pain=(a.feel==='pain'&&areas.length>0);
     var has=function(x){return hl.indexOf(x)>-1}, minor=(a.age==='u18');
     var safe=minor||['heart','surg6','preg','doc'].some(has);
@@ -684,7 +701,19 @@ training = """
     var auto=(a.time==='auto');
     if(auto) a.time=(a.exp==='reg'&&(a.goal==='str'||a.goal==='fat'))?'35':'20';
     var mins={'10':'10','20':'20','35':'30 to 40'}[a.time];
-    var level=(a.exp==='reg')?'Intermediate':(a.exp==='some'?'Returning beginner':'Beginner');
+    // Nivelul: cel ales de om; cine e nou la antrenament începe oricum ca Beginner; cine a făcut pauză primește „returning”.
+    var lv=(a.exp==='new')?'beg':a.lvl;
+    var level={beg:'Beginner',mid:'Intermediate',adv:'Advanced'}[lv]+((a.exp==='some')?' (returning)':'');
+    var START={
+      beg:'Weeks 1 and 2 are learning weeks: very light weights, 2 sets, and stop every set with 4 or 5 reps still in the tank. Good starting points: 2 to 4 kg dumbbells for shoulders and arms, 4 to 8 kg for goblet squats and rows, 10 to 20 kg on the lat pulldown, and hip thrusts with no weight first. Write down every set and go up 1 to 2 kg only when every rep looks clean.',
+      mid:'3 sets, stopping with about 2 reps in the tank. Pick weights you can lift 8 to 12 times. When you hit 12 on every set, go up 1 to 2 kg and start again at 8. Write down every set.',
+      adv:'3 to 4 sets with harder versions of the moves, stopping 1 or 2 reps before failure. Write down every set and add weight or reps each week. Want me to program and check your lifts by hand? That is what 1:1 coaching is for.'};
+    var noWeights=(a.place==='home')&&!eq.some(function(x){return x==='db'||x==='kb'||x==='all'});
+    var startTxt=noWeights
+      ?'You train with your body weight. Start with the easier version of each move and slow reps'+(lv==='beg'?', 2 sets in weeks 1 and 2':'')+'. When every rep of every set looks clean, move to the harder version or add reps. Write down what you did each time.'
+      :START[lv];
+    if(a.exp==='new'&&a.lvl!=='beg') startTxt='You are new to training, so we start at Beginner and build up fast. '+startTxt;
+    if(a.exp==='some'&&lv!=='beg') startTxt+=' You have trained before, so keep weeks 1 and 2 lighter than you think, then build up.';
     var homeKit=eq.indexOf('all')>-1?'home, with bands, dumbbells, a kettlebell and a pull-up bar':eq.length?('home, with '+eq.map(function(x){return {bands:'bands',db:'dumbbells',kb:'a kettlebell',bar:'a pull-up bar'}[x]}).join(', ')):'home, no equipment';
     var where={home:homeKit,gym:'gym',both:'gym and '+homeKit}[a.place];
     var dayPlace=function(i){ if(a.place!=='both') return ''; return (i%2===0)?' (gym)':' (home)'; };
@@ -713,7 +742,14 @@ training = """
       }
     }
     var shownAreas=pain?[]:areas;
+    document.getElementById('r-hi').textContent='Hi '+nm+', here is your plan.';
     document.getElementById('r-track').textContent=track;
+    var showStart=!safe&&a.goal!=='mob';
+    document.getElementById('r-start').textContent=startTxt;
+    document.getElementById('r-start-w').hidden=!showStart;
+    var note=f.querySelector('textarea[name="note"]').value.trim();
+    var body='Hi Kristine,\\n\\nI would like to join the Custom Program waitlist.\\n\\nName: '+nm+'\\nPlan: '+track+'\\nLevel: '+level+'\\nWhere: '+where+'\\nDays: '+a.days+' a week'+(note?'\\n\\nA note from me: '+note:'')+'\\n';
+    document.getElementById('r-join').href='mailto:kristinemaia527@gmail.com?subject='+encodeURIComponent('Custom Program waitlist')+'&body='+encodeURIComponent(body);
     document.getElementById('r-level').textContent='Level: '+level+' · '+where+(safe?'':' · '+a.days+' days a week · '+mins+' minutes'+(auto?' (chosen for you)':''));
     document.getElementById('r-age').hidden=!minor;
     document.getElementById('r-safe').hidden=!safe||minor;
@@ -1016,7 +1052,7 @@ legal = """
     <h2>Not medical advice</h2>
     <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I have a degree in Physical Education and Sport and coach mobility, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
     <h2>Privacy</h2>
-    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers stay on your device. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
+    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers (including your first name and age) stay on your device. If you tap “Join your custom program” after the quiz, your email app opens with your name, your plan and any note you wrote; nothing is sent unless you choose to send that email, and your health answers are never included. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>
     <p class="muted">Digital products are delivered by email right after payment. [TODO: politica de retur, verificată de avocat: de exemplu, dreptul de retragere pentru conținut digital și momentul în care se pierde].</p>
     <h2>Affiliate links</h2>
