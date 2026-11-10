@@ -98,13 +98,14 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 
 **Pentru Custom Program (gata pe 15 nov):**
 - [x] Picioare 1: glute bridge (step-up scos; ajung split squat și fandările)
-- [ ] extensia toracică pe bancă
+- [x] extensia toracică pe bancă (10 nov)
 - [ ] Picioare 2 + core (miercuri 4 nov)
 - [ ] Spate (joi 5 nov)
 - [ ] Împins + gât și încheieturi (vineri 6 nov)
 - [ ] cele 4 videouri vorbite + snack-ul (**marți 10 nov**, la sală)
-- [ ] alternativa la coardă, pentru încălzire: marș pe loc cu genunchii sus + step jack, câte 20 s, din față (marți 10 nov)
-- [ ] flotare de la podea, din profil (marți 10 nov)
+- [x] alternativa la coardă, pentru încălzire: marș pe loc + step jack (10 nov), plus jumping jacks, inchworm, skaters, răsucire din șezut, hollow hold
+- [ ] glezna la perete, din profil, ambele părți
+- [x] flotare de la podea, din profil (10 nov)
 - [x] variantele de acasă cu elastic: **scoase** (nu ai elastic). Le înlocuim cu ce avem deja filmat: fluturări inverse, ramat cu ganteră, prone swimmers, flotare înclinată, împins cu gantere mici
 - [ ] **cardio:** 5 aparate × 3 clipuri + 5 variante acasă (lista: Bibliotecă → Programări noiembrie → „Cardio în Custom Program”)
 
