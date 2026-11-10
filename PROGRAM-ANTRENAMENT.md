@@ -93,7 +93,7 @@ Din **luni 16 noiembrie** urmezi săptămâna obișnuită de mai jos.
 ## Cum crești și ce urmărești
 - **Progresie dublă:** când ai făcut capătul de sus al repetărilor pe toate seturile, cu RIR-ul cerut, pui greutate: **+2,5 kg** la exercițiile mari, **+1–2 kg** la gantere și la umeri. Altfel, aceeași greutate și încerci o repetare în plus.
 - **În deficit, să-ți păstrezi forța e deja o victorie.** Dacă exercițiile mari scad 2 săptămâni la rând (nu o zi proastă), deficitul e prea mare: vezi **Alimentația → Cum vedem că merge**.
-- **Notezi kg × repetări** la fiecare set (în telefon, ca în jurnalul de greutăți pe care l-am făcut pentru clienți).
+- **Notezi kg × repetări** la fiecare set în **jurnalul de antrenamente**: https://claude.ai/artifact/Dzx8NNiQmdaqLCC39zBysB. Îți arată ce ai ridicat data trecută, cu cât să crești și pornește pauza dintre seturi.
 - **Săptămâna 21–27 dec e mai ușoară (deload):** aceleași exerciții și greutăți, dar cu o treime mai puține seturi (4 → 3, 3 → 2) și RIR 3. Revii normal din 28 dec.
 - **Abdomenul se vede din mâncare, nu din seturi.** 3 exerciții pe săptămână (unul la fiecare sesiune, mai puțin marți) sunt destule.
 

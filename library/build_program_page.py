@@ -18,6 +18,7 @@ import sys
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 JURNAL = "https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL"
+ANTRENAMENTE = "https://claude.ai/artifact/Dzx8NNiQmdaqLCC39zBysB"
 
 PARTS = [
     {"id": "antrenament", "src": "PROGRAM-ANTRENAMENT.md", "name": "Antrenamentul",
@@ -218,6 +219,7 @@ def main():
     <p class="today">Azi în plan: <b id="todayPlan">vezi Antrenamentul</b></p>
     <nav class="tiles" aria-label="Cele trei părți">{tiles}</nav>
     <a class="jbtn" href="{JURNAL}"><span>Jurnalul de mâncare</span><span aria-hidden="true">→</span></a>
+    <a class="jbtn" href="{ANTRENAMENTE}" style="background:var(--lilac);color:var(--lilac-ink)"><span>Jurnalul de antrenamente</span><span aria-hidden="true">→</span></a>
   </div>
 </section>
 {parts}

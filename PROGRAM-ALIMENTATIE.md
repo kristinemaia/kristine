@@ -84,6 +84,25 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 - **Pe stream:** apă, ceai sau băuturi zero; dacă îți e foame, muți gustarea pe stream, nu adaugi una.
 - **Când mănânci în oraș** (sau gătește altcineva): o palmă–o palmă și jumătate de pește sau ouă, un pumn de carbohidrați, două pumni de legume, un deget mare de grăsime.
 
+## Rețetele tale de bază (cu cantități)
+Mâncărurile pe care le faci mereu, cântărite pe ținta ta. Le găsești și în jurnal, la „Din plan”.
+
+| Rețeta | Ce pui (gătit) | kcal · proteină | Când |
+|---|---|---|---|
+| **Omleta ta cu legume** | 2 ouă + 100 ml albuș + 150 g legume (ardei, ceapă, spanac, ciuperci, roșii) în ½ linguriță ulei · lângă: **1 lipie mică (~60 g)** sau **2 felii de pâine integrală (~80 g)** | ~445–455 · 31–34 g | mic dejun |
+| **Clătitele tale proteice** (2–3 bucăți) | 40 g ovăz măcinat + 1 ou + 100 ml albuș + 60 ml lapte + praf de copt și scorțișoară · deasupra: **1 linguriță miere + 5 g fulgi de ciocolată neagră** | ~350 · 25 g | mic dejun sau desert mare |
+| ↳ cu mai multă proteină | aceleași + ½ măsură whey în aluat | ~410 · 37 g | după antrenament |
+| **Paste cu pește în sos de roșii** | 140 g paste fierte + 150 g passata cu usturoi, oregano, busuioc + 1 linguriță ulei + **1 conservă de ton** (sau ~100 g pește alb gătit) | ~430 · 39 g (cu ton) · ~405 · 33 g (cu pește alb) | prânz |
+| **Cartofi cu pește** | 200 g cartofi fierți cu mărar sau pătrunjel (sau ~150 g la cuptor) + ~100 g biban sau doradă gătit + 150 g salată sau legume, lămâie | ~360 · 30 g | cină |
+| **Rodia** (îți place mult) | ½ rodie mare ≈ 100 g boabe = ~83 kcal | — | vezi mai jos |
+
+**Rodia, unde o pui:**
+- **În bolul cu iaurt**, în loc de banană: 200 g iaurt grecesc + 30 g ovăz + 100 g rodie + 10 g nuci (~410 kcal, 27 g proteină).
+- **Ca desert:** 150 g iaurt grecesc + 100 g rodie + ½ linguriță miere (~200 kcal, 17 g proteină).
+- **Pe salate și pe cartofii cu pește:** 2–3 linguri de boabe.
+
+**Fulgii de ciocolată:** dacă nu ai, tai 5 g din ciocolata de 85%: e același lucru.
+
 ## Deserturi (îți plac dulciurile, deci intră în fiecare zi)
 Toate sunt gata în 2–10 minute și sunt în jurnal, la „Din plan → Deserturi”, cu caloriile calculate.
 
@@ -136,9 +155,9 @@ Lista comună cu Cem e în Bibliotecă (în română și în engleză), cu numel
 - [ ] proteină (whey) și creatină, când se termină
 - [ ] ovăz (~220 g pe săptămână) · paste: 500 g (ajung 2 săptămâni) · cartofi: 1–1,5 kg
 - [ ] lipii: 3 pe săptămână · pâine integrală: 1–2 felii (din pâinea lui Cem)
-- [ ] roșii: 5 · roșii cherry: 250 g · passata: 1 borcan (pe raftul tău)
+- [ ] roșii: 5 · roșii cherry: 250 g · passata: 1 borcan mare, ~700 g (shakshuka și pastele cu pește; pe raftul tău)
 - [ ] legume, cu Cem: castraveți, ardei, ceapă, usturoi, dovlecei, broccoli, spanac, salată · fasole verde congelată: 1 pungă
-- [ ] fructe: fructe de pădure congelate 500 g, 4 banane, 4 mere, 4 curmale medjool, lămâi
+- [ ] fructe: 2 rodii, fructe de pădure congelate 500 g, 2 banane, 4 mere, 4 curmale medjool, lămâi
 - [ ] nuci: 100 g · ulei de măsline · condimentele comune
 - [ ] pentru deserturi: cacao neîndulcită, ciocolată neagră 85%, stevia, scorțișoară, vanilie, praf de copt
 
