@@ -97,7 +97,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 - [ ] G5 · 3 stretches after the gym: refilmare, totul **din profil**: piept la perete sau la stâlp, dorsali pe bancă, flexorii șoldului în genunchi (rezervă)
 
 **Pentru Custom Program (gata pe 15 nov):**
-- [ ] Picioare 1: glute bridge, step-up pe bancă
+- [x] Picioare 1: glute bridge (step-up scos; ajung split squat și fandările)
 - [ ] extensia toracică pe bancă
 - [ ] Picioare 2 + core (miercuri 4 nov)
 - [ ] Spate (joi 5 nov)

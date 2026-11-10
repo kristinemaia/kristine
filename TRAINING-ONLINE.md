@@ -120,7 +120,7 @@ _Toate clipurile sunt montate (culoarea nouă, mai blândă, din 6 nov; numele e
 |---|---|---|
 | **Încălzire** | coardă, cercuri de brațe, cercuri de șold, leg swings (înainte-înapoi și lateral), gambe, respirația de reset | gleznă la perete · **alternativa la coardă** (pentru cine nu sare): marș pe loc cu genunchii sus, step jack (jumping jack fără săritură) |
 | **Mobilitate** | cat-cow, open book (refilmat 6 nov), world's greatest stretch, 90/90, flexorii șoldului, child's pose, deep squat hold, cobra, triceps stretch | extensie toracică pe bancă |
-| **Picioare** | genuflexiune, goblet squat, sumo squat, split squat, fandare înapoi și înainte, ridicări pe vârfuri, wall sit, glute bridge, hip thrust, deadlift românesc | step-up |
+| **Picioare** | genuflexiune, goblet squat, sumo squat, split squat, fandare înapoi și înainte, ridicări pe vârfuri, wall sit, glute bridge, hip thrust, deadlift românesc | — gata (step-up scos: ajung split squat și fandările) |
 | **Core** | plank, high plank, plank cu piciorul ridicat, plank lateral, bird dog, dead bug, tabletop crunch, russian twist | hollow hold (opțional). Pallof press scos (ne trebuia elastic) |
 | **Spate** | lat pulldown, face pull, ramat la cablu, ramat cu ganteră, fluturări inverse, prone swimmers, wall angel | — gata. **Acasă, fără elastic:** fluturări inverse și ramat cu gantere mici (sau sticle de apă), prone swimmers |
 | **Împins, umeri și brațe** | flotare înclinată, shoulder press, ridicări laterale, biceps curl | flotare (de la podea). **Acasă, fără elastic:** flotare înclinată + împins cu gantere mici |

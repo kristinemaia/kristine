@@ -12,11 +12,11 @@ _3 noiembrie 2026, după poza cu zona de cardio. Cardio intră în Shape Up (2�
 | **Stepper-ul (scările)** | intermediari | fese și coapse, puls sus repede |
 | **Eliptica** | cei care nu au voie să sară (genunchi, osteoporoză, hernie, după naștere) | mișcare de alergare, fără impact |
 
-**Acasă:** coardă, marș pe loc cu genunchii sus, step-up rapid pe o treaptă, jumping jacks fără săritură (pas lateral cu brațele sus), box în aer.
+**Acasă:** coardă, marș pe loc cu genunchii sus, step jack (jumping jack fără săritură, pas lateral cu brațele sus), box în aer.
 
 ## 2. Cum alege programul (după quiz)
 - **La sală:** începătorii primesc bandă înclinată sau bicicleta cu spătar; intermediarii primesc spinning, stepper sau eliptică, la alegere.
-- **Acasă:** coardă pentru cine poate sări; marș, step-up și jumping jacks fără săritură pentru ceilalți.
+- **Acasă:** coardă pentru cine poate sări; marș pe loc și step jack pentru ceilalți.
 - **Fără sărituri** (genunchi, osteoporoză, hernie, naștere în ultimul an): bicicleta cu spătar, eliptica, banda înclinată, marșul.
 - **Spate sau 60+:** bicicleta cu spătar pe primul loc.
 - **Inimă, operație recentă, sarcină, „doctorul mi-a zis”:** doar mers ușor, după acordul medicului (cum e deja în quiz).
@@ -37,7 +37,7 @@ Cum simți efortul (pe o scară de la 1 la 10): ușor = 4–5 (vorbești în pro
 - [ ] stepper-ul: drept, mâinile ușor pe bare, pași întregi, apoi mai repede
 - [ ] eliptica: postura (drept, fără să te lași pe mânere), ritm ușor, apoi mai repede
 
-**Acasă (pe saltea, la peretele simplu):** coardă, marș pe loc, step-up rapid, jumping jacks fără săritură, box în aer (câte 10 s).
+**Acasă (pe saltea, la peretele simplu):** coardă, marș pe loc, step jack, box în aer (câte 10 s).
 
 **Atenție la cadru:**
 - **lumina albastră** din zona de cardio colorează pielea; dacă poți, filmezi cu lumina albă aprinsă sau ziua. Corectez eu culoarea, dar pornim de la o imagine cât mai albă.
