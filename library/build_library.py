@@ -48,11 +48,22 @@ _OV_LAB = [n for n in _OV if n not in _OV_MAIN]
 # kind: link | pdf | doc | img | site
 GROUPS = [
     {
+        "id": "definire", "name": "Programul de definire", "folder": "Programul-de-definire", "note": "Trei părți separate: antrenamentul, alimentația, cardio (11 nov – 7 feb)",
+        "items": [
+            {"kind": "doc", "slug": "program-antrenament", "title": "Antrenamentul", "src": "PROGRAM-ANTRENAMENT.md",
+             "desc": "Sala, 4 zile: săptămâna, Picioare A și B, Upper A și B cu seturi, repetări, RIR și pauze, cum crești greutățile, ce faci dacă lipsește un aparat."},
+            {"kind": "doc", "slug": "program-alimentatie", "title": "Alimentația", "src": "PROGRAM-ALIMENTATIE.md",
+             "desc": "1.550–1.650 kcal, 120–130 g proteină: mesele cu porții gătite, deserturile, îndulcitorul, pofta de dulce, gătitul rapid, cumpărăturile, suplimentele și cum ajustăm după cântar."},
+            {"kind": "doc", "slug": "program-cardio", "title": "Cardio și pașii", "src": "PROGRAM-CARDIO.md",
+             "desc": "3 sesiuni pe săptămână (intervale marți, bandă înclinată miercuri, cardio lung sâmbătă) și 8.000–10.000 de pași pe zi."},
+            {"kind": "link", "title": "Jurnalul de mâncare", "url": "https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL",
+             "desc": "Notezi ce mănânci, greutatea, pașii și pofta de dulce; vezi caloriile și proteina zilei."},
+        ],
+    },
+    {
         "id": "programari", "name": "Programări noiembrie", "folder": "Programari-noiembrie", "note": "Instagram, TikTok, story-uri și ce mai filmăm",
         "zip": ("Programari-noiembrie.zip", "programari"),
         "items": [
-            {"kind": "doc", "slug": "program-definire", "title": "Programul tău de definire: sală, cardio, mâncare (11 nov – 7 feb)", "src": "PROGRAM-DEFINIRE.md",
-             "desc": "Doar pentru tine: 2 zile de picioare și 2 de upper cu seturi, repetări și pauze, 3 cardio, ~1.550–1.650 kcal cu ~120–130 g proteină din mese pescetariene simple (variante de schimbat între ele), deserturi de 2–10 minute, îndulcitorul, cum oprești pofta de dulce seara, gătit rapid la air fryer, cuptor și tigaie (fără meal prep), masa liberă în loc de cheat day, lista de cumpărături și cum ajustăm după cântar. Pagina pentru telefon: claude.ai/artifact/Rdc6SgijK2BdjWNds9noeV · jurnalul de mâncare: claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL"},
             {"kind": "doc", "slug": "programari-noiembrie", "title": "Programările din noiembrie: Instagram, TikTok și ce mai filmăm", "src": "PROGRAMARI-NOIEMBRIE.md",
              "desc": "Tot noiembrie zi cu zi: cel puțin 5 reel-uri pe săptămână pe Instagram (cu cele 2 reel-uri VirtuMe), TikTok în fiecare zi, story-urile pentru lansarea Custom Program și lista de filmat. Bifezi pe telefon."},
             {"kind": "doc", "slug": "videouri-vorbite", "title": "Cele 4 videouri vorbite pentru Custom Program (scripturi)", "src": "VIDEOURI-VORBITE.md",
