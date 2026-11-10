@@ -56,6 +56,8 @@ GROUPS = [
              "desc": "1.550–1.650 kcal, 120–130 g proteină: mesele cu porții gătite, deserturile, îndulcitorul, pofta de dulce, gătitul rapid, cumpărăturile, suplimentele și cum ajustăm după cântar."},
             {"kind": "doc", "slug": "program-cardio", "title": "Cardio și pașii", "src": "PROGRAM-CARDIO.md",
              "desc": "3 sesiuni pe săptămână (intervale marți, bandă înclinată miercuri, cardio lung sâmbătă) și 8.000–10.000 de pași pe zi."},
+            {"kind": "pdf", "slug": "lista-comuna", "title": "Lista de cumpărături: Kristine + Cem", "src": "LISTA-CUMPARATURI-KRISTINE-CEM.pdf", "name": "Lista-cumparaturi-Kristine-Cem.pdf",
+             "desc": "O săptămână obișnuită pentru amândoi, cu numele din magazinele din Turcia: ce e al cui, cât iei în total și regulile lui Cem (fără orez, lactoză, roșii)."},
             {"kind": "link", "title": "Jurnalul de mâncare", "url": "https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL",
              "desc": "Notezi ce mănânci, greutatea, pașii și pofta de dulce; vezi caloriile și proteina zilei."},
         ],
