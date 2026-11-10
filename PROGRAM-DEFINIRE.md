@@ -1,12 +1,12 @@
 # Programul tău de definire (shred): sală, cardio, mâncare
 
-_10 noiembrie 2026 · pentru tine, nu pentru clienți. Pornim de la ce mi-ai spus: ~58 kg, 15 ani de sport, 4 antrenamente de forță (2 picioare + 2 upper) și 3 de cardio pe săptămână, pescetariană (pește, ouă, lactate, fără carne), gătești simplu._
+_10 noiembrie 2026 · pentru tine, nu pentru clienți. Pornim de la ce mi-ai spus: 1,58 m, 59 kg, 28 de ani, 15 ani de sport, 4 antrenamente de forță (2 picioare + 2 upper) și 3 de cardio pe săptămână, pescetariană (pește, ouă, lactate, fără carne), gătești simplu._
 
-> **Pe scurt:** forța rămâne grea (așa păstrezi mușchiul), cardio-ul e mai mult ușor decât intens, iar definirea vine din mâncare: **~1.650–1.700 kcal pe zi, ~130–140 g proteină**, 4 mese simple din ce gătești deja. Fără cheat days întregi: o masă liberă pe săptămână. Te cântărești dimineața și ne uităm la media săptămânii, nu la o zi.
+> **Pe scurt:** forța rămâne grea (așa păstrezi mușchiul), cardio-ul e mai mult ușor decât intens, iar definirea vine din mâncare: **~1.550–1.650 kcal pe zi, ~120–130 g proteină**, 4 mese simple din ce gătești deja. Fără cheat days întregi: o masă liberă pe săptămână. Te cântărești dimineața și ne uităm la media săptămânii, nu la o zi.
 
 **Jurnalul de mâncare (pe telefon):** https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL. Notezi ce mănânci (scrii cum ai vorbi și se calculează singur, alegi din lista ta sau iei o masă din plan), greutatea, pașii, apa și pofta de dulce. Vede doar contul tău. Când îmi scrii „uită-te în jurnal”, îl citesc și îți fac bilanțul.
 
-**Ce nu știu încă:** înălțimea și vârsta. Am calculat pentru ~58 kg și o activitate ca a ta (sală + stream-uri lungi stând jos). Scrie-mi-le și potrivesc cifrele. Oricum, după primele 2 săptămâni cântarul ne spune exact cât să mănânci (regulile sunt la secțiunea 6).
+**Cum am calculat (10 nov, cu înălțimea și vârsta ta):** la 1,58 m, 59 kg și 28 de ani, corpul tău arde ~1.280 kcal în repaus. Cu 4 antrenamente de forță, 3 de cardio și 8.000–10.000 de pași, dar și cu stream-urile lungi stând jos, menținerea ta e ~1.850–1.950 kcal. Ținta e cu ~300 kcal mai jos. Cântarul confirmă după primele 2 săptămâni (regulile sunt la secțiunea 6).
 
 ---
 
@@ -14,8 +14,8 @@ _10 noiembrie 2026 · pentru tine, nu pentru clienți. Pornim de la ce mi-ai spu
 
 | Perioada | Ce faci | Mâncare |
 |---|---|---|
-| **11 nov – 20 dec** (6 săptămâni) | **Etapa 1 de definire** | ~1.650–1.700 kcal |
-| **21 dec – 3 ian** (2 săptămâni) | **Pauză de la dietă** (sărbătorile, familia). Antrenamentele continuă, mai ușoare în săptămâna 21–27 dec (vezi secțiunea 3) | la menținere, ~1.950–2.000 kcal |
+| **11 nov – 20 dec** (6 săptămâni) | **Etapa 1 de definire** | ~1.550–1.650 kcal |
+| **21 dec – 3 ian** (2 săptămâni) | **Pauză de la dietă** (sărbătorile, familia). Antrenamentele continuă, mai ușoare în săptămâna 21–27 dec (vezi secțiunea 3) | la menținere, ~1.850–1.950 kcal |
 | **4 ian – 7 feb** (5 săptămâni) | **Etapa 2 de definire** | revii la cifrele din etapa 1 (sau cele ajustate) |
 | **8 feb** | Bilanț: poze, talie, cântar. Decidem: încă 3–4 săptămâni sau menținere | |
 
@@ -148,10 +148,10 @@ De ce mai mult ușor decât intens: arde aproape la fel și nu-ți ia din forț�
 ### Cifrele zilnice
 | | Cât | De ce |
 |---|---|---|
-| **Calorii** | **~1.650–1.700 kcal** (estimare; ajustăm după 2 săptămâni) | menținerea ta e probabil ~1.950–2.000 kcal; deficit de ~300 kcal |
-| **Proteină** | **~130–140 g** (minim 115 g) | păstrezi mușchiul și ești sătulă |
+| **Calorii** | **~1.550–1.650 kcal** (ajustăm după 2 săptămâni) | menținerea ta e ~1.850–1.950 kcal; deficit de ~300 kcal |
+| **Proteină** | **~120–130 g** (minim 110 g, ~2 g pe kg) | păstrezi mușchiul și ești sătulă |
 | **Grăsimi** | **40–55 g** (nu sub ~40 g) | hormoni, ciclu, piele |
-| **Carbohidrați** | **~170–190 g**, mai mulți în mesele din jurul antrenamentului | energie la sală |
+| **Carbohidrați** | **~150–175 g**, mai mulți în mesele din jurul antrenamentului | energie la sală |
 | **Fibre, apă** | 25–30 g fibre (legume la 2–3 mese) · 2,5 L apă, mai mult în zilele de sală | sațietate, digestie |
 
 **Nu trebuie să numeri.** Dacă alegi câte o variantă din fiecare masă de mai jos, ajungi singură la cifrele astea. Prima săptămână cântărește **crud** pastele, ovăzul, cartofii și peștele, ca să-ți faci ochiul; apoi le pui la ochi.
@@ -159,33 +159,33 @@ De ce mai mult ușor decât intens: arde aproape la fel și nu-ți ia din forț�
 ### Ziua ta: 4 mese + desertul
 Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte din rândul ei, deci le schimbi cum vrei. Cifrele sunt aproximative.
 
-**Mic dejun · ~420–460 kcal · 30–38 g proteină**
-- **A. Ovăz proteic:** 50 g ovăz fiert în apă + 1 măsură de proteină (30 g) amestecată la final + 150 ml lapte + 100 g fructe de pădure (merg și congelate).
-- **B. Ouă cu lipie:** omletă din 2 ouă + 100 g albuș, cu spanac, roșii, ardei + 1 lipie mică (~60 g, ~180 kcal; verifică eticheta) + 20 g feta.
-- **C. Bol cu iaurt:** 250 g iaurt grecesc 2% + 30 g ovăz + 1 banană mică + 10 g nuci.
+**Mic dejun · ~380–430 kcal · 30–36 g proteină**
+- **A. Ovăz proteic:** 40 g ovăz fiert în apă + 1 măsură de proteină (30 g) amestecată la final + 150 ml lapte + 100 g fructe de pădure (merg și congelate).
+- **B. Ouă cu lipie:** omletă din 2 ouă + 100 g albuș, cu spanac, roșii, ardei + 1 lipie mică (~60 g, ~180 kcal; verifică eticheta).
+- **C. Bol cu iaurt:** 200 g iaurt grecesc 2% + 30 g ovăz + 1 banană mică + 10 g nuci.
 
-**Prânz · ~440–470 kcal · 37–41 g proteină**
-- **A. Ton cu paste (al tău):** 70 g paste (crude) + 1 conservă de ton în apă (~120 g scurs) + roșii, castraveți, ceapă roșie + 1 linguriță ulei de măsline + lămâie.
+**Prânz · ~430–460 kcal · 38–43 g proteină**
+- **A. Ton cu paste (al tău):** 60 g paste (crude) + 1 conservă de ton în apă (~120 g scurs) + roșii, castraveți, ceapă roșie + 1 linguriță ulei de măsline + lămâie.
 - **B. Wrap cu ton:** 1 lipie + 1 conservă de ton + 2 linguri de iaurt grecesc cu usturoi (sosul) + salată, castravete. Lângă: 1 măr.
 - **C. Salată cu ton și cartofi:** 200 g cartofi fierți + 1 conservă de ton + 1 ou fiert + fasole verde și roșii + 1 linguriță ulei.
-- **D. Paste cu creveți:** 70 g paste + 150 g creveți + roșii cherry, usturoi + 1 linguriță ulei + 10 g parmezan.
+- **D. Paste cu creveți:** 60 g paste + 150 g creveți + roșii cherry, usturoi + 1 linguriță ulei + 10 g parmezan.
 
 **Gustarea · ~230–250 kcal · 24–32 g proteină** (ideal după sală)
 - **A. Shake-ul tău:** 1 măsură de proteină în 250 ml chefir.
 - **B. Brânză de vaci:** 200 g brânză de vaci slabă + 100 g fructe sau 1 linguriță miere.
 - **C. Iaurt cu proteină:** 170 g iaurt grecesc 2% + o jumătate de măsură de proteină + fructe.
 
-**Cina · ~400–460 kcal · 30–40 g proteină**
-- **A. Pește la tavă:** 150 g file de pește alb (cod, merluciu, păstrăv) + 250 g cartofi + legume la cuptor (dovlecel, ardei, ceapă) + 1 linguriță ulei pe porție (1 lingură la o tavă de 3 porții).
+**Cina · ~370–430 kcal · 30–42 g proteină**
+- **A. Pește la tavă:** 150 g file de pește alb (cod, merluciu, păstrăv) + 200 g cartofi + legume la cuptor (dovlecel, ardei, ceapă) + 1 linguriță ulei pe porție (1 lingură la o tavă de 3 porții).
 - **B. Somon:** 120 g somon + 150 g cartofi (sau 50 g orez crud) + broccoli. Fără ulei în plus, somonul are destulă grăsime.
-- **C. Ouă în sos de roșii (shakshuka):** 2 ouă + 150 g albuș în sos de roșii cu ardei și ceapă + 1 felie de pâine integrală + 20 g feta.
+- **C. Ouă în sos de roșii (shakshuka):** 2 ouă + 150 g albuș în sos de roșii cu ardei și ceapă + 1 felie de pâine integrală.
 - **D. Quesadilla cu ton (air fryer):** 1 lipie + 1 conservă de ton + 30 g mozzarella light + ardei, spanac. Se împăturește și stă 5–6 min la 180 °C (~390 kcal, 42 g proteină).
 
 **Desertul zilei · ~150–250 kcal:** în fiecare zi, după cină (sau la sfârșitul stream-ului). E deja socotit în calorii, deci nu e o abatere. Variantele sunt mai jos, la „Deserturi”. În zilele fără desert: 15 g nuci și un fruct.
 
-**Exemplu de zi:** ovăz proteic · ton cu paste · shake cu chefir după sală · pește la tavă · mousse de ciocolată ≈ **1.780 kcal, ~175 g proteină**. Cu desertul ăsta, la prânz pui 50 g paste în loc de 70 și ajungi la ~1.700.
+**Exemplu de zi:** ovăz proteic · ton cu paste · shake cu chefir după sală · pește la tavă · banană la air fryer cu skyr ≈ **1.620 kcal, ~155 g proteină**. Cu mousse-ul de ciocolată în loc de banană ajungi la ~1.670, tot bine.
 
-**Exemplu cu ce mănânci deja (azi, 10 nov):** micul dejun (2 ouă, 2 felii de pâine cu unt, 2 felii de brânză, roșie, castravete, gem) a avut **~570 kcal, ~29 g proteină și ~30 g grăsimi**. E bun, doar că are deja jumătate din grăsimile zilei. Pentru restul zilei: prânz cu ton în apă, gustare cu shake și chefir, cină cu pește alb. Așa ajungi la ~1.700 kcal și ~130 g proteină. Dacă vrei să-l păstrezi des: 1 felie de pâine integrală în loc de 2, fără unt și 100 g albuș în plus. Așa scazi ~100 kcal și urci la ~38 g proteină.
+**Exemplu cu ce mănânci deja (azi, 10 nov):** micul dejun (2 ouă, 2 felii de pâine cu unt, 2 felii de brânză, roșie, castravete, gem) a avut **~570 kcal, ~29 g proteină și ~30 g grăsimi**. E bun, doar că are deja jumătate din grăsimile zilei. Pentru restul zilei: ton cu paste la prânz, shake cu chefir după sală, pește alb cu cartofi la cină. Așa ajungi la ~1.610 kcal și ~135 g proteină. Dacă vrei și desert, ia 2 pătrățele de ciocolată 85% (60 kcal). Dacă vrei să-l păstrezi des: 1 felie de pâine integrală în loc de 2, fără unt și 100 g albuș în plus. Așa scazi ~100 kcal și urci la ~38 g proteină.
 
 **Regulile simple:**
 - **Somon sau păstrăv de 2 ori pe săptămână** (omega-3 și grăsimile de care ai nevoie).
@@ -302,7 +302,7 @@ Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat
 | scade **peste 0,6 kg/săpt.** | **+100–150 kcal** (o felie de pâine sau un fruct în plus) |
 | cântarul stă, dar talia scade și pozele arată mai bine | nu schimbi nimic (pierzi grăsime și păstrezi mușchi) |
 
-**Unde te oprești:** nu cobori sub ~1.500 kcal. Dacă apar **ciclul neregulat sau oprit**, oboseală care nu trece, somn prost, iritabilitate sau forța care scade 2 săptămâni la rând, mănânci 1–2 săptămâni la menținere (~1.950–2.000 kcal), apoi reluăm. Dacă ciclul se oprește, mergi și la medic.
+**Unde te oprești:** nu cobori sub ~1.450 kcal. Dacă apar **ciclul neregulat sau oprit**, oboseală care nu trece, somn prost, iritabilitate sau forța care scade 2 săptămâni la rând, mănânci 1–2 săptămâni la menținere (~1.850–1.950 kcal), apoi reluăm. Dacă ciclul se oprește, mergi și la medic.
 
 **Somnul:** 7–8 ore. După stream-urile târzii, dormi mai mult a doua zi, nu tai din somn: cu somn puțin ți-e mai foame și ești mai slabă la sală.
 
@@ -311,7 +311,7 @@ Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat
 ## 7. Lista de bifat pentru săptămâna 1
 - [ ] Azi (marți 10 nov): **Picioare A**, primul antrenament
 - [ ] Notezi în jurnal tot ce mănânci (micul dejun de azi e deja trecut)
-- [ ] Îmi scrii înălțimea și vârsta (potrivesc caloriile)
+- [x] Înălțimea și vârsta (1,58 m, 28 de ani): caloriile sunt potrivite
 - [ ] Cumperi creatina și ce lipsește de pe lista de cumpărături
 - [ ] Prima cântărire, talia și primele poze (miercuri 11 nov, dimineața)
 - [ ] Prima săptămână cântărești crud pastele, ovăzul, cartofii și peștele
