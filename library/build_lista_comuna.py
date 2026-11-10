@@ -5,8 +5,9 @@ Lista de cumpărături comună, Kristine + Cem (o săptămână obișnuită), ca
 Sursele: ghidul de bucătărie al lui Cem (fără orez, fără lactoză, fără roșii) și
 PROGRAM-ALIMENTATIE.md (Kristine: pescetariană, fără carne).
 
-Rulezi:   python3 library/build_lista_comuna.py
-Rezultat: LISTA-CUMPARATURI-KRISTINE-CEM.pdf (în rădăcina proiectului)
+Rulezi:   python3 library/build_lista_comuna.py        (română)
+          python3 library/build_lista_comuna.py en     (engleză, ca s-o înțeleagă amândoi)
+Rezultat: LISTA-CUMPARATURI-KRISTINE-CEM.pdf / LISTA-CUMPARATURI-KRISTINE-CEM-EN.pdf
 """
 import html
 import os
@@ -15,7 +16,8 @@ import sys
 import tempfile
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-OUT = os.path.join(REPO, "LISTA-CUMPARATURI-KRISTINE-CEM.pdf")
+LANG = "en" if len(sys.argv) > 1 and sys.argv[1] == "en" else "ro"
+OUT = os.path.join(REPO, "LISTA-CUMPARATURI-KRISTINE-CEM%s.pdf" % ("-EN" if LANG == "en" else ""))
 
 A, C, K = "amandoi", "cem", "kristine"
 WHO = {A: "Amândoi", C: "Cem", K: "Kristine"}
@@ -135,6 +137,139 @@ REGULI = [
     ("La pescărie", "Peștele se ia o dată pentru amândoi, porționat: <b>Cem</b> 3 × 220 g biban sau doradă + somon 180 g · <b>Kristine</b> 4 × 150 g pește alb + 2 × 120 g somon sau păstrăv. Pungile, cu nume și dată."),
 ]
 
+
+# ----------------------------------------------------------------------
+# English version (same rows, same order) — so Kristine and Cem both read it
+# ----------------------------------------------------------------------
+WHO_EN = {A: "Both", C: "Cem", K: "Kristine"}
+
+SECTIONS_EN = [
+    ("Fish and meat", [
+        ("tuna in water (can)", "Ton balığı, suda", "8 cans", A, "Cem 3 + Kristine 5. Same brand for both: label says only tuna, water, salt."),
+        ("white fish (sea bass, sea bream, whiting)", "Levrek / çipura / mezgit fileto", "Cem 3 × 220 g · Kristine 4 × 150 g", A, "At the fish counter: cleaned, filleted and portioned; bags labelled with names. Not marinated, not breaded."),
+        ("salmon (or trout for Kristine)", "Somon fileto · alabalık fileto", "Cem 1 × 180 g · Kristine 2 × 120 g", A, "Plain, not teriyaki or marinated."),
+        ("frozen shrimp, peeled", "Dondurulmuş karides (ayıklanmış)", "300 g", K, "For 2 pasta lunches."),
+        ("chicken breast (fillet)", "Tavuk göğüs fileto", "2.1 kg", C, "1.4 kg Sunday + 0.7 kg Wednesday. Not marinated, no seasoning."),
+        ("boneless skinless chicken thighs", "Tavuk but, derisiz kemiksiz", "600 g", C, "Bone-in ≈800 g."),
+        ("lean minced beef (10–15% fat)", "Az yağlı dana kıyma", "500 g", C, "Minced at the butcher from leg or shoulder. Not «köftelik»."),
+        ("lean beef cubes", "Az yağlı dana kuşbaşı", "800 g", C, "Leg, sirloin or tenderloin. Not marinated."),
+    ]),
+    ("Eggs", [
+        ("eggs", "Yumurta", "1 tray of 30 + 1 of 15", A, "Cem 30 + Kristine 12–15."),
+        ("pasteurised liquid egg white", "Pastörize sıvı yumurta akı", "≈1.25 l", A, "Cem 500 ml + Kristine 750 ml. Egg white only, no «süt» or flavourings."),
+    ]),
+    ("Dairy (Kristine only: contains lactose)", [
+        ("kefir", "Kefir (sade)", "2 l", K, "For the daily shake. Plain, unflavoured."),
+        ("milk 1.5%", "Yarım yağlı süt", "1 l", K, "Oats and desserts."),
+        ("Greek yoghurt 2% (strained)", "Light süzme yoğurt", "≈1.2 kg", K, "Breakfast, snack, mousse, wrap sauce."),
+        ("low-fat cottage cheese", "Lor peyniri", "400 g", K, "Lor is the Turkish version: low fat, high protein."),
+        ("skyr (or more strained yoghurt)", "Skyr · süzme yoğurt", "300 g", K, "For the air-fryer banana dessert."),
+        ("light mozzarella", "Light mozzarella", "125 g", K, "Tuna quesadilla."),
+        ("feta (optional) · parmesan (small piece)", "Beyaz peynir · parmesan", "100 g · 50 g", K, "A little, on salads and pasta."),
+    ]),
+    ("Bread, grains, pasta", [
+        ("wholewheat flatbread (lavash)", "Tam buğday lavaş", "2 packs", A, "One each. Same checked brand: no «yoğurt», «süt», «pirinç»."),
+        ("wholewheat bread", "Tam buğday ekmeği", "2 loaves", A, "Cem 1 + Kristine 1. Sliced and frozen 2 slices at a time. No «süt tozu», «margarin», «pirinç unu»."),
+        ("rolled oats", "Yulaf ezmesi", "2 packs × 500 g", A, "Plain, not instant or flavoured. Lasts ~2 weeks for both."),
+        ("pasta (wholewheat if you like)", "Makarna · tam buğday makarna", "500 g", K, "Lasts ~2 weeks."),
+        ("coarse bulgur for pilaf", "Pilavlık bulgur (iri)", "1 kg", C, "Lasts ~3 weeks. Bulgur only, not «pilav karışımı»."),
+        ("quinoa", "Kinoa", "500 g", C, "Lasts ~4 weeks."),
+        ("buckwheat", "Karabuğday", "500 g", C, "Lasts ~5 weeks."),
+    ]),
+    ("Vegetables", [
+        ("cucumbers", "Salatalık", "≈3 kg", A, "Cem 2 kg + Kristine 1 kg."),
+        ("red kapia peppers", "Kırmızı kapya biber", "1.6 kg", A, "Cem 1.3 kg + Kristine 300 g."),
+        ("long green peppers (sweet)", "Sivri / çarliston biber", "≈10 pieces (300 g)", C, "Not the hot ones."),
+        ("yellow onions · red onions", "Kuru soğan · mor soğan", "1.3 kg · 800 g", A, "Cem 1 kg + 600 g · Kristine 3 + 2 pieces."),
+        ("garlic", "Sarımsak", "3 heads", A, "Cem 2 + Kristine 1."),
+        ("courgettes", "Kabak", "1.8 kg", A, "Cem 1.2 kg + Kristine 600 g."),
+        ("broccoli", "Brokoli", "1 kg", A, "Cem 600 g + Kristine 400 g."),
+        ("spinach", "Ispanak", "600 g", A, "Cem 300 g + Kristine 300 g."),
+        ("lettuce / iceberg", "Marul / göbek marul", "3 heads", A, "Cem 2 + Kristine 1."),
+        ("potatoes", "Patates", "2–2.5 kg", A, "Cem 1 kg + Kristine 1–1.5 kg. No green or sprouting parts."),
+        ("tomatoes · cherry tomatoes", "Domates · çeri domates", "5 pieces · 250 g", K, "Kristine only: kept apart and cut on her board, after Cem's food."),
+        ("button mushrooms", "Kültür mantarı", "800 g", C, ""),
+        ("carrots", "Havuç", "1 kg", C, ""),
+        ("leeks", "Pırasa", "2", C, ""),
+        ("rocket", "Roka", "3 bunches", C, "Wilts quickly."),
+        ("parsley · dill · spring onion", "Maydanoz · dereotu · yeşil soğan", "3 · 1 · 1 bunches", C, ""),
+        ("sweet potatoes", "Tatlı patates", "400 g", C, ""),
+        ("aubergine · cauliflower · red cabbage", "Patlıcan · karnabahar · kırmızı lahana", "1–2 · ½ · ¼", C, "Aubergine and cauliflower are optional."),
+        ("avocado", "Avokado", "1", C, ""),
+    ]),
+    ("Fruit", [
+        ("bananas", "Muz", "7", A, "Cem 3 + Kristine 4."),
+        ("apples", "Elma", "7", A, "Cem 3 + Kristine 4."),
+        ("lemons", "Limon", "14", A, "Cem 10 + Kristine 4."),
+        ("Medjool dates", "İri hurma (Medjool)", "6", A, "Cem 2 + Kristine 4. No added sugar or syrup."),
+        ("oranges · mandarins · pear · pomegranate", "Portakal · mandalina · armut · nar", "3 · 4 · 1 · 1", C, ""),
+    ]),
+    ("Frozen", [
+        ("frozen mixed berries", "Dondurulmuş orman meyveleri", "500 g", K, "Oats, yoghurt, banana ice cream."),
+        ("frozen green beans", "Dondurulmuş taze fasulye", "1 bag (450 g)", K, "Plain, no sauce."),
+    ]),
+    ("Legumes", [
+        ("cooked chickpeas (jar)", "Haşlanmış nohut (kavanoz)", "1 jar (≈400 g)", C, "Chickpeas, water, salt only. Not hummus."),
+    ]),
+    ("Oil, nuts, olives", [
+        ("extra virgin olive oil", "Sızma zeytinyağı", "1 l a month", A, "Both measure it with a teaspoon."),
+        ("walnut halves", "Ceviz içi", "300 g", A, "Cem 200 g + Kristine 100 g."),
+        ("almonds (optional)", "Badem", "100 g", K, ""),
+        ("black olives", "Siyah zeytin", "1 jar (≈200 g)", C, "Olives, water, salt."),
+        ("tahini · sesame seeds", "Tahin · susam", "1 small jar · 1 small pack", C, "Burger sauce and burger buns."),
+    ]),
+    ("Spices and sauces", [
+        ("thyme (or oregano), cumin, black pepper, chilli flakes", "Kekik, kimyon, karabiber, pul biber", "one pack each", A, "Single spices, not «tavuk/köfte/et baharatı» mixes."),
+        ("turmeric, sweet paprika, cinnamon", "Zerdeçal, tatlı toz kırmızı biber, tarçın", "one pack each", A, "Cinnamon also goes in Kristine's desserts."),
+        ("dried mint, rosemary, bay leaves, dried dill", "Kuru nane, biberiye, defne, kuru dereotu", "one pack each", C, ""),
+        ("pure garlic granules · pure onion powder", "Saf sarımsak tozu · saf soğan tozu", "one pack each", A, "Label says only garlic or onion."),
+        ("honey", "Bal", "1 small jar", A, ""),
+        ("salt", "Tuz", "1 pack", A, "No stock cubes or bouillon."),
+        ("mustard · apple cider vinegar · pomegranate molasses", "Hardal · elma sirkesi · nar ekşisi (saf)", "one each", C, "No «domates», no «pirinç sirkesi»."),
+        ("tomato passata", "Domates püresi / passata", "1 jar", K, "Kristine only (shakshuka). On her shelf."),
+    ]),
+    ("Sweet things and supplements (Kristine)", [
+        ("unsweetened cocoa", "Şekersiz kakao", "1 small tin", K, "Mousse, mug cake, date balls."),
+        ("85% dark chocolate", "%85 bitter çikolata", "1 bar", K, "2 squares a day at most."),
+        ("stevia (drops or powder)", "Stevia", "1 bottle", K, "Not xylitol: it is poisonous to dogs and cats."),
+        ("vanilla · baking powder", "Vanilya özü · kabartma tozu", "one each", K, "For desserts."),
+        ("whey protein", "Whey protein", "when it runs out", K, "Contains lactose: her shaker and scoop stay separate."),
+        ("creatine monohydrate", "Kreatin monohidrat", "1 tub (lasts ~2 months)", K, "3–5 g a day."),
+    ]),
+    ("Other", [
+        ("pickled gherkins", "Kornişon turşu", "1 jar", C, "Not «domatesli karışık turşu»."),
+        ("roasted peppers in a jar (spare)", "Közlenmiş kırmızı biber (kavanoz)", "1 jar", C, "Peppers, water, salt, apple or grape vinegar."),
+        ("lactose-free kaşar / mozzarella (optional)", "Laktozsuz kaşar / mozzarella", "100 g", C, "On pizza 25 g at most."),
+        ("baking paper, foil, zip freezer bags", "Yağlı kağıt, folyo, streç, dondurucu poşeti", "one roll each · ≈20 bags", A, "The fish bags get names on them."),
+    ]),
+]
+
+ROTATIE_EN = [
+    ("Every 2 weeks", "lean minced beef 1 kg (burgers) · red lentils 250 g (soup)", C),
+    ("Every 4 weeks", "wholewheat flour 1 kg · white flour 100 g · dry yeast 2 sachets · fresh basil 2 bunches (pesto)", C),
+    ("When it runs out", "bulgur · quinoa · buckwheat · oats · pasta · olive oil · Kristine's protein and creatine", A),
+]
+
+REGULI_EN = [
+    ("Cem doesn't eat", "<b>rice</b> (no rice flour, starch or vinegar either), <b>lactose</b> (milk, yoghurt, cheese, butter, whey) or <b>tomatoes</b> (no paste, ketchup or sauce). Words to look for on Turkish labels: «pirinç», «süt», «süt tozu», «peyniraltı suyu», «laktoz», «tereyağı», «yoğurt», «domates», «salça»."),
+    ("Kristine doesn't eat", "<b>meat</b> (chicken, beef). She eats fish, eggs and dairy."),
+    ("Keeping things apart", "Kristine's dairy, tomatoes, passata and protein powder live on <b>her shelf in the fridge</b>, marked with pink tape. Cem's food is cooked first, with clean pans; tomatoes are cut last, on Kristine's board."),
+    ("At the fish counter", "Buy the fish once for both of you, portioned: <b>Cem</b> 3 × 220 g sea bass or sea bream + 180 g salmon · <b>Kristine</b> 4 × 150 g white fish + 2 × 120 g salmon or trout. Bags labelled with name and date."),
+]
+
+TEXT = {
+    "ro": {"lang": "ro", "title": "Lista de cumpărături · Kristine + Cem", "h1": "Lista de cumpărături<br>Kristine + Cem",
+           "sub": "O săptămână obișnuită · Istanbul · noiembrie 2026 · bifezi în magazin",
+           "th": ["Produs", "În magazin (TR)", "Cât", "Pentru", "Notă"], "rot": "Nu în fiecare săptămână",
+           "foot": "Făcută din ghidul de bucătărie al lui Cem și din programul de definire al Kristinei. Cantitățile „Amândoi” sunt totalul; în notă scrie cât e al fiecăruia. Când schimbați marca la ton, pâine, lipie sau condimente, citiți din nou eticheta.",
+           "page": "pagina", "of": "din"},
+    "en": {"lang": "en", "title": "Shopping list · Kristine + Cem", "h1": "Shopping list<br>Kristine + Cem",
+           "sub": "A normal week · Istanbul · November 2026 · tick it off in the shop",
+           "th": ["Item", "In the shop (TR)", "How much", "For", "Note"], "rot": "Not every week",
+           "foot": "Made from Cem's kitchen guide and Kristine's cutting plan. Amounts marked “Both” are the total; the note says how much is whose. When you switch brands for tuna, bread, flatbread or spices, read the label again.",
+           "page": "page", "of": "of"},
+}
+
 CSS = """
 @page { size: A4; margin: 13mm 12mm 14mm; }
 :root { --ink:#2B2431; --muted:#5C5466; --line:#E6DCE3; --soft:#FAF5F7;
@@ -173,27 +308,32 @@ def esc(s):
 
 
 def build_html():
-    legend = "".join('<span class="who %s">%s</span>' % (k, WHO[k]) for k in (A, C, K))
-    rules = "".join('<div class="rule"><b class="t">%s</b>%s</div>' % (esc(t), body) for t, body in REGULI)
+    T = TEXT[LANG]
+    who = WHO_EN if LANG == "en" else WHO
+    sections = SECTIONS_EN if LANG == "en" else SECTIONS
+    rotatie = ROTATIE_EN if LANG == "en" else ROTATIE
+    reguli = REGULI_EN if LANG == "en" else REGULI
+    legend = "".join('<span class="who %s">%s</span>' % (k, who[k]) for k in (A, C, K))
+    rules = "".join('<div class="rule"><b class="t">%s</b>%s</div>' % (esc(t), body) for t, body in reguli)
+    head = "".join("<th>%s</th>" % esc(h) for h in T["th"])
     secs = []
-    for name, rows in SECTIONS:
+    for name, rows in sections:
         trs = "".join(
             '<tr><td class="box"><span></span></td><td class="p">%s</td><td class="tr">%s</td><td class="q">%s</td>'
             '<td><span class="who %s">%s</span></td><td class="n">%s</td></tr>'
-            % (esc(p), esc(tr), esc(q), w, WHO[w], esc(n)) for p, tr, q, w, n in rows)
+            % (esc(p), esc(tr), esc(q), w, who[w], esc(n)) for p, tr, q, w, n in rows)
         secs.append(
             '<h2>%s</h2><table><colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"></colgroup>'
-            '<thead><tr><th></th><th>Produs</th><th>În magazin (TR)</th><th>Cât</th><th>Pentru</th><th>Notă</th></tr></thead><tbody>%s</tbody></table>'
-            % (esc(name), trs))
+            '<thead><tr><th></th>%s</tr></thead><tbody>%s</tbody></table>' % (esc(name), head, trs))
     rot = "".join('<div><b>%s</b><span>%s</span><span class="who %s" style="margin-left:auto">%s</span></div>'
-                  % (esc(t), esc(x), w, WHO[w]) for t, x, w in ROTATIE)
-    return f"""<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Lista de cumpărături · Kristine + Cem</title><style>{CSS}</style></head><body>
-<div class="head"><div><h1>Lista de cumpărături<br>Kristine + Cem</h1>
-<p class="sub">O săptămână obișnuită · Istanbul · noiembrie 2026 · bifezi în magazin</p></div><div class="legend">{legend}</div></div>
+                  % (esc(t), esc(x), w, who[w]) for t, x, w in rotatie)
+    return f"""<!doctype html><html lang="{T['lang']}"><head><meta charset="utf-8"><title>{T['title']}</title><style>{CSS}</style></head><body>
+<div class="head"><div><h1>{T['h1']}</h1>
+<p class="sub">{T['sub']}</p></div><div class="legend">{legend}</div></div>
 <div class="rules">{rules}</div>
 {''.join(secs)}
-<h2>Nu în fiecare săptămână</h2><div class="rot">{rot}</div>
-<p class="foot">Făcută din ghidul de bucătărie al lui Cem și din programul de definire al Kristinei. Cantitățile „Amândoi” sunt totalul; în notă scrie cât e al fiecăruia. Când schimbați marca la ton, pâine, lipie sau condimente, citiți din nou eticheta.</p>
+<h2>{T['rot']}</h2><div class="rot">{rot}</div>
+<p class="foot">{esc(T['foot'])}</p>
 </body></html>"""
 
 
@@ -207,7 +347,11 @@ def main():
         with open(js, "w") as f:
             f.write("""const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage();
 await p.goto('file://'+process.argv[2],{waitUntil:'load'});await p.pdf({path:process.argv[3],format:'A4',printBackground:true,preferCSSPageSize:true,
-displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="font-size:7pt;color:#5C5466;width:100%;text-align:center;font-family:Inter">Kristine + Cem · pagina <span class=pageNumber></span> din <span class=totalPages></span></div>'});await b.close();})();""")
+displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="font-size:7pt;color:#5C5466;width:100%;text-align:center;font-family:Inter">Kristine + Cem · @@PAGE@@ <span class=pageNumber></span> @@OF@@ <span class=totalPages></span></div>'});await b.close();})();""")
+        with open(js, encoding="utf-8") as f:
+            code = f.read().replace("@@PAGE@@", TEXT[LANG]["page"]).replace("@@OF@@", TEXT[LANG]["of"])
+        with open(js, "w", encoding="utf-8") as f:
+            f.write(code)
         subprocess.run(["node", js, src, OUT], check=True)
     print(OUT)
 

@@ -58,6 +58,8 @@ GROUPS = [
              "desc": "3 sesiuni pe săptămână (intervale marți, bandă înclinată miercuri, cardio lung sâmbătă) și 8.000–10.000 de pași pe zi."},
             {"kind": "pdf", "slug": "lista-comuna", "title": "Lista de cumpărături: Kristine + Cem", "src": "LISTA-CUMPARATURI-KRISTINE-CEM.pdf", "name": "Lista-cumparaturi-Kristine-Cem.pdf",
              "desc": "O săptămână obișnuită pentru amândoi, cu numele din magazinele din Turcia: ce e al cui, cât iei în total și regulile lui Cem (fără orez, lactoză, roșii)."},
+            {"kind": "pdf", "slug": "lista-comuna-en", "title": "Shopping list: Kristine + Cem (English)", "src": "LISTA-CUMPARATURI-KRISTINE-CEM-EN.pdf", "name": "Shopping-list-Kristine-Cem.pdf",
+             "desc": "Aceeași listă, în engleză, ca s-o citiți amândoi; numele din magazinele din Turcia rămân."},
             {"kind": "link", "title": "Jurnalul de mâncare", "url": "https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL",
              "desc": "Notezi ce mănânci, greutatea, pașii și pofta de dulce; vezi caloriile și proteina zilei."},
         ],
