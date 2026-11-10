@@ -1,6 +1,6 @@
-# Cele 4 videouri vorbite pentru Custom Program (marți 10 nov, la sală)
+# Cele 4 videouri vorbite pentru Custom Program (acasă, la un perete alb, sau la sală)
 
-_Le filmezi la sală, într-un colț liniștit, cu microfonul prins de haine. Telefonul vertical, pe trepied, la nivelul ochilor, tu de la talie în sus, un perete simplu în spate. Engleză, simplu, ca și cum vorbești cu un prieten. Nu trebuie să le spui cuvânt cu cuvânt: citește-le de 2–3 ori și spune-le cu vorbele tale. Fiecare: 45–90 de secunde._
+_Le filmezi acasă, la un perete alb (sau la sală, într-un colț liniștit), cu microfonul prins de haine. Lumina din față (ring light-ul sau fereastra în fața ta, nu în spate), tu la un metru de perete, ca să nu ai umbră. Telefonul vertical, pe trepied, la nivelul ochilor, tu de la talie în sus. În cadru doar peretele: nimic personal, nicio fereastră. Poartă hainele de sală, ca să se potrivească cu restul videourilor. Engleză, simplu, ca și cum vorbești cu un prieten. Nu trebuie să le spui cuvânt cu cuvânt: citește-le de 2–3 ori și spune-le cu vorbele tale. Fiecare: 45–90 de secunde._
 
 ## 1. Welcome (bun venit) · ~60 s
 - [ ] filmat
