@@ -126,20 +126,21 @@ De ce: o zi întreagă liberă adaugă ușor 2.000–3.000 kcal peste menținere
 **După o masă liberă (sau după o zi care a scăpat):** cântarul crește 1–2 kg a doua zi. E apă, sare și glicogen, nu grăsime, și dispare în 2–4 zile. **Nu compensezi** (fără zile de înfometare, fără cardio în plus). Următoarea masă e una din plan și gata.
 
 ## Cumpărăturile pe săptămână
-- [ ] ton în apă: 4–5 conserve
-- [ ] biban sau doradă: 4 × 130 g (aceeași comandă cu Cem, la pescărie)
-- [ ] somon: 2 × 120 g (același cu al lui Cem)
-- [ ] creveți congelați: 300 g (pentru 2 prânzuri D)
-- [ ] ouă: 12–15 · albuș lichid: 1 L (sau încă 6–8 ouă)
-- [ ] chefir: 1,5–2 L · lapte: 1 L
-- [ ] iaurt grecesc 2%: ~1 kg · brânză de vaci slabă: 400 g · feta: 150 g · parmezan (bucată mică)
-- [ ] proteină (whey)
-- [ ] ovăz: 500 g · paste: 500 g · cartofi: 2 kg · orez (opțional)
-- [ ] lipii (pachet) · pâine integrală
-- [ ] legume: roșii, roșii cherry, castraveți, ardei, ceapă, spanac, salată, dovlecei, fasole verde și broccoli congelate
-- [ ] fructe: fructe de pădure congelate, mere, banane, lămâi
-- [ ] nuci sau migdale: 100 g · ulei de măsline · passata (sos de roșii) · usturoi, boia, oregano
-- [ ] pentru deserturi: cacao neîndulcită, ciocolată neagră 85%, stevia, scorțișoară, vanilie, skyr, mozzarella light, câteva curmale medjool
+Lista comună cu Cem e în Bibliotecă (în română și în engleză), cu numele din magazinele din Turcia. Partea ta, potrivită cu meniul pe zile din „Kristine's food week”:
+- [ ] ton în apă: 4 conserve
+- [ ] biban sau doradă: 4 × 130 g (aceeași comandă cu Cem, la pescărie) · somon: 2 × 120 g (același cu al lui Cem)
+- [ ] creveți congelați: 300 g (2 prânzuri cu paste)
+- [ ] ouă: 10 · albuș lichid: 500 ml
+- [ ] chefir: 1,5 l · lapte: 1 l
+- [ ] iaurt grecesc 2% (light süzme yoğurt): 500 g · lor: 500 g · skyr: 150 g · parmezan: o bucată mică
+- [ ] proteină (whey) și creatină, când se termină
+- [ ] ovăz (~220 g pe săptămână) · paste: 500 g (ajung 2 săptămâni) · cartofi: 1–1,5 kg
+- [ ] lipii: 3 pe săptămână · pâine integrală: 1–2 felii (din pâinea lui Cem)
+- [ ] roșii: 5 · roșii cherry: 250 g · passata: 1 borcan (pe raftul tău)
+- [ ] legume, cu Cem: castraveți, ardei, ceapă, usturoi, dovlecei, broccoli, spanac, salată · fasole verde congelată: 1 pungă
+- [ ] fructe: fructe de pădure congelate 500 g, 4 banane, 4 mere, 4 curmale medjool, lămâi
+- [ ] nuci: 100 g · ulei de măsline · condimentele comune
+- [ ] pentru deserturi: cacao neîndulcită, ciocolată neagră 85%, stevia, scorțișoară, vanilie, praf de copt
 
 ## Gătit rapid, fără meal prep (10–20 de minute, proaspăt la fiecare masă)
 Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat în porții de 150 g și îl scoți dimineața în frigider (sau îl pui direct congelat în air fryer, cu 4–5 minute în plus).

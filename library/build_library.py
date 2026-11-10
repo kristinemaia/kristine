@@ -60,6 +60,8 @@ GROUPS = [
              "desc": "O săptămână obișnuită pentru amândoi, cu numele din magazinele din Turcia: ce e al cui, cât iei în total și regulile lui Cem (fără orez, lactoză, roșii)."},
             {"kind": "pdf", "slug": "lista-comuna-en", "title": "Shopping list: Kristine + Cem (English)", "src": "LISTA-CUMPARATURI-KRISTINE-CEM-EN.pdf", "name": "Shopping-list-Kristine-Cem.pdf",
              "desc": "Aceeași listă, în engleză, ca s-o citiți amândoi; numele din magazinele din Turcia rămân."},
+            {"kind": "pdf", "slug": "food-week-en", "title": "Kristine's food week (English, pentru Cem)", "src": "KRISTINE-FOOD-WEEK-EN.pdf", "name": "Kristines-food-week.pdf",
+             "desc": "Meniul tău pe zile, în engleză: ce mănânci la fiecare masă, cinele cu pește împreună, din ce e făcută fiecare masă și de ce e fiecare produs pe lista comună."},
             {"kind": "link", "title": "Jurnalul de mâncare", "url": "https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL",
              "desc": "Notezi ce mănânci, greutatea, pașii și pofta de dulce; vezi caloriile și proteina zilei."},
         ],
