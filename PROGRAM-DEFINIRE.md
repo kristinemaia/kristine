@@ -4,6 +4,8 @@ _10 noiembrie 2026 · pentru tine, nu pentru clienți. Pornim de la ce mi-ai spu
 
 > **Pe scurt:** forța rămâne grea (așa păstrezi mușchiul), cardio-ul e mai mult ușor decât intens, iar definirea vine din mâncare: **~1.550–1.650 kcal pe zi, ~120–130 g proteină**, 4 mese simple din ce gătești deja. Fără cheat days întregi: o masă liberă pe săptămână. Te cântărești dimineața și ne uităm la media săptămânii, nu la o zi.
 
+**Programul ăsta, ca pagină pe telefon:** https://claude.ai/artifact/Rdc6SgijK2BdjWNds9noeV
+
 **Jurnalul de mâncare (pe telefon):** https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL. Notezi ce mănânci (scrii cum ai vorbi și se calculează singur, alegi din lista ta sau iei o masă din plan), greutatea, pașii, apa și pofta de dulce. Vede doar contul tău. Când îmi scrii „uită-te în jurnal”, îl citesc și îți fac bilanțul.
 
 **Cum am calculat (10 nov, cu înălțimea și vârsta ta):** la 1,58 m, 59 kg și 28 de ani, corpul tău arde ~1.280 kcal în repaus. Cu 4 antrenamente de forță, 3 de cardio și 8.000–10.000 de pași, dar și cu stream-urile lungi stând jos, menținerea ta e ~1.850–1.950 kcal. Ținta e cu ~300 kcal mai jos. Cântarul confirmă după primele 2 săptămâni (regulile sunt la secțiunea 6).
