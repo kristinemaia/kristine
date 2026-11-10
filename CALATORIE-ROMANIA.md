@@ -37,8 +37,15 @@ Până acum: 23–26 sept, 4–15 oct și de pe 29 oct încoace.
 - Dacă stai în România mai mult (de exemplu 25 nov – 6 dec), data se mută spre **20 ianuarie 2027**.
 - Ziua în care intri și ziua în care ieși se numără amândouă. Când ai datele exacte, îmi spui și recalculez.
 
+## Microfonul pentru Cem
+- [ ] îl întrebi pe Cem dacă vrea să comande microfonul în România, ca să i-l aduci tu
+- [ ] dacă da: comanda o dă **până pe ~20 noiembrie**, cu livrare la o adresă unde ajungi sigur (la părinți sau la un easybox/locker de lângă ei), ca să ajungă înainte să pleci înapoi
+- [ ] păstrezi factura și certificatul de garanție (pentru garanție și, la nevoie, la vamă)
+- [ ] îl pui în **bagajul de mână**, cu cutia, ca să nu se strice
+
 ## Ce iei înapoi în Turcia
 - [ ] plasturii (pentru mai multe luni) și rețeta
+- [ ] microfonul lui Cem, dacă l-a comandat
 - [ ] actele de la primărie (copia cu număr de înregistrare)
 - [ ] haine de iarnă
 - [ ] (opțional) o bandă elastică ușoară, dacă vrei să adaugi mai târziu variantele cu bandă în program
