@@ -51,6 +51,8 @@ GROUPS = [
         "id": "programari", "name": "Programări noiembrie", "folder": "Programari-noiembrie", "note": "Instagram, TikTok, story-uri și ce mai filmăm",
         "zip": ("Programari-noiembrie.zip", "programari"),
         "items": [
+            {"kind": "doc", "slug": "program-definire", "title": "Programul tău de definire: sală, cardio, mâncare (11 nov – 7 feb)", "src": "PROGRAM-DEFINIRE.md",
+             "desc": "Doar pentru tine: 2 zile de picioare și 2 de upper cu seturi, repetări și pauze, 3 cardio, ~1.650–1.700 kcal cu ~130–140 g proteină din mese pescetariene simple (variante de schimbat între ele), masa liberă în loc de cheat day, lista de cumpărături și cum ajustăm după cântar."},
             {"kind": "doc", "slug": "programari-noiembrie", "title": "Programările din noiembrie: Instagram, TikTok și ce mai filmăm", "src": "PROGRAMARI-NOIEMBRIE.md",
              "desc": "Tot noiembrie zi cu zi: cel puțin 5 reel-uri pe săptămână pe Instagram (cu cele 2 reel-uri VirtuMe), TikTok în fiecare zi, story-urile pentru lansarea Custom Program și lista de filmat. Bifezi pe telefon."},
             {"kind": "doc", "slug": "videouri-vorbite", "title": "Cele 4 videouri vorbite pentru Custom Program (scripturi)", "src": "VIDEOURI-VORBITE.md",
