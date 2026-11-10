@@ -156,7 +156,20 @@ De ce mai mult ușor decât intens: arde aproape la fel și nu-ți ia din forț�
 | **Carbohidrați** | **~150–175 g**, mai mulți în mesele din jurul antrenamentului | energie la sală |
 | **Fibre, apă** | 25–30 g fibre (legume la 2–3 mese) · 2,5 L apă, mai mult în zilele de sală | sațietate, digestie |
 
-**Nu trebuie să numeri.** Dacă alegi câte o variantă din fiecare masă de mai jos, ajungi singură la cifrele astea. Prima săptămână cântărește **crud** pastele, ovăzul, cartofii și peștele, ca să-ți faci ochiul; apoi le pui la ochi.
+**Nu trebuie să numeri.** Dacă alegi câte o variantă din fiecare masă de mai jos, ajungi singură la cifrele astea. **Porțiile sunt date gătite** (cântărești ce iei din oală sau din tavă). În paranteză e cât înseamnă crud, dacă vrei să știi cât pui la fiert. Prima săptămână cântărește-le, ca să-ți faci ochiul; apoi le pui la ochi.
+
+**Crud → gătit**
+| Aliment | Crud / uscat | Gătit (cât pui în farfurie) |
+|---|---|---|
+| Paste | 60 g | **~140 g fierte** (al dente) |
+| Orez | 50 g | **~135 g fiert** |
+| Cartofi | 200 g | **200 g fierți** · **~150 g la cuptor sau air fryer** (pierd apă) |
+| Pește alb (cod, merluciu) | 150 g | **~115 g** |
+| Somon, păstrăv | 120 g | **~95 g** |
+| Creveți | 150 g | **~120 g** |
+| Ovăz | 40 g | rămâne cântărit **uscat** (~4 linguri cu vârf): terciul cântărește cât apă pui |
+
+**Când fierbi paste (sau orez) pentru 2 zile:** cântărești pastele uscate, de exemplu 120 g pentru 2 porții. După ce le scurgi, cântărești tot ce a ieșit și împarți la 2. E metoda cea mai exactă, pentru că pastele trag apă diferit, după cât le fierbi. Le ții în frigider, într-o cutie cu capac, cel mult 2 zile.
 
 ### Ziua ta: 4 mese + desertul
 Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte din rândul ei, deci le schimbi cum vrei. Cifrele sunt aproximative.
@@ -167,10 +180,10 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 - **C. Bol cu iaurt:** 200 g iaurt grecesc 2% + 30 g ovăz + 1 banană mică + 10 g nuci.
 
 **Prânz · ~430–460 kcal · 38–43 g proteină**
-- **A. Ton cu paste (al tău):** 60 g paste (crude) + 1 conservă de ton în apă (~120 g scurs) + roșii, castraveți, ceapă roșie + 1 linguriță ulei de măsline + lămâie.
+- **A. Ton cu paste (al tău):** 140 g paste fierte (60 g crude) + 1 conservă de ton în apă (~120 g scurs) + roșii, castraveți, ceapă roșie + 1 linguriță ulei de măsline + lămâie.
 - **B. Wrap cu ton:** 1 lipie + 1 conservă de ton + 2 linguri de iaurt grecesc cu usturoi (sosul) + salată, castravete. Lângă: 1 măr.
 - **C. Salată cu ton și cartofi:** 200 g cartofi fierți + 1 conservă de ton + 1 ou fiert + fasole verde și roșii + 1 linguriță ulei.
-- **D. Paste cu creveți:** 60 g paste + 150 g creveți + roșii cherry, usturoi + 1 linguriță ulei + 10 g parmezan.
+- **D. Paste cu creveți:** 140 g paste fierte + 120 g creveți gătiți (150 g cruzi) + roșii cherry, usturoi + 1 linguriță ulei + 10 g parmezan.
 
 **Gustarea · ~230–250 kcal · 24–32 g proteină** (ideal după sală)
 - **A. Shake-ul tău:** 1 măsură de proteină în 250 ml chefir.
@@ -178,8 +191,8 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 - **C. Iaurt cu proteină:** 170 g iaurt grecesc 2% + o jumătate de măsură de proteină + fructe.
 
 **Cina · ~370–430 kcal · 30–42 g proteină**
-- **A. Pește la tavă:** 150 g file de pește alb (cod, merluciu, păstrăv) + 200 g cartofi + legume la cuptor (dovlecel, ardei, ceapă) + 1 linguriță ulei pe porție (1 lingură la o tavă de 3 porții).
-- **B. Somon:** 120 g somon + 150 g cartofi (sau 50 g orez crud) + broccoli. Fără ulei în plus, somonul are destulă grăsime.
+- **A. Pește la tavă:** ~115 g pește alb gătit (150 g crud: cod, merluciu) + ~150 g cartofi la cuptor (200 g cruzi) + legume la cuptor (dovlecel, ardei, ceapă) + 1 linguriță ulei pe porție (1 lingură la o tavă de 3 porții).
+- **B. Somon:** ~95 g somon gătit (120 g crud) + 150 g cartofi fierți sau ~115 g la cuptor (sau ~135 g orez fiert) + broccoli. Fără ulei în plus, somonul are destulă grăsime.
 - **C. Ouă în sos de roșii (shakshuka):** 2 ouă + 150 g albuș în sos de roșii cu ardei și ceapă + 1 felie de pâine integrală.
 - **D. Quesadilla cu ton (air fryer):** 1 lipie + 1 conservă de ton + 30 g mozzarella light + ardei, spanac. Se împăturește și stă 5–6 min la 180 °C (~390 kcal, 42 g proteină).
 
@@ -191,7 +204,7 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 
 **Regulile simple:**
 - **Somon sau păstrăv de 2 ori pe săptămână** (omega-3 și grăsimile de care ai nevoie).
-- **Pâinea și lipia intră în loc de alt carbohidrat**, nu pe lângă: o lipie mică ≈ 2 felii de pâine ≈ 50 g paste crude ≈ 230 g cartofi (~180 kcal fiecare).
+- **Pâinea și lipia intră în loc de alt carbohidrat**, nu pe lângă: o lipie mică ≈ 2 felii de pâine ≈ 115 g paste fierte ≈ 230 g cartofi fierți (~180 kcal fiecare).
 - **Legume la cel puțin 2 mese** (salată, legume la cuptor sau congelate).
 - **Pe stream:** apă, ceai sau băuturi zero; dacă îți e foame, muți gustarea pe stream, nu adaugi una.
 - **Când mănânci în oraș** (sau gătește altcineva): o palmă–o palmă și jumătate de pește sau ouă, un pumn de carbohidrați, două pumni de legume, un deget mare de grăsime.
@@ -300,7 +313,7 @@ Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat
 | Media pe 2 săptămâni | Ce faci |
 |---|---|
 | scade **0,25–0,4 kg/săpt.** | nu schimbi nimic |
-| scade **sub 0,2 kg/săpt.** (și talia nu scade) | **−100–150 kcal** (de exemplu 20 g paste mai puțin la prânz și nucile la jumătate) **sau +2.000 pași pe zi** |
+| scade **sub 0,2 kg/săpt.** (și talia nu scade) | **−100–150 kcal** (de exemplu 45 g paste fierte mai puțin la prânz și nucile la jumătate) **sau +2.000 pași pe zi** |
 | scade **peste 0,6 kg/săpt.** | **+100–150 kcal** (o felie de pâine sau un fruct în plus) |
 | cântarul stă, dar talia scade și pozele arată mai bine | nu schimbi nimic (pierzi grăsime și păstrezi mușchi) |
 
@@ -316,7 +329,7 @@ Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat
 - [x] Înălțimea și vârsta (1,58 m, 28 de ani): caloriile sunt potrivite
 - [ ] Cumperi creatina și ce lipsește de pe lista de cumpărături
 - [ ] Prima cântărire, talia și primele poze (miercuri 11 nov, dimineața)
-- [ ] Prima săptămână cântărești crud pastele, ovăzul, cartofii și peștele
+- [ ] Prima săptămână cântărești gătite pastele, cartofii și peștele (ovăzul, uscat)
 - [ ] Notezi greutățile la fiecare antrenament
 - [ ] Alegi ziua mesei libere
 - [ ] Luni 23 nov: primul bilanț (media pe 2 săptămâni) și îmi spui cifrele
