@@ -1,6 +1,6 @@
 # Facturile și plățile lunare
 
-_Actualizat 8 noiembrie 2026. Bifezi când plătești. Fără numere de cont sau de client aici._
+_Actualizat 10 noiembrie 2026. Bifezi când plătești. Fără numere de cont sau de client aici._
 
 ## Noiembrie 2026
 
@@ -19,13 +19,21 @@ _Actualizat 8 noiembrie 2026. Bifezi când plătești. Fără numere de cont sau
 - [ ] Contabilitatea: plătești când vine factura de la contabilă (de regulă 400 lei; în lunile cu mai multe documente, poate fi mai mult)
 
 ## De încasat de la chiriaș
-- [ ] **chiria**, în ziua de plată a chiriei
-- [ ] **+ 180 lei pentru utilitățile blocului** (întreținerea), odată cu chiria
-- [ ] **Engie**: îți dă înapoi cât ai plătit (noiembrie: 13,27 lei)
-- [ ] **PPC**: îți dă înapoi suma de pe factură, când vine
+**Noiembrie: primit pe 10 nov ✅** chiria + **600 lei**, din care:
+- **180 lei** întreținerea blocului
+- **420 lei** pentru utilități (Engie, PPC). Din banii ăștia plătești facturile apartamentului, ca să nu mai aștepți să-ți dea înapoi separat.
+
+- [x] **chiria** pe noiembrie (10 nov)
+- [x] **180 lei** întreținerea (10 nov)
+- [x] **420 lei** utilitățile (10 nov). Engie e deja plătit (13,27 lei), PPC îl plătești din ei când vine factura.
+
+| Lună | Chiria | Întreținere | Utilități | Primit pe |
+|---|---|---|---|---|
+| noiembrie 2026 | ✅ | 180 lei | 420 lei | 10 nov |
 
 ## De lămurit
-- În ce zi a lunii se plătește chiria?
+- Chiria a venit pe 10 noiembrie. E ziua obișnuită de plată (pe 10 ale lunii)?
+- Cei 420 lei pentru utilități: sunt un avans fix pe lună sau se socotesc după facturi? Dacă se socotesc, la sfârșit de lună vezi cât a costat Engie + PPC și cât rămâne sau cât mai trebuie.
 
 ## Contabilitate
 Factura de curent de la sediu (PEenergie) merge lunar la contabilă, împreună cu celelalte facturi și extrasul de cont (cum ai trimis pe 28 oct pentru octombrie).
