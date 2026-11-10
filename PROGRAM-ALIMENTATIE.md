@@ -39,6 +39,7 @@ _Partea 2 din 3 a programului de definire (11 nov – 7 feb). Celelalte două: *
 | Cartofi | 200 g | **200 g fierți** · **~150 g la cuptor sau air fryer** (pierd apă) |
 | Pește alb (cod, merluciu) | 150 g | **~115 g** |
 | Somon, păstrăv | 120 g | **~95 g** |
+| Biban (levrek), doradă (çipura) | 130 g | **~100 g** |
 | Creveți | 150 g | **~120 g** |
 | Ovăz | 40 g | rămâne cântărit **uscat** (~4 linguri cu vârf): terciul cântărește cât apă pui |
 
@@ -68,6 +69,7 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 - **B. Somon:** ~95 g somon gătit (120 g crud) + 150 g cartofi fierți sau ~115 g la cuptor (sau ~135 g orez fiert) + broccoli. Fără ulei în plus, somonul are destulă grăsime.
 - **C. Ouă în sos de roșii (shakshuka):** 2 ouă + 150 g albuș în sos de roșii cu ardei și ceapă + 1 felie de pâine integrală.
 - **D. Quesadilla cu ton (air fryer):** 1 lipie + 1 conservă de ton + 30 g mozzarella light + ardei, spanac. Se împăturește și stă 5–6 min la 180 °C (~390 kcal, 42 g proteină).
+- **E. Biban sau doradă, peștele lui Cem:** ~100 g gătit (130 g crud) + ~150 g cartofi la cuptor + legume, **fără ulei în plus pe pește** (are mai multă grăsime decât codul, dar e grăsime bună). Îl coaceți împreună în air fryer, 12–15 min la 200 °C: lămâia, usturoiul și cimbrul merg pentru amândoi (~370 kcal, ~31 g proteină).
 
 **Desertul zilei · ~150–250 kcal:** în fiecare zi, după cină (sau la sfârșitul stream-ului). E deja socotit în calorii, deci nu e o abatere. Variantele sunt mai jos, la „Deserturi”. În zilele fără desert: 15 g nuci și un fruct.
 
@@ -125,7 +127,7 @@ De ce: o zi întreagă liberă adaugă ușor 2.000–3.000 kcal peste menținere
 
 ## Cumpărăturile pe săptămână
 - [ ] ton în apă: 4–5 conserve
-- [ ] pește alb congelat (cod, merluciu): ~750 g
+- [ ] pește alb: biban sau doradă 4 × 130 g (din aceeași comandă cu Cem) sau cod, merluciu 4 × 150 g
 - [ ] somon sau păstrăv: 2 × 120 g
 - [ ] creveți congelați: 300 g (pentru 2 prânzuri D)
 - [ ] ouă: 12–15 · albuș lichid: 1 L (sau încă 6–8 ouă)

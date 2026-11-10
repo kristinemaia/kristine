@@ -26,7 +26,7 @@ WHO = {A: "Amândoi", C: "Cem", K: "Kristine"}
 SECTIONS = [
     ("Pește și carne", [
         ("ton în apă (conservă)", "Ton balığı, suda", "8 conserve", A, "Cem 3 + Kristine 5. Aceeași marcă pentru amândoi: pe etichetă doar ton, apă, sare."),
-        ("pește alb (biban, doradă, merluciu)", "Levrek / çipura / mezgit fileto", "Cem 3 × 220 g · Kristine 4 × 150 g", A, "La pescărie, curățat, făcut file și porționat; pungile etichetate pe nume. Nemarinat, fără pané."),
+        ("pește alb (biban, doradă, merluciu)", "Levrek / çipura / mezgit fileto", "Cem 3 × 220 g · Kristine 4 × 130 g", A, "Același pește pentru amândoi. La pescărie, curățat, făcut file și porționat; pungile etichetate pe nume. Nemarinat, fără pané."),
         ("somon (sau păstrăv pentru Kristine)", "Somon fileto · alabalık fileto", "Cem 1 × 180 g · Kristine 2 × 120 g", A, "Simplu, nu teriyaki sau marinat."),
         ("creveți congelați, curățați", "Dondurulmuş karides (ayıklanmış)", "300 g", K, "Pentru 2 prânzuri cu paste."),
         ("piept de pui (file)", "Tavuk göğüs fileto", "2,1 kg", C, "1,4 kg duminică + 0,7 kg miercuri. Nemarinat, fără condimente."),
@@ -134,7 +134,7 @@ REGULI = [
     ("Cem nu mănâncă", "<b>orez</b> (nici făină, amidon sau oțet de orez), <b>lactoză</b> (lapte, iaurt, brânză, unt, zer) și <b>roșii</b> (nici pastă, ketchup, sos). Pe etichete în turcă: «pirinç», «süt», «süt tozu», «peyniraltı suyu», «laktoz», «tereyağı», «yoğurt», «domates», «salça»."),
     ("Kristine nu mănâncă", "<b>carne</b> (pui, vită). Mănâncă pește, ouă și lactate."),
     ("Ca să nu se amestece", "Lactatele, roșiile, passata și proteina Kristinei stau pe <b>raftul ei din frigider</b>, cu bandă roz. Mâncarea lui Cem se face prima, cu vase curate; roșiile se taie la final, pe placa Kristinei."),
-    ("La pescărie", "Peștele se ia o dată pentru amândoi, porționat: <b>Cem</b> 3 × 220 g biban sau doradă + somon 180 g · <b>Kristine</b> 4 × 150 g pește alb + 2 × 120 g somon sau păstrăv. Pungile, cu nume și dată."),
+    ("La pescărie", "Peștele se ia o dată pentru amândoi, porționat: <b>Cem</b> 3 × 220 g biban sau doradă + somon 180 g · <b>Kristine</b> 4 × 130 g din același pește + 2 × 120 g somon sau păstrăv. Pungile, cu nume și dată."),
 ]
 
 
@@ -146,7 +146,7 @@ WHO_EN = {A: "Both", C: "Cem", K: "Kristine"}
 SECTIONS_EN = [
     ("Fish and meat", [
         ("tuna in water (can)", "Ton balığı, suda", "8 cans", A, "Cem 3 + Kristine 5. Same brand for both: label says only tuna, water, salt."),
-        ("white fish (sea bass, sea bream, whiting)", "Levrek / çipura / mezgit fileto", "Cem 3 × 220 g · Kristine 4 × 150 g", A, "At the fish counter: cleaned, filleted and portioned; bags labelled with names. Not marinated, not breaded."),
+        ("white fish (sea bass, sea bream, whiting)", "Levrek / çipura / mezgit fileto", "Cem 3 × 220 g · Kristine 4 × 130 g", A, "Same fish for both. At the fish counter: cleaned, filleted and portioned; bags labelled with names. Not marinated, not breaded."),
         ("salmon (or trout for Kristine)", "Somon fileto · alabalık fileto", "Cem 1 × 180 g · Kristine 2 × 120 g", A, "Plain, not teriyaki or marinated."),
         ("frozen shrimp, peeled", "Dondurulmuş karides (ayıklanmış)", "300 g", K, "For 2 pasta lunches."),
         ("chicken breast (fillet)", "Tavuk göğüs fileto", "2.1 kg", C, "1.4 kg Sunday + 0.7 kg Wednesday. Not marinated, no seasoning."),
@@ -254,7 +254,7 @@ REGULI_EN = [
     ("Cem doesn't eat", "<b>rice</b> (no rice flour, starch or vinegar either), <b>lactose</b> (milk, yoghurt, cheese, butter, whey) or <b>tomatoes</b> (no paste, ketchup or sauce). Words to look for on Turkish labels: «pirinç», «süt», «süt tozu», «peyniraltı suyu», «laktoz», «tereyağı», «yoğurt», «domates», «salça»."),
     ("Kristine doesn't eat", "<b>meat</b> (chicken, beef). She eats fish, eggs and dairy."),
     ("Keeping things apart", "Kristine's dairy, tomatoes, passata and protein powder live on <b>her shelf in the fridge</b>, marked with pink tape. Cem's food is cooked first, with clean pans; tomatoes are cut last, on Kristine's board."),
-    ("At the fish counter", "Buy the fish once for both of you, portioned: <b>Cem</b> 3 × 220 g sea bass or sea bream + 180 g salmon · <b>Kristine</b> 4 × 150 g white fish + 2 × 120 g salmon or trout. Bags labelled with name and date."),
+    ("At the fish counter", "Buy the fish once for both of you, portioned: <b>Cem</b> 3 × 220 g sea bass or sea bream + 180 g salmon · <b>Kristine</b> 4 × 130 g of the same fish + 2 × 120 g salmon or trout. Bags labelled with name and date."),
 ]
 
 TEXT = {
