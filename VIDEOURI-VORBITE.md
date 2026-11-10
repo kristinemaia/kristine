@@ -15,6 +15,7 @@ _Le filmezi acasă, la un perete alb (sau la sală, într-un colț liniștit), c
 > Your plan has 2, 3 or 4 training days a week. Each day has a warm-up, the workout and a short cool-down.
 > Tap an exercise to see the video. Do the sets and reps written under it, then tick it off.
 > Rest about a minute between sets.
+> After every set, log your weight and reps. Next time you'll see what you lifted, and when you hit all your reps, the plan tells you to go up a little. That's how you get stronger.
 > Every 4 weeks the plan gets a little harder. If something feels too easy, add a few reps; too hard, take the easier option.
 > On desk days, use the 5-minute resets for your neck, back and wrists.
 

@@ -21,6 +21,7 @@ _Pe laptop, cu internet bun. Payhip îl ai deja. **Nu publici produsul** (îl la
 - [ ] **secțiunea „Week 1–4”**: antrenamentele A, B, C (sală și acasă) + Express de 10 min, ca lecții video
 - [ ] **secțiunea „Resets”**: resetările de 5 minute
 - [ ] **lecția „Your 4-week progression”**: PDF-ul cu progresia
+- [ ] **lecția „Your training log”**: linkul spre jurnalul de greutăți (pagina ascunsă de pe site, `kristinemaia.com/log.html`, o fac eu) + varianta PDF de printat. Clientul notează kg și repetări la fiecare set, vede ce a ridicat data trecută și primește sugestia când să crească greutatea. Datele rămân pe telefonul lui, nu se trimit nicăieri.
 - [ ] fiecare curs: **Unlisted / Hidden** (nu apare în magazin singur)
 
 Videourile ți le dau eu exportate, numite în ordine (ex. `GS-W1-A-gym.mp4`), ca să le tragi direct.

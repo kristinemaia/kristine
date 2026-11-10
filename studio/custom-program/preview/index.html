@@ -54,6 +54,24 @@ input[type=checkbox]{width:24px;height:24px;accent-color:var(--wine);cursor:poin
 .prog i{display:block;height:100%;width:0;background:var(--wine);transition:width .3s}
 button:focus-visible,.name:focus-visible{outline:3px solid var(--wine);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){.prog i{transition:none}}
+/* Jurnalul de greutăți: un rând pe toată lățimea cardului, deschis la cerere */
+.last{font-size:13px;color:var(--mint-ink);font-weight:600}
+.logbtn{grid-column:1/-1;justify-self:start;font:700 13px var(--body);background:var(--mint);color:var(--mint-ink);border:0;border-radius:99px;padding:6px 12px;cursor:pointer}
+.log{grid-column:1/-1;display:grid;gap:8px;padding:4px 4px 6px}
+.log[hidden]{display:none}
+.sets{display:grid;gap:6px}
+.set{display:grid;grid-template-columns:52px minmax(0,1fr) minmax(0,1fr);gap:8px;align-items:center;font-size:14px}
+.set span{color:var(--muted);font-weight:600}
+.set label{display:flex;align-items:center;gap:6px;min-width:0}
+.set input{width:100%;min-width:0;font:600 16px var(--body);padding:7px 8px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.set small{color:var(--muted)}
+.tip{font-size:13px;background:var(--blue);border-radius:10px;padding:8px 10px}
+.savebtn{justify-self:start;font:700 14px var(--body);background:var(--wine);color:var(--wine-ink);border:0;border-radius:99px;padding:8px 16px;cursor:pointer}
+.saved{font-size:13px;color:var(--mint-ink);font-weight:600}
+.progress-list{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.progress-list li{display:flex;justify-content:space-between;gap:10px;grid-template-columns:none;padding:10px 14px;font-size:15px}
+.progress-list b{color:var(--wine)}
+.logbtn:focus-visible,.savebtn:focus-visible,.set input:focus-visible{outline:3px solid var(--wine);outline-offset:2px}
 </style>
 
 <div class="app">
@@ -90,8 +108,13 @@ button:focus-visible,.name:focus-visible{outline:3px solid var(--wine);outline-o
   <div id="day" class="day"></div>
 
   <section class="block">
+    <h3>My weights <span>first → latest</span></h3>
+    <ul id="mine" class="progress-list"></ul>
+  </section>
+
+  <section class="block">
     <h3>Start here <span>4 short videos</span></h3>
-    <div class="soon">Welcome · How to use your program · Safety first · How to film your form. <b>Filmed on 9 November</b>, added here before launch.</div>
+    <div class="soon">Welcome · How to use your program · Safety first · How to film your form. <b>Filmed this week</b>, added here before launch.</div>
   </section>
 
   <section class="block">
@@ -113,27 +136,27 @@ const COOL = [
 const DAYS = {
   A: [['Warm-up · 5 min', WARM],
       ['Workout · 3 rounds', [
-        ['picioare-goblet-a','Goblet squat','3 × 10','Dumbbell at your chest, heels down.'],
-        ['picioare-fandare-inapoi','Reverse lunge','3 × 8 each leg','Long step back, chest tall.'],
-        ['picioare-hip-thrust','Hip thrust','3 × 12','Pause one second at the top.'],
-        ['picioare-rdl','Romanian deadlift','3 × 10','Hips back, dumbbells close to your legs.'],
+        ['picioare-goblet-a','Goblet squat','3 × 10','Dumbbell at your chest, heels down.','w'],
+        ['picioare-fandare-inapoi','Reverse lunge','3 × 8 each leg','Long step back, chest tall.','w'],
+        ['picioare-hip-thrust','Hip thrust','3 × 12','Pause one second at the top.','w'],
+        ['picioare-rdl','Romanian deadlift','3 × 10','Hips back, dumbbells close to your legs.','w'],
         ['core-dead-bug','Dead bug','3 × 8 each side','Low back stays on the floor.'],
         ['picioare-varfuri','Calf raises','2 × 15','Slow down, pause at the top.']]],
       ['Cool-down · 4 min', COOL]],
   B: [['Warm-up · 5 min', WARM],
       ['Workout · 3 rounds', [
-        ['spate-lat-pulldown','Lat pulldown','3 × 10','Bar to your upper chest, shoulders down.'],
-        ['spate-ramat-gantera','One-arm dumbbell row','3 × 10 each side','Elbow to your hip.'],
+        ['spate-lat-pulldown','Lat pulldown','3 × 10','Bar to your upper chest, shoulders down.','w'],
+        ['spate-ramat-gantera','One-arm dumbbell row','3 × 10 each side','Elbow to your hip.','w'],
         ['impins-flotare-inclinata','Incline push-up','3 × 8','Body in one line, chest to the bench.'],
-        ['impins-umeri-gantere','Seated shoulder press','3 × 10','Ribs down, press straight up.'],
-        ['spate-fluturari-inverse','Reverse fly','2 × 12','Hinge forward, arms wide and soft.'],
+        ['impins-umeri-gantere','Seated shoulder press','3 × 10','Ribs down, press straight up.','w'],
+        ['spate-fluturari-inverse','Reverse fly','2 × 12','Hinge forward, arms wide and soft.','w'],
         ['core-plank','Plank','3 × 30 s','One line from head to heels.']]],
       ['Cool-down · 4 min', COOL]],
   C: [['Warm-up · 5 min', WARM],
       ['Workout · 2 rounds', [
-        ['picioare-split-a','Split squat','2 × 8 each leg','Back knee comes down slowly.'],
-        ['spate-face-pull','Face pull','2 × 12','Rope to your face, elbows high.'],
-        ['umeri-ridicari-laterale','Lateral raise','2 × 12','Elbows soft, to shoulder height.'],
+        ['picioare-split-a','Split squat','2 × 8 each leg','Back knee comes down slowly.','w'],
+        ['spate-face-pull','Face pull','2 × 12','Rope to your face, elbows high.','w'],
+        ['umeri-ridicari-laterale','Lateral raise','2 × 12','Elbows soft, to shoulder height.','w'],
         ['core-bird-dog','Bird dog','2 × 8 each side','Back flat like a table.'],
         ['core-plank-lateral','Side plank','2 × 20 s each side','Hips high.']]],
       ['Cardio · 15 min', [['cardio-banda','Incline walk','15 min, easy pace','Incline 8–12%, don\'t hold the rails.']]],
@@ -148,6 +171,76 @@ const key = d => 'done-' + d;
 function load(d){ try { return JSON.parse(localStorage.getItem(key(d)) || '[]'); } catch(e){ return []; } }
 function save(d, v){ try { localStorage.setItem(key(d), JSON.stringify(v)); } catch(e){} }
 
+const SMALL = ['spate-fluturari-inverse','spate-face-pull','umeri-ridicari-laterale','impins-umeri-gantere'];
+const logKey = f => 'log-' + f;
+function getLog(f){ try { return JSON.parse(localStorage.getItem(logKey(f)) || '[]'); } catch(e){ return []; } }
+function putLog(f, v){ try { localStorage.setItem(logKey(f), JSON.stringify(v)); } catch(e){} }
+function plan(dose){ const m = dose.match(/(\d+)\s*×\s*(\d+)/); return m ? {sets: +m[1], reps: +m[2]} : {sets: 3, reps: 10}; }
+const fmt = n => (Math.round(n * 10) / 10).toString();
+function lastText(entry){
+  if (!entry) return 'No weight logged yet';
+  const kg = entry.s.map(x => x[0]); const same = kg.every(k => k === kg[0]);
+  return 'Last time: ' + (same ? fmt(kg[0]) + ' kg × ' + entry.s.map(x => x[1]).join(', ') : entry.s.map(x => fmt(x[0]) + '×' + x[1]).join(' · ') + ' kg');
+}
+function tipText(f, entry, target){
+  if (!entry) return 'Pick a weight you can lift for every rep with good form, with 1–2 reps left in the tank. Write it down after each set.';
+  const top = Math.max(...entry.s.map(x => x[0]));
+  const hit = entry.s.length && entry.s.every(x => x[1] >= target);
+  const step = SMALL.includes(f) ? 1 : 2;
+  return hit ? 'You hit all your reps last time. Try ' + fmt(top + step) + ' kg today (+' + step + ' kg).'
+             : 'Stay at ' + fmt(top) + ' kg and aim for one more rep per set. Go up when you hit ' + target + ' on every set.';
+}
+function logPanel(ex){
+  const [f, , dose] = ex; const {sets, reps} = plan(dose);
+  const wrap = document.createDocumentFragment();
+  const btn = document.createElement('button'); btn.className = 'logbtn'; btn.type = 'button'; btn.textContent = 'Log weight';
+  btn.setAttribute('aria-expanded', 'false');
+  const panel = document.createElement('div'); panel.className = 'log'; panel.hidden = true;
+  const tip = document.createElement('p'); tip.className = 'tip';
+  const box = document.createElement('div'); box.className = 'sets';
+  const hist = getLog(f); const last = hist[hist.length - 1];
+  const inputs = [];
+  for (let k = 0; k < sets; k++){
+    const r = document.createElement('div'); r.className = 'set';
+    const lab = document.createElement('span'); lab.textContent = 'Set ' + (k + 1);
+    const l1 = document.createElement('label'); const kg = document.createElement('input');
+    kg.type = 'number'; kg.inputMode = 'decimal'; kg.step = '0.5'; kg.min = '0'; kg.setAttribute('aria-label', ex[1] + ' set ' + (k + 1) + ' kilograms');
+    kg.value = last && last.s[k] ? last.s[k][0] : ''; const u1 = document.createElement('small'); u1.textContent = 'kg'; l1.append(kg, u1);
+    const l2 = document.createElement('label'); const rp = document.createElement('input');
+    rp.type = 'number'; rp.inputMode = 'numeric'; rp.min = '0'; rp.placeholder = reps; rp.setAttribute('aria-label', ex[1] + ' set ' + (k + 1) + ' reps');
+    const u2 = document.createElement('small'); u2.textContent = 'reps'; l2.append(rp, u2);
+    r.append(lab, l1, l2); box.appendChild(r); inputs.push([kg, rp]);
+  }
+  const save = document.createElement('button'); save.className = 'savebtn'; save.type = 'button'; save.textContent = 'Save today';
+  const msg = document.createElement('p'); msg.className = 'saved'; msg.setAttribute('aria-live', 'polite');
+  tip.textContent = tipText(f, last, reps);
+  save.addEventListener('click', () => {
+    const s2 = inputs.map(([a, b]) => [parseFloat(a.value), parseInt(b.value || reps, 10)]).filter(x => !isNaN(x[0]));
+    if (!s2.length){ msg.textContent = 'Add the weight for at least one set.'; return; }
+    const h = getLog(f); const today = new Date().toISOString().slice(0, 10);
+    if (h.length && h[h.length - 1].d === today) h.pop();
+    h.push({d: today, s: s2}); putLog(f, h);
+    const e = h[h.length - 1], top = Math.max(...e.s.map(x => x[0])), step = SMALL.includes(f) ? 1 : 2;
+    msg.textContent = e.s.every(x => x[1] >= reps) ? 'Saved. Next time, try ' + fmt(top + step) + ' kg.' : 'Saved. Next time, same weight and one more rep.';
+    document.querySelectorAll('li[data-f="' + f + '"] .last').forEach(el => el.textContent = lastText(h[h.length - 1]));
+    mine();
+  });
+  btn.addEventListener('click', () => { panel.hidden = !panel.hidden; btn.setAttribute('aria-expanded', String(!panel.hidden)); btn.textContent = panel.hidden ? 'Log weight' : 'Close'; });
+  panel.append(tip, box, save, msg);
+  wrap.append(btn, panel); return wrap;
+}
+function mine(){
+  const ul = document.querySelector('#mine'); ul.innerHTML = ''; const seen = new Set();
+  Object.values(DAYS).flat().forEach(([, list]) => list.forEach(ex => {
+    if (ex[4] !== 'w' || seen.has(ex[0])) return; seen.add(ex[0]);
+    const h = getLog(ex[0]); if (!h.length) return;
+    const top = e => Math.max(...e.s.map(x => x[0]));
+    const li = document.createElement('li'); const a = document.createElement('span'); a.textContent = ex[1];
+    const b = document.createElement('b'); b.textContent = fmt(top(h[0])) + ' → ' + fmt(top(h[h.length - 1])) + ' kg';
+    li.append(a, b); ul.appendChild(li);
+  }));
+  if (!ul.children.length){ const li = document.createElement('li'); li.textContent = 'Log your first weights and your progress shows up here.'; ul.appendChild(li); }
+}
 function show(ex, group){
   const [f, n, dose, cue] = ex;
   src.src = f + '.mp4'; vid.poster = f + '.jpg'; vid.load();
@@ -166,10 +259,13 @@ function row(ex, group, done, i, onToggle){
   const nb = document.createElement('button'); nb.className = 'name'; nb.textContent = ex[1];
   const ds = document.createElement('div'); ds.className = 'dose-s'; ds.textContent = ex[2];
   mid.append(nb, ds);
+  if (ex[4] === 'w'){ const lt = document.createElement('div'); lt.className = 'last'; const h = getLog(ex[0]); lt.textContent = lastText(h[h.length - 1]); mid.appendChild(lt); }
   const cb = document.createElement('input'); cb.type = 'checkbox'; cb.id = 'cb-' + current + '-' + i; cb.checked = done; cb.setAttribute('aria-label', 'Done: ' + ex[1]);
   cb.addEventListener('change', () => { li.classList.toggle('done', cb.checked); onToggle(cb.checked); });
   [tb, nb].forEach(b => b.addEventListener('click', () => show(ex, group)));
-  li.append(tb, mid, cb); return li;
+  li.append(tb, mid, cb);
+  if (ex[4] === 'w') li.appendChild(logPanel(ex));
+  return li;
 }
 function render(){
   const box = $('#day'); box.innerHTML = ''; order = [];
@@ -202,4 +298,5 @@ document.querySelectorAll('[role=tab]').forEach(b => b.addEventListener('click',
 }));
 const rs = $('#resets'); RESETS.forEach((ex, i) => rs.appendChild(row(ex, '5-minute reset', false, 'r' + i, () => {})));
 render();
+mine();
 </script>

@@ -139,6 +139,7 @@ _Toate clipurile sunt montate (culoarea nouă, mai blândă, din 6 nov; numele e
    - Cardio (Shape Up)
    - Resetările de 5 minute
    - Tabelul de progresie pe 4 săptămâni (PDF)
+   - **Jurnalul de greutăți (10 nov):** la fiecare exercițiu cu greutate, clientul notează kg și repetările pe fiecare set. Data viitoare vede „Last time: 10 kg × 10, 10, 10” și sugestia: dacă a făcut toate repetările, +2 kg (+1 kg la umeri, fluturări și face pull); dacă nu, aceeași greutate și o repetare în plus. Secțiunea „My weights” arată prima și ultima greutate. Datele rămân în telefonul lui (nimic trimis). Pe Payhip: link spre pagina ascunsă `log.html` de pe site + PDF de printat.
 4. Omul deschide în fiecare zi antrenamentul spus de plan și face **follow-along** cu tine.
 
 **De ce așa:** site-ul rămâne gratuit și simplu (Netlify), iar Payhip se ocupă de plăți, TVA, parole și găzduirea videourilor. Videourile **nu** merg pe YouTube (canalul e închis) și nici pe site.
