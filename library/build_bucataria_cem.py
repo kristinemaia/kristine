@@ -61,11 +61,11 @@ ol.steps li b.h { color:var(--k-ink); }
 .cols2 { columns:2; column-gap:18px; }
 """
 
-def day(name, tag, rows, note=""):
+def day(name, tag, rows, note="", who="Ce mănâncă Cem"):
     trs = "".join(f'<tr><td class="ora">{o}<span>{m}</span></td><td>{c}</td><td class="tu">{t}</td></tr>' for o, m, c, t in rows)
     n = f'<p style="margin:2px 0 0;color:var(--muted);font-size:8.6pt">{note}</p>' if note else ""
     return (f'<div class="day"><h3>{name} <span class="tag{tag[1]}">{tag[0]}</span></h3>'
-            f'<table><thead><tr><th style="width:15%">Ora</th><th>Ce mănâncă Cem</th><th style="width:40%">Ce faci tu</th></tr></thead><tbody>{trs}</tbody></table>{n}</div>')
+            f'<table><thead><tr><th style="width:15%">Ora</th><th>{who}</th><th style="width:40%">Ce faci tu</th></tr></thead><tbody>{trs}</tbody></table>{n}</div>')
 
 TERMOS = "termosul îl încălzești înainte 5 min cu apă clocotită"
 

@@ -64,6 +64,8 @@ GROUPS = [
              "desc": "Meniul tău pe zile, în engleză: ce mănânci la fiecare masă, cinele cu pește împreună, din ce e făcută fiecare masă și de ce e fiecare produs pe lista comună."},
             {"kind": "pdf", "slug": "bucataria-cem", "title": "Bucătăria lui Cem, pe scurt", "src": "BUCATARIA-LUI-CEM-SIMPLU.pdf", "name": "Bucataria-lui-Cem-pe-scurt.pdf",
              "desc": "Ghidul lui Cem rescris simplu, cu aceleași gramaje: ce mănâncă în fiecare zi și ce faci tu la ce oră; duminică și miercuri, ce gătești pe cuptor, air fryer și aragaz, pașii, cutiile; rețetele pe scurt."},
+            {"kind": "pdf", "slug": "bucataria-mea", "title": "Bucătăria mea, pe scurt", "src": "BUCATARIA-MEA-SIMPLU.pdf", "name": "Bucataria-mea-pe-scurt.pdf",
+             "desc": "Săptămâna ta de mâncare, ca ghidul lui Cem: zi cu zi ce mănânci (gramaje gătite) și ce faci, ce pui pentru tine când gătești pentru Cem, ce pește scoți din congelator, rețetele pe scurt."},
             {"kind": "link", "title": "Jurnalul de antrenamente", "url": "https://claude.ai/artifact/Dzx8NNiQmdaqLCC39zBysB",
              "desc": "Notezi kg × repetări la fiecare set; vezi ce ai ridicat data trecută, cu cât să crești, pauza dintre seturi și progresul."},
             {"kind": "link", "title": "Jurnalul de mâncare", "url": "https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL",
