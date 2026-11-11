@@ -92,13 +92,20 @@ TR = "".join(
     for m, k, note, *cells in ROWS
 )
 
-DESERT = """<tr><td class="m"><b>Desertul zilei</b><span>≈150–250 kcal</span><em>După cină, în fiecare zi</em></td>
-<td class="ds" colspan="5">Alegi unul (sunt și în jurnal, la „Din plan → Deserturi”):
-<b>banană la air fryer + 150 g skyr</b> (≈200) · <b>150 g iaurt grecesc + 100 g rodie + ½ linguriță miere</b> (≈200) ·
-<b>măr copt + 100 g brânză de vaci + 5 g nuci</b> (≈215) · <b>înghețată de banană</b> (≈230) ·
-<b>mousse de ciocolată</b> (≈250) · <b>mug cake proteic</b> (≈275) · <b>2 bile cu curmale</b> (≈140) ·
-<b>2 pătrățele de ciocolată 85%</b> (≈60).<br>
-<small>În ziua cu mousse sau mug cake, la micul dejun ia farfuria cu ouă și lor (cea mai ușoară). Fără desert: 15 g nuci + 1 fruct.</small></td></tr>"""
+DESERT_ITEMS = [
+    ("banană la air fryer + 150 g skyr", "≈200"),
+    ("150 g iaurt grecesc + 100 g rodie + ½ linguriță miere", "≈200"),
+    ("măr copt + 100 g brânză de vaci + 5 g nuci", "≈215"),
+    ("înghețată de banană", "≈230"),
+    ("mousse de ciocolată", "≈250"),
+    ("mug cake proteic", "≈275"),
+    ("2 bile cu curmale", "≈140"),
+    ("2 pătrățele de ciocolată 85%", "≈60"),
+]
+DESERT_NOTE = "În ziua cu mousse sau mug cake, la micul dejun ia farfuria cu ouă și lor (cea mai ușoară). Fără desert: 15 g nuci + 1 fruct."
+DESERT = ('<tr><td class="m"><b>Desertul zilei</b><span>≈150–250 kcal</span><em>După cină, în fiecare zi</em></td>'
+          '<td class="ds" colspan="5">Alegi unul (sunt și în jurnal, la „Din plan → Deserturi”): '
+          + " · ".join(f"<b>{n}</b> ({k})" for n, k in DESERT_ITEMS) + f".<br><small>{DESERT_NOTE}</small></td></tr>")
 
 CRUD = [
     ("Paste", "60 g uscate", "≈140 g fierte"),
