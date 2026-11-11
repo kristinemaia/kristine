@@ -162,16 +162,23 @@ HTML = f"""<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Far
  <thead><tr><th style="width:12%">Masa</th><th style="width:20%">Proteină (gătită) · alegi una</th><th style="width:21%">Carbohidrați (gătiți) · alegi unul</th><th style="width:19%">Legume</th><th style="width:15%">Grăsime</th><th style="width:13%">Fruct</th></tr></thead>
  <tbody>{TR}</tbody>
 </table>
-<div class="p2"><h2>Cât pui crud și ziua de odihnă</h2>
+<div class="p2"><h2>Cât pui crud, zi de sală și zi de odihnă</h2>
 <div class="low">
  <div class="box"><b class="t">Cât pui crud ca să iasă porția gătită</b>
   <table class="c"><thead><tr><th>Proteina</th><th>Porția gătită</th><th>Cât pui crud</th></tr></thead><tbody>{CR}{CR2}</tbody></table>
   <p style="margin:6px 0 0;color:var(--muted);font-size:8.6pt">Cantitățile crude sunt aproximative: carnea pierde apă diferit de la o bucată la alta. Cel mai sigur e să cântărești după gătit.</p></div>
  <div>
- <div class="box mint"><b class="t">Zi de odihnă (sâmbătă, duminică)</b>
-  <ul><li>Înainte de sală: <b>doar cafea</b>, fără fruct.</li>
-  <li>După-amiază: <b>carbohidrații la jumătate</b>: 125 g bulgur, 150 g cartof dulce, 175 g cartofi fierți, 100 g cartofi la cuptor. <b>Fără fruct.</b></li>
-  <li>Restul meselor, la fel.</li></ul></div>
+ <div class="box mint"><b class="t">Zi de sală (luni–vineri) și zi de odihnă (sâmbătă, duminică)</b>
+  <table class="c" style="margin-bottom:6px"><thead><tr><th>Masa</th><th>Zi de sală</th><th>Zi de odihnă</th></tr></thead><tbody>
+   <tr><td>Mic dejun</td><td>≈500 kcal</td><td>≈500 kcal</td></tr>
+   <tr><td>Prânz</td><td>≈550 kcal</td><td>≈550 kcal</td></tr>
+   <tr><td>Înainte de sală</td><td>≈100 kcal (fruct)</td><td><b>0</b> (doar cafea)</td></tr>
+   <tr><td>După sală / după-amiază</td><td>≈850 kcal</td><td><b>≈600 kcal</b></td></tr>
+   <tr><td>Cină</td><td>≈400 kcal</td><td>≈400 kcal</td></tr>
+   <tr><td><b>Totalul zilei</b></td><td><b>≈2.400 kcal</b></td><td><b>≈2.050 kcal</b></td></tr>
+  </tbody></table>
+  <ul><li>În zilele de odihnă, după-amiază: <b>carbohidrații la jumătate</b> (125 g bulgur, 150 g cartof dulce, 175 g cartofi fierți, 100 g cartofi la cuptor) și <b>fără fruct</b>.</li>
+  <li>Proteina rămâne aproape la fel; mic dejunul, prânzul și cina nu se schimbă.</li></ul></div>
  <div class="box"><b class="t">Ca să iasă bine</b>
   <ul><li>Proteină la <b>fiecare</b> masă; carbohidrații mari doar <b>după sală</b>; seara <b>fără</b> carbohidrați.</li>
   <li>Gătești toată cantitatea crudă, o lași 5 min, apoi împarți porțiile gătite pe cântar, direct în cutii.</li>
