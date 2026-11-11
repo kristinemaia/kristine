@@ -25,20 +25,20 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 8. **Vită cuburi, slabă** · Lean beef cubes — **800 g** (C)
 
 ## Ouă · Eggs
-9. **Ouă** · Eggs — **40** (C 30 + K 10)
-10. **Albuș lichid** · Liquid egg white — **1.000 ml** (C 500 + K 500)
+9. **Ouă** · Eggs — **44** (C 30 + K 14)
+10. **Albuș lichid** · Liquid egg white — **≈1.100 ml** (C 500 + K 600)
 
 ## Lactate · Dairy (doar Kristine · Kristine only)
-11. **Chefir** · Kefir — **1.500 ml**
-12. **Lapte 1,5%** · Milk 1.5% — **1.000 ml**
+11. **Chefir** · Kefir — **2.000 ml** (în fiecare zi · every day)
+12. **Lapte 1,5%** · Milk 1.5% — **500 ml**
 13. **Iaurt grecesc 2%** · Greek yoghurt 2% — **500 g**
-14. **Brânză de vaci slabă (lor)** · Low-fat cottage cheese (lor) — **500 g**
+14. **Brânză de vaci slabă (lor)** · Low-fat cottage cheese (lor) — **250 g**
 15. **Skyr** · Skyr — **150 g**
 16. **Parmezan** · Parmesan — **50 g**
 
 ## Pâine · Bread
 17. **Lipie integrală (lavaș)** · Wholewheat flatbread — **2 pachete · 2 packs, ≈720 g** (C 1 + K 1)
-18. **Pâine integrală** · Wholewheat bread — **1, ≈600 g** (C+K)
+18. **Pâine integrală** · Wholewheat bread — **2 × ≈600 g** (C 1 + K 1)
 
 ## Legume · Vegetables
 19. **Castraveți** · Cucumbers — **≈3.000 g** (C 2 kg + K 1 kg) · **AVEM ACASĂ / WE HAVE SOME: luați doar diferența · buy only what's missing**
@@ -69,7 +69,7 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 
 ## Fructe · Fruit
 44. **Banane** · Bananas — **5, ≈900 g** (C 3 + K 2)
-45. **Mere** · Apples — **7, ≈1.300 g** (C 3 + K 4)
+45. **Mere** · Apples — **5, ≈900 g** (C 3 + K 2)
 46. **Lămâi** · Lemons — **14, ≈1.400 g** (C 10 + K 4) · **AVEM ACASĂ / WE HAVE SOME: luați doar diferența · buy only what's missing**
 47. **Curmale Medjool** · Medjool dates — **6, ≈170 g** (C 2 + K 4)
 48. **Rodii** · Pomegranates — **3, ≈1.200 g** (C 1 + K 2)
@@ -81,7 +81,7 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 52. **Miez de nucă** · Walnut halves — **300 g** (C 200 g + K 100 g)
 
 ## Congelate și borcane · Frozen and jars
-53. **Fructe de pădure congelate** · Frozen mixed berries — **500 g** (K)
+53. **Fructe de pădure congelate** · Frozen mixed berries — **500 g** (K, opțional, în shake · optional, in the shake)
 54. **Fasole verde congelată** · Frozen green beans — **450 g** (K)
 55. **Năut fiert, borcan** · Cooked chickpeas, jar — **≈400 g** (C)
 56. **Passata (sos de roșii)** · Tomato passata — **≈700 g** (K)
@@ -91,7 +91,7 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 # PARTEA 2 · PART 2 — Ține multe săptămâni: verificați întâi în dulap · Lasts for weeks: check the cupboard first
 
 ## Cereale și paste · Grains and pasta
-57. **Fulgi de ovăz** · Rolled oats — **1.000 g** (C+K) · ~2 săptămâni · ~2 weeks
+57. **Fulgi de ovăz** · Rolled oats — **500 g** (C+K) · ~2 săptămâni · ~2 weeks
 58. **Paste** · Pasta — **500 g** (K) · ~2 săptămâni · ~2 weeks
 59. **Bulgur pentru pilaf** · Coarse bulgur — **1.000 g** (C) · ~3 săptămâni · ~3 weeks
 60. **Quinoa** · Quinoa — **500 g** (C) · ~4 săptămâni · ~4 weeks

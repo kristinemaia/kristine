@@ -19,22 +19,22 @@ OUT = os.path.join(REPO, "KRISTINE-FOOD-WEEK-EN.pdf")
 
 # (zi, antrenament, [mic dejun, prânz, gustare, cină, desert], kcal pe zi, cine cu Cem?)
 WEEK = [
-    ("Mon", "Legs A", ["Protein oats", "Tuna pasta", "Kefir shake", "Salmon + boiled potatoes + broccoli", "Air-fryer banana + skyr"], "≈1,660", True),
+    ("Mon", "Legs A", ["Eggs & lor plate", "Tuna pasta", "Kefir shake", "Salmon + boiled potatoes + broccoli", "Air-fryer banana + skyr"], "≈1,650", True),
     ("Tue", "Upper A + intervals", ["Veggie omelette + tortilla", "Tuna wrap + apple", "Kefir shake", "Shakshuka (red, with tomato)", "2 squares of 85% chocolate"], "≈1,610", False),
-    ("Wed", "Easy cardio", ["Yoghurt bowl with pomegranate", "Shrimp pasta", "Lor + berries", "Sea bass + potatoes + veg", "2 date balls"], "≈1,580", True),
-    ("Thu", "Legs B", ["Protein oats", "Tuna & potato salad", "Kefir shake", "Potatoes with fish (sea bream)", "Yoghurt with pomegranate"], "≈1,650", False),
-    ("Fri", "Upper B", ["Protein oats", "Pasta with tuna in tomato sauce", "Kefir shake", "Sea bream + potatoes + veg", "Baked apple + lor"], "≈1,650", True),
-    ("Sat", "Long cardio", ["Protein pancakes with honey & choc chips", "Salmon + potatoes", "Lor + berries", "Free meal: one plate of anything + dessert", "(in the free meal)"], "≈1,000 + free meal", False),
-    ("Sun", "Rest", ["Veggie omelette + bread", "Shrimp pasta", "Kefir shake", "Fish night: sea bass or sea bream + potatoes + veg", "2 date balls"], "≈1,640", True),
+    ("Wed", "Easy cardio", ["Yoghurt bowl with pomegranate", "Shrimp pasta", "Kefir shake", "Sea bass + potatoes + veg", "2 date balls"], "≈1,600", True),
+    ("Thu", "Legs B", ["Eggs & lor plate", "Tuna & potato salad", "Kefir shake", "Potatoes with fish (sea bream)", "Yoghurt with pomegranate"], "≈1,630", False),
+    ("Fri", "Upper B", ["Veggie omelette + tortilla", "Pasta with tuna in tomato sauce", "Kefir shake", "Sea bream + potatoes + veg", "2 date balls"], "≈1,640", True),
+    ("Sat", "Long cardio", ["Protein pancakes with honey & choc chips", "Salmon + potatoes", "Kefir shake", "Free meal: one plate of anything + dessert", "(in the free meal)"], "≈1,030 + free meal", False),
+    ("Sun", "Rest", ["Veggie omelette + bread", "Shrimp pasta", "Kefir shake", "Fish night: sea bass or sea bream + potatoes + veg", "2 date balls"], "≈1,650", True),
 ]
 
 # (nume, ce conține, kcal · proteină)
 MEALS = [
     ("Breakfast", [
-        ("Protein oats", "40 g oats (dry) cooked in water + 1 scoop whey stirred in + 150 ml milk + 100 g frozen berries", "≈385 kcal · 31 g"),
+        ("Eggs & lor plate", "2 boiled eggs + 100 g lor with dill and pepper + 1 slice wholewheat bread + tomato, cucumber", "≈360 kcal · 31 g"),
         ("Veggie omelette + tortilla or bread", "2 eggs + 100 ml egg white + 150 g vegetables (peppers, onion, spinach, mushrooms, tomato) in ½ tsp oil · 1 small lavash or 2 slices wholewheat bread", "≈445–455 kcal · 31–34 g"),
         ("Yoghurt bowl with pomegranate", "200 g Greek yoghurt 2% + 30 g oats + 100 g pomegranate seeds + 10 g walnuts", "≈410 kcal · 27 g"),
-        ("Protein pancakes", "40 g ground oats + 1 egg + 100 ml egg white + 60 ml milk, 2–3 pancakes · 1 tsp honey + 5 g dark chocolate chips on top", "≈350 kcal · 25 g"),
+        ("Protein pancakes", "40 g ground oats + 1 egg + 100 ml egg white + 60 ml milk, 2–3 pancakes · 1 tsp honey + 5 g dark chocolate chips on top (no protein powder)", "≈350 kcal · 25 g"),
     ]),
     ("Lunch", [
         ("Tuna pasta", "140 g cooked pasta (60 g dry) + 1 can tuna in water + tomato, cucumber, red onion + 1 tsp olive oil + lemon", "≈430 kcal · 39 g"),
@@ -44,9 +44,8 @@ MEALS = [
         ("Shrimp pasta", "140 g cooked pasta + 120 g cooked shrimp + cherry tomatoes, garlic + 1 tsp olive oil + 10 g parmesan", "≈445 kcal · 41 g"),
         ("Salmon + potatoes", "95 g cooked salmon + 150 g oven potatoes + vegetables", "≈445 kcal · 32 g"),
     ]),
-    ("Snack (after training)", [
-        ("Kefir shake", "250 ml kefir + 1 scoop whey", "≈240 kcal · 32 g"),
-        ("Lor + berries", "200 g lor + 100 g berries", "≈215 kcal · 27 g"),
+    ("Kefir every day (after training)", [
+        ("Kefir shake", "250 ml kefir + 1 scoop whey (100 g frozen berries, if I feel like it)", "≈240 kcal · 32 g"),
     ]),
     ("Dinner", [
         ("Potatoes with fish (sea bass / sea bream)", "≈100 g cooked fish (130 g raw), no extra oil · 200 g boiled potatoes with dill (or 150 g oven potatoes) · salad or vegetables, lemon", "≈360–385 kcal · 30 g"),
@@ -56,8 +55,7 @@ MEALS = [
     ("Dessert (every evening, already counted)", [
         ("Air-fryer banana + skyr", "Banana cut lengthwise, cinnamon, 8 min at 180 °C · 150 g skyr", "≈200 kcal · 18 g"),
         ("Yoghurt with pomegranate", "150 g Greek yoghurt + 100 g pomegranate seeds + ½ tsp honey", "≈200 kcal · 17 g"),
-        ("Baked apple + lor", "Apple halves with cinnamon, 12–15 min at 180 °C · 100 g lor with vanilla · 5 g walnuts", "≈215 kcal · 14 g"),
-        ("2 date balls", "1 Medjool date + 10 g oats + ¼ scoop whey + ½ tsp cocoa, blended and rolled", "≈140 kcal · 8 g"),
+        ("2 date balls", "1 Medjool date + 10 g oats + 5 g walnuts + ½ tsp cocoa, blended and rolled", "≈140 kcal · 3 g"),
         ("85% chocolate", "2 squares (10 g)", "≈60 kcal"),
     ]),
 ]
@@ -68,20 +66,20 @@ WHY = [
     ("Sea bass / sea bream", "Dinners Wed, Thu, Fri, Sun", "4 × 130 g raw"),
     ("Salmon", "Mon dinner · Sat lunch", "2 × 120 g raw"),
     ("Frozen shrimp", "Shrimp pasta (Wed, Sun)", "300 g"),
-    ("Eggs · egg white", "Omelette (Tue, Sun) · shakshuka (Tue) · pancakes (Sat) · salad (Thu)", "10 eggs · 500 ml"),
-    ("Kefir · whey", "Shake on Mon, Tue, Thu, Fri, Sun · whey also in oats and date balls", "1.5 l · ≈8 scoops"),
-    ("Milk", "Protein oats (Mon, Thu, Fri) · pancakes (Sat)", "1 l"),
+    ("Eggs · egg white", "Egg plates (Mon, Thu) · omelettes (Tue, Fri, Sun) · shakshuka (Tue) · pancakes (Sat) · salad (Thu)", "14 eggs · 600 ml"),
+    ("Kefir · whey", "Kefir shake every day", "2 l · 7 scoops"),
+    ("Milk", "Pancakes (Sat)", "500 ml"),
     ("Greek yoghurt · skyr", "Wed bowl, Thu dessert, wrap sauce · Mon dessert", "500 g · 150 g"),
-    ("Lor", "Snack on Wed and Sat · baked apple (Fri)", "500 g"),
+    ("Lor", "Egg plates (Mon, Thu)", "250 g"),
     ("Parmesan", "Shrimp pasta", "50 g"),
-    ("Oats", "Protein oats ×3 · yoghurt bowl · pancakes · date balls", "≈230 g"),
+    ("Oats", "Yoghurt bowl · pancakes · date balls (never with protein powder)", "≈90 g"),
     ("Pasta", "Tuna pasta (Mon) · pasta in tomato sauce (Fri) · shrimp pasta ×2 (cooked for 2 days at a time)", "240 g dry"),
-    ("Lavash · bread", "Tue omelette and wrap · Sun omelette and the shakshuka", "2 · 3 slices"),
+    ("Lavash · bread", "Omelettes (Tue, Fri) and Tue wrap · egg plates, Sun omelette, shakshuka", "3 · 5 slices"),
     ("Potatoes", "Dinners Mon, Wed, Thu, Fri, Sun · Thu salad · Sat lunch", "≈1.35 kg raw"),
-    ("Tomatoes · cherry tomatoes · passata", "Omelette, tuna pasta, salads · shrimp pasta · shakshuka and Fri pasta (all mine, kept on my shelf)", "5 · 250 g · 1 big jar"),
-    ("Frozen berries · green beans", "Oats, lor snacks, pancakes · Thu salad", "500 g · 1 bag"),
+    ("Tomatoes · cherry tomatoes · passata", "Omelettes, egg plates, tuna pasta, salads · shrimp pasta · shakshuka and Fri pasta (all mine, kept on my shelf)", "5 · 250 g · 1 big jar"),
+    ("Green beans · frozen berries", "Thu salad · in the shake, if I feel like it", "1 bag · 500 g (optional)"),
     ("Pomegranates", "Wed bowl, Thu dessert, on salads (I love it)", "2"),
-    ("Bananas · apples · dates", "Mon dessert · wrap, baked apple · date balls", "2 · 4 · 4"),
+    ("Bananas · apples · dates", "Mon dessert · Tue wrap · date balls (Wed, Fri, Sun)", "2 · 2 · 4"),
     ("Cocoa · 85% chocolate · honey", "Date balls · chocolate squares and chopped on pancakes · pancakes and dessert (your honey)", "small packs, last weeks"),
     ("Shared vegetables", "Cucumber, peppers, onion, courgette, broccoli, spinach, lettuce in every lunch and dinner", "see the list"),
 ]

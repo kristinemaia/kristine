@@ -17,20 +17,20 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 8. Az yağlı dana kuşbaşı — **800 g** (C)
 
 ## Yumurta
-9. Yumurta (L boy, ≈60 g) — **40 adet**: 30'lu viyol + 10'lu paket (C 30 + K 10)
-10. Pastörize sıvı yumurta akı — **1.000 ml** (1 l'lik kutu veya 2 × 500 g) (C 500 + K 500) · sadece yumurta akı
+9. Yumurta (L boy, ≈60 g) — **44 adet**: 30'lu viyol + 14 (C 30 + K 14)
+10. Pastörize sıvı yumurta akı — **≈1.100 ml** (C 500 + K 600) · sadece yumurta akı
 
 ## Süt ürünleri (sadece Kristine)
-11. Sade kefir — **1.500 ml** (1 l + 500 ml)
-12. Yarım yağlı süt (%1,5) — **1.000 ml**
+11. Sade kefir — **2.000 ml** (K: her gün 250 ml, shake'te)
+12. Yarım yağlı süt (%1,5) — **500 ml**
 13. Light süzme yoğurt — **500 g**
-14. Lor peyniri — **500 g**
+14. Lor peyniri — **250 g**
 15. Skyr (yoksa süzme yoğurt) — **150 g**
 16. Parmesan peyniri — **50 g** (en küçük paket; ≈100 g ise 2 hafta yeter)
 
 ## Ekmek
 17. Tam buğday lavaş (≈60 g/adet) — **2 paket, ≈12 adet, ≈720 g** (C 1 + K 1) · içinde süt, yoğurt, pirinç olmasın
-18. Tam buğday ekmeği — **1 adet, ≈600 g** (14–16 dilim) (C+K) · süt tozu, margarin, pirinç unu olmasın
+18. Tam buğday ekmeği — **2 adet, ≈600 g'lık** (C 1 + K 1; K'ninki dondurucuda ≈3 hafta yeter) · süt tozu, margarin, pirinç unu olmasın
 
 ## Sebze
 19. Salatalık — **≈3.000 g** (10–12 adet) (C 2 kg + K 1 kg) · **EVDE VAR: önce kontrol et, sadece eksik kadarını al**
@@ -61,7 +61,7 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 
 ## Meyve
 44. Muz — **5 adet, ≈900 g** (C 3 + K 2)
-45. Elma — **7 adet, ≈1.300 g** (C 3 + K 4)
+45. Elma — **5 adet, ≈900 g** (C 3 + K 2)
 46. Limon — **14 adet, ≈1.400 g** (C 10 + K 4) · **EVDE VAR: önce kontrol et, sadece eksik kadarını al**
 47. Medjool hurma (iri hurma) — **6 adet, ≈170 g** (C 2 + K 4) · şeker ilavesiz
 48. Nar — **3 adet, ≈1.200 g** (C 1 + K 2)
@@ -73,7 +73,7 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 52. Ceviz içi — **300 g** (C 200 g + K 100 g)
 
 ## Dondurulmuş ve kavanoz
-53. Dondurulmuş orman meyveleri (karışık) — **500 g** (K)
+53. Dondurulmuş orman meyveleri (karışık) — **500 g** (K, isteğe bağlı: kefir shake'e)
 54. Dondurulmuş taze fasulye — **450 g** (K) · sossuz
 55. Haşlanmış nohut (kavanoz) — **1 kavanoz, ≈400 g** (C) · sadece nohut, su, tuz
 56. Domates püresi / passata — **≈700 g** (1 büyük kavanoz) (K)
@@ -83,7 +83,7 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 _Verifici întâi ce aveți deja. Iei doar ce lipsește._
 
 ## Ekmek, tahıl, makarna
-57. Yulaf ezmesi (sade) — **1.000 g** (2 × 500 g) (C+K)
+57. Yulaf ezmesi (sade) — **500 g** (C+K) · ≈2 hafta yeter
 58. Makarna veya tam buğday makarna — **500 g** (K) · 2 hafta yeter
 59. Pilavlık bulgur (iri) — **1.000 g** (C) · ≈3 hafta yeter
 60. Kinoa — **500 g** (C) · ≈4 hafta yeter

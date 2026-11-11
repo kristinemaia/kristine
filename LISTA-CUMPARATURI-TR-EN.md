@@ -24,20 +24,20 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 8. **Az yağlı dana kuşbaşı** · Lean beef cubes — **800 g** (C)
 
 ## Yumurta · Eggs
-9. **Yumurta (L boy, ≈60 g)** · Eggs — **40** (C 30 + K 10)
-10. **Pastörize sıvı yumurta akı** · Liquid egg white — **1.000 ml** (C 500 + K 500)
+9. **Yumurta (L boy, ≈60 g)** · Eggs — **44** (C 30 + K 14)
+10. **Pastörize sıvı yumurta akı** · Liquid egg white — **≈1.100 ml** (C 500 + K 600)
 
 ## Süt ürünleri · Dairy (Kristine only)
-11. **Sade kefir** · Kefir — **1.500 ml**
-12. **Yarım yağlı süt (%1,5)** · Milk 1.5% — **1.000 ml**
+11. **Sade kefir** · Kefir — **2.000 ml** (every day)
+12. **Yarım yağlı süt (%1,5)** · Milk 1.5% — **500 ml**
 13. **Light süzme yoğurt** · Greek yoghurt 2% — **500 g**
-14. **Lor peyniri** · Low-fat cottage cheese (lor) — **500 g**
+14. **Lor peyniri** · Low-fat cottage cheese (lor) — **250 g**
 15. **Skyr (yoksa süzme yoğurt)** · Skyr — **150 g**
 16. **Parmesan peyniri** · Parmesan — **50 g**
 
 ## Ekmek · Bread
 17. **Tam buğday lavaş (≈60 g/adet)** · Wholewheat flatbread — **2 packs, ≈720 g** (C 1 + K 1)
-18. **Tam buğday ekmeği** · Wholewheat bread — **1, ≈600 g** (C+K)
+18. **Tam buğday ekmeği** · Wholewheat bread — **2 × ≈600 g** (C 1 + K 1)
 
 ## Sebze · Vegetables
 19. **Salatalık** · Cucumbers — **≈3.000 g** (C 2 kg + K 1 kg) · **WE HAVE SOME AT HOME: buy only what's missing**
@@ -68,7 +68,7 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 
 ## Meyve · Fruit
 44. **Muz** · Bananas — **5, ≈900 g** (C 3 + K 2)
-45. **Elma** · Apples — **7, ≈1.300 g** (C 3 + K 4)
+45. **Elma** · Apples — **5, ≈900 g** (C 3 + K 2)
 46. **Limon** · Lemons — **14, ≈1.400 g** (C 10 + K 4) · **WE HAVE SOME AT HOME: buy only what's missing**
 47. **Medjool hurma (iri hurma)** · Medjool dates — **6, ≈170 g** (C 2 + K 4)
 48. **Nar** · Pomegranates — **3, ≈1.200 g** (C 1 + K 2)
@@ -80,7 +80,7 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 52. **Ceviz içi** · Walnut halves — **300 g** (C 200 g + K 100 g)
 
 ## Dondurulmuş ve kavanoz · Frozen and jars
-53. **Dondurulmuş orman meyveleri (karışık)** · Frozen mixed berries — **500 g** (K)
+53. **Dondurulmuş orman meyveleri (karışık)** · Frozen mixed berries — **500 g** (K, optional, in the shake)
 54. **Dondurulmuş taze fasulye** · Frozen green beans — **450 g** (K)
 55. **Haşlanmış nohut (kavanoz)** · Cooked chickpeas, jar — **≈400 g** (C)
 56. **Domates püresi / passata** · Tomato passata — **≈700 g** (K)
@@ -90,7 +90,7 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 # PART 2 — Lasts for weeks: check the cupboard first
 
 ## Ekmek, tahıl, makarna · Grains and pasta
-57. **Yulaf ezmesi (sade)** · Rolled oats — **1.000 g** (C+K) · ~2 weeks
+57. **Yulaf ezmesi (sade)** · Rolled oats — **500 g** (C+K) · ~2 weeks
 58. **Makarna veya tam buğday makarna** · Pasta — **500 g** (K) · ~2 weeks
 59. **Pilavlık bulgur (iri)** · Coarse bulgur — **1.000 g** (C) · ~3 weeks
 60. **Kinoa** · Quinoa — **500 g** (C) · ~4 weeks

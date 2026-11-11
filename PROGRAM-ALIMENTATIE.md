@@ -48,8 +48,8 @@ _Partea 2 din 3 a programului de definire (11 nov – 7 feb). Celelalte două: *
 ## Ziua ta: 4 mese + desertul
 Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte din rândul ei, deci le schimbi cum vrei. Cifrele sunt aproximative.
 
-**Mic dejun · ~380–430 kcal · 30–36 g proteină**
-- **A. Ovăz proteic:** 40 g ovăz fiert în apă + 1 măsură de proteină (30 g) amestecată la final + 150 ml lapte + 100 g fructe de pădure (merg și congelate).
+**Mic dejun · ~360–455 kcal · 25–34 g proteină**
+- **A. Farfurie cu ouă și lor:** 2 ouă fierte + 100 g lor (cu mărar, piper) + 1 felie de pâine integrală + roșie, castravete (~360 kcal, ~31 g proteină).
 - **B. Ouă cu lipie:** omletă din 2 ouă + 100 g albuș, cu spanac, roșii, ardei + 1 lipie mică (~60 g, ~180 kcal; verifică eticheta).
 - **C. Bol cu iaurt:** 200 g iaurt grecesc 2% + 30 g ovăz + 1 banană mică + 10 g nuci.
 
@@ -60,7 +60,7 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 - **D. Paste cu creveți:** 140 g paste fierte + 120 g creveți gătiți (150 g cruzi) + roșii cherry, usturoi + 1 linguriță ulei + 10 g parmezan.
 
 **Gustarea · ~230–250 kcal · 24–32 g proteină** (ideal după sală)
-- **A. Shake-ul tău:** 1 măsură de proteină în 250 ml chefir.
+- **A. Shake-ul tău, în fiecare zi:** 1 măsură de proteină în 250 ml chefir.
 - **B. Brânză de vaci:** 200 g brânză de vaci slabă + 100 g fructe sau 1 linguriță miere.
 - **C. Iaurt cu proteină:** 170 g iaurt grecesc 2% + o jumătate de măsură de proteină + fructe.
 
@@ -73,7 +73,7 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 
 **Desertul zilei · ~150–250 kcal:** în fiecare zi, după cină (sau la sfârșitul stream-ului). E deja socotit în calorii, deci nu e o abatere. Variantele sunt mai jos, la „Deserturi”. În zilele fără desert: 15 g nuci și un fruct.
 
-**Exemplu de zi:** ovăz proteic · ton cu paste · shake cu chefir după sală · pește la tavă · banană la air fryer cu skyr ≈ **1.620 kcal, ~155 g proteină**. Cu mousse-ul de ciocolată în loc de banană ajungi la ~1.670, tot bine.
+**Exemplu de zi:** farfurie cu ouă și lor · ton cu paste · shake cu chefir după sală · pește cu cartofi · banană la air fryer cu skyr ≈ **1.650 kcal, ~150 g proteină**. **Chefirul e în fiecare zi**, în shake. Cu mousse-ul de ciocolată în loc de banană ajungi la ~1.670, tot bine.
 
 **Exemplu cu ce mănânci deja (azi, 10 nov):** micul dejun (2 ouă, 2 felii de pâine cu unt, 2 felii de brânză, roșie, castravete, gem) a avut **~570 kcal, ~29 g proteină și ~30 g grăsimi**. E bun, doar că are deja jumătate din grăsimile zilei. Pentru restul zilei: ton cu paste la prânz, shake cu chefir după sală, pește alb cu cartofi la cină. Așa ajungi la ~1.610 kcal și ~135 g proteină. Dacă vrei și desert, ia 2 pătrățele de ciocolată 85% (60 kcal). Dacă vrei să-l păstrezi des: 1 felie de pâine integrală în loc de 2, fără unt și 100 g albuș în plus. Așa scazi ~100 kcal și urci la ~38 g proteină.
 
@@ -91,7 +91,6 @@ Mâncărurile pe care le faci mereu, cântărite pe ținta ta. Le găsești și 
 |---|---|---|---|
 | **Omleta ta cu legume** | 2 ouă + 100 ml albuș + 150 g legume (ardei, ceapă, spanac, ciuperci, roșii) în ½ linguriță ulei · lângă: **1 lipie mică (~60 g)** sau **2 felii de pâine integrală (~80 g)** | ~445–455 · 31–34 g | mic dejun |
 | **Clătitele tale proteice** (2–3 bucăți) | 40 g ovăz măcinat + 1 ou + 100 ml albuș + 60 ml lapte + praf de copt și scorțișoară · deasupra: **1 linguriță miere + 5 g fulgi de ciocolată neagră** | ~350 · 25 g | mic dejun sau desert mare |
-| ↳ cu mai multă proteină | aceleași + ½ măsură whey în aluat | ~410 · 37 g | după antrenament |
 | **Paste cu pește în sos de roșii** | 140 g paste fierte + 150 g passata cu usturoi, oregano, busuioc + 1 linguriță ulei + **1 conservă de ton** (sau ~100 g pește alb gătit) | ~430 · 39 g (cu ton) · ~405 · 33 g (cu pește alb) | prânz |
 | **Cartofi cu pește** | 200 g cartofi fierți cu mărar sau pătrunjel (sau ~150 g la cuptor) + ~100 g biban sau doradă gătit + 150 g salată sau legume, lămâie | ~360 · 30 g | cină |
 | **Rodia** (îți place mult) | ½ rodie mare ≈ 100 g boabe = ~83 kcal | — | vezi mai jos |
@@ -109,12 +108,12 @@ Toate sunt gata în 2–10 minute și sunt în jurnal, la „Din plan → Desert
 | Desert | Cum îl faci | kcal · proteină |
 |---|---|---|
 | **Mousse de ciocolată** | 200 g iaurt grecesc 2% + ½ măsură whey de ciocolată + 1 linguriță cacao + câteva picături de stevia; deasupra, 5 g ciocolată 85% rasă | ~250 · 34 g |
-| **Mug cake proteic** | 1 măsură whey + 1 ou + 15 g ovăz măcinat + 1 linguriță cacao + 30 ml lapte + ½ linguriță praf de copt. 60–90 s la microunde sau 8–10 min la 170 °C în air fryer, în ramekin | ~275 · 34 g |
+| **Mug cake proteic** | 1 măsură whey + 1 ou + 15 g făină integrală + 1 linguriță cacao + 30 ml lapte + ½ linguriță praf de copt. 60–90 s la microunde sau 8–10 min la 170 °C în air fryer, în ramekin | ~275 · 34 g |
 | **Înghețată de banană** | 1 banană congelată + 100 g fructe de pădure congelate + ½ măsură whey + puțin lapte, în blender | ~230 · 16 g |
 | **Banană la air fryer cu skyr** | banana tăiată pe lungime, cu scorțișoară, 8 min la 180 °C; lângă, 150 g skyr | ~200 · 18 g |
 | **Măr copt cu brânză de vaci** | mărul tăiat în jumătăți, cu scorțișoară, 12–15 min la 180 °C în air fryer; deasupra, 100 g brânză de vaci cu vanilie și stevia, plus 5 g nuci | ~215 · 14 g |
 | **Clătite de ovăz și banană** | 30 g ovăz + 1 ou + 100 g albuș + ½ banană, mixate; 2–3 clătite mici în tigaia antiaderentă; deasupra, iaurt și fructe. Merg și ca mic dejun | ~350 · 27 g |
-| **Bile cu curmale** (rețeta ta, în varianta proteică) | pentru 4 bile: 2 curmale medjool + 20 g ovăz + ½ măsură whey + 1 linguriță cacao, mixate și rulate. Mănânci 2 | ~140 pentru 2 bile · 8 g |
+| **Bile cu curmale** (rețeta ta) | pentru 4 bile: 2 curmale medjool + 20 g ovăz + 10 g nuci + 1 linguriță cacao, mixate și rulate. Mănânci 2 | ~140 pentru 2 bile · 3 g |
 | **Cel mai rapid** | 2 pătrățele de ciocolată neagră 85% (10 g), cu ceaiul | ~60 · 1 g |
 
 **Curmalele:** sunt bune, dar dense: o curmală medjool are ~66 kcal. 1–2 pe zi, în rețetă, nu din pungă.
@@ -149,15 +148,15 @@ Lista comună cu Cem e în Bibliotecă (în română și în engleză), cu numel
 - [ ] ton în apă: 4 conserve
 - [ ] biban sau doradă: 4 × 130 g (aceeași comandă cu Cem, la pescărie) · somon: 2 × 120 g (același cu al lui Cem)
 - [ ] creveți congelați: 300 g (2 prânzuri cu paste)
-- [ ] ouă: 10 · albuș lichid: 500 ml
-- [ ] chefir: 1,5 l · lapte: 1 l
-- [ ] iaurt grecesc 2% (light süzme yoğurt): 500 g · lor: 500 g · skyr: 150 g · parmezan: o bucată mică
+- [ ] ouă: 14 · albuș lichid: 600 ml
+- [ ] chefir: 2 l (în fiecare zi) · lapte: 500 ml
+- [ ] iaurt grecesc 2% (light süzme yoğurt): 500 g · lor: 250 g · skyr: 150 g · parmezan: o bucată mică
 - [ ] proteină (whey) și creatină, când se termină
-- [ ] ovăz (~220 g pe săptămână) · paste: 500 g (ajung 2 săptămâni) · cartofi: 1–1,5 kg
-- [ ] lipii: 3 pe săptămână · pâine integrală: 1–2 felii (din pâinea lui Cem)
+- [ ] ovăz (~90 g pe săptămână: bolul, clătitele, bilele) · paste: 500 g (ajung 2 săptămâni) · cartofi: 1–1,5 kg
+- [ ] lipii: 3 pe săptămână · pâine integrală: 5 felii pe săptămână (o pâine a ta, feliată și congelată, ține ~3 săptămâni)
 - [ ] roșii: 5 · roșii cherry: 250 g · passata: 1 borcan mare, ~700 g (shakshuka și pastele cu pește; pe raftul tău)
 - [ ] legume, cu Cem: castraveți, ardei, ceapă, usturoi, dovlecei, broccoli, spanac, salată · fasole verde congelată: 1 pungă
-- [ ] fructe: 2 rodii, fructe de pădure congelate 500 g, 2 banane, 4 mere, 4 curmale medjool, lămâi
+- [ ] fructe: 2 rodii, 2 banane, 2 mere, 4 curmale medjool, lămâi · fructe de pădure congelate 500 g (opțional, în shake)
 - [ ] nuci: 100 g · ulei de măsline · condimentele comune
 - [ ] pentru deserturi: cacao neîndulcită, ciocolată neagră 85%, stevia, scorțișoară, vanilie, praf de copt
 

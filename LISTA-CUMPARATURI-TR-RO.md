@@ -24,20 +24,20 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 8. **Az yağlı dana kuşbaşı** · Vită cuburi, slabă — **800 g** (C)
 
 ## Yumurta · Ouă
-9. **Yumurta (L boy, ≈60 g)** · Ouă — **40** (C 30 + K 10)
-10. **Pastörize sıvı yumurta akı** · Albuș lichid — **1.000 ml** (C 500 + K 500)
+9. **Yumurta (L boy, ≈60 g)** · Ouă — **44** (C 30 + K 14)
+10. **Pastörize sıvı yumurta akı** · Albuș lichid — **≈1.100 ml** (C 500 + K 600)
 
 ## Süt ürünleri · Lactate (doar Kristine)
-11. **Sade kefir** · Chefir — **1.500 ml**
-12. **Yarım yağlı süt (%1,5)** · Lapte 1,5% — **1.000 ml**
+11. **Sade kefir** · Chefir — **2.000 ml** (în fiecare zi)
+12. **Yarım yağlı süt (%1,5)** · Lapte 1,5% — **500 ml**
 13. **Light süzme yoğurt** · Iaurt grecesc 2% — **500 g**
-14. **Lor peyniri** · Brânză de vaci slabă (lor) — **500 g**
+14. **Lor peyniri** · Brânză de vaci slabă (lor) — **250 g**
 15. **Skyr (yoksa süzme yoğurt)** · Skyr — **150 g**
 16. **Parmesan peyniri** · Parmezan — **50 g**
 
 ## Ekmek · Pâine
 17. **Tam buğday lavaş (≈60 g/adet)** · Lipie integrală (lavaș) — **2 pachete, ≈720 g** (C 1 + K 1)
-18. **Tam buğday ekmeği** · Pâine integrală — **1, ≈600 g** (C+K)
+18. **Tam buğday ekmeği** · Pâine integrală — **2 × ≈600 g** (C 1 + K 1)
 
 ## Sebze · Legume
 19. **Salatalık** · Castraveți — **≈3.000 g** (C 2 kg + K 1 kg) · **AVEM ACASĂ: luați doar diferența**
@@ -68,7 +68,7 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 
 ## Meyve · Fructe
 44. **Muz** · Banane — **5, ≈900 g** (C 3 + K 2)
-45. **Elma** · Mere — **7, ≈1.300 g** (C 3 + K 4)
+45. **Elma** · Mere — **5, ≈900 g** (C 3 + K 2)
 46. **Limon** · Lămâi — **14, ≈1.400 g** (C 10 + K 4) · **AVEM ACASĂ: luați doar diferența**
 47. **Medjool hurma (iri hurma)** · Curmale Medjool — **6, ≈170 g** (C 2 + K 4)
 48. **Nar** · Rodii — **3, ≈1.200 g** (C 1 + K 2)
@@ -80,7 +80,7 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 52. **Ceviz içi** · Miez de nucă — **300 g** (C 200 g + K 100 g)
 
 ## Dondurulmuş ve kavanoz · Congelate și borcane
-53. **Dondurulmuş orman meyveleri (karışık)** · Fructe de pădure congelate — **500 g** (K)
+53. **Dondurulmuş orman meyveleri (karışık)** · Fructe de pădure congelate — **500 g** (K, opțional, în shake)
 54. **Dondurulmuş taze fasulye** · Fasole verde congelată — **450 g** (K)
 55. **Haşlanmış nohut (kavanoz)** · Năut fiert, borcan — **≈400 g** (C)
 56. **Domates püresi / passata** · Passata (sos de roșii) — **≈700 g** (K)
@@ -90,7 +90,7 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 # PARTEA 2 — Ține multe săptămâni: verificați întâi în dulap
 
 ## Ekmek, tahıl, makarna · Cereale și paste
-57. **Yulaf ezmesi (sade)** · Fulgi de ovăz — **1.000 g** (C+K) · ~2 săptămâni
+57. **Yulaf ezmesi (sade)** · Fulgi de ovăz — **500 g** (C+K) · ~2 săptămâni
 58. **Makarna veya tam buğday makarna** · Paste — **500 g** (K) · ~2 săptămâni
 59. **Pilavlık bulgur (iri)** · Bulgur pentru pilaf — **1.000 g** (C) · ~3 săptămâni
 60. **Kinoa** · Quinoa — **500 g** (C) · ~4 săptămâni
