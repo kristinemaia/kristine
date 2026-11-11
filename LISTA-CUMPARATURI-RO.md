@@ -1,6 +1,7 @@
 # Lista de cumpărături · Kristine + Cem
 
 _Doar în română. Aceleași numere și cantități ca listele în turcă și în engleză._
+_De bifat pe telefon: https://claude.ai/artifact/5hhSTag7xcFLJoR5MD1Lsr (bifele rămân salvate până apeși „Golește bifele”)._
 _(C) = Cem · (K) = Kristine · (C+K) = amândoi_
 
 **Partea 1** se cumpără în fiecare săptămână. **Partea 2** ține multe săptămâni: verificați întâi în dulap.
