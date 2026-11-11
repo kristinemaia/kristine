@@ -1,6 +1,6 @@
 # Facturile și plățile lunare
 
-_Actualizat 10 noiembrie 2026. Bifezi când plătești. Fără numere de cont sau de client aici._
+_Actualizat 11 noiembrie 2026. Bifezi când plătești. Fără numere de cont sau de client aici._
 
 ## Noiembrie 2026
 
@@ -10,13 +10,15 @@ _Actualizat 10 noiembrie 2026. Bifezi când plătești. Fără numere de cont sa
 | **Engie** | apartamentul închiriat (îți dă chiriașul înapoi) | factura 92,24 lei, rest de plată 13,27 lei | 23 nov | ✅ plătit (8 nov) |
 | **PPC** | apartamentul închiriat (îți dă chiriașul înapoi) | — | — | ⏳ factura n-a venit încă |
 | **PE Furnizare** (PEenergie) | casa de la țară (studioul de filmare) | — | — | ⏳ de verificat: aplicația nu se conectează încă |
-| **Contabilitatea** (firma) | KRISTINE MAIA CONCEPT SRL | ~400 lei / lună (poate fi mai mult în lunile încărcate) | când trimite contabila factura | ⏳ aștepți factura de la contabilă |
+| **Contabilitatea** (firma) | KRISTINE MAIA CONCEPT SRL | 500 lei (de obicei ~400 lei / lună; mai mult în lunile încărcate) | — | ✅ plătit (11 nov) |
+| **Impozitul pe venitul microîntreprinderii** (taxe firmă) | KRISTINE MAIA CONCEPT SRL | 274 lei | — | ✅ plătit (11 nov) |
 
 - [x] Digi plătit
 - [x] Engie plătit
 - [ ] PPC: când vine factura, o plătești
 - [ ] PE Furnizare: intri în aplicație (sau pe site, din browser) și verifici factura
-- [ ] Contabilitatea: plătești când vine factura de la contabilă (de regulă 400 lei; în lunile cu mai multe documente, poate fi mai mult)
+- [x] Contabilitatea: 500 lei (11 nov)
+- [x] Impozitul pe microîntreprindere: 274 lei (11 nov). Se plătește pe trimestru; data următoarei plăți ți-o spune contabila.
 
 ## De încasat de la chiriaș
 **Noiembrie: primit pe 10 nov ✅** chiria + **600 lei**, din care:
