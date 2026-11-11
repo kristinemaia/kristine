@@ -16,7 +16,7 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 
 ## Pește și carne · Fish and meat
 1. **Ton în apă** · Tuna in water — 7 conserve × 160 g · 7 cans × 160 g = **1.120 g** (C 3 + K 4)
-2. **Biban de mare sau doradă, file** · Sea bass or sea bream fillet — **≈1.180 g** (C 3 × 220 g + K 4 × 130 g)
+2. **Biban de mare sau doradă, file** · Sea bass or sea bream fillet — **≈1.310 g** (C 3 × 220 g + K 5 × 130 g)
 3. **Somon file** · Salmon fillet — **≈420 g** (C 180 g + K 2 × 120 g)
 4. **Creveți congelați, curățați** · Frozen peeled shrimp — **300 g** (K)
 5. **Piept de pui** · Chicken breast — **2.100 g** (C)
@@ -25,8 +25,8 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 8. **Vită cuburi, slabă** · Lean beef cubes — **800 g** (C)
 
 ## Ouă · Eggs
-9. **Ouă** · Eggs — **44** (C 30 + K 14)
-10. **Albuș lichid** · Liquid egg white — **≈1.100 ml** (C 500 + K 600)
+9. **Ouă** · Eggs — **42** (C 30 + K 12)
+10. **Albuș lichid** · Liquid egg white — **≈950 ml** (C 500 + K 450)
 
 ## Lactate · Dairy (doar Kristine · Kristine only)
 11. **Chefir** · Kefir — **2.000 ml** (în fiecare zi · every day)
@@ -84,7 +84,7 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 53. **Fructe de pădure congelate** · Frozen mixed berries — **500 g** (K, opțional, în shake · optional, in the shake)
 54. **Fasole verde congelată** · Frozen green beans — **450 g** (K)
 55. **Năut fiert, borcan** · Cooked chickpeas, jar — **≈400 g** (C)
-56. **Passata (sos de roșii)** · Tomato passata — **≈700 g** (K)
+56. **Passata (sos de roșii)** · Tomato passata — **≈350 g** (K)
 
 ---
 

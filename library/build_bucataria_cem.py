@@ -115,7 +115,7 @@ JOI = day("Joi", ("zi de sală", ""), [
   "20:15 Încălzești cutia 1,5–2 min la microunde. Salata cu lămâie."),
 ], "22:00 Scoți în frigider, pentru vineri: puiul 120 g, sote-ul de vită 160 g și dorada.")
 VINERI = day("Vineri", ("zi de sală", ""), [
- ("09:15", "Mic dejun", "<b>Shakshuka verde:</b> 200 g praz, dovlecel și spanac · 1 linguriță ulei · 3 ouă + 2 albușuri · 2 felii pâine integrală (≈60 g) · 5 măsline negre · fulgi de ardei, după plac",
+ ("09:15", "Mic dejun", "<b>Ouă la tigaie cu praz, dovlecel și spanac</b> (în ghidul lui: shakshuka verde): 200 g praz, dovlecel și spanac · 1 linguriță ulei · 3 ouă + 2 albușuri · 2 felii pâine integrală (≈60 g) · 5 măsline negre · fulgi de ardei, după plac",
   "09:00 Tai prazul și dovlecelul, le înmoi în tigaie cu spanacul în 1 linguriță ulei, spargi ouăle deasupra și pui capacul până se fac."),
  ("12:30", "Prânz", "<b>Supă de linte + pui:</b> ≈300 ml supă de linte · 120 g piept de pui în bucăți · 150 g bețe de morcov și castravete · 1 felie pâine integrală (≈30 g)",
   "09:55 Încălzești supa până clocotește și o pui în cana-termos. Pe masă: puiul, bețele de morcov și castravete, felia de pâine."),
@@ -135,7 +135,7 @@ SAMBATA = day("Sâmbătă", ("zi de odihnă · fără gătit, doar încălzești
  ("20:15", "Cină", "<b>Frigărui:</b> 160 g frigărui · 250 g sote de legume · salată verde cu lămâie", "Încălzești cutia, salata cu lămâie."),
 ], "22:00 Scoți în frigider, pentru duminică: supa, puiul 120 g, sote-ul de vită 160 g, peștele de duminică seara și (în săptămâna normală) o bilă de aluat de pizza.")
 DUMINICA = day("Duminică", ("zi de odihnă · ziua mare de gătit", " k"), [
- ("09:00", "Mic dejun", "<b>Shakshuka verde</b>, ca vineri: 200 g praz, dovlecel, spanac · 3 ouă + 2 albușuri · 2 felii pâine · 5 măsline", "Ca vineri."),
+ ("09:00", "Mic dejun", "<b>Ouă la tigaie cu praz, dovlecel și spanac</b>, ca vineri: 200 g praz, dovlecel, spanac · 3 ouă + 2 albușuri · 2 felii pâine · 5 măsline", "Ca vineri."),
  ("12:30", "Prânz", "<b>Supă de linte + pui:</b> ≈300 ml supă · 120 g pui · 150 g bețe de morcov și castravete · 1 felie pâine", "Încălzești supa până clocotește."),
  ("14:00", "", "Doar cafea", "≈14:00 Cumpărăturile (≈45 min), sau comanzi online cu o seară înainte, cu livrare la 15:00."),
  ("15:00", "", "", "<b>Ziua mare de gătit: 15:00–17:35</b> (vezi pagina „Duminică”)."),
@@ -169,9 +169,9 @@ HTML = f"""<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Buc
  <tr><td><b>Marți</b></td><td>09:00 terciul · 14:45 pizza încălzită · 20:15 sote-ul încălzit · <b>22:00 scoți bibanul</b></td></tr>
  <tr><td><b>Miercuri</b></td><td>09:00 omleta cu spanac · 14:45 cutia în termos · <span class="tag k">17:00–19:15 gătești</span> · 20:15 bibanul în air fryer</td></tr>
  <tr><td><b>Joi</b></td><td>09:00 ouăle fierte · 14:45 burgerul în termos · 20:15 frigăruile încălzite · <b>22:00 scoți puiul, sote-ul, dorada</b></td></tr>
- <tr><td><b>Vineri</b></td><td>09:00 shakshuka · 09:55 supa în termos · 14:45 sote cu cartofi în termos · 20:15 dorada în air fryer</td></tr>
+ <tr><td><b>Vineri</b></td><td>09:00 ouă cu praz și spanac · 09:55 supa în termos · 14:45 sote cu cartofi în termos · 20:15 dorada în air fryer</td></tr>
  <tr><td><b>Sâmbătă</b></td><td>Fără gătit: doar încălzești și servești (≈20 min) · <b>22:00 scoți supa, puiul, sote-ul, peștele, bila de pizza</b></td></tr>
- <tr><td><b>Duminică</b></td><td>09:00 shakshuka · 14:00 cumpărăturile · <span class="tag k">15:00–17:35 gătești</span> · 20:00 peștele împreună · scoți somonul pentru luni</td></tr>
+ <tr><td><b>Duminică</b></td><td>09:00 ouă cu praz și spanac · 14:00 cumpărăturile · <span class="tag k">15:00–17:35 gătești</span> · 20:00 peștele împreună · scoți somonul pentru luni</td></tr>
  </tbody></table>
 
 <div class="grid2">

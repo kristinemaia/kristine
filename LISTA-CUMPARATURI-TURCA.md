@@ -8,7 +8,7 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 
 ## Balık ve et
 1. Ton balığı, suda (konserve) — 7 kutu × 160 g = **1.120 g** (C 3 + K 4) · içindekiler: sadece ton, su, tuz
-2. Levrek fileto veya çipura fileto — **≈1.180 g fileto**: C 3 × 220 g + K 4 × 130 g · bütün balık alırsan ≈2,6 kg · marine edilmemiş, panesiz
+2. Levrek fileto veya çipura fileto — **≈1.310 g fileto**: C 3 × 220 g + K 5 × 130 g · bütün balık alırsan ≈2,9 kg · marine edilmemiş, panesiz
 3. Somon fileto — **≈420 g**: C 1 × 180 g + K 2 × 120 g · sade
 4. Dondurulmuş karides (ayıklanmış) — **300 g** (K)
 5. Tavuk göğüs fileto — **2.100 g** (C) · marine edilmemiş
@@ -17,8 +17,8 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 8. Az yağlı dana kuşbaşı — **800 g** (C)
 
 ## Yumurta
-9. Yumurta (L boy, ≈60 g) — **44 adet**: 30'lu viyol + 14 (C 30 + K 14)
-10. Pastörize sıvı yumurta akı — **≈1.100 ml** (C 500 + K 600) · sadece yumurta akı
+9. Yumurta (L boy, ≈60 g) — **42 adet**: 30'lu viyol + 12 (C 30 + K 12)
+10. Pastörize sıvı yumurta akı — **≈950 ml** (C 500 + K 450) · sadece yumurta akı
 
 ## Süt ürünleri (sadece Kristine)
 11. Sade kefir — **2.000 ml** (K: her gün 250 ml, shake'te)
@@ -76,7 +76,7 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 53. Dondurulmuş orman meyveleri (karışık) — **500 g** (K, isteğe bağlı: kefir shake'e)
 54. Dondurulmuş taze fasulye — **450 g** (K) · sossuz
 55. Haşlanmış nohut (kavanoz) — **1 kavanoz, ≈400 g** (C) · sadece nohut, su, tuz
-56. Domates püresi / passata — **≈700 g** (1 büyük kavanoz) (K)
+56. Domates püresi / passata — **≈350 g** (1 küçük kavanoz) (K)
 
 # PARTEA 2 · Dolap ve kiler: bir kere alınır, haftalarca yeter
 

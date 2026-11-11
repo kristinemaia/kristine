@@ -26,7 +26,7 @@ WHO = {A: "Amândoi", C: "Cem", K: "Kristine"}
 SECTIONS = [
     ("Pește și carne", [
         ("ton în apă (conservă)", "Ton balığı, suda", "7 conserve", A, "Cem 3 + Kristine 4. Aceeași marcă pentru amândoi: pe etichetă doar ton, apă, sare."),
-        ("biban de mare sau doradă", "Levrek / çipura fileto", "Cem 3 × 220 g · Kristine 4 × 130 g", A, "Același pește pentru amândoi, gătit împreună. La pescărie, curățat, făcut file și porționat; pungile etichetate pe nume. Nemarinat, fără pané."),
+        ("biban de mare sau doradă", "Levrek / çipura fileto", "Cem 3 × 220 g · Kristine 5 × 130 g", A, "Același pește pentru amândoi, gătit împreună. La pescărie, curățat, făcut file și porționat; pungile etichetate pe nume. Nemarinat, fără pané."),
         ("somon", "Somon fileto", "Cem 1 × 180 g · Kristine 2 × 120 g", A, "Același somon pentru amândoi. Simplu, nu teriyaki sau marinat."),
         ("creveți congelați, curățați", "Dondurulmuş karides (ayıklanmış)", "300 g", K, "Pentru 2 prânzuri cu paste."),
         ("piept de pui (file)", "Tavuk göğüs fileto", "2,1 kg", C, "1,4 kg duminică + 0,7 kg miercuri. Nemarinat, fără condimente."),
@@ -35,8 +35,8 @@ SECTIONS = [
         ("carne de vită cuburi, slabă", "Az yağlı dana kuşbaşı", "800 g", C, "Pulpă, antricot sau mușchi. Nemarinată."),
     ]),
     ("Ouă", [
-        ("ouă", "Yumurta", "1 cofraj de 30 + 14 ouă", A, "Cem 30 + Kristine 14."),
-        ("albuș lichid pasteurizat", "Pastörize sıvı yumurta akı", "≈1,1 l", A, "Cem 500 ml + Kristine 600 ml. Doar albuș, fără «süt» sau arome."),
+        ("ouă", "Yumurta", "1 cofraj de 30 + 12 ouă", A, "Cem 30 + Kristine 12."),
+        ("albuș lichid pasteurizat", "Pastörize sıvı yumurta akı", "≈950 ml", A, "Cem 500 ml + Kristine 450 ml. Doar albuș, fără «süt» sau arome."),
     ]),
     ("Lactate (doar Kristine: au lactoză)", [
         ("chefir", "Kefir (sade)", "2 l", K, "În fiecare zi, în shake (250 ml). Simplu, fără arome."),
@@ -48,7 +48,7 @@ SECTIONS = [
     ]),
     ("Pâine, cereale, paste", [
         ("lipie integrală (lavaș)", "Tam buğday lavaş", "2 pachete", A, "Câte unul. Aceeași marcă verificată: fără «yoğurt», «süt», «pirinç»."),
-        ("pâine integrală", "Tam buğday ekmeği", "2 pâini", A, "Cem 1 + Kristine 1 (a ei ține ~3 săptămâni, 5 felii pe săptămână). Feliată și congelată câte 2 felii. Fără «süt tozu», «margarin», «pirinç unu»."),
+        ("pâine integrală", "Tam buğday ekmeği", "2 pâini", A, "Cem 1 + Kristine 1 (a ei ține ~3 săptămâni, 4 felii pe săptămână). Feliată și congelată câte 2 felii. Fără «süt tozu», «margarin», «pirinç unu»."),
         ("fulgi de ovăz", "Yulaf ezmesi", "500 g", A, "Simpli, nu instant sau cu arome. Ajung ~2 săptămâni amândurora."),
         ("paste (integrale, dacă vrei)", "Makarna · tam buğday makarna", "500 g", K, "Ajung ~2 săptămâni."),
         ("bulgur pentru pilaf (bob mare)", "Pilavlık bulgur (iri)", "1 kg", C, "Ajunge ~3 săptămâni. Doar bulgur, nu «pilav karışımı»."),
@@ -106,7 +106,7 @@ SECTIONS = [
         ("miere", "Bal", "1 borcan mic", A, ""),
         ("sare", "Tuz", "1 pachet", A, "Fără cuburi de supă sau bulion."),
         ("muștar · oțet de mere · concentrat de rodie", "Hardal · elma sirkesi · nar ekşisi (saf)", "câte unul", C, "Fără «domates», fără «pirinç sirkesi»."),
-        ("sos de roșii (passata)", "Domates püresi / passata", "1 borcan mare (~700 g)", K, "Doar Kristine (shakshuka și pastele cu pește). Pe raftul ei."),
+        ("sos de roșii (passata)", "Domates püresi / passata", "1 borcan mic (~350 g)", K, "Doar Kristine (pastele cu ton în sos de roșii). Pe raftul ei."),
     ]),
     ("Dulce și suplimente (Kristine)", [
         ("cacao neîndulcită", "Şekersiz kakao", "1 cutie mică", K, "Mousse, mug cake, bile cu curmale."),
@@ -134,7 +134,7 @@ REGULI = [
     ("Cem nu mănâncă", "<b>orez</b> (nici făină, amidon sau oțet de orez), <b>lactoză</b> (lapte, iaurt, brânză, unt, zer) și <b>roșii</b> (nici pastă, ketchup, sos). Pe etichete în turcă: «pirinç», «süt», «süt tozu», «peyniraltı suyu», «laktoz», «tereyağı», «yoğurt», «domates», «salça»."),
     ("Kristine nu mănâncă", "<b>carne</b> (pui, vită). Mănâncă pește, ouă și lactate."),
     ("Ca să nu se amestece", "Lactatele, roșiile, passata și proteina Kristinei stau pe <b>raftul ei din frigider</b>, cu bandă roz. Mâncarea lui Cem se face prima, cu vase curate; roșiile se taie la final, pe placa Kristinei."),
-    ("La pescărie", "Peștele se ia o dată pentru amândoi, porționat: <b>Cem</b> 3 × 220 g biban sau doradă + somon 180 g · <b>Kristine</b> 4 × 130 g din același biban sau aceeași doradă + 2 × 120 g somon. Pungile, cu nume și dată."),
+    ("La pescărie", "Peștele se ia o dată pentru amândoi, porționat: <b>Cem</b> 3 × 220 g biban sau doradă + somon 180 g · <b>Kristine</b> 5 × 130 g din același biban sau aceeași doradă + 2 × 120 g somon. Pungile, cu nume și dată."),
 ]
 
 
@@ -146,7 +146,7 @@ WHO_EN = {A: "Both", C: "Cem", K: "Kristine"}
 SECTIONS_EN = [
     ("Fish and meat", [
         ("tuna in water (can)", "Ton balığı, suda", "7 cans", A, "Cem 3 + Kristine 4. Same brand for both: label says only tuna, water, salt."),
-        ("sea bass or sea bream", "Levrek / çipura fileto", "Cem 3 × 220 g · Kristine 4 × 130 g", A, "Same fish for both, cooked together. At the fish counter: cleaned, filleted and portioned; bags labelled with names. Not marinated, not breaded."),
+        ("sea bass or sea bream", "Levrek / çipura fileto", "Cem 3 × 220 g · Kristine 5 × 130 g", A, "Same fish for both, cooked together. At the fish counter: cleaned, filleted and portioned; bags labelled with names. Not marinated, not breaded."),
         ("salmon", "Somon fileto", "Cem 1 × 180 g · Kristine 2 × 120 g", A, "Same salmon for both. Plain, not teriyaki or marinated."),
         ("frozen shrimp, peeled", "Dondurulmuş karides (ayıklanmış)", "300 g", K, "For 2 pasta lunches."),
         ("chicken breast (fillet)", "Tavuk göğüs fileto", "2.1 kg", C, "1.4 kg Sunday + 0.7 kg Wednesday. Not marinated, no seasoning."),
@@ -155,8 +155,8 @@ SECTIONS_EN = [
         ("lean beef cubes", "Az yağlı dana kuşbaşı", "800 g", C, "Leg, sirloin or tenderloin. Not marinated."),
     ]),
     ("Eggs", [
-        ("eggs", "Yumurta", "1 tray of 30 + 14 eggs", A, "Cem 30 + Kristine 14."),
-        ("pasteurised liquid egg white", "Pastörize sıvı yumurta akı", "≈1.1 l", A, "Cem 500 ml + Kristine 600 ml. Egg white only, no «süt» or flavourings."),
+        ("eggs", "Yumurta", "1 tray of 30 + 12 eggs", A, "Cem 30 + Kristine 12."),
+        ("pasteurised liquid egg white", "Pastörize sıvı yumurta akı", "≈950 ml", A, "Cem 500 ml + Kristine 450 ml. Egg white only, no «süt» or flavourings."),
     ]),
     ("Dairy (Kristine only: contains lactose)", [
         ("kefir", "Kefir (sade)", "2 l", K, "Every day, in her shake (250 ml). Plain, unflavoured."),
@@ -168,7 +168,7 @@ SECTIONS_EN = [
     ]),
     ("Bread, grains, pasta", [
         ("wholewheat flatbread (lavash)", "Tam buğday lavaş", "2 packs", A, "One each. Same checked brand: no «yoğurt», «süt», «pirinç»."),
-        ("wholewheat bread", "Tam buğday ekmeği", "2 loaves", A, "Cem 1 + Kristine 1 (hers lasts ~3 weeks, 5 slices a week). Sliced and frozen 2 slices at a time. No «süt tozu», «margarin», «pirinç unu»."),
+        ("wholewheat bread", "Tam buğday ekmeği", "2 loaves", A, "Cem 1 + Kristine 1 (hers lasts ~3 weeks, 4 slices a week). Sliced and frozen 2 slices at a time. No «süt tozu», «margarin», «pirinç unu»."),
         ("rolled oats", "Yulaf ezmesi", "500 g", A, "Plain, not instant or flavoured. Lasts ~2 weeks for both."),
         ("pasta (wholewheat if you like)", "Makarna · tam buğday makarna", "500 g", K, "Lasts ~2 weeks."),
         ("coarse bulgur for pilaf", "Pilavlık bulgur (iri)", "1 kg", C, "Lasts ~3 weeks. Bulgur only, not «pilav karışımı»."),
@@ -226,7 +226,7 @@ SECTIONS_EN = [
         ("honey", "Bal", "1 small jar", A, ""),
         ("salt", "Tuz", "1 pack", A, "No stock cubes or bouillon."),
         ("mustard · apple cider vinegar · pomegranate molasses", "Hardal · elma sirkesi · nar ekşisi (saf)", "one each", C, "No «domates», no «pirinç sirkesi»."),
-        ("tomato passata", "Domates püresi / passata", "1 big jar (~700 g)", K, "Kristine only (shakshuka and fish pasta). On her shelf."),
+        ("tomato passata", "Domates püresi / passata", "1 small jar (~350 g)", K, "Kristine only (pasta with tuna in tomato sauce). On her shelf."),
     ]),
     ("Sweet things and supplements (Kristine)", [
         ("unsweetened cocoa", "Şekersiz kakao", "1 small tin", K, "Mousse, mug cake, date balls."),
@@ -254,7 +254,7 @@ REGULI_EN = [
     ("Cem doesn't eat", "<b>rice</b> (no rice flour, starch or vinegar either), <b>lactose</b> (milk, yoghurt, cheese, butter, whey) or <b>tomatoes</b> (no paste, ketchup or sauce). Words to look for on Turkish labels: «pirinç», «süt», «süt tozu», «peyniraltı suyu», «laktoz», «tereyağı», «yoğurt», «domates», «salça»."),
     ("Kristine doesn't eat", "<b>meat</b> (chicken, beef). She eats fish, eggs and dairy."),
     ("Keeping things apart", "Kristine's dairy, tomatoes, passata and protein powder live on <b>her shelf in the fridge</b>, marked with pink tape. Cem's food is cooked first, with clean pans; tomatoes are cut last, on Kristine's board."),
-    ("At the fish counter", "Buy the fish once for both of you, portioned: <b>Cem</b> 3 × 220 g sea bass or sea bream + 180 g salmon · <b>Kristine</b> 4 × 130 g of the same sea bass or sea bream + 2 × 120 g salmon. Bags labelled with name and date."),
+    ("At the fish counter", "Buy the fish once for both of you, portioned: <b>Cem</b> 3 × 220 g sea bass or sea bream + 180 g salmon · <b>Kristine</b> 5 × 130 g of the same sea bass or sea bream + 2 × 120 g salmon. Bags labelled with name and date."),
 ]
 
 TEXT = {

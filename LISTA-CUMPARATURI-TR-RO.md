@@ -15,7 +15,7 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 
 ## Balık ve et · Pește și carne
 1. **Ton balığı, suda (konserve)** · Ton în apă — 7 conserve × 160 g = **1.120 g** (C 3 + K 4)
-2. **Levrek fileto veya çipura fileto** · Biban de mare sau doradă, file — **≈1.180 g** (C 3 × 220 g + K 4 × 130 g)
+2. **Levrek fileto veya çipura fileto** · Biban de mare sau doradă, file — **≈1.310 g** (C 3 × 220 g + K 5 × 130 g)
 3. **Somon fileto** · Somon file — **≈420 g** (C 180 g + K 2 × 120 g)
 4. **Dondurulmuş karides (ayıklanmış)** · Creveți congelați, curățați — **300 g** (K)
 5. **Tavuk göğüs fileto** · Piept de pui — **2.100 g** (C)
@@ -24,8 +24,8 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 8. **Az yağlı dana kuşbaşı** · Vită cuburi, slabă — **800 g** (C)
 
 ## Yumurta · Ouă
-9. **Yumurta (L boy, ≈60 g)** · Ouă — **44** (C 30 + K 14)
-10. **Pastörize sıvı yumurta akı** · Albuș lichid — **≈1.100 ml** (C 500 + K 600)
+9. **Yumurta (L boy, ≈60 g)** · Ouă — **42** (C 30 + K 12)
+10. **Pastörize sıvı yumurta akı** · Albuș lichid — **≈950 ml** (C 500 + K 450)
 
 ## Süt ürünleri · Lactate (doar Kristine)
 11. **Sade kefir** · Chefir — **2.000 ml** (în fiecare zi)
@@ -83,7 +83,7 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 53. **Dondurulmuş orman meyveleri (karışık)** · Fructe de pădure congelate — **500 g** (K, opțional, în shake)
 54. **Dondurulmuş taze fasulye** · Fasole verde congelată — **450 g** (K)
 55. **Haşlanmış nohut (kavanoz)** · Năut fiert, borcan — **≈400 g** (C)
-56. **Domates püresi / passata** · Passata (sos de roșii) — **≈700 g** (K)
+56. **Domates püresi / passata** · Passata (sos de roșii) — **≈350 g** (K)
 
 ---
 

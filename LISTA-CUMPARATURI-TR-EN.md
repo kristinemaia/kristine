@@ -15,7 +15,7 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 
 ## Balık ve et · Fish and meat
 1. **Ton balığı, suda (konserve)** · Tuna in water — 7 cans × 160 g = **1.120 g** (C 3 + K 4)
-2. **Levrek fileto veya çipura fileto** · Sea bass or sea bream fillet — **≈1.180 g** (C 3 × 220 g + K 4 × 130 g)
+2. **Levrek fileto veya çipura fileto** · Sea bass or sea bream fillet — **≈1.310 g** (C 3 × 220 g + K 5 × 130 g)
 3. **Somon fileto** · Salmon fillet — **≈420 g** (C 180 g + K 2 × 120 g)
 4. **Dondurulmuş karides (ayıklanmış)** · Frozen peeled shrimp — **300 g** (K)
 5. **Tavuk göğüs fileto** · Chicken breast — **2.100 g** (C)
@@ -24,8 +24,8 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 8. **Az yağlı dana kuşbaşı** · Lean beef cubes — **800 g** (C)
 
 ## Yumurta · Eggs
-9. **Yumurta (L boy, ≈60 g)** · Eggs — **44** (C 30 + K 14)
-10. **Pastörize sıvı yumurta akı** · Liquid egg white — **≈1.100 ml** (C 500 + K 600)
+9. **Yumurta (L boy, ≈60 g)** · Eggs — **42** (C 30 + K 12)
+10. **Pastörize sıvı yumurta akı** · Liquid egg white — **≈950 ml** (C 500 + K 450)
 
 ## Süt ürünleri · Dairy (Kristine only)
 11. **Sade kefir** · Kefir — **2.000 ml** (every day)
@@ -83,7 +83,7 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 53. **Dondurulmuş orman meyveleri (karışık)** · Frozen mixed berries — **500 g** (K, optional, in the shake)
 54. **Dondurulmuş taze fasulye** · Frozen green beans — **450 g** (K)
 55. **Haşlanmış nohut (kavanoz)** · Cooked chickpeas, jar — **≈400 g** (C)
-56. **Domates püresi / passata** · Tomato passata — **≈700 g** (K)
+56. **Domates püresi / passata** · Tomato passata — **≈350 g** (K)
 
 ---
 

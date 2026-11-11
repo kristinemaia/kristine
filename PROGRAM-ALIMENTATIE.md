@@ -67,7 +67,6 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 **Cina · ~370–430 kcal · 30–42 g proteină**
 - **A. Pește la tavă:** ~115 g pește alb gătit (150 g crud: cod, merluciu) + ~150 g cartofi la cuptor (200 g cruzi) + legume la cuptor (dovlecel, ardei, ceapă) + 1 linguriță ulei pe porție (1 lingură la o tavă de 3 porții).
 - **B. Somon:** ~95 g somon gătit (120 g crud) + 150 g cartofi fierți sau ~115 g la cuptor (sau ~135 g orez fiert) + broccoli. Fără ulei în plus, somonul are destulă grăsime.
-- **C. Ouă în sos de roșii (shakshuka):** 2 ouă + 150 g albuș în sos de roșii cu ardei și ceapă + 1 felie de pâine integrală.
 - **D. Quesadilla cu ton (air fryer):** 1 lipie + 1 conservă de ton + 30 g mozzarella light + ardei, spanac. Se împăturește și stă 5–6 min la 180 °C (~390 kcal, 42 g proteină).
 - **E. Biban sau doradă, peștele lui Cem:** ~100 g gătit (130 g crud) + ~150 g cartofi la cuptor + legume, **fără ulei în plus pe pește** (are mai multă grăsime decât codul, dar e grăsime bună). Îl coaceți împreună în air fryer, 12–15 min la 200 °C: lămâia, usturoiul și cimbrul merg pentru amândoi (~370 kcal, ~31 g proteină).
 
@@ -146,15 +145,15 @@ De ce: o zi întreagă liberă adaugă ușor 2.000–3.000 kcal peste menținere
 ## Cumpărăturile pe săptămână
 Lista comună cu Cem e în Bibliotecă (în română și în engleză), cu numele din magazinele din Turcia. Partea ta, potrivită cu meniul pe zile din „Kristine's food week”:
 - [ ] ton în apă: 4 conserve
-- [ ] biban sau doradă: 4 × 130 g (aceeași comandă cu Cem, la pescărie) · somon: 2 × 120 g (același cu al lui Cem)
+- [ ] biban sau doradă: 5 × 130 g (aceeași comandă cu Cem, la pescărie) · somon: 2 × 120 g (același cu al lui Cem)
 - [ ] creveți congelați: 300 g (2 prânzuri cu paste)
-- [ ] ouă: 14 · albuș lichid: 600 ml
+- [ ] ouă: 12 · albuș lichid: 450 ml
 - [ ] chefir: 2 l (în fiecare zi) · lapte: 500 ml
 - [ ] iaurt grecesc 2% (light süzme yoğurt): 500 g · lor: 250 g · skyr: 150 g · parmezan: o bucată mică
 - [ ] proteină (whey) și creatină, când se termină
 - [ ] ovăz (~90 g pe săptămână: bolul, clătitele, bilele) · paste: 500 g (ajung 2 săptămâni) · cartofi: 1–1,5 kg
-- [ ] lipii: 3 pe săptămână · pâine integrală: 5 felii pe săptămână (o pâine a ta, feliată și congelată, ține ~3 săptămâni)
-- [ ] roșii: 5 · roșii cherry: 250 g · passata: 1 borcan mare, ~700 g (shakshuka și pastele cu pește; pe raftul tău)
+- [ ] lipii: 3 pe săptămână · pâine integrală: 4 felii pe săptămână (o pâine a ta, feliată și congelată, ține ~3 săptămâni)
+- [ ] roșii: 5 · roșii cherry: 250 g · passata: 1 borcan mic, ~350 g (pastele cu ton în sos de roșii; pe raftul tău)
 - [ ] legume, cu Cem: castraveți, ardei, ceapă, usturoi, dovlecei, broccoli, spanac, salată · fasole verde congelată: 1 pungă
 - [ ] fructe: 2 rodii, 2 banane, 2 mere, 4 curmale medjool, lămâi · fructe de pădure congelate 500 g (opțional, în shake)
 - [ ] nuci: 100 g · ulei de măsline · condimentele comune
@@ -180,7 +179,6 @@ Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat
 - **Omletă** din 2 ouă + albuș, cu spanac, roșii și ardei, lângă o lipie (micul dejun tău, în varianta cu mai multă proteină).
 - **Ton cu paste:** pastele fierb 9–10 minute, iar în timpul ăsta tai salata și scurgi tonul.
 - **Paste cu creveți:** creveții 3–4 minute cu usturoi, apoi roșiile cherry și pastele.
-- **Shakshuka:** sosul de roșii cu ardei și ceapă 8 minute, apoi spargi ouăle (și pui albușul), încă 5–6 minute cu capac.
 
 **Fără gătit (2 minute):** wrap cu ton, bolul cu iaurt, shake-ul cu chefir, brânza de vaci cu fructe.
 

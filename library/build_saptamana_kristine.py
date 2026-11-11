@@ -20,7 +20,7 @@ OUT = os.path.join(REPO, "KRISTINE-FOOD-WEEK-EN.pdf")
 # (zi, antrenament, [mic dejun, prânz, gustare, cină, desert], kcal pe zi, cine cu Cem?)
 WEEK = [
     ("Mon", "Legs A", ["Eggs & lor plate", "Tuna pasta", "Kefir shake", "Salmon + boiled potatoes + broccoli", "Air-fryer banana + skyr"], "≈1,650", True),
-    ("Tue", "Upper A + intervals", ["Veggie omelette + tortilla", "Tuna wrap + apple", "Kefir shake", "Shakshuka (red, with tomato)", "2 squares of 85% chocolate"], "≈1,610", False),
+    ("Tue", "Upper A + intervals", ["Veggie omelette + tortilla", "Tuna wrap + apple", "Kefir shake", "Potatoes with fish (sea bass)", "2 squares of 85% chocolate"], "≈1,575", False),
     ("Wed", "Easy cardio", ["Yoghurt bowl with pomegranate", "Shrimp pasta", "Kefir shake", "Sea bass + potatoes + veg", "2 date balls"], "≈1,600", True),
     ("Thu", "Legs B", ["Eggs & lor plate", "Tuna & potato salad", "Kefir shake", "Potatoes with fish (sea bream)", "Yoghurt with pomegranate"], "≈1,630", False),
     ("Fri", "Upper B", ["Veggie omelette + tortilla", "Pasta with tuna in tomato sauce", "Kefir shake", "Sea bream + potatoes + veg", "2 date balls"], "≈1,640", True),
@@ -50,7 +50,6 @@ MEALS = [
     ("Dinner", [
         ("Potatoes with fish (sea bass / sea bream)", "≈100 g cooked fish (130 g raw), no extra oil · 200 g boiled potatoes with dill (or 150 g oven potatoes) · salad or vegetables, lemon", "≈360–385 kcal · 30 g"),
         ("Salmon plate", "95 g cooked salmon (120 g raw) · 150 g boiled potatoes · 200 g broccoli", "≈410 kcal · 31 g"),
-        ("Shakshuka", "2 eggs + 150 ml egg white cooked in passata with pepper and onion · 1 slice wholewheat bread", "≈410 kcal · 38 g"),
     ]),
     ("Dessert (every evening, already counted)", [
         ("Air-fryer banana + skyr", "Banana cut lengthwise, cinnamon, 8 min at 180 °C · 150 g skyr", "≈200 kcal · 18 g"),
@@ -63,10 +62,10 @@ MEALS = [
 # (produs, unde intră, cât pe săptămână)
 WHY = [
     ("Tuna in water", "Tuna pasta (Mon, Fri) · tuna wrap (Tue) · tuna & potato salad (Thu)", "4 cans"),
-    ("Sea bass / sea bream", "Dinners Wed, Thu, Fri, Sun", "4 × 130 g raw"),
+    ("Sea bass / sea bream", "Dinners Tue, Wed, Thu, Fri, Sun", "5 × 130 g raw"),
     ("Salmon", "Mon dinner · Sat lunch", "2 × 120 g raw"),
     ("Frozen shrimp", "Shrimp pasta (Wed, Sun)", "300 g"),
-    ("Eggs · egg white", "Egg plates (Mon, Thu) · omelettes (Tue, Fri, Sun) · shakshuka (Tue) · pancakes (Sat) · salad (Thu)", "14 eggs · 600 ml"),
+    ("Eggs · egg white", "Egg plates (Mon, Thu) · omelettes (Tue, Fri, Sun) · pancakes (Sat) · salad (Thu)", "12 eggs · 450 ml"),
     ("Kefir · whey", "Kefir shake every day", "2 l · 7 scoops"),
     ("Milk", "Pancakes (Sat)", "500 ml"),
     ("Greek yoghurt · skyr", "Wed bowl, Thu dessert, wrap sauce · Mon dessert", "500 g · 150 g"),
@@ -74,9 +73,9 @@ WHY = [
     ("Parmesan", "Shrimp pasta", "50 g"),
     ("Oats", "Yoghurt bowl · pancakes · date balls (never with protein powder)", "≈90 g"),
     ("Pasta", "Tuna pasta (Mon) · pasta in tomato sauce (Fri) · shrimp pasta ×2 (cooked for 2 days at a time)", "240 g dry"),
-    ("Lavash · bread", "Omelettes (Tue, Fri) and Tue wrap · egg plates, Sun omelette, shakshuka", "3 · 5 slices"),
+    ("Lavash · bread", "Omelettes (Tue, Fri) and Tue wrap · egg plates, Sun omelette", "3 · 4 slices"),
     ("Potatoes", "Dinners Mon, Wed, Thu, Fri, Sun · Thu salad · Sat lunch", "≈1.35 kg raw"),
-    ("Tomatoes · cherry tomatoes · passata", "Omelettes, egg plates, tuna pasta, salads · shrimp pasta · shakshuka and Fri pasta (all mine, kept on my shelf)", "5 · 250 g · 1 big jar"),
+    ("Tomatoes · cherry tomatoes · passata", "Omelettes, egg plates, tuna pasta, salads · shrimp pasta · Fri pasta sauce (all mine, kept on my shelf)", "5 · 250 g · 1 small jar"),
     ("Green beans · frozen berries", "Thu salad · in the shake, if I feel like it", "1 bag · 500 g (optional)"),
     ("Pomegranates", "Wed bowl, Thu dessert, on salads (I love it)", "2"),
     ("Bananas · apples · dates", "Mon dessert · Tue wrap · date balls (Wed, Fri, Sun)", "2 · 2 · 4"),

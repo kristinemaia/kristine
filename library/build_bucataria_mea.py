@@ -36,13 +36,13 @@ LUNI = day("Luni", ("Picioare A · ≈1.650 kcal", ""), [
  ("20:30", "Cină, cu Cem", "<b>Somon:</b> 95 g somon gătit (120 g crud) · 150 g cartofi fierți · 200 g broccoli",
   "Somonul tău în air fryer lângă al lui Cem, 180 °C, 8–10 min. Cartofii: 6–8 min la microunde în bol cu capac (sau fierți 20 min). Broccoli din sesiunea de duminică."),
  ("desert", "", "<b>Banană la air fryer + skyr:</b> 1 banană, scorțișoară · 150 g skyr", "Banana tăiată pe lungime, 8 min la 180 °C."),
-])
-MARTI = day("Marți", ("Upper A + intervale · ≈1.610 kcal", ""), [
+], "22:00 Scoți bibanul tău (130 g) din congelator în frigider, pentru marți seara.")
+MARTI = day("Marți", ("Upper A + intervale · ≈1.575 kcal", ""), [
  ("09:30", "Mic dejun", OMLETA_LIPIE, OMLETA_TU),
  ("13:00", "Prânz", "<b>Wrap cu ton:</b> 1 lipie · 1 conservă de ton · 2 linguri iaurt grecesc cu usturoi · salată verde, castravete · 1 măr", "2 minute, fără gătit."),
  ("după sală", *SHAKE),
- ("20:30", "Cină", "<b>Shakshuka:</b> 2 ouă + 150 ml albuș în 200 g passata cu ardei și ceapă · 1 felie pâine integrală",
-  "Sosul cu ardei și ceapă 8 min, spargi ouăle, încă 5–6 min cu capac. Cem are sote-ul lui."),
+ ("20:30", "Cină", "<b>Cartofi cu pește:</b> 200 g cartofi fierți cu mărar sau pătrunjel · ≈100 g biban gătit (130 g crud) · 150 g salată verde, castravete · lămâie",
+  "Bibanul tău (scos luni seara) în air fryer, 180 °C, 8–10 min. Cartofii 6–8 min la microunde, în bol cu capac. Cem are sote-ul lui."),
  ("desert", "", "2 pătrățele de ciocolată 85% (10 g)", ""),
 ], "22:00 Scoți din congelator în frigider bibanul lui Cem și pe al tău (130 g), pentru miercuri.")
 MIERCURI = day("Miercuri", ("cardio ușor · ≈1.600 kcal", ""), [
@@ -112,7 +112,7 @@ HTML = f"""<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Buc
  <thead><tr><th style="width:13%">Zi</th><th style="width:20%">Sala</th><th>Ce mănânc (mic dejun · prânz · gustare · cină · desert)</th></tr></thead>
  <tbody>
  <tr><td><b>Luni</b></td><td>Picioare A</td><td>ouă cu lor · paste cu ton · shake cu chefir · <b>somon cu Cem</b> · banană cu skyr</td></tr>
- <tr><td><b>Marți</b></td><td>Upper A + intervale</td><td>omleta cu lipie · wrap cu ton · shake cu chefir · shakshuka · ciocolată 85% · <b>22:00 scot bibanul</b></td></tr>
+ <tr><td><b>Marți</b></td><td>Upper A + intervale</td><td>omleta cu lipie · wrap cu ton · shake cu chefir · cartofi cu pește · ciocolată 85% · <b>22:00 scot bibanul</b></td></tr>
  <tr><td><b>Miercuri</b></td><td>cardio ușor</td><td>bol cu iaurt și rodie · paste cu creveți · shake cu chefir · <b>biban cu Cem</b> · bile cu curmale · <b>22:00 scot dorada mea</b></td></tr>
  <tr><td><b>Joi</b></td><td>Picioare B</td><td>ouă cu lor · salată cu ton și cartofi · shake cu chefir · cartofi cu doradă · iaurt cu rodie · <b>22:00 scot dorada</b></td></tr>
  <tr><td><b>Vineri</b></td><td>Upper B</td><td>omleta cu lipie · paste în sos de roșii · shake cu chefir · <b>doradă cu Cem</b> · bile cu curmale · <b>seara scot somonul</b></td></tr>
@@ -134,7 +134,7 @@ HTML = f"""<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Buc
   <li><b>Pastele</b> pentru miercuri și vineri le fierb la prânz.</li></ul></div>
 </div>
 <div class="box"><b class="t">Peștele meu, din congelator în frigider (cu o seară înainte)</b>
- Duminică după sesiune: somonul pentru luni · marți 22:00: bibanul pentru miercuri · miercuri 22:00: dorada pentru joi · joi 22:00: dorada pentru vineri · vineri seara: somonul pentru sâmbătă · sâmbătă 22:00: peștele pentru duminică. Creveții merg direct congelați în tigaie.</div>
+ Duminică după sesiune: somonul pentru luni · luni 22:00: bibanul pentru marți · marți 22:00: bibanul pentru miercuri · miercuri 22:00: dorada pentru joi · joi 22:00: dorada pentru vineri · vineri seara: somonul pentru sâmbătă · sâmbătă 22:00: peștele pentru duminică. Creveții merg direct congelați în tigaie.</div>
 
 <div class="page"><h2>Ce mănânc, zi cu zi</h2>{LUNI}{MARTI}</div>
 <div class="page">{MIERCURI}{JOI}</div>
@@ -154,7 +154,6 @@ HTML = f"""<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Buc
  <div class="rec"><b>Salată cu ton și cartofi</b> · ≈450 kcal · 42 g<br><span>200 g cartofi fierți · 1 conservă ton · 1 ou fiert · fasole verde, roșii · 1 linguriță ulei.</span></div>
  <div class="rec"><b>Pește cu cartofi</b> · ≈360–385 kcal · 30 g<br><span>≈100 g biban sau doradă gătit (fără ulei în plus) · 150 g cartofi la cuptor sau 200 g fierți · legume sau salată, lămâie.</span></div>
  <div class="rec"><b>Somon cu cartofi</b> · ≈410–445 kcal · 31 g<br><span>95 g somon gătit · 150 g cartofi · 200 g broccoli sau legume.</span></div>
- <div class="rec"><b>Shakshuka</b> · ≈410 kcal · 38 g<br><span>2 ouă + 150 ml albuș în 200 g passata cu ardei și ceapă · 1 felie pâine integrală.</span></div>
  <div class="rec"><b>Shake cu chefir, în fiecare zi</b> · ≈240 kcal · 32 g<br><span>250 ml chefir + 1 măsură whey (dacă vrei, 100 g fructe de pădure, +45 kcal).</span></div>
  <div class="rec"><b>Deserturile</b><br><span>Banană la air fryer + 150 g skyr (≈200 kcal) · iaurt cu rodie: 150 g iaurt + 100 g rodie + ½ linguriță miere (≈200) · măr copt + 100 g lor + 5 g nuci (≈215) · 2 bile cu curmale: 1 curmală Medjool + 10 g ovăz + 5 g nuci + ½ linguriță cacao (≈140) · 2 pătrățele de ciocolată 85% (≈60).</span></div>
  <div class="rec"><b>Timpi la air fryer</b><br><span>Biban, doradă: 180 °C, 8–10 min · somon: 180 °C, 8–10 min · cartofi cuburi: 200 °C, 18–20 min · banană: 180 °C, 8 min · măr: 180 °C, 12–15 min.</span></div>
