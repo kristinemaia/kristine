@@ -18,7 +18,7 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 
 ## Yumurta
 9. Yumurta (L boy, ≈60 g) — **42 adet**: 30'lu viyol + 12 (C 30 + K 12)
-10. Pastörize sıvı yumurta akı — **≈950 ml** (C 500 + K 450) · sadece yumurta akı
+10. Pastörize sıvı yumurta akı — **≈900 ml** (C 500 + K 400) · sadece yumurta akı
 
 ## Süt ürünleri (sadece Kristine)
 11. Sade kefir — **2.000 ml** (K: her gün 250 ml, shake'te)
@@ -43,10 +43,10 @@ _Lista comună în turcă, în două părți. **Partea 1** se cumpără în fiec
 26. Brokoli — **1.000 g** (≈2 baş) (C 600 g + K 400 g)
 27. Ispanak — **600 g** (C 300 g + K 300 g)
 28. Marul veya göbek marul — **3 adet, ≈1.500 g** (C 2 + K 1)
-29. Patates — **2.000–2.500 g** (C 1 kg + K 1–1,5 kg)
+29. Patates — **≈2.600 g** (C 1 kg + K 1,6 kg)
 30. Domates — **5 adet, ≈750 g** (K) · **EVDE VAR: önce kontrol et, sadece eksik kadarını al**
 31. Çeri domates — **250 g** (K)
-32. Kültür mantarı — **800 g** (C)
+32. Kültür mantarı — **1.000 g** (C 800 g + K 200 g)
 33. Havuç — **1.000 g** (C)
 34. Pırasa — **2 adet, ≈500 g** (C)
 35. Roka — **3 demet, ≈300 g** (C)
@@ -120,8 +120,8 @@ _Verifici întâi ce aveți deja. Iei doar ce lipsește._
 85. Şekersiz kakao — **≈100 g**
 86. %85 bitter çikolata — **1 tablet, ≈80 g**
 87. Bitter damla çikolata — **≈100 g** (isteğe bağlı; yoksa %85 çikolatayı doğra)
-88. Stevia — **≈50 ml damla** veya küçük kutu toz
-89. Vanilya özü — **≈30–50 ml**
+88. Stevia — **≈50 ml damla** (isteğe bağlı)
+89. Vanilya özü — **≈30–50 ml** (isteğe bağlı)
 90. Kabartma tozu — **1 paket (5 × 10 g)**
 91. Whey protein — **≈1.000 g** (≈4 hafta yeter; bitince)
 92. Kreatin monohidrat — **≈300 g** (günde 5 g, ≈2 ay yeter)
@@ -134,6 +134,11 @@ _Verifici întâi ce aveți deja. Iei doar ce lipsește._
 97. Alüminyum folyo — **1 rulo**
 98. Streç film — **1 rulo**
 99. Kilitli dondurucu poşeti (orta boy) — **≈20 adet**
+
+## Ev ve temizlik
+100. Aseton (oje çıkarıcı) — **1 şişe, ≈100–200 ml** (K)
+101. Vanish leke çıkarıcı — **1 adet** (≈1 l sıvı veya ≈500 g toz) (C+K)
+102. Çamaşır suyu — **1 l** (C+K) · başka temizlik ürünleriyle asla karıştırma
 
 ## Her hafta değil (Cem)
 - **2 haftada bir:** az yağlı dana kıyma **1.000 g** (burger) · kırmızı mercimek **250 g** (500 g'lık paket 2 kez yeter)

@@ -25,7 +25,7 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 
 ## Yumurta · Ouă
 9. **Yumurta (L boy, ≈60 g)** · Ouă — **42** (C 30 + K 12)
-10. **Pastörize sıvı yumurta akı** · Albuș lichid — **≈950 ml** (C 500 + K 450)
+10. **Pastörize sıvı yumurta akı** · Albuș lichid — **≈900 ml** (C 500 + K 400)
 
 ## Süt ürünleri · Lactate (doar Kristine)
 11. **Sade kefir** · Chefir — **2.000 ml** (în fiecare zi)
@@ -50,10 +50,10 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 26. **Brokoli** · Broccoli — **1.000 g** (C 600 g + K 400 g)
 27. **Ispanak** · Spanac — **600 g** (C 300 g + K 300 g)
 28. **Marul veya göbek marul** · Salată verde / iceberg — **3, ≈1.500 g** (C 2 + K 1)
-29. **Patates** · Cartofi — **2.000–2.500 g** (C 1 kg + K 1–1,5 kg)
+29. **Patates** · Cartofi — **≈2.600 g** (C 1 kg + K 1,6 kg)
 30. **Domates** · Roșii — **5, ≈750 g** (K) · **AVEM ACASĂ: luați doar diferența**
 31. **Çeri domates** · Roșii cherry — **250 g** (K)
-32. **Kültür mantarı** · Ciuperci champignon — **800 g** (C)
+32. **Kültür mantarı** · Ciuperci champignon — **1.000 g** (C 800 g + K 200 g)
 33. **Havuç** · Morcovi — **1.000 g** (C)
 34. **Pırasa** · Praz — **2, ≈500 g** (C)
 35. **Roka** · Rucola — **3 legături, ≈300 g** (C)
@@ -127,8 +127,8 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 85. **Şekersiz kakao** · Cacao neîndulcită — **≈100 g**
 86. **%85 bitter çikolata** · Ciocolată neagră 85% — **≈80 g**
 87. **Bitter damla çikolata** · Fulgi de ciocolată neagră — **≈100 g** (opțional)
-88. **Stevia** · Stevia — **≈50 ml**
-89. **Vanilya özü** · Esență de vanilie — **≈30–50 ml**
+88. **Stevia** · Stevia — **≈50 ml** (opțional)
+89. **Vanilya özü** · Esență de vanilie — **≈30–50 ml** (opțional)
 90. **Kabartma tozu** · Praf de copt — **5 × 10 g**
 91. **Whey protein** · Proteină whey — **≈1.000 g** · ~4 săptămâni
 92. **Kreatin monohidrat** · Creatină monohidrat — **≈300 g** · ~2 luni
@@ -141,6 +141,11 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 97. **Alüminyum folyo** · Folie de aluminiu — **1 rolă**
 98. **Streç film** · Folie alimentară — **1 rolă**
 99. **Kilitli dondurucu poşeti (orta boy)** · Pungi de congelator cu fermoar — **≈20**
+
+## Ev ve temizlik · Casă și curățenie
+100. **Aseton (oje çıkarıcı)** · Acetonă — **≈100–200 ml** (K)
+101. **Vanish leke çıkarıcı** · Vanish pentru pete — **1** (≈1 l lichid sau ≈500 g pudră) (C+K)
+102. **Çamaşır suyu** · Clor (înălbitor) — **1 l** (C+K) · nu se amestecă niciodată cu alte produse de curățenie
 
 ## Her hafta değil · Nu în fiecare săptămână (Cem)
 - **La 2 săptămâni:** az yağlı dana kıyma · carne tocată de vită slabă **1.000 g** · kırmızı mercimek · linte roșie **250 g**

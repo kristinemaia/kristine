@@ -26,7 +26,7 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 
 ## Ouă · Eggs
 9. **Ouă** · Eggs — **42** (C 30 + K 12)
-10. **Albuș lichid** · Liquid egg white — **≈950 ml** (C 500 + K 450)
+10. **Albuș lichid** · Liquid egg white — **≈900 ml** (C 500 + K 400)
 
 ## Lactate · Dairy (doar Kristine · Kristine only)
 11. **Chefir** · Kefir — **2.000 ml** (în fiecare zi · every day)
@@ -51,10 +51,10 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 26. **Broccoli** · Broccoli — **1.000 g** (C 600 g + K 400 g)
 27. **Spanac** · Spinach — **600 g** (C 300 g + K 300 g)
 28. **Salată verde / iceberg** · Lettuce / iceberg — **3, ≈1.500 g** (C 2 + K 1)
-29. **Cartofi** · Potatoes — **2.000–2.500 g** (C 1 kg + K 1–1,5 kg)
+29. **Cartofi** · Potatoes — **≈2.600 g** (C 1 kg + K 1,6 kg)
 30. **Roșii** · Tomatoes — **5, ≈750 g** (K) · **AVEM ACASĂ / WE HAVE SOME: luați doar diferența · buy only what's missing**
 31. **Roșii cherry** · Cherry tomatoes — **250 g** (K)
-32. **Ciuperci champignon** · Button mushrooms — **800 g** (C)
+32. **Ciuperci champignon** · Button mushrooms — **1.000 g** (C 800 g + K 200 g)
 33. **Morcovi** · Carrots — **1.000 g** (C)
 34. **Praz** · Leeks — **2, ≈500 g** (C)
 35. **Rucola** · Rocket — **3 legături · 3 bunches, ≈300 g** (C)
@@ -128,8 +128,8 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 85. **Cacao neîndulcită** · Unsweetened cocoa — **≈100 g**
 86. **Ciocolată neagră 85%** · 85% dark chocolate — **≈80 g**
 87. **Fulgi de ciocolată neagră** · Dark chocolate chips — **≈100 g** (opțional · optional)
-88. **Stevia** · Stevia — **≈50 ml**
-89. **Esență de vanilie** · Vanilla extract — **≈30–50 ml**
+88. **Stevia** · Stevia — **≈50 ml** (opțional · optional)
+89. **Esență de vanilie** · Vanilla extract — **≈30–50 ml** (opțional · optional)
 90. **Praf de copt** · Baking powder — **5 × 10 g**
 91. **Proteină whey** · Whey protein — **≈1.000 g** · ~4 săptămâni · ~4 weeks
 92. **Creatină monohidrat** · Creatine monohydrate — **≈300 g** · ~2 luni · ~2 months
@@ -142,6 +142,11 @@ O săptămână întreagă, de duminică până sâmbătă · A full week, Sunda
 97. **Folie de aluminiu** · Aluminium foil — **1 rolă · 1 roll**
 98. **Folie alimentară** · Cling film — **1 rolă · 1 roll**
 99. **Pungi de congelator cu fermoar** · Zip freezer bags — **≈20**
+
+## Casă și curățenie · Household and cleaning
+100. **Acetonă (pentru oje)** · Nail polish remover — **1 flacon · 1 bottle, ≈100–200 ml** (K)
+101. **Vanish, pentru pete** · Vanish stain remover — **1** (≈1 l lichid · liquid, sau · or ≈500 g pudră · powder) (C+K)
+102. **Clor (înălbitor)** · Bleach — **1 l** (C+K) · nu se amestecă niciodată cu alte produse · never mix with other cleaners
 
 ## Nu în fiecare săptămână · Not every week (Cem)
 - **La 2 săptămâni · Every 2 weeks:** carne tocată de vită slabă · lean minced beef **1.000 g** (burger) · linte roșie · red lentils **250 g** (supă · soup)

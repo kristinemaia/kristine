@@ -147,14 +147,14 @@ Lista comună cu Cem e în Bibliotecă (în română și în engleză), cu numel
 - [ ] ton în apă: 4 conserve
 - [ ] biban sau doradă: 5 × 130 g (aceeași comandă cu Cem, la pescărie) · somon: 2 × 120 g (același cu al lui Cem)
 - [ ] creveți congelați: 300 g (2 prânzuri cu paste)
-- [ ] ouă: 12 · albuș lichid: 450 ml
+- [ ] ouă: 12 · albuș lichid: 400 ml
 - [ ] chefir: 2 l (în fiecare zi) · lapte: 500 ml
 - [ ] iaurt grecesc 2% (light süzme yoğurt): 500 g · lor: 250 g · skyr: 150 g · parmezan: o bucată mică
 - [ ] proteină (whey) și creatină, când se termină
-- [ ] ovăz (~90 g pe săptămână: bolul, clătitele, bilele) · paste: 500 g (ajung 2 săptămâni) · cartofi: 1–1,5 kg
+- [ ] ovăz (~90 g pe săptămână: bolul, clătitele, bilele) · paste: 500 g (ajung 2 săptămâni) · cartofi: 1,6 kg
 - [ ] lipii: 3 pe săptămână · pâine integrală: 4 felii pe săptămână (o pâine a ta, feliată și congelată, ține ~3 săptămâni)
 - [ ] roșii: 5 · roșii cherry: 250 g · passata: 1 borcan mic, ~350 g (pastele cu ton în sos de roșii; pe raftul tău)
-- [ ] legume, cu Cem: castraveți, ardei, ceapă, usturoi, dovlecei, broccoli, spanac, salată · fasole verde congelată: 1 pungă
+- [ ] legume, cu Cem: castraveți, ardei, ceapă, usturoi, dovlecei, broccoli, spanac, salată, ciuperci (200 g pentru omlete) · fasole verde congelată: 1 pungă
 - [ ] fructe: 2 rodii, 2 banane, 2 mere, 4 curmale medjool, lămâi · fructe de pădure congelate 500 g (opțional, în shake)
 - [ ] nuci: 100 g · ulei de măsline · condimentele comune
 - [ ] pentru deserturi: cacao neîndulcită, ciocolată neagră 85%, stevia, scorțișoară, vanilie, praf de copt

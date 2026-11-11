@@ -36,7 +36,7 @@ SECTIONS = [
     ]),
     ("Ouă", [
         ("ouă", "Yumurta", "1 cofraj de 30 + 12 ouă", A, "Cem 30 + Kristine 12."),
-        ("albuș lichid pasteurizat", "Pastörize sıvı yumurta akı", "≈950 ml", A, "Cem 500 ml + Kristine 450 ml. Doar albuș, fără «süt» sau arome."),
+        ("albuș lichid pasteurizat", "Pastörize sıvı yumurta akı", "≈900 ml", A, "Cem 500 ml + Kristine 400 ml. Doar albuș, fără «süt» sau arome."),
     ]),
     ("Lactate (doar Kristine: au lactoză)", [
         ("chefir", "Kefir (sade)", "2 l", K, "În fiecare zi, în shake (250 ml). Simplu, fără arome."),
@@ -65,9 +65,9 @@ SECTIONS = [
         ("broccoli", "Brokoli", "1 kg", A, "Cem 600 g + Kristine 400 g."),
         ("spanac", "Ispanak", "600 g", A, "Cem 300 g + Kristine 300 g."),
         ("salată verde / iceberg", "Marul / göbek marul", "3 bucăți", A, "Cem 2 + Kristine 1."),
-        ("cartofi", "Patates", "2–2,5 kg", A, "Cem 1 kg + Kristine 1–1,5 kg. Fără părți verzi sau încolțite."),
+        ("cartofi", "Patates", "≈2,6 kg", A, "Cem 1 kg + Kristine 1,6 kg. Fără părți verzi sau încolțite."),
         ("roșii · roșii cherry", "Domates · çeri domates", "5 bucăți · 250 g", K, "Doar Kristine: le ții separat și le tai pe placa ta, după mâncarea lui Cem."),
-        ("ciuperci champignon", "Kültür mantarı", "800 g", C, ""),
+        ("ciuperci champignon", "Kültür mantarı", "1 kg", A, "Cem 800 g + Kristine 200 g (omletele ei)."),
         ("morcovi", "Havuç", "1 kg", C, ""),
         ("praz", "Pırasa", "2 fire", C, ""),
         ("rucola", "Roka", "3 legături", C, "Se ofilește repede."),
@@ -111,10 +111,15 @@ SECTIONS = [
     ("Dulce și suplimente (Kristine)", [
         ("cacao neîndulcită", "Şekersiz kakao", "1 cutie mică", K, "Mousse, mug cake, bile cu curmale."),
         ("ciocolată neagră 85%", "%85 bitter çikolata", "1 tabletă", K, "2 pătrățele pe zi, cel mult. Tocată, ține loc de fulgi pe clătite."),
-        ("stevia (picături sau pudră)", "Stevia", "1 flacon", K, "Nu xilitol: e otrăvitor pentru câini și pisici."),
-        ("vanilie · praf de copt", "Vanilya özü · kabartma tozu", "câte unul", K, "Pentru deserturi."),
+        ("stevia (picături sau pudră)", "Stevia", "opțional", K, "Nu mai e în meniu. Nu xilitol: e otrăvitor pentru câini și pisici."),
+        ("praf de copt · vanilie", "Kabartma tozu · vanilya özü", "1 plic · opțional", K, "Praful de copt pentru clătite; vanilia nu mai e în meniu."),
         ("proteină whey", "Whey protein", "când se termină", K, "Are lactoză: shaker-ul și lingura ei stau separat."),
         ("creatină monohidrat", "Kreatin monohidrat", "1 cutie (ține ~2 luni)", K, "3–5 g pe zi."),
+    ]),
+    ("Casă și curățenie", [
+        ("acetonă (pentru oje)", "Aseton (oje çıkarıcı)", "1 flacon (~100–200 ml)", K, ""),
+        ("Vanish, pentru pete", "Vanish leke çıkarıcı", "1 (~1 l lichid sau ~500 g pudră)", A, "Pentru rufe."),
+        ("clor (înălbitor)", "Çamaşır suyu", "1 l", A, "Nu-l amesteca niciodată cu alte produse de curățenie (oțet, amoniac, Vanish): face gaze toxice. Departe de pisici."),
     ]),
     ("Altele", [
         ("castraveciori murați (cornișoni)", "Kornişon turşu", "1 borcan", C, "Nu «domatesli karışık turşu»."),
@@ -156,7 +161,7 @@ SECTIONS_EN = [
     ]),
     ("Eggs", [
         ("eggs", "Yumurta", "1 tray of 30 + 12 eggs", A, "Cem 30 + Kristine 12."),
-        ("pasteurised liquid egg white", "Pastörize sıvı yumurta akı", "≈950 ml", A, "Cem 500 ml + Kristine 450 ml. Egg white only, no «süt» or flavourings."),
+        ("pasteurised liquid egg white", "Pastörize sıvı yumurta akı", "≈900 ml", A, "Cem 500 ml + Kristine 400 ml. Egg white only, no «süt» or flavourings."),
     ]),
     ("Dairy (Kristine only: contains lactose)", [
         ("kefir", "Kefir (sade)", "2 l", K, "Every day, in her shake (250 ml). Plain, unflavoured."),
@@ -185,9 +190,9 @@ SECTIONS_EN = [
         ("broccoli", "Brokoli", "1 kg", A, "Cem 600 g + Kristine 400 g."),
         ("spinach", "Ispanak", "600 g", A, "Cem 300 g + Kristine 300 g."),
         ("lettuce / iceberg", "Marul / göbek marul", "3 heads", A, "Cem 2 + Kristine 1."),
-        ("potatoes", "Patates", "2–2.5 kg", A, "Cem 1 kg + Kristine 1–1.5 kg. No green or sprouting parts."),
+        ("potatoes", "Patates", "≈2.6 kg", A, "Cem 1 kg + Kristine 1.6 kg. No green or sprouting parts."),
         ("tomatoes · cherry tomatoes", "Domates · çeri domates", "5 pieces · 250 g", K, "Kristine only: kept apart and cut on her board, after Cem's food."),
-        ("button mushrooms", "Kültür mantarı", "800 g", C, ""),
+        ("button mushrooms", "Kültür mantarı", "1 kg", A, "Cem 800 g + Kristine 200 g (her omelettes)."),
         ("carrots", "Havuç", "1 kg", C, ""),
         ("leeks", "Pırasa", "2", C, ""),
         ("rocket", "Roka", "3 bunches", C, "Wilts quickly."),
@@ -231,10 +236,15 @@ SECTIONS_EN = [
     ("Sweet things and supplements (Kristine)", [
         ("unsweetened cocoa", "Şekersiz kakao", "1 small tin", K, "Mousse, mug cake, date balls."),
         ("85% dark chocolate", "%85 bitter çikolata", "1 bar", K, "2 squares a day at most. Chopped, it replaces chocolate chips on pancakes."),
-        ("stevia (drops or powder)", "Stevia", "1 bottle", K, "Not xylitol: it is poisonous to dogs and cats."),
-        ("vanilla · baking powder", "Vanilya özü · kabartma tozu", "one each", K, "For desserts."),
+        ("stevia (drops or powder)", "Stevia", "optional", K, "No longer in the menu. Not xylitol: it is poisonous to dogs and cats."),
+        ("baking powder · vanilla", "Kabartma tozu · vanilya özü", "1 sachet · optional", K, "Baking powder for the pancakes; vanilla is no longer in the menu."),
         ("whey protein", "Whey protein", "when it runs out", K, "Contains lactose: her shaker and scoop stay separate."),
         ("creatine monohydrate", "Kreatin monohidrat", "1 tub (lasts ~2 months)", K, "3–5 g a day."),
+    ]),
+    ("Household and cleaning", [
+        ("nail polish remover (acetone)", "Aseton (oje çıkarıcı)", "1 bottle (~100–200 ml)", K, ""),
+        ("Vanish stain remover", "Vanish leke çıkarıcı", "1 (~1 l liquid or ~500 g powder)", A, "For laundry."),
+        ("bleach", "Çamaşır suyu", "1 l", A, "Never mix it with other cleaners (vinegar, ammonia, Vanish): toxic fumes. Keep away from the cats."),
     ]),
     ("Other", [
         ("pickled gherkins", "Kornişon turşu", "1 jar", C, "Not «domatesli karışık turşu»."),

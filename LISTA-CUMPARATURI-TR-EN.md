@@ -25,7 +25,7 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 
 ## Yumurta · Eggs
 9. **Yumurta (L boy, ≈60 g)** · Eggs — **42** (C 30 + K 12)
-10. **Pastörize sıvı yumurta akı** · Liquid egg white — **≈950 ml** (C 500 + K 450)
+10. **Pastörize sıvı yumurta akı** · Liquid egg white — **≈900 ml** (C 500 + K 400)
 
 ## Süt ürünleri · Dairy (Kristine only)
 11. **Sade kefir** · Kefir — **2.000 ml** (every day)
@@ -50,10 +50,10 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 26. **Brokoli** · Broccoli — **1.000 g** (C 600 g + K 400 g)
 27. **Ispanak** · Spinach — **600 g** (C 300 g + K 300 g)
 28. **Marul veya göbek marul** · Lettuce / iceberg — **3, ≈1.500 g** (C 2 + K 1)
-29. **Patates** · Potatoes — **2.000–2.500 g** (C 1 kg + K 1–1,5 kg)
+29. **Patates** · Potatoes — **≈2.600 g** (C 1 kg + K 1,6 kg)
 30. **Domates** · Tomatoes — **5, ≈750 g** (K) · **WE HAVE SOME AT HOME: buy only what's missing**
 31. **Çeri domates** · Cherry tomatoes — **250 g** (K)
-32. **Kültür mantarı** · Button mushrooms — **800 g** (C)
+32. **Kültür mantarı** · Button mushrooms — **1.000 g** (C 800 g + K 200 g)
 33. **Havuç** · Carrots — **1.000 g** (C)
 34. **Pırasa** · Leeks — **2, ≈500 g** (C)
 35. **Roka** · Rocket — **3 bunches, ≈300 g** (C)
@@ -127,8 +127,8 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 85. **Şekersiz kakao** · Unsweetened cocoa — **≈100 g**
 86. **%85 bitter çikolata** · 85% dark chocolate — **≈80 g**
 87. **Bitter damla çikolata** · Dark chocolate chips — **≈100 g** (optional)
-88. **Stevia** · Stevia — **≈50 ml**
-89. **Vanilya özü** · Vanilla extract — **≈30–50 ml**
+88. **Stevia** · Stevia — **≈50 ml** (optional)
+89. **Vanilya özü** · Vanilla extract — **≈30–50 ml** (optional)
 90. **Kabartma tozu** · Baking powder — **5 × 10 g**
 91. **Whey protein** · Whey protein — **≈1.000 g** · ~4 weeks
 92. **Kreatin monohidrat** · Creatine monohydrate — **≈300 g** · ~2 months
@@ -141,6 +141,11 @@ A full week, Sunday to Saturday. For fewer days, about half of the fresh food.
 97. **Alüminyum folyo** · Aluminium foil — **1 roll**
 98. **Streç film** · Cling film — **1 roll**
 99. **Kilitli dondurucu poşeti (orta boy)** · Zip freezer bags — **≈20**
+
+## Ev ve temizlik · Household and cleaning
+100. **Aseton (oje çıkarıcı)** · Nail polish remover — **≈100–200 ml** (K)
+101. **Vanish leke çıkarıcı** · Vanish stain remover — **1** (≈1 l liquid or ≈500 g powder) (C+K)
+102. **Çamaşır suyu** · Bleach — **1 l** (C+K) · never mix with other cleaners
 
 ## Her hafta değil · Not every week (Cem)
 - **Every 2 weeks:** az yağlı dana kıyma · lean minced beef **1.000 g** · kırmızı mercimek · red lentils **250 g**
