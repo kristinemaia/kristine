@@ -79,7 +79,7 @@ O săptămână întreagă, de duminică până sâmbătă. Pentru mai puține z
 52. **Miez de nucă** — **300 g** (C 200 g + K 100 g)
 
 ## Congelate și borcane
-53. **Fructe de pădure congelate** — **500 g** (K, opțional, în shake, in the shake)
+53. **Fructe de pădure congelate** — **500 g** (K, opțional, în shake)
 54. **Fasole verde congelată** — **450 g** (K)
 55. **Năut fiert, borcan** — **≈400 g** (C)
 56. **Passata (sos de roșii)** — **≈350 g** (K)
