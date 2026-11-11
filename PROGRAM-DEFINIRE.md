@@ -11,4 +11,4 @@ _10 noiembrie 2026 · pentru tine, nu pentru clienți. Pornim de la ce mi-ai spu
 ## Cele trei părți
 - **Antrenamentul** (`PROGRAM-ANTRENAMENT.md`): săptămâna, cele 4 antrenamente cu seturi, repetări și pauze, cum crești greutățile, ce faci dacă lipsește un aparat.
 - **Alimentația** (`PROGRAM-ALIMENTATIE.md`): caloriile, calendarul, mesele (porții gătite), deserturile, îndulcitorul, pofta de dulce, gătitul rapid, cumpărăturile, suplimentele și cum ajustăm după cântar.
-- **Cardio și pașii** (`PROGRAM-CARDIO.md`): cele 3 sesiuni pe săptămână, intervalele, banda înclinată și pașii.
+- **Cardio și pașii** (`PROGRAM-CARDIO.md`): cele 3 sesiuni pe săptămână, intervalele, cardio-ul ușor (bandă fără înclinare, eliptică) și pașii.

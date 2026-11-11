@@ -28,7 +28,7 @@ PARTS = [
      "tag": "Mâncare", "desc": "Mesele (porții gătite), deserturile, pofta de dulce, cumpărăturile și cum ajustăm după cântar.",
      "facts": ["1.550–1.650 kcal", "120–130 g proteină", "desert zilnic"], "tone": "pink"},
     {"id": "cardio", "src": "PROGRAM-CARDIO.md", "name": "Cardio și pașii",
-     "tag": "3 pe săptămână", "desc": "Intervalele de marți, banda înclinată, cardio-ul lung de sâmbătă și pașii.",
+     "tag": "3 pe săptămână", "desc": "Intervalele de marți, cardio-ul ușor (bandă sau eliptică), cardio-ul lung de sâmbătă și pașii.",
      "facts": ["13 min intervale", "35–45 min ușor", "8.000–10.000 pași"], "tone": "mint"},
 ]
 

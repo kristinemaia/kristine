@@ -10,7 +10,7 @@ _Partea 1 din 3 a programului de definire (11 nov – 7 feb). Celelalte două: *
 |---|---|
 | **Marți 10** | **Picioare A**: primul antrenament |
 | **Miercuri 11** | **Upper A** + intervale (~13 min) |
-| **Joi 12** | cardio ușor: bandă înclinată 35–40 min |
+| **Joi 12** | cardio ușor 35–40 min (bandă, mers alert, sau eliptică) |
 | **Vineri 13** | **Picioare B** |
 | **Sâmbătă 14** | **Upper B** + 30 min cardio ușor |
 | **Duminică 15** | pauză |
@@ -22,7 +22,7 @@ Din **luni 16 noiembrie** urmezi săptămâna obișnuită de mai jos.
 |---|---|---|
 | **Luni** | **Picioare A** (cvadricepși + forță) | — |
 | **Marți** | **Upper A** (spate + umeri) | **intervale** pe spinning, ~13 min, după sală |
-| **Miercuri** | — (mobilitate 10 min, dacă vrei) | **ușor:** bandă înclinată 35–40 min |
+| **Miercuri** | — (mobilitate 10 min, dacă vrei) | **ușor:** bandă (mers alert) sau eliptică, 35–40 min |
 | **Joi** | **Picioare B** (fese + femurali) | — |
 | **Vineri** | **Upper B** (piept + spate + umeri) | — |
 | **Sâmbătă** | — | **ușor:** 40–45 min bandă sau eliptică, sau o plimbare de 60 min afară |
