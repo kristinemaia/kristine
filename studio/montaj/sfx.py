@@ -32,13 +32,18 @@ def boom(d=0.7):
     n = int(SR * d); t = np.arange(n) / SR; f = 38 + 70 * np.exp(-t / 0.06)
     ph = 2 * np.pi * np.cumsum(f) / SR; return 0.9 * np.sin(ph) * _env(n, 0.004, 0.22)
 
+def tick(d=0.05):
+    """ticăitul cronometrului: un clic scurt, ca de ceas"""
+    n = int(SR * d); t = np.arange(n) / SR
+    return 0.5 * (np.sin(2 * np.pi * 2200 * t) + 0.5 * np.sin(2 * np.pi * 3300 * t)) * _env(n, 0.001, 0.008)
+
 def write(path, x):
     x = np.clip(x, -1, 1); d = (x * 32767).astype('<i2')
     with wave.open(path, 'wb') as w: w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(d.tobytes())
 
 def timeline(events, total, path):
     """events: [(secunda, 'whoosh'|'pop'|'ding'|'boom', volum)] → un singur wav cu toate sunetele la locul lor"""
-    out = np.zeros(int(SR * (total + 1.5))); gen = {'whoosh': whoosh, 'pop': pop, 'ding': ding, 'boom': boom}; cache = {}
+    out = np.zeros(int(SR * (total + 1.5))); gen = {'whoosh': whoosh, 'pop': pop, 'ding': ding, 'boom': boom, 'tick': tick}; cache = {}
     for t, kind, vol in events:
         s = cache.setdefault(kind, gen[kind]()); i = max(0, int(SR * t)); out[i:i + len(s)] += vol * s[:len(out) - i]
     write(path, out[:int(SR * total)] * 0.9)

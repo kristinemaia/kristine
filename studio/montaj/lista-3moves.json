@@ -1,10 +1,68 @@
-{"out": "studio/montaj/out/3-moves-sit-all-day.mp4",
- "punch": true, "sfx": true, "progress": true,
- "intro": {"clip": "brand/twitch/stream/stream-intro-dinamic.mp4", "ss": 1.8, "d": 1.2, "crop": "540:960:700:60", "freeze": 1.3,
-           "text": ["POV: 6 hours of gaming", "and your back feels 80.", "3 moves to undo it:"], "emoji": "😩"},
- "outro": "Save it for your next gaming night", "outro_d": 2.2,
+{
+ "out": "studio/montaj/out/3-moves-sit-all-day.mp4",
+ "punch": true,
+ "sfx": true,
+ "progress": true,
+ "orig_gain": 14,
+ "intro": {
+  "clip": "brand/twitch/stream/stream-intro-dinamic.mp4",
+  "ss": 1.8,
+  "d": 1.2,
+  "crop": "540:960:700:60",
+  "freeze": 1.3,
+  "text": [
+   "POV: 6 hours of gaming",
+   "and your back feels 80.",
+   "3 moves to undo it:"
+  ],
+  "emoji": "😩"
+ },
+ "tease": "#3 is the one everyone skips",
  "items": [
-  {"clip": "studio/montaj/_curat/mobilitate-extensie-toracica.mp4", "ss": 2.5, "d": 5.0, "speed": 1.25, "title": "Thoracic extension", "chip": "upper back · 8 slow reps", "emoji": "🔓"},
-  {"clip": "studio/montaj/_curat/mobilitate-rasucire-sezut.mp4", "ss": 0.3, "d": 3.6, "speed": 1.0, "title": "Seated spinal twist", "chip": "spine · 30 s each side", "emoji": "🌀"},
-  {"clip": "studio/montaj/_curat/incalzire-inchworm.mp4", "ss": 4.5, "d": 8.0, "speed": 1.8, "title": "Inchworm", "chip": "hamstrings + core · 5 reps", "emoji": "🐛"}
- ]}
+  {
+   "clip": "studio/montaj/_curat/mobilitate-extensie-toracica.mp4",
+   "audio": "studio/custom-program/clips/mobilitate-extensie-toracica.mov",
+   "ss": 2.5,
+   "d": 5.0,
+   "speed": 1.25,
+   "title": "Thoracic extension",
+   "chip": "upper back · 8 slow reps",
+   "emoji": "🔓",
+   "timer": 3,
+   "note": "breathe out as you sink down"
+  },
+  {
+   "clip": "studio/montaj/_curat/mobilitate-rasucire-sezut.mp4",
+   "audio": "studio/custom-program/clips/mobilitate-rasucire-sezut.mov",
+   "ss": 0.3,
+   "d": 3.6,
+   "speed": 1.0,
+   "title": "Seated spinal twist",
+   "chip": "spine · 30 s each side",
+   "emoji": "🌀",
+   "timer": 3,
+   "note": "sit tall, then turn"
+  },
+  {
+   "clip": "studio/montaj/_curat/incalzire-inchworm.mp4",
+   "audio": "studio/custom-program/clips/incalzire-inchworm.mov",
+   "ss": 4.5,
+   "d": 8.0,
+   "speed": 1.8,
+   "title": "Inchworm",
+   "chip": "hamstrings + core · 5 reps",
+   "emoji": "🐛",
+   "timer": 3,
+   "note": "walk out slow, walk back slower"
+  }
+ ],
+ "end": {
+  "lines": [
+   "Which one was",
+   "the hardest?"
+  ],
+  "small": "Comment 1, 2 or 3 · Follow for Part 2: your neck",
+  "emoji": "👇",
+  "d": 2.8
+ }
+}
