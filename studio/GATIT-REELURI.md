@@ -79,3 +79,29 @@ _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țar�
 - fără fereastră, fără ambalaje sau etichete în turcă (se vede țara), fără bonuri
 - telefonul pe trepied, deasupra blatului sau la 45°, câte 3–5 clipuri scurte: ingredientele, tăiatul, tigaia, împărțitul, caserolele
 - **De lămurit înainte de primul reel:** mănânci pește? Pe cont sunt deja K4 (somon) și K5 (pește alb). Dacă da, te descrii ca „pescatarian” sau „I don't eat meat”, nu „vegetarian”, ca să nu te prindă nimeni cu o contradicție.
+
+## Format nou: „Who said…?” (12 nov)
+
+**Hook-ul pe ecran, din prima secundă** (alegi unul):
+1. `Who said getting lean means boring food?` *(recomandat: aceeași idee, fără „lose weight”)*
+2. `Who said you can't eat delicious food on a cut?`
+3. `Who said if you want to lose weight, you can't eat delicious food?` *(varianta ta, cea mai directă)*
+
+**Structura (15–20 s):** hook-ul peste farfuria cea mai frumoasă (1–2 s) · 3 mâncăruri pe care le mănânci chiar tu, câte 2–3 s fiecare, cu numele pe ecran (de exemplu protein pancakes, somon cu cartofi, bolul din „One base, two plates”) · la final: `Real food. Enough protein. Still delicious.`
+
+**Descrierea:**
+```
+Who said getting lean means boring food? 👀
+This is what I actually eat: real meals, enough protein, and food I look forward to.
+Save it for your next "what do I eat today" moment.
+
+General food ideas, not medical or diet advice.
+
+#highprotein #easyrecipes #healthyfood #mealprep #foodie
+```
+
+**Regulile, ca să nu-ți limiteze platformele reach-ul:**
+- vorbești despre **ce mănânci tu**, nu „ce trebuie să mănânci”
+- fără kilograme, calorii pe ecran, cântar, poze înainte/după sau promisiuni („lose 5 kg”)
+- „getting lean” sau „on a cut” sună mai bine decât „lose weight”; TikTok și Instagram arată mai puțin conținutul despre slăbit, mai ales celor tineri
+- poate deveni serie: „Who said meal prep is boring?”, „Who said high-protein can't be sweet?”, „Who said gamers can't cook?”
