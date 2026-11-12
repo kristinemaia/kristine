@@ -5,6 +5,7 @@ Spec: {"out": "...mp4", "hook": ["rândul 1", "rândul 2"], "hook_d": 2.6, "outr
        "items": [{"clip": "cale/catre/clip.mp4", "ss": 1.0, "d": 3.5, "speed": 1.0, "title": "Thoracic extension"}]}
 Clipurile trebuie să fie deja curățate (1080x1920, fără etichetă), de ex. din studio/montaj/_curat."""
 import json, os, subprocess, sys, tempfile
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')
 FONTS = os.path.join(ROOT, 'brand/reels-overlays/fonts')
@@ -25,10 +26,15 @@ def main(spec_path):
     for i, it in enumerate(S['items']):
         png = os.path.join(tmp, 't%d.png' % i); text_png(['%d. %s' % (i + 1, it['title'])], png, 70, 250)
         sp = it.get('speed', 1.0); dur = it['d'] / sp
-        ov = [png]; fc = '[0:v]setpts=(PTS-STARTPTS)/%.3f,fps=30,scale=1080:1920,setsar=1[v];' % sp
+        fc = '[0:v]setpts=(PTS-STARTPTS)/%.3f,fps=30,scale=1080:1920,setsar=1' % sp
+        if S.get('punch'):   # „punch-in”: la fiecare tăietură imaginea pornește cu 8% mai aproape și revine în 0,25 s, plus un flash scurt
+            fc += (",scale=w='trunc(1080*(1+0.08*max(0\\,1-t/0.25))/2)*2':h='trunc(1920*(1+0.08*max(0\\,1-t/0.25))/2)*2':eval=frame,crop=1080:1920"
+                   ",drawbox=x=0:y=0:w=iw:h=ih:color=white@0.35:t=fill:enable='lt(t\\,0.06)'")
+        fc += '[v];'
         # titlul numerotat (la primul exercițiu apare după hook)
         t0 = S.get('hook_d', 2.6) if i == 0 else 0.0
-        fc += "[1:v]format=rgba,fade=t=in:st=%.2f:d=0.2:alpha=1[t];[v][t]overlay=0:0:enable='gte(t,%.2f)'[a]" % (t0, t0)
+        fc += ("[1:v]format=rgba,fade=t=in:st=%.2f:d=0.12:alpha=1[t];[v][t]overlay=x=0:y='-60*max(0\\,1-(t-%.2f)/0.16)':enable='gte(t,%.2f)'[a]"
+               % (t0, t0, t0))
         cur = '[a]'; inputs = ['-ss', str(it['ss']), '-t', '%.3f' % it['d'], '-i', it['clip'], '-loop', '1', '-t', '%.3f' % dur, '-i', png]
         if i == 0:
             h = os.path.join(tmp, 'hook.png'); text_png(S['hook'], h, 62, 230); inputs += ['-loop', '1', '-t', '%.3f' % dur, '-i', h]
@@ -44,7 +50,22 @@ def main(spec_path):
         parts.append(p)
     lst = os.path.join(tmp, 'l.txt'); open(lst, 'w').write(''.join("file '%s'\n" % p for p in parts))
     out = os.path.join(ROOT, S['out']); os.makedirs(os.path.dirname(out), exist_ok=True)
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', '-movflags', '+faststart', out], check=True)
+    if not S.get('sfx'):
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', '-movflags', '+faststart', out], check=True)
+        print(out); return
+    # sunetele de reacție: boom la hook, whoosh înainte de fiecare tăietură, pop când apare titlul, ding la textul final
+    import sfx
+    silent = os.path.join(tmp, 'v.mp4')
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', silent], check=True)
+    durs = [it['d'] / it.get('speed', 1.0) for it in S['items']]; total = sum(durs); hd = S.get('hook_d', 2.6)
+    ev = [(0.0, 'boom', 0.8), (0.02, 'pop', 0.9), (hd - 0.2, 'whoosh', 0.8), (hd + 0.02, 'pop', 0.9)]
+    acc = 0.0
+    for k, dd in enumerate(durs[:-1]):
+        acc += dd; ev += [(acc - 0.22, 'whoosh', 0.9), (acc + 0.03, 'pop', 0.9)]
+    if S.get('outro'): ev.append((total - S.get('outro_d', 2.0), 'ding', 0.8))
+    wav = os.path.join(tmp, 'sfx.wav'); sfx.timeline(ev, total, wav)
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', silent, '-i', wav, '-map', '0:v', '-map', '1:a', '-c:v', 'copy',
+                    '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], check=True)
     print(out)
 
 if __name__ == '__main__':
