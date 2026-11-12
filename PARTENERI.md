@@ -38,3 +38,16 @@ Actualizată pe 30 oct, cu UGC și drepturile pentru reclame: **tabelul complet 
 - **Trusa de călătorie:** laptop, telefon, trepied, microfon, lumină, prelungitor, adaptor, disc extern. O testezi înainte de fiecare zbor. Tot ce filmezi stă în două locuri (laptop + cloud sau disc).
 - **Programarea:** Instagram din aplicație sau Meta Business Suite; TikTok din TikTok Studio, pe calculator. Așa postările ies singure, oriunde ai fi.
 - **Banii și actele:** totul se încasează în România, prin firma ta. Numeri zilele (Turcia: maximum 90 din 180, mult sub 183 pe an). Pentru viața de nomad pe termen lung, contabila îți spune forma corectă (PFA sau SRL) și ce trebuie să declari.
+
+## Contactate în noiembrie (stare)
+| Data | Brand | Cum | Stare |
+|---|---|---|---|
+| 12 nov | **Secretlab** | formularul de sponsorizare (secretlab.eu), cu media kit-ul | ✅ trimis · răspunsul vine doar de pe adrese @secretlab.co sau @secretlab.sg (altele pot fi țepe) |
+| 12 nov | Sneak Energy | email, info@sneakenergy.com | ✏️ în Ciorne |
+| 12 nov | Bulk | email, affiliates@bulk.com | ✏️ în Ciorne |
+| 12 nov | AndaSeat | email, sales-support@andaseat.com | ✏️ în Ciorne |
+| 12 nov | Grenade | email, chloe.cordell@grenade.com (adresă de pe profilul de afiliere; poate fi veche) | ✏️ în Ciorne |
+| 9 nov | G FUEL | email, media@gfuel.com | ✏️ în Ciorne |
+| 9 nov | Huel, Myprotein | revenire la emailurile din 20 oct | ✏️ în Ciorne |
+
+Revenirea (o singură dată) după 7 zile, dacă nu răspund. Negocierea și semnarea doar din România (25–27 nov) sau după răspunsul scris al contabilei și al avocatului.
