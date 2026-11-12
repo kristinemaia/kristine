@@ -99,7 +99,7 @@ ROWS = [
      '<span class="no">–</span>', '<span class="no">–</span>', '<span class="no">–</span>', '<span class="no">–</span>',
      "<b>1 banană</b> · <b>2 curmale</b> · <b>2 mandarine</b> · <b>1 măr</b> <small>+ cafea simplă</small>"),
 
-    ("După sală", "≈850 kcal · ≈50 g proteină", "Masa mare a zilei",
+    ("După sală", "≈850 kcal · ≈50 g proteină", "Masa mare a zilei. Zi de odihnă: carbohidrații la jumătate, fără fruct",
      o("<b>180 g chiftele</b>",
        "<b>160 g pulpe de pui</b>",
        "<b>160 g sote de vită</b>",
