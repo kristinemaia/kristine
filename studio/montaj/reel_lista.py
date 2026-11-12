@@ -104,6 +104,45 @@ def seg_intro(S, tmp):
              '-loop', '1', '-t', '%.3f' % dur, '-i', e], fc, dur, p)
     a = os.path.join(tmp, 'a_intro.wav'); silence(dur, a); return p, dur, a, []
 
+def seg_stretch(S, tmp):
+    """momentul „Ok… let's stretch”: clipul cu tine întinzându-te, încetinit, cu textul mare și emoji"""
+    X = S['stretch']; sp = X.get('speed', 0.6); base = X['d'] / sp; dur = max(base, X.get('min_d', 0))
+    h = os.path.join(tmp, 'sh.png'); text_png(X['text'], h, 104, 260); e = os.path.join(tmp, 'se.png'); emoji_png(X.get('emoji', '🙆‍♀️'), e)
+    crop = ('crop=%s,' % X['crop']) if X.get('crop') else ''
+    fc = ("[0:v]setpts=(PTS-STARTPTS)/%.3f,fps=30,%sscale=1080:1920:flags=lanczos,setsar=1,tpad=stop_mode=clone:stop_duration=%.2f%s[v];"
+          "[1:v]format=rgba,fade=t=in:st=0:d=0.1:alpha=1[h];[v][h]overlay=x=0:y='-60*max(0\\,1-t/0.16)'[a]") % (sp, crop, max(0.0, dur - base) + 0.1, punch(S))
+    fc, cur = overlay_emoji(fc, '[a]', 2, 0.2, 820, 1180, 's'); fc += ';%sformat=yuv420p[out]' % cur
+    p = os.path.join(tmp, 'p_stretch.mp4')
+    run_seg(['-ss', str(X['ss']), '-t', '%.3f' % X['d'], '-i', os.path.join(ROOT, X['clip']), '-loop', '1', '-t', '%.3f' % dur, '-i', h,
+             '-loop', '1', '-t', '%.3f' % dur, '-i', e], fc, dur, p)
+    a = os.path.join(tmp, 'a_stretch.wav'); silence(dur, a); return p, dur, a, [(0.03, 'pop', 0.9), (0.22, 'pop', 0.6)]
+
+def clip_len(path):
+    return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path], capture_output=True, text=True).stdout)
+
+def make_voice(S, tmp):
+    """vocea de femeie (Kokoro, offline, licență Apache): un wav pe segment; potrivește duratele ca să încapă vorbele"""
+    V = S['voice']; from kokoro_onnx import Kokoro; import soundfile as sf
+    d = os.path.join(ROOT, V.get('dir', 'studio/montaj/_tts')); k = Kokoro(os.path.join(d, 'kokoro-v1.0.onnx'), os.path.join(d, 'voices-v1.0.bin'))
+    def say(text, key):
+        a, sr = k.create(text, voice=V.get('name', 'af_heart'), speed=V.get('speed', 1.05), lang='en-us')
+        p = os.path.join(tmp, 'vo_%s.wav' % key); sf.write(p, a, sr); return p, len(a) / sr
+    vo = {}
+    if S.get('intro', {}).get('vo'):
+        vo['intro'] = say(S['intro']['vo'], 'intro'); I = S['intro']; I['freeze'] = max(I.get('freeze', 1.0), vo['intro'][1] + 0.35 - I['d'])
+    if S.get('stretch', {}).get('vo'):
+        vo['stretch'] = say(S['stretch']['vo'], 'stretch'); S['stretch']['min_d'] = vo['stretch'][1] + 0.3
+    for i, it in enumerate(S['items']):
+        if not it.get('vo'): continue
+        vo['item%d' % i] = say(it['vo'], 'item%d' % i); need = vo['item%d' % i][1] + 0.5; sp = it.get('speed', 1.0)
+        if it['d'] / sp < need:
+            room = clip_len(os.path.join(ROOT, it['clip'])) - it['ss'] - 0.2
+            it['d'] = min(room, need * sp)
+            if it['d'] / sp < need: it['speed'] = max(0.6, it['d'] / need)
+    if S.get('end', {}).get('vo'):
+        vo['end'] = say(S['end']['vo'], 'end'); S['end']['d'] = max(S['end'].get('d', 2.8), vo['end'][1] + 0.5)
+    return vo
+
 def seg_item(S, tmp, i, it, last):
     png = os.path.join(tmp, 't%d.png' % i); title_png('%d. %s' % (i + 1, it['title']), it.get('chip'), png)
     sp = it.get('speed', 1.0); dur = it['d'] / sp; ev = []
@@ -157,10 +196,12 @@ def seg_end(S, tmp, last_item):
     a = os.path.join(tmp, 'a_end.wav'); silence(dur, a); return p, dur, a, [(0.0, 'whoosh', 0.8), (0.12, 'ding', 0.8)]
 
 def main(spec_path):
-    S = json.load(open(spec_path)); tmp = tempfile.mkdtemp(); segs = []
-    if S.get('intro'): segs.append(seg_intro(S, tmp))
-    for i, it in enumerate(S['items']): segs.append(seg_item(S, tmp, i, it, i == len(S['items']) - 1))
-    if S.get('end'): segs.append(seg_end(S, tmp, S['items'][-1]))
+    S = json.load(open(spec_path)); tmp = tempfile.mkdtemp(); segs = []; keys = []
+    vo = make_voice(S, tmp) if S.get('voice') else {}
+    if S.get('intro'): segs.append(seg_intro(S, tmp)); keys.append('intro')
+    if S.get('stretch'): segs.append(seg_stretch(S, tmp)); keys.append('stretch')
+    for i, it in enumerate(S['items']): segs.append(seg_item(S, tmp, i, it, i == len(S['items']) - 1)); keys.append('item%d' % i)
+    if S.get('end'): segs.append(seg_end(S, tmp, S['items'][-1])); keys.append('end')
     lst = os.path.join(tmp, 'l.txt'); open(lst, 'w').write(''.join("file '%s'\n" % s[0] for s in segs))
     total = sum(s[1] for s in segs); joined = os.path.join(tmp, 'v.mp4')
     vf = ['-vf', "drawbox=x=40:y=196:w=1000:h=10:color=white@0.35:t=fill,drawbox=x=40:y=196:w='max(2\\,1000*t/%.3f)':h=10:color=0x8A3459:t=fill" % total] + ENC \
@@ -170,7 +211,8 @@ def main(spec_path):
     alst = os.path.join(tmp, 'a.txt'); open(alst, 'w').write(''.join("file '%s'\n" % s[2] for s in segs))
     orig = os.path.join(tmp, 'orig.wav'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', alst, '-ar', str(SR), '-ac', '1', orig], check=True)
     out = os.path.join(ROOT, S['out']); os.makedirs(os.path.dirname(out), exist_ok=True)
-    inputs, mix = ['-i', joined, '-i', orig], '[1:a]volume=1.0[o]'
+    og = 0.45 if vo else 1.0   # când vorbește vocea, sunetul original stă mai jos
+    inputs, mix = ['-i', joined, '-i', orig], '[1:a]volume=%.2f[o]' % og
     if S.get('sfx'):
         import sfx
         ev, acc = [], 0.0
@@ -179,10 +221,18 @@ def main(spec_path):
             ev += [(acc + t, kind, v) for t, kind, v in s[3]]; acc += s[1]
         if S.get('intro'): ev += [(0.0, 'whoosh', 0.6), (S['intro']['d'], 'boom', 1.0), (S['intro']['d'] + 0.25, 'pop', 0.7)]
         wav = os.path.join(tmp, 'sfx.wav'); sfx.timeline(ev, total, wav); inputs += ['-i', wav]
-        mix = '[1:a]volume=1.0[o];[2:a]volume=0.9[f];[o][f]amix=inputs=2:normalize=0,alimiter=limit=0.95[m]'
-        amap = '[m]'
+        mix = '[1:a]volume=%.2f[o];[2:a]volume=%.2f[f];[o][f]amix=inputs=2:normalize=0[m0]' % (og, 0.7 if vo else 0.9)
+        amap = '[m0]'
     else:
         amap = '[o]'
+    if vo:   # vocea, pusă la începutul fiecărui segment
+        starts, acc = {}, 0.0
+        for kk, sg in zip(keys, segs): starts[kk] = acc; acc += sg[1]
+        for kk, (pth, ln) in vo.items():
+            inputs += ['-i', pth]; idx = n_in(inputs) - 1; ms = int((starts[kk] + (0.15 if kk != 'intro' else 0.1)) * 1000)
+            mix += ';[%d:a]aresample=%d,aformat=channel_layouts=mono,volume=1.6,adelay=%d|%d[v%s]' % (idx, SR, ms, ms, kk)
+        mix += ';%s%samix=inputs=%d:normalize=0:duration=first[mv]' % (amap, ''.join('[v%s]' % kk for kk in vo), len(vo) + 1); amap = '[mv]'
+    mix += ';%salimiter=limit=0.95[fin]' % amap; amap = '[fin]'
     subprocess.run(['ffmpeg', '-v', 'error', '-y'] + inputs + ['-filter_complex', mix, '-map', '0:v', '-map', amap, '-c:v', 'copy',
                     '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], check=True)
     print(out, '%.1f s' % total)
