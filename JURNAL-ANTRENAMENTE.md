@@ -18,5 +18,8 @@ _Notez aici ce antrenamente faci, ca să vedem ritmul și să avem idei de conț
 | 5 nov | Fortnite, 3 h 30 | 103 | 346 |
 | 6 nov | **World of Warcraft** | **150** | **552** |
 | 7 nov | **World of Warcraft** | **111** (+40% față de streamul de dinainte) | 341 |
+| 12 nov | gaming, 3 h 30 | **144** | — |
 
 **Concluzia (8 nov):** WoW aduce oameni noi și mai mulți viewers decât un gaming stream obișnuit (70–80 de obicei, 110–150 pe WoW). Rămâne în program de 2 ori pe săptămână.
+
+**12 nov:** 144 de viewers la un stream de gaming, aproape cât vârfurile de pe WoW. Gaming-ul obișnuit urcă și el: de la 70–80 la începutul lunii, la 100–144 acum.
