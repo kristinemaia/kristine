@@ -72,13 +72,13 @@ _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țar�
 3. **„What I prep before a 4-hour stream”:** mâncarea pentru zilele de stream.
 4. **„Veggie plate vs meat plate”:** cele două farfurii una lângă alta, cu proteinele scrise pe ecran.
 
-**Comentariul fixat, pentru curioși:** „I don't eat meat, but I cook for family and friends who do. Everyone gets the plate they love.”
+**Comentariul fixat, pentru curioși:** „I don't eat meat (fish yes!), but I cook for family and friends who do. Everyone gets the plate they love.”
 
 **Regulile la filmare:**
 - în cadru doar blatul, mâinile tale și mâncarea; nimeni altcineva, nici mâini, nici voci
 - fără fereastră, fără ambalaje sau etichete în turcă (se vede țara), fără bonuri
 - telefonul pe trepied, deasupra blatului sau la 45°, câte 3–5 clipuri scurte: ingredientele, tăiatul, tigaia, împărțitul, caserolele
-- **De lămurit înainte de primul reel:** mănânci pește? Pe cont sunt deja K4 (somon) și K5 (pește alb). Dacă da, te descrii ca „pescatarian” sau „I don't eat meat”, nu „vegetarian”, ca să nu te prindă nimeni cu o contradicție.
+- **Mănânci pește (confirmat pe 12 nov).** Pe cont spui „I don't eat meat” sau „pescatarian”, niciodată „vegetarian”, ca să se potrivească cu K4 (somon) și K5 (pește alb). În „One base, two plates”, farfuria ta poate avea și pește, ton sau creveți, pe lângă tofu, năut și ouă.
 
 ## Format nou: „Who said…?” (12 nov)
 
