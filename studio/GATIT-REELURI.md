@@ -61,3 +61,21 @@ _Actualizat 17 octombrie. Tot ce îți trebuie pentru ziua de gătit de la țar�
 - Camera de sus pe blat; fără etichete, ferestre sau oameni în cadru; moderatorii anunțați.
 - La final, 3 clipuri (clătitele gata, întoarsul, farfuria) pentru reel și pentru cele 5 clipuri de la top.
 - Brand: miercurea, cacao Bewit (menționezi „afiliere” dacă e cazul).
+
+## Seria nouă: meal prep pentru mai mulți (12 nov)
+
+**Ideea:** gătești oricum în fiecare zi, pentru tine și pentru cei de lângă tine. Filmezi asta: o bază comună, apoi o farfurie fără carne pentru tine și una cu carne pentru ceilalți. Pe cont, viața personală nu apare: dacă întreabă cineva, gătești **pentru familie și prieteni**.
+
+**Formatele (1–2 pe săptămână):**
+1. **„One base, two plates”:** aceeași bază (orez, legume, sos), apoi tofu, năut sau ou pentru tine și pui sau vită pentru ceilalți. E formatul principal.
+2. **„Meal prep for the week”:** 30 de secunde, de la ingredientele pe blat până la caserolele închise.
+3. **„What I prep before a 4-hour stream”:** mâncarea pentru zilele de stream.
+4. **„Veggie plate vs meat plate”:** cele două farfurii una lângă alta, cu proteinele scrise pe ecran.
+
+**Comentariul fixat, pentru curioși:** „I don't eat meat, but I cook for family and friends who do. Everyone gets the plate they love.”
+
+**Regulile la filmare:**
+- în cadru doar blatul, mâinile tale și mâncarea; nimeni altcineva, nici mâini, nici voci
+- fără fereastră, fără ambalaje sau etichete în turcă (se vede țara), fără bonuri
+- telefonul pe trepied, deasupra blatului sau la 45°, câte 3–5 clipuri scurte: ingredientele, tăiatul, tigaia, împărțitul, caserolele
+- **De lămurit înainte de primul reel:** mănânci pește? Pe cont sunt deja K4 (somon) și K5 (pește alb). Dacă da, te descrii ca „pescatarian” sau „I don't eat meat”, nu „vegetarian”, ca să nu te prindă nimeni cu o contradicție.
