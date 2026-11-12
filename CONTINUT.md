@@ -1,5 +1,7 @@
 # Planul de conținut — Kristine Maia
 
+> **Regula de filmare, lămurită pe 12 noiembrie (are prioritate peste ce scrie mai jos):** ferestrele, lumina naturală, locația și camerele frumoase **sunt în regulă** în conținut. Regula strictă privește doar **conținutul pentru adulți**. Rămân doar trei lucruri: viața personală (relația) nu apare pe cont; alți oameni recognoscibili apar doar cu acordul lor (altfel îi estompez); locațiile exacte le postezi după ce ai plecat de acolo, nu în timp real.
+
 > **Actualizat 17 octombrie: așa arată viața ta acum (are prioritate peste ce scrie mai jos dacă se contrazic)**
 > - Apartamentul e eliberat din 16 oct; echipamentul e instalat la părinți, în București. Data la notar o ai când spune proprietarul.
 > - **Liber joi și duminică.** Stream luni, marți, miercuri, vineri (sâmbăta, opțional). Sală luni, marți, miercuri sau joi, vineri, sâmbătă (cardio + greutăți).
