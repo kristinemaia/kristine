@@ -1,0 +1,8 @@
+{"out": "studio/montaj/out/3-moves-sit-all-day.mp4",
+ "hook": ["POV: you sit 10 hours a day", "and your back feels 80.", "3 moves to undo it:"], "hook_d": 2.8,
+ "outro": "Save it for your next desk day", "outro_d": 2.2,
+ "items": [
+  {"clip": "studio/montaj/_curat/mobilitate-extensie-toracica.mp4", "ss": 1.5, "d": 7.0, "speed": 1.25, "title": "Thoracic extension"},
+  {"clip": "studio/montaj/_curat/mobilitate-rasucire-sezut.mp4", "ss": 0.3, "d": 3.6, "speed": 1.0, "title": "Seated spinal twist"},
+  {"clip": "studio/montaj/_curat/incalzire-inchworm.mp4", "ss": 4.5, "d": 8.0, "speed": 1.8, "title": "Inchworm"}
+ ]}
