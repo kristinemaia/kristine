@@ -43,7 +43,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | mie 18 | 17:00 · Revo · After the gym (afiliat) ✏️ | Revo ✏️ |
 | joi 19 | 17:00 · **VirtuMe #1** · knows her vibe (AI + Paid partnership) ✏️ | VirtuMe #1 (dacă permite contractul) ✏️ |
 | vin 20 | 17:00 · Gamer hunch 🎬 | Gamer hunch 🎬 |
-| sâm 21 | — | clip din stream ✂️ |
+| sâm 21 | 18:00 · **K · Raid night fuel** · Tuna spinach spaghetti (stilul estetic) ✏️ | Raid night fuel ✏️ |
 | dum 22 | 18:00 · Overhead reach test 🎬 | Overhead reach test 🎬 |
 
 ### Săptămâna 23–29 nov
@@ -67,10 +67,10 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 ### Când programezi
 - [x] **Instagram, programat pe 3 nov:** Dope Rope (6) · C2 (8) · G1 (9) · B3 (10) · Bewit (11) · G2 (15)
 - [x] **Instagram, programat pe 4 nov:** K4 (12) · B4 (13) (tot până pe 15 nov e programat)
-- [ ] **Instagram, oricând până pe 16 nov:** G3 (17) · Revo (18) · VirtuMe #1 (19) · G6 (23) · G4 (24) · VirtuMe #2 (25) · K2 (26)
+- [ ] **Instagram, oricând până pe 16 nov:** G3 (17) · Revo (18) · VirtuMe #1 (19) · **K spaghete (21)** · G6 (23) · G4 (24) · VirtuMe #2 (25) · K2 (26)
 - [x] **TikTok, programat pe 3 nov:** 4 · 5 · 6 (Dope Rope) · 9 (G1) · 15 (G2) · 17 (G3)
 - [x] **TikTok, programat pe 4 nov:** 7 · 8 · 10 · 11 · 12 · 13 · 14 (tot până pe 15 nov e programat)
-- [ ] **duminică 15 nov, TikTok:** 16 · 18–25 nov (17 e deja programat)
+- [ ] **duminică 15 nov, TikTok:** 16 · 18–25 nov (17 e deja programat; pe 21, spaghetele)
 - [ ] **marți 24 nov, TikTok:** 26 nov – 4 dec
 
 ---

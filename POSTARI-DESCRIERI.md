@@ -690,3 +690,24 @@ Doors open soon. Take the 2-minute quiz and join the waitlist → link in bio
 
 #customprogram #gymgirl #onlinecoaching #deskjob #mobility #gamerhealth
 ```
+
+### K · Sâm 21 nov, 18:00 · „Raid night fuel”: spaghete cu ton și spanac (Instagram + TikTok 19:00)
+Fișierul: `studio/montaj/out/K-tuna-spinach-spaghetti-estetic.mp4` (stilul estetic, 14,6 s). Muzica o pui din aplicație, la volum mic, ca să se audă sfârâitul.
+```
+Raid night fuel 🎮🍝
+15-minute tuna & spinach spaghetti for when the raid starts in 20 minutes.
+
+What you need:
+spaghetti · tuna · tomato paste · spices · spinach · grated cheese
+
+1. Cook the pasta al dente
+2. Tuna, tomato paste and spices in the pan
+3. A big handful of spinach
+4. Toss the pasta in
+5. Grated cheese on top
+
+Save it for your next WoW night ⚔️ Horde or Alliance? 👇
+
+#gamerfood #worldofwarcraft #easyrecipes #highprotein #quickdinner #mealprep
+```
+**Comentariul fixat:** „For the Horde or for the Alliance? Wrong answers only 😅”
