@@ -97,6 +97,25 @@ Din **luni 16 noiembrie** urmezi săptămâna obișnuită de mai jos.
 - **Săptămâna 21–27 dec e mai ușoară (deload):** aceleași exerciții și greutăți, dar cu o treime mai puține seturi (4 → 3, 3 → 2) și RIR 3. Revii normal din 28 dec.
 - **Abdomenul se vede din mâncare, nu din seturi.** 3 exerciții pe săptămână (unul la fiecare sesiune, mai puțin marți) sunt destule.
 
+## Câte calorii arzi
+| Antrenamentul | Cât durează | Arzi cam |
+|---|---|---|
+| **Picioare A** | ~70 min | **230–290 kcal** |
+| **Upper A** + intervalele | ~60 + 13 min | **260–330 kcal** (170–220 + 90–110) |
+| **Picioare B** | ~60 min | **200–260 kcal** |
+| **Upper B** | ~65 min | **180–230 kcal** |
+| Cardio ușor: **bandă**, mers alert 6–6,5 km/h | 35–40 min | **160–200 kcal** |
+| Cardio ușor: **eliptică** | 35–40 min | **180–220 kcal** |
+| **Stepper** | 25–30 min | **170–220 kcal** |
+| Cardio lung: **plimbare afară** | 60 min | **210–260 kcal** |
+| Bandă la 4,5 km/h (ca pe 11 nov) | 30 min | ~100–120 kcal |
+| **Pașii**, 8.000–10.000 pe zi | toată ziua | ~200–300 kcal |
+
+- **Sunt estimări pentru ~59 kg**, cu încălzirea. Ceasurile și aparatele din sală arată de obicei cu 20–40% mai mult.
+- **Sunt deja socotite în ținta ta de mâncare.** Menținerea ta (1.850–1.950 kcal) include cele 4 antrenamente, cardio-ul și pașii, iar ținta de 1.550–1.650 kcal e calculată din ea. Nu mănânci în plus după antrenament, iar dacă sari unul, nu mănânci mai puțin.
+- **Într-o săptămână obișnuită** antrenamentele ard cam 1.400–1.500 kcal.
+- **În jurnalul de antrenamente** le vezi la fiecare antrenament. La cardio se calculează din ce ai făcut, câte minute și cât de tare.
+
 ## Dacă lipsește un aparat
 | Lipsește | Faci |
 |---|---|
