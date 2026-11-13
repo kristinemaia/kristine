@@ -1,0 +1,12 @@
+{"out": "studio/montaj/out/K-tuna-spinach-spaghetti-estetic.mp4",
+ "title": "Tuna Spinach Spaghetti", "handle": "@kristinemaia11", "end_small": "Save this recipe", "end_d": 2.0,
+ "segs": [
+  {"clip": "studio/montaj/_curat/k-ton-farfuria.mp4", "audio": "studio/gatit/raw/k-ton-farfuria.mov", "ss": 5.5, "d": 1.3, "crop": "900:1600:90:200", "zoom": 0.05},
+  {"clip": "studio/montaj/_curat/k-ton-paste.mp4", "audio": "studio/gatit/raw/k-ton-paste.mov", "ss": 1.0, "d": 1.8, "speed": 1.4, "crop": "700:1244:90:578"},
+  {"clip": "studio/montaj/_curat/k-ton-sos.mp4", "audio": "studio/gatit/raw/k-ton-sos.mov", "ss": 1.5, "d": 1.6, "speed": 1.4, "crop": "640:1138:40:631"},
+  {"clip": "studio/montaj/_curat/k-ton-spanac.mp4", "audio": "studio/gatit/raw/k-ton-spanac.mov", "ss": 1.2, "d": 1.8, "speed": 1.4, "crop": "640:1138:240:431"},
+  {"clip": "studio/montaj/_curat/k-ton-paste-in-tigaie.mp4", "audio": "studio/gatit/raw/k-ton-paste-in-tigaie.mov", "ss": 1.0, "d": 1.8, "speed": 1.4, "crop": "640:1138:280:631"},
+  {"clip": "studio/montaj/_curat/k-ton-amestec.mp4", "audio": "studio/gatit/raw/k-ton-amestec.mov", "ss": 0.1, "d": 1.2, "speed": 1.0, "crop": "640:1138:140:471"},
+  {"clip": "studio/montaj/_curat/k-ton-in-tigaie.mp4", "audio": "studio/gatit/raw/k-ton-in-tigaie.mov", "ss": 0.2, "d": 1.6, "speed": 1.2, "crop": "640:1138:280:391"},
+  {"clip": "studio/montaj/_curat/k-ton-farfuria.mp4", "audio": "studio/gatit/raw/k-ton-farfuria.mov", "ss": 6.0, "d": 1.6, "crop": "900:1600:90:200", "zoom": 0.06}
+ ]}
