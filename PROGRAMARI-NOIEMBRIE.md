@@ -43,7 +43,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | mie 18 | 17:00 · Revo · After the gym (afiliat) ✏️ | Revo ✏️ |
 | joi 19 | 17:00 · **VirtuMe #1** · knows her vibe (AI + Paid partnership) ✏️ | VirtuMe #1 (dacă permite contractul) ✏️ |
 | vin 20 | 17:00 · Gamer hunch 🎬 | Gamer hunch 🎬 |
-| sâm 21 | 18:00 · **K · Raid night fuel** · Tuna spinach spaghetti (stilul estetic) ✏️ | Raid night fuel ✏️ |
+| sâm 21 | 18:00 · **K · Raid night fuel**: varianta câștigătoare din testul de miercuri, „Share to followers” ✏️ | Raid night fuel, câștigătoarea ✏️ |
 | dum 22 | 18:00 · Overhead reach test 🎬 | Overhead reach test 🎬 |
 
 ### Săptămâna 23–29 nov
@@ -61,6 +61,12 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | Ziua | Instagram | TikTok, 19:00 |
 |---|---|---|
 | lun 30 | 18:00 · First 20-minute gym session 🎬 | First 20-minute session 🎬 |
+
+**Test A/B cu trial reels pentru spaghete (miercuri 18 nov):**
+- [ ] 19:00 · **Trial A**: varianta estetică (`K-tuna-spinach-spaghetti-estetic.mp4`), cu muzică din aplicație
+- [ ] 19:15 · **Trial B**: varianta animată, cu voce (`K-tuna-spinach-spaghetti.mp4`), sunetul original la 100%, muzica foarte încet
+- aceeași descriere și aceleași hashtag-uri la amândouă, ca testul să fie corect
+- [ ] **sâmbătă 21 nov, înainte de 18:00:** compari în Insights: % urmărit (average watch time), skip rate, share-uri și save-uri la 1.000 de vizualizări. Câștigătoarea: „Share to followers” la 18:00; pe TikTok tot ea, la 19:00
 
 **Trial reels (în plus, doar pentru cine nu te urmărește):** 2 pe săptămână, cu alt hook pe G1–G4; ți le fac eu.
 
