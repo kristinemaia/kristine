@@ -12,9 +12,12 @@ GRADE = ("hqdn3d=1.5:1.5:6:6,curves=master='0/0 0.15/0.13 0.5/0.48 0.8/0.75 1/0.
 def dur(p): return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout)
 # pentru clipurile filmate în lumină slabă: ridică umbrele și expunerea înainte de culoare, zgomot redus mai tare
 LUMINOS = "hqdn3d=3:3:8:8,eq=gamma=1.22:brightness=0.035:saturation=1.05,"
-def ruleaza(src, out, luminos=False):
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', 'fps=30,scale=1080:1920:flags=lanczos,%s%s,format=yuv420p' % (LUMINOS if luminos else '', GRADE), '-an',
+# mâncare: puțin mai cald și mai viu (crusta, sosul, verdele), fără să înroșească pielea
+MANCARE = ",eq=saturation=1.12:contrast=1.04,colorbalance=rm=0.025:bm=-0.025:rs=0.01:bs=-0.015"
+
+def ruleaza(src, out, luminos=False, mancare=False):
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vf', 'fps=30,scale=1080:1920:flags=lanczos,%s%s%s,format=yuv420p' % (LUMINOS if luminos else '', GRADE, MANCARE if mancare else ''), '-an',
                     '-c:v', 'libx264', '-preset', 'medium', '-crf', '15', '-movflags', '+faststart', out], check=True)
     print('curat:', out)
 if __name__ == '__main__':
-    ruleaza(sys.argv[1], sys.argv[2], '--luminos' in sys.argv)
+    ruleaza(sys.argv[1], sys.argv[2], '--luminos' in sys.argv, '--mancare' in sys.argv)

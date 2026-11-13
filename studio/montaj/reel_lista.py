@@ -144,7 +144,7 @@ def make_voice(S, tmp):
     return vo
 
 def seg_item(S, tmp, i, it, last):
-    png = os.path.join(tmp, 't%d.png' % i); title_png('%d. %s' % (i + 1, it['title']), it.get('chip'), png)
+    png = os.path.join(tmp, 't%d.png' % i); title_png(('%d. %s' % (i + 1, it['title'])) if it.get('number', True) else it['title'], it.get('chip'), png)
     sp = it.get('speed', 1.0); dur = it['d'] / sp; ev = []
     fc = '[0:v]setpts=(PTS-STARTPTS)/%.3f,fps=30,scale=1080:1920,setsar=1%s[v];' % (sp, punch(S))
     fc += "[1:v]format=rgba,fade=t=in:st=0:d=0.12:alpha=1[t];[v][t]overlay=x=0:y='-60*max(0\\,1-t/0.16)'[a]"

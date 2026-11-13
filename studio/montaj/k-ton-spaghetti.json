@@ -1,0 +1,23 @@
+{"out": "studio/montaj/out/K-tuna-spinach-spaghetti.mp4",
+ "punch": true, "sfx": true, "progress": true, "orig_gain": 8,
+ "voice": {"name": "af_heart", "speed": 1.08},
+ "intro": {"clip": "studio/montaj/_curat/k-ton-farfuria.mp4", "ss": 5.2, "d": 1.4, "freeze": 1.2,
+           "text": ["POV: mid-raid in WoW", "and you're starving.", "15-min tuna spinach spaghetti:"], "emoji": "🎮",
+           "vo": "POV: you're mid-raid in WoW, and you're starving. Fifteen-minute tuna spinach spaghetti."},
+ "items": [
+  {"clip": "studio/montaj/_curat/k-ton-paste.mp4", "audio": "studio/gatit/raw/k-ton-paste.mov", "ss": 0.5, "d": 3.2, "speed": 1.25,
+   "title": "Spaghetti", "chip": "cook it al dente", "emoji": "🍝", "vo": "Pasta first."},
+  {"clip": "studio/montaj/_curat/k-ton-sos.mp4", "audio": "studio/gatit/raw/k-ton-sos.mov", "ss": 1.0, "d": 3.0, "speed": 1.3,
+   "title": "Tuna + tomato", "chip": "tuna, tomato paste, spices", "emoji": "🐟", "vo": "Tuna, tomato paste, a little spice."},
+  {"clip": "studio/montaj/_curat/k-ton-in-tigaie.mp4", "audio": "studio/gatit/raw/k-ton-in-tigaie.mov", "ss": 0.1, "d": 2.3, "speed": 1.0,
+   "title": "Into the pan", "chip": "medium heat, 2 minutes", "emoji": "🔥", "vo": "Into the pan."},
+  {"clip": "studio/montaj/_curat/k-ton-spanac.mp4", "audio": "studio/gatit/raw/k-ton-spanac.mov", "ss": 1.0, "d": 3.6, "speed": 1.3,
+   "title": "Spinach", "chip": "a big handful", "emoji": "🥬", "vo": "A big handful of spinach."},
+  {"clip": "studio/montaj/_curat/k-ton-paste-in-tigaie.mp4", "audio": "studio/gatit/raw/k-ton-paste-in-tigaie.mov", "ss": 0.5, "d": 4.5, "speed": 1.4,
+   "title": "Toss it all", "chip": "pasta in, mix well", "emoji": "🙌", "vo": "Toss the pasta in. Done."},
+  {"clip": "studio/montaj/_curat/k-ton-farfuria.mp4", "audio": "studio/gatit/raw/k-ton-farfuria.mov", "ss": 2.6, "d": 3.0, "speed": 1.0,
+   "title": "Back to the raid", "chip": "dinner in 15 minutes", "emoji": "⚔️", "number": false, "vo": "And back to the raid."}
+ ],
+ "end": {"lines": ["Would you eat this", "between games?"], "small": "Comment YES or NO · Follow for more gamer food", "emoji": "👇", "d": 2.8,
+         "vo": "Would you eat this between games? Comment yes or no."}
+}
