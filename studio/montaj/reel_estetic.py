@@ -34,13 +34,14 @@ def end_png(frame, handle, small, path):
     """ultimul cadru, întunecat, cu o pictogramă de cameră desenată, contul și un rând mic"""
     im = Image.open(frame).convert('RGBA').resize((1080, 1920)).filter(ImageFilter.GaussianBlur(6))
     im = Image.alpha_composite(im, Image.new('RGBA', im.size, (12, 8, 10, 165))); d = ImageDraw.Draw(im)
-    cx, cy, s = 540, 880, 120
-    d.rounded_rectangle([cx - s / 2, cy - s / 2, cx + s / 2, cy + s / 2], 34, outline=(255, 255, 255, 255), width=9)
-    d.ellipse([cx - 27, cy - 27, cx + 27, cy + 27], outline=(255, 255, 255, 255), width=9); d.ellipse([cx + 28, cy - 42, cx + 42, cy - 28], fill=(255, 255, 255, 255))
-    f = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 40); w = spaced_w(d, handle, f, 2); spaced(d, ((1080 - w) / 2, 980), handle, f, (255, 255, 255, 255), 2)
+    if handle:   # pictograma de cameră + contul (doar dacă specul are „handle”)
+        cx, cy, s = 540, 880, 120
+        d.rounded_rectangle([cx - s / 2, cy - s / 2, cx + s / 2, cy + s / 2], 34, outline=(255, 255, 255, 255), width=9)
+        d.ellipse([cx - 27, cy - 27, cx + 27, cy + 27], outline=(255, 255, 255, 255), width=9); d.ellipse([cx + 28, cy - 42, cx + 42, cy - 28], fill=(255, 255, 255, 255))
+        f = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 40); w = spaced_w(d, handle, f, 2); spaced(d, ((1080 - w) / 2, 980), handle, f, (255, 255, 255, 255), 2)
     if small:
-        f2 = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 30); t = small.upper(); w2 = spaced_w(d, t, f2, 3)
-        spaced(d, ((1080 - w2) / 2, 1050), t, f2, (255, 255, 255, 200), 3)
+        f2 = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 30 if handle else 44); t = small.upper(); w2 = spaced_w(d, t, f2, 3 if handle else 5)
+        spaced(d, ((1080 - w2) / 2, 1050 if handle else 930), t, f2, (255, 255, 255, 200 if handle else 240), 3 if handle else 5)
     im.save(path)
 
 def main(spec):
