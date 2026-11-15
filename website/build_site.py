@@ -310,7 +310,7 @@ home = """
     </div>
 
     <div class="intro">
-      <p>I'm <strong>Kristine</strong>. I have a degree in Physical Education and Sport and coach mobility. When I game on Twitch, we stop for a 2-minute stretch every hour. Your turn.</p>
+      <p>I'm <strong>Kristine</strong>. I studied Physical Education and Sport and coach mobility. When I game on Twitch, we stop for a 2-minute stretch every hour. Your turn.</p>
       <p class="small"><a href="#free">Or skip to the free 5-minute desk stretch</a></p>
     </div>
   </div>
@@ -352,7 +352,7 @@ home = """
       <h2 id="me-title">Hi, I'm Kristine. I sit for a living too.</h2>
       <p>Twitch Partner, 72K followers, 5 years live. My chat kept telling me about stiff necks, sore wrists and whatever food was closest. So we work on it together, a few minutes at a time.</p>
       <ul class="creds">
-        <li>Degree in Physical Education and Sport</li>
+        <li>Studied Physical Education and Sport</li>
         <li>Mobility &amp; recovery coach</li>
       </ul>
       <p><a class="tl" href="about.html">More about me</a></p>
@@ -624,7 +624,7 @@ training = """
     <div class="prose">
       <p class="lead">I'm Kristine. I stream for hours, so I know exactly how a long day in a chair feels.</p>
       <ul class="creds">
-        <li>Degree in Physical Education and Sport</li>
+        <li>Studied Physical Education and Sport</li>
         <li>I've written personalized training plans and run online workout challenges</li>
         <li>5 years live on Twitch, with a stretch break every hour for a community of 72,000</li>
       </ul>
@@ -637,7 +637,7 @@ training = """
 <section class="wrap block pt-s" aria-labelledby="tfaq-title">
   <div class="block-head"><p class="kicker">Questions</p><h2 id="tfaq-title">Before you start</h2></div>
   <div class="faq">
-    <details><summary>Is this medical treatment?</summary><p>No. I have a degree in Physical Education and Sport and coach mobility and strength. This is general exercise and education. If you have pain, an injury or a medical condition, see a doctor first.</p></details>
+    <details><summary>Is this medical treatment?</summary><p>No. I studied Physical Education and Sport and coach mobility and strength. This is general exercise and education. If you have pain, an injury or a medical condition, see a doctor first.</p></details>
     <details><summary>Will this help me lose weight?</summary><p>The Shape Up track combines strength, short cardio and daily movement, which supports fat loss together with how you eat. I don't promise kilos or write diets. For personal nutrition, talk to a dietitian.</p></details>
     <details><summary>I'm a complete beginner. Is it for me?</summary><p>Yes. The beginner plans start with short sessions and simple moves, and every exercise has an easier option.</p></details>
     <details><summary>Home or gym?</summary><p>Both work. Every workout has a gym version and a home version, and you can mix them in the same week.</p></details>
@@ -900,7 +900,7 @@ shop = """
 <section class="wrap block pt-s" aria-labelledby="faq-title">
   <div class="block-head"><p class="kicker">Questions</p><h2 id="faq-title">Before you buy</h2></div>
   <div class="faq">
-    <details><summary>Is this medical treatment?</summary><p>No. I have a degree in Physical Education and Sport and coach mobility. Everything here is general exercise and education, not a diagnosis or treatment. If you have pain or an injury, see a doctor.</p></details>
+    <details><summary>Is this medical treatment?</summary><p>No. I studied Physical Education and Sport and coach mobility. Everything here is general exercise and education, not a diagnosis or treatment. If you have pain or an injury, see a doctor.</p></details>
     <details><summary>How does online coaching work?</summary><p>You tell me your goal, your schedule and what equipment you have. I build your plan, you train and send me short videos of your sets, and every week I check your form and adjust the plan. It is exercise coaching, not treatment.</p></details>
     <details><summary>Can you write me a meal plan?</summary><p>No. I'm not a dietitian, so I don't write personal meal plans. I share general food ideas, like the quick recipes in my e-book.</p></details>
     <details><summary>Do I need equipment?</summary><p>A chair, a wall and a bit of floor space. Some routines use a resistance band, which is optional.</p></details>
@@ -980,11 +980,11 @@ about = """
     <div class="portrait"><img src="assets/kristine-about.jpg" alt="Kristine Maia, standing against a white wall" width="900" height="1125"></div>
     <div class="prose">
       <p class="lead">I help people who sit all day move better, recover faster and eat well, without making it complicated.</p>
-      <p>I've streamed on Twitch for five years and built a community of 72,000 people around the world. I studied sport: I hold a degree in Physical Education and Sport, and I coach mobility and recovery for people who sit all day.</p>
+      <p>I've streamed on Twitch for five years and built a community of 72,000 people around the world. I studied Physical Education and Sport at university, and I coach mobility and recovery for people who sit all day.</p>
       <p>On stream I train, cook, paint and play games. Over the years my chat kept telling me the same thing: stiff necks, sore wrists, tight hips, too much takeaway. So I started doing something about it live, two minutes at a time. That became the hourly stretch break when I game, and it's what everything on this site is built on.</p>
       <h2>What I am</h2>
       <ul class="creds">
-        <li>Degree in Physical Education and Sport</li>
+        <li>Studied Physical Education and Sport</li>
         <li>Mobility &amp; recovery coach</li>
       </ul>
       <p class="muted">I'm not a medical professional, and nothing here is medical advice, a diagnosis or a treatment.</p>
@@ -996,7 +996,7 @@ about = """
 page(
     "about.html",
     "About Kristine Maia",
-    "Degree in Physical Education and Sport, mobility coach and Twitch Partner helping people who sit all day.",
+    "Studied Physical Education and Sport, mobility coach and Twitch Partner helping people who sit all day.",
     about,
 )
 
@@ -1054,7 +1054,7 @@ legal = """
     <h2>Who runs this site</h2>
     <p class="muted">[TODO: denumirea firmei], CUI [TODO], [TODO: sediul]. Contact: {EMAIL}.</p>
     <h2>Not medical advice</h2>
-    <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I have a degree in Physical Education and Sport and coach mobility, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
+    <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I studied Physical Education and Sport and coach mobility, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
     <h2>Privacy</h2>
     <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers (including your first name and age) stay on your device. If you tap “Join your custom program” after the quiz, your email app opens with your name, your plan and any note you wrote; nothing is sent unless you choose to send that email, and your health answers are never included. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>

@@ -71,7 +71,7 @@ YouTube are un program-pilot, „Second chance”: după **un an** de la închid
 >
 > My channel [numele canalului / linkul] was terminated on [data]. I have read the Community Guidelines and I understand why my channel was reviewed.
 >
-> Today my content is focused on mobility, stretching and quick healthy meals for people who sit all day. I hold a degree in Physical Education and Sport and I stream this content live on Twitch (twitch.tv/kristinemaia).
+> Today my content is focused on mobility, stretching and quick healthy meals for people who sit all day. I studied Physical Education and Sport and I stream this content live on Twitch (twitch.tv/kristinemaia).
 >
 > If my channel is reinstated, I will remove or set to private any older video that does not follow the guidelines, and I will publish only educational fitness and cooking content.
 >

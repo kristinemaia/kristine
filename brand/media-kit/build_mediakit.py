@@ -68,7 +68,7 @@ def html(photo):
 <div class="head"><div><h1>Kristine<br>Maia</h1><p class="tag">Mobility, recovery &amp; good food for people who sit all day</p>
 <div class="chips"><span style="background:var(--blue);color:var(--blue-ink)">Desk stretches</span><span style="background:var(--mint);color:var(--mint-ink)">Recipes</span><span style="background:var(--lilac);color:var(--lilac-ink)">Recovery</span></div></div><div class="photo"></div></div>
 <div class="stats">{stat_tiles()}</div>
-<div class="two"><div><h2>About</h2><p>I'm a Twitch Partner who streams four times a week and shows gamers and desk workers simple ways to move and recover. My streams mix gaming, a stretch break every hour, workouts and cooking, and my chat joins in.</p><p style="margin-top:2mm">I have a degree in Physical Education and Sport, and I'm a certified recovery massage therapist and mobility &amp; recovery coach.</p>{aud}</div>
+<div class="two"><div><h2>About</h2><p>I'm a Twitch Partner who streams four times a week and shows gamers and desk workers simple ways to move and recover. My streams mix gaming, a stretch break every hour, workouts and cooking, and my chat joins in.</p><p style="margin-top:2mm">I studied Physical Education and Sport, and I'm a certified recovery massage therapist and mobility &amp; recovery coach.</p>{aud}</div>
 <div><h2>Best fit for</h2><ul><li>Ergonomic desk and gaming gear</li><li>Mobility and recovery tools</li><li>Fitness accessories</li><li>Everyday nutrition and healthy food</li></ul></div></div>
 <div><h2>What we can do together</h2><div class="cards">
 <div class="card" style="background:var(--blue)"><b>Sponsored live segment</b><p>A short, natural moment in my stream: I use your product on camera and the chat sees it live.</p></div>

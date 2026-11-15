@@ -26,7 +26,7 @@ _Le filmezi acasă, la un perete alb (sau la sală, într-un colț liniștit), c
 > Stretching should feel like a gentle pull, never sharp pain.
 > If something hurts, stop that exercise and try the easier option. If pain stays, see a doctor or a physio.
 > If you're pregnant, had surgery recently or have a heart condition, ask your doctor first.
-> I'm a coach with a degree in Physical Education and Sport, not a doctor, so this is general exercise, not medical advice.
+> I'm a coach who studied Physical Education and Sport, not a doctor, so this is general exercise, not medical advice.
 
 ## 4. How to film your form (cum îți filmezi forma) · ~60 s
 - [ ] filmat

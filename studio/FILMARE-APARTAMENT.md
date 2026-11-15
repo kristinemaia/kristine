@@ -85,7 +85,7 @@ Albul (jacheta crem, maioul, setul alb) și gri-lila cu decolteu în V rămân p
 [prima linie, din fiecare reel]
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 ```
 

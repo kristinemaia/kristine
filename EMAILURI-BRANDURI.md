@@ -23,7 +23,7 @@ Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul î
 >
 > Hi FlexiSpot team,
 >
-> I'm Kristine Maia, a Twitch Partner with 72K followers, plus 12.7K on Instagram (142K views in the last 30 days). I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and a mobility & recovery coach, and my streams mix relaxed gaming with a 2-minute stretch break every hour.
+> I'm Kristine Maia, a Twitch Partner with 72K followers, plus 12.7K on Instagram (142K views in the last 30 days). I studied Physical Education and Sport, I'm a certified recovery massage therapist and a mobility & recovery coach, and my streams mix relaxed gaming with a 2-minute stretch break every hour.
 >
 > My audience sits 6–10 hours a day, and my whole channel is about undoing that. A standing desk is the one piece of furniture I'd genuinely recommend to them.
 >
@@ -42,7 +42,7 @@ Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul î
 >
 > Hi Therabody team,
 >
-> I'm Kristine Maia. I have a degree in Physical Education and Sport, I'm a certified recovery massage therapist and mobility & recovery coach. I stream on Twitch to 72K followers and show people who sit all day simple ways to move and recover.
+> I'm Kristine Maia. I studied Physical Education and Sport, I'm a certified recovery massage therapist and mobility & recovery coach. I stream on Twitch to 72K followers and show people who sit all day simple ways to move and recover.
 >
 > Gamers and desk workers almost never think about recovery, and that is the gap I fill. I'd like to show my community how I use a Theragun on the areas that get tight after long sessions (forearms and upper back), as general information, not medical advice.
 >
@@ -61,7 +61,7 @@ Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul î
 >
 > Hi Huel team,
 >
-> I'm Kristine Maia, a Twitch Partner (72K followers) with a degree in Physical Education and Sport. I run a weekly "Cook with me" stream where I make quick, healthy meals for people who game or work long hours at a desk.
+> I'm Kristine Maia, a Twitch Partner (72K followers) who studied Physical Education and Sport. I run a weekly "Cook with me" stream where I make quick, healthy meals for people who game or work long hours at a desk.
 >
 > The real problem my community has is eating badly on long days. I'd love to show an honest "6-hour stream day" with Huel built in, next to my own recipes, so viewers see a realistic routine, not a perfect one.
 >
@@ -80,7 +80,7 @@ Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul î
 >
 > Hi Myprotein team,
 >
-> I'd like to apply for your ambassador scheme. I'm Kristine Maia, a Twitch Partner with 72K followers, with a degree in Physical Education and Sport, and I cook quick, high-protein meals live on stream for people who sit all day.
+> I'd like to apply for your ambassador scheme. I'm Kristine Maia, a Twitch Partner with 72K followers, who studied Physical Education and Sport, and I cook quick, high-protein meals live on stream for people who sit all day.
 >
 > My profiles:
 > Twitch: twitch.tv/kristinemaia
@@ -101,7 +101,7 @@ Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul î
 >
 > Hi Manduka team,
 >
-> I'm Kristine Maia, a Twitch Partner (72K followers) with a degree in Physical Education and Sport. Every Monday I run a live mobility session for gamers and desk workers, people who would never walk into a yoga studio but desperately need to move.
+> I'm Kristine Maia, a Twitch Partner (72K followers) who studied Physical Education and Sport. Every Monday I run a live mobility session for gamers and desk workers, people who would never walk into a yoga studio but desperately need to move.
 >
 > I'd like to bring Manduka into that weekly session: the mat would be on screen every Monday, plus 2 follow-along reels ("5-minute desk reset", "hips after a long stream"), with a code for my community.
 >
@@ -118,7 +118,7 @@ Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul î
 >
 > Hi Logitech team,
 >
-> I'm Kristine Maia, a Twitch Partner with 72K followers, with a degree in Physical Education and Sport and a certified recovery massage therapist. Tired wrists and forearms come up in my chat all the time, and my content shows simple moves and setup changes that make long sessions more comfortable.
+> I'm Kristine Maia, a Twitch Partner with 72K followers, who studied Physical Education and Sport and a certified recovery massage therapist. Tired wrists and forearms come up in my chat all the time, and my content shows simple moves and setup changes that make long sessions more comfortable.
 >
 > I'd love to pair those wrist routines with Logitech's ergonomic range: a sponsored stream segment where I switch my setup live, plus 2 reels on comfortable setups for gamers, with a code for my community.
 >
@@ -132,7 +132,7 @@ Pentru formulare (FlexiSpot, Therabody, Manduka, Logitech) folosești emailul î
 
 ## Versiunea scurtă, pentru formulare (FlexiSpot, Therabody, Manduka, Logitech)
 
-> I'm Kristine Maia, a Twitch Partner (72K followers, 12.7K on Instagram) with a degree in Physical Education and Sport. I'm a certified recovery massage therapist and mobility & recovery coach, and my content teaches gamers and desk workers simple ways to move and recover. I'd love to create a sponsored stream segment and 2 short reels around [product/brand], with a code for my community. Happy to send my media kit.
+> I'm Kristine Maia, a Twitch Partner (72K followers, 12.7K on Instagram) who studied Physical Education and Sport. I'm a certified recovery massage therapist and mobility & recovery coach, and my content teaches gamers and desk workers simple ways to move and recover. I'd love to create a sponsored stream segment and 2 short reels around [product/brand], with a code for my community. Happy to send my media kit.
 > twitch.tv/kristinemaia · instagram.com/kristinemaia11 · kristinemaia527@gmail.com
 
 ## Mesajul de revenire (după 7 zile, o singură dată)

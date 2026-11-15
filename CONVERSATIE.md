@@ -27,7 +27,7 @@ _10–17 octombrie 2026 · rezumat în ordine cronologică. Conversația complet
 ## 5. Numele și titlurile
 **Ce mi-ai spus:** Kristine Maia pe Twitch și Instagram, Iorga Cristiana pentru terapie. Kinetoterapia n-ai terminat-o. Nu ai certificare de yoga. Clienții de terapie te găsesc tot prin Kristine Maia.
 
-**Ce am răspuns:** nu ștergi numele Kristine Maia, îl umpli cu conținut nou. Te prezinți corect: *licențiată în Educație Fizică și Sport, terapeut certificat în masaj de recuperare*. Nu folosești „kinetoterapeut” și nici „instructor de yoga”. O certificare de yoga de 200 de ore (Yoga Alliance) merită luată mai târziu.
+**Ce am răspuns:** nu ștergi numele Kristine Maia, îl umpli cu conținut nou. Te prezinți corect: *absolventă de Educație Fizică și Sport (fără examenul de licență), terapeut certificat în masaj de recuperare*. Nu folosești „kinetoterapeut” și nici „instructor de yoga”. O certificare de yoga de 200 de ore (Yoga Alliance) merită luată mai târziu.
 
 ## 6. Terapia: socoteala
 **Ce mi-ai spus:** lista de prețuri KM Wellness Concept: 250 lei pe zonă, 500 lei full body, 180 lei dry needling sau ventuze, 200 lei masaj capilar, 220 lei reiki. Ai avut 1 client în 2 săptămâni. Cheltuielile reale: chirie 650 €, utilități 100–150 €, trai 2–3.000 lei, alte cheltuieli ~1.000 lei. Proprietarul nu acceptă o lună de test. Ai firmă cu cod CAEN, îți lipsește casa de marcat. Camera de terapie arată profesionist. Nu vrei să scazi prețurile. Donațiile sunt cam +500 €/lună.

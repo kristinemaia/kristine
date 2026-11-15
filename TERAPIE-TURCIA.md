@@ -3,7 +3,7 @@
 _15 noiembrie 2026. Am pornit de la ce am găsit pe web, cu surse turcești; nu e consultanță juridică. Verifici totul cu un avocat turc specializat pe „çalışma izni” (permis de muncă pentru străini), înainte de prima ședință, chiar și gratuită._
 
 ## Ce ai tu
-- **Licență în Educație Fizică și Sport**
+- **Absolventă de Educație Fizică și Sport, fără examenul de licență.** Deci nu ai încă diplomă de licență, doar dovada că ai absolvit.
 - **Certificate:** masaj de recuperare (medical), dry needling, ventuzoterapie, terapie energetică (reiki)
 - **2 ani de kinetoterapie, neterminată.** Deci nu ești fizioterapeut, iar în Turcia asta contează mult.
 - **Firma din România** (KRISTINE MAIA CONCEPT SRL), cu cod CAEN pentru masaj
@@ -24,7 +24,7 @@ _15 noiembrie 2026. Am pornit de la ce am găsit pe web, cu surse turcești; nu 
    - autorizația sălii (de la Ministerul Tineretului și Sportului) și dacă include masaj sportiv;
    - de regulă, **cel puțin 5 angajați turci** pentru fiecare străin, plus capitalul minim și cifra de afaceri cerute (criteriile s-au schimbat în octombrie 2024; le confirmă avocatul);
    - un **salariu oferit** peste un prag minim (pentru masori, unele surse spun de 2 ori salariul minim).
-3. **Actele tale:** diploma și certificatele cu **apostilă** (se face în România, la Prefectură sau la Camera Notarilor), apoi **traducere legalizată în turcă**.
+3. **Actele tale:** certificatele de masaj cu **apostilă** (diplomă de licență încă nu ai) (se face în România, la Prefectură sau la Camera Notarilor), apoi **traducere legalizată în turcă**.
 4. **Calificarea de masor în Turcia:** fie recunoașterea certificatului tău (echivalare prin Ministerul Educației, MEB), fie examenul **MYK „Masaj Uygulayıcısı Seviye 3”** la un centru autorizat. Afli dacă examenul se poate da în engleză.
 5. **Permisul de ședere** (ikamet), prin e-ikamet, **înainte să se termine cele 90 de zile** (în jur de 17–20 ianuarie 2027). Fără el nu mai poți sta, cu sau fără muncă.
 6. **Permisul de muncă**, cerut de sală (angajatorul) online, la Ministerul Muncii. Odată aprobat, ține loc și de permis de ședere. Te înregistrează apoi la asigurările sociale (SGK).

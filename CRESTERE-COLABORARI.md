@@ -13,11 +13,11 @@ _30 octombrie 2026. Documentul de bază pentru influență reală și bani din c
 ---
 
 ## 1. Poziționarea: o singură propoziție, peste tot
-**„Fitness for people who sit all day.”** Gameri, streameri și oameni care lucrează la birou. Tu ești antrenoarea licențiată care stă și ea 5 ore pe zi pe scaun, în stream, și știe cum se simte.
+**„Fitness for people who sit all day.”** Gameri, streameri și oameni care lucrează la birou. Tu ești antrenoarea cu studii de sport care stă și ea 5 ore pe zi pe scaun, în stream, și știe cum se simte.
 
 **Bio pe Instagram (propunere):**
 > Fitness for people who sit all day 🎮💻
-> Licensed PE coach · Twitch Partner
+> Mobility coach with a sports background · Twitch Partner
 > Free 5-minute desk stretch ↓
 
 _Până se termină Custom Program (ianuarie), linkul din bio duce la **kristinemaia.com** (PDF-ul gratuit). Abia la lansare devine „Build your custom program”._

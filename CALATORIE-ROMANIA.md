@@ -15,7 +15,7 @@ Sfântul Andrei (luni 30 nov) și Ziua Națională (marți 1 dec) sunt zile libe
 - [ ] depui actele și **ceri număr de înregistrare** (sau o copie ștampilată)
 
 ## Actele pentru masaj în Turcia (pentru permisul de muncă)
-- [ ] **apostila** pe diplomă (Educație Fizică și Sport) și pe certificatul de masaj: la Prefectură sau la Camera Notarilor. Dacă certificatul e de la un curs privat, faci întâi o copie legalizată la notar, apoi apostila pe ea.
+- [ ] **apostila** pe certificatul de masaj de recuperare (diplomă de licență încă nu ai): la Prefectură sau la Camera Notarilor. Dacă certificatul e de la un curs privat, faci întâi o copie legalizată la notar, apoi apostila pe ea.
 - [ ] ia câte 2 copii din fiecare; traducerea legalizată în turcă o poți face și în Turcia
 
 ## Plasturii contraceptivi

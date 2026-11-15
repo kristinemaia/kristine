@@ -59,7 +59,7 @@ _18 octombrie 2026. Fiecare postare are o singură casetă: descrierea completă
 Neck stiff after a long session? Try these 3 before your next match.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #neckstretch #gamerhealth #deskstretch #mobility #stretchbreak
@@ -70,7 +70,7 @@ Free 5-minute desk stretch → link in bio
 One minute, no equipment. Save it for your next queue.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #stretchbreak #deskstretch #gamerhealth #mobility #workfromhome
@@ -81,7 +81,7 @@ Free 5-minute desk stretch → link in bio
 Long mouse sessions? Give your wrists 30 seconds.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #wriststretch #gamerhealth #deskstretch #mobility #officeworker
@@ -92,7 +92,7 @@ Free 5-minute desk stretch → link in bio
 Before the first match or the first email: 60 seconds for your body.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #morningroutine #deskstretch #mobility #gamerhealth #stretchbreak
@@ -103,7 +103,7 @@ Free 5-minute desk stretch → link in bio
 Off the chair, onto the floor: 3 moves for your hips.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #hipmobility #gamerhealth #mobility #stretching #afterwork
@@ -114,7 +114,7 @@ Free 5-minute desk stretch → link in bio
 For the end of a long desk day. Slow and gentle.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #lowerback #mobility #deskjob #stretching #gamerhealth
@@ -125,7 +125,7 @@ Free 5-minute desk stretch → link in bio
 For the gamer hunch: 3 moves, no equipment.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #upperback #shouldermobility #gamerhealth #mobility #deskstretch
@@ -136,7 +136,7 @@ Free 5-minute desk stretch → link in bio
 One minute before the first match. Your hands will thank you.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #warmup #gamerhealth #mobility #stretchbreak #twitchstreamer
@@ -168,7 +168,7 @@ Try these 3 small fixes:
 Free 5-minute desk stretch → link in bio
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 
 #neckpain #gamerhealth #deskstretch #mobility #stretchbreak #streamerlife
 ```
@@ -290,7 +290,7 @@ Your desk in 10 seconds: 3 checks. 🖥️
 A comfortable setup, not a perfect one.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #desksetup #ergonomics #deskjob #gamersetup #workfromhome
@@ -331,7 +331,7 @@ Mouse hand tired? Check this first. 🖱️
 Wrist in line with the forearm, mouse close, elbow by your side, then this stretch.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #mousehand #wriststretch #gamerhealth #deskjob #officeworker
@@ -368,7 +368,7 @@ Why your neck feels stiff after 4 hours of gaming. You don't need a perfect post
 Try one minute every hour.
 
 General mobility, not medical advice. If you have pain or an injury, check with a doctor first.
-Kristine Maia · degree in Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
+Kristine Maia · studied Physical Education and Sport · certified recovery massage therapist · mobility & recovery coach
 Free 5-minute desk stretch → link in bio
 
 #neckstretch #gamerhealth #deskjob #mobility #posture
