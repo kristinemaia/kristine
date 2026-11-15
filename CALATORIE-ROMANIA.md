@@ -14,6 +14,10 @@ Sfântul Andrei (luni 30 nov) și Ziua Națională (marți 1 dec) sunt zile libe
 - [ ] pregătești actele (originale + copii) și buletinul
 - [ ] depui actele și **ceri număr de înregistrare** (sau o copie ștampilată)
 
+## Actele pentru masaj în Turcia (pentru permisul de muncă)
+- [ ] **apostila** pe diplomă (Educație Fizică și Sport) și pe certificatul de masaj: la Prefectură sau la Camera Notarilor. Dacă certificatul e de la un curs privat, faci întâi o copie legalizată la notar, apoi apostila pe ea.
+- [ ] ia câte 2 copii din fiecare; traducerea legalizată în turcă o poți face și în Turcia
+
 ## Plasturii contraceptivi
 - [ ] îți faci **programare din timp** la medicul care ți-i prescrie (medicul de familie sau ginecologul). În ultima săptămână din noiembrie se ocupă repede programările.
 - [ ] iei rețeta veche sau cutia, ca să știe exact ce folosești
