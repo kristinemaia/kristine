@@ -18,6 +18,7 @@ Dacă trebuie să mergi la ghișeu, mergi pe **26 sau 27 noiembrie**. Luni 30 no
 - [ ] depui actele și **ceri număr de înregistrare** (sau o copie ștampilată)
 
 ## Actele pentru masaj în Turcia (pentru permisul de muncă)
+- [ ] înainte de apostilă: Medboost îți corectează numele pe certificatul de masaj („Iorga Cristiana **Mariana**”, acum scrie „Maria”) și îți dau, dacă au, foaia cu orele și materiile
 - [ ] **apostila** pe certificatul de masaj de recuperare (diplomă de licență încă nu ai): la Prefectură sau la Camera Notarilor. Dacă certificatul e de la un curs privat, faci întâi o copie legalizată la notar, apoi apostila pe ea.
 - [ ] ia câte 2 copii din fiecare; traducerea legalizată în turcă o poți face și în Turcia
 

@@ -8,6 +8,22 @@ _15 noiembrie 2026. Am pornit de la ce am găsit pe web, cu surse turcești; nu 
 - **2 ani de kinetoterapie, neterminată.** Deci nu ești fizioterapeut, iar în Turcia asta contează mult.
 - **Firma din România** (KRISTINE MAIA CONCEPT SRL), cu cod CAEN pentru masaj
 
+## Certificatele tale, verificate (15 nov)
+| Certificat | De la | Data | Ce valoare are în Turcia |
+|---|---|---|---|
+| **Therapeutic Medical Massage Course** („Certificate of achievement”) | Medboost Academy (curs privat) | 13.04.2025 | Te ajută ca dovadă de pregătire, dar e un **certificat privat**: nu are ștampila Ministerului Muncii/Educației (ANC) și nu e o calificare națională. Probabil nu ajunge singur pentru permisul de muncă ca masor. **Numele e scris greșit: „Iorga Cristiana Maria” în loc de „Mariana”.** |
+| **Dry Needling** | Medboost Academy, trainer fizioterapeut Cristian Drosu | 14.09.2024 | Curs privat; în Turcia nu te ajută să faci dry needling (doar medici și fizioterapeuți) |
+| **Radiestezie** (masterclass online) | Life University | 14.05.2025 | Nu contează pentru permisul de muncă; nu îl folosești ca titlu de terapeut |
+
+**Ce lipsește:** o **calificare de masor recunoscută oficial**. Variante:
+1. **În România:** curs de **„Maseur”** autorizat ANC (cod COR 325501). Dă un certificat de calificare recunoscut în UE, cu supliment descriptiv (ore, materii), care se apostilează direct. Unele școli au variante intensive sau de weekend.
+2. **În Turcia:** examenul **MYK „Masaj Uygulayıcısı, Seviye 3”** (teorie și practică), la un centru autorizat. Afli dacă se poate da fără curs turcesc și în ce limbă.
+Avocatul turc îți spune care dintre ele e acceptată mai ușor pentru permisul de muncă.
+
+**De rezolvat cu Medboost:**
+- [ ] corectarea numelui pe certificatul de masaj („Mariana”, ca în buletin), altfel nu se poate folosi la apostilă și la traduceri
+- [ ] întrebi dacă au și **certificat ANC** sau o **foaie matricolă** cu numărul de ore și materiile (ajută la echivalare)
+
 ## Ce se poate și ce nu, în Turcia
 | Ce | Se poate? | De ce |
 |---|---|---|
