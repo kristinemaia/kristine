@@ -42,7 +42,7 @@ Avocatul turc îți spune care dintre ele e acceptată mai ușor pentru permisul
    - un **salariu oferit** peste un prag minim (pentru masori, unele surse spun de 2 ori salariul minim).
 3. **Actele tale:** certificatele de masaj cu **apostilă** (diplomă de licență încă nu ai) (se face în România, la Prefectură sau la Camera Notarilor), apoi **traducere legalizată în turcă**.
 4. **Calificarea de masor în Turcia:** fie recunoașterea certificatului tău (echivalare prin Ministerul Educației, MEB), fie examenul **MYK „Masaj Uygulayıcısı Seviye 3”** la un centru autorizat. Afli dacă examenul se poate da în engleză.
-5. **Permisul de ședere** (ikamet), prin e-ikamet, **înainte să se termine cele 90 de zile** (în jur de 17–20 ianuarie 2027). Fără el nu mai poți sta, cu sau fără muncă.
+5. **Permisul de ședere** (ikamet), prin e-ikamet, **înainte să se termine cele 90 de zile** (ultima zi: **13 ianuarie 2027**, cu drumul în România din 26–30 nov; cererea o faci până la jumătatea lui decembrie). Fără el nu mai poți sta, cu sau fără muncă.
 6. **Permisul de muncă**, cerut de sală (angajatorul) online, la Ministerul Muncii. Odată aprobat, ține loc și de permis de ședere. Te înregistrează apoi la asigurările sociale (SGK).
 7. **Contabila din România:** ce se întâmplă cu firma și cu impozitele dacă ai venit și în Turcia.
 
@@ -60,5 +60,5 @@ Avocatul turc îți spune care dintre ele e acceptată mai ușor pentru permisul
 6. Ce riscăm eu și sala dacă fac ședințe înainte de aprobare, chiar și gratuite?
 
 ## Zilele și impozitele: ce se resetează în 2027 și ce nu
-- **Regula de 90 din 180 de zile (fără viză) NU se resetează pe 1 ianuarie.** E o fereastră care „alunecă”: în fiecare zi se numără zilele petrecute în Turcia în ultimele 180. Zilele din noiembrie și decembrie 2026 contează și în ianuarie 2027. Cu drumul în România de la sfârșitul lui noiembrie, limita ta e în jur de **17–20 ianuarie 2027**.
+- **Regula de 90 din 180 de zile (fără viză) NU se resetează pe 1 ianuarie.** E o fereastră care „alunecă”: în fiecare zi se numără zilele petrecute în Turcia în ultimele 180. Zilele din noiembrie și decembrie 2026 contează și în ianuarie 2027. Cu drumul în România de la sfârșitul lui noiembrie, limita ta e **13 ianuarie 2027**.
 - **Rezidența fiscală (impozitele) se socotește pe an calendaristic.** În Turcia devii rezident fiscal dacă stai **mai mult de 6 luni într-un an calendaristic**. Pentru 2026 numărătoarea se oprește pe 31 decembrie, iar în 2027 începe de la zero. Contabila îți confirmă cum se leagă asta de rezidența ta în România.

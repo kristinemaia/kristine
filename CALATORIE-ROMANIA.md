@@ -1,18 +1,18 @@
-# Drumul în România (sfârșitul lui noiembrie)
+# Drumul în România: joi 26 – luni 30 noiembrie
 
 _10 noiembrie 2026. Datele exacte le pui când iei biletele. Bifezi pe telefon._
 
 ## Mâine, miercuri 11 noiembrie
 - [x] **ai sunat la primărie** și ai trimis actele pe email
-- [ ] **suni la notar:** ce acte trebuie să aduci și faci programare în zilele în care ești în România (25–27 nov sau după 2 dec)
+- [ ] **suni la notar:** ce acte trebuie să aduci și faci programare în zilele în care ești în România (joi 26 sau vineri 27 nov; sâmbăta și duminica notarii lucrează rar, iar 30 nov e sărbătoare)
 - [ ] **îi scrii contabilei:** factura pe noiembrie, că vii în România la sfârșitul lunii și dacă vă puteți vedea, și răspunsul scris despre munca din Turcia
-- [ ] **îți faci programare la unghii** pentru zilele în care ești în România (25–29 nov), ca să nu se suprapună cu primăria și notarul
+- [ ] **îți faci programare la unghii** pentru zilele în care ești în România (26–29 nov; sâmbăta 28 e cea mai liberă zi), ca să nu se suprapună cu primăria și notarul
 
 ## Luni 16 noiembrie
 - [ ] **suni din nou la Primăria 1 Decembrie** și le spui că ai trimis emailul cu actele pentru apartament. Întrebi dacă l-au primit, dacă le mai trebuie ceva și dacă mai e nevoie să vii la ghișeu.
 
 ## Primăria 1 Decembrie (actele pentru apartament)
-Dacă trebuie să mergi la ghișeu, mergi pe **26 sau 27 noiembrie**. Luni 30 nov (Sfântul Andrei) și marți 1 dec (Ziua Națională) sunt zile libere, deci primăria e închisă.
+Dacă trebuie să mergi la ghișeu, mergi **joi 26** (după aterizare, dacă ajungi la timp) sau **vineri 27 noiembrie**: e singura zi lucrătoare sigură, pentru că 28–29 e weekend. Luni 30 nov (Sfântul Andrei) și marți 1 dec (Ziua Națională) sunt zile libere, deci primăria e închisă.
 - [x] ai întrebat ce acte cer și le-ai trimis pe email
 - [ ] pregătești actele (originale + copii) și buletinul
 - [ ] depui actele și **ceri număr de înregistrare** (sau o copie ștampilată)
@@ -41,14 +41,15 @@ Dacă trebuie să mergi la ghișeu, mergi pe **26 sau 27 noiembrie**. Luni 30 no
 - [ ] (opțional) filmezi acolo ce nu poți filma în Turcia: videourile vorbite, dacă nu sunt gata, sau reel-uri în living
 
 ## Conținutul cât ești pe drum
-- [ ] **TikTok 26 nov – 4 dec:** îl programezi marți 24 nov, cum e deja în plan
+- [ ] **TikTok 26–30 nov:** îl programezi marți 24 nov, cum e deja în plan
 - [ ] **Instagram:** pe 27, 29 și 30 nov sunt în plan 3 reel-uri **încă nefilmate** (Things gamers do, Hip test 90/90, First 20-minute session). Le filmezi până pe 23 nov, ca să le montez și să le programezi înainte de zbor. Dacă nu ajungi, pun în locul lor G5 sau reel-urile de rezervă.
 - [ ] **Twitch:** anunți în chat și pe panou zilele fără stream (sau streamuri mai scurte din România)
 
 ## Zilele în Turcia (90 din 180)
 Până acum: 23–26 sept, 4–15 oct și de pe 29 oct încoace.
-- Dacă pleci pe **26 nov** și te întorci pe **4 dec**, poți sta în Turcia **cel mult până pe 17 ianuarie 2027**.
-- Dacă stai în România mai mult (de exemplu 25 nov – 6 dec), data se mută spre **20 ianuarie 2027**.
+- Drumul e **26–30 noiembrie**, deci poți sta în Turcia **cel mult până pe 13 ianuarie 2027**.
+- Ca să rămâi după, ceri **permisul de ședere pe e-ikamet până la jumătatea lui decembrie**.
+- Dacă pleci pe 13 ianuarie fără permis, poți reveni pentru puțin timp abia de pe ~1 aprilie, iar pentru 90 de zile întregi de pe ~mijlocul lui aprilie.
 - Ziua în care intri și ziua în care ieși se numără amândouă. Când ai datele exacte, îmi spui și recalculez.
 
 ## Microfonul pentru Cem
@@ -66,6 +67,6 @@ Până acum: 23–26 sept, 4–15 oct și de pe 29 oct încoace.
 - [ ] (opțional) camera Sony, dacă vrei calitate mai bună la filmările de acasă
 
 ## De notat pentru când te întorci în Turcia
-- **Următoarea ieșire din Turcia** trebuie să fie înainte de data limită de mai sus (~17–20 ianuarie). Ți-o planificăm din timp.
+- **Următoarea ieșire din Turcia** trebuie să fie înainte de data limită de mai sus (13 ianuarie 2027). Ți-o planificăm din timp.
 - Dacă ai primit în România răspunsul scris de la contabilă și avocat, deschidem vânzarea Custom Program și răspundem brandurilor (Trendyol rămâne pentru piața din Turcia, deci tot după răspuns).
 - Ce rămâne de filmat la sală după întoarcere: lotul de reel-uri pentru decembrie (ankle test, lat pulldown mistakes, RDL mistakes etc.).
