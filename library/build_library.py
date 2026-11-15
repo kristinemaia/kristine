@@ -51,6 +51,8 @@ GROUPS = [
         "id": "programari", "name": "Programări noiembrie", "folder": "Programari-noiembrie", "note": "Instagram, TikTok, story-uri și ce mai filmăm",
         "zip": ("Programari-noiembrie.zip", "programari"),
         "items": [
+            {"kind": "doc", "slug": "terapie-turcia", "title": "Terapie la sala lui Cem, în Turcia: ce trebuie", "src": "TERAPIE-TURCIA.md",
+             "desc": "Ce se poate (masaj, cu permis de muncă) și ce nu (ventuze, dry needling), pașii în ordine, variantele de până atunci, întrebările pentru avocatul turc și ce se resetează în 2027."},
             {"kind": "doc", "slug": "calatorie-romania", "title": "Drumul în România (sfârșitul lui noiembrie)", "src": "CALATORIE-ROMANIA.md",
              "desc": "Primăria (30 nov și 1 dec sunt zile libere), plasturii, contabila, chiriașul, postările cât ești pe drum, zilele în Turcia și ce iei înapoi. Cu bife."},
             {"kind": "doc", "slug": "programari-noiembrie", "title": "Programările din noiembrie: Instagram, TikTok și ce mai filmăm", "src": "PROGRAMARI-NOIEMBRIE.md",
