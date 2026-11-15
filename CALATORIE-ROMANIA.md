@@ -13,7 +13,7 @@ _10 noiembrie 2026. Datele exacte le pui când iei biletele. Bifezi pe telefon._
 
 ## Primăria 1 Decembrie (actele pentru apartament)
 Dacă trebuie să mergi la ghișeu, mergi pe **26 sau 27 noiembrie**. Luni 30 nov (Sfântul Andrei) și marți 1 dec (Ziua Națională) sunt zile libere, deci primăria e închisă.
-- [ ] suni la primărie sau verifici pe site: ce acte cer, programul ghișeului și **dacă se pot depune online** (multe primării au registratură online sau acceptă email). Dacă da, termenul nu mai depinde de zbor.
+- [x] ai întrebat ce acte cer și le-ai trimis pe email
 - [ ] pregătești actele (originale + copii) și buletinul
 - [ ] depui actele și **ceri număr de înregistrare** (sau o copie ștampilată)
 
