@@ -3,13 +3,16 @@
 _10 noiembrie 2026. Datele exacte le pui când iei biletele. Bifezi pe telefon._
 
 ## Mâine, miercuri 11 noiembrie
-- [ ] **suni la primărie:** ce acte cer pentru apartament, programul ghișeului, dacă se pot depune online sau pe email, și dacă e bine să le depui pe 26–27 nov (30 nov și 1 dec e închis)
+- [x] **ai sunat la primărie** și ai trimis actele pe email
 - [ ] **suni la notar:** ce acte trebuie să aduci și faci programare în zilele în care ești în România (25–27 nov sau după 2 dec)
 - [ ] **îi scrii contabilei:** factura pe noiembrie, că vii în România la sfârșitul lunii și dacă vă puteți vedea, și răspunsul scris despre munca din Turcia
 - [ ] **îți faci programare la unghii** pentru zilele în care ești în România (25–29 nov), ca să nu se suprapună cu primăria și notarul
 
-## ⚠️ Primăria: 30 noiembrie și 1 decembrie sunt zile libere legale
-Sfântul Andrei (luni 30 nov) și Ziua Națională (marți 1 dec) sunt zile libere, deci **primăria e închisă**. Ca să depui actele pentru apartament **până pe 1 decembrie**, mergi **cel târziu vineri 27 noiembrie**. Asta înseamnă că zbori pe 25 sau 26 nov.
+## Luni 16 noiembrie
+- [ ] **suni din nou la Primăria 1 Decembrie** și le spui că ai trimis emailul cu actele pentru apartament. Întrebi dacă l-au primit, dacă le mai trebuie ceva și dacă mai e nevoie să vii la ghișeu.
+
+## Primăria 1 Decembrie (actele pentru apartament)
+Dacă trebuie să mergi la ghișeu, mergi pe **26 sau 27 noiembrie**. Luni 30 nov (Sfântul Andrei) și marți 1 dec (Ziua Națională) sunt zile libere, deci primăria e închisă.
 - [ ] suni la primărie sau verifici pe site: ce acte cer, programul ghișeului și **dacă se pot depune online** (multe primării au registratură online sau acceptă email). Dacă da, termenul nu mai depinde de zbor.
 - [ ] pregătești actele (originale + copii) și buletinul
 - [ ] depui actele și **ceri număr de înregistrare** (sau o copie ștampilată)
