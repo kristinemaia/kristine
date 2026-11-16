@@ -46,6 +46,8 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | sâm 21 | 18:00 · **K · Raid night fuel**: varianta câștigătoare din testul de miercuri, „Share to followers” ✏️ | Raid night fuel, câștigătoarea ✏️ |
 | dum 22 | 18:00 · Overhead reach test 🎬 | Overhead reach test 🎬 |
 
+**Dope Ropes, Black Friday (afiliat):** story **marți 24 nov** (ziua lansării, cu linkul tău) · reel cu coarda într-un antrenament **vineri 27 nov** (îl programezi înainte de drum) · story „last chance” **miercuri 2 dec**. Codul public e **DOPE25** (25%), dar distribui **linkul**; nu se anunță înainte de 24 nov.
+
 ### Săptămâna 23–29 nov
 | Ziua | Instagram | TikTok, 19:00 |
 |---|---|---|

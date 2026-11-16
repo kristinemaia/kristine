@@ -43,11 +43,19 @@ Actualizată pe 30 oct, cu UGC și drepturile pentru reclame: **tabelul complet 
 | Data | Brand | Cum | Stare |
 |---|---|---|---|
 | 12 nov | **Secretlab** | formularul de sponsorizare (secretlab.eu), cu media kit-ul | ✅ trimis · răspunsul vine doar de pe adrese @secretlab.co sau @secretlab.sg (altele pot fi țepe) |
-| 12 nov | Sneak Energy | email, info@sneakenergy.com | ✏️ în Ciorne |
-| 12 nov | Bulk | email, affiliates@bulk.com | ✏️ în Ciorne |
-| 12 nov | AndaSeat | email, sales-support@andaseat.com | ✏️ în Ciorne |
-| 12 nov | Grenade | email, chloe.cordell@grenade.com (adresă de pe profilul de afiliere; poate fi veche) | ✏️ în Ciorne |
-| 9 nov | G FUEL | email, media@gfuel.com | ✏️ în Ciorne |
-| 9 nov | Huel, Myprotein | revenire la emailurile din 20 oct | ✏️ în Ciorne |
+| 12 nov | Sneak Energy | email, info@sneakenergy.com | ✅ trimis 12 nov · revenire ✏️ în Ciorne, de trimis joi 19 nov |
+| 12 nov | Bulk | email, affiliates@bulk.com | ✅ trimis 12 nov · revenire ✏️ în Ciorne, de trimis joi 19 nov |
+| 12 nov | AndaSeat | email, sales-support@andaseat.com | ✅ trimis 12 nov · revenire ✏️ în Ciorne, de trimis joi 19 nov |
+| 12 nov | Grenade | email, chloe.cordell@grenade.com (adresă de pe profilul de afiliere; poate fi veche) | ✅ trimis 12 nov · revenire ✏️ în Ciorne, de trimis joi 19 nov |
+| 9 nov | G FUEL | email, media@gfuel.com | ✅ trimis 9 nov · revenire ✏️ în Ciorne (16 nov), se trimite acum |
+| 9 nov | Huel, Myprotein | revenire la emailurile din 20 oct | ✅ revenirea trimisă 12 nov · nu mai scriem |
 
 Revenirea (o singură dată) după 7 zile, dacă nu răspund. Negocierea și semnarea doar din România (25–27 nov) sau după răspunsul scris al contabilei și al avocatului.
+
+## Inboxul pe 16 nov
+- **Niciun brand n-a răspuns încă** (normal după 4–7 zile). Secretlab a confirmat primirea (răspunsul vine doar de pe @secretlab.co / @secretlab.sg).
+- **Trendyol TrendFam (Sara, agenția Helena Reich):** îi răspundem că ne înscriem la începutul lui decembrie (✏️ în Ciorne). Doar afiliere cu vouchere; colaborări cu tarif fix nu garantează.
+- **Dope Ropes, Black Friday:** 25% cu codul **DOPE25**, 24 nov – 2 dec. Distribui **linkul tău**, nu codul personal. Nu se anunță înainte de 24 nov. Story marți 24 nov, reel vineri 27 nov (programat înainte de drum), story „last chance” miercuri 2 dec.
+- **impact.com:** pe marketplace au apărut **Nanoleaf** (lumini pentru setup de gaming) și **COOFANDY** (haine de sală): aplici direct din cont, fără email.
+- **De ignorat:** Astro Ivayla (astrologie, nu se potrivește cu brandul), LootForge (domeniu suspect), Mad Octopus (cheie Steam gratuită, fără obligații; o iei doar dacă vrei să joci jocul pe stream).
+- **Emailurile din 9–12 nov** spun „a degree in Physical Education”: de acum, doar „studied Physical Education and Sport”.
