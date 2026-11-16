@@ -97,8 +97,27 @@ def main(spec):
     parts.append(p); auds.append(a); total += ed
     for name, items in (('v', parts), ('a', auds)):
         open(os.path.join(tmp, name + '.txt'), 'w').write(''.join("file '%s'\n" % x for x in items))
-    v = os.path.join(tmp, 'v.mp4'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', os.path.join(tmp, 'v.txt'), '-c', 'copy', v], check=True)
-    au = os.path.join(tmp, 'a.wav'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', os.path.join(tmp, 'a.txt'), au], check=True)
+    v = os.path.join(tmp, 'v.mp4'); au = os.path.join(tmp, 'a.wav'); X = S.get('xfade', 0)
+    if X:   # trecere lină (dizolvare) între cadre, și la imagine, și la sunet
+        durs = []
+        for pth in parts:
+            durs.append(float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', pth], capture_output=True, text=True).stdout))
+        vin, fc, cur, off = [], [], '[0:v]', 0.0
+        for k, pth in enumerate(parts): vin += ['-i', pth]
+        for k in range(1, len(parts)):
+            off += durs[k - 1] - X
+            fc.append('%s[%d:v]xfade=transition=fade:duration=%.2f:offset=%.3f[x%d]' % (cur, k, X, off, k)); cur = '[x%d]' % k
+        fc.append('%sformat=yuv420p[out]' % cur)
+        subprocess.run(['ffmpeg', '-v', 'error', '-y'] + vin + ['-filter_complex', ';'.join(fc), '-map', '[out]'] + ENC + [v], check=True)
+        ain, fa, cur = [], [], '[0:a]'
+        for k, pth in enumerate(auds): ain += ['-i', pth]
+        for k in range(1, len(auds)):
+            fa.append('%s[%d:a]acrossfade=d=%.2f:c1=tri:c2=tri[y%d]' % (cur, k, X, k)); cur = '[y%d]' % k
+        subprocess.run(['ffmpeg', '-v', 'error', '-y'] + ain + ['-filter_complex', ';'.join(fa), '-map', cur, au], check=True)
+        total -= X * (len(parts) - 1)
+    else:
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', os.path.join(tmp, 'v.txt'), '-c', 'copy', v], check=True)
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', os.path.join(tmp, 'a.txt'), au], check=True)
     out = os.path.join(ROOT, S['out']); os.makedirs(os.path.dirname(out), exist_ok=True)
     # sunetul gătitului, adus la un nivel bun (ASMR), fără să se audă fâșâitul de fond
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', v, '-i', au, '-map', '0:v', '-map', '1:a', '-c:v', 'copy',
