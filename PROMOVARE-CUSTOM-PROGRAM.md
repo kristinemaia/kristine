@@ -26,14 +26,17 @@ _16 noiembrie 2026. Vânzarea începe doar după răspunsul scris al contabilei 
 
 După asta, programul e filmat complet: ~72 de exerciții + cele 4 videouri de început.
 
-**Colțul de acasă (16 nov), ca la Becky: perete alb, saltea, elastice**
-Sala rămâne pentru exercițiile cu greutăți și aparate. Acasă filmezi: varianta de acasă a programului, „Train with me”, „Save this workout”, videourile vorbite și mobilitatea.
-- [ ] **saltea** de 6–10 mm, gri, bej sau crem (fără logo mare), cam 180 × 60 cm, ca să încapă tot corpul în cadru
-- [ ] **set de mini-benzi** (buclă mică, 3–5 rezistențe): fesieri, genunchi, umeri
-- [ ] **2–3 benzi lungi** cu rezistență ușoară, medie și mare (sau un set cu mânere): ramat, pull-apart, face pull, presă. Cu ele punem înapoi variantele cu bandă scoase din program.
-- [ ] (opțional, mai târziu) o pereche de gantere reglabile sau un kettlebell
-- [ ] **unde:** în Turcia sau în România, pe 26–30 nov. Benzile și salteaua încap ușor în bagaj
-- [ ] **cadrul:** peretele alb lângă fereastră, lumina din lateral, dimineața. Nimic personal în cadru (poze, lucrurile lui Cem)
+**Unde filmăm (16 nov, actualizat): bucătăria acasă, un colț fix la sală**
+Acasă nu e loc de saltea fără să muți lucrurile de fiecare dată, iar sala nu are geamuri. Așa că:
+- **Bucătăria de acasă, cu lumina naturală:** gătitul, „what I eat”, videourile vorbite, mobilitatea în picioare (gât, umeri, încheieturi), „let's stretch”.
+- **Un colț fix la sală, cu lumină pusă de tine:** toate exercițiile, și cele „de acasă” (saltea, elastice, fără greutăți), plus „Train with me” și „Save this workout”. Clientul nu vede diferența: un perete simplu și o saltea arată la fel acasă și la sală.
+- **Colțul de la sală:** îl alegi o dată, cu Cem: un perete simplu (alb sau gri, fără logo, oglinzi sau aparate în spate), ~2 × 2 m liberi. Salteaua, elasticele și lumina rămân acolo, ca să nu muți nimic.
+
+**Ce îți iei:**
+- [ ] **saltea** de 6–10 mm, gri, bej sau crem (fără logo mare), cam 180 × 60 cm
+- [ ] **set de mini-benzi** (3–5 rezistențe) și **2–3 benzi lungi** (ușoară, medie, mare). Cu ele punem înapoi variantele cu bandă scoase din program.
+- [ ] **o lampă LED cu softbox și stativ**, bicoloră (3200–5600K), de 60–100 W. Asta e cea mai importantă. Detaliile sunt în ghidul CapCut, la „Lumina la sală”.
+- [ ] (opțional) **un reflector pliabil** alb, de partea cealaltă, ca să lumineze umbrele
 
 
 ## 2. Ce fac eu după filmare

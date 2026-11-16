@@ -23,13 +23,16 @@ _16 noiembrie 2026. Setările pe care le folosesc eu la reel-urile estetice (spa
 - **stingi lumina de pe tavan** dacă e albă și rece: amestecul de lumină caldă (de sub dulapuri) cu cea rece face pielea și mâncarea să aibă culori diferite
 - **cu cât e mai multă lumină, cu atât imaginea e mai clară** (mai puțin „zgomot”)
 
-**La sală, unde lumina nu e naturală:**
-- te pui **lângă o fereastră**, dacă sala are, și filmezi dimineața, când e și goală
-- stai **sub lumina cea mai puternică** din sală, dar nu exact sub ea (umbre pe ochi): cu un pas în față sau în lateral
-- **o lampă LED mică**, cu temperatură reglabilă, pe un al doilea trepied sau prinsă de telefon, din lateral, la ~5600K. Asta schimbă cel mai mult imaginea la sală
-- **dacă imaginea pâlpâie sau are dungi** (de la becuri): în Blackmagic Camera pui shutter-ul la **1/50 sau 1/100** (curentul din Turcia și România e la 50 Hz). Pe camera normală a iPhone-ului: 25 fps, sau 30 fps cu mai multă lumină
-- **balansul de alb fix**, ca să nu treacă imaginea din galben în albastru când te miști
-- în CapCut: **Temperature** spre rece (-5 … -10) dacă becurile sunt galbene, **Reduce noise** și același grading; nu va arăta ca lumina de dimineață, dar arată curat
+**Lumina la sală (sala nu are geamuri): un colț fix, luminat de tine**
+- **lumina principală:** o lampă LED cu **softbox** (lumina moale, ca de la o fereastră), pe stativ, la **45° în fața ta**, puțin mai sus decât capul, la ~1,5–2 m. Asta „imită” fereastra
+- **temperatura:** ~5000–5600K. Dacă becurile sălii sunt galbene și nu le poți stinge, pui lampa pe ~4000K, ca să nu se bată culorile între ele
+- **umbrele:** de partea cealaltă, un reflector alb pliabil sau peretele alb. Fără el, o parte a feței e prea întunecată
+- **nu stai exact sub becurile din tavan** (îți fac umbre pe ochi): un pas în față sau în lateral
+- **fără pâlpâit sau dungi:** în Blackmagic Camera, shutter-ul la **1/50 sau 1/100** (curentul e la 50 Hz). Pe camera normală, 25 fps
+- **balansul de alb fix** pe aceeași valoare ca lampa, la fiecare filmare
+- **aceeași poziție de fiecare dată** (marchezi cu bandă pe podea locul stativului, al lămpii și al saltelei). Așa toate clipurile din program arată la fel
+- **dimineața**, când sala e goală, ca să nu apară alți oameni
+- în CapCut: același grading; **Temperature** spre rece (-5 … -10) doar dacă tot iese galben
 
 **Cadrele:**
 - telefonul **pe trepied** la cadrele de sus și la 45°; din mână doar la prim-planurile cu apropiere lentă

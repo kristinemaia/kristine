@@ -65,7 +65,7 @@ Până acum: 23–26 sept, 4–15 oct și de pe 29 oct încoace.
 - [ ] microfonul lui Cem, dacă l-a comandat
 - [ ] actele de la primărie (copia cu număr de înregistrare)
 - [ ] haine de iarnă
-- [ ] salteaua și elasticele (mini-benzi + 2–3 benzi lungi), dacă nu le iei din Turcia: pentru colțul de filmare de acasă
+- [ ] salteaua și elasticele (mini-benzi + 2–3 benzi lungi), dacă nu le iei din Turcia: pentru colțul de filmare de la sală
 - [ ] (opțional) camera Sony, dacă vrei calitate mai bună la filmările de acasă
 
 ## De notat pentru când te întorci în Turcia
