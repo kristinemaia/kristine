@@ -62,6 +62,10 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 |---|---|---|
 | lun 30 | 18:00 · First 20-minute gym session 🎬 | First 20-minute session 🎬 |
 
+**Luni 16 nov (postat de Kristine):**
+- [x] VirtuMe (colaborarea cu AI Twin-ul), pe Instagram
+- [ ] **trial reel: „Lunch meal prep for 4 days”** (cartofi + chiftele), seara, doar pentru cei care nu te urmăresc. Verifici pe 18–19 nov: % urmărit, share-uri, save-uri, comentarii la întrebarea „full-day meal prep?”
+
 **Test A/B cu trial reels pentru spaghete (miercuri 18 nov):**
 - [ ] 19:00 · **Trial A**: varianta estetică (`K-tuna-spinach-spaghetti-estetic.mp4`), cu muzică din aplicație
 - [ ] 19:15 · **Trial B**: varianta animată, cu voce (`K-tuna-spinach-spaghetti.mp4`), sunetul original la 100%, muzica foarte încet

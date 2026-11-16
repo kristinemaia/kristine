@@ -711,3 +711,16 @@ Save it for your next WoW night ⚔️ Horde or Alliance? 👇
 #gamerfood #worldofwarcraft #easyrecipes #highprotein #quickdinner #mealprep
 ```
 **Comentariul fixat:** „For the Horde or for the Alliance? Wrong answers only 😅”
+
+### Trial reel · Luni 16 nov · „Lunch meal prep for 4 days” (cartofi + chiftele)
+**Pe ecran:** titlul `LUNCH MEAL PREP · 4 DAYS` (pe tot reel-ul) · la început, mic: `for busy days on the go` · cardul de final: `WANT A FULL-DAY MEAL PREP NEXT?` + `COMMENT YES`
+```
+Lunch meal prep for 4 busy days 🥔
+Potatoes + meatballs, weighed and boxed. Grab one on your way out and lunch is done.
+
+Want a full-day meal prep next? Breakfast, lunch & dinner 👀
+Comment YES and I'll film it 👇
+
+#mealprep #lunchprep #mealprepideas #easylunch #highprotein
+```
+**Comentariul fixat:** „Full-day meal prep: should I do it for a gym day or a stream day? 🎮💪”
