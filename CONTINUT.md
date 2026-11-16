@@ -135,11 +135,16 @@ După fiecare săptămână: te uiți care reel a avut cele mai multe **salvări
 - **Siguranță:** postezi locațiile **după ce ai plecat de acolo**, nu în timp real. Fără sala, cartierul sau locuri pe unde treci zilnic.
 
 **Profil:**
-- Bio nou (3 rânduri), cu butonul „Email” de pe profil în loc de adresa scrisă în text:
+- **Bio nou (16 nov), pe modelul Built by Becky / Senada Greca:** ce primește omul, programul și un singur link.
+  - **Numele de profil** (apare la căutare): `Kristine Maia | Gym & Home Workouts`
+  - **Bio:**
 
-  > Mobility, recovery & good food for people who sit all day  
-  > Sports science grad · Twitch Partner (72K)  
-  > 📩 Collabs: tap Email
+    > Workouts for people who sit all day 🎮  
+    > Gym or home · what I eat · Twitch Partner  
+    > 👇 2-min quiz → your custom program
+  - **TikTok** (maxim 80 de caractere): `Workouts for people who sit all day 🎮 Gym or home 👇 2-min quiz → your plan`
+  - **Linkul principal:** quiz-ul de pe kristinemaia.com; în „Links” mai pui Twitch și PDF-ul gratuit. Colaborările: butonul „Email”.
+  - **Evidențieri (highlights):** PROGRAM · WORKOUTS · WHAT I EAT · TWITCH · CODES
 - Linktree: e-book, codurile de reducere (coarda, Revo Natural), Twitch, programul (când apare).
 - Evidențieri (highlights): păstrezi JUMP ROPE și YOGA. Adaugi **RECIPES**, **RECOVERY**, **CODES**. „Krakow” și alte călătorii le pui într-una singură, **TRAVEL**.
 - **Abonamentul Instagram** (butonul „Subscription” e deja activ): rutine exclusive de mobilitate în fiecare săptămână, pentru 4–5 €/lună.
