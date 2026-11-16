@@ -1,0 +1,15 @@
+{"out": "studio/montaj/out/MP-4-days-1-meal-estetic.mp4",
+ "title": "Meal prep · 4 days, 1 meal", "handle": "",
+ "end_big": ["Same meal", "4 days in a row?"], "end_small": "Comment yes or no", "end_d": 3.0,
+ "segs": [
+  {"clip": "studio/montaj/_curat/mp-cartofi-9.mp4", "audio": "studio/gatit/raw/mp-cartofi-9.mov", "ss": 0.3, "d": 1.8, "crop": "900:1600:90:320", "zoom": 0.05, "q": "lazy or genius?"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-1.mp4", "audio": "studio/gatit/raw/mp-cartofi-1.mov", "ss": 0.3, "d": 1.8, "speed": 1.3, "crop": "720:1280:50:660", "q": "step 1 · potatoes, weighed"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-2.mp4", "audio": "studio/gatit/raw/mp-cartofi-2.mov", "ss": 1.0, "d": 2.0, "speed": 1.4, "crop": "720:1280:0:530", "q": "step 1 · potatoes, weighed"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-3.mp4", "audio": "studio/gatit/raw/mp-cartofi-3.mov", "ss": 0.3, "d": 1.8, "speed": 1.3, "crop": "720:1280:120:595"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-4.mp4", "audio": "studio/gatit/raw/mp-cartofi-4.mov", "ss": 2.0, "d": 2.4, "speed": 1.5, "crop": "860:1530:110:390", "q": "how many boxes would you make?"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-5.mp4", "audio": "studio/gatit/raw/mp-cartofi-5.mov", "ss": 0.3, "d": 2.0, "speed": 1.3, "crop": "860:1530:0:350", "q": "step 2 · the protein"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-6.mp4", "audio": "studio/gatit/raw/mp-cartofi-6.mov", "ss": 0.5, "d": 2.0, "speed": 1.3, "crop": "860:1530:0:300", "q": "step 2 · the protein"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-7.mp4", "audio": "studio/gatit/raw/mp-cartofi-7.mov", "ss": 1.5, "d": 3.0, "speed": 1.5, "crop": "760:1351:100:490", "q": "would you eat this 4 days in a row?"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-8.mp4", "audio": "studio/gatit/raw/mp-cartofi-8.mov", "ss": 0.2, "d": 1.8, "speed": 1.2, "crop": "760:1351:100:490", "q": "would you eat this 4 days in a row?"},
+  {"clip": "studio/montaj/_curat/mp-cartofi-9.mp4", "audio": "studio/gatit/raw/mp-cartofi-9.mov", "ss": 3.0, "d": 3.0, "crop": "900:1600:90:320", "zoom": 0.07, "q": "lunch is done for the week"}
+ ]}

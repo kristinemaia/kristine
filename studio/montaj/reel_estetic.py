@@ -30,7 +30,15 @@ def title_png(title, handle, path):
         for dd, fill, off in ((ds, (0, 0, 0, 120), 2), (d, (255, 255, 255, 200), 0)): spaced(dd, ((1080 - w2) / 2, 770 + off), handle, f2, fill, 1)
     Image.alpha_composite(sh.filter(ImageFilter.GaussianBlur(6)), im).save(path)
 
-def end_png(frame, handle, small, path):
+def q_png(text, path, y=845):
+    """întrebarea mică de sub titlu (interactivitate, dar discretă): crem, cu umbră fină"""
+    im = Image.new('RGBA', (1080, 1920), (0, 0, 0, 0)); sh = Image.new('RGBA', (1080, 1920), (0, 0, 0, 0))
+    d, ds = ImageDraw.Draw(im), ImageDraw.Draw(sh); f = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 36)
+    w = spaced_w(d, text, f, 1)
+    for dd, fill, off in ((ds, (0, 0, 0, 160), 3), (d, (255, 249, 246, 255), 0)): spaced(dd, ((1080 - w) / 2, y + off), text, f, fill, 1)
+    Image.alpha_composite(sh.filter(ImageFilter.GaussianBlur(6)), im).save(path)
+
+def end_png(frame, handle, small, path, big=None):
     """ultimul cadru, întunecat, cu o pictogramă de cameră desenată, contul și un rând mic"""
     im = Image.open(frame).convert('RGBA').resize((1080, 1920)).filter(ImageFilter.GaussianBlur(6))
     im = Image.alpha_composite(im, Image.new('RGBA', im.size, (12, 8, 10, 165))); d = ImageDraw.Draw(im)
@@ -39,9 +47,14 @@ def end_png(frame, handle, small, path):
         d.rounded_rectangle([cx - s / 2, cy - s / 2, cx + s / 2, cy + s / 2], 34, outline=(255, 255, 255, 255), width=9)
         d.ellipse([cx - 27, cy - 27, cx + 27, cy + 27], outline=(255, 255, 255, 255), width=9); d.ellipse([cx + 28, cy - 42, cx + 42, cy - 28], fill=(255, 255, 255, 255))
         f = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 40); w = spaced_w(d, handle, f, 2); spaced(d, ((1080 - w) / 2, 980), handle, f, (255, 255, 255, 255), 2)
+    if big:   # întrebarea mare de final, pe 1–2 rânduri
+        fb = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 58)
+        for k, line in enumerate(big):
+            t = line.upper(); w = spaced_w(d, t, fb, 4); spaced(d, ((1080 - w) / 2, 760 + k * 80), t, fb, (255, 255, 255, 255), 4)
     if small:
-        f2 = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 30 if handle else 44); t = small.upper(); w2 = spaced_w(d, t, f2, 3 if handle else 5)
-        spaced(d, ((1080 - w2) / 2, 1050 if handle else 930), t, f2, (255, 255, 255, 200 if handle else 240), 3 if handle else 5)
+        f2 = ImageFont.truetype(os.path.join(FONTS, 'Poppins-Medium.ttf'), 30 if (handle or big) else 44); t = small.upper(); w2 = spaced_w(d, t, f2, 3 if handle else 5)
+        y2 = 1050 if handle else (760 + len(big) * 80 + 40 if big else 930)
+        spaced(d, ((1080 - w2) / 2, y2), t, f2, (255, 255, 255, 200 if (handle or big) else 240), 3 if (handle or big) else 5)
     im.save(path)
 
 def main(spec):
@@ -53,10 +66,16 @@ def main(spec):
         # o apropiere lentă pe fiecare cadru (cum se mișcă telefonul în mână), fără flash
         vf = ("[0:v]setpts=(PTS-STARTPTS)/%.3f,fps=30,%sscale=1080:1920:flags=lanczos,setsar=1,"
               "scale=w='trunc(1080*(1+%.3f*t/%.3f)/2)*2':h='trunc(1920*(1+%.3f*t/%.3f)/2)*2':eval=frame,crop=1080:1920[v];"
-              "[1:v]format=rgba[t];[v][t]overlay=0:0,format=yuv420p[out]") % (sp, crop, z, dur, z, dur)
+              "[1:v]format=rgba[t];[v][t]overlay=0:0[w]") % (sp, crop, z, dur, z, dur)
+        extra = []
+        if g.get('q'):   # întrebarea segmentului: apare lin după 0,15 s
+            qp = os.path.join(tmp, 'q%d.png' % i); q_png(g['q'], qp); extra = ['-loop', '1', '-t', '%.3f' % dur, '-i', qp]
+            vf += ";[2:v]format=rgba,fade=t=in:st=0.15:d=0.25:alpha=1[q];[w][q]overlay=0:0,format=yuv420p[out]"
+        else:
+            vf += ";[w]format=yuv420p[out]"
         p = os.path.join(tmp, 'p%d.mp4' % i)
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(g['ss']), '-t', '%.3f' % g['d'], '-i', os.path.join(ROOT, g['clip']),
-                        '-loop', '1', '-t', '%.3f' % dur, '-i', tp, '-filter_complex', vf, '-map', '[out]', '-t', '%.3f' % dur, '-an'] + ENC + [p], check=True)
+                        '-loop', '1', '-t', '%.3f' % dur, '-i', tp] + extra + ['-filter_complex', vf, '-map', '[out]', '-t', '%.3f' % dur, '-an'] + ENC + [p], check=True)
         a = os.path.join(tmp, 'a%d.wav' % i)
         if g.get('audio'):
             tempo = '' if abs(sp - 1) < 1e-3 else ',atempo=%.3f' % sp
@@ -71,7 +90,7 @@ def main(spec):
     crop = (',crop=%s' % last['crop']) if last.get('crop') else ''
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', '%.3f' % (last['ss'] + last['d'] - 0.1), '-i', os.path.join(ROOT, last['clip']), '-frames:v', '1',
                     '-vf', 'scale=1080:1920%s,scale=1080:1920' % crop, fr], check=True)
-    ep = os.path.join(tmp, 'end.png'); end_png(fr, S.get('handle', ''), S.get('end_small'), ep); ed = S.get('end_d', 2.0)
+    ep = os.path.join(tmp, 'end.png'); end_png(fr, S.get('handle', ''), S.get('end_small'), ep, S.get('end_big')); ed = S.get('end_d', 2.0)
     p = os.path.join(tmp, 'p_end.mp4')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-t', '%.3f' % ed, '-i', ep, '-vf', 'fade=t=in:st=0:d=0.25,format=yuv420p', '-t', '%.3f' % ed] + ENC + [p], check=True)
     a = os.path.join(tmp, 'a_end.wav'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'lavfi', '-i', 'anullsrc=r=%d:cl=mono' % SR, '-t', '%.3f' % ed, a], check=True)
