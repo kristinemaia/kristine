@@ -1,54 +1,96 @@
 #!/usr/bin/env python3
-"""Carusel EN „Save this: full-body gym workout for people who sit all day” (S1, formatul „Save this workout”, modelul Senada Greca), același șablon ca build_en.py, 6 slide-uri.
-Pozele: src/mirror-jacket.jpg (selfie la oglindă, 16 nov, fără alți oameni în cadru) și cadrele din filmările programului (wk-*.jpg, gym-lunge.jpg).
+"""Carusel EN S1 „Save this: full-body gym workout” (formatul „Save this workout”, modelul Senada Greca), stilul estetic (16 nov):
+prima poză singură, fără text; apoi slide-uri închise la culoare, cu Poppins, ca la reel-urile estetice; la final, a doua poză cu îndemnul.
+Pozele: src/s1-cover.jpg și s1-end.jpg (selfie-urile la oglindă din 16 nov, fără alți oameni în cadru), s1-blur.jpg (coperta estompată)
+și cadrele din filmările programului (wk-*.jpg, gym-lunge.jpg), afișate la rezoluția lor.
 Rulezi: python3 brand/carousels-en/build_s1.py -> out/EN-S1-save-this-workout-*.png"""
-import os
+import base64, html, json, os, subprocess, tempfile, zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
-ns = {'__file__': os.path.join(HERE, 'build_en.py')}
-exec(open(ns['__file__'], encoding='utf-8').read().split('\ndef main():')[0], ns)  # CSS, img(), blobs(), bullets(), JS
-img, blobs, bullets, E, CSS, JS = ns['img'], ns['blobs'], ns['bullets'], ns['E'], ns['CSS'], ns['JS']
-DISC = 'General exercise, not medical advice. Rest 60–90 s between sets.'
-T = 6
-def frame(n, inner, k, a='var(--pink)', b='var(--lilac)'):
-    return '<div class="s" id="s">%s<div class="tag">KRISTINE MAIA</div><div class="num">%d/%d</div>%s</div>' % (blobs(k, a, b), n, T, inner)
-def sets(rows):
-    return ''.join('<div style="display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:28px;padding:22px 34px;margin:0 0 18px;font-size:40px;font-weight:700">'
-                   '<span>%s</span><span style="color:var(--wine)">%s</span></div>' % (E(a), E(b)) for a, b in rows)
-def part(n, title, rows, photos, k, a, b):
-    photos = [p if isinstance(p, tuple) else (p, 'center 30%') for p in photos]
+SRC, OUT = os.path.join(HERE, 'src'), os.path.join(HERE, 'out')
+E = html.escape
+
+def img(name):
+    return 'data:image/jpeg;base64,' + base64.b64encode(open(os.path.join(SRC, name), 'rb').read()).decode()
+
+CSS = """
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000}
+.s{position:relative;overflow:hidden;width:1080px;height:1350px;background:#141311;color:#F3EEE6;font-family:Poppins,sans-serif}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.label{position:absolute;left:90px;top:96px;font-size:26px;font-weight:500;letter-spacing:7px;text-transform:uppercase;color:#B8AE9F}
+.num{position:absolute;right:90px;top:96px;font-size:26px;font-weight:400;letter-spacing:4px;color:#7E766B}
+.ph{position:absolute;overflow:hidden;border-radius:18px}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.rows{position:absolute;left:90px;right:90px}
+.row{display:flex;justify-content:space-between;align-items:baseline;padding:24px 0;border-top:1px solid rgba(243,238,230,.16);font-size:38px;font-weight:400}
+.row:last-child{border-bottom:1px solid rgba(243,238,230,.16)}
+.row b{font-weight:500;color:#E9D9C2;letter-spacing:1px}
+.foot{position:absolute;left:90px;right:90px;bottom:48px;font-size:21px;color:#7E766B;letter-spacing:.5px}
+.center{position:absolute;left:90px;right:90px;text-align:center}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,9,8,.25) 0%,rgba(10,9,8,.15) 40%,rgba(10,9,8,.82) 72%,rgba(10,9,8,.92) 100%)}
+"""
+FOOT = 'General exercise, not medical advice. Rest 60–90 s between sets.'
+T = 7
+
+def frame(n, inner, cls=''):
+    return '<div class="s %s" id="s">%s</div>' % (cls, inner)
+
+def rows(items, top):
+    return '<div class="rows" style="top:%dpx">%s</div>' % (top, ''.join('<div class="row"><span>%s</span><b>%s</b></div>' % (E(a), E(b)) for a, b in items))
+
+def part(n, label, items, photos):
     if len(photos) == 1:
-        pics = '<div class="card" style="left:190px;top:760px;width:700px;height:500px"><img src="%s" style="object-position:%s"></div>' % (img(photos[0][0]), photos[0][1])
+        name, pos = photos[0]
+        pics = '<div class="ph" style="left:290px;top:180px;width:500px;height:660px"><img src="%s" style="object-position:%s"></div>' % (img(name), pos)
     else:
-        pics = ''.join('<div class="card" style="left:%dpx;top:760px;width:440px;height:500px;border-radius:36px"><img src="%s" style="object-position:%s"></div>' % (x, img(p), pos)
-                       for x, (p, pos) in zip((80, 560), photos))
-    return frame(n, '<div style="position:absolute;left:80px;right:80px;top:150px"><h2 style="margin-bottom:34px">%s</h2>%s</div>%s<div class="foot">%s</div>'
-                 % (E(title), sets(rows), pics, DISC), k, a, b)
+        pics = ''.join('<div class="ph" style="left:%dpx;top:180px;width:440px;height:660px"><img src="%s" style="object-position:%s"></div>' % (x, img(nm), pos)
+                       for x, (nm, pos) in zip((90, 550), photos))
+    top = 890
+    return frame(n, '<div class="label">%s</div><div class="num">%d / %d</div>%s%s<div class="foot">%s</div>' % (E(label), n, T, pics, rows(items, top), FOOT))
+
 def slides():
     s = []
-    s.append(frame(1, '<div style="position:absolute;left:80px;right:80px;top:150px"><h1 style="font-size:92px">Sit all day? Save this full-body gym workout</h1>'
-        '<p style="font-size:42px;font-weight:600;margin:26px 0 0">45 min · 4 parts · beginner friendly</p></div>'
-        '<div class="card" style="left:220px;top:560px;width:640px;height:700px"><img src="%s" style="object-position:center 35%%"></div>' % img('mirror-jacket.jpg'), 1))
-    s.append(part(2, '1 · Warm-up, 5 min', [('March or jumping jacks', '1 min'), ("World's greatest stretch", '5 / side'), ('Cat-cow', '8 slow')],
-                  [('wk-mobilitate-worlds-greatest-stretch.jpg', 'center 85%')], 2, 'var(--blue)', 'var(--mint)'))
-    s.append(part(3, '2 · Legs', [('Goblet squat', '3 × 10'), ('Dumbbell lunge', '3 × 8 / side')],
-                  ['wk-picioare-goblet-a.jpg', 'gym-lunge.jpg'], 3, 'var(--lilac)', 'var(--pink)'))
-    s.append(part(4, '3 · Back & posture', [('Lat pulldown', '3 × 10'), ('Seated cable row', '3 × 12'), ('Face pull', '2 × 15')],
-                  ['wk-spate-lat-pulldown.jpg'], 4, 'var(--mint)', 'var(--blue)'))
-    s.append(part(5, '4 · Core', [('Side plank', '3 × 20 s / side'), ('Dead bug', '3 × 8 / side')],
-                  [('wk-core-plank-lateral.jpg', 'center 90%')], 5, 'var(--pink)', 'var(--lilac)'))
-    s.append(frame(6, '<div style="position:absolute;left:80px;right:80px;top:260px"><h1 style="font-size:96px">Want one built for you?</h1>'
-        '<p style="font-size:44px;font-weight:600;margin:36px 0 0;line-height:1.3">Your goal, your time, home or gym. A 2-minute quiz builds your plan.</p>'
-        '<p style="font-size:46px;font-weight:700;margin:36px 0 70px;color:var(--wine)">Custom Program · opening soon</p>'
-        '<div class="btn">Join the waitlist · link in bio</div>'
-        '<p style="font-size:38px;font-weight:600;margin:60px 0 0;color:var(--muted)">Save this for your next gym day 🔖</p></div>', 6, 'var(--blue)', 'var(--mint)'))
+    # 1: poza singură
+    s.append(frame(1, '<img class="bg" src="%s">' % img('s1-cover.jpg')))
+    # 2: titlul, pe poza estompată
+    s.append(frame(2, '<img class="bg" src="%s"><div class="shade" style="background:rgba(10,9,8,.62)"></div>'
+        '<div class="num">2 / %d</div>'
+        '<div class="center" style="top:430px"><div style="font-size:28px;font-weight:500;letter-spacing:8px;color:#D9CDBB">SIT ALL DAY?</div>'
+        '<div style="font-size:84px;font-weight:500;line-height:1.08;margin-top:34px;letter-spacing:-1px">Save this full-body gym workout</div>'
+        '<div style="font-size:28px;font-weight:400;letter-spacing:6px;margin-top:46px;color:#D9CDBB">45 MIN · 4 PARTS · BEGINNER FRIENDLY</div></div>' % (img('s1-blur.jpg'), T)))
+    s.append(part(3, '01 · Warm-up · 5 min', [('March or jumping jacks', '1 min'), ("World's greatest stretch", '5 / side'), ('Cat-cow', '8 slow')],
+                  [('wk-mobilitate-worlds-greatest-stretch.jpg', 'center 80%')]))
+    s.append(part(4, '02 · Legs', [('Goblet squat', '3 × 10'), ('Dumbbell lunge', '3 × 8 / side')],
+                  [('wk-picioare-goblet-a.jpg', 'center 40%'), ('gym-lunge.jpg', 'center 40%')]))
+    s.append(part(5, '03 · Back & posture', [('Lat pulldown', '3 × 10'), ('Seated cable row', '3 × 12'), ('Face pull', '2 × 15')],
+                  [('wk-spate-lat-pulldown.jpg', 'center 45%')]))
+    s.append(part(6, '04 · Core', [('Side plank', '3 × 20 s / side'), ('Dead bug', '3 × 8 / side')],
+                  [('wk-core-plank-lateral.jpg', 'center 85%')]))
+    # 7: a doua poză, cu îndemnul jos
+    s.append(frame(7, '<img class="bg" src="%s"><div class="shade"></div><div class="num">7 / %d</div>'
+        '<div class="center" style="top:1000px"><div style="font-size:62px;font-weight:500;line-height:1.1;letter-spacing:-.5px">Want one built for you?</div>'
+        '<div style="font-size:30px;font-weight:400;margin-top:26px;color:#E6DCCD;line-height:1.4">Your goal, your time, home or gym.<br>Custom Program · opening soon</div>'
+        '<div style="font-size:24px;font-weight:500;letter-spacing:6px;margin-top:34px;color:#D9CDBB">JOIN THE WAITLIST · LINK IN BIO</div></div>' % (img('s1-end.jpg'), T)))
     return s
+
+JS = r"""
+const { chromium } = require('playwright');
+(async () => { const items = JSON.parse(require('fs').readFileSync(process.argv[2], 'utf8')); const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
+ for (const [file, html] of items) { await p.setContent(html, { waitUntil: 'networkidle' }); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(150); await (await p.$('#s')).screenshot({ path: file }); }
+ await b.close(); })();
+"""
+
 if __name__ == '__main__':
-    import json, subprocess, tempfile
-    OUT = os.path.join(HERE, 'out'); os.makedirs(OUT, exist_ok=True)
-    head = '<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@600;700&display=swap" rel="stylesheet"><style>%s</style></head><body>' % CSS
+    os.makedirs(OUT, exist_ok=True)
+    for f in os.listdir(OUT):
+        if f.startswith('EN-S1-save-this-workout-'): os.unlink(os.path.join(OUT, f))
+    head = '<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"><style>%s</style></head><body>' % CSS
     jobs = [(os.path.join(OUT, 'EN-S1-save-this-workout-%d.png' % n), head + inner + '</body></html>') for n, inner in enumerate(slides(), 1)]
     jf = tempfile.NamedTemporaryFile('w', suffix='.json', delete=False); json.dump(jobs, jf); jf.close()
     jsf = tempfile.NamedTemporaryFile('w', suffix='.js', delete=False); jsf.write(JS); jsf.close()
     env = dict(os.environ); env['NODE_PATH'] = subprocess.run(['npm', 'root', '-g'], capture_output=True, text=True).stdout.strip()
     subprocess.run(['node', jsf.name, jf.name], check=True, env=env); os.unlink(jsf.name); os.unlink(jf.name)
+    z = os.path.join(HERE, 'EN-S1-save-this-workout.zip')
+    with zipfile.ZipFile(z, 'w', zipfile.ZIP_DEFLATED) as zf:
+        for f, _ in jobs: zf.write(f, os.path.basename(f))
     print('gata:', len(jobs), 'imagini')

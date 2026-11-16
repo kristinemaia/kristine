@@ -66,9 +66,9 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 - [x] VirtuMe (colaborarea cu AI Twin-ul), pe Instagram
 - [ ] **trial reel: „Lunch meal prep for 4 days”** (cartofi + chiftele), seara, doar pentru cei care nu te urmăresc. Verifici pe 18–19 nov: % urmărit, share-uri, save-uri, comentarii la întrebarea „full-day meal prep?”
 
-**Test A/B cu trial reels pentru spaghete (miercuri 18 nov):**
-- [ ] 19:00 · **Trial A**: varianta estetică (`K-tuna-spinach-spaghetti-estetic.mp4`), cu muzică din aplicație
-- [ ] 19:15 · **Trial B**: varianta animată, cu voce (`K-tuna-spinach-spaghetti.mp4`), sunetul original la 100%, muzica foarte încet
+**Test A/B cu trial reels pentru spaghete (miercuri 18 nov):** ✅ amândouă programate de Kristine (16 nov)
+- [x] 19:00 · **Trial A**: varianta estetică (`K-tuna-spinach-spaghetti-estetic.mp4`), cu muzică din aplicație
+- [x] 19:15 · **Trial B**: varianta animată, cu voce (`K-tuna-spinach-spaghetti.mp4`), sunetul original la 100%, muzica foarte încet
 - aceeași descriere și aceleași hashtag-uri la amândouă, ca testul să fie corect
 - [ ] **sâmbătă 21 nov, înainte de 18:00:** compari în Insights: % urmărit (average watch time), skip rate, share-uri și save-uri la 1.000 de vizualizări. Câștigătoarea: „Share to followers” la 18:00; pe TikTok tot ea, la 19:00
 
