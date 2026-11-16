@@ -39,8 +39,13 @@ _16 noiembrie 2026. Ciornă de pornire: o ajustăm împreună când lucrezi la p
 ## 5. Obiceiurile zilnice (16 nov)
 | Obicei | Cât | Când | 80/20 |
 |---|---|---|---|
-| **Cititul** | 15 minute | dimineața, în cele 30 de minute fără telefon | după fiecare carte, notezi **3 idei** pe care le aplici; doar ele contează |
+| **Cititul** | 15 minute | dimineața, în cele 30 de minute fără telefon | acum: **„Începe cu ce nu-ți place”, de Brian Tracy**. După fiecare carte notezi **3 idei** pe care le aplici; doar ele contează |
 | **Turca pe Duolingo** | 10–15 minute | după masa de prânz | Duolingo ține obiceiul. Mai repede înveți cu **5 minute pe zi de vorbit cu Cem** și cu cele ~300 de cuvinte folosite cel mai des, apoi cuvintele de la sală (exerciții, numărat, „încă o dată”, „respiră”). De ele ai nevoie pentru clienții din Turcia și pentru examenul MYK |
+
+**Din carte, aplicat la tine („broasca” zilei = lucrul cel mai important și mai greu, făcut primul):**
+- **Broasca de dimineață:** blocul de filmare. Îl faci primul, înainte de mesaje.
+- **Broasca de după-amiază:** „lucrul mare” din blocul de lucru adânc (Payhip, emailurile către branduri, textele pentru program), ales de cu seară.
+- Cartea are și un capitol despre **regula 80/20**: din lista zilei, 1–2 lucruri valorează cât toate celelalte la un loc. Cu ele începi.
 
 ## 6. Regulile săptămânii
 - **Duminica, 30 de minute:** programezi postările pe 7–10 zile, te uiți la statistici o singură dată și alegi **cele 3 lucruri importante** ale săptămânii.
