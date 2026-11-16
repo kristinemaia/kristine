@@ -81,6 +81,8 @@ GROUPS = [
              "src": "studio/POZE-DE-FACUT.md", "desc": "Cele 4 poze pentru PDF, poza de copertă, pozele pentru rețete și pentru caruselele C2 și KM: poziție, cadru, lumină, nume de fișier."},
             {"kind": "doc", "slug": "branduri-reeluri", "title": "Reel-urile pentru branduri: Bewit, Revo Natural, Dope Rope",
              "src": "studio/BRANDURI-REELURI.md", "desc": "Cadre, secunde, text pe ecran, descriere cu #ad și hashtag-uri pentru cele 3 reel-uri de colaborare; regulile și datele de postare."},
+            {"kind": "doc", "slug": "capcut-estetic", "title": "Stilul estetic în CapCut: filmare, culoare, tranziții, text", "src": "studio/CAPCUT-ESTETIC.md",
+             "desc": "Cum filmezi ca să pară filmat cu aparatul, valorile de culoare din CapCut, tranzițiile, zoom-ul lent, fontul și setările de export și de urcare."},
             {"kind": "doc", "slug": "gatit-reeluri", "title": "Reel-urile cu gătit: K1, bolul cu ton, K4, K5",
              "src": "studio/GATIT-REELURI.md", "desc": "Cadrele, secundele, textul de pe ecran, vocea, descrierea și hashtag-urile pentru gătit; ce filmezi sâmbătă 17 și când postezi."},
             {"kind": "doc", "slug": "plan-sambata-24-oct", "title": "Sâmbătă 24 oct la țară: planul de filmare",
