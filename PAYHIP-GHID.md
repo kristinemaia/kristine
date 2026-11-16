@@ -4,7 +4,8 @@
 >
 > **Făcut pe 16 nov:** abonamentul „Custom Program” creat · Settings (comentarii da, notificări da, fără dată, fără listă automată, cu TVA) · planul „Founding member”, Subscription, 10 USD, Every month.
 > **Făcut tot pe 16 nov:** pagina de vânzare (textele și pozele din `brand/payhip/membership-*.jpg`).
-> **Urmează:** verificarea în incognito că nu se poate cumpăra încă · pagina de mulțumire · postarea „Start here” (secțiunea 7) · urcatul videourilor în Video Library · testul cu cupon · Publish doar după răspunsul scris al contabilei și al avocatului.
+> **Tot pe 16 nov:** verificat în incognito (nu se vede, nu se poate cumpăra) · pagina de mulțumire · postarea „Start here” cu eticheta `Start here`.
+> **Urmează:** videourile vorbite (filmate 17 nov) în Video Library, ca postări cu eticheta `Start here` · antrenamentele, ca postări cu etichetele traseului (`Get Strong`, `Shape Up`, `Unstiff`, `Desk Reset`, `Home`/`Gym`, `Resets`) · testul cu cupon · Publish doar după răspunsul scris. · urcatul videourilor în Video Library · testul cu cupon · Publish doar după răspunsul scris al contabilei și al avocatului.
 
 **Când:**
 - **joi 12 nov, seara (~30 min):** pasul 1, setările contului. Nu depinde de videouri.
