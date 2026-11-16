@@ -185,6 +185,24 @@ General mobility, not medical advice. Affiliate: I earn a small commission if yo
 #afterstream #streamerlife #mobility #deskstretch #cacaoritual #wellness
 ```
 
+### S1 · Vin 20 nov, 17:00 · Save this: full-body gym workout (formatul „Save this workout”)
+6 slide-uri (Biblioteca → fișierele trimise în chat, `EN-S1-save-this-workout-1…6.png`). Pe TikTok: postare foto, cu același text.
+```
+Sit all day? This is the full-body gym session I'd start with: 45 minutes, 4 parts, nothing fancy.
+
+1 Warm-up · 2 Legs · 3 Back & posture · 4 Core
+
+Rest 60–90 s between sets. Start light and add a little weight when the last reps feel easy.
+
+Save it for your next gym day 🔖 Which part do you skip most? 👇
+
+Want one built for your goal, home or gym? My Custom Program opens soon. Join the waitlist → link in bio
+
+General exercise, not medical advice.
+
+#gymworkout #fullbodyworkout #deskjob #gamerfitness #beginnerworkout #savethisworkout
+```
+
 ## Gătit: reel-uri K
 
 Trei dintre ele cer rețeta în descriere (în reel scrie „Recipe in the caption”). Lipești rețeta din e-book în locul lui `[REȚETA]`, pe pași scurți, cu ingredientele deasupra. Linia cu e-book-ul o adaugi doar când ediția nouă e live pe Amazon.

@@ -42,7 +42,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | mar 17 | 18:00 · **G3** · 3 cable row mistakes ✏️ | G3 🗓 |
 | mie 18 | 17:00 · Revo · After the gym (afiliat) ✏️ | Revo ✏️ |
 | joi 19 | 17:00 · **VirtuMe #1** · knows her vibe (AI + Paid partnership) ✏️ | VirtuMe #1 (dacă permite contractul) ✏️ |
-| vin 20 | 17:00 · Gamer hunch 🎬 | Gamer hunch 🎬 |
+| vin 20 | 17:00 · **Carusel S1** · Save this: full-body gym workout (selfie-ul la oglindă de pe 16 nov) ✏️ · Gamer hunch se mută după ce îl filmezi | S1, ca postare foto ✏️ |
 | sâm 21 | 18:00 · **K · Raid night fuel**: varianta câștigătoare din testul de miercuri, „Share to followers” ✏️ | Raid night fuel, câștigătoarea ✏️ |
 | dum 22 | 18:00 · Overhead reach test 🎬 | Overhead reach test 🎬 |
 
