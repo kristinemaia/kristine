@@ -63,3 +63,11 @@ Acum butonul „Join the waitlist” deschide doar un email către tine. Ca să 
 - **Form checks** (G3, G4, G6): greșit / corect, cu lumina pe mușchi
 - **Meal prep** în stilul estetic (spaghete, cartofi), cu întrebări
 - **Trial reels:** testăm hook-uri diferite pe aceleași clipuri
+
+## 6. Direcția (16 nov): modelul „creator care vinde ce face ea însăși”
+Ca la Lauren Simpson: programul de antrenament + un ghid de alimentație construit pe **ce mănânci tu**, fără să te prezinți ca nutriționist.
+- **Programul de antrenament:** gata în decembrie (Custom Program)
+- **„Kristine's Kitchen” în membership (ianuarie):** ghidul de alimentație din quiz (ținte orientative de proteine și porții, șabloane de zile, meal prep), cu rețetele din e-book; formulat ca „what I eat”, informație generală
+- **Seria „Cut with me”** (opțional, decizia ta): îți arăți propriul program de definire (11 nov – 7 feb), cu check-in săptămânal, „what I eat in a day”, meal prep și antrenamentele. Asta construiește încrederea pentru ghid
+- **Reguli:** fără „nutriționist”/„dietetician”, fără diete pentru boli, fără promisiuni de kilograme, excluderile din quiz (sarcină, sub 18, diabet, tulburări de alimentație → specialist), un dietetician verifică o dată ghidul
+- **În paralel:** cursul de Level 4 Nutrition Coach, pentru credibilitate
