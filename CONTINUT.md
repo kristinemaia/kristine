@@ -14,6 +14,8 @@
 > - Contabila a vorbit cu tine; avocatul nu mai primește documente. Nu trebuie nimic despre eSIM sau ora (ai SIM bun, ceasul se schimbă singur; în România trecem la ora de iarnă pe 25 oct).
 > - Planul zilnic complet, cu locuri și ore: `PLAN-TURCIA.md` și Calendarul de printat. Bifezi în Tracker.
 
+> **Lumina (16 nov):** reel-urile le filmăm **dimineața**, în lumina naturală (cam 8–11). Dimineața e blocul de filmare, înainte de orice altceva.
+
 > Regula de bază: **un brand, patru piloni, același program în fiecare săptămână.** Tot ce faci pe stream devine reel-uri.
 
 ---

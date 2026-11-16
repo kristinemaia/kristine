@@ -142,7 +142,7 @@ Luni 10:00 RO (11:00 la tine) Move Monday, la sală · marți · miercuri · vin
 
 ### Regulile pentru toate reel-urile de sală
 1. **Telefonul vertical, pe trepied, stabil.** Camera din spate (e mai bună decât cea frontală), 1080p sau 4K la 30 de cadre pe secundă. Ștergi lentila înainte.
-2. **Lumina din față sau din lateral**, niciodată cu o fereastră sau o lampă puternică în spatele tău.
+2. **Lumina din față sau din lateral**, niciodată cu o fereastră sau o lampă puternică în spatele tău. **Filmăm dimineața** (cam 8–11): lumina naturală e cea mai frumoasă, iar sala e mai goală.
 3. **Tot corpul în cadru** la exercițiile în picioare; lași puțin loc deasupra capului și sub picioare. Pe podea, telefonul jos, la nivelul saltelei.
 4. **Hook-ul separat:** primele 2 secunde le filmezi ca un clip aparte. Te uiți în cameră sau începi direct mișcarea, fără „bună”.
 5. **Fiecare mișcare de 2–3 ori**, încet și controlat. Eu aleg cea mai bună tură.

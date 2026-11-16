@@ -71,3 +71,20 @@ Ca la Lauren Simpson: programul de antrenament + un ghid de alimentație constru
 - **Seria „Cut with me”** (opțional, decizia ta): îți arăți propriul program de definire (11 nov – 7 feb), cu check-in săptămânal, „what I eat in a day”, meal prep și antrenamentele. Asta construiește încrederea pentru ghid
 - **Reguli:** fără „nutriționist”/„dietetician”, fără diete pentru boli, fără promisiuni de kilograme, excluderile din quiz (sarcină, sub 18, diabet, tulburări de alimentație → specialist), un dietetician verifică o dată ghidul
 - **În paralel:** cursul de Level 4 Nutrition Coach, pentru credibilitate
+
+### Modelul Built by Becky și Senada Greca (16 nov): îl luăm ca model, nu ca listă de filmări
+Mi se potrivește la tine, pentru că ambele fac exact ce faci și tu: conținut gratuit cu antrenamentele lor, apoi un abonament cu antrenamente, alimentație, progres și comunitate. Nu adăugăm acum ședințe întregi la filmări; luăm **formatele** lor și le facem în varianta scurtă, din clipurile pe care le filmezi oricum.
+
+**Conținut în stilul lor (de acum, în calendarul obișnuit):**
+| Format | Cum arată la tine | De la cine |
+|---|---|---|
+| **„Save this workout”** | reel sau carusel cu 4–5 exerciții, seriile și repetările pe ecran („3 × 10”), varianta de sală și cea de acasă | Senada |
+| **„Train with me”** | 45–60 s: faci tu exercițiile în ordine, cu timer, iar omul le face cu tine | Becky |
+| **„Beginner vs advanced”** | același exercițiu în 2 variante (ca nivelurile din quiz) | amândouă |
+| **„What I eat”** | o zi de mâncare sau meal prep, pe regula „ce mănânc eu” | Senada |
+| **Mindset** | obiceiuri de gamer: somn, pauze, „nu ai nevoie de motivație, ai nevoie de un plan” | Senada |
+| **Comunitate** | story cu întrebare („ce antrenezi azi?”), apoi răspunsurile lor, mai târziu Discordul membrilor | Becky |
+
+**Ce păstrăm diferit:** nișa ta (gameri, recuperare, postură), fără aplicație proprie până la ~200–300 de membri, prețul de fondator de 9 €/lună, fără titluri pe care nu le ai (Becky vinde „cum mă antrenez eu”; Senada are o echipă de nutriționiști pentru planurile de mese).
+
+Surse: Built by Becky (App Store), Entrepreneur și builtbyfoundry despre Senada Greca și WeRise.

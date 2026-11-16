@@ -52,7 +52,9 @@ GROUPS = [
         "zip": ("Programari-noiembrie.zip", "programari"),
         "items": [
             {"kind": "doc", "slug": "promovare-custom-program", "title": "Custom Program: ce mai filmăm și planul de promovare", "src": "PROMOVARE-CUSTOM-PROGRAM.md",
-             "desc": "Ce mai e de filmat, ce montez eu, lista de așteptare reală (MailerLite), testerii, lansarea pe săptămâni și ce postăm până atunci."},
+             "desc": "Ce mai e de filmat, ce montez eu, lista de așteptare reală (MailerLite), testerii, lansarea pe săptămâni, ce postăm până atunci și modelul Built by Becky / Senada Greca."},
+            {"kind": "doc", "slug": "program-zilnic-pareto", "title": "Programul zilei, pe regula 80/20 (ciornă)", "src": "PROGRAM-ZILNIC-PARETO.md",
+             "desc": "Cele 20% care aduc 80% (Custom Program, filmarea de dimineață, stream, colaborări), ce primește doar timpul rămas, ziua-tip cu blocul de filmare în lumina dimineții și regulile săptămânii."},
             {"kind": "doc", "slug": "terapie-turcia", "title": "Terapie la sala lui Cem, în Turcia: ce trebuie", "src": "TERAPIE-TURCIA.md",
              "desc": "Ce se poate (masaj, cu permis de muncă) și ce nu (ventuze, dry needling), pașii în ordine, variantele de până atunci, întrebările pentru avocatul turc și ce se resetează în 2027."},
             {"kind": "doc", "slug": "calatorie-romania", "title": "Drumul în România (sfârșitul lui noiembrie)", "src": "CALATORIE-ROMANIA.md",

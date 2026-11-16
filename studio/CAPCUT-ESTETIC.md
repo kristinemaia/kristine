@@ -18,6 +18,7 @@ _16 noiembrie 2026. Setările pe care le folosesc eu la reel-urile estetice (spa
 - **modul Cinematic**, pentru fundalul estompat la prim-planuri
 
 **Lumina:**
+- **Regula principală (16 nov): reel-urile le filmăm dimineața, în lumina naturală.** Cam între 8 și 11, lumina e moale, caldă și vine din lateral, iar imaginea iese clară fără să o mai corectez mult. Seara (lumina de bec) iese granulată și galbenă. Gătitul de prânz îl poți găti dimineața sau îl filmezi lângă fereastră până la ~13.
 - **o singură sursă principală, din lateral:** fereastra sau ring light-ul pus lateral. Lumina din lateral arată textura și aburul
 - **stingi lumina de pe tavan** dacă e albă și rece: amestecul de lumină caldă (de sub dulapuri) cu cea rece face pielea și mâncarea să aibă culori diferite
 - **cu cât e mai multă lumină, cu atât imaginea e mai clară** (mai puțin „zgomot”)
