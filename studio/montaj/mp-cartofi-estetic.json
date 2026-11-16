@@ -13,9 +13,9 @@
   {
    "clip": "studio/montaj/_curat/mp-cartofi-9.mp4",
    "audio": "studio/gatit/raw/mp-cartofi-9.mov",
-   "ss": 2.9,
-   "d": 1.9,
-   "crop": "900:1600:90:320",
+   "ss": 6.9,
+   "d": 1.6,
+   "crop": "900:1600:90:250",
    "zoom": 0.05
   },
   {
