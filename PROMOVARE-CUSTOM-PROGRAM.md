@@ -26,6 +26,16 @@ _16 noiembrie 2026. Vânzarea începe doar după răspunsul scris al contabilei 
 
 După asta, programul e filmat complet: ~72 de exerciții + cele 4 videouri de început.
 
+**Colțul de acasă (16 nov), ca la Becky: perete alb, saltea, elastice**
+Sala rămâne pentru exercițiile cu greutăți și aparate. Acasă filmezi: varianta de acasă a programului, „Train with me”, „Save this workout”, videourile vorbite și mobilitatea.
+- [ ] **saltea** de 6–10 mm, gri, bej sau crem (fără logo mare), cam 180 × 60 cm, ca să încapă tot corpul în cadru
+- [ ] **set de mini-benzi** (buclă mică, 3–5 rezistențe): fesieri, genunchi, umeri
+- [ ] **2–3 benzi lungi** cu rezistență ușoară, medie și mare (sau un set cu mânere): ramat, pull-apart, face pull, presă. Cu ele punem înapoi variantele cu bandă scoase din program.
+- [ ] (opțional, mai târziu) o pereche de gantere reglabile sau un kettlebell
+- [ ] **unde:** în Turcia sau în România, pe 26–30 nov. Benzile și salteaua încap ușor în bagaj
+- [ ] **cadrul:** peretele alb lângă fereastră, lumina din lateral, dimineața. Nimic personal în cadru (poze, lucrurile lui Cem)
+
+
 ## 2. Ce fac eu după filmare
 - [ ] montez antrenamentele A, B, C pentru fiecare traseu (Get Strong, Shape Up, Unstiff, Desk Reset), sală și acasă, plus Express de 10 minute
 - [ ] jurnalul de greutăți pe site (`log.html`, pagină ascunsă) + varianta PDF
