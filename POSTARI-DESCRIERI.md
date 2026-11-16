@@ -186,7 +186,7 @@ General mobility, not medical advice. Affiliate: I earn a small commission if yo
 ```
 
 ### S1 · Vin 20 nov, 17:00 · Save this: full-body gym workout (formatul „Save this workout”)
-7 slide-uri (fișierele trimise în chat, `EN-S1-save-this-workout-1…7.png`): prima e poza singură, fără text; apoi titlul, cele 4 părți și poza a doua cu îndemnul. Pe TikTok: postare foto, cu același text.
+7 slide-uri (fișierele trimise în chat, `EN-S1-save-this-workout-1…7.png`): prima e poza singură, fără text; restul sunt text (titlul, cele 4 părți, fiecare cu un „de ce”, și îndemnul), pe aceeași poză estompată. Pe TikTok: postare foto, cu același text.
 ```
 Sit all day? This is the full-body gym session I'd start with: 45 minutes, 4 parts, nothing fancy.
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Carusel EN S1 „Save this: full-body gym workout” (formatul „Save this workout”, modelul Senada Greca), stilul estetic (16 nov):
-prima poză singură, fără text; apoi slide-uri închise la culoare, cu Poppins, ca la reel-urile estetice; la final, a doua poză cu îndemnul.
-Pozele: src/s1-cover.jpg și s1-end.jpg (selfie-urile la oglindă din 16 nov, fără alți oameni în cadru), s1-blur.jpg (coperta estompată)
-și cadrele din filmările programului (wk-*.jpg, gym-lunge.jpg), afișate la rezoluția lor.
+prima poză singură, fără text; apoi slide-uri cu text, Poppins, ca la reel-urile estetice.
+Varianta 2 (16 nov, cerută de Kristine): doar prima poză; restul slide-urilor sunt text, pe aceeași poză estompată și întunecată.
+Pozele: src/s1-cover.jpg (selfie-ul la oglindă din 16 nov, fără alți oameni în cadru) și s1-blur.jpg (aceeași, estompată).
 Rulezi: python3 brand/carousels-en/build_s1.py -> out/EN-S1-save-this-workout-*.png"""
 import base64, html, json, os, subprocess, tempfile, zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -29,6 +29,7 @@ body{background:#000}
 .center{position:absolute;left:90px;right:90px;text-align:center}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,9,8,.25) 0%,rgba(10,9,8,.15) 40%,rgba(10,9,8,.82) 72%,rgba(10,9,8,.92) 100%)}
 """
+BLUR = None
 FOOT = 'General exercise, not medical advice. Rest 60–90 s between sets.'
 T = 7
 
@@ -38,39 +39,43 @@ def frame(n, inner, cls=''):
 def rows(items, top):
     return '<div class="rows" style="top:%dpx">%s</div>' % (top, ''.join('<div class="row"><span>%s</span><b>%s</b></div>' % (E(a), E(b)) for a, b in items))
 
-def part(n, label, items, photos):
-    if len(photos) == 1:
-        name, pos = photos[0]
-        pics = '<div class="ph" style="left:290px;top:180px;width:500px;height:660px"><img src="%s" style="object-position:%s"></div>' % (img(name), pos)
-    else:
-        pics = ''.join('<div class="ph" style="left:%dpx;top:180px;width:440px;height:660px"><img src="%s" style="object-position:%s"></div>' % (x, img(nm), pos)
-                       for x, (nm, pos) in zip((90, 550), photos))
-    top = 890
-    return frame(n, '<div class="label">%s</div><div class="num">%d / %d</div>%s%s<div class="foot">%s</div>' % (E(label), n, T, pics, rows(items, top), FOOT))
+def bg():
+    return '<img class="bg" src="%s"><div class="shade" style="background:rgba(10,9,8,.68)"></div>' % BLUR
+
+def part(n, label, title, why, items):
+    return frame(n, bg() + '<div class="label">%s</div><div class="num">%d / %d</div>'
+        '<div style="position:absolute;left:90px;right:90px;top:330px"><div style="font-size:96px;font-weight:500;line-height:1.05;letter-spacing:-1.5px">%s</div>'
+        '<div style="font-size:36px;font-weight:400;line-height:1.4;margin-top:34px;color:#E6DCCD">%s</div></div>'
+        '%s<div class="foot">%s</div>' % (E(label), n, T, E(title), E(why), rows(items, 1180 - 104 * len(items)), FOOT))
 
 def slides():
     s = []
-    # 1: poza singură
+    # 1: poza singură, fără text
     s.append(frame(1, '<img class="bg" src="%s">' % img('s1-cover.jpg')))
-    # 2: titlul, pe poza estompată
-    s.append(frame(2, '<img class="bg" src="%s"><div class="shade" style="background:rgba(10,9,8,.62)"></div>'
-        '<div class="num">2 / %d</div>'
+    # 2: titlul
+    s.append(frame(2, bg() + '<div class="num">2 / %d</div>'
         '<div class="center" style="top:430px"><div style="font-size:28px;font-weight:500;letter-spacing:8px;color:#D9CDBB">SIT ALL DAY?</div>'
         '<div style="font-size:84px;font-weight:500;line-height:1.08;margin-top:34px;letter-spacing:-1px">Save this full-body gym workout</div>'
-        '<div style="font-size:28px;font-weight:400;letter-spacing:6px;margin-top:46px;color:#D9CDBB">45 MIN · 4 PARTS · BEGINNER FRIENDLY</div></div>' % (img('s1-blur.jpg'), T)))
-    s.append(part(3, '01 · Warm-up · 5 min', [('March or jumping jacks', '1 min'), ("World's greatest stretch", '5 / side'), ('Cat-cow', '8 slow')],
-                  [('wk-mobilitate-worlds-greatest-stretch.jpg', 'center 80%')]))
-    s.append(part(4, '02 · Legs', [('Goblet squat', '3 × 10'), ('Dumbbell lunge', '3 × 8 / side')],
-                  [('wk-picioare-goblet-a.jpg', 'center 40%'), ('gym-lunge.jpg', 'center 40%')]))
-    s.append(part(5, '03 · Back & posture', [('Lat pulldown', '3 × 10'), ('Seated cable row', '3 × 12'), ('Face pull', '2 × 15')],
-                  [('wk-spate-lat-pulldown.jpg', 'center 45%')]))
-    s.append(part(6, '04 · Core', [('Side plank', '3 × 20 s / side'), ('Dead bug', '3 × 8 / side')],
-                  [('wk-core-plank-lateral.jpg', 'center 85%')]))
-    # 7: a doua poză, cu îndemnul jos
-    s.append(frame(7, '<img class="bg" src="%s"><div class="shade"></div><div class="num">7 / %d</div>'
-        '<div class="center" style="top:1000px"><div style="font-size:62px;font-weight:500;line-height:1.1;letter-spacing:-.5px">Want one built for you?</div>'
-        '<div style="font-size:30px;font-weight:400;margin-top:26px;color:#E6DCCD;line-height:1.4">Your goal, your time, home or gym.<br>Custom Program · opening soon</div>'
-        '<div style="font-size:24px;font-weight:500;letter-spacing:6px;margin-top:34px;color:#D9CDBB">JOIN THE WAITLIST · LINK IN BIO</div></div>' % (img('s1-end.jpg'), T)))
+        '<div style="font-size:28px;font-weight:400;letter-spacing:6px;margin-top:46px;color:#D9CDBB">45 MIN · 4 PARTS · BEGINNER FRIENDLY</div></div>' % T))
+    s.append(part(3, '01 · Warm-up · 5 min', 'Wake up your hips and back',
+                  'After hours in a chair, your body needs a few minutes before the first set.',
+                  [('March or jumping jacks', '1 min'), ("World's greatest stretch", '5 / side'), ('Cat-cow', '8 slow')]))
+    s.append(part(4, '02 · Legs', 'Turn your glutes back on',
+                  'Sitting all day makes them lazy. These two moves wake them up.',
+                  [('Goblet squat', '3 × 10'), ('Dumbbell lunge', '3 × 8 / side')]))
+    s.append(part(5, '03 · Back & posture', 'Undo the desk hunch',
+                  'Pull more than you push: your upper back holds your shoulders where they belong.',
+                  [('Lat pulldown', '3 × 10'), ('Seated cable row', '3 × 12'), ('Face pull', '2 × 15')]))
+    s.append(part(6, '04 · Core', 'A back that lasts all day',
+                  'A strong core keeps you upright through the next long session.',
+                  [('Side plank', '3 × 20 s / side'), ('Dead bug', '3 × 8 / side')]))
+    # 7: îndemnul
+    s.append(frame(7, bg() + '<div class="num">7 / %d</div>'
+        '<div class="center" style="top:440px"><div style="font-size:84px;font-weight:500;line-height:1.08;letter-spacing:-1px">Want one built for you?</div>'
+        '<div style="font-size:36px;font-weight:400;margin-top:40px;color:#E6DCCD;line-height:1.45">Your goal, your time, home or gym.<br>A 2-minute quiz builds your plan.</div>'
+        '<div style="font-size:30px;font-weight:500;letter-spacing:6px;margin-top:70px;color:#D9CDBB">CUSTOM PROGRAM · OPENING SOON</div>'
+        '<div style="font-size:26px;font-weight:400;letter-spacing:5px;margin-top:22px;color:#B8AE9F">JOIN THE WAITLIST · LINK IN BIO</div>'
+        '<div style="font-size:30px;font-weight:400;margin-top:90px;color:#E6DCCD">Save it for your next gym day 🔖</div></div>' % T))
     return s
 
 JS = r"""
@@ -81,6 +86,7 @@ const { chromium } = require('playwright');
 """
 
 if __name__ == '__main__':
+    BLUR = img('s1-blur.jpg')
     os.makedirs(OUT, exist_ok=True)
     for f in os.listdir(OUT):
         if f.startswith('EN-S1-save-this-workout-'): os.unlink(os.path.join(OUT, f))
