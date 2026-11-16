@@ -3,7 +3,8 @@
 > **Actualizat 16 nov (are prioritate peste ce scrie mai jos):** pe Payhip, abonamentul (Membership) nu include cursuri: conținutul lui sunt **postările** (Posts) și **Video Library**. Deci antrenamentele le punem ca **postări video** în abonamentul „Custom Program”, nu ca 4 cursuri separate. Moneda contului nu se schimbă din USD, așa că prețul e **10 USD/lună** (~9 €; Stripe plătește în EUR). Linkul paginii de vânzare: `payhip.com/b/gWIHB` (nepublicat).
 >
 > **Făcut pe 16 nov:** abonamentul „Custom Program” creat · Settings (comentarii da, notificări da, fără dată, fără listă automată, cu TVA) · planul „Founding member”, Subscription, 10 USD, Every month.
-> **Urmează:** textul paginii de vânzare și al paginii de mulțumire (mai jos, secțiunea 6) · postarea „Start here” · urcatul videourilor în Video Library · testul cu cupon · Publish doar după răspunsul scris al contabilei și al avocatului.
+> **Făcut tot pe 16 nov:** pagina de vânzare (textele și pozele din `brand/payhip/membership-*.jpg`).
+> **Urmează:** verificarea în incognito că nu se poate cumpăra încă · pagina de mulțumire · postarea „Start here” (secțiunea 7) · urcatul videourilor în Video Library · testul cu cupon · Publish doar după răspunsul scris al contabilei și al avocatului.
 
 **Când:**
 - **joi 12 nov, seara (~30 min):** pasul 1, setările contului. Nu depinde de videouri.
@@ -113,4 +114,35 @@ Welcome to Custom Program 🎉
 Check your email for your login. Then open the post "Start here": it shows you which workouts to begin with, gym or home.
 
 Questions? Comment on any post or reply to the welcome email. See you inside!
+```
+
+## 7. Postarea „Start here” (Posts → Create New Post, prima postare)
+**Titlu:** `Start here 👋`
+```
+Welcome! Here's how to use Custom Program.
+
+1. Find your track
+Use the result from your quiz:
+• Get Strong: build strength in the gym
+• Shape Up: tone up and lose fat
+• Unstiff: mobility after long hours of sitting
+• Desk Reset: short daily routines, no gym needed
+Not sure? Start with Get Strong if you go to the gym, Unstiff if you feel stiff.
+
+2. Your week
+2 days: A + B · 3 days: A + B + C · 4 days: A + B + C + A
+Short on time? Do the 10-minute Express.
+
+3. Every session
+Warm up for 5 minutes, do the workout, then write your weights in your training log. When you hit the top of the rep range on every set, add a little weight next time (+2 kg, or +1 kg on small moves).
+
+4. New to the gym?
+Weeks 1–2 are for learning the moves with light weights. Finish every set with 2–3 reps left in the tank.
+
+5. Watch these first
+Welcome · How to use · Safety · How to film your form
+
+Questions? Comment under any post, I read them all.
+
+General fitness guidance, not medical advice. Stop if anything feels sharp.
 ```
