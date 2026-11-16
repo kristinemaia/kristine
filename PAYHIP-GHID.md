@@ -1,5 +1,10 @@
 # Payhip, pas cu pas: cum facem pagina pentru Custom Program
 
+> **Actualizat 16 nov (are prioritate peste ce scrie mai jos):** pe Payhip, abonamentul (Membership) nu include cursuri: conținutul lui sunt **postările** (Posts) și **Video Library**. Deci antrenamentele le punem ca **postări video** în abonamentul „Custom Program”, nu ca 4 cursuri separate. Moneda contului nu se schimbă din USD, așa că prețul e **10 USD/lună** (~9 €; Stripe plătește în EUR). Linkul paginii de vânzare: `payhip.com/b/gWIHB` (nepublicat).
+>
+> **Făcut pe 16 nov:** abonamentul „Custom Program” creat · Settings (comentarii da, notificări da, fără dată, fără listă automată, cu TVA) · planul „Founding member”, Subscription, 10 USD, Every month.
+> **Urmează:** textul paginii de vânzare și al paginii de mulțumire (mai jos, secțiunea 6) · postarea „Start here” · urcatul videourilor în Video Library · testul cu cupon · Publish doar după răspunsul scris al contabilei și al avocatului.
+
 **Când:**
 - **joi 12 nov, seara (~30 min):** pasul 1, setările contului. Nu depinde de videouri.
 - **sâmbătă 14 nov (~1 oră):** pașii 2 și 3, cursurile și abonamentul. Până atunci îți dau videourile exportate și numite în ordine.
@@ -42,3 +47,70 @@ Videourile ți le dau eu exportate, numite în ordine (ex. `GS-W1-A-gym.mp4`), c
 ## 5. Legătura cu site-ul
 - [ ] copiezi linkul abonamentului (payhip.com/b/...) și mi-l trimiți
 - [ ] eu schimb butonul „Join your custom program (waitlist)” de pe site în butonul de cumpărare, doar după răspunsul contabilei și al avocatului
+
+## 6. Textele paginilor (16 nov)
+
+### Sales Page (Pages → Sales Page → Edit)
+**Titlu:** `Custom Program`
+
+**Subtitlu:**
+```
+Your gym or home plan, built from a 2-minute quiz. For people who sit all day.
+```
+
+**What you get**
+```
+• Your plan by goal: Get Strong, Shape Up, Unstiff or Desk Reset
+• Workouts A, B and C for the gym or at home, plus a 10-minute Express day
+• A short follow-along video for every exercise, filmed by me
+• A 4-week progression, so you know when to add weight
+• Your training log: write down your weights and see what you lifted last time
+• 5-minute resets for your neck, back and wrists after long sessions
+• New workouts and member posts, with comments open
+```
+
+**How it works**
+```
+1. Take the free 2-minute quiz on kristinemaia.com
+2. Join, then open the post "Start here"
+3. Train 2–4 times a week, log your weights, switch your goal anytime
+```
+
+**Who it's for**
+```
+Beginners and intermediates who sit a lot: gamers, students, desk jobs. Gym or home: every workout has a version with your bodyweight or light dumbbells.
+```
+
+**About me**
+```
+I'm Kristine. I studied Physical Education and Sport, I'm a certified recovery massage therapist, and as a Twitch Partner I spend long hours at a desk too. I built this program for people like us.
+```
+
+**FAQ**
+```
+Can I cancel anytime?
+Yes, from your account. You keep access until the end of the month you paid for.
+
+Do I need a gym?
+No. Every workout has a home version.
+
+I'm a total beginner. Is it for me?
+Yes. The first weeks teach you the moves with light weights.
+
+What is the founding price?
+The first 50 members pay $10 a month and keep that price for as long as they stay.
+```
+
+**Jos, cu litere mici:**
+```
+General fitness guidance, not medical advice. If you are pregnant, under 18 or have a medical condition, check with your doctor before you start.
+```
+
+### Thank You Page (Pages → Thank You Page → Edit)
+```
+Welcome to Custom Program 🎉
+
+Check your email for your login. Then open the post "Start here": it shows you which workouts to begin with, gym or home.
+
+Questions? Comment on any post or reply to the welcome email. See you inside!
+```
