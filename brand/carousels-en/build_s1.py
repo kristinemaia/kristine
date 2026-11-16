@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Carusel EN S1 „Save this: full-body gym workout” (formatul „Save this workout”, modelul Senada Greca), stilul estetic (16 nov):
 prima poză singură, fără text; apoi slide-uri cu text, Poppins, ca la reel-urile estetice.
-Varianta 2 (16 nov, cerută de Kristine): doar prima poză; restul slide-urilor sunt text, pe aceeași poză estompată și întunecată.
-Pozele: src/s1-cover.jpg (selfie-ul la oglindă cu „flex”, ales pe 16 nov, fără alți oameni în cadru) și s1-blur.jpg (aceeași, estompată).
+Varianta 2 (16 nov, cerută de Kristine): doar prima poză; restul slide-urilor sunt text, fiecare pe altă poză de la oglindă, estompată și întunecată (src/s1-bg-2…7.jpg).
+Pozele: src/s1-cover.jpg (selfie-ul la oglindă cu „flex”, ales pe 16 nov, fără alți oameni în cadru).
 Rulezi: python3 brand/carousels-en/build_s1.py -> out/EN-S1-save-this-workout-*.png"""
 import base64, html, json, os, subprocess, tempfile, zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -29,7 +29,6 @@ body{background:#000}
 .center{position:absolute;left:90px;right:90px;text-align:center}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,9,8,.25) 0%,rgba(10,9,8,.15) 40%,rgba(10,9,8,.82) 72%,rgba(10,9,8,.92) 100%)}
 """
-BLUR = None
 FOOT = 'General exercise, not medical advice. Rest 60–90 s between sets.'
 T = 7
 
@@ -39,11 +38,11 @@ def frame(n, inner, cls=''):
 def rows(items, top):
     return '<div class="rows" style="top:%dpx">%s</div>' % (top, ''.join('<div class="row"><span>%s</span><b>%s</b></div>' % (E(a), E(b)) for a, b in items))
 
-def bg():
-    return '<img class="bg" src="%s"><div class="shade" style="background:rgba(10,9,8,.68)"></div>' % BLUR
+def bg(n):
+    return '<img class="bg" src="%s"><div class="shade" style="background:rgba(10,9,8,.6)"></div>' % img('s1-bg-%d.jpg' % n)
 
 def part(n, label, title, why, items):
-    return frame(n, bg() + '<div class="label">%s</div><div class="num">%d / %d</div>'
+    return frame(n, bg(n) + '<div class="label">%s</div><div class="num">%d / %d</div>'
         '<div style="position:absolute;left:90px;right:90px;top:330px"><div style="font-size:96px;font-weight:500;line-height:1.05;letter-spacing:-1.5px">%s</div>'
         '<div style="font-size:36px;font-weight:400;line-height:1.4;margin-top:34px;color:#E6DCCD">%s</div></div>'
         '%s<div class="foot">%s</div>' % (E(label), n, T, E(title), E(why), rows(items, 1180 - 104 * len(items)), FOOT))
@@ -53,7 +52,7 @@ def slides():
     # 1: poza singură, fără text
     s.append(frame(1, '<img class="bg" src="%s">' % img('s1-cover.jpg')))
     # 2: titlul
-    s.append(frame(2, bg() + '<div class="num">2 / %d</div>'
+    s.append(frame(2, bg(2) + '<div class="num">2 / %d</div>'
         '<div class="center" style="top:430px"><div style="font-size:28px;font-weight:500;letter-spacing:8px;color:#D9CDBB">SIT ALL DAY?</div>'
         '<div style="font-size:84px;font-weight:500;line-height:1.08;margin-top:34px;letter-spacing:-1px">Save this full-body gym workout</div>'
         '<div style="font-size:28px;font-weight:400;letter-spacing:6px;margin-top:46px;color:#D9CDBB">45 MIN · 4 PARTS · BEGINNER FRIENDLY</div></div>' % T))
@@ -70,7 +69,7 @@ def slides():
                   'A strong core keeps you upright through the next long session.',
                   [('Side plank', '3 × 20 s / side'), ('Dead bug', '3 × 8 / side')]))
     # 7: îndemnul
-    s.append(frame(7, bg() + '<div class="num">7 / %d</div>'
+    s.append(frame(7, bg(7) + '<div class="num">7 / %d</div>'
         '<div class="center" style="top:440px"><div style="font-size:84px;font-weight:500;line-height:1.08;letter-spacing:-1px">Want one built for you?</div>'
         '<div style="font-size:36px;font-weight:400;margin-top:40px;color:#E6DCCD;line-height:1.45">Your goal, your time, home or gym.<br>A 2-minute quiz builds your plan.</div>'
         '<div style="font-size:30px;font-weight:500;letter-spacing:6px;margin-top:70px;color:#D9CDBB">CUSTOM PROGRAM · OPENING SOON</div>'
@@ -86,7 +85,6 @@ const { chromium } = require('playwright');
 """
 
 if __name__ == '__main__':
-    BLUR = img('s1-blur.jpg')
     os.makedirs(OUT, exist_ok=True)
     for f in os.listdir(OUT):
         if f.startswith('EN-S1-save-this-workout-'): os.unlink(os.path.join(OUT, f))
