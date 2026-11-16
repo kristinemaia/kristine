@@ -11,11 +11,19 @@
  "end_d": 3.0,
  "segs": [
   {
+   "clip": "studio/montaj/_curat/mp-cartofi-9.mp4",
+   "audio": "studio/gatit/raw/mp-cartofi-9.mov",
+   "ss": 2.9,
+   "d": 1.9,
+   "crop": "900:1600:90:320",
+   "zoom": 0.05
+  },
+  {
    "clip": "studio/montaj/_curat/mp-cartofi-7.mp4",
    "audio": "studio/gatit/raw/mp-cartofi-7.mov",
    "ss": 5.75,
    "d": 0.35,
-   "freeze": 1.8,
+   "freeze": 1.4,
    "crop": "980:1742:40:290",
    "zoom": 0.05
   },
@@ -80,10 +88,18 @@
    "audio": "studio/gatit/raw/mp-cartofi-7.mov",
    "ss": 5.75,
    "d": 0.35,
-   "freeze": 2.4,
+   "freeze": 1.8,
    "crop": "1000:1778:30:230",
    "zoom": 0.08,
    "zoom_out": true
+  },
+  {
+   "clip": "studio/montaj/_curat/mp-cartofi-9.mp4",
+   "audio": "studio/gatit/raw/mp-cartofi-9.mov",
+   "ss": 8.3,
+   "d": 2.6,
+   "crop": "900:1600:90:320",
+   "zoom": 0.06
   }
  ]
 }
