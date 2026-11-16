@@ -12,7 +12,19 @@ _16 noiembrie 2026. Vânzarea începe doar după răspunsul scris al contabilei 
 - [ ] cele 4 videouri vorbite (Welcome, How to use, Safety, How to film your form) + snack-ul
 - [ ] 3–4 secunde cu tine ridicându-te de la birou și întinzând brațele („let's stretch”, pentru reel-uri)
 
-După asta, programul e filmat complet: 62 de exerciții + cele 4 videouri de început.
+**Pentru antrenamentele de acasă fără greutăți (pe saltea, la un perete simplu, ~20 min):**
+- [ ] superman / prone Y raise (spatele, fără greutăți)
+- [ ] reverse snow angel (spatele de sus, postura)
+- [ ] donkey kicks, ambele picioare (fesieri)
+- [ ] fire hydrants, ambele picioare (fesierul mijlociu)
+- [ ] side-lying leg raise, ambele părți (fesierul mijlociu)
+- [ ] single-leg glute bridge, ambele picioare (progresia de la glute bridge)
+- [ ] Bulgarian split squat cu piciorul din spate pe un scaun (progresia de acasă)
+- [ ] good morning cu mâinile la ceafă (ischiogambierii, fără gantere)
+- [ ] flotare pe genunchi (varianta ușoară pentru începători)
+- [ ] mountain climbers, lent și rapid (cardio acasă)
+
+După asta, programul e filmat complet: ~72 de exerciții + cele 4 videouri de început.
 
 ## 2. Ce fac eu după filmare
 - [ ] montez antrenamentele A, B, C pentru fiecare traseu (Get Strong, Shape Up, Unstiff, Desk Reset), sală și acasă, plus Express de 10 minute
