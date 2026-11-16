@@ -51,6 +51,8 @@ GROUPS = [
         "id": "programari", "name": "Programări noiembrie", "folder": "Programari-noiembrie", "note": "Instagram, TikTok, story-uri și ce mai filmăm",
         "zip": ("Programari-noiembrie.zip", "programari"),
         "items": [
+            {"kind": "doc", "slug": "promovare-custom-program", "title": "Custom Program: ce mai filmăm și planul de promovare", "src": "PROMOVARE-CUSTOM-PROGRAM.md",
+             "desc": "Ce mai e de filmat, ce montez eu, lista de așteptare reală (MailerLite), testerii, lansarea pe săptămâni și ce postăm până atunci."},
             {"kind": "doc", "slug": "terapie-turcia", "title": "Terapie la sala lui Cem, în Turcia: ce trebuie", "src": "TERAPIE-TURCIA.md",
              "desc": "Ce se poate (masaj, cu permis de muncă) și ce nu (ventuze, dry needling), pașii în ordine, variantele de până atunci, întrebările pentru avocatul turc și ce se resetează în 2027."},
             {"kind": "doc", "slug": "calatorie-romania", "title": "Drumul în România (sfârșitul lui noiembrie)", "src": "CALATORIE-ROMANIA.md",

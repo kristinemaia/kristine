@@ -9,7 +9,8 @@ _10 noiembrie 2026. Datele exacte le pui când iei biletele. Bifezi pe telefon._
 - [ ] **îți faci programare la unghii** pentru zilele în care ești în România (26–29 nov; sâmbăta 28 e cea mai liberă zi), ca să nu se suprapună cu primăria și notarul
 
 ## Luni 16 noiembrie
-- [ ] **suni din nou la Primăria 1 Decembrie** și le spui că ai trimis emailul cu actele pentru apartament. Întrebi dacă l-au primit, dacă le mai trebuie ceva și dacă mai e nevoie să vii la ghișeu.
+- [x] **ai sunat la Primăria 1 Decembrie** (16 nov): adresa de email era greșită, ți-au dat alta și ai retrimis actele
+- [ ] **aștepți răspunsul lor.** Dacă nu răspund până joi 19 nov, suni din nou, ca să știi dacă trebuie să mergi la ghișeu pe 26–27 nov.
 
 ## Primăria 1 Decembrie (actele pentru apartament)
 Dacă trebuie să mergi la ghișeu, mergi **joi 26** (după aterizare, dacă ajungi la timp) sau **vineri 27 noiembrie**: e singura zi lucrătoare sigură, pentru că 28–29 e weekend. Luni 30 nov (Sfântul Andrei) și marți 1 dec (Ziua Națională) sunt zile libere, deci primăria e închisă.
