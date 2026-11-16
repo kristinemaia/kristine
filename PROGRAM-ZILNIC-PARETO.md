@@ -34,3 +34,10 @@ _16 noiembrie 2026. Ciornă de pornire: o ajustăm împreună când lucrezi la p
 - **Duminica, 30 de minute:** programezi postările pe 7–10 zile, te uiți la statistici o singură dată și alegi **cele 3 lucruri importante** ale săptămânii.
 - **Fiecare zi are un singur „lucru mare”**, scris de seara.
 - **Când nu ai timp de tot:** faci doar punctele 1–3 de la secțiunea 1, iar restul se mută.
+
+## 5. Stream sau program: decizia pe cifre (16 nov)
+- **Twitch îți aduce ~400–500 €/lună.** Cu 12–16 ore live pe săptămână, asta înseamnă cam **7–9 € pe oră de stream**.
+- **Custom Program:** fiecare membru plătește în fiecare lună, fără ore live. După comisioane (Payhip + plata cu cardul, ~8–10%), rămân cam **8 € la 9 €** și **11 € la 12 €**.
+- **Ca să înlocuiești Twitch-ul întreg** (450 €) îți trebuie **~55 de membri la 9 €** sau **~40 la 12 €**.
+- **Regula:** până la lansare și în primele luni ții **3 streamuri pe săptămână** (în loc de 4) și pui timpul câștigat în program. Treci la **2 streamuri** când programul aduce **~250 €/lună stabil** (cam 25–30 de membri), adică jumătate din Twitch. Decizia o luăm în martie, pe cifre.
+- **Stream-ul rămâne și locul unde vinzi programul:** `!program`, panoul și o propoziție la fiecare pauză de stretching.

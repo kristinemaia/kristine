@@ -4,7 +4,7 @@ _Reactualizat 30 octombrie 2026. Se sprijină pe `PLAN.md` și pe Roadmap (secț
 
 **Ce s-a schimbat față de planurile de până acum**
 1. Vrei ca munca să fie **mereu remote**. Terapia în persoană iese din plan: rămâne doar dacă vine plătită în avans, când ești oricum în București.
-2. **Twitch e sursa ta dovedită** (150–200 de spectatori, ~500–600 € pe lună), deci e motorul planului.
+2. **Twitch e sursa ta dovedită** (150–200 de spectatori, ~400–500 € pe lună, cifra confirmată pe 16 nov), deci e motorul planului.
 3. **VirtuMe e o colaborare plătită pe 3 luni** (ești în luna a 2-a). Ce urmează nu se știe: deocamdată sunt puțini abonați plătitori. **Nu intră în planul pe termen lung**; dacă merge mai departe, e un bonus.
 4. Ești în Turcia și **nu știi cât rămâi**. Planul trebuie să meargă de oriunde.
 5. Lista de email are **5 oameni**. Asta e cea mai mare problemă de rezolvat.
@@ -15,7 +15,7 @@ _Reactualizat 30 octombrie 2026. Se sprijină pe `PLAN.md` și pe Roadmap (secț
 
 | Ce | Cifra | Ce înseamnă |
 |---|---|---|
-| Twitch | 150–200 spectatori medii; ~500–600 €/lună | Audiență reală. Urmăritorii scad ușor din august (Roadmap §13), iar în octombrie ai avut mai puține ore live |
+| Twitch | 150–200 spectatori medii; **~400–500 €/lună** (confirmat 16 nov) | Audiență reală. Urmăritorii scad ușor din august (Roadmap §13), iar în octombrie ai avut mai puține ore live |
 | Instagram @kristinemaia11 | 12,6K; 113K vizualizări în 30 de zile; −62 urmăritori | Vizualizările au scăzut de la ~10K/zi la ~1K/zi. Merg videourile cu exerciții (cele mai multe comentarii) și lifestyle-ul; PDF-urile merg slab |
 | TikTok | cont nou, o postare pe zi din 19 oct | Prea devreme pentru concluzii |
 | PDF gratuit (Payhip) | 112 vizualizări, 5 descărcări | Pagina convertește bine (~4,5%). **Lipsește traficul**, nu oferta |
@@ -157,7 +157,7 @@ Scopul: din cei 150–200 de spectatori și din clipuri, oamenii ajung pe **list
 | Sursă | Acum | Ianuarie 2027 | Aprilie 2027 (după lansare) |
 |---|---|---|---|
 | Chirie | 400 € | 400 € | 400 € |
-| Twitch | 500–600 € | 550–650 € | 600–750 € |
+| Twitch | 400–500 € (16 nov) | 450–550 € | 500–650 € |
 | Donații | ? | ? | ? |
 | VirtuMe | ~370 € (garantat) | 0 € (bonus dacă apar abonați) | 0 € (bonus dacă apar abonați) |
 | Coaching (49 €/lună) | 0 | 150–250 € (3–5 oameni) | 400–700 € (8–14 oameni) |
