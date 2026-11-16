@@ -30,6 +30,7 @@ Dacă trebuie să mergi la ghișeu, mergi **joi 26** (după aterizare, dacă aju
 - [ ] îi cumperi din farmacie înainte să pleci și îi pui în **bagajul de mână**, cu rețeta
 
 ## Firma și banii (cât ești acolo)
+- [ ] **contabila, despre vânzarea online:** ce coduri CAEN are firma (are și masaj?). Dacă nu are cod pentru **cursuri / antrenamente online** (de exemplu 8551 sau 8559), îl adaugă. Apoi: cum se înregistrează vânzările prin Payhip (TVA-ul pe care îl plătește Payhip) și răspunsul scris că poți vinde.
 - [ ] **contabila:** treci pe la ea sau o suni. Plătești factura pentru noiembrie (~400 lei) și îi dai facturile și extrasul pe noiembrie.
 - [ ] **răspunsul scris** de la contabilă și de la avocat despre munca din Turcia: îl ceri față în față. De el depind vânzarea Custom Program și colaborările plătite.
 - [ ] **cât ești în România** poți negocia și semna colaborări, cu contractul citit de avocat. E singura perioadă în care nu ai restricția din Turcia.

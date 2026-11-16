@@ -52,6 +52,7 @@ Avocatul turc îți spune care dintre ele e acceptată mai ușor pentru permisul
 - **Pe termen lung:** dacă te muți definitiv, o diplomă de fizioterapeut sau un parteneriat cu un fizioterapeut sau medic turc pentru dry needling și ventuze.
 
 ## Întrebări pentru avocatul turc
+0. **Viza de nomad digital** a Turciei: mă califică (cetățean UE, venit online prin firma din România, fără diplomă de licență)? Ce venit minim cere și cât stau cu ea?
 1. Pot lucra ca terapeut de masaj sportiv într-o sală privată, ca cetățean român? Ce criterii trebuie să îndeplinească sala (angajați, capital, autorizație)?
 2. Ce calificare de masor acceptă Turcia: echivalarea certificatului meu prin MEB sau examenul MYK? Se poate da în engleză?
 3. Ventuze și dry needling: le pot face legal în vreun fel, fără să fiu medic sau fizioterapeut?
@@ -62,3 +63,8 @@ Avocatul turc îți spune care dintre ele e acceptată mai ușor pentru permisul
 ## Zilele și impozitele: ce se resetează în 2027 și ce nu
 - **Regula de 90 din 180 de zile (fără viză) NU se resetează pe 1 ianuarie.** E o fereastră care „alunecă”: în fiecare zi se numără zilele petrecute în Turcia în ultimele 180. Zilele din noiembrie și decembrie 2026 contează și în ianuarie 2027. Cu drumul în România de la sfârșitul lui noiembrie, limita ta e **13 ianuarie 2027**.
 - **Rezidența fiscală (impozitele) se socotește pe an calendaristic.** În Turcia devii rezident fiscal dacă stai **mai mult de 6 luni într-un an calendaristic**. Pentru 2026 numărătoarea se oprește pe 31 decembrie, iar în 2027 începe de la zero. Contabila îți confirmă cum se leagă asta de rezidența ta în România.
+
+## De ținut minte (16 nov)
+- **Pentru muncă fizică în Turcia** (terapie la sală), pe termen lung: **învăț turca**, ca să pot lucra cu clienți de acolo și să pot da examenul MYK.
+- **Viza de nomad digital** pare cea mai potrivită variantă pentru munca online din Turcia: o întreb pe avocat.
+- **La mijlocul lui decembrie (amintire pe 14 dec):** cu Cem, cererea de **permis de ședere** pe e-ikamet (adresa lui, asigurarea, actele), înainte de limita din **13 ianuarie 2027**.
