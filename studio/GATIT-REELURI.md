@@ -105,3 +105,5 @@ General food ideas, not medical or diet advice.
 - fără kilograme, calorii pe ecran, cântar, poze înainte/după sau promisiuni („lose 5 kg”)
 - „getting lean” sau „on a cut” sună mai bine decât „lose weight”; TikTok și Instagram arată mai puțin conținutul despre slăbit, mai ales celor tineri
 - poate deveni serie: „Who said meal prep is boring?”, „Who said high-protein can't be sweet?”, „Who said gamers can't cook?”
+
+**Actualizare 16 nov:** Kristine mănâncă acum și carne. Regula cu „I don't eat meat” / „pescatarian” nu mai e valabilă; în descrieri nu mai pomenim dieta ei, doar ce e în farfurie.
