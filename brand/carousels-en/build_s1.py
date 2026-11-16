@@ -2,7 +2,7 @@
 """Carusel EN S1 „Save this: full-body gym workout” (formatul „Save this workout”, modelul Senada Greca), stilul estetic (16 nov):
 prima poză singură, fără text; apoi slide-uri cu text, Poppins, ca la reel-urile estetice.
 Varianta 2 (16 nov, cerută de Kristine): doar prima poză; restul slide-urilor sunt text, pe aceeași poză estompată și întunecată.
-Pozele: src/s1-cover.jpg (selfie-ul la oglindă din 16 nov, fără alți oameni în cadru) și s1-blur.jpg (aceeași, estompată).
+Pozele: src/s1-cover.jpg (selfie-ul la oglindă cu „flex”, ales pe 16 nov, fără alți oameni în cadru) și s1-blur.jpg (aceeași, estompată).
 Rulezi: python3 brand/carousels-en/build_s1.py -> out/EN-S1-save-this-workout-*.png"""
 import base64, html, json, os, subprocess, tempfile, zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
