@@ -61,12 +61,15 @@ def main(spec):
     S = json.load(open(spec)); tmp = tempfile.mkdtemp(); parts, auds, total = [], [], 0.0
     tp = os.path.join(tmp, 'title.png'); title_png(S['title'], S.get('handle'), tp)
     for i, g in enumerate(S['segs']):
-        sp = g.get('speed', 1.0); dur = g['d'] / sp; z = g.get('zoom', 0.04)
+        sp = g.get('speed', 1.0); fr = g.get('freeze', 0.0); dur = g['d'] / sp + fr; z = g.get('zoom', 0.04)
+        # „freeze”: ultimul cadru ține încă fr secunde (pentru imaginea de ansamblu); „zoom_out”: pornește apropiat și se depărtează lent
+        zf = ('(1+%.3f*(1-t/%.3f))' % (z, dur)) if g.get('zoom_out') else ('(1+%.3f*t/%.3f)' % (z, dur))
+        tpad = (',tpad=stop_mode=clone:stop_duration=%.2f' % fr) if fr else ''
         crop = ('crop=%s,' % g['crop']) if g.get('crop') else ''
         # o apropiere lentă pe fiecare cadru (cum se mișcă telefonul în mână), fără flash
-        vf = ("[0:v]setpts=(PTS-STARTPTS)/%.3f,fps=30,%sscale=1080:1920:flags=lanczos,setsar=1,"
-              "scale=w='trunc(1080*(1+%.3f*t/%.3f)/2)*2':h='trunc(1920*(1+%.3f*t/%.3f)/2)*2':eval=frame,crop=1080:1920[v];"
-              "[1:v]format=rgba[t];[v][t]overlay=0:0[w]") % (sp, crop, z, dur, z, dur)
+        vf = ("[0:v]setpts=(PTS-STARTPTS)/%.3f,fps=30%s,%sscale=1080:1920:flags=lanczos,setsar=1,"
+              "scale=w='trunc(1080*%s/2)*2':h='trunc(1920*%s/2)*2':eval=frame,crop=1080:1920[v];"
+              "[1:v]format=rgba[t];[v][t]overlay=0:0[w]") % (sp, tpad, crop, zf, zf)
         extra = []
         if g.get('q'):   # întrebarea segmentului: apare lin după 0,15 s
             qp = os.path.join(tmp, 'q%d.png' % i); q_png(g['q'], qp); extra = ['-loop', '1', '-t', '%.3f' % dur, '-i', qp]
