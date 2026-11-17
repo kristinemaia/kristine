@@ -14,7 +14,7 @@ FONTS = os.path.join(ROOT, 'brand/reels-overlays/fonts')
 OUT = os.path.join(HERE, 'out/workouts')
 
 def clip_path(cid):
-    for p in (os.path.join(HERE, 'out', cid + '.mp4'), os.path.join(HERE, 'clips/preview', cid + '.mp4')):
+    for p in (os.path.join(HERE, 'out', cid + '.mp4'), os.path.join(HERE, 'clips/preview', cid + '.mp4'), os.path.join(HERE, 'clips/istoric', cid + '.mp4')):
         if os.path.exists(p): return p
     raise SystemExit('lipsește clipul: ' + cid)
 
@@ -131,7 +131,7 @@ DAY_GUIDE = """Your quiz result lists your days, for example "Day 1: Lower body 
 • Upper body and core → Upper body and back, then 2 rounds of the Plank
 • Shoulders and posture · Upper body and posture → Shoulders and posture
 • Core and full body · Full body + core finisher → Core and full body
-• Cardio → Cardio: jump rope intervals, Cardio: incline walk, or Cardio: no-jump (home)
+• Cardio → Cardio: jump rope intervals, Cardio: gym machines, or Cardio: no-jump (home)
 • Unstiff → alternate Unstiff A and Unstiff B
 • Desk Reset: Upper back and core strength → Shoulders and posture
 • Desk Reset: Upper back, glutes and core → Core and full body
