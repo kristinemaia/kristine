@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Face videourile antrenamentelor pentru Payhip (unul pe postare) și textele postărilor, din workouts.py.
 Video: 720×1280, fără sunet. Card de titlu → fiecare exercițiu (clipul, repetat cât să țină ~8 s), cu numele și seriile sus → card de final.
-Rulezi: python3 studio/custom-program/build_workouts.py [cuvânt din titlu ...]
+Rulezi: python3 studio/custom-program/build_workouts.py [cuvânt din titlu ...] [--text = doar textele, fără videouri]
    -> studio/custom-program/out/workouts/<nn>-<slug>.mp4  și  WORKOUTS-PAYHIP.md (în rădăcina repo-ului)"""
 import os, re, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -88,8 +88,8 @@ def build_video(n, wk):
             label_png('%s · %d / %d' % (sec, i, len(items)) if sec == 'Workout' else sec, name_of(cid, wk['home']), sets, png)
             s = os.path.join(tmp, 's%02d.mp4' % k); seg_from_clip(clip_path(cid), png, s); segs.append(s)
     e = os.path.join(tmp, 'end.jpg')
-    card_png([('💪', None, None, 20), ('Workout done', font('Poppins-SemiBold.ttf', 58), (255, 255, 255, 255), 22),
-              ('Write your weights and reps in your training log', font('Poppins-Medium.ttf', 28), (230, 225, 215, 255), 0)], e, bg)
+    card_png([('💪', None, None, 20), (('Reset done' if 'Resets' in wk['tags'] else 'Workout done'), font('Poppins-SemiBold.ttf', 58), (255, 255, 255, 255), 22),
+              (('Write your weights and reps in your training log' if not any(t in wk['tags'] for t in ('Resets', 'Unstiff', 'Cardio')) else 'Nice work. Your body says thank you'), font('Poppins-Medium.ttf', 28), (230, 225, 215, 255), 0)], e, bg)
     s = os.path.join(tmp, 's99.mp4'); seg_from_image(e, 3, s); segs.append(s)
     lst = os.path.join(tmp, 'list.txt'); open(lst, 'w').write(''.join("file '%s'\n" % x for x in segs))
     os.makedirs(OUT, exist_ok=True); out = os.path.join(OUT, '%02d-%s.mp4' % (n, slug(wk['title'])))
@@ -149,10 +149,11 @@ def main(filters):
     md += ['## 00 · Which workout is my day? (postare text, eticheta `Start here`)', '', '```', DAY_GUIDE, '```', '']
     for n, wk in enumerate(ALL, 1):
         if filters and not any(f.lower() in wk['title'].lower() for f in filters): continue
-        out = build_video(n, wk); print('gata:', os.path.basename(out))
+        out = os.path.join(OUT, '%02d-%s.mp4' % (n, slug(wk['title']))) if TEXT_ONLY else build_video(n, wk); print('gata:', os.path.basename(out))
         md += ['## %02d · %s' % (n, wk['title']), '', '**Etichete:** ' + ' · '.join('`%s`' % t for t in wk['tags']), '',
                '**Video:** `%s`' % os.path.basename(out), '', '```', post_text(wk), '```', '']
     if not filters: open(os.path.join(ROOT, 'WORKOUTS-PAYHIP.md'), 'w').write('\n'.join(md))
 
+TEXT_ONLY = '--text' in sys.argv
 if __name__ == '__main__':
-    main(sys.argv[1:])
+    main([a for a in sys.argv[1:] if a != '--text'])
