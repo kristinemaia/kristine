@@ -203,6 +203,20 @@ Guess the secret ingredient 👇
 #highproteinbreakfast #breakfastideas #whatieatinaday #proteinbreakfast #gamerfood #easybreakfast
 ```
 
+### K · Trial reel · Joi 19 nov, 20:00 · Top 3 sweet snacks (curmale, migdale, baton proteic)
+Montat de Kristine, vorbit. Texte pe ecran: „3 sweet snacks I always keep at home” (hook) · „1 · Dates” + „sweet, but calorie-dense: 2–3 is enough” · „2 · Almonds” + „a small handful” · „3 · Protein bar” + „my chocolate fix” · final „Which one are you? 1, 2 or 3 👇”. Subtitrări automate din CapCut, mici. Dacă merge bine, intră ca K8 („Stream-day desk snacks”, vin 4 dec).
+```
+3 sweet snacks I always keep at home 🍫
+
+1. Dates: so sweet, but calorie-dense, so 2–3 is my limit
+2. Almonds: a small handful keeps me full between meals
+3. A protein bar: my chocolate fix after the gym
+
+Which one are you? 1, 2 or 3 👇
+
+#healthysnacks #sweetcravings #snackideas #whatieatinaday #proteinbar #gamerfood
+```
+
 ### S1 · Vin 20 nov, 17:00 · Save this: full-body gym workout (formatul „Save this workout”)
 7 slide-uri (fișierele trimise în chat, `EN-S1-save-this-workout-1…7.png`): prima e poza singură, fără text; restul sunt text (titlul, cele 4 părți, fiecare cu un „de ce”, și îndemnul), pe aceeași poză estompată. Pe TikTok: postare foto, cu același text.
 ```
