@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Training log · Custom Program</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap">
+<style>
+:root{--bg:#FFF9F6;--paper:#fff;--ink:#2B2431;--muted:#5C5466;--line:#EDE2EA;--pink:#F8DCE6;--pink-ink:#8A3459;--mint:#D8F0E4;--mint-ink:#1C6550}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1A1620;--paper:#241F2B;--ink:#F3EEF5;--muted:#B7ADBF;--line:#3A3243;--pink:#4A2A3A;--pink-ink:#F4B4CE;--mint:#1E3B31;--mint-ink:#9BE0C2}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,sans-serif;font-size:17px;line-height:1.5;padding:20px 16px 60px}
+.wrap{max-width:640px;margin:0 auto}h1,h2{font-family:"Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.02em;line-height:1.1}
+h1{font-size:32px;margin:0 0 6px}.muted{color:var(--muted)}select,input,button{font:inherit}
+select{width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--paper);color:var(--ink);margin:14px 0 8px}
+.ex{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin:12px 0}
+.ex h2{font-size:19px;margin:0}.target{font-size:14px;color:var(--pink-ink);font-weight:700}
+.last{font-size:14px;color:var(--muted);margin:4px 0 8px}.tip{font-size:14px;background:var(--mint);color:var(--mint-ink);border-radius:10px;padding:6px 10px;margin:6px 0}
+.sets{display:grid;grid-template-columns:auto 1fr 1fr;gap:6px 8px;align-items:center}
+.sets input{width:100%;padding:9px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);min-width:0}
+.sets span{font-size:14px;color:var(--muted)}
+button{border:0;border-radius:999px;padding:14px 22px;background:var(--pink-ink);color:#fff;font-weight:700;width:100%;margin-top:14px;cursor:pointer}
+.ok{color:var(--mint-ink);font-weight:700;text-align:center;margin-top:10px}
+.hist{font-size:14px;color:var(--muted);margin-top:4px}
+</style></head><body><div class="wrap">
+<p class="muted" style="margin:0">Custom Program · Kristine Maia</p>
+<h1>Your training log</h1>
+<p class="muted">Pick today's workout, write your weight and reps for every set, then save. Next time you'll see what you lifted. Everything stays on this phone, nothing is sent anywhere.</p>
+<select id="w" aria-label="Workout"></select>
+<div id="list"></div>
+<button id="save" type="button">Save today's workout</button>
+<p class="ok" id="ok" hidden>Saved. See you next session 💪</p>
+<p class="muted" style="font-size:14px;margin-top:28px">Tip: add this page to your home screen (Share → Add to Home Screen) so it opens like an app. General exercise, not medical advice.</p>
+</div>
+<script>
+(function(){
+var W=[{"t": "Full body A (gym)", "x": [["Goblet squat", "3 × 8–12"], ["Lat pulldown", "3 × 8–12"], ["Romanian deadlift", "3 × 8–12"], ["Seated shoulder press", "3 × 8–12"], ["Dead bug", "3 × 8 / side"]]}, {"t": "Full body B (gym)", "x": [["Split squat", "3 × 8 / side"], ["One-arm dumbbell row", "3 × 10 / side"], ["Hip thrust", "3 × 10"], ["Incline push-up", "3 × 8–12"], ["Side plank", "3 × 20 s / side"]]}, {"t": "Lower body (gym)", "x": [["Goblet squat", "3 × 8–12"], ["Romanian deadlift", "3 × 8–12"], ["Reverse lunge", "3 × 8 / side"], ["Hip thrust", "3 × 10"], ["Calf raises", "3 × 15"]]}, {"t": "Lower body and core (gym)", "x": [["Hip thrust", "4 × 10"], ["Romanian deadlift", "3 × 10"], ["Split squat", "3 × 8 / side"], ["Dead bug", "3 × 8 / side"], ["Plank", "3 × 30 s"]]}, {"t": "Upper body and back (gym)", "x": [["Lat pulldown", "3 × 8–12"], ["Seated shoulder press", "3 × 8–12"], ["One-arm dumbbell row", "3 × 10 / side"], ["Incline push-up", "3 × 8–12"], ["Face pull", "3 × 15"], ["Lateral raise", "2 × 12–15"]]}, {"t": "Shoulders and posture (gym)", "x": [["Face pull", "3 × 15"], ["Reverse fly", "3 × 12"], ["Lat pulldown", "3 × 10"], ["Lateral raise", "3 × 12"], ["Bird dog", "3 × 8 / side"], ["Side plank", "2 × 20 s / side"]]}, {"t": "Core and full body (gym)", "x": [["Goblet squat", "3 × 10"], ["Push-up", "3 × 6–10"], ["One-arm dumbbell row", "3 × 10 / side"], ["Hollow hold", "3 × 15 s"], ["Dead bug", "3 × 8 / side"], ["Bird dog", "2 × 8 / side"]]}, {"t": "Full body A (home)", "x": [["Squat (dumbbell or hands at chest)", "3 × 12"], ["Incline push-up", "3 × 10"], ["Reverse lunge", "3 × 8 / side"], ["One-arm row (dumbbell or water bottle)", "3 × 10 / side"], ["Dead bug", "3 × 8 / side"]]}, {"t": "Full body B (home)", "x": [["Split squat", "3 × 8 / side"], ["Push-up", "3 × 6–10"], ["Hip thrust on the sofa, or glute bridge", "3 × 12"], ["Bird dog", "3 × 8 / side"], ["Plank", "3 × 30 s"]]}, {"t": "Lower body (home)", "x": [["Squat (dumbbell or hands at chest)", "3 × 12–15"], ["Reverse lunge", "3 × 10 / side"], ["Romanian deadlift (dumbbells or a backpack)", "3 × 12"], ["Hip thrust on the sofa, or glute bridge", "3 × 15"], ["Calf raises", "3 × 20"]]}, {"t": "Lower body and core (home)", "x": [["Hip thrust on the sofa, or glute bridge", "4 × 15"], ["Split squat", "3 × 10 / side"], ["Romanian deadlift (dumbbells or a backpack)", "3 × 12"], ["Dead bug", "3 × 8 / side"], ["Side plank", "3 × 20 s / side"], ["Hollow hold", "2 × 15 s"]]}, {"t": "Upper body and back (home)", "x": [["Incline push-up", "3 × 10"], ["One-arm row (dumbbell or water bottle)", "3 × 12 / side"], ["Shoulder press (light dumbbells)", "3 × 10"], ["Lateral raise (light dumbbells or bottles)", "3 × 12"], ["Reverse fly (light dumbbells or bottles)", "3 × 12"], ["Plank", "3 × 30 s"]]}, {"t": "Shoulders and posture (home)", "x": [["Reverse fly (light dumbbells or bottles)", "3 × 12"], ["Lateral raise (light dumbbells or bottles)", "3 × 12"], ["Incline push-up", "3 × 10"], ["Bird dog", "3 × 8 / side"], ["Side plank", "2 × 20 s / side"]]}, {"t": "Core and full body (home)", "x": [["Squat (dumbbell or hands at chest)", "3 × 12"], ["Push-up", "3 × 6–10"], ["One-arm row (dumbbell or water bottle)", "3 × 10 / side"], ["Hollow hold", "3 × 15 s"], ["Dead bug", "3 × 8 / side"], ["Side plank", "2 × 20 s / side"]]}, {"t": "Express 10: gym", "x": [["Goblet squat", "10"], ["Lat pulldown", "10"], ["Hip thrust", "10"], ["Seated shoulder press", "10"]]}, {"t": "Express 10: home", "x": [["Squat (dumbbell or hands at chest)", "12"], ["Incline push-up", "10"], ["Reverse lunge", "8 / side"], ["Plank", "30 s"]]}];
+var sel=document.getElementById('w'),list=document.getElementById('list');
+W.forEach(function(w,i){var o=document.createElement('option');o.value=i;o.textContent=w.t;sel.appendChild(o)});
+function key(i){return 'km-log:'+W[i].t}
+function load(i){try{return JSON.parse(localStorage.getItem(key(i))||'[]')}catch(e){return []}}
+function store(i,v){try{localStorage.setItem(key(i),JSON.stringify(v))}catch(e){}}
+function nsets(t){var m=t.match(/^(\d)\s*×/);return m?+m[1]:3}
+function topRep(t){var m=t.match(/×\s*(\d+)(?:–(\d+))?/);return m?+(m[2]||m[1]):0}
+function render(){
+  var i=+sel.value,hist=load(i),last=hist[hist.length-1];list.innerHTML='';
+  W[i].x.forEach(function(ex,k){
+    var d=document.createElement('div');d.className='ex';var n=nsets(ex[1]);
+    var h='<h2>'+ex[0]+'</h2><div class="target">'+ex[1]+'</div>';
+    var prev=last&&last.e[k];
+    if(prev&&prev.length){
+      h+='<div class="last">Last time: '+prev.map(function(s){return (s[0]||'–')+' kg × '+(s[1]||'–')}).join(' · ')+'</div>';
+      var t=topRep(ex[1]);if(t&&prev.every(function(s){return +s[1]>=t})) h+='<div class="tip">You hit the top of the range on every set. Add 1–2 kg today.</div>';
+    }
+    h+='<div class="sets">';
+    for(var s=0;s<n;s++){var p=prev&&prev[s]||[];h+='<span>Set '+(s+1)+'</span><input inputmode="decimal" placeholder="kg'+(p[0]?' ('+p[0]+')':'')+'" aria-label="Set '+(s+1)+' kg"><input inputmode="numeric" placeholder="reps'+(p[1]?' ('+p[1]+')':'')+'" aria-label="Set '+(s+1)+' reps">';}
+    h+='</div>';
+    if(hist.length>1){var f=hist[0].e[k];if(f&&f[0]&&f[0][0]) h+='<div class="hist">First time: '+f[0][0]+' kg · Latest: '+(prev&&prev[0]?prev[0][0]:'–')+' kg</div>';}
+    d.innerHTML=h;list.appendChild(d);
+  });
+  document.getElementById('ok').hidden=true;
+}
+sel.addEventListener('change',function(){try{localStorage.setItem('km-log:last',sel.value)}catch(e){}render()});
+document.getElementById('save').addEventListener('click',function(){
+  var i=+sel.value,e=[];
+  [].forEach.call(list.querySelectorAll('.ex'),function(d){var ins=d.querySelectorAll('input'),sets=[];for(var j=0;j<ins.length;j+=2){if(ins[j].value||ins[j+1].value)sets.push([ins[j].value,ins[j+1].value])}e.push(sets)});
+  var h=load(i);h.push({d:new Date().toISOString().slice(0,10),e:e});store(i,h);render();document.getElementById('ok').hidden=false;
+});
+try{var l=localStorage.getItem('km-log:last');if(l!==null&&W[+l])sel.value=l}catch(e){}
+render();
+})();
+</script></body></html>
