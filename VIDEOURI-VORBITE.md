@@ -1,5 +1,7 @@
 # Cele 4 videouri vorbite pentru Custom Program (acasă, la un perete alb, sau la sală)
 
+_**Actualizat 17 nov:** textele 1, 2 și 4 sunt potrivite pentru Payhip (postări cu etichete, jurnalul de greutăți, întrebările în DM sau în comentarii)._
+
 _Le filmezi acasă, la un perete alb (sau la sală, într-un colț liniștit), cu microfonul prins de haine. Lumina din față (ring light-ul sau fereastra în fața ta, nu în spate), tu la un metru de perete, ca să nu ai umbră. Telefonul vertical, pe trepied, la nivelul ochilor, tu de la talie în sus. În cadru doar peretele: nimic personal, nicio fereastră. Poartă hainele de sală, ca să se potrivească cu restul videourilor. Engleză, simplu, ca și cum vorbești cu un prieten. Nu trebuie să le spui cuvânt cu cuvânt: citește-le de 2–3 ori și spune-le cu vorbele tale. Fiecare: 45–90 de secunde._
 
 ## 1. Welcome (bun venit) · ~60 s
@@ -7,15 +9,15 @@ _Le filmezi acasă, la un perete alb (sau la sală, într-un colț liniștit), c
 > Hi, I'm Kristine. Welcome to your custom program.
 > I stream for hours, so I know how a long day in a chair feels: stiff hips, tight neck, low energy.
 > This program is built from your answers in the quiz: your goal, your time, home or gym.
-> Every exercise is filmed by me, in the gym, with an easier option.
-> Start with the next video, it shows you how to use everything. Let's go.
+> Every exercise is filmed by me, in the gym and at home, with an easier option.
+> Watch the next video first, it shows you how to use everything. Let's go.
 
 ## 2. How to use your program (cum îl folosești) · ~90 s
 - [ ] filmat
 > Your plan has 2, 3 or 4 training days a week. Each day has a warm-up, the workout and a short cool-down.
-> Tap an exercise to see the video. Do the sets and reps written under it, then tick it off.
-> Rest about a minute between sets.
-> After every set, log your weight and reps. Next time you'll see what you lifted, and when you hit all your reps, the plan tells you to go up a little. That's how you get stronger.
+> Find your workouts by the tag of your track: Get Strong, Shape Up, Unstiff or Desk Reset, plus Gym or Home.
+> Watch the exercise videos, do the sets and reps written in the post, and rest about a minute between sets.
+> After every set, write your weight and reps in your training log. Next time you'll see what you lifted, and when you hit all your reps, add a little weight. That's how you get stronger.
 > Every 4 weeks the plan gets a little harder. If something feels too easy, add a few reps; too hard, take the easier option.
 > On desk days, use the 5-minute resets for your neck, back and wrists.
 
@@ -33,7 +35,7 @@ _Le filmezi acasă, la un perete alb (sau la sală, într-un colț liniștit), c
 > Want me to check your form? Film one set.
 > Phone on the floor or a shelf, vertical, your whole body in the frame.
 > Film squats and lunges from the side, rows and pulldowns from the side or behind.
-> Light weight, 5 slow reps. Then send it to me (Instagram DM or the chat on my site) and I'll tell you what to change.
+> Light weight, 5 slow reps. Then send it to me in an Instagram DM, or post your question under any workout, and I'll tell you what to change.
 
 ## Bonus (opțional): snack-ul de 20 de secunde
 - [ ] filmat: îți arăți o gustare simplă pentru zilele lungi (iaurt grecesc cu fructe, de exemplu): „My go-to snack on long stream days.”
