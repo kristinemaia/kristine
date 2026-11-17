@@ -98,6 +98,15 @@ Mi se potrivește la tine, pentru că ambele fac exact ce faci și tu: conținut
 | **Mindset** | obiceiuri de gamer: somn, pauze, „nu ai nevoie de motivație, ai nevoie de un plan” | Senada |
 | **Comunitate** | story cu întrebare („ce antrenezi azi?”), apoi răspunsurile lor, mai târziu Discordul membrilor | Becky |
 
+**Al treilea model (17 nov): Caroline O'Mahony** (fitness, Irlanda), pentru postările cu produse și afiliere:
+| Ce face | Cum arată la tine |
+|---|---|
+| **carusel „tried and tested… I'd buy again”**: prima poză e ea, apoi câte un produs pe slide, numerotat | „My tried-and-tested gym & gamer girl buys”, cu Dope Rope, Revo, Bewit și ce folosești zilnic |
+| **2–3 rânduri personale și amuzante** la fiecare produs, nu descrierea de pe site | „The day after leg day, this is the first thing I reach for” |
+| **text galben cu contur negru**, ca pus din aplicație: pare spontan, nu reclamă | la caruselele cu produse; la cele cu antrenamente rămâne stilul estetic |
+| **momente de reduceri** (Black Friday, Crăciun) și **codul în descriere**, marcat „ad” | Black Friday la Dope Ropes, 24 nov – 2 dec |
+| **produse din viața de zi cu zi** (caserole de sticlă, airfryer, căști), nu doar suplimente | caserolele de meal prep, setup-ul de gaming, gustările |
+
 **Ce păstrăm diferit:** nișa ta (gameri, recuperare, postură), fără aplicație proprie până la ~200–300 de membri, prețul de fondator de 9 €/lună, fără titluri pe care nu le ai (Becky vinde „cum mă antrenez eu”; Senada are o echipă de nutriționiști pentru planurile de mese).
 
 Surse: Built by Becky (App Store), Entrepreneur și builtbyfoundry despre Senada Greca și WeRise.
