@@ -17,7 +17,7 @@ Your quiz result lists your days, for example "Day 1: Lower body and core (gym)"
 • Upper body and core → Upper body and back, then 2 rounds of the Plank
 • Shoulders and posture · Upper body and posture → Shoulders and posture
 • Core and full body · Full body + core finisher → Core and full body
-• Cardio → Cardio: jump rope intervals, Cardio: incline walk, or Cardio: no-jump (home)
+• Cardio → Cardio: jump rope intervals, Cardio: gym machines, or Cardio: no-jump (home)
 • Unstiff → alternate Unstiff A and Unstiff B
 • Desk Reset: Upper back and core strength → Shoulders and posture
 • Desk Reset: Upper back, glutes and core → Core and full body
@@ -107,11 +107,12 @@ Workout
 2. Romanian deadlift · 3 × 8–12
 3. Reverse lunge · 3 × 8 / side
 4. Hip thrust · 3 × 10
-5. Calf raises · 3 × 15
+5. Dumbbell sumo squat · 2 × 12
+6. Calf raises · 3 × 15
 
 Cool-down
 • Kneeling hip flexor stretch · 30 s / side
-• Child's pose reach · 30 s
+• 90/90 hip switch · 5 / side
 
 Also for: Legs · Legs and glutes
 
@@ -175,8 +176,10 @@ Workout
 4. Incline push-up · 3 × 8–12
 5. Face pull · 3 × 15
 6. Lateral raise · 2 × 12–15
+7. Biceps curl · 2 × 12
 
 Cool-down
+• Triceps stretch · 20 s / side
 • Child's pose reach · 30 s
 
 Also for: Upper body and core (finish with 2 rounds of the Plank)
@@ -271,11 +274,12 @@ Warm-up
 • Inchworm · 5 slow
 
 Workout
-1. Squat (dumbbell or hands at chest) · 3 × 12
+1. Bodyweight squat · 3 × 12–15
 2. Incline push-up · 3 × 10
 3. Reverse lunge · 3 × 8 / side
 4. One-arm row (dumbbell or water bottle) · 3 × 10 / side
-5. Dead bug · 3 × 8 / side
+5. Glute bridge · 3 × 15
+6. Dead bug · 3 × 8 / side
 
 Cool-down
 • Child's pose reach · 30 s
@@ -303,9 +307,10 @@ Warm-up
 Workout
 1. Split squat · 3 × 8 / side
 2. Push-up · 3 × 6–10
-3. Hip thrust on the sofa, or glute bridge · 3 × 12
-4. Bird dog · 3 × 8 / side
-5. Plank · 3 × 30 s
+3. Glute bridge · 3 × 15
+4. Prone swimmers · 3 × 8
+5. Bird dog · 3 × 8 / side
+6. Plank · 3 × 30 s
 
 Cool-down
 • Cobra stretch · 20 s
@@ -332,11 +337,12 @@ Warm-up
 • World's greatest stretch · 5 / side
 
 Workout
-1. Squat (dumbbell or hands at chest) · 3 × 12–15
+1. Bodyweight squat · 3 × 15
 2. Reverse lunge · 3 × 10 / side
 3. Romanian deadlift (dumbbells or a backpack) · 3 × 12
-4. Hip thrust on the sofa, or glute bridge · 3 × 15
-5. Calf raises · 3 × 20
+4. Glute bridge · 3 × 15
+5. Wall sit · 2 × 30 s
+6. Calf raises · 3 × 20
 
 Cool-down
 • Kneeling hip flexor stretch · 30 s / side
@@ -364,12 +370,12 @@ Warm-up
 • World's greatest stretch · 5 / side
 
 Workout
-1. Hip thrust on the sofa, or glute bridge · 4 × 15
+1. Glute bridge · 4 × 15
 2. Split squat · 3 × 10 / side
 3. Romanian deadlift (dumbbells or a backpack) · 3 × 12
 4. Dead bug · 3 × 8 / side
 5. Side plank · 3 × 20 s / side
-6. Hollow hold · 2 × 15 s
+6. Tabletop crunch · 2 × 10
 
 Cool-down
 • Kneeling hip flexor stretch · 30 s / side
@@ -401,8 +407,9 @@ Workout
 2. One-arm row (dumbbell or water bottle) · 3 × 12 / side
 3. Shoulder press (light dumbbells) · 3 × 10
 4. Lateral raise (light dumbbells or bottles) · 3 × 12
-5. Reverse fly (light dumbbells or bottles) · 3 × 12
-6. Plank · 3 × 30 s
+5. Prone swimmers · 3 × 8
+6. Biceps curl · 2 × 12
+7. Plank · 3 × 30 s
 
 Cool-down
 • Child's pose reach · 30 s
@@ -431,14 +438,15 @@ Warm-up
 • Cat-cow · 8 slow
 
 Workout
-1. Reverse fly (light dumbbells or bottles) · 3 × 12
-2. Lateral raise (light dumbbells or bottles) · 3 × 12
-3. Incline push-up · 3 × 10
-4. Bird dog · 3 × 8 / side
-5. Side plank · 2 × 20 s / side
+1. Prone swimmers · 3 × 8
+2. Reverse fly (light dumbbells or bottles) · 3 × 12
+3. Lateral raise (light dumbbells or bottles) · 3 × 12
+4. Incline push-up · 3 × 10
+5. Bird dog · 3 × 8 / side
+6. Side plank · 2 × 20 s / side
 
 Cool-down
-• Thoracic extension on the sofa · 6 slow
+• Open book · 5 / side
 • Cobra stretch · 20 s
 
 Also for: Upper body and posture · Desk Reset: Upper back and core strength
@@ -464,12 +472,12 @@ Warm-up
 • Inchworm · 5 slow
 
 Workout
-1. Squat (dumbbell or hands at chest) · 3 × 12
+1. Bodyweight squat · 3 × 15
 2. Push-up · 3 × 6–10
 3. One-arm row (dumbbell or water bottle) · 3 × 10 / side
 4. Hollow hold · 3 × 15 s
-5. Dead bug · 3 × 8 / side
-6. Side plank · 2 × 20 s / side
+5. Russian twist · 3 × 10 / side
+6. Plank with leg lift · 2 × 6 / side
 
 Cool-down
 • Cobra stretch · 20 s
@@ -500,10 +508,11 @@ Warm-up
 Workout
 1. Cat-cow · 8 slow
 2. World's greatest stretch · 5 / side
-3. Kneeling hip flexor stretch · 40 s / side
-4. Seated spinal twist · 30 s / side
-5. Thoracic extension on the sofa · 8 slow
-6. Bird dog · 2 × 6 / side
+3. 90/90 hip switch · 5 / side
+4. Kneeling hip flexor stretch · 40 s / side
+5. Open book · 5 / side
+6. Deep squat hold · 30 s
+7. Bird dog · 2 × 6 / side
 
 Cool-down
 • Child's pose reach · 45 s
@@ -524,16 +533,18 @@ General exercise, not medical advice. Stop if anything feels sharp.
 
 ```
 Warm-up
+• Reset breathing · 1 min
 • Arm circles · 30 s
-• Chin tucks · 10 slow
+• Hip circles · 30 s
 
 Workout
-1. Thoracic extension on the sofa · 8 slow
-2. Cat-cow · 8 slow
-3. Wrist stretch, palm up · 20 s / side
-4. World's greatest stretch · 5 / side
-5. Kneeling hip flexor stretch · 40 s / side
-6. Seated spinal twist · 30 s / side
+1. Chin tucks · 10 slow
+2. Neck side stretch · 20 s / side
+3. Thoracic extension on the sofa · 8 slow
+4. Open book · 5 / side
+5. Wrist stretch, palm up · 20 s / side
+6. Kneeling hip flexor stretch · 40 s / side
+7. 90/90 hip switch · 5 / side
 
 Cool-down
 • Child's pose reach · 45 s
@@ -583,10 +594,11 @@ Warm-up
 • March in place · 1 min
 
 Workout
-1. Squat (dumbbell or hands at chest) · 12
+1. Bodyweight squat · 15
 2. Incline push-up · 10
 3. Reverse lunge · 8 / side
-4. Plank · 30 s
+4. Glute bridge · 15
+5. Plank · 30 s
 
 A circuit: one set of each move, then start again. 3 rounds, as little rest as you need.
 
@@ -623,18 +635,22 @@ Easy to moderate: you should be able to talk in short sentences.
 General exercise, not medical advice. Stop if anything feels sharp.
 ```
 
-## 20 · Cardio: incline walk
+## 20 · Cardio: gym machines
 
 **Etichete:** `Cardio` · `Shape Up` · `Gym`
 
-**Video:** `20-cardio-incline-walk.mp4`
+**Video:** `20-cardio-gym-machines.mp4`
 
 ```
 Workout
-1. Incline walk · 15–20 min, incline 6–10, a pace you can talk at
+1. Incline walk · Incline walk · 15–20 min, incline 6–10
+2. Spin bike · or Spin bike · 15–20 min, steady
+3. Recumbent bike · or Recumbent bike · 15–20 min, easy on knees and back
 
 Cool-down
-• Kneeling hip flexor stretch · 30 s / side
+• Calf and hamstring stretch · 30 s / side
+
+Pick one machine. A pace you can talk at in short sentences.
 
 Easy to moderate: you should be able to talk in short sentences.
 
@@ -670,9 +686,10 @@ General exercise, not medical advice. Stop if anything feels sharp.
 ```
 Workout
 1. Chin tucks · 10 slow
-2. Thoracic extension on the sofa · 6 slow
-3. Cat-cow · 8 slow
-4. Child's pose reach · 45 s
+2. Neck side stretch · 20 s / side
+3. Neck half circles · 5 slow
+4. Thoracic extension on the sofa · 6 slow
+5. Child's pose reach · 45 s
 
 Do it on any day, as often as you like. Slow and gentle: a stretch is a pull, never pain.
 
@@ -688,9 +705,10 @@ General exercise, not medical advice. Stop if anything feels sharp.
 ```
 Workout
 1. Arm circles · 30 s
-2. Thoracic extension on the sofa · 8 slow
-3. Cat-cow · 8 slow
-4. Child's pose reach · 45 s
+2. Open book · 5 / side
+3. Thoracic extension on the sofa · 8 slow
+4. Triceps stretch · 20 s / side
+5. Child's pose reach · 45 s
 
 Do it on any day, as often as you like. Slow and gentle: a stretch is a pull, never pain.
 
@@ -708,7 +726,8 @@ Workout
 1. Cat-cow · 8 slow
 2. Child's pose reach · 45 s
 3. Seated spinal twist · 30 s / side
-4. Bird dog · 6 / side
+4. Glute bridge · 10 slow
+5. Bird dog · 6 / side
 
 Do it on any day, as often as you like. Slow and gentle: a stretch is a pull, never pain.
 
@@ -723,10 +742,11 @@ General exercise, not medical advice. Stop if anything feels sharp.
 
 ```
 Workout
-1. Leg swings · 10 / side
-2. Kneeling hip flexor stretch · 40 s / side
-3. World's greatest stretch · 4 / side
-4. Child's pose reach · 45 s
+1. Hip circles · 30 s
+2. 90/90 hip switch · 5 / side
+3. Kneeling hip flexor stretch · 40 s / side
+4. Deep squat hold · 30 s
+5. Child's pose reach · 45 s
 
 Do it on any day, as often as you like. Slow and gentle: a stretch is a pull, never pain.
 
@@ -741,10 +761,11 @@ General exercise, not medical advice. Stop if anything feels sharp.
 
 ```
 Workout
-1. Arm circles · 30 s
+1. Wrist circles · 30 s
 2. Wrist stretch, palm up · 30 s / side
-3. Cat-cow · 8 slow, hands on a chair
-4. Child's pose reach · 45 s
+3. Wrist stretch, palm down · 30 s / side
+4. Triceps stretch · 20 s / side
+5. Arm circles · 30 s
 
 Do it on any day, as often as you like. Slow and gentle: a stretch is a pull, never pain.
 
@@ -759,10 +780,11 @@ General exercise, not medical advice. Stop if anything feels sharp.
 
 ```
 Workout
-1. Leg swings · 10 / side
-2. Calf raises · 2 × 15, slow
-3. Kneeling hip flexor stretch · 40 s / side
-4. Hip thrust on the sofa, or glute bridge · 2 × 12, or glute bridge
+1. Lateral leg swings · 10 / side
+2. Calf and hamstring stretch · 30 s / side
+3. Calf raises · 2 × 15, slow
+4. Glute bridge · 2 × 12
+5. Kneeling hip flexor stretch · 40 s / side
 
 Do it on any day, as often as you like. Slow and gentle: a stretch is a pull, never pain.
 
