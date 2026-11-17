@@ -1,0 +1,6 @@
+{"out": "EN-P0-exemplu-format",
+ "slides": [
+  {"photo": "src/mirror-olive-hip.jpg", "text": "My tried-and-tested gym & gamer girl buys I'd get again and again 🤍", "y": 0.10, "focus": 0.35},
+  {"photo": "src/gym-rope-smile.jpg", "text": "1. My jump rope 🪢\nMy 5-minute warm-up before every leg day, and my cardio on stream breaks.\nIt's 25% off for Black Friday right now!", "y": 0.08, "focus": 0.3},
+  {"photo": "src/cacao.jpg", "text": "2. Cacao instead of a 3rd coffee ☕\nMy evening wind-down after a long stream. Warm, chocolatey and no jitters before bed.", "y": 0.08, "focus": 0.5}
+ ]}

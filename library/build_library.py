@@ -53,6 +53,8 @@ GROUPS = [
         "items": [
             {"kind": "doc", "slug": "promovare-custom-program", "title": "Custom Program: ce mai filmăm și planul de promovare", "src": "PROMOVARE-CUSTOM-PROGRAM.md",
              "desc": "Ce mai e de filmat, ce montez eu, lista de așteptare reală (MailerLite), testerii, lansarea pe săptămâni, ce postăm până atunci și modelul Built by Becky / Senada Greca."},
+            {"kind": "doc", "slug": "formate-postari", "title": "Formatele noastre de postări (le refolosim)", "src": "FORMATE-POSTARI.md",
+             "desc": "„Tried and tested” (modelul Caroline O'Mahony), „Save this workout”, reel-ul estetic de gătit și reel-ul vorbit „Top 3”: cum arată, ce poze faci tu, cum pun eu textul și ce ediții urmează."},
             {"kind": "doc", "slug": "program-zilnic-pareto", "title": "Programul zilei, pe regula 80/20 (ciornă)", "src": "PROGRAM-ZILNIC-PARETO.md",
              "desc": "Cele 20% care aduc 80% (Custom Program, filmarea de dimineață, stream, colaborări), ce primește doar timpul rămas, ziua-tip cu blocul de filmare în lumina dimineții și regulile săptămânii."},
             {"kind": "doc", "slug": "terapie-turcia", "title": "Terapie la sala lui Cem, în Turcia: ce trebuie", "src": "TERAPIE-TURCIA.md",
