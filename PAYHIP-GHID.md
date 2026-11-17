@@ -6,7 +6,8 @@
 > **Făcut tot pe 16 nov:** pagina de vânzare (textele și pozele din `brand/payhip/membership-*.jpg`).
 > **Tot pe 16 nov:** verificat în incognito (nu se vede, nu se poate cumpăra) · pagina de mulțumire · postarea „Start here” cu eticheta `Start here`.
 > **Făcut pe 17 nov:** abonamentul **Payhip Videos (5 $/lună)** · cele 4 videouri vorbite urcate în Video Library, ca postări video cu eticheta `Start here` (Start here, How to use your program, Safety first, How to film your form).
-> **Urmează:** · antrenamentele, ca postări cu etichetele traseului (`Get Strong`, `Shape Up`, `Unstiff`, `Desk Reset`, `Home`/`Gym`, `Resets`) · testul cu cupon · Publish doar după răspunsul scris. · urcatul videourilor în Video Library · testul cu cupon · Publish doar după răspunsul scris al contabilei și al avocatului.
+> **Făcut pe 17 nov (seara):** toate cele 27 de antrenamente (videouri + textele postărilor, în `WORKOUTS-PAYHIP.md`) și jurnalul de greutăți `kristinemaia.com/log.html` (în zip-ul site-ului).
+> **Urmează (vechi, păstrat pentru istoric):** · antrenamentele, ca postări cu etichetele traseului (`Get Strong`, `Shape Up`, `Unstiff`, `Desk Reset`, `Home`/`Gym`, `Resets`) · testul cu cupon · Publish doar după răspunsul scris. · urcatul videourilor în Video Library · testul cu cupon · Publish doar după răspunsul scris al contabilei și al avocatului.
 
 **Când:**
 - **joi 12 nov, seara (~30 min):** pasul 1, setările contului. Nu depinde de videouri.

@@ -121,10 +121,32 @@ def post_text(wk):
     L += ['', 'General exercise, not medical advice. Stop if anything feels sharp.']
     return '\n'.join(L)
 
+DAY_GUIDE = """Your quiz result lists your days, for example "Day 1: Lower body and core (gym)". Here's which post to open:
+
+• Full body A / Full body B → Full body A or B (gym or home)
+• Full body → alternate Full body A and Full body B
+• Lower body · Legs · Legs and glutes → Lower body
+• Lower body and core · Glutes and core · Glutes and hamstrings · Lower body + core → Lower body and core
+• Upper body and back → Upper body and back
+• Upper body and core → Upper body and back, then 2 rounds of the Plank
+• Shoulders and posture · Upper body and posture → Shoulders and posture
+• Core and full body · Full body + core finisher → Core and full body
+• Cardio → Cardio: jump rope intervals, Cardio: incline walk, or Cardio: no-jump (home)
+• Unstiff → alternate Unstiff A and Unstiff B
+• Desk Reset: Upper back and core strength → Shoulders and posture
+• Desk Reset: Upper back, glutes and core → Core and full body
+• Desk Reset: Unstiff → Unstiff A or B
+• 10 minutes a day → Express 10 (gym or home)
+• Your resets → the 5-minute reset for each spot
+
+Gym day → the (gym) post. Home day → the (home) post.
+Your training log: kristinemaia.com/log.html (add it to your home screen)."""
+
 def main(filters):
     md = ['# Antrenamentele pentru Payhip: titlu, etichete, video și textul fiecărei postări', '',
           '_17 noiembrie 2026. Generat de `studio/custom-program/build_workouts.py` din `workouts.py`. Pentru fiecare postare: **Create New Post** → tip video → videoul din Video Library → titlul → textul → etichetele → All members → Publish._', '',
           '**Ordinea:** urcă-le de la ultima la prima, ca „Which workout is my day?” și Start here să rămână sus. Videourile: `studio/custom-program/out/workouts/` (ți le trimit în chat).', '']
+    md += ['## 00 · Which workout is my day? (postare text, eticheta `Start here`)', '', '```', DAY_GUIDE, '```', '']
     for n, wk in enumerate(ALL, 1):
         if filters and not any(f.lower() in wk['title'].lower() for f in filters): continue
         out = build_video(n, wk); print('gata:', os.path.basename(out))
