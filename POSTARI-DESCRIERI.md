@@ -185,6 +185,24 @@ General mobility, not medical advice. Affiliate: I earn a small commission if yo
 #afterstream #streamerlife #mobility #deskstretch #cacaoritual #wellness
 ```
 
+### K · Trial reel · Mar 17 nov · High-protein breakfast (pâine integrală, unt de arahide, banană, ouă, scorțișoara „secretă”)
+Montat de Kristine. Texte pe ecran: „My go-to high-protein breakfast” (hook) · „~30 g protein” · etichete mici la ingrediente · „Guess the secret 👀” la scorțișoară. Răspunsul („cinnamon”) într-un comentariu fixat, după ~1 oră.
+```
+My go-to high-protein breakfast, ready in 10 minutes 🍳
+
+• 2 slices of wholegrain bread
+• peanut butter
+• 1 banana
+• 2 whole eggs + 2 egg whites
+• + one secret ingredient at the end 👀
+
+About 30 g of protein and it keeps me full until lunch, even on long stream days.
+
+Guess the secret ingredient 👇
+
+#highproteinbreakfast #breakfastideas #whatieatinaday #proteinbreakfast #gamerfood #easybreakfast
+```
+
 ### S1 · Vin 20 nov, 17:00 · Save this: full-body gym workout (formatul „Save this workout”)
 7 slide-uri (fișierele trimise în chat, `EN-S1-save-this-workout-1…7.png`): prima e poza singură, fără text; restul sunt text (titlul, cele 4 părți, fiecare cu un „de ce”, și îndemnul), pe aceeași poză estompată. Pe TikTok: postare foto, cu același text.
 ```
