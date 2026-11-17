@@ -12,6 +12,7 @@ _Actualizat 17 noiembrie 2026. Bifezi când plătești. Fără numere de cont sa
 | **PE Furnizare** (PEenergie) | casa de la țară (studioul de filmare) | — | — | ⏳ de verificat: aplicația nu se conectează încă |
 | **Contabilitatea** (firma) | KRISTINE MAIA CONCEPT SRL | 500 lei (de obicei ~400 lei / lună; mai mult în lunile încărcate) | — | ✅ plătit (11 nov) |
 | **Impozitul pe venitul microîntreprinderii** (taxe firmă) | KRISTINE MAIA CONCEPT SRL | 274 lei | — | ✅ plătit (11 nov) |
+| **Payhip Videos**, găzduirea videourilor din Custom Program | firma | 5 $ / lună | lunar | ✅ activat (17 nov) · 🧾 factura din Payhip (Account → Billing) merge la contabilă |
 | **Battle.net**, abonament la joc (pentru stream) | firma: cheltuială de streaming | — (suma de pe chitanță) | lunar | ✅ plătit (17 nov) · 🧾 **chitanța merge la contabilă** |
 
 - [x] Digi plătit
@@ -42,5 +43,6 @@ _Actualizat 17 noiembrie 2026. Bifezi când plătești. Fără numere de cont sa
 Factura de curent de la sediu (PEenergie) merge lunar la contabilă, împreună cu celelalte facturi și extrasul de cont (cum ai trimis pe 28 oct pentru octombrie).
 
 **De trimis la contabilă cu facturile pe noiembrie:**
+- [ ] **factura Payhip Videos** (5 $/lună, din 17 nov), din Payhip: Account → Billing sau emailul de confirmare
 - [ ] **chitanța Battle.net** (abonamentul la joc, 17 nov). O descarci din contul Battle.net: **Account → Transaction History (Istoricul tranzacțiilor)** → chitanța, ca PDF.
 - [ ] o întrebi dacă o poate trece pe firmă ca **cheltuială pentru stream**, deși chitanța e pe numele tău, nu pe firmă; și dacă e mai bine să plătești de acum abonamentul cu **cardul firmei**, ca să fie clar cheltuială a firmei.
