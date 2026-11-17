@@ -39,7 +39,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | Ziua | Instagram | TikTok, 19:00 |
 |---|---|---|
 | lun 16 | 18:00 · **Mobility between sets** ✏️ | Mobility between sets ✏️ |
-| mar 17 | 18:00 · **G3** · 3 cable row mistakes ✏️ | G3 🗓 |
+| mar 17 | ✅ **High-protein breakfast** (postat de Kristine, în loc de G3; G3 n-a fost programat și se mută pe lun 30) | G3 🗓 |
 | mie 18 | 17:00 · Revo · After the gym (afiliat) ✏️ | Revo ✏️ |
 | joi 19 | 17:00 · **VirtuMe #1** · knows her vibe (AI + Paid partnership) ✏️ | VirtuMe #1 (dacă permite contractul) ✏️ |
 | vin 20 | 17:00 · **Carusel S1** · Save this: full-body gym workout (selfie-ul la oglindă de pe 16 nov) ✏️ · Gamer hunch se mută după ce îl filmezi | S1, ca postare foto ✏️ |
@@ -62,7 +62,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 ### Luni 30 nov
 | Ziua | Instagram | TikTok, 19:00 |
 |---|---|---|
-| lun 30 | 18:00 · First 20-minute gym session 🎬 | First 20-minute session 🎬 |
+| lun 30 | 18:00 · **G3** · 3 cable row mistakes ✏️ (mutat de pe 17; „First 20-minute session” trece în decembrie) | G3 ✏️ |
 
 **Luni 16 nov (postat de Kristine):**
 - [x] VirtuMe (colaborarea cu AI Twin-ul), pe Instagram
@@ -75,6 +75,8 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 - [ ] **sâmbătă 21 nov, înainte de 18:00:** compari în Insights: % urmărit (average watch time), skip rate, share-uri și save-uri la 1.000 de vizualizări. Câștigătoarea: „Share to followers” la 18:00; pe TikTok tot ea, la 19:00
 
 **Trial reels (în plus, doar pentru cine nu te urmărește):** 2 pe săptămână, cu alt hook pe G1–G4; ți le fac eu.
+
+**De programat în seara asta (17 nov), pe Instagram:** Revo (mie 18, 17:00) · VirtuMe #1 (joi 19, 17:00) · caruselul S1 (vin 20, 17:00) · meal prep-ul cu cartofi (dum 22, 18:00, finalul ales) · G6 (lun 23) · G4 (mar 24). Spaghetele de sâmbătă 21 le dai cu „Share to followers” după test. **TikTok:** zilele 18–25 nov, cu aceleași clipuri.
 
 ### Când programezi
 - [x] **Instagram, programat pe 3 nov:** Dope Rope (6) · C2 (8) · G1 (9) · B3 (10) · Bewit (11) · G2 (15)
