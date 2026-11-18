@@ -846,14 +846,14 @@ Want a plan like this built for your body? My Custom Program is opening soon: 2-
 ```
 
 ### D1 · Dum 29 nov, 12:00 · „A Day On My Plate” (modelul Caroline; programat până pe 25 nov)
-Slide-urile: tu la oglindă cu titlul → ovăzul → clătitele → prânzul → cacaua Bewit → tu la birou. Muzică liniștită din aplicație.
+Slide-urile: tu la oglindă (setul portocaliu) cu titlul → ovăzul → clătitele → pastele cu ton → cacaua Bewit (cu florile). Muzică liniștită din aplicație. Dacă îmi trimiți o poză nouă la birou, o pun la final („and that's me fuelled for a 5-hour stream”).
 ```
 A day on my plate as a gamer who lifts 🎮🍽️
 
 No crazy restriction, just protein at every meal and food I actually like:
 🍌 oats with banana, walnuts and peanut butter + black tea
 🥞 post-gym cocoa pancakes with Greek yogurt, walnuts and honey
-🥔 meal-prepped lunch: roasted potatoes, broccoli and homemade meatballs
+🍝 lunch: tuna pasta with olives and melted cheese, ready in 15 minutes
 ☕ evening cacao instead of a 3rd coffee: Bewit, code KRISTINE15 for 15% off (link in bio)
 
 Which meal would you steal? 👇

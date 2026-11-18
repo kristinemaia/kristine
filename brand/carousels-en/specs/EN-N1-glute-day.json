@@ -1,7 +1,10 @@
-{"out": "EN-N1-glute-day",
- "photo": "src/gym-black-side.jpg", "focus": 0.3,
- "time": "17:29", "date": "18 November 2026 at 17:29",
- "title": "Glutes 🍑",
+{
+ "out": "EN-N1-glute-day",
+ "photo": "src/mirror-grey-weights.jpg",
+ "focus": 0.4,
+ "time": "17:29",
+ "date": "18 November 2026 at 17:29",
+ "title": "Glutes 🍑 (sit-all-day edition)",
  "items": [
   "Hip thrust 4x 8-10 (pause 1 second at the top, chin tucked, ribs down)",
   "RDL 3x 8-10 (soft knees, push your hips back like closing a door with your bum)",
@@ -9,4 +12,5 @@
   "Leg press 3x 10-12 (feet high and wide on the platform)",
   "Hip abduction machine 3x 15 (lean forward and hold the last rep 3 seconds)",
   "10 min incline walk to finish 🚶‍♀️"
- ]}
+ ]
+}

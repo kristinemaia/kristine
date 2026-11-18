@@ -1,11 +1,40 @@
-{"out": "EN-D1-day-on-my-plate",
- "cover": {"photo": "src/mirror-black-1.jpg", "focus": 0.2, "y": 0.035,
-           "title": "A Day On My Plate",
-           "sub": "eating like a gamer who lifts: protein at every meal and no crazy restriction"},
+{
+ "out": "EN-D1-day-on-my-plate",
+ "cover": {
+  "photo": "src/mirror-orange-treadmills.jpg",
+  "focus": 0.3,
+  "y": 0.7,
+  "title": "A Day On My Plate",
+  "sub": "eating like a gamer who lifts: protein at every meal and no crazy restriction"
+ },
  "slides": [
-  {"photo": "src/food-oats-banana.jpg", "text": "oats with banana, walnuts and\npeanut butter + black tea", "x": 0.07, "y": 0.50, "focus": 0.55},
-  {"photo": "src/food-pancakes-yogurt.jpg", "text": "post-gym cocoa pancakes with\ngreek yogurt, walnuts and honey", "x": 0.07, "y": 0.47, "focus": 0.6},
-  {"photo": "src/food-lunch-potatoes-meatballs.jpg", "text": "meal-prepped lunch: roasted potatoes,\nbroccoli and homemade meatballs", "x": 0.07, "y": 0.22, "focus": 0.6},
-  {"photo": "src/cacao.jpg", "text": "evening cacao instead of a 3rd coffee\n(no jitters before stream)", "x": 0.07, "y": 0.06, "focus": 0.3, "align": "left"},
-  {"photo": "src/desk-headset-side.jpg", "text": "and that's me fuelled for\na 5-hour stream 🎧", "x": 0.07, "y": 0.70, "focus": 0.3}
- ]}
+  {
+   "photo": "src/food-oats-banana.jpg",
+   "text": "oats with banana, walnuts and\npeanut butter + black tea",
+   "x": 0.07,
+   "y": 0.5,
+   "focus": 0.55
+  },
+  {
+   "photo": "src/food-pancakes-yogurt.jpg",
+   "text": "post-gym cocoa pancakes with\ngreek yogurt, walnuts and honey",
+   "x": 0.07,
+   "y": 0.47,
+   "focus": 0.6
+  },
+  {
+   "photo": "src/food-tuna-pasta.jpg",
+   "text": "tuna pasta with olives and melted cheese,\nready in 15 minutes",
+   "x": 0.07,
+   "y": 0.08,
+   "focus": 0.5
+  },
+  {
+   "photo": "src/cacao-flowers.jpg",
+   "text": "evening cacao instead of a 3rd coffee\n(no jitters before stream)",
+   "x": 0.07,
+   "y": 0.06,
+   "focus": 0.4
+  }
+ ]
+}

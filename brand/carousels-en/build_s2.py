@@ -2,7 +2,7 @@
 """Carusel EN S2 „5 rules I live by as a gamer girl who lifts” (același stil ca S1, 18 nov):
 prima poză singură, fără text; apoi text pe pozele de la sală, estompate și întunecate; slide-ul 6 e video (mersul pe bandă înclinată).
 Fiecare regulă e o parte din Custom Program, iar ultimul slide trimite la quiz („opening soon”, fără vânzare).
-Pozele: src/gym-black-*.jpg, src/mirror-black-*.jpg, src/rope-pink-hand.jpg, src/food-lunch-potatoes-meatballs.jpg, src/desk-headset-side.jpg
+Pozele (fiecare doar în S2, fără repetări în alte postări): src/gym-black-*.jpg, src/mirror-black-*.jpg, src/food-lunch-potatoes-meatballs.jpg, src/desk-headset-side.jpg
 Video:  studio/custom-program/clips/carusel/treadmill-incline.mov (nu e în git; dacă lipsește, slide-ul 6 iese ca poză)
 Rulezi: python3 brand/carousels-en/build_s2.py -> out/EN-S2-5-rules-*.png (+ EN-S2-5-rules-6.mp4) și EN-S2-5-rules.zip"""
 import base64, html, io, json, os, subprocess, tempfile, zipfile
@@ -60,7 +60,7 @@ def slides():
         '<div style="font-size:28px;font-weight:400;letter-spacing:6px;margin-top:46px;color:#D9CDBB">GAMER · STREAMER · GYM GIRL</div></div>' % T)))
     s.append(('img', frame(bg('gym-black-side.jpg') + rule(3, 1, '3 workouts a week, not 6',
         'Three sessions I actually do beat six I skip. Consistency first, intensity later.'))))
-    s.append(('img', frame(bg('rope-pink-hand.jpg', 0.5) + rule(4, 2, '5-minute warm-up, every time',
+    s.append(('img', frame(bg('gym-black-look.jpg', 0.3) + rule(4, 2, '5-minute warm-up, every time',
         'Jump rope or marching, then hips and upper back. My body has been in a chair all day; it needs a minute.'))))
     s.append(('img', frame(bg('mirror-black-1.jpg') + rule(5, 3, 'I write down every set',
         'Kilos and reps, every time. Next week I try one more rep or a little more weight. That’s how you get stronger.'))))
