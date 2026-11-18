@@ -1,29 +1,9 @@
-{
- "out": "EN-P2-black-friday-buys",
+{"out": "EN-P2-black-friday-buys",
+ "cover": {"photo": "src/mirror-white-top.jpg", "focus": 0.3, "y": 0.70,
+           "title": "Black Friday Favourites",
+           "sub": "gym & gamer girl things I'd buy again"},
  "slides": [
-  {
-   "photo": "src/mirror-white-top.jpg",
-   "text": "My tried-and-tested gym & gamer girl buys I'd get again and again 🖤\nBlack Friday edition",
-   "y": 0.07,
-   "focus": 0.3
-  },
-  {
-   "photo": "src/rope-pink-hand.jpg",
-   "text": "1. My jump rope 🩷\nMy 5-minute warm-up before every leg day, and my cardio on stream breaks.\nIt's 25% off for Black Friday right now!",
-   "y": 0.07,
-   "focus": 0.45
-  },
-  {
-   "photo": "src/airpods-hand.jpg",
-   "text": "2. My AirPods 🎧\nIn the gym: one podcast, zero excuses. They live in my gym bag",
-   "y": 0.07,
-   "focus": 0.45
-  },
-  {
-   "photo": "src/desk-headset-smile.jpg",
-   "text": "3. My white headset 🎮\nComfy for 6-hour streams, and the mic is clear enough that chat never complains",
-   "y": 0.76,
-   "focus": 0.3
-  }
- ]
-}
+  {"photo": "src/rope-pink-hand.jpg", "text": "my jump rope: 5-minute warm-up\nbefore every leg day (25% off this week)", "x": 0.07, "y": 0.06, "focus": 0.45},
+  {"photo": "src/airpods-hand.jpg", "text": "my airpods: one podcast,\nzero excuses at the gym", "x": 0.07, "y": 0.06, "focus": 0.45},
+  {"photo": "src/desk-headset-smile.jpg", "text": "and my white headset,\ncomfy for 6-hour streams 🎧", "x": 0.07, "y": 0.74, "focus": 0.3}
+ ]}
