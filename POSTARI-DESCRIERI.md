@@ -882,7 +882,7 @@ General education, not medical or diet advice.
 ### D2 · Joi 3 dec, 12:00 · „How I Stay In Shape As A Streamer” (stilul „A Day On My Plate”, cu PDF-ul gratuit)
 11 slide-uri (refăcut pe 18 nov cu pozele noi): tu la oglindă, în setul portocaliu, cu titlul → biroul → sala (setul gri) → coarda → banda → vafele → pastele cu ton → proteina Genius → bolul cu ciocolată → **PDF-ul „The 5-minute desk stretch”** → tu la birou, cu quiz-ul. Mâncarea e alta decât în D1 (29 nov), ca să nu se repete.
 **La comentariile „STRETCH”:** răspunzi în DM cu linkul PDF-ului gratuit: `payhip.com/b/myR5B` (e și pe site, la Training → „Start today: free 5-minute desk stretch”).
-_De verificat: vafele și bolul cu ciocolată au proteină în ele? Dacă nu, schimb „chocolate protein bowl” în „chocolate bowl”. Genius Nutrition e colaborare? Dacă da, o etichetăm (și „Paid partnership” dacă e plătită); dacă nu, rămâne fără etichetă._
+_De verificat: vafele și bolul cu ciocolată au proteină în ele? Dacă nu, schimb „chocolate protein bowl” în „chocolate bowl”. **Genius nu e colaborare (18 nov):** slide-ul cu proteina rămâne fără etichetă, fără cod și fără #ad. Dacă răspund la emailul de colaborare înainte de 3 dec, adăugăm codul._
 ```
 How I stay in shape as a streamer 🎮🏋️‍♀️
 
@@ -898,4 +898,4 @@ Want a full plan built for your body? 2-min quiz, link in bio.
 
 #streamerlife #gamergirl #deskjob #gymgirl #fitnessroutine
 ```
-**Pozele rămase pentru alte postări:** clătitele mici cu banană și cocos, a doua poză cu vafele, cacaua cu florile (pentru o postare cu Bewit), L-carnitina (doar dacă e colaborare; fără promisiuni de „ardere a grăsimilor”).
+**Pozele rămase pentru alte postări:** clătitele mici cu banană și cocos, a doua poză cu vafele, cacaua cu florile (pentru o postare cu Bewit), L-carnitina (nu e colaborare: nu o folosim deocamdată; și la o colaborare, fără promisiuni de „ardere a grăsimilor”).
