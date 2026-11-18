@@ -832,8 +832,8 @@ What's the one thing you never leave home without? 👇
 #gymessentials #gamergirl #gymgirl #setup #affiliate
 ```
 
-### N1 · Joi 26 nov, 12:00 · „Poza + Notes”: Glute day (programat până pe 25 nov)
-Slide 1: poza din profil de la sală (`EN-N1-glute-day-1.png`). Slide 2: notița cu antrenamentul (`EN-N1-glute-day-2.png`). Muzică din aplicație.
+### N1 · Mie 18 nov, seara (mutat de pe 26 nov, la cererea Kristinei) · „Poza + Notes”: Glute day
+Slide 1: poza ta la oglindă, în setul gri, lângă gantere (`EN-N1-glute-day-1.png`). Slide 2: notița cu antrenamentul (`EN-N1-glute-day-2.png`). Muzică din aplicație.
 ```
 Swipe for today's glute workout 🍑
 
