@@ -8,6 +8,8 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 import muscle_map as mm
+sys.path.insert(0, os.path.join(ROOT, 'studio/montaj'))
+from curat import GRADE   # aceeași culoare ca la reel-urile tale
 from workouts import NAMES
 W, H, SEG = 1080, 1920, 3.0
 FONTS = os.path.join(ROOT, 'brand/reels-overlays/fonts')
@@ -15,29 +17,29 @@ OUT = os.path.join(HERE, 'out', 'reels-harta')
 PINK, RED = (255, 77, 109, 255), (229, 45, 58, 255)
 
 REELS = [
-    {'id': 'RH1-glute-workout', 'hook': 'Glute workout for people who sit all day',
-     'ex': [('picioare-hip-thrust', '4 × 10'), ('picioare-rdl', '3 × 10'), ('picioare-fandare-inapoi', '3 × 8 / side'), ('picioare-glute-bridge', '3 × 15')]},
-    {'id': 'RH2-desk-hunch', 'hook': 'Fix your desk hunch at the gym',
-     'ex': [('spate-face-pull', '3 × 15'), ('spate-fluturari-inverse', '3 × 12'), ('spate-ramat-gantera', '3 × 10 / side'), ('spate-lat-pulldown', '3 × 10')]},
-    {'id': 'RH3-core-desk', 'hook': 'Core workout for a back that lasts all day',
-     'ex': [('core-dead-bug', '3 × 8 / side'), ('core-bird-dog', '3 × 8 / side'), ('core-plank-lateral', '3 × 20 s / side'), ('core-hollow-hold', '3 × 20 s')]},
+    {'id': 'RH1-warm-up', 'hook': 'Warm up like this if you sit all day',
+     'ex': [('incalzire-mars-pe-loc', '1 min'), ('incalzire-step-jack', '30 s'), ('incalzire-inchworm', '5 slow reps'), ('mobilitate-extensie-toracica', '8 reps')]},
+    {'id': 'RH2-home-workout', 'hook': 'No equipment? Do this at home',
+     'ex': [('incalzire-jumping-jacks', '40 s'), ('cardio-skaters', '40 s'), ('impins-flotare', '3 × 8'), ('core-hollow-hold', '3 × 20 s')]},
 ]
 
 def font(n, s): return ImageFont.truetype(os.path.join(FONTS, n), s)
 
 def clip(cid):
-    for p in (os.path.join(HERE, 'out', cid + '.mp4'), os.path.join(HERE, 'clips/preview', cid + '.mp4'), os.path.join(HERE, 'clips/istoric', cid + '.mp4')):
-        if os.path.exists(p): return p
-    raise SystemExit('lipsește clipul: ' + cid)
+    # doar originalele filmate de Kristine (clips/<id>.mov, 1080 × 1920, fără text pe ele); clipurile vechi, de 540 × 960, nu intră în reel-uri
+    p = os.path.join(HERE, 'clips', cid + '.mov')
+    if not os.path.exists(p): raise SystemExit('lipsește originalul la rezoluție mare: ' + cid)
+    wh = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout.strip().rstrip(',').split(',')
+    if max(int(wh[0]), int(wh[1])) < 1920: raise SystemExit('clip prea mic pentru reel: ' + cid)
+    return p
 
 def dur(p): return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True).stdout)
 
 def overlay(ids, idx, name, sets, path):
     im = Image.new('RGBA', (W, H), (0, 0, 0, 0)); g = ImageDraw.Draw(im)
     for i in range(420): g.line([(0, i), (W, i)], fill=(0, 0, 0, int(110 * (1 - i / 420) ** 1.5)))          # sus, ca să se vadă siluetele
-    for y in range(H - 700, H):                                                                            # jos: acoperă etichetele vechi din clipuri
-        a = 252 if y >= H - 560 else int(252 * ((y - (H - 700)) / 140) ** 1.6)
-        g.line([(0, y), (W, y)], fill=(14, 12, 13, a))
+    for y in range(H - 760, H):                                                                            # jos: umbră, ca să se citească seriile
+        g.line([(0, y), (W, y)], fill=(0, 0, 0, int(170 * ((y - (H - 760)) / 760) ** 1.2)))
     n = len(ids); cw = 180; x0 = (W - cw * n) // 2; top = 150
     for k, cid in enumerate(ids):
         c = mm.render_card(cid, cw - 16)
@@ -55,7 +57,6 @@ def cover(reel, frame, path):
     im = Image.open(frame).convert('RGB').resize((W, H)); im = im.filter(ImageFilter.GaussianBlur(2)).convert('RGBA')
     sh = Image.new('RGBA', (W, H), (0, 0, 0, 0)); g = ImageDraw.Draw(sh)
     for y in range(H): g.line([(0, y), (W, y)], fill=(0, 0, 0, int(150 * max(0, (y - 500) / 1400))))
-    for y in range(H - 700, H): g.line([(0, y), (W, y)], fill=(14, 12, 13, 252 if y >= H - 560 else int(252 * ((y - (H - 700)) / 140) ** 1.6)))
     im.alpha_composite(sh); d = ImageDraw.Draw(im); f = font('Poppins-Bold.ttf', 104)
     words, lines, cur = reel['hook'].split(), [], ''
     for w in words:
@@ -74,7 +75,7 @@ def build(reel):
         p = clip(cid); d = dur(p); ss = max(0.0, min(d - SEG - 0.1, d * 0.3))
         s = os.path.join(tmp, 's%d.mp4' % i); segs.append(s)
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', '%.2f' % ss, '-t', '%.2f' % SEG, '-i', p, '-loop', '1', '-i', png, '-filter_complex',
-                        '[0:v]fps=30,scale=%d:%d:flags=lanczos,unsharp=5:5:0.6,setsar=1[v];[v][1:v]overlay=0:0:shortest=1,format=yuv420p[o]' % (W, H),
+                        ('[0:v]fps=30,scale=%d:%d:flags=lanczos,' % (W, H)) + GRADE + ',setsar=1[v];[v][1:v]overlay=0:0:shortest=1,format=yuv420p[o]',
                         '-map', '[o]', '-t', '%.2f' % SEG, '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', s], check=True)
     lst = os.path.join(tmp, 'l.txt'); open(lst, 'w').write(''.join("file '%s'\n" % x for x in segs))
     out = os.path.join(OUT, reel['id'] + '.mp4')

@@ -81,5 +81,6 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 **De ce merge:** se înțelege fără sunet, se salvează („save this workout”) și se uită de mai multe ori.
 **Doar pentru reel-uri.** Antrenamentele clienților sunt pe site.
 **Șablonul:** `python3 studio/custom-program/build_reels_harta.py` (lista `REELS`: hook-ul și cele 4 exerciții cu seriile). Siluetele: `studio/custom-program/muscle_map.py`.
-**Ce filmezi pentru variantele finale:** câte 4–5 secunde din fiecare exercițiu, vertical, în lumina de dimineață, cu tot corpul în cadru și **loc liber sus** (pentru siluete). Clipurile de acum sunt cele vechi, de 540×960.
-**Gata (probe):** RH1 Glute workout for people who sit all day · RH2 Fix your desk hunch at the gym · RH3 Core workout for a back that lasts all day.
+**Regula (18 nov): doar clipuri la rezoluție mare** (originalele tale, 1080 × 1920, fără text pe ele). Clipurile vechi de 540 × 960 nu intră în reel-uri; scriptul le refuză.
+**Gata:** RH1 Warm up like this if you sit all day (marș, step jacks, inchworm, extensia toracică) · RH2 No equipment? Do this at home (jumping jacks, skaters, flotări, hollow hold).
+**Ce filmezi pentru următoarele** (câte 4–5 secunde, vertical, lumina de dimineață, tot corpul în cadru, **loc liber sus**): glute day (hip thrust, RDL, fandare înapoi, glute bridge) · spatele (face pull, fluturări inverse, ramat, lat pulldown) · core (dead bug, bird dog, side plank, plank).

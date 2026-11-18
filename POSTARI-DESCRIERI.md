@@ -903,31 +903,22 @@ Want a full plan built for your body? 2-min quiz, link in bio.
 ```
 **Pozele rămase pentru alte postări:** clătitele mici cu banană și cocos, a doua poză cu vafele, cacaua cu florile (pentru o postare cu Bewit), L-carnitina (nu e colaborare: nu o folosim deocamdată; și la o colaborare, fără promisiuni de „ardere a grăsimilor”).
 
-### Reel-urile „harta mușchilor” (RH1–RH3, 18 nov; zilele le alegem după ce îți plac)
+### Reel-urile „harta mușchilor” (RH1–RH2, 18 nov, doar din clipurile la rezoluție mare; zilele le alegem împreună)
 ```
-Glute workout for people who sit all day 🍑
-Save it for your next leg day.
+Warm up like this if you sit all day 🪑➡️🏋️‍♀️
+Save it for your next gym day.
 
-Hip thrust 4×10 · Romanian deadlift 3×10 · Reverse lunge 3×8/side · Glute bridge 3×15
+March in place 1 min · Step jacks 30 s · Inchworm 5 slow reps · Thoracic extension 8 reps
 
 Want a plan built for your body? 2-min quiz, link in bio 💗
-#gluteworkout #legday #gymgirl #deskjob #workoutplan
+#warmup #deskjob #gymgirl #gamergirl #mobility
 ```
 ```
-Fix your desk hunch at the gym 🖥️➡️🏋️‍♀️
-Save this for your next back day.
+No equipment? Do this at home 🏠
+Save it for a busy day.
 
-Face pull 3×15 · Reverse fly 3×12 · One-arm row 3×10/side · Lat pulldown 3×10
-
-Want a plan built for your body? 2-min quiz, link in bio 💗
-#posture #backworkout #deskjob #gymgirl #gamergirl
-```
-```
-Core workout for a back that lasts all day 💪
-Save it and try it tonight.
-
-Dead bug 3×8/side · Bird dog 3×8/side · Side plank 3×20 s/side · Hollow hold 3×20 s
+Jumping jacks 40 s · Skaters 40 s · Push-ups 3×8 · Hollow hold 3×20 s
 
 Want a plan built for your body? 2-min quiz, link in bio 💗
-#coreworkout #backpain #deskjob #gymgirl #workoutplan
+#homeworkout #noequipment #deskjob #gymgirl #workoutplan
 ```
