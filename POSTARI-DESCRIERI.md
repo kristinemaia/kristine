@@ -815,18 +815,21 @@ My only rule: protein at every meal. Want the meal prep recipe? Comment PREP �
 #whatieatinaday #mealprep #gamergirl #highprotein #gymgirl
 ```
 
-### P2 · Mar 24 nov, 12:00 · „My tried-and-tested gym & gamer girl buys” (Black Friday)
-_Înainte de postare îmi spui: (1) coarda roz e Dope Rope? Dacă **nu**, scot „25% off” de pe slide-ul 2; (2) marca headset-ului, dacă vrei să apară. Ochelarii și setul de sală au ieșit din carusel (18 nov), ca să nu repetăm poze; intră la loc dacă trimiți poze noi cu ei. Dope Rope e doar afiliere: fără „Paid partnership”, fără #ad și fără „I earn a small commission”; la final `#affiliate`, iar linkul în story, cu sticker._
+### P2 · Mar 24 nov, 12:00 · „My Everyday Essentials” (stilul „A Day On My Plate”; refăcut 18 nov, fără Black Friday pe slide-uri)
+Slide-urile: tu la oglindă (bluza albă) cu titlul → coarda → AirPods → căștile albe.
+_Dacă e coarda Dope Rope, reducerea de Black Friday o spui doar în descriere și în story (linkul tău), nu pe slide. Dope Rope e doar afiliere: fără „Paid partnership”, fără #ad, cu `#affiliate`._
 ```
-My tried-and-tested gym & gamer girl buys, Black Friday edition 🖤
+My everyday essentials as a gym & gamer girl 🖤
 
-1. My jump rope: 25% off right now, link in my story
-2. My AirPods: they live in my gym bag
+1. My jump rope: my 5-minute warm-up before every leg day
+2. My AirPods: one podcast, zero excuses at the gym
 3. My white headset: comfy for 6-hour streams
 
-What's on your Black Friday list? 👇
+(The rope is 25% off this week, link in my story.)
 
-#blackfriday #gymessentials #gamergirl #gymgirl #setup #affiliate
+What's the one thing you never leave home without? 👇
+
+#gymessentials #gamergirl #gymgirl #setup #affiliate
 ```
 
 ### N1 · Joi 26 nov, 12:00 · „Poza + Notes”: Glute day (programat până pe 25 nov)

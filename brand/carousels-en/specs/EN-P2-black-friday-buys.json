@@ -1,9 +1,33 @@
-{"out": "EN-P2-black-friday-buys",
- "cover": {"photo": "src/mirror-white-top.jpg", "focus": 0.3, "y": 0.70,
-           "title": "Black Friday Favourites",
-           "sub": "gym & gamer girl things I'd buy again"},
+{
+ "out": "EN-P2-black-friday-buys",
+ "cover": {
+  "photo": "src/mirror-white-top.jpg",
+  "focus": 0.3,
+  "y": 0.7,
+  "title": "My Everyday Essentials",
+  "sub": "gym & gamer girl things I use every week"
+ },
  "slides": [
-  {"photo": "src/rope-pink-hand.jpg", "text": "my jump rope: 5-minute warm-up\nbefore every leg day (25% off this week)", "x": 0.07, "y": 0.06, "focus": 0.45},
-  {"photo": "src/airpods-hand.jpg", "text": "my airpods: one podcast,\nzero excuses at the gym", "x": 0.07, "y": 0.06, "focus": 0.45},
-  {"photo": "src/desk-headset-smile.jpg", "text": "and my white headset,\ncomfy for 6-hour streams 🎧", "x": 0.07, "y": 0.74, "focus": 0.3}
- ]}
+  {
+   "photo": "src/rope-pink-hand.jpg",
+   "text": "my jump rope: 5-minute warm-up\nbefore every leg day",
+   "x": 0.07,
+   "y": 0.06,
+   "focus": 0.45
+  },
+  {
+   "photo": "src/airpods-hand.jpg",
+   "text": "my airpods: one podcast,\nzero excuses at the gym",
+   "x": 0.07,
+   "y": 0.06,
+   "focus": 0.45
+  },
+  {
+   "photo": "src/desk-headset-smile.jpg",
+   "text": "and my white headset,\ncomfy for 6-hour streams 🎧",
+   "x": 0.07,
+   "y": 0.74,
+   "focus": 0.3
+  }
+ ]
+}
