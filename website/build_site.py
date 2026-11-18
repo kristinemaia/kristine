@@ -548,6 +548,10 @@ QUIZ = "".join([
     q_check("area", "Where do you feel it?", [("neck", "Neck"), ("upper", "Shoulders and upper back"), ("lower", "Lower back"), ("hips", "Hips"), ("wrists", "Wrists and elbows"), ("knees", "Knees")], "Pick all that apply.", ' id="q-area" hidden'),
     q_radio("feel", "How does it feel?", [("stiff", "Stiff or tight, and better once I move"), ("pain", "Pain: sharp, constant, wakes me up, numbness or tingling, or after an injury")], "", ' id="q-feel" hidden'),
     q_input("age", "How old are you?", "number", "", ' inputmode="numeric" min="10" max="100" placeholder="Age" style="max-width:140px"'),
+    ('<fieldset class="qf"><legend><span class="qn"></span>Your height and weight (optional)</legend>'
+     '<p class="small muted">Only used to give you a protein guide. No BMI, no goal weight. It stays on your phone, and goes in your waitlist email only if you choose to join.</p>'
+     '<div class="opts"><label class="small" style="display:flex;align-items:center;gap:10px">Height <input class="qin" type="number" name="height" inputmode="numeric" min="120" max="230" placeholder="165" style="max-width:120px"> cm</label>'
+     '<label class="small" style="display:flex;align-items:center;gap:10px">Weight <input class="qin" type="number" name="weight" inputmode="decimal" min="30" max="250" step="0.5" placeholder="60" style="max-width:120px"> kg</label></div></fieldset>'),
     q_check("health", "Does any of this apply to you?", [
         ("heart", "Heart condition, chest pain or fainting when active"), ("surg6", "Surgery in the last 6 months"),
         ("preg", "Pregnant"), ("doc", "A doctor told me to limit exercise"),
@@ -772,13 +776,16 @@ training = """
       }
     }
     var shownAreas=pain?[]:areas;
+    var hN=parseFloat((f.querySelector('input[name="height"]')||{}).value), wN=parseFloat((f.querySelector('input[name="weight"]')||{}).value);
+    var hOk=(hN>=120&&hN<=230), wOk=(wN>=30&&wN<=250);
+    if(wOk&&!safe&&!minor){ extra.push('Protein: a general guide for people who train is about 1.4 to 2 g per kg of body weight a day. For you that is roughly '+Math.round(wN*1.4/5)*5+' to '+Math.round(wN*2/5)*5+' g, spread over your meals (general information, not a diet).'); }
     document.getElementById('r-hi').textContent='Hi '+nm+', here is your plan.';
     document.getElementById('r-track').textContent=track;
     var showStart=!safe&&a.goal!=='mob';
     document.getElementById('r-start').textContent=startTxt;
     document.getElementById('r-start-w').hidden=!showStart;
     var note=f.querySelector('textarea[name="note"]').value.trim();
-    var body='Hi Kristine,\\n\\nI would like to join the Custom Program waitlist.\\n\\nName: '+nm+'\\nPlan: '+track+'\\nLevel: '+level+'\\nWhere: '+where+'\\nDays: '+a.days+' a week'+(note?'\\n\\nA note from me: '+note:'')+'\\n';
+    var body='Hi Kristine,\\n\\nI would like to join the Custom Program waitlist.\\n\\nName: '+nm+'\\nPlan: '+track+'\\nLevel: '+level+'\\nWhere: '+where+'\\nDays: '+a.days+' a week'+(hOk?'\\nHeight: '+hN+' cm':'')+(wOk?'\\nWeight: '+wN+' kg':'')+(note?'\\n\\nA note from me: '+note:'')+'\\n';
     document.getElementById('r-join').href='mailto:kristinemaia527@gmail.com?subject='+encodeURIComponent('Custom Program waitlist')+'&body='+encodeURIComponent(body);
     document.getElementById('r-level').textContent='Level: '+level+' · '+where+(safe?'':' · '+a.days+' days a week · '+mins+' minutes'+(auto?' (chosen for you)':''));
     document.getElementById('r-age').hidden=!minor;
