@@ -9,9 +9,11 @@ HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.pat
 sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(ROOT, 'brand/carousels-en'))
 from workouts import ALL, NAMES, HOME_NAMES
 import build_produse as bp
+import muscle_map as mm
+STYLE = 'harta' if '--harta' in sys.argv else 'clasic'
 W, H, MIN_SEG, MAX_SEG = 720, 1280, 8.0, 14.0
 FONTS = os.path.join(ROOT, 'brand/reels-overlays/fonts')
-OUT = os.path.join(HERE, 'out/workouts')
+OUT = os.path.join(HERE, 'out/workouts-harta' if '--harta' in sys.argv else 'out/workouts')
 
 def clip_path(cid):
     for p in (os.path.join(HERE, 'out', cid + '.mp4'), os.path.join(HERE, 'clips/preview', cid + '.mp4'), os.path.join(HERE, 'clips/istoric', cid + '.mp4')):
@@ -44,6 +46,28 @@ def label_png(section, name, sets, path):
     tw = d.textlength(sets, font=fp); px, py = (W - tw) / 2, y + 14
     d.rounded_rectangle((px - 22, py - 6, px + tw + 22, py + 44), radius=26, fill=(255, 228, 92, 240))
     d.text((px, py), sets, font=fp, fill=(20, 18, 16, 255))
+    im.save(path)
+
+def label_map_png(section, ids, idx, name, sets, path):
+    """Stilul „hartă” (18 nov): sus, câte o siluetă pentru fiecare exercițiu din partea asta, cu zona lucrată în roșu și o săgeată
+    sub exercițiul de acum; jos, numele mic și seriile mari."""
+    im = Image.new('RGBA', (W, H), (0, 0, 0, 0)); g = ImageDraw.Draw(im)
+    # banda de jos: acoperă și etichetele vechi arse în unele clipuri
+    for y in range(H - 430, H):
+        a = 252 if y >= H - 320 else int(252 * ((y - (H - 430)) / 110) ** 1.6)
+        g.line([(0, y), (W, y)], fill=(14, 12, 13, a))
+    n = len(ids); cw = min(124, (W - 40) // max(n, 1)); x0 = (W - cw * n) // 2
+    for k, cid in enumerate(ids):
+        c = mm.render_card(cid, cw - 8)
+        if k != idx: c.putalpha(c.split()[3].point(lambda a: int(a * 0.55)))
+        im.alpha_composite(c, (x0 + k * cw + 4, 34))
+    ax = x0 + idx * cw + cw // 2; ay = 34 + (cw - 8) * 2 + 6; red = (229, 45, 58, 255)
+    g = ImageDraw.Draw(im); g.polygon([(ax, ay), (ax - 18, ay + 26), (ax + 18, ay + 26)], fill=red); g.rectangle((ax - 7, ay + 24, ax + 7, ay + 62), fill=red)
+    d = ImageDraw.Draw(im); fs, fn, fd = font('Poppins-Medium.ttf', 22), font('Poppins-SemiBold.ttf', 40), font('Poppins-Bold.ttf', 84)
+    s_ = section.upper(); d.text(((W - d.textlength(s_, font=fs)) / 2, H - 290), s_, font=fs, fill=(235, 225, 210, 255))
+    y = H - 255
+    for ln in fit(d, name, fn, W - 80): d.text(((W - d.textlength(ln, font=fn)) / 2, y), ln, font=fn, fill=(255, 255, 255, 255)); y += 50
+    tw = d.textlength(sets, font=fd); d.text(((W - tw) / 2, y + 4), sets, font=fd, fill=(255, 77, 109, 255), stroke_width=5, stroke_fill=(255, 255, 255, 255))
     im.save(path)
 
 def card_png(lines, path, bg):
@@ -85,7 +109,9 @@ def build_video(n, wk):
     for sec, items in parts:
         for i, (cid, sets) in enumerate(items, 1):
             k += 1; png = os.path.join(tmp, 'l%02d.png' % k)
-            label_png('%s · %d / %d' % (sec, i, len(items)) if sec == 'Workout' else sec, name_of(cid, wk['home']), sets, png)
+            lab = '%s · %d / %d' % (sec, i, len(items)) if sec == 'Workout' else sec
+            if STYLE == 'harta': label_map_png(lab, [c for c, _ in items], i - 1, name_of(cid, wk['home']), sets, png)
+            else: label_png(lab, name_of(cid, wk['home']), sets, png)
             s = os.path.join(tmp, 's%02d.mp4' % k); seg_from_clip(clip_path(cid), png, s); segs.append(s)
     e = os.path.join(tmp, 'end.jpg')
     card_png([('💪', None, None, 20), (('Reset done' if 'Resets' in wk['tags'] else 'Workout done'), font('Poppins-SemiBold.ttf', 58), (255, 255, 255, 255), 22),
@@ -156,4 +182,4 @@ def main(filters):
 
 TEXT_ONLY = '--text' in sys.argv
 if __name__ == '__main__':
-    main([a for a in sys.argv[1:] if a != '--text'])
+    main([a for a in sys.argv[1:] if a not in ('--text', '--harta')])
