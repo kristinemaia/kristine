@@ -45,7 +45,7 @@ _Reactualizat 30 octombrie 2026. Se sprijină pe `PLAN.md` și pe Roadmap (secț
 |---|---|---|
 | **1. Twitch** (motorul) | abonamente, bits, reclame, donații; VirtuMe prin `!twin` | Dr. K (live, 90% gratuit), Xaryu (mișcarea e un segment în stream) |
 | **2. Produse digitale** | PDF gratuit → e-book 12 € → ~~program de 30 de zile~~ **Custom Program pe abonament** (9 € fondatori, apoi 12 €/lună; anual ~99 €) | Liezl Jayne (PDF → email → produs mic), Kassandra (filmare în serii) |
-| **3. Coaching online** (înlocuiește terapia) | antrenamente personalizate cu feedback pe video, 49 €/lună, maxim 10–20 de oameni; evaluare de mobilitate pe video 55–60 € | Ben Patrick (vinzi feedback, nu doar videouri) |
+| **3. Coaching online** (înlocuiește terapia) | **actualizat 18 nov: antrenament + coaching de nutriție, 149 €/lună (fondatori 119 €, primele 3 luni), maxim 10 oameni**; antrenamente personalizate cu feedback pe video; evaluare de mobilitate pe video 55–60 € | Ben Patrick (vinzi feedback, nu doar videouri) |
 | **4. Sponsori și afiliați** | ergonomie, gaming, recuperare; cod plus link | Dr. Jordan Tsai, 1HP (brandurile de gaming plătesc pentru sănătate) |
 
 Plus **chiria**, care merge singură.
@@ -160,7 +160,7 @@ Scopul: din cei 150–200 de spectatori și din clipuri, oamenii ajung pe **list
 | Twitch | 400–500 € (16 nov) | 450–550 € | 500–650 € |
 | Donații | ? | ? | ? |
 | VirtuMe | ~370 € (garantat) | 0 € (bonus dacă apar abonați) | 0 € (bonus dacă apar abonați) |
-| Coaching (49 €/lună) | 0 | 150–250 € (3–5 oameni) | 400–700 € (8–14 oameni) |
+| Coaching (149 €/lună, fondatori 119 €; înainte 49 €) | 0 | 150–250 € (3–5 oameni) | 400–700 € (8–14 oameni) |
 | E-book | 0 | 50–150 € | 50–150 € |
 | Custom Program (în locul programului de 30 de zile) | 0 | 0 | 20–30 de membri × 9–12 € (estimare) |
 | Afiliați și sponsori | puțin | 50–150 € | 100–300 € |

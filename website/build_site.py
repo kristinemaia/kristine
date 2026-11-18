@@ -173,6 +173,32 @@ CHAT = (
 ) % TAWK_SRC
 
 
+# Pop-up-ul pentru Custom Program: apare o dată (apoi după 7 zile), după 12 secunde sau la jumătatea paginii. Nu apare pe training.html.
+POPUP = """
+<div class="cp-pop" id="cp-pop" role="dialog" aria-modal="false" aria-labelledby="cp-h" hidden>
+  <button class="cp-x" id="cp-x" type="button" aria-label="Close">×</button>
+  <p class="kicker">Custom Program · opening soon</p>
+  <p class="cp-h" id="cp-h">Get your custom training plan</p>
+  <p class="small muted">Answer a few quick questions and see your plan: your goal, gym or home, your time. Every workout step by step, with videos and a timer.</p>
+  <a class="btn" href="training.html#quiz">Take the 2-minute quiz</a>
+</div>
+<style>
+.cp-pop{position:fixed;z-index:60;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(360px,calc(100vw - 32px));background:#fff;color:#2B2431;border-radius:20px;padding:20px 20px 18px;box-shadow:0 18px 50px rgba(43,36,49,.22);border:1px solid #EDE2EA}
+.cp-pop .cp-h{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:23px;line-height:1.1;margin:6px 0 8px}
+.cp-pop .btn{display:block;text-align:center;margin-top:14px}
+.cp-x{position:absolute;top:8px;right:10px;border:0;background:none;font-size:26px;line-height:1;color:#5C5466;cursor:pointer;padding:6px}
+@media (prefers-reduced-motion:no-preference){.cp-pop:not([hidden]){animation:cpin .35s ease-out}@keyframes cpin{from{opacity:0;transform:translateY(16px)}}}
+</style>
+<script>
+(function(){var p=document.getElementById('cp-pop');if(!p)return;var k='km-cp-pop',now=Date.now(),seen=0;
+try{seen=+localStorage.getItem(k)||0}catch(e){}if(now-seen<7*864e5)return;
+var shown=false;function show(){if(shown)return;shown=true;p.hidden=false;try{localStorage.setItem(k,String(Date.now()))}catch(e){}}
+setTimeout(show,12000);window.addEventListener('scroll',function(){if(window.scrollY>(document.body.scrollHeight-window.innerHeight)*0.5)show()},{passive:true});
+document.getElementById('cp-x').addEventListener('click',function(){p.hidden=true});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')p.hidden=true});})();
+</script>"""
+
+
 def page(fname, title, desc, body, lang="en", cur=None):
     html = (
         '<!doctype html>\n<html lang="%(lang)s">\n<head>\n<meta charset="utf-8">\n'
@@ -194,7 +220,7 @@ def page(fname, title, desc, body, lang="en", cur=None):
         "header": header(cur or fname, lang),
         "body": body.strip("\n"),
         "footer": footer(lang),
-        "chat": CHAT,
+        "chat": CHAT + ("" if fname == "training.html" else POPUP),
         "ver": VER,
     }
     with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
@@ -232,7 +258,7 @@ def free_band(title="Start with five minutes.", extra="", chat="Five minutes, on
                 .replace("{extra}", (" " + extra) if extra else ""))
 
 
-LIST_PERKS = "Download it and you'll also hear first about the updated e-book and the Custom Program at the founding price."
+LIST_PERKS = "Download it and you'll also hear first when the Custom Program opens, at the founding price."
 
 # Programul de pe Twitch. data-day: 1 = luni, 3 = miercuri, 5 = vineri (pentru „Today / Next up”).
 # Duminica nu are data-day, pentru că e doar în unele săptămâni.
@@ -333,8 +359,8 @@ home = """
       </article>
       <div class="soon">
         <p class="kicker">Coming soon</p>
-        <p>The Stream Day Kitchen e-book (new edition): healthy, filling meals and hand-portion basics for people who sit all day. People on the email list hear first and get the early price.</p>
-        <p class="mt-s">Also coming: <strong>1:1 online coaching</strong> for a small group. A training plan built around your week, with feedback on your form.</p>
+        <p>The <strong>Custom Program</strong> opens soon. People on the email list hear first and get the founding price.</p>
+        <p class="mt-s">Also coming: <strong>1:1 coaching</strong> for a small group: training and nutrition coaching built around your week, with feedback on your form.</p>
         <p class="all"><a href="#free">Join the list</a> · <a href="shop.html#coaching">Coaching waitlist</a> · <a href="shop.html">See the shop</a></p>
       </div>
     </div>
@@ -853,36 +879,25 @@ shop = """
 </section>
 
 <section class="wrap block" aria-labelledby="soon-title">
-  <div class="block-head"><p class="kicker">Coming soon · join the waitlist</p><h2 id="soon-title">Good food and your custom program</h2></div>
-  <div class="duo">
-    <article class="panel p-pink" id="kitchen">
-      <img class="book" src="assets/ebook-cover.jpg" alt="Cover of the e-book Stream Day Kitchen by Kristine Maia" width="200" height="320" loading="lazy">
-      <span class="tag">Waitlist · updated edition</span>
-      <h3>Stream Day Kitchen</h3>
-      <p class="p">€12<small>e-book</small></p>
-      <p class="muted">Healthy, filling meals and hand-portion basics for people who sit all day.</p>
-      <ul><li>Quick recipes for long days: protein pancakes, a no-cook tuna and red bean salad, salmon with potatoes and salad and more</li><li>The hand-portion method: eat well without a scale</li><li>A shopping list of what I always keep in my kitchen</li></ul>
-      <a class="btn alt" href="#free">Join the waitlist</a>
-    </article>
-    <article class="panel p-blue" id="program">
-      <span class="tag">Waitlist · founding price</span>
-      <h3>Custom Program</h3>
-      <p class="p">Monthly<small>membership</small></p>
-      <ul><li>A 2-minute quiz builds your plan: goal, focus, home or gym, time</li><li>Follow-along videos, 10 to 40 minutes, with 4-week progressions</li><li>Unstiff, Get Strong, Shape Up and Desk Reset</li></ul>
-      <a class="btn alt" href="training.html">Take the quiz</a>
-    </article>
-  </div>
+  <div class="block-head"><p class="kicker">Coming soon · join the waitlist</p><h2 id="soon-title">Your custom program</h2></div>
+  <article class="panel p-blue" id="program">
+    <span class="tag">Waitlist · founding price</span>
+    <h3>Custom Program</h3>
+    <p class="p">$10<small>per month, founding price for the first 50 members</small></p>
+    <ul><li>A 2-minute quiz builds your plan: goal, focus, home or gym, time</li><li>Every workout step by step: the video of each exercise, how to do it, a timer for your rest and your holds</li><li>Your training log: your weights from last time and when to go up</li><li>Unstiff, Get Strong, Shape Up and Desk Reset, plus 5-minute resets for your neck, back and wrists</li></ul>
+    <a class="btn" href="training.html#quiz">Take the 2-minute quiz</a>
+  </article>
 </section>
 
 <section class="wrap block" aria-labelledby="coach-title">
   <div class="block-head"><p class="kicker">Coming soon · small group</p><h2 id="coach-title">Train with me, one to one</h2></div>
   <article class="panel p-mint" id="coaching">
-    <span class="tag">Waitlist · limited spots</span>
-    <h3>1:1 online coaching</h3>
-    <p class="p">€49<small>per month</small></p>
-    <p class="muted">A training plan built around your week, at the gym or at home, with feedback on your form. Made for people who sit for long hours and want to get stronger and move better.</p>
-    <ul><li>A plan for your goal, your schedule and your equipment, adjusted every week</li><li>Send me short videos of your sets: I check your form and tell you what to change</li><li>Strength and mobility together, no extreme diets</li><li>A small group, so every client gets real attention</li></ul>
-    <p class="small muted">Not included: personal meal plans or medical advice. I share general food ideas only. If you have pain or an injury, see a doctor first.</p>
+    <span class="tag">Waitlist · 10 spots</span>
+    <h3>1:1 coaching: training and nutrition</h3>
+    <p class="p">€149<small>per month · founding clients €119, 3-month start</small></p>
+    <p class="muted">Your training and your eating, built around your week and checked by me every week. Made for people who sit for long hours and want to get stronger, leaner and move better.</p>
+    <ul><li>A training plan for your goal, your schedule and your equipment, adjusted every week</li><li>Form checks: send me short videos of your sets and I tell you what to change</li><li>Nutrition coaching: your calorie and protein targets, hand portions, food ideas that fit your week and a weekly check-in on your habits</li><li>Messages with me Monday to Friday, plus the Custom Program included</li></ul>
+    <p class="small muted">For healthy adults. Not included: diets for medical conditions, pregnancy or eating disorders, or medical advice; for those, see a doctor or a registered dietitian.</p>
     <a class="btn" href="{COACHING}">Join the coaching waitlist</a>
     <p class="small muted">People on the waitlist hear first and get founding-client pricing.</p>
   </article>
@@ -901,8 +916,8 @@ shop = """
   <div class="block-head"><p class="kicker">Questions</p><h2 id="faq-title">Before you buy</h2></div>
   <div class="faq">
     <details><summary>Is this medical treatment?</summary><p>No. I studied Physical Education and Sport and coach mobility. Everything here is general exercise and education, not a diagnosis or treatment. If you have pain or an injury, see a doctor.</p></details>
-    <details><summary>How does online coaching work?</summary><p>You tell me your goal, your schedule and what equipment you have. I build your plan, you train and send me short videos of your sets, and every week I check your form and adjust the plan. It is exercise coaching, not treatment.</p></details>
-    <details><summary>Can you write me a meal plan?</summary><p>No. I'm not a dietitian, so I don't write personal meal plans. I share general food ideas, like the quick recipes in my e-book.</p></details>
+    <details><summary>How does 1:1 coaching work?</summary><p>You tell me your goal, your schedule, your equipment and how you eat now. I build your training plan and your calorie and protein targets, you train and send me short videos of your sets, and every week we check in on your training and your habits and I adjust both. It is coaching, not treatment.</p></details>
+    <details><summary>Do you help with food?</summary><p>In 1:1 coaching, yes: calorie and protein targets, hand portions and food ideas that fit your week, for healthy adults. I'm not a dietitian, so I don't plan diets for medical conditions, pregnancy or eating disorders.</p></details>
     <details><summary>Do I need equipment?</summary><p>A chair, a wall and a bit of floor space. Some routines use a resistance band, which is optional.</p></details>
     <details><summary>How do I get my product after paying?</summary><p>You get an email with your download or access link right after payment.</p></details>
     <details><summary>Refunds</summary><p>See the purchase terms on the <a href="legal.html">legal page</a>.</p></details>
@@ -912,7 +927,7 @@ shop = """
 page(
     "shop.html",
     "Shop · Kristine Maia",
-    "The Stream Day Kitchen e-book, the Custom Program and 1:1 online coaching (all on the waitlist), plus discount codes for gear I use.",
+    "The Custom Program and 1:1 coaching with training and nutrition (both on the waitlist), plus discount codes for gear I use.",
     shop,
 )
 

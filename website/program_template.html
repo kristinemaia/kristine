@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#FFF9F6">
+<title>My program · Kristine Maia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#FFF9F6;--paper:#FFFFFF;--ink:#2B2431;--muted:#5C5466;--line:#EDE2EA;--pink:#F8DCE6;--brand:#8A3459;--brand-ink:#FFFFFF;
+  --mint:#D8F0E4;--mint-ink:#1C6550;--sun:#FFE45C;--shade:rgba(43,36,49,.06)}
+@media (prefers-color-scheme:dark){:root{--bg:#18141C;--paper:#221D27;--ink:#F3EEF5;--muted:#B7ADBF;--line:#382F40;--pink:#45283A;--brand:#F2A9C8;--brand-ink:#2B1420;
+  --mint:#1E3B31;--mint-ink:#9BE0C2;--shade:rgba(0,0,0,.25);color-scheme:dark}}
+*{box-sizing:border-box}[hidden]{display:none!important}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,sans-serif;font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body{padding:max(16px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) 80px max(16px,env(safe-area-inset-left))}
+.wrap{max-width:640px;margin:0 auto}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.02em;line-height:1.1;margin:0;text-wrap:balance}
+h1{font-size:32px}h2{font-size:24px}h3{font-size:19px}
+.k{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--brand)}
+.muted{color:var(--muted)}.small{font-size:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.chip{background:var(--pink);color:var(--ink);border-radius:999px;padding:4px 12px;font-size:14px;font-weight:600}
+button,.btn{font:inherit;font-weight:700;border:0;border-radius:999px;padding:14px 22px;background:var(--brand);color:var(--brand-ink);cursor:pointer;width:100%;margin-top:14px}
+button.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+button.small{width:auto;padding:8px 14px;margin:0;font-size:14px}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+fieldset{border:0;margin:18px 0 0;padding:0}legend{font-weight:700;margin-bottom:8px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}.opts label{border:1.5px solid var(--line);background:var(--paper);border-radius:12px;padding:10px 14px;cursor:pointer}
+.opts input{position:absolute;opacity:0}.opts label:has(input:checked){border-color:var(--brand);background:var(--pink)}
+input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.day{display:flex;justify-content:space-between;align-items:center;gap:12px;cursor:pointer}
+.day b{display:block}.go{font-size:24px;color:var(--brand)}
+.ex{display:flex;gap:12px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}.ex:first-of-type{border-top:0}
+.ex img{width:52px;height:70px;object-fit:cover;border-radius:10px;flex:none;background:var(--line)}
+.ex div{min-width:0}.dose{color:var(--brand);font-weight:700;font-size:14px}
+/* player */
+.player video{width:100%;max-height:52vh;aspect-ratio:9/16;object-fit:cover;border-radius:18px;background:#000;display:block}
+.pbar{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin:10px 0}.pbar i{display:block;height:100%;background:var(--brand);width:0;transition:width .3s}
+.setline{font-size:15px;font-weight:700;margin-top:6px}
+.cue{margin:6px 0 0}.last{font-size:14px;color:var(--muted);margin-top:6px}
+.tip{font-size:14px;background:var(--mint);color:var(--mint-ink);border-radius:10px;padding:6px 10px;margin-top:8px}
+.inputs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.timer{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:72px;font-weight:800;text-align:center;font-variant-numeric:tabular-nums;line-height:1;margin:14px 0 4px}
+.restbox{background:var(--pink);border-radius:18px;padding:16px;text-align:center;margin-top:12px}
+.row2{display:flex;gap:8px}.row2 button{flex:1}
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px}
+.hist li{margin:4px 0}
+@media (prefers-reduced-motion:reduce){.pbar i{transition:none}}
+</style></head><body><div class="wrap">
+
+<!-- 1. Planul (o singură dată) -->
+<section id="v-setup" hidden>
+  <p class="k">Custom Program · Kristine Maia</p>
+  <h1>Let's build your plan</h1>
+  <p class="muted">Use the same answers as in your quiz. You can change them any time.</p>
+  <form id="f">
+    <fieldset><legend>Your name</legend><input type="text" id="nm" placeholder="Ana" autocomplete="given-name"></fieldset>
+    <fieldset><legend>Your goal</legend><div class="opts">
+      <label><input type="radio" name="goal" value="str" checked>Get stronger</label><label><input type="radio" name="goal" value="fat">Lose fat, tone up</label>
+      <label><input type="radio" name="goal" value="mob">Feel less stiff</label><label><input type="radio" name="goal" value="desk">Undo desk posture</label></div></fieldset>
+    <fieldset id="fs-focus"><legend>Focus</legend><div class="opts">
+      <label><input type="radio" name="focus" value="whole" checked>Whole body</label><label><input type="radio" name="focus" value="lower">Legs and glutes</label>
+      <label><input type="radio" name="focus" value="upper">Upper body</label><label><input type="radio" name="focus" value="core">Core</label></div></fieldset>
+    <fieldset><legend>Where</legend><div class="opts">
+      <label><input type="radio" name="place" value="gym" checked>Gym</label><label><input type="radio" name="place" value="home">Home</label><label><input type="radio" name="place" value="both">Both</label></div></fieldset>
+    <fieldset><legend>Days a week</legend><div class="opts">
+      <label><input type="radio" name="days" value="2">2</label><label><input type="radio" name="days" value="3" checked>3</label><label><input type="radio" name="days" value="4">4</label></div></fieldset>
+    <fieldset><legend>Time per session</legend><div class="opts">
+      <label><input type="radio" name="time" value="10">10 min</label><label><input type="radio" name="time" value="20">20 min</label><label><input type="radio" name="time" value="35" checked>30–40 min</label></div></fieldset>
+    <fieldset><legend>Level</legend><div class="opts">
+      <label><input type="radio" name="lvl" value="beg" checked>Beginner</label><label><input type="radio" name="lvl" value="mid">Intermediate</label><label><input type="radio" name="lvl" value="adv">Advanced</label></div></fieldset>
+    <fieldset><legend>Jumping</legend><div class="opts">
+      <label><input type="radio" name="jump" value="yes" checked>Jumping is fine</label><label><input type="radio" name="jump" value="no">No jumping (knees, pelvic floor)</label></div></fieldset>
+    <button type="submit">Build my plan</button>
+  </form>
+</section>
+
+<!-- 2. Acasă: zilele mele -->
+<section id="v-home" hidden>
+  <p class="k">Custom Program · Kristine Maia</p>
+  <h1 id="hi">Your plan</h1>
+  <div class="chips" id="chips"></div>
+  <h2 style="margin-top:22px">Your week</h2>
+  <div id="week"></div>
+  <h2 style="margin-top:26px">5-minute resets</h2>
+  <p class="muted small">Any day, at your desk or after a long session.</p>
+  <div id="resets"></div>
+  <h2 style="margin-top:26px">My weights</h2>
+  <div class="card" id="mine"></div>
+  <button class="ghost" id="chg" type="button">Change my plan</button>
+  <p class="muted small" style="margin-top:18px">Tip: Share → Add to Home Screen, and this page opens like an app. Your plan and weights stay on this phone. General exercise, not medical advice: stop if anything feels sharp.</p>
+</section>
+
+<!-- 3. Antrenamentul, pe scurt -->
+<section id="v-over" hidden>
+  <div class="top"><button class="small ghost" data-back type="button">← My plan</button><span class="muted small" id="o-time"></span></div>
+  <p class="k" id="o-k"></p><h1 id="o-t"></h1>
+  <p class="muted small" id="o-note"></p>
+  <div id="o-list"></div>
+  <button id="start" type="button">Start workout</button>
+</section>
+
+<!-- 4. Pas cu pas -->
+<section id="v-play" hidden class="player">
+  <div class="top"><button class="small ghost" id="quit" type="button">✕ Stop</button><span class="muted small" id="p-step"></span></div>
+  <video id="vid" muted loop playsinline autoplay preload="auto"></video>
+  <div class="pbar"><i id="pb"></i></div>
+  <p class="k" id="p-sec"></p>
+  <h2 id="p-name"></h2>
+  <div class="dose" id="p-dose"></div>
+  <div class="setline" id="p-set"></div>
+  <p class="cue" id="p-cue"></p>
+  <div class="last" id="p-last"></div>
+  <div class="tip" id="p-tip" hidden></div>
+  <div id="p-work" hidden><div class="timer" id="wt">0:30</div><div class="muted small" style="text-align:center" id="wside"></div></div>
+  <div class="inputs" id="p-in" hidden><input inputmode="decimal" id="kg" placeholder="kg" aria-label="Weight in kg"><input inputmode="numeric" id="reps" placeholder="reps" aria-label="Reps"></div>
+  <button id="act" type="button">Done</button>
+  <div class="restbox" id="rest" hidden><div class="k">Rest</div><div class="timer" id="rt">1:15</div><div class="muted small" id="rnext"></div>
+    <div class="row2"><button class="ghost" id="plus" type="button">+15 s</button><button id="skip" type="button">Next set</button></div></div>
+</section>
+
+<!-- 5. Gata -->
+<section id="v-done" hidden style="text-align:center">
+  <div style="font-size:64px;margin-top:30px">💪</div><h1 id="d-t">Workout done</h1>
+  <p class="muted" id="d-s"></p>
+  <button data-back type="button">Back to my plan</button>
+</section>
+
+<script>
+(function(){
+var W=__DATA__;
+var V='assets/program/';
+function $(s){return document.querySelector(s)}
+function get(k,d){try{var v=localStorage.getItem('kmp:'+k);return v?JSON.parse(v):d}catch(e){return d}}
+function put(k,v){try{localStorage.setItem('kmp:'+k,JSON.stringify(v))}catch(e){}}
+function show(id){['setup','home','over','play','done'].forEach(function(v){$('#v-'+v).hidden=(v!==id)});window.scrollTo(0,0)}
+var SPLIT={whole:{2:['Full body A','Full body B'],3:['Lower body and core','Upper body and back','Full body'],4:['Lower body','Upper body and back','Lower body','Upper body and core']},
+  lower:{2:['Legs and glutes','Full body'],3:['Legs and glutes','Upper body and back','Glutes and core'],4:['Legs','Upper body and back','Glutes and hamstrings','Upper body and core']},
+  upper:{2:['Upper body and back','Full body'],3:['Upper body and back','Lower body and core','Shoulders and posture'],4:['Upper body and back','Lower body','Shoulders and posture','Lower body and core']},
+  core:{2:['Full body + core finisher','Full body + core finisher'],3:['Lower body + core','Upper body and posture','Core and full body'],4:['Lower body + core','Upper body and posture','Lower body + core','Core and full body']}};
+var MAP={'Full body A':'Full body A','Full body B':'Full body B','Lower body and core':'Lower body and core','Upper body and back':'Upper body and back','Lower body':'Lower body',
+  'Legs':'Lower body','Legs and glutes':'Lower body','Glutes and core':'Lower body and core','Glutes and hamstrings':'Lower body and core','Lower body + core':'Lower body and core',
+  'Upper body and core':'Upper body and back','Shoulders and posture':'Shoulders and posture','Upper body and posture':'Shoulders and posture',
+  'Core and full body':'Core and full body','Full body + core finisher':'Core and full body'};
+function build(a){
+  var days=[],fb=0,place=function(i){return a.place==='both'?(i%2?'home':'gym'):a.place};
+  var w=function(base,i){return base+' ('+place(i)+')'};
+  if(a.time==='10'){for(var i=0;i<a.days;i++) days.push({l:'Express 10',w:'Express 10: '+place(i)});}
+  else if(a.goal==='mob'){for(var i=0;i<a.days;i++) days.push({l:'Unstiff',w:i%2?'Unstiff B: neck, shoulders and hips':'Unstiff A: full-body mobility'});}
+  else if(a.goal==='desk'){var dr=[['Upper back and core strength','Shoulders and posture'],['Unstiff: neck, shoulders and hips','Unstiff B: neck, shoulders and hips'],['Upper back, glutes and core','Core and full body'],['Unstiff: full body','Unstiff A: full-body mobility']];
+    for(var i=0;i<a.days;i++) days.push({l:dr[i][0],w:dr[i][1].indexOf('Unstiff')===0?dr[i][1]:w(dr[i][1],i)});}
+  else{var s=a.goal==='fat'?Math.max(2,a.days-1):a.days;
+    SPLIT[a.focus][s].forEach(function(l,i){var b=MAP[l];if(l==='Full body'){b=fb++%2?'Full body B':'Full body A'}days.push({l:l,w:w(b,i)})});
+    if(a.goal==='fat') days.push({l:'Cardio',w:a.jump==='no'?'Cardio: no-jump (home)':(place(days.length)==='gym'?'Cardio: gym machines':'Cardio: jump rope intervals')});}
+  return days;
+}
+var A=get('plan',null);
+function readForm(){var f=$('#f'),v=function(n){var e=f.querySelector('input[name="'+n+'"]:checked');return e?e.value:null};
+  return {name:$('#nm').value.trim(),goal:v('goal'),focus:v('focus'),place:v('place'),days:+v('days'),time:v('time'),lvl:v('lvl'),jump:v('jump')}}
+$('#f').addEventListener('change',function(){var g=$('#f').querySelector('input[name="goal"]:checked').value;$('#fs-focus').hidden=(g==='mob'||g==='desk')});
+$('#f').addEventListener('submit',function(e){e.preventDefault();A=readForm();put('plan',A);home()});
+$('#chg').addEventListener('click',function(){if(A){$('#nm').value=A.name||'';['goal','focus','place','days','time','lvl','jump'].forEach(function(n){var x=$('#f').querySelector('input[name="'+n+'"][value="'+A[n]+'"]');if(x)x.checked=true})}show('setup')});
+[].forEach.call(document.querySelectorAll('[data-back]'),function(b){b.addEventListener('click',home)});
+var LV={beg:'Beginner',mid:'Intermediate',adv:'Advanced'},GOAL={str:'Get Strong',fat:'Shape Up',mob:'Unstiff',desk:'Desk Reset'};
+function home(){
+  if(!A){show('setup');return}
+  $('#hi').textContent=(A.name?'Hi '+A.name+', ':'')+'your '+GOAL[A.goal]+' plan';
+  $('#chips').innerHTML='';[GOAL[A.goal],LV[A.lvl],{gym:'Gym',home:'Home',both:'Gym and home'}[A.place],A.days+' days a week',{10:'10 min',20:'20 min',35:'30–40 min'}[A.time]].forEach(function(t){var c=document.createElement('span');c.className='chip';c.textContent=t;$('#chips').appendChild(c)});
+  var wk=$('#week');wk.innerHTML='';var last=get('last',{});
+  build(A).forEach(function(d,i){var c=document.createElement('div');c.className='card day';c.tabIndex=0;c.setAttribute('role','button');
+    var when=last[d.w]?'Last done '+last[d.w]:'Not done yet';
+    c.innerHTML='<div><span class="k">Day '+(i+1)+' · '+d.l+'</span><b>'+d.w+'</b><span class="muted small">'+when+'</span></div><span class="go">›</span>';
+    c.addEventListener('click',function(){over(d.w,'Day '+(i+1))});c.addEventListener('keydown',function(e){if(e.key==='Enter')over(d.w,'Day '+(i+1))});wk.appendChild(c)});
+  var rs=$('#resets');rs.innerHTML='';Object.keys(W).filter(function(t){return W[t].kind==='reset'}).forEach(function(t){var c=document.createElement('div');c.className='card day';c.tabIndex=0;c.setAttribute('role','button');
+    c.innerHTML='<div><b>'+(function(n){return n.charAt(0).toUpperCase()+n.slice(1)})(t.replace('5-minute reset: ',''))+'</b><span class="muted small">5 minutes</span></div><span class="go">›</span>';c.addEventListener('click',function(){over(t,'Reset')});rs.appendChild(c)});
+  var L=get('log',{}),m=$('#mine'),keys=Object.keys(L);m.innerHTML='';
+  if(!keys.length){m.innerHTML='<p class="muted small" style="margin:0">Your weights show up here after your first workout: first time → latest.</p>'}
+  else{var ul=document.createElement('ul');ul.className='hist';ul.style.cssText='margin:0;padding-left:18px';keys.forEach(function(k){var h=L[k],f=h[0],l=h[h.length-1];var li=document.createElement('li');li.textContent=k+': '+f.kg+' kg → '+l.kg+' kg';ul.appendChild(li)});m.appendChild(ul)}
+  show('home');
+}
+var cur=null;
+function lvlSets(x,kind){if(kind!=='str'||x.sets<2)return x.sets;if(A&&A.lvl==='beg')return x.sets-1;if(A&&A.lvl==='adv'&&x.w)return x.sets+1;return x.sets}
+function over(t,lab){
+  cur=t;var w=W[t];$('#o-k').textContent=lab;$('#o-t').textContent=t;$('#o-note').textContent=w.note||'';
+  var L=$('#o-list');L.innerHTML='';var mins=0;
+  w.p.forEach(function(p){var c=document.createElement('div');c.className='card';c.innerHTML='<h3>'+p.s+'</h3>';
+    p.x.forEach(function(x){var s=lvlSets(x,w.kind),r=document.createElement('div');r.className='ex';
+      r.innerHTML='<img alt="" loading="lazy" src="'+V+x.id+'.jpg"><div><b>'+x.n+'</b><div class="dose">'+x.d+(s!==x.sets?' · you: '+s+' sets':'')+'</div></div>';c.appendChild(r);
+      mins+=s*((x.secs||40)*(x.side?2:1)+(p.s==='Workout'&&s>1?75:15))/60});L.appendChild(c)});
+  $('#o-time').textContent='About '+Math.max(5,Math.round(mins/5)*5)+' min';show('over');
+}
+// pașii: fiecare set al fiecărui exercițiu
+var steps=[],si=0,session={},t0=0,timer=null,wakel=null;
+$('#start').addEventListener('click',function(){
+  var w=W[cur];steps=[];w.p.forEach(function(p){p.x.forEach(function(x){var n=lvlSets(x,w.kind);for(var k=1;k<=n;k++)steps.push({p:p.s,x:x,k:k,n:n,rest:p.s==='Workout'&&n>1&&k<n})})});
+  si=0;session={};t0=Date.now();try{navigator.wakeLock&&navigator.wakeLock.request('screen').then(function(l){wakel=l}).catch(function(){})}catch(e){}
+  beep(0);step();show('play');
+});
+var AC=null;function beep(f){try{AC=AC||new (window.AudioContext||window.webkitAudioContext)();if(!f)return;var o=AC.createOscillator(),g=AC.createGain();o.frequency.value=f;o.connect(g);g.connect(AC.destination);g.gain.value=.15;o.start();o.stop(AC.currentTime+.18)}catch(e){}}
+function fmt(s){return Math.floor(s/60)+':'+('0'+s%60).slice(-2)}
+function stop(){if(timer){clearInterval(timer);timer=null}}
+function lastOf(name){var h=get('log',{})[name];return h&&h[h.length-1]}
+function step(){
+  stop();var s=steps[si],x=s.x;$('#rest').hidden=true;$('#act').hidden=false;
+  var v=$('#vid');if(v.dataset.id!==x.id){v.dataset.id=x.id;v.poster=V+x.id+'.jpg';v.src=V+x.id+'.mp4';try{v.play().catch(function(){})}catch(e){}}
+  $('#p-step').textContent='Step '+(si+1)+' of '+steps.length;$('#pb').style.width=(si/steps.length*100)+'%';
+  $('#p-sec').textContent=s.p;$('#p-name').textContent=x.n;$('#p-dose').textContent=x.d;$('#p-cue').textContent=x.c;
+  $('#p-set').textContent=s.n>1?'Set '+s.k+' of '+s.n:'';
+  var l=x.w&&lastOf(x.n);$('#p-last').textContent=l?'Last time: '+l.sets.map(function(z){return (z[0]||'–')+' kg × '+(z[1]||'–')}).join(' · '):'';
+  var up=l&&x.top&&l.sets.length&&l.sets.every(function(z){return +z[1]>=x.top});$('#p-tip').hidden=!up;$('#p-tip').textContent='You hit '+x.top+' reps on every set last time. Add 1–2 kg today.';
+  $('#p-in').hidden=!x.w;$('#kg').value=(session[x.n]&&session[x.n][s.k-2]&&session[x.n][s.k-2][0])||(l&&l.sets[0]&&l.sets[0][0])||'';$('#reps').value='';
+  var secs=x.secs;$('#p-work').hidden=!secs;
+  if(secs){var side=x.side?1:0;$('#wt').textContent=fmt(secs);$('#wside').textContent=x.side?'Side 1 of 2':'';$('#act').textContent='Start '+fmt(secs);
+    $('#act').onclick=function(){run(secs,function(){if(side===1){side=2;$('#wside').textContent='Side 2 of 2';$('#wt').textContent=fmt(secs);$('#act').textContent='Start side 2';$('#act').hidden=false;}else next()},$('#wt'));$('#act').hidden=true}}
+  else{$('#act').textContent=x.w?'Done · save set':'Done';$('#act').onclick=function(){if(x.w){(session[x.n]=session[x.n]||[]).push([$('#kg').value,$('#reps').value])}next()}}
+}
+function run(secs,end,el){var r=secs;el.textContent=fmt(r);stop();timer=setInterval(function(){r--;el.textContent=fmt(Math.max(r,0));if(r<=3&&r>0)beep(660);if(r<=0){stop();beep(990);end()}},1000)}
+function next(){
+  var s=steps[si];
+  if(s.rest){var r=(A&&A.lvl==='beg')?90:75;$('#act').hidden=true;$('#p-work').hidden=true;$('#p-in').hidden=true;$('#rest').hidden=false;$('#rnext').textContent='Next: set '+(s.k+1)+' of '+s.n;
+    var go=function(){si++;step()};$('#skip').onclick=go;var left=r;$('#rt').textContent=fmt(left);stop();
+    timer=setInterval(function(){left--;$('#rt').textContent=fmt(Math.max(left,0));if(left<=3&&left>0)beep(660);if(left<=0){stop();beep(990);go()}},1000);
+    $('#plus').onclick=function(){left+=15;$('#rt').textContent=fmt(left)};return}
+  si++;if(si<steps.length)step();else finish();
+}
+function finish(){
+  stop();var L=get('log',{});Object.keys(session).forEach(function(n){var sets=session[n].filter(function(z){return z[0]||z[1]});if(!sets.length)return;(L[n]=L[n]||[]).push({d:new Date().toISOString().slice(0,10),kg:sets[0][0]||'–',sets:sets})});
+  put('log',L);var la=get('last',{});la[cur]=new Date().toLocaleDateString();put('last',la);
+  var m=Math.round((Date.now()-t0)/60000);$('#d-t').textContent=W[cur].kind==='reset'?'Reset done':'Workout done';
+  $('#d-s').textContent=m+' minutes. '+(Object.keys(session).length?'Your weights are saved for next time.':'Nice work, see you next session.');
+  try{wakel&&wakel.release()}catch(e){}show('done');
+}
+$('#quit').addEventListener('click',function(){stop();try{wakel&&wakel.release()}catch(e){}over(cur,$('#o-k').textContent)});
+home();
+})();
+</script>
+</div></body></html>

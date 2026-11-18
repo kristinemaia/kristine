@@ -149,3 +149,14 @@ Questions? Comment under any post, I read them all.
 
 General fitness guidance, not medical advice. Stop if anything feels sharp.
 ```
+
+## 8. Programul pe site (18 nov): Payhip = plata și accesul, antrenamentul = pe site
+Antrenamentul se face pe **kristinemaia.com/my-program.html**: omul își alege planul o dată, apoi la fiecare antrenament vede pas cu pas videoul exercițiului, cum se face, seturile, **cronometrul** pentru pauze și pentru exercițiile pe timp, și își scrie kg și repetările (cu „Last time” și sugestia când să crească greutatea). Pagina e ascunsă (noindex), linkul îl primesc doar membrii.
+
+**Adaugi în postarea „Start here”, sus, primul rând:**
+```
+👉 Your program, step by step: kristinemaia.com/my-program.html
+Open it on your phone, build your plan once, then tap your day and press Start. Add it to your home screen so it opens like an app.
+```
+Postările cu antrenamente de pe Payhip (cele 27) rămân opționale, ca rezervă; programul principal e pe site.
+**De știut:** linkul poate fi trimis mai departe de un membru. La început e în regulă; când ai mulți membri, trecem pe o platformă cu cont și parolă.
