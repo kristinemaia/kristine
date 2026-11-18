@@ -44,9 +44,23 @@ Videourile ți le dau eu exportate, numite în ordine (ex. `GS-W1-A-gym.mp4`), c
 - [ ] **emailul de bun venit** (îl scriu eu): ce curs începe, linkul spre „Start here”, cum îmi scrie
 
 ## 4. Testul (înainte de vânzare)
-- [ ] **Coupons → Add coupon**: cod de **100%** (ex. `TESTER100`), limitat la 10 folosiri
-- [ ] îl folosești tu: cumperi abonamentul cu cuponul și treci prin tot drumul clientului (plată, email, parolă, cursuri) pe telefon
-- [ ] îl dai celor 5–10 testeri (16 nov)
+
+**Ce am testat eu, pe 18 nov (pe telefon, cu fișierele din zip):** quiz-ul, 36 de combinații de răspunsuri (toate dau un plan), 26 din cele 27 de antrenamente de la cap la coadă (videouri, cronometre, pauze, kg și repetări; al 27-lea, Full body B la sală, are aceleași exerciții, cu videourile verificate), salvarea planului după redeschidere, „Last time” la a doua oară, „My weights” și jurnalul. **Nicio eroare, niciun fișier lipsă.** Rămâne de testat de tine doar partea de Payhip (plata și contul).
+
+**Cum se loghează clienții:** prin **Payhip**. La cumpărare, clientul primește de la Payhip un email cu accesul și intră cu **emailul lui** (cu parolă sau cu un link de logare pe email; exact cum arată verifici la testul de mai jos). Așa intră în abonament, unde sunt postările și linkul spre programul de pe site. Pe site nu e nevoie de alt login: planul și greutățile se salvează pe telefonul lor.
+
+**Testul tău, pas cu pas (20 de minute, pe telefon):**
+- [ ] **Netlify:** urci zip-ul nou (are și înălțimea și greutatea în quiz) și deschizi `kristinemaia.com/my-program.html` pe telefon: îți faci planul, apeși o zi, Start
+- [ ] **Coupons → Add coupon** în Payhip: cod de **100%** (ex. `TESTER100`), pe produsul „Custom Program”, limitat la 10 folosiri
+- [ ] **Cumpărarea de probă:** abonamentul e nepublicat, deci întâi verifici în setările produsului dacă poate fi „ascuns” (cumpărabil doar din link, fără să apară în magazin). Dacă singura variantă e „Publish”, decizia e a ta: îl publici 15 minute, seara, cumperi cu `TESTER100` (0 $, nicio vânzare reală) și îl treci imediat înapoi pe nepublicat
+- [ ] într-o fereastră incognito, cu **alt email** decât cel de vânzătoare: deschizi pagina de vânzare, pui cuponul, plătești 0 $
+- [ ] verifici emailul de la Payhip: link de acces și setarea parolei
+- [ ] te loghezi ca o clientă: vezi postările „Start here” (videourile vorbite) și linkul spre program
+- [ ] apeși linkul spre `my-program.html`, faci un antrenament întreg
+- [ ] **Payhip → Members** (sau Customers): verifici că apare clienta de test, apoi îi **anulezi** abonamentul, ca să nu se reînnoiască
+- [ ] îmi trimiți capturi la ce ți s-a părut ciudat sau greu
+
+**Apoi:** cuponul îl dai celor 5–10 testeri (săptămâna 23–29 nov).
 
 ## 5. Legătura cu site-ul
 - [ ] copiezi linkul abonamentului (payhip.com/b/...) și mi-l trimiți
