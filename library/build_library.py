@@ -65,6 +65,8 @@ GROUPS = [
              "desc": "Primăria (30 nov și 1 dec sunt zile libere), plasturii, contabila, chiriașul, postările cât ești pe drum, zilele în Turcia și ce iei înapoi. Cu bife."},
             {"kind": "doc", "slug": "programari-noiembrie", "title": "Programările din noiembrie: Instagram, TikTok și ce mai filmăm", "src": "PROGRAMARI-NOIEMBRIE.md",
              "desc": "Tot noiembrie zi cu zi: cel puțin 5 reel-uri pe săptămână pe Instagram (cu cele 2 reel-uri VirtuMe), TikTok în fiecare zi, story-urile pentru lansarea Custom Program și lista de filmat. Bifezi pe telefon."},
+            {"kind": "doc", "slug": "reeluri-lansare", "title": "Reel-urile care promovează Custom Program", "src": "REELURI-LANSARE.md",
+             "desc": "4 reel-uri gata făcute din site (aplicația, quiz-ul, cronometrul, greutățile) cu descrieri, 6 de filmat de tine (de ce l-am făcut, train with me, beginner vs advanced, desk reset, testerii, lansarea) și zilele, până la răspunsul scris."},
             {"kind": "doc", "slug": "videouri-vorbite", "title": "Cele 4 videouri vorbite pentru Custom Program (scripturi)", "src": "VIDEOURI-VORBITE.md",
              "desc": "Bun venit, cum folosești programul, siguranța, cum îți filmezi forma: cum le filmezi și ce spui în fiecare, în engleză, cu bife."},
             {"kind": "doc", "slug": "payhip-ghid", "title": "Payhip, pas cu pas: pagina pentru Custom Program", "src": "PAYHIP-GHID.md",

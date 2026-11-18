@@ -46,6 +46,8 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | sâm 21 | 18:00 · **K · Raid night fuel**: varianta câștigătoare din testul de miercuri, „Share to followers” ✏️ | Raid night fuel, câștigătoarea ✏️ |
 | dum 22 | 18:00 · Overhead reach test 🎬 | Overhead reach test 🎬 |
 
+**Reel-urile pentru Custom Program (18 nov, gata făcute):** P3 trial reel vin 20, 20:00 · P2 în story sâm 21 · P4 trial reel mar 24, 20:00 · **P1 sâm 28, 18:00** (Instagram + TikTok, programate până mie 25) · P2 trial reel dum 29, 20:00 · R5 „Why I built this” filmat mie 25, iese mie 2 dec. Totul în Bibliotecă → Programări → „Reel-urile care promovează Custom Program”.
+
 **Dope Ropes, Black Friday (afiliat):** story **marți 24 nov** (ziua lansării, cu linkul tău) · reel cu coarda într-un antrenament **vineri 27 nov** (îl programezi înainte de drum) · story „last chance” **miercuri 2 dec**. Codul public e **DOPE25** (25%), dar distribui **linkul**; nu se anunță înainte de 24 nov.
 
 ### Săptămâna 23–29 nov
@@ -56,7 +58,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 | mie 25 | 17:00 · **VirtuMe #2** (AI + Paid partnership) ✏️ | VirtuMe #2 ✏️ |
 | joi 26 | 17:00 · K2 · Overnight tiramisu oats ✏️ | K2 ✏️ |
 | vin 27 | 17:00 · Things gamers do at the gym 🎬 | Things gamers do 🎬 |
-| sâm 28 | — | clip din stream ✂️ |
+| sâm 28 | 18:00 · **P1** · I built a training app (Custom Program) ✏️ | P1 ✏️ |
 | dum 29 | 18:00 · Hip test 90/90 🎬 | Hip test 🎬 |
 
 ### Luni 30 nov
