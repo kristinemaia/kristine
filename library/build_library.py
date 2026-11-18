@@ -48,6 +48,36 @@ _OV_LAB = [n for n in _OV if n not in _OV_MAIN]
 # kind: link | pdf | doc | img | site
 GROUPS = [
     {
+        "id": "postari", "name": "Postări gata: carusele și reel-uri", "folder": "Postari-gata",
+        "note": "Tot ce e gata de urcat, pe zile; descrierile sunt în „Toate descrierile”",
+        "zip": ("Postari-gata.zip", "postari"),
+        "items": [
+            {"kind": "img", "slug": "post-s1", "title": "Vin 20 nov · S1 Save this: full-body gym workout (7 slide-uri)",
+             "base": "brand/carousels-en/out", "keep": True, "images": ["EN-S1-save-this-workout-%d.png" % i for i in range(1, 8)],
+             "desc": "Carusel, 17:00. Prima poză singură, apoi antrenamentul pe 4 părți și îndemnul spre quiz."},
+            {"kind": "img", "slug": "post-s2", "title": "Dum 22 nov · S2 5 rules that keep me strong anyway (8 slide-uri)",
+             "base": "brand/carousels-en/out", "keep": True, "images": ["EN-S2-5-rules-%d.png" % i for i in range(1, 9)],
+             "desc": "Carusel, 12:00. Slide-ul 6 e video (mersul pe bandă): îl găsești mai jos, la reel-uri, „S2 slide 6”."},
+            {"kind": "img", "slug": "post-p2", "title": "Mar 24 nov · P2 Black Friday: tried-and-tested buys (4 slide-uri)",
+             "base": "brand/carousels-en/out", "keep": True, "images": ["EN-P2-black-friday-buys-%d.png" % i for i in range(1, 5)],
+             "desc": "Carusel, 12:00. Coarda, AirPods, căștile. „25% off” rămâne doar dacă e coarda Dope Rope."},
+            {"kind": "img", "slug": "post-n1", "title": "Joi 26 nov · N1 Glute day, în Notes (2 slide-uri)",
+             "base": "brand/carousels-en/out", "keep": True, "images": ["EN-N1-glute-day-%d.png" % i for i in range(1, 3)],
+             "desc": "Carusel, 12:00. Poza ta, apoi antrenamentul ca notiță din Notes."},
+            {"kind": "img", "slug": "post-d1", "title": "Dum 29 nov · D1 A Day On My Plate (5 slide-uri)",
+             "base": "brand/carousels-en/out", "keep": True, "images": ["EN-D1-day-on-my-plate-%d.png" % i for i in range(1, 6)],
+             "desc": "Carusel, 12:00. Ce mănânci într-o zi, cu cacaua Bewit (cod KRISTINE15)."},
+            {"kind": "video", "slug": "reels-promo", "title": "Reel-urile pentru Custom Program (P1–P4) și slide-ul video din S2",
+             "base": "studio/custom-program/out/promo",
+             "files": ["P1-am-facut-o-aplicatie.mp4", "P2-quiz-2-minute.mp4", "P3-pov-cronometru.mp4", "P4-greutati.mp4"],
+             "labels": ["P1 · aplicația (28 s)", "P2 · quiz-ul (15 s)", "P3 · cronometrul (13 s)", "P4 · greutățile (9 s)"],
+             "desc": "Fără muzică. P3 trial reel vin 20, 20:00 · P2 în story sâm 21 · P4 trial reel mar 24, 20:00 · P1 sâm 28, 18:00 · P2 trial reel dum 29, 20:00."},
+            {"kind": "video", "slug": "s2-slide6", "title": "S2 slide 6: mersul pe bandă (video)",
+             "base": "brand/carousels-en/out", "files": ["EN-S2-5-rules-6.mp4"], "labels": ["S2 slide 6 (8 s)"],
+             "desc": "Îl pui ca al 6-lea slide în caruselul S2, în locul pozei cu același număr."},
+        ],
+    },
+    {
         "id": "programari", "name": "Programări noiembrie", "folder": "Programari-noiembrie", "note": "Instagram, TikTok, story-uri și ce mai filmăm",
         "zip": ("Programari-noiembrie.zip", "programari"),
         "items": [
@@ -257,9 +287,9 @@ GROUPS = [
     },
 ]
 
-KIND_LABEL = {"link": "LINK", "pdf": "PDF", "doc": "DOC", "img": "IMG", "site": "SITE"}
+KIND_LABEL = {"link": "LINK", "pdf": "PDF", "doc": "DOC", "img": "IMG", "site": "SITE", "video": "VIDEO"}
 KIND_FILTER = [("all", "Toate"), ("pdf", "PDF"), ("doc", "Documente"), ("img", "Imagini"), ("site", "Site și linkuri")]
-FILTER_OF = {"pdf": "pdf", "doc": "doc", "img": "img", "site": "site", "link": "site"}
+FILTER_OF = {"pdf": "pdf", "doc": "doc", "img": "img", "site": "site", "link": "site", "video": "img"}
 
 # ----------------------------------------------------------------------
 # Utilitare
@@ -416,7 +446,7 @@ ul.list{list-style:none;margin:0;padding:0}
 .tag{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.05em;padding:3px 0;border-radius:6px;min-width:48px;text-align:center;align-self:start;margin-top:3px}
 .tag-pdf{background:var(--pdf-soft);color:var(--pdf)}
 .tag-doc{background:var(--doc-soft);color:var(--doc)}
-.tag-img{background:var(--img-soft);color:var(--img)}
+.tag-img,.tag-video{background:var(--img-soft);color:var(--img)}
 .tag-site,.tag-link{background:var(--site-soft);color:var(--site)}
 .txt{min-width:0}
 .t{font-weight:600;font-size:16.5px;text-decoration:none;color:var(--fg);overflow-wrap:anywhere}
@@ -676,13 +706,15 @@ JS = r"""
     var box = document.createElement('div'); box.className = 'pages';
     pages.forEach(function(p, i){
       var fig = document.createElement('figure');
-      var img = new Image(); img.src = p; img.alt = li.dataset.title + ', ' + (i + 1) + ' din ' + pages.length;
+      var isVid = /\.mp4$/i.test(p), img;
+      if (isVid) { img = document.createElement('video'); img.controls = true; img.playsInline = true; img.preload = 'metadata'; img.src = p; img.style.width = '100%'; img.style.borderRadius = '8px'; }
+      else { img = new Image(); img.src = p; img.alt = li.dataset.title + ', ' + (i + 1) + ' din ' + pages.length; }
       fig.appendChild(img);
       var cap = document.createElement('figcaption');
-      var s = document.createElement('span'); s.textContent = (isPdf ? 'Pagina ' : 'Imaginea ') + (i + 1) + ' din ' + pages.length;
+      var s = document.createElement('span'); s.textContent = isVid ? (names[i] || ('Videoul ' + (i + 1))) : ((isPdf ? 'Pagina ' : 'Imaginea ') + (i + 1) + ' din ' + pages.length);
       cap.appendChild(s);
       if (!isPdf) {
-        var b = document.createElement('button'); b.type = 'button'; b.className = 'b'; b.textContent = 'Salvează imaginea';
+        var b = document.createElement('button'); b.type = 'button'; b.className = 'b'; b.textContent = isVid ? 'Salvează videoul' : 'Salvează imaginea';
         b.dataset.act = 'save'; b.dataset.file = p; b.dataset.name = names[i] || ('imagine-' + (i + 1) + '.jpg');
         cap.appendChild(b);
       }
@@ -719,7 +751,7 @@ JS = r"""
       var k = item.dataset.open;
       if (k === 'doc') { e.preventDefault(); loadDoc(item); }
       else if (k === 'pdf') { e.preventDefault(); loadPages(item, true); }
-      else if (k === 'img') { e.preventDefault(); loadPages(item, false); }
+      else if (k === 'img' || k === 'video') { e.preventDefault(); loadPages(item, false); }
       /* link și site: se deschid normal, în filă nouă */
     }
   });
@@ -845,6 +877,23 @@ def build_images(item):
     return True
 
 
+def build_videos(item):
+    """Videouri (mp4) copiate așa cum sunt; fiecare are butonul lui, se deschide în filă nouă."""
+    base = os.path.join(REPO, item["base"])
+    out = []
+    for name in item["files"]:
+        p = os.path.join(base, name)
+        if not os.path.exists(p):
+            warnings.append("lipsește: %s (sărit)" % name)
+            return False
+        shutil.copyfile(p, os.path.join(ensure("vid"), name))
+        out.append("vid/" + name)
+    item.update({"pages": out, "labels": item.get("labels") or [n.rsplit(".", 1)[0] for n in item["files"]],
+                 "date": date_of(os.path.join(base, item["files"][0])),
+                 "size": sum(os.path.getsize(os.path.join(DIST, o)) for o in out)})
+    return True
+
+
 def build_site():
     srcdir = os.path.join(REPO, "website")
     dst = ensure("site")
@@ -870,7 +919,7 @@ def zip_entries(groups):
                 ents.append((g.get("folder", g["name"]) + "/" + it["name"], it["file"]))
             elif it["kind"] == "doc":
                 ents.append((g.get("folder", g["name"]) + "/" + it["srcname"], it["srcfile"]))
-            elif it["kind"] == "img":
+            elif it["kind"] in ("img", "video"):
                 for pth in it["pages"]:
                     ents.append((g.get("folder", g["name"]) + "/" + os.path.basename(pth), pth))
             elif it["kind"] == "site":
@@ -912,6 +961,11 @@ def item_html(it, gname):
         href = it["href"]
         acts = ['<a class="b b-main" data-act="open" href="%s">Vezi</a>' % href]
         meta = ["%d imagini" % len(it["pages"]), fmt_size(it["size"]), it["date"]]
+    elif kind == "video":
+        attrs += ['data-pages="%s"' % "|".join(it["pages"]), 'data-imgnames="%s"' % "|".join(os.path.basename(x) for x in it["pages"])]
+        href = it["pages"][0]
+        acts = ['<a class="b b-main" data-act="open" href="%s">Vezi</a>' % href]
+        meta = ["%d %s" % (len(it["pages"]), "video" if len(it["pages"]) == 1 else "videouri"), fmt_size(it["size"]), it["date"]]
     elif kind == "site":
         href = it["href"]
         acts = ['<a class="b b-main" href="%s" target="_blank" rel="noopener">Deschide</a>' % href]
@@ -920,7 +974,7 @@ def item_html(it, gname):
         href = it["url"]
         acts = ['<a class="b b-main" href="%s" target="_blank" rel="noopener">Deschide</a>' % href]
         meta = ["Se deschide în filă nouă"]
-    open_attr = ' data-act="open"' if kind in ("doc", "pdf", "img") else ' target="_blank" rel="noopener"'
+    open_attr = ' data-act="open"' if kind in ("doc", "pdf", "img", "video") else ' target="_blank" rel="noopener"'
     return (
         "<li %s><span class=\"tag tag-%s\">%s</span><div class=\"txt\"><a class=\"t\" href=\"%s\"%s>%s</a>"
         "<p class=\"d\">%s</p><p class=\"m\">%s</p></div><div class=\"acts\">%s</div></li>"
@@ -961,6 +1015,8 @@ def main():
                 ok = build_pdf(it)
             elif it["kind"] == "img":
                 ok = build_images(it)
+            elif it["kind"] == "video":
+                ok = build_videos(it)
             if ok:
                 keep.append(it)
         g["items"] = keep
