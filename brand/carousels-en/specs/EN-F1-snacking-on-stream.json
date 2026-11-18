@@ -1,29 +1,65 @@
-{"out": "EN-F1-snacking-on-stream",
- "cover": {"photo": "src/mirror-black-2.jpg", "focus": 0.3, "y": 0.13,
-           "text": "For the gamers who are constantly thinking about their next snack, here's how to fix it ➡️"},
+{
+ "out": "EN-F1-snacking-on-stream",
+ "cover": {
+  "photo": "src/mirror-black-2.jpg",
+  "focus": 0.3,
+  "y": 0.13,
+  "text": "For the gamers who are constantly thinking about their next snack, here's how to fix it ➡️"
+ },
  "slides": [
-  {"photo": "src/food-lunch-potatoes-meatballs.jpg", "focus": 0.6, "y": 0.06, "paras": [
+  {
+   "photo": "src/food-waffles-blueberries.jpg",
+   "focus": 0.5,
+   "y": 0.06,
+   "paras": [
     "Your meals are lacking protein.",
     "If your lunch is basically carbs and a prayer, don't be surprised when you're raiding the snack drawer two matches later.",
     "Protein keeps you fuller for longer and helps you hold on to muscle, especially when you sit most of the day.",
-    "Put a protein at every meal: eggs, Greek yogurt, chicken, fish, meatballs. My lunch is meal-prepped for 4 days so I can't \"forget\"."]},
-  {"photo": "src/food-oats-banana.jpg", "focus": 0.55, "y": 0.06, "paras": [
+    "Put a protein at every meal: eggs, Greek yogurt, chicken, fish, meatballs. My lunch is meal-prepped for 4 days so I can't \"forget\"."
+   ]
+  },
+  {
+   "photo": "src/food-choc-bowl-blueberries.jpg",
+   "focus": 0.6,
+   "y": 0.06,
+   "paras": [
     "You're skipping meals while you game.",
     "One more match turns into 3 hours, you never had lunch, and at midnight you eat the whole drawer. 😅 We've all been there.",
-    "Eat a real meal BEFORE you go live. Then your stream snack is a choice, not an emergency."]},
-  {"photo": "src/food-pancakes-yogurt.jpg", "focus": 0.6, "y": 0.06, "paras": [
+    "Eat a real meal BEFORE you go live. Then your stream snack is a choice, not an emergency."
+   ]
+  },
+  {
+   "photo": "src/food-mini-pancakes-banana.jpg",
+   "focus": 0.5,
+   "y": 0.06,
+   "paras": [
     "Your snacks have no protein or fibre.",
     "Crisps and sweets are gone in 2 minutes and you're hungry again in 20.",
     "Swap them for things that actually fill you up: Greek yogurt with walnuts, dates with almonds, a protein bar, fruit.",
-    "Same snack break, way fewer trips to the kitchen."]},
-  {"photo": "src/desk-headset-side.jpg", "focus": 0.3, "y": 0.6, "paras": [
+    "Same snack break, way fewer trips to the kitchen."
+   ]
+  },
+  {
+   "photo": "src/desk-headset-side.jpg",
+   "focus": 0.3,
+   "y": 0.6,
+   "paras": [
     "Some foods are literally designed to make you want MORE.",
     "Ever opened a bag of crisps \"just for this match\" and finished it before the round ended? 😂",
     "Ultra-processed snacks mix salt, sugar and fat in a way that makes you crave more, even when you're not really hungry.",
-    "It's not always a willpower problem! 💗"]},
-  {"photo": "src/cacao.jpg", "focus": 0.5, "y": 0.05, "paras": [
+    "It's not always a willpower problem! 💗"
+   ]
+  },
+  {
+   "photo": "src/cacao.jpg",
+   "focus": 0.5,
+   "y": 0.05,
+   "paras": [
     "You're bored, not hungry.",
     "Between matches your hand goes to the snack bag on autopilot.",
     "Get up, drink a glass of water and do a 2-minute stretch every 90 minutes. Your back will thank you too.",
-    "At night I swapped the midnight snack for a warm cacao (Bewit, code KRISTINE15). It's my \"stream is over\" signal ☕"]}
- ]}
+    "At night I swapped the midnight snack for a warm cacao (Bewit, code KRISTINE15). It's my \"stream is over\" signal ☕"
+   ]
+  }
+ ]
+}

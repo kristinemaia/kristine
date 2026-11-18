@@ -816,15 +816,13 @@ My only rule: protein at every meal. Want the meal prep recipe? Comment PREP �
 ```
 
 ### P2 · Mar 24 nov, 12:00 · „My tried-and-tested gym & gamer girl buys” (Black Friday)
-_Înainte de postare îmi spui: (1) coarda roz e Dope Rope? Dacă **nu**, scot „25% off” de pe slide-ul 2; (2) marca headset-ului, a ochelarilor și a setului negru, dacă vrei să apară. Dope Rope e doar afiliere: fără „Paid partnership”, fără #ad și fără „I earn a small commission”; la final `#affiliate`, iar linkul în story, cu sticker._
+_Înainte de postare îmi spui: (1) coarda roz e Dope Rope? Dacă **nu**, scot „25% off” de pe slide-ul 2; (2) marca headset-ului, dacă vrei să apară. Ochelarii și setul de sală au ieșit din carusel (18 nov), ca să nu repetăm poze; intră la loc dacă trimiți poze noi cu ei. Dope Rope e doar afiliere: fără „Paid partnership”, fără #ad și fără „I earn a small commission”; la final `#affiliate`, iar linkul în story, cu sticker._
 ```
 My tried-and-tested gym & gamer girl buys, Black Friday edition 🖤
 
 1. My jump rope: 25% off right now, link in my story
 2. My AirPods: they live in my gym bag
 3. My white headset: comfy for 6-hour streams
-4. Blue-light glasses: screens all day, gym all evening
-5. My black gym set: squat-proof, gym to desk chair
 
 What's on your Black Friday list? 👇
 
