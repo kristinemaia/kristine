@@ -1,0 +1,8 @@
+{"out": "EN-P1-what-i-eat",
+ "slides": [
+  {"photo": "src/desk-headset-smile.jpg", "text": "What I eat in a day as a gamer girl who lifts 🎮🏋️‍♀️\nI sit 9 hours a day, so food has to keep me full and strong", "y": 0.74, "focus": 0.3},
+  {"photo": "src/food-oats-banana.jpg", "text": "Breakfast 🍌\nOats soaked in yogurt with banana, walnuts and a spoon of peanut butter. Black tea on the side, always ☕", "y": 0.06, "focus": 0.55},
+  {"photo": "src/food-pancakes-yogurt.jpg", "text": "After the gym 🥞\nCocoa pancakes with Greek yogurt, walnuts, a little honey and cinnamon. Tastes like dessert, keeps me full till lunch", "y": 0.06, "focus": 0.6},
+  {"photo": "src/food-lunch-potatoes-meatballs.jpg", "text": "Lunch, meal-prepped 🥔\nRoasted potatoes, broccoli and carrots with homemade meatballs. I cook once and eat it for 4 days", "y": 0.06, "focus": 0.6},
+  {"photo": "src/desk-headset-side.jpg", "text": "Then stream time 🎧\nMy only rule: protein at every meal, so I'm not raiding the snack drawer at midnight 😅", "y": 0.76, "focus": 0.3}
+ ]}

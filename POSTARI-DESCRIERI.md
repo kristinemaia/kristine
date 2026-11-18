@@ -774,3 +774,58 @@ Comment YES and I'll film it 👇
 #mealprep #lunchprep #mealprepideas #easylunch #highprotein
 ```
 **Comentariul fixat:** „Full-day meal prep: should I do it for a gym day or a stream day? 🎮💪”
+
+---
+
+## Caruselele din pozele de pe 18 nov (S2, P1, P2)
+
+Fișierele: `brand/carousels-en/EN-S2-5-rules.zip`, `EN-P1-what-i-eat.zip`, `EN-P2-black-friday-buys.zip` (ți le-am trimis în chat). Pe Instagram, la carusel alegi pozele în ordine (1, 2, 3…); la S2, slide-ul 6 e **videoul** `EN-S2-5-rules-6.mp4` (mersul pe bandă), nu poza cu același număr. Muzica o pui din aplicație.
+
+### S2 · Dum 22 nov, 12:00 · „5 rules that keep me strong anyway” (stilul S1: poza singură, apoi text)
+```
+I sit 9 hours a day (gaming, editing, streaming), and these 5 rules keep me strong anyway 🖤
+
+1. 3 workouts a week, not 6
+2. A 5-minute warm-up, every time
+3. I write down every set
+4. I walk after I lift
+5. Protein at every meal
+
+Which one do you already do? Tell me in the comments 👇
+Save this for your next desk day 🔖
+
+My Custom Program turns these into a plan for your body. Opening soon: take the 2-min quiz, link in bio 💗
+
+#deskjob #gamergirl #gymgirl #workoutplan #strengthtraining
+```
+
+### P1 · Dum 29 nov, 12:00 · „What I eat in a day as a gamer girl who lifts” (formatul „Tried and tested”)
+_Programat până pe 25 nov (ești pe drum). Verifică ingredientele: am scris „oats soaked in yogurt” și „cocoa pancakes”; dacă erau altfel (lapte, proteină în clătite), îmi spui și le schimb în 2 minute._
+```
+What I eat in a day when I sit 9 hours and still lift 4x a week 🎮🏋️‍♀️
+
+🍌 Breakfast: oats, yogurt, banana, walnuts, peanut butter + black tea
+🥞 After the gym: cocoa pancakes, Greek yogurt, walnuts, honey, cinnamon
+🥔 Lunch: meal-prepped potatoes, broccoli, carrots and homemade meatballs
+🎧 Then stream time
+
+My only rule: protein at every meal. Want the meal prep recipe? Comment PREP 👇
+
+#whatieatinaday #mealprep #gamergirl #highprotein #gymgirl
+```
+
+### P2 · Mar 24 nov, 12:00 · „My tried-and-tested gym & gamer girl buys” (Black Friday)
+_Înainte de postare îmi spui: (1) coarda roz e Dope Rope? Dacă **nu**, scot „25% off” de pe slide-ul 2; (2) marca headset-ului, a ochelarilor și a setului negru, dacă vrei să apară. Fără „I earn a small commission”; la Dope Rope pui eticheta Paid partnership / #ad și linkul în story, cu sticker._
+```
+My tried-and-tested gym & gamer girl buys, Black Friday edition 🖤
+
+1. My jump rope: 25% off right now, link in my story #ad
+2. My AirPods: they live in my gym bag
+3. My white headset: comfy for 6-hour streams
+4. Blue-light glasses: screens all day, gym all evening
+5. My black gym set: squat-proof, gym to desk chair
+
+What's on your Black Friday list? 👇
+
+#blackfriday #gymessentials #gamergirl #gymgirl #setup
+```
