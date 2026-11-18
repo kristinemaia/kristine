@@ -60,3 +60,10 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 **Cum îl faci:** (a) scrii lista în Notes pe telefon și faci screenshot (cel mai autentic), sau (b) îmi dai lista și o fac eu: `python3 brand/carousels-en/build_notes.py brand/carousels-en/specs/<nume>.json`. Fără date despre sală sau oraș în poză.
 **Ritmul:** o dată pe săptămână, joia. Exercițiile vin din Custom Program, ca oamenii să vadă cum arată o zi din el.
 **Ediții:** N1 Glutes (26 nov) · N2 Back & posture (desk hunch) · N3 Home, 20 min, only dumbbells · N4 Upper body for desk people · N5 5-minute desk reset (vineri, după stream) · N6 Leg day for beginners.
+
+## 6. „A Day On My Plate” (modelul Caroline O'Mahony, 18 nov)
+**Ce e:** ce mănânci într-o zi, carusel de 6–9 slide-uri. **1:** selfie la oglindă + titlul mare, îngust, alb cu contur închis („A Day On My Plate”) și un subtitlu piersică cu regula ta. **Apoi:** câte o masă pe slide, cu un singur rând mic, cu litere mici, pe poză („oats with banana, walnuts and peanut butter + black tea”). La mijloc poate intra un produs cu cod (cacaua Bewit, Revo), scris la fel de simplu; în descriere scrii codul și pui `#affiliate` la hashtag-uri (fără „ad”, cât timp e doar afiliere; „Paid partnership” doar la colaborările plătite).
+**De ce merge:** e liniștit și real, fără calorii pe ecran; oamenii îl salvează pentru idei de mese.
+**Pozele:** mâncarea de sus, pe masă, în lumina de dimineață, cu ceaiul sau cana în fundal; lasă loc liber pe o parte, pentru rând.
+**Șablonul:** `python3 brand/carousels-en/build_plate.py brand/carousels-en/specs/<nume>.json` (fontul Barlow Condensed).
+**Ediții:** D1 (29 nov) · „A day on my plate: stream day” · „A day on my plate: travel day” (din drumul în România) · „A day on my plate: rest day”.

@@ -799,7 +799,8 @@ My Custom Program turns these into a plan for your body. Opening soon: take the 
 #deskjob #gamergirl #gymgirl #workoutplan #strengthtraining
 ```
 
-### P1 · Dum 29 nov, 12:00 · „What I eat in a day as a gamer girl who lifts” (formatul „Tried and tested”)
+### P1 · (rezervă) „What I eat in a day as a gamer girl who lifts” (formatul „Tried and tested”, text galben)
+_Pe 29 nov iese **D1 · A Day On My Plate** (mai jos), cu aceleași poze. P1 rămâne de rezervă._
 _Programat până pe 25 nov (ești pe drum). Verifică ingredientele: am scris „oats soaked in yogurt” și „cocoa pancakes”; dacă erau altfel (lapte, proteină în clătite), îmi spui și le schimb în 2 minute._
 ```
 What I eat in a day when I sit 9 hours and still lift 4x a week 🎮🏋️‍♀️
@@ -815,11 +816,11 @@ My only rule: protein at every meal. Want the meal prep recipe? Comment PREP �
 ```
 
 ### P2 · Mar 24 nov, 12:00 · „My tried-and-tested gym & gamer girl buys” (Black Friday)
-_Înainte de postare îmi spui: (1) coarda roz e Dope Rope? Dacă **nu**, scot „25% off” de pe slide-ul 2; (2) marca headset-ului, a ochelarilor și a setului negru, dacă vrei să apară. Fără „I earn a small commission”; la Dope Rope pui eticheta Paid partnership / #ad și linkul în story, cu sticker._
+_Înainte de postare îmi spui: (1) coarda roz e Dope Rope? Dacă **nu**, scot „25% off” de pe slide-ul 2; (2) marca headset-ului, a ochelarilor și a setului negru, dacă vrei să apară. Dope Rope e doar afiliere: fără „Paid partnership”, fără #ad și fără „I earn a small commission”; la final `#affiliate`, iar linkul în story, cu sticker._
 ```
 My tried-and-tested gym & gamer girl buys, Black Friday edition 🖤
 
-1. My jump rope: 25% off right now, link in my story #ad
+1. My jump rope: 25% off right now, link in my story
 2. My AirPods: they live in my gym bag
 3. My white headset: comfy for 6-hour streams
 4. Blue-light glasses: screens all day, gym all evening
@@ -827,7 +828,7 @@ My tried-and-tested gym & gamer girl buys, Black Friday edition 🖤
 
 What's on your Black Friday list? 👇
 
-#blackfriday #gymessentials #gamergirl #gymgirl #setup
+#blackfriday #gymessentials #gamergirl #gymgirl #setup #affiliate
 ```
 
 ### N1 · Joi 26 nov, 12:00 · „Poza + Notes”: Glute day (programat până pe 25 nov)
@@ -842,4 +843,20 @@ Save it for your next leg day and tell me how it went 👇
 Want a plan like this built for your body? My Custom Program is opening soon: 2-min quiz, link in bio 💗
 
 #gluteworkout #legday #gymgirl #workoutplan #gymtips
+```
+
+### D1 · Dum 29 nov, 12:00 · „A Day On My Plate” (modelul Caroline; programat până pe 25 nov)
+Slide-urile: tu la oglindă cu titlul → ovăzul → clătitele → prânzul → cacaua Bewit → tu la birou. Muzică liniștită din aplicație.
+```
+A day on my plate as a gamer who lifts 🎮🍽️
+
+No crazy restriction, just protein at every meal and food I actually like:
+🍌 oats with banana, walnuts and peanut butter + black tea
+🥞 post-gym cocoa pancakes with Greek yogurt, walnuts and honey
+🥔 meal-prepped lunch: roasted potatoes, broccoli and homemade meatballs
+☕ evening cacao instead of a 3rd coffee: Bewit, code KRISTINE15 for 15% off (link in bio)
+
+Which meal would you steal? 👇
+
+#dayonmyplate #whatieatinaday #highprotein #mealprep #gamergirl #affiliate
 ```
