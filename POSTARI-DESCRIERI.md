@@ -860,3 +860,23 @@ Which meal would you steal? 👇
 
 #dayonmyplate #whatieatinaday #highprotein #mealprep #gamergirl #affiliate
 ```
+
+### F1 · Lun 30 nov, 12:00 · „For the gamers who are constantly thinking about their next snack” (formatul „Here's how to fix it”; programat până pe 25 nov)
+```
+Reminder that constantly thinking about your next snack on stream isn't a willpower problem 💗
+
+Usually it's one of these:
+1. your meals are lacking protein
+2. you skipped a meal because "one more match"
+3. your snacks have no protein or fibre
+4. some foods are made to keep you eating
+5. you're bored, not hungry
+
+Which one is you? Be honest 😅👇
+Send this to your duo partner.
+
+My evening cacao: Bewit, code KRISTINE15 for 15% off (link in bio).
+General education, not medical or diet advice.
+
+#gamergirl #snacking #highprotein #healthyhabits #deskjob #affiliate
+```
