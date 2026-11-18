@@ -62,6 +62,8 @@ Până acum: 23–26 sept, 4–15 oct și de pe 29 oct încoace.
 
 ## Ce iei înapoi în Turcia
 - [ ] plasturii (pentru mai multe luni) și rețeta
+- [ ] **absorbante** (și interne, dacă folosești), pentru câteva luni
+- [ ] **esență de rom** și **esență de vanilie** (fiolele de la Dr. Oetker), pentru prăjituri; în bagajul de cală, bine închise
 - [ ] microfonul lui Cem, dacă l-a comandat
 - [ ] actele de la primărie (copia cu număr de înregistrare)
 - [ ] haine de iarnă
