@@ -880,3 +880,23 @@ General education, not medical or diet advice.
 
 #gamergirl #snacking #highprotein #healthyhabits #deskjob #affiliate
 ```
+
+### D2 · Joi 3 dec, 12:00 · „How I Stay In Shape As A Streamer” (stilul „A Day On My Plate”, cu PDF-ul gratuit)
+9 slide-uri: tu la sală cu titlul → biroul → sala → coarda → banda → prânzul → micul dejun → **PDF-ul „The 5-minute desk stretch”** → tu la birou, cu quiz-ul. Dacă îmi trimiți pozele noi (vezi mai jos), schimb slide-urile până pe 2 dec.
+**La comentariile „STRETCH”:** răspunzi în DM cu linkul PDF-ului gratuit: `payhip.com/b/myR5B` (e și pe site, la Training → „Start today: free 5-minute desk stretch”).
+```
+How I stay in shape as a streamer 🎮🏋️‍♀️
+
+8+ hours at a desk most days, so this is my system:
+• 3 strength workouts a week (not 6)
+• 5-minute warm-up before every session
+• 10-minute incline walk after lifting
+• protein at every meal, meal-prepped for 4 days
+• a 5-minute desk stretch between matches
+
+Want my free 5-minute desk stretch? Comment STRETCH and I'll send it to you 🩷
+Want a full plan built for your body? 2-min quiz, link in bio.
+
+#streamerlife #gamergirl #deskjob #gymgirl #fitnessroutine
+```
+**Poze care l-ar face și mai bun** (opțional): (1) tu la birou, în setup-ul de stream, făcând o întindere (răsucirea pe scaun sau gâtul); (2) PDF-ul deschis pe telefon sau pe tabletă, în mâna ta, la birou (înlocuiește slide-ul cu PDF-ul pus de mine); (3) tot setup-ul de stream, din spate sau din lateral, cu luminile aprinse; (4) sticla de apă sau gustarea lângă tastatură.

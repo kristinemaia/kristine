@@ -66,7 +66,7 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 **De ce merge:** e liniștit și real, fără calorii pe ecran; oamenii îl salvează pentru idei de mese.
 **Pozele:** mâncarea de sus, pe masă, în lumina de dimineață, cu ceaiul sau cana în fundal; lasă loc liber pe o parte, pentru rând.
 **Șablonul:** `python3 brand/carousels-en/build_plate.py brand/carousels-en/specs/<nume>.json` (fontul Barlow Condensed).
-**Ediții:** D1 (29 nov) · „A day on my plate: stream day” · „A day on my plate: travel day” (din drumul în România) · „A day on my plate: rest day”.
+**Ediții:** D1 (29 nov) · **D2 „How I Stay In Shape As A Streamer”** (3 dec; aceeași formă, cu sala, mâncarea și PDF-ul gratuit pe un slide, „comment STRETCH”) · „A day on my plate: stream day” · „A day on my plate: travel day” (din drumul în România) · „A day on my plate: rest day”.
 
 ## 7. „Here's how to fix it” (modelul Caroline O'Mahony, 18 nov)
 **Ce e:** carusel educativ de 5–7 slide-uri, cu textul din Instagram „cu fundal” (cutiuțe rotunjite pe fiecare rând). **1:** tu (selfie la oglindă) + o cutie **albă** cu întrebarea: „For the gamers who …, here's how to fix it ➡️”. **Apoi:** câte un motiv pe slide, în cutii **negre**: titlul scurt („You're bored, not hungry.”), apoi 2–3 paragrafe scurte, cu o glumă și un exemplu din viața ta.
