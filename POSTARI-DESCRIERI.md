@@ -829,3 +829,17 @@ What's on your Black Friday list? 👇
 
 #blackfriday #gymessentials #gamergirl #gymgirl #setup
 ```
+
+### N1 · Joi 26 nov, 12:00 · „Poza + Notes”: Glute day (programat până pe 25 nov)
+Slide 1: poza din profil de la sală (`EN-N1-glute-day-1.png`). Slide 2: notița cu antrenamentul (`EN-N1-glute-day-2.png`). Muzică din aplicație.
+```
+Swipe for today's glute workout 🍑
+
+Hip thrusts first, while you're fresh. Then RDLs, split squats, leg press and the abduction machine to finish them off. I end with a 10-minute incline walk, my favourite way to cool down after sitting all day.
+
+Save it for your next leg day and tell me how it went 👇
+
+Want a plan like this built for your body? My Custom Program is opening soon: 2-min quiz, link in bio 💗
+
+#gluteworkout #legday #gymgirl #workoutplan #gymtips
+```

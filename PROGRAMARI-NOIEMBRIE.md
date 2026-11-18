@@ -48,7 +48,7 @@ _3 noiembrie 2026. Tot noiembrie, zi cu zi. Bifezi când ai programat. Orele sun
 
 **Reel-urile pentru Custom Program (18 nov, gata făcute):** P3 trial reel vin 20, 20:00 · P2 în story sâm 21 · P4 trial reel mar 24, 20:00 · **P1 sâm 28, 18:00** (Instagram + TikTok, programate până mie 25) · P2 trial reel dum 29, 20:00 · R5 „Why I built this” filmat mie 25, iese mie 2 dec. Totul în Bibliotecă → Programări → „Reel-urile care promovează Custom Program”.
 
-**Caruselele din pozele de pe 18 nov** (descrierile: Bibliotecă → „Toate descrierile”, la final): **S2 · 5 rules** dum 22, 12:00 · **P2 · Black Friday buys** mar 24, 12:00 (după ce confirmi coarda și mărcile) · **P1 · What I eat in a day** dum 29, 12:00 (programat până pe 25). Pe TikTok, ca postări foto, la aceleași date, 13:00.
+**Caruselele din pozele de pe 18 nov** (descrierile: Bibliotecă → „Toate descrierile”, la final): **S2 · 5 rules** dum 22, 12:00 · **P2 · Black Friday buys** mar 24, 12:00 (după ce confirmi coarda și mărcile) · **P1 · What I eat in a day** dum 29, 12:00 (programat până pe 25). **N1 · Poza + Notes: Glute day** joi 26, 12:00 (programat până pe 25). Pe TikTok, ca postări foto, la aceleași date, 13:00.
 
 **Dope Ropes, Black Friday (afiliat):** story **marți 24 nov** (ziua lansării, cu linkul tău) · reel cu coarda într-un antrenament **vineri 27 nov** (îl programezi înainte de drum) · story „last chance” **miercuri 2 dec**. Codul public e **DOPE25** (25%), dar distribui **linkul**; nu se anunță înainte de 24 nov.
 

@@ -7,6 +7,7 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 **De ce merge:** pare o recomandare de la o prietenă, nu o reclamă; oamenii salvează lista; se leagă natural de reduceri (Black Friday, Crăciun, ianuarie) și de codurile tale.
 
 **Cum arată slide-urile:**
+
 | Slide | Poza | Textul |
 |---|---|---|
 | 1 | tu, poză întreagă (selfie la oglindă sau la sală) | titlul: `My tried-and-tested … I'd get again and again 🤍` |
@@ -30,6 +31,7 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 - colaborările plătite: „Paid partnership”, ca la orice reclamă
 
 **Ediții viitoare:**
+
 | Când | Titlul |
 |---|---|
 | 24 nov (Black Friday) | My tried-and-tested gym & gamer girl buys |
@@ -51,3 +53,10 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 ## 4. Reel vorbit cu listă („Top 3 …”)
 **Ce e:** vorbești în cameră și arăți fiecare lucru. Textul pe ecran: hook-ul, apoi `1 · …`, `2 · …`, `3 · …`, fiecare cu un rând mic; la final, `Which one are you? 1, 2 or 3 👇`. Subtitrări automate mici.
 **Exemplu:** „3 snacks I always keep at home” (trial, 19 nov).
+
+## 5. „Poza + Notes” (modelul Caroline O'Mahony, 18 nov)
+**Ce e:** carusel de 2 slide-uri. **1:** o poză cu tine la sală, fără text (selfie la oglindă sau din profil). **2:** antrenamentul zilei, ca o notiță din aplicația **Notes** de pe iPhone: titlul („Glutes 🍑”), 5–6 exerciții numerotate, seriile × repetările și un sfat scurt în paranteză. Descrierea începe cu „Swipe for today's … workout”.
+**De ce merge:** poza oprește scroll-ul, notița e salvată (oamenii o fac a doua zi). Pare scris pe loc, nu „conținut”.
+**Cum îl faci:** (a) scrii lista în Notes pe telefon și faci screenshot (cel mai autentic), sau (b) îmi dai lista și o fac eu: `python3 brand/carousels-en/build_notes.py brand/carousels-en/specs/<nume>.json`. Fără date despre sală sau oraș în poză.
+**Ritmul:** o dată pe săptămână, joia. Exercițiile vin din Custom Program, ca oamenii să vadă cum arată o zi din el.
+**Ediții:** N1 Glutes (26 nov) · N2 Back & posture (desk hunch) · N3 Home, 20 min, only dumbbells · N4 Upper body for desk people · N5 5-minute desk reset (vineri, după stream) · N6 Leg day for beginners.
