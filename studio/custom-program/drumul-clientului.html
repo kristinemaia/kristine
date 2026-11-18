@@ -1,0 +1,255 @@
+<title>Drumul clientului</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: o coloană de pași; fiecare pas = text în stânga, telefonul (ce vede clientul) în dreapta; pe telefon se așază unul sub altul. */
+:root{
+  --bg:#FBF6F3; --paper:#FFFFFF; --ink:#2B2431; --muted:#665E70; --line:#EADFE7;
+  --brand:#8A3459; --brand-soft:#F6DCE7; --phone:#1D1A22; --screen:#FFFFFF; --sink:#F4EEF2;
+  --ok:#1C6550; --ok-soft:#D8F0E4; --yellow:#FFE45C;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Figtree",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#17141B; --paper:#211D26; --ink:#F2ECF4; --muted:#B4AABD; --line:#362F3E;
+  --brand:#F2A9C8; --brand-soft:#47283A; --phone:#000000; --screen:#FFFFFF; --sink:#F4EEF2;
+  --ok:#9BE0C2; --ok-soft:#1E3B31; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#17141B; --paper:#211D26; --ink:#F2ECF4; --muted:#B4AABD; --line:#362F3E;
+  --brand:#F2A9C8; --brand-soft:#47283A; --phone:#000000; --screen:#FFFFFF; --sink:#F4EEF2;
+  --ok:#9BE0C2; --ok-soft:#1E3B31; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:980px;margin:0 auto}
+h1,h2{font-family:var(--display);letter-spacing:-.02em;line-height:1.08;text-wrap:balance;margin:0}
+h1{font-size:clamp(34px,6vw,52px);font-weight:800}
+.lead{color:var(--muted);max-width:62ch;margin:14px 0 0;font-size:17px}
+.note{margin-top:18px;background:var(--brand-soft);border-radius:14px;padding:12px 16px;max-width:70ch;font-size:15px}
+.steps{display:flex;flex-direction:column;gap:56px;margin-top:44px}
+.step{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;align-items:start}
+@media (max-width:760px){.step{grid-template-columns:minmax(0,1fr)}.phone{margin:0 auto}}
+.who{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--brand)}
+.step h2{font-size:clamp(24px,3.4vw,30px);font-weight:800;margin-top:6px}
+.step p{margin:10px 0 0;max-width:58ch}
+.step ul{margin:10px 0 0;padding-left:20px;max-width:58ch}.step li{margin:4px 0}
+.you{margin-top:14px;border-left:3px solid var(--brand);padding:2px 0 2px 12px;color:var(--muted);font-size:15px;max-width:58ch}
+.you b{color:var(--ink)}
+/* telefonul: ecranul e mereu alb, ca Payhip și site-ul, în ambele teme */
+.phone{width:300px;max-width:100%;background:var(--phone);border-radius:38px;padding:12px;box-shadow:0 18px 40px rgba(30,20,35,.18)}
+.screen{background:var(--screen);color:#2B2431;border-radius:28px;overflow:hidden;height:560px;overflow-y:auto;font-size:13px;line-height:1.45}
+.bar{display:flex;justify-content:space-between;padding:8px 18px 4px;font-size:11px;font-weight:700;color:#2B2431}
+.url{margin:2px 12px 8px;background:#F1ECEF;border-radius:10px;padding:5px 10px;font-size:11px;color:#6B6372;text-align:center}
+.pad{padding:12px 16px}
+.s-h{font-family:var(--display);font-weight:800;font-size:20px;line-height:1.1;margin:0 0 6px;color:#2B2431}
+.s-k{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8A3459}
+.s-m{color:#6B6372}
+.btn{display:block;text-align:center;background:#8A3459;color:#fff;border-radius:999px;padding:10px;font-weight:700;margin-top:10px}
+.btn.green{background:#2E9E5B;border-radius:8px}
+.hero{position:relative;color:#fff;text-align:center}
+.hero img{display:block;width:100%;height:170px;object-fit:cover}
+.hero div{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 18px}
+.hero b{font-family:var(--display);font-size:26px;font-weight:800}
+.pinkbar{background:#D2427F;color:#fff;font-weight:800;padding:10px 16px;font-family:var(--display);display:flex;justify-content:space-between;font-size:15px}
+.chk{list-style:none;padding:0;margin:6px 0 0}.chk li{padding:3px 0 3px 18px;position:relative}.chk li::before{content:"✓";position:absolute;left:0;color:#2E9E5B;font-weight:700}
+.plan{border:1px solid #E6DDE4;border-radius:12px;padding:12px;text-align:center;margin-top:12px;background:#FAF7F9}
+.plan .p{font-size:28px;font-weight:800;font-family:var(--display)}
+.field{border:1px solid #DDD5DC;border-radius:8px;padding:8px 10px;margin-top:8px;color:#8B8392;background:#fff}
+.row{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #F0EAEE}
+.post{border:1px solid #EDE5EB;border-radius:12px;padding:10px 12px;margin-top:10px;background:#fff}
+.post .t{font-weight:700;color:#2B2431}
+.tag{display:inline-block;background:#F6DCE7;color:#8A3459;border-radius:999px;padding:1px 8px;font-size:10px;font-weight:700;margin:4px 4px 0 0}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0}.tags span{border:1px solid #E1D8DF;border-radius:999px;padding:3px 9px;font-size:11px;color:#4C4553}
+.tags span.on{background:#8A3459;color:#fff;border-color:#8A3459}
+.pin{font-size:10px;color:#8A3459;font-weight:700}
+.vid{position:relative}.vid img{display:block;width:100%;border-radius:10px}
+.vid i{position:absolute;inset:0;margin:auto;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.85);display:flex;align-items:center;justify-content:center;font-style:normal;color:#2B2431;font-size:18px}
+.mail{background:#F4F1F5;min-height:100%}.mail .card{background:#fff;margin:12px;border-radius:12px;padding:14px}
+.log .ex{border:1px solid #EDE2EA;border-radius:12px;padding:10px;margin-top:10px}
+.log .last{font-size:11px;color:#6B6372}.log .tip{font-size:11px;background:#D8F0E4;color:#1C6550;border-radius:8px;padding:4px 8px;margin-top:6px}
+.sets{display:grid;grid-template-columns:auto 1fr 1fr;gap:5px;margin-top:6px;align-items:center;font-size:11px;color:#6B6372}
+.sets b{border:1px solid #E6DDE4;border-radius:7px;padding:5px 7px;color:#2B2431;font-weight:500;background:#FFF9F6}
+.res li{margin:3px 0}
+.end{margin-top:56px;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px 24px}
+.end h2{font-size:26px}.end ol{margin:10px 0 0;padding-left:22px}.end li{margin:6px 0}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+</style>
+
+<div class="wrap">
+  <h1>Drumul clientului</h1>
+  <p class="lead">Ce vede un om de la primul reel până la primul antrenament și apoi în fiecare lună. Pe stânga: ce se întâmplă. Pe dreapta: ecranul de pe telefonul lui, cu textele tale reale.</p>
+  <p class="note">Ecranele sunt o reconstituire după capturile tale din Payhip și după textele pe care le-am pus. Culorile și butoanele de la Payhip pot arăta puțin altfel. Ca să vezi exact, faci la final testul cu cuponul de 100%.</p>
+
+  <div class="steps">
+
+    <section class="step" aria-labelledby="s1">
+      <div>
+        <div class="who">Pasul 1 · Instagram și site</div>
+        <h2 id="s1">Vede un reel, face chestionarul</h2>
+        <p>Omul îți vede un reel sau caruselul „Save this workout”, apasă linkul din bio și ajunge la chestionarul de 2 minute de pe kristinemaia.com. La final primește planul lui, cu numele lui.</p>
+        <ul><li>traseul: Get Strong, Shape Up, Unstiff sau Desk Reset</li><li>nivelul, unde se antrenează și câte zile pe săptămână</li><li>ce face în fiecare zi, de exemplu „Day 1: Lower body and core (gym)”</li></ul>
+        <p class="you"><b>Azi:</b> butonul trimite un email către tine (lista de așteptare). <b>După lansare:</b> butonul duce la pagina de pe Payhip.</p>
+      </div>
+      <div class="phone" aria-label="Rezultatul chestionarului pe telefon"><div class="screen">
+        <div class="bar"><span>9:41</span><span>●●● 5G</span></div><div class="url">kristinemaia.com/training</div>
+        <div class="pad">
+          <div class="s-k">Your custom program</div>
+          <p class="s-h">Hi Ana, here is your plan.</p>
+          <p class="s-h" style="font-size:24px;color:#8A3459">Get Strong</p>
+          <p class="s-m" style="margin:0 0 8px">Level: Beginner · gym · 3 days a week · 30 to 40 minutes</p>
+          <b>Your week</b>
+          <ul class="res" style="padding-left:16px;margin:4px 0 8px"><li>Day 1: Lower body and core</li><li>Day 2: Upper body and back</li><li>Day 3: Full body</li></ul>
+          <b>How to start</b>
+          <p class="s-m" style="margin:4px 0 0">Weeks 1 and 2 are learning weeks: very light weights, 2 sets, and stop every set with 4 or 5 reps still in the tank.</p>
+          <span class="btn">Join the Custom Program</span>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="step" aria-labelledby="s2">
+      <div>
+        <div class="who">Pasul 2 · Payhip</div>
+        <h2 id="s2">Pagina de vânzare</h2>
+        <p>Ajunge pe pagina ta de pe Payhip: poza ta estompată cu titlul, ce primește, cum funcționează, pentru cine e, „About me”, prețul de fondator și întrebările frecvente.</p>
+        <p class="you"><b>Ce ai făcut deja:</b> toate textele și pozele. Bara roz de sus e tema magazinului; o putem schimba oricând.</p>
+      </div>
+      <div class="phone" aria-label="Pagina de vânzare Payhip pe telefon"><div class="screen">
+        <div class="bar"><span>9:42</span><span>●●● 5G</span></div><div class="url">payhip.com/b/gWIHB</div>
+        <div class="pinkbar"><span>Kristine Maia</span><span>☰</span></div>
+        <div class="hero"><img alt="" src="IMG_HERO"><div><b>Custom Program</b><span style="font-size:12px">Your gym or home plan, built from a 2-minute quiz. For people who sit all day.</span></div></div>
+        <div class="pad">
+          <b>What you get</b>
+          <ul class="chk"><li>Your plan by goal: Get Strong, Shape Up, Unstiff or Desk Reset</li><li>Workouts for the gym or at home, plus a 10-minute Express day</li><li>A short follow-along video for every exercise</li><li>Your training log</li><li>5-minute resets for neck, back and wrists</li></ul>
+          <div style="display:flex;gap:10px;align-items:center;margin-top:12px"><img alt="Kristine" src="IMG_ABOUT" style="width:90px;border-radius:10px"><div><b>About me</b><p class="s-m" style="margin:2px 0 0;font-size:12px">I'm Kristine. I studied Physical Education and Sport, I'm a certified recovery massage therapist…</p></div></div>
+          <div class="plan"><div style="font-weight:700">Founding member</div><div class="p">$10</div><div class="s-m">per month</div><p class="s-m" style="font-size:11px;margin:6px 0 0">Founding price for the first 50 members, yours for as long as you stay. Cancel anytime.</p><span class="btn green">Sign Up →</span></div>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="step" aria-labelledby="s3">
+      <div>
+        <div class="who">Pasul 3 · Plata</div>
+        <h2 id="s3">Plătește cu cardul sau PayPal</h2>
+        <p>Scrie emailul și cardul (prin Stripe) sau alege PayPal. Payhip adaugă TVA-ul după țara lui, deci prețul final poate fi puțin peste 10 $. Abonamentul se reînnoiește singur în fiecare lună.</p>
+        <p class="you"><b>Banii:</b> merg în contul Stripe al firmei, iar Stripe îi trimite în euro în contul firmei. <b>Payhip</b> ia 5% din fiecare plată, pe planul gratuit.</p>
+      </div>
+      <div class="phone" aria-label="Pagina de plată pe telefon"><div class="screen">
+        <div class="bar"><span>9:43</span><span>●●● 5G</span></div><div class="url">payhip.com/order</div>
+        <div class="pad">
+          <p class="s-h">Checkout</p>
+          <div class="row"><span>Custom Program · Founding member</span><b>$10.00</b></div>
+          <div class="row"><span class="s-m">VAT (by country)</span><span class="s-m">calculated</span></div>
+          <div class="row"><b>Billed every month</b><b>$10.00 + VAT</b></div>
+          <div class="field">Email address</div>
+          <div class="field">Card number · MM/YY · CVC</div>
+          <div class="field">Coupon code</div>
+          <span class="btn" style="background:#2B2431">Pay</span>
+          <p class="s-m" style="text-align:center;margin:8px 0 0;font-size:11px">or pay with PayPal</p>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="step" aria-labelledby="s4">
+      <div>
+        <div class="who">Pasul 4 · După plată</div>
+        <h2 id="s4">Pagina de mulțumire și emailul</h2>
+        <p>Imediat după plată vede pagina ta de mulțumire. În același timp primește un email de la Payhip cu linkul de acces și chitanța.</p>
+        <p class="you"><b>Textul e al tău:</b> „Welcome to Custom Program 🎉 … open the post Start here”.</p>
+      </div>
+      <div class="phone" aria-label="Pagina de mulțumire pe telefon"><div class="screen">
+        <div class="bar"><span>9:44</span><span>●●● 5G</span></div><div class="url">payhip.com/b/gWIHB/purchased</div>
+        <div class="pad">
+          <p class="s-h" style="margin-top:20px">Welcome to Custom Program 🎉</p>
+          <p>Check your email for your login. Then open the post "Start here": it shows you which workouts to begin with, gym or home.</p>
+          <p class="s-m">Questions? Comment on any post or reply to the welcome email. See you inside!</p>
+          <span class="btn">Go to the membership</span>
+        </div>
+        <div class="mail" style="margin-top:14px;padding-bottom:12px"><div class="card"><div class="s-k">Email · Payhip</div><b>You're in: Custom Program</b><p class="s-m" style="margin:6px 0 0">Log in to access your membership. Your receipt is attached.</p><span class="btn" style="font-size:12px">Access membership</span></div></div>
+      </div></div>
+    </section>
+
+    <section class="step" aria-labelledby="s5">
+      <div>
+        <div class="who">Pasul 5 · În abonament</div>
+        <h2 id="s5">Postările, cu etichete</h2>
+        <p>Sus vede „Start here 👋” cu videoul Welcome, apoi „Which workout is my day?”. Apasă pe eticheta traseului lui, de exemplu <b>Get Strong</b> și <b>Gym</b>, și rămân doar antrenamentele lui.</p>
+        <ul><li>4 videouri vorbite la început</li><li>27 de antrenamente: sală, acasă, Unstiff, Express, cardio și resetări</li><li>comentariile sunt deschise sub fiecare postare</li></ul>
+      </div>
+      <div class="phone" aria-label="Zona membrilor pe telefon"><div class="screen">
+        <div class="bar"><span>9:46</span><span>●●● 5G</span></div><div class="url">payhip.com · Custom Program</div>
+        <div class="pad">
+          <p class="s-h">Custom Program</p>
+          <div class="tags"><span>All</span><span>Start here</span><span class="on">Get Strong</span><span class="on">Gym</span><span>Home</span><span>Resets</span></div>
+          <div class="post"><div class="pin">📌 Pinned</div><div class="t">Start here 👋</div><div class="vid" style="margin-top:6px"><img alt="Videoul Welcome" src="IMG_TITLE" style="height:120px;object-fit:cover"><i>▶</i></div><span class="tag">Start here</span></div>
+          <div class="post"><div class="t">Which workout is my day?</div><p class="s-m" style="margin:2px 0 0">Lower body and core → Lower body and core…</p><span class="tag">Start here</span></div>
+          <div class="post"><div class="t">Lower body and core (gym)</div><span class="tag">Get Strong</span><span class="tag">Shape Up</span><span class="tag">Gym</span></div>
+          <div class="post"><div class="t">Upper body and back (gym)</div><span class="tag">Get Strong</span><span class="tag">Shape Up</span><span class="tag">Gym</span></div>
+          <div class="post"><div class="t">Full body A (gym)</div><span class="tag">Get Strong</span><span class="tag">Shape Up</span><span class="tag">Gym</span></div>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="step" aria-labelledby="s6">
+      <div>
+        <div class="who">Pasul 6 · Antrenamentul</div>
+        <h2 id="s6">Deschide ziua lui și se antrenează</h2>
+        <p>În postare: videoul cu toate exercițiile în ordine, cu numele și seriile pe ecran, apoi lista de sub video, cu ce face la Beginner, Intermediate sau Advanced.</p>
+        <p class="you"><b>Videoul:</b> card cu titlul, fiecare exercițiu (8–14 secunde, repetat), card de final. Cam 2–4 minute, fără sunet, ca să-și pună muzica lui.</p>
+      </div>
+      <div class="phone" aria-label="O postare de antrenament pe telefon"><div class="screen">
+        <div class="bar"><span>18:02</span><span>●●● 5G</span></div><div class="url">payhip.com · Custom Program</div>
+        <div class="pad">
+          <p class="s-h">Full body A (gym)</p>
+          <div class="vid"><img alt="Exercițiu din video" src="IMG_EX"><i>▶</i></div>
+          <p style="margin:10px 0 2px"><b>Warm-up</b><br>• Jump rope · 2 min<br>• World's greatest stretch · 5 / side</p>
+          <p style="margin:8px 0 2px"><b>Workout</b><br>1. Goblet squat · 3 × 8–12<br>2. Lat pulldown · 3 × 8–12<br>3. Romanian deadlift · 3 × 8–12<br>4. Seated shoulder press · 3 × 8–12<br>5. Dead bug · 3 × 8 / side</p>
+          <p class="s-m" style="font-size:11px">Beginner (weeks 1–2): 2 sets, light weight…</p>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="step" aria-labelledby="s7">
+      <div>
+        <div class="who">Pasul 7 · Jurnalul</div>
+        <h2 id="s7">Își scrie greutățile</h2>
+        <p>Deschide kristinemaia.com/log.html, alege antrenamentul și scrie kg și repetări la fiecare set. Data viitoare vede ce a ridicat, iar când a atins capătul intervalului la toate seturile primește sugestia să crească greutatea.</p>
+        <p class="you">Datele rămân în telefonul lui. Ca să meargă, urci pe Netlify zip-ul nou al site-ului.</p>
+      </div>
+      <div class="phone" aria-label="Jurnalul de greutăți pe telefon"><div class="screen log">
+        <div class="bar"><span>18:31</span><span>●●● 5G</span></div><div class="url">kristinemaia.com/log.html</div>
+        <div class="pad">
+          <p class="s-h">Your training log</p>
+          <div class="field" style="color:#2B2431">Full body A (gym) ▾</div>
+          <div class="ex"><b>Goblet squat</b><div style="color:#8A3459;font-weight:700;font-size:11px">3 × 8–12</div><div class="last">Last time: 10 kg × 12 · 10 kg × 12 · 10 kg × 12</div><div class="tip">You hit the top of the range on every set. Add 1–2 kg today.</div>
+            <div class="sets"><span>Set 1</span><b>12</b><b>10</b><span>Set 2</span><b>12</b><b>9</b><span>Set 3</span><b>kg</b><b>reps</b></div></div>
+          <div class="ex"><b>Lat pulldown</b><div style="color:#8A3459;font-weight:700;font-size:11px">3 × 8–12</div><div class="last">Last time: 20 kg × 10 · 20 kg × 10 · 20 kg × 9</div></div>
+          <span class="btn">Save today's workout</span>
+        </div>
+      </div></div>
+    </section>
+
+    <section class="step" aria-labelledby="s8">
+      <div>
+        <div class="who">Pasul 8 · În fiecare lună</div>
+        <h2 id="s8">Plata se reînnoiește, el rămâne</h2>
+        <p>Payhip îl taxează automat în fiecare lună și îi trimite chitanța. Primește un email când pui o postare nouă. Poate anula oricând din contul lui și păstrează accesul până la sfârșitul lunii plătite.</p>
+        <p class="you"><b>Tu vezi:</b> în Payhip, la Members, cine e abonat și de când; la Dashboard, încasările. Factura lunară pentru contabilă o descarci de acolo.</p>
+      </div>
+      <div class="phone" aria-label="Emailul lunar pe telefon"><div class="screen mail">
+        <div class="bar"><span>9:00</span><span>●●● 5G</span></div>
+        <div class="card"><div class="s-k">Email · Payhip</div><b>Receipt: Custom Program</b><p class="s-m" style="margin:6px 0 0">Founding member · $10.00 + VAT · renews monthly</p></div>
+        <div class="card"><div class="s-k">Email · Custom Program</div><b>New post: Lower body (home)</b><p class="s-m" style="margin:6px 0 0">Kristine posted a new workout in your membership.</p><span class="btn" style="font-size:12px">View post</span></div>
+      </div></div>
+    </section>
+
+  </div>
+
+  <div class="end">
+    <h2>Ca să vezi exact, pe telefonul tău</h2>
+    <ol>
+      <li>În Payhip: <b>Marketing → Coupons → Add coupon</b>, cod <b>TESTER100</b>, 100%, limitat la 10 folosiri, doar pentru Custom Program.</li>
+      <li>Abonamentul trebuie să fie publicat ca să poată fi cumpărat. Îl publici, cumperi imediat cu cuponul și îl treci înapoi pe nepublicat, dacă răspunsul scris de la contabilă și avocat n-a venit încă.</li>
+      <li>Treci prin tot: pagina de vânzare, plata, emailul, postările, un video, jurnalul. Notezi ce nu-ți place și îmi spui.</li>
+    </ol>
+  </div>
+</div>
