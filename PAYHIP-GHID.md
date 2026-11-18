@@ -6,7 +6,7 @@
 > **Făcut tot pe 16 nov:** pagina de vânzare (textele și pozele din `brand/payhip/membership-*.jpg`).
 > **Tot pe 16 nov:** verificat în incognito (nu se vede, nu se poate cumpăra) · pagina de mulțumire · postarea „Start here” cu eticheta `Start here`.
 > **Făcut pe 17 nov:** abonamentul **Payhip Videos (5 $/lună)** · cele 4 videouri vorbite urcate în Video Library, ca postări video cu eticheta `Start here` (Start here, How to use your program, Safety first, How to film your form).
-> **Făcut pe 17 nov (seara):** toate cele 27 de antrenamente (videouri + textele postărilor, în `WORKOUTS-PAYHIP.md`) și jurnalul de greutăți `kristinemaia.com/log.html` (în zip-ul site-ului).
+> **Făcut pe 17 nov (seara):** toate cele 27 de antrenamente (videouri + textele postărilor, în `WORKOUTS-PAYHIP.md`) și jurnalul de greutăți `kristinemaia.com/log.html` (în zip-ul site-ului). **Schimbat pe 18 nov:** antrenamentele sunt doar pe site; cele 27 de postări se șterg din Payhip (vezi secțiunea 8).
 > **Urmează (vechi, păstrat pentru istoric):** · antrenamentele, ca postări cu etichetele traseului (`Get Strong`, `Shape Up`, `Unstiff`, `Desk Reset`, `Home`/`Gym`, `Resets`) · testul cu cupon · Publish doar după răspunsul scris. · urcatul videourilor în Video Library · testul cu cupon · Publish doar după răspunsul scris al contabilei și al avocatului.
 
 **Când:**
@@ -172,5 +172,5 @@ Antrenamentul se face pe **kristinemaia.com/my-program.html**: omul își alege 
 👉 Your program, step by step: kristinemaia.com/my-program.html
 Open it on your phone, build your plan once, then tap your day and press Start. Add it to your home screen so it opens like an app.
 ```
-Postările cu antrenamente de pe Payhip (cele 27) rămân opționale, ca rezervă; programul principal e pe site.
+**Decizia Kristinei (18 nov): toate antrenamentele sunt doar pe site.** Payhip rămâne doar pentru **plată** și pentru **videourile de bun venit** (Start here, How to use, Safety, How to film your form). Cele 27 de postări cu antrenamente urcate pe 17 nov le **ștergi** din Payhip (Posts → postarea → Delete); videourile lor le poți șterge și din Video Library, ca să rămână doar cele 4 de bun venit.
 **De știut:** linkul poate fi trimis mai departe de un membru. La început e în regulă; când ai mulți membri, trecem pe o platformă cu cont și parolă.

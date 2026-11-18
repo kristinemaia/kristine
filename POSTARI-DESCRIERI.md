@@ -902,3 +902,32 @@ Want a full plan built for your body? 2-min quiz, link in bio.
 #streamerlife #gamergirl #deskjob #gymgirl #fitnessroutine
 ```
 **Pozele rămase pentru alte postări:** clătitele mici cu banană și cocos, a doua poză cu vafele, cacaua cu florile (pentru o postare cu Bewit), L-carnitina (nu e colaborare: nu o folosim deocamdată; și la o colaborare, fără promisiuni de „ardere a grăsimilor”).
+
+### Reel-urile „harta mușchilor” (RH1–RH3, 18 nov; zilele le alegem după ce îți plac)
+```
+Glute workout for people who sit all day 🍑
+Save it for your next leg day.
+
+Hip thrust 4×10 · Romanian deadlift 3×10 · Reverse lunge 3×8/side · Glute bridge 3×15
+
+Want a plan built for your body? 2-min quiz, link in bio 💗
+#gluteworkout #legday #gymgirl #deskjob #workoutplan
+```
+```
+Fix your desk hunch at the gym 🖥️➡️🏋️‍♀️
+Save this for your next back day.
+
+Face pull 3×15 · Reverse fly 3×12 · One-arm row 3×10/side · Lat pulldown 3×10
+
+Want a plan built for your body? 2-min quiz, link in bio 💗
+#posture #backworkout #deskjob #gymgirl #gamergirl
+```
+```
+Core workout for a back that lasts all day 💪
+Save it and try it tonight.
+
+Dead bug 3×8/side · Bird dog 3×8/side · Side plank 3×20 s/side · Hollow hold 3×20 s
+
+Want a plan built for your body? 2-min quiz, link in bio 💗
+#coreworkout #backpain #deskjob #gymgirl #workoutplan
+```

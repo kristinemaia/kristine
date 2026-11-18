@@ -75,3 +75,11 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 **Reguli:** educație generală, fără sfaturi medicale și fără titluri de nutriționist; un produs cu cod poate apărea într-un singur paragraf, simplu.
 **Șablonul:** `python3 brand/carousels-en/build_labels.py brand/carousels-en/specs/<nume>.json`. Sau scrii textul chiar în Instagram (Aa → fundal negru), pe pozele tale.
 **Ediții:** F1 snacking on stream (30 nov) · „For the girls whose back hurts after a long stream” · „For the beginners scared of the weights section” · „For the ones who start Monday and quit Thursday” (motivație, ianuarie).
+
+## 8. Reel de antrenament cu „harta mușchilor” (exemplul trimis de Kristine, 18 nov)
+**Ce e:** 4 exerciții la rând, câte ~3 secunde, ~12 s în total (se reia singur). **Sus:** câte o siluetă pentru fiecare exercițiu, cu mușchiul lucrat în roșu, și o săgeată roșie sub exercițiul de acum. **Jos:** numele mic și seriile mari, roz cu contur alb („3 × 10”). Fără alt text pe ecran; hook-ul e pe copertă și în descriere.
+**De ce merge:** se înțelege fără sunet, se salvează („save this workout”) și se uită de mai multe ori.
+**Doar pentru reel-uri.** Antrenamentele clienților sunt pe site.
+**Șablonul:** `python3 studio/custom-program/build_reels_harta.py` (lista `REELS`: hook-ul și cele 4 exerciții cu seriile). Siluetele: `studio/custom-program/muscle_map.py`.
+**Ce filmezi pentru variantele finale:** câte 4–5 secunde din fiecare exercițiu, vertical, în lumina de dimineață, cu tot corpul în cadru și **loc liber sus** (pentru siluete). Clipurile de acum sunt cele vechi, de 540×960.
+**Gata (probe):** RH1 Glute workout for people who sit all day · RH2 Fix your desk hunch at the gym · RH3 Core workout for a back that lasts all day.
