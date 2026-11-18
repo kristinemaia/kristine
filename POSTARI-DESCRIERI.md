@@ -882,8 +882,9 @@ General education, not medical or diet advice.
 ```
 
 ### D2 · Joi 3 dec, 12:00 · „How I Stay In Shape As A Streamer” (stilul „A Day On My Plate”, cu PDF-ul gratuit)
-9 slide-uri: tu la sală cu titlul → biroul → sala → coarda → banda → prânzul → micul dejun → **PDF-ul „The 5-minute desk stretch”** → tu la birou, cu quiz-ul. Dacă îmi trimiți pozele noi (vezi mai jos), schimb slide-urile până pe 2 dec.
+11 slide-uri (refăcut pe 18 nov cu pozele noi): tu la oglindă, în setul portocaliu, cu titlul → biroul → sala (setul gri) → coarda → banda → vafele → pastele cu ton → proteina Genius → bolul cu ciocolată → **PDF-ul „The 5-minute desk stretch”** → tu la birou, cu quiz-ul. Mâncarea e alta decât în D1 (29 nov), ca să nu se repete.
 **La comentariile „STRETCH”:** răspunzi în DM cu linkul PDF-ului gratuit: `payhip.com/b/myR5B` (e și pe site, la Training → „Start today: free 5-minute desk stretch”).
+_De verificat: vafele și bolul cu ciocolată au proteină în ele? Dacă nu, schimb „chocolate protein bowl” în „chocolate bowl”. Genius Nutrition e colaborare? Dacă da, o etichetăm (și „Paid partnership” dacă e plătită); dacă nu, rămâne fără etichetă._
 ```
 How I stay in shape as a streamer 🎮🏋️‍♀️
 
@@ -891,7 +892,7 @@ How I stay in shape as a streamer 🎮🏋️‍♀️
 • 3 strength workouts a week (not 6)
 • 5-minute warm-up before every session
 • 10-minute incline walk after lifting
-• protein at every meal, meal-prepped for 4 days
+• protein at every meal (+ a scoop of whey when food isn't enough)
 • a 5-minute desk stretch between matches
 
 Want my free 5-minute desk stretch? Comment STRETCH and I'll send it to you 🩷
@@ -899,4 +900,4 @@ Want a full plan built for your body? 2-min quiz, link in bio.
 
 #streamerlife #gamergirl #deskjob #gymgirl #fitnessroutine
 ```
-**Poze care l-ar face și mai bun** (opțional): (1) tu la birou, în setup-ul de stream, făcând o întindere (răsucirea pe scaun sau gâtul); (2) PDF-ul deschis pe telefon sau pe tabletă, în mâna ta, la birou (înlocuiește slide-ul cu PDF-ul pus de mine); (3) tot setup-ul de stream, din spate sau din lateral, cu luminile aprinse; (4) sticla de apă sau gustarea lângă tastatură.
+**Pozele rămase pentru alte postări:** clătitele mici cu banană și cocos, a doua poză cu vafele, cacaua cu florile (pentru o postare cu Bewit), L-carnitina (doar dacă e colaborare; fără promisiuni de „ardere a grăsimilor”).

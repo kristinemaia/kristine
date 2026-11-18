@@ -1,14 +1,16 @@
 {"out": "EN-D2-stay-in-shape-streamer",
- "cover": {"photo": "src/gym-black-smile.jpg", "focus": 0.25, "y": 0.66,
+ "cover": {"photo": "src/mirror-orange-treadmills.jpg", "focus": 0.3, "y": 0.70,
            "title": "How I Stay In Shape As A Streamer",
-           "sub": "8+ hours at a desk, 3 workouts a week and zero crazy diets"},
+           "sub": "8+ hours at a desk, 3 workouts a week, zero crazy diets"},
  "slides": [
   {"photo": "src/desk-headset-side.jpg", "text": "this is my office most days, so I plan\nmy movement like I plan my streams", "x": 0.07, "y": 0.74, "focus": 0.3},
-  {"photo": "src/gym-black-side.jpg", "text": "3 strength workouts a week, never 6\n(the ones I actually show up for)", "x": 0.07, "y": 0.74, "focus": 0.3},
+  {"photo": "src/mirror-grey-weights.jpg", "text": "3 strength workouts a week, never 6\n(the ones I actually show up for)", "x": 0.07, "y": 0.12, "focus": 0.35},
   {"photo": "src/rope-pink-hand.jpg", "text": "5-minute warm-up with my rope\nbefore every session", "x": 0.07, "y": 0.08, "focus": 0.45},
   {"photo": "src/treadmill-incline-frame.jpg", "text": "10-min incline walk after lifting,\nmy favourite way to switch off", "x": 0.07, "y": 0.06, "focus": 0.35},
-  {"photo": "src/food-lunch-potatoes-meatballs.jpg", "text": "protein at every meal,\nmeal-prepped for 4 days", "x": 0.07, "y": 0.22, "focus": 0.6},
-  {"photo": "src/food-oats-banana.jpg", "text": "and a breakfast I actually\nlook forward to", "x": 0.07, "y": 0.5, "focus": 0.55},
+  {"photo": "src/food-waffles-blueberries.jpg", "text": "breakfast: waffles with blueberries\nand a coffee before I go live", "x": 0.07, "y": 0.42, "focus": 0.45},
+  {"photo": "src/food-tuna-pasta.jpg", "text": "tuna pasta with olives and cheese,\nprotein at every meal", "x": 0.07, "y": 0.08, "focus": 0.5},
+  {"photo": "src/genius-whey.jpg", "text": "a scoop of whey on the days\nI can't hit my protein with food", "x": 0.07, "y": 0.06, "focus": 0.5},
+  {"photo": "src/food-choc-bowl-blueberries.jpg", "text": "my stream snack: chocolate protein bowl\nwith blueberries and coconut", "x": 0.07, "y": 0.06, "focus": 0.6},
   {"photo": "src/pdf-desk-stretch-mockup.jpg", "text": "my free 5-minute desk stretch\nfor between matches 🩷\ncomment STRETCH and I'll send it", "x": 0.07, "y": 0.07, "focus": 0.5},
   {"photo": "src/desk-headset-smile.jpg", "text": "streaming is my job,\nmy body is my setup 🎮\nwant a plan built for you? quiz in bio", "x": 0.07, "y": 0.72, "focus": 0.3}
  ]}
