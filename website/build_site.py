@@ -816,6 +816,8 @@ training = """
         extra.push('Protein and vegetables at each meal; hand portions instead of a scale (general food ideas, not a diet)');
       }
     }
+    // salvează planul pe telefon, ca my-program.html să-l deschidă direct după cumpărare (nu se trimite nicăieri)
+    try{localStorage.setItem('kmp:quiz',JSON.stringify({name:nm,goal:(safe?'mob':a.goal),focus:a.focus,place:a.place,days:a.days,time:a.time,lvl:(safe?'beg':lv),jump:(noJump?'no':'yes'),ts:Date.now()}))}catch(e){}
     var shownAreas=pain?[]:areas;
     var hN=parseFloat((f.querySelector('input[name="height"]')||{}).value), wN=parseFloat((f.querySelector('input[name="weight"]')||{}).value);
     var hOk=(hN>=120&&hN<=230), wOk=(wN>=30&&wN<=250);

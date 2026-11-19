@@ -51,7 +51,7 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
 <section id="v-setup" hidden>
   <p class="k">Custom Program · Kristine Maia</p>
   <h1>Let's build your plan</h1>
-  <p class="muted">Use the same answers as in your quiz. You can change them any time.</p>
+  <p class="muted">Took the quiz on another phone or computer? Pick the same answers here, once. You can change them any time.</p>
   <form id="f">
     <fieldset><legend>Your name</legend><input type="text" id="nm" placeholder="Ana" autocomplete="given-name"></fieldset>
     <fieldset><legend>Your goal</legend><div class="opts">
@@ -79,6 +79,7 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
   <p class="k">Custom Program · Kristine Maia</p>
   <h1 id="hi">Your plan</h1>
   <div class="chips" id="chips"></div>
+  <p class="muted small" id="fromq" hidden>Built from your quiz answers. Not right? Tap “Change my plan” at the bottom.</p>
   <h2 style="margin-top:22px">Your week</h2>
   <div id="week"></div>
   <h2 style="margin-top:26px">5-minute resets</h2>
@@ -154,6 +155,9 @@ function build(a){
   return days;
 }
 var A=get('plan',null);
+// Planul vine direct din quiz (training.html salvează răspunsurile pe același telefon sau calculator).
+var Q=get('quiz',null), FROMQ=false;
+if(!A&&Q&&Q.goal){A={name:Q.name||'',goal:Q.goal,focus:Q.focus||'whole',place:Q.place||'gym',days:+Q.days||3,time:Q.time||'35',lvl:Q.lvl||'beg',jump:Q.jump||'yes'};put('plan',A);FROMQ=true}
 function readForm(){var f=$('#f'),v=function(n){var e=f.querySelector('input[name="'+n+'"]:checked');return e?e.value:null};
   return {name:$('#nm').value.trim(),goal:v('goal'),focus:v('focus'),place:v('place'),days:+v('days'),time:v('time'),lvl:v('lvl'),jump:v('jump')}}
 $('#f').addEventListener('change',function(){var g=$('#f').querySelector('input[name="goal"]:checked').value;$('#fs-focus').hidden=(g==='mob'||g==='desk')});
@@ -163,6 +167,7 @@ $('#chg').addEventListener('click',function(){if(A){$('#nm').value=A.name||'';['
 var LV={beg:'Beginner',mid:'Intermediate',adv:'Advanced'},GOAL={str:'Get Strong',fat:'Shape Up',mob:'Unstiff',desk:'Desk Reset'};
 function home(){
   if(!A){show('setup');return}
+  var nb=$('#fromq'); if(nb) nb.hidden=!FROMQ;
   $('#hi').textContent=(A.name?'Hi '+A.name+', ':'')+'your '+GOAL[A.goal]+' plan';
   $('#chips').innerHTML='';[GOAL[A.goal],LV[A.lvl],{gym:'Gym',home:'Home',both:'Gym and home'}[A.place],A.days+' days a week',{10:'10 min',20:'20 min',35:'30–40 min'}[A.time]].forEach(function(t){var c=document.createElement('span');c.className='chip';c.textContent=t;$('#chips').appendChild(c)});
   var wk=$('#week');wk.innerHTML='';var last=get('last',{});

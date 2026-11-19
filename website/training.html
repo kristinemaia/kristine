@@ -9,7 +9,7 @@
 <meta property="og:description" content="Take the 2-minute quiz and get your custom program, built around how much you sit: stronger, leaner or less stiff, at home, at the gym or both.">
 <meta name="theme-color" content="#FFF9F6">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=202611191041">
+<link rel="stylesheet" href="assets/style.css?v=202611191056">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -231,6 +231,8 @@
         extra.push('Protein and vegetables at each meal; hand portions instead of a scale (general food ideas, not a diet)');
       }
     }
+    // salvează planul pe telefon, ca my-program.html să-l deschidă direct după cumpărare (nu se trimite nicăieri)
+    try{localStorage.setItem('kmp:quiz',JSON.stringify({name:nm,goal:(safe?'mob':a.goal),focus:a.focus,place:a.place,days:a.days,time:a.time,lvl:(safe?'beg':lv),jump:(noJump?'no':'yes'),ts:Date.now()}))}catch(e){}
     var shownAreas=pain?[]:areas;
     var hN=parseFloat((f.querySelector('input[name="height"]')||{}).value), wN=parseFloat((f.querySelector('input[name="weight"]')||{}).value);
     var hOk=(hN>=120&&hN<=230), wOk=(wN>=30&&wN<=250);
@@ -322,6 +324,6 @@
   });
 })();
 </script>
-<script src="assets/site.js?v=202611191041"></script>
+<script src="assets/site.js?v=202611191056"></script>
 </body>
 </html>
