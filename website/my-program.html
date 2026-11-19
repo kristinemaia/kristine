@@ -33,7 +33,10 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
 .ex img{width:52px;height:70px;object-fit:cover;border-radius:10px;flex:none;background:var(--line)}
 .ex div{min-width:0}.dose{color:var(--brand);font-weight:700;font-size:14px}
 /* player */
-.player video{width:100%;max-height:52vh;aspect-ratio:9/16;object-fit:cover;border-radius:18px;background:#000;display:block}
+.player video{display:block;margin:0 auto;height:min(64vh,680px);width:auto;max-width:100%;aspect-ratio:9/16;object-fit:contain;border-radius:18px;background:#000}
+.nav2{display:flex;gap:10px;margin-top:10px}.nav2 button{flex:1}
+.ex{cursor:pointer}.ex:hover b{text-decoration:underline}
+.wk{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px 14px;margin:14px 0 0}.wk b{display:block}
 .pbar{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin:10px 0}.pbar i{display:block;height:100%;background:var(--brand);width:0;transition:width .3s}
 .setline{font-size:15px;font-weight:700;margin-top:6px}
 .cue{margin:6px 0 0}.last{font-size:14px;color:var(--muted);margin-top:6px}
@@ -79,6 +82,7 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
   <p class="k">Custom Program · Kristine Maia</p>
   <h1 id="hi">Your plan</h1>
   <div class="chips" id="chips"></div>
+  <div class="wk" id="wk"></div>
   <p class="muted small" id="fromq" hidden>Built from your quiz answers. Not right? Tap “Change my plan” at the bottom.</p>
   <h2 style="margin-top:22px">Your week</h2>
   <div id="week"></div>
@@ -97,12 +101,14 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
   <p class="k" id="o-k"></p><h1 id="o-t"></h1>
   <p class="muted small" id="o-note"></p>
   <div id="o-list"></div>
+  <p class="muted small">Tap any exercise to watch it and start from there.</p>
   <button id="start" type="button">Start workout</button>
+  <button class="ghost" id="fin" type="button" hidden>Finish and save</button>
 </section>
 
 <!-- 4. Pas cu pas -->
 <section id="v-play" hidden class="player">
-  <div class="top"><button class="small ghost" id="quit" type="button">✕ Stop</button><span class="muted small" id="p-step"></span></div>
+  <div class="top"><button class="small ghost" id="quit" type="button">← All exercises</button><span class="muted small" id="p-step"></span></div>
   <video id="vid" muted loop playsinline autoplay preload="auto"></video>
   <div class="pbar"><i id="pb"></i></div>
   <p class="k" id="p-sec"></p>
@@ -115,6 +121,7 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
   <div id="p-work" hidden><div class="timer" id="wt">0:30</div><div class="muted small" style="text-align:center" id="wside"></div></div>
   <div class="inputs" id="p-in" hidden><input inputmode="decimal" id="kg" placeholder="kg" aria-label="Weight in kg"><input inputmode="numeric" id="reps" placeholder="reps" aria-label="Reps"></div>
   <button id="act" type="button">Done</button>
+  <div class="nav2"><button class="ghost" id="prev" type="button">‹ Previous</button><button class="ghost" id="nxt" type="button">Skip ›</button></div>
   <div class="restbox" id="rest" hidden><div class="k">Rest</div><div class="timer" id="rt">1:15</div><div class="muted small" id="rnext"></div>
     <div class="row2"><button class="ghost" id="plus" type="button">+15 s</button><button id="skip" type="button">Next set</button></div></div>
 </section>
@@ -158,16 +165,21 @@ var A=get('plan',null);
 // Planul vine direct din quiz (training.html salvează răspunsurile pe același telefon sau calculator).
 var Q=get('quiz',null), FROMQ=false;
 if(!A&&Q&&Q.goal){A={name:Q.name||'',goal:Q.goal,focus:Q.focus||'whole',place:Q.place||'gym',days:+Q.days||3,time:Q.time||'35',lvl:Q.lvl||'beg',jump:Q.jump||'yes'};put('plan',A);FROMQ=true}
+if(A&&!A.start){A.start=new Date().toISOString().slice(0,10);put('plan',A)}
+// blocul de 4 săptămâni: 1 învățare, 2 puțin mai greu, 3 împingi, 4 mai ușor (recuperare); apoi blocul următor, de la capăt, mai greu
+function wkInfo(){var d=Math.max(0,Math.floor((Date.now()-new Date((A&&A.start)||Date.now()).getTime())/864e5));return {w:Math.floor(d/7)%4+1,b:Math.floor(d/28)+1}}
+var WEEKS={1:['Learn the moves','Light weights, smooth reps. Stop every set with 3 reps still in the tank.'],2:['A little heavier','Same workouts. Where every rep looked clean last week, add 1–2 kg or 1–2 reps.'],3:['Push week','Aim for the top of the rep range on every set. Write it all down.'],4:['Lighter week','One set less on each exercise. Move well and let your body recover before the next block.']};
 function readForm(){var f=$('#f'),v=function(n){var e=f.querySelector('input[name="'+n+'"]:checked');return e?e.value:null};
   return {name:$('#nm').value.trim(),goal:v('goal'),focus:v('focus'),place:v('place'),days:+v('days'),time:v('time'),lvl:v('lvl'),jump:v('jump')}}
 $('#f').addEventListener('change',function(){var g=$('#f').querySelector('input[name="goal"]:checked').value;$('#fs-focus').hidden=(g==='mob'||g==='desk')});
-$('#f').addEventListener('submit',function(e){e.preventDefault();A=readForm();put('plan',A);home()});
+$('#f').addEventListener('submit',function(e){e.preventDefault();var st=A&&A.start;A=readForm();A.start=st||new Date().toISOString().slice(0,10);put('plan',A);home()});
 $('#chg').addEventListener('click',function(){if(A){$('#nm').value=A.name||'';['goal','focus','place','days','time','lvl','jump'].forEach(function(n){var x=$('#f').querySelector('input[name="'+n+'"][value="'+A[n]+'"]');if(x)x.checked=true})}show('setup')});
 [].forEach.call(document.querySelectorAll('[data-back]'),function(b){b.addEventListener('click',home)});
 var LV={beg:'Beginner',mid:'Intermediate',adv:'Advanced'},GOAL={str:'Get Strong',fat:'Shape Up',mob:'Unstiff',desk:'Desk Reset'};
 function home(){
   if(!A){show('setup');return}
   var nb=$('#fromq'); if(nb) nb.hidden=!FROMQ;
+  var wi=wkInfo(),wt=WEEKS[wi.w];$('#wk').innerHTML='<span class="k">Block '+wi.b+' · week '+wi.w+' of 4</span><b>'+wt[0]+'</b><span class="muted small">'+wt[1]+(wi.w===4?'':' Your days stay the same; you get stronger by adding a little each week.')+'</span>';
   $('#hi').textContent=(A.name?'Hi '+A.name+', ':'')+'your '+GOAL[A.goal]+' plan';
   $('#chips').innerHTML='';[GOAL[A.goal],LV[A.lvl],{gym:'Gym',home:'Home',both:'Gym and home'}[A.place],A.days+' days a week',{10:'10 min',20:'20 min',35:'30–40 min'}[A.time]].forEach(function(t){var c=document.createElement('span');c.className='chip';c.textContent=t;$('#chips').appendChild(c)});
   var wk=$('#week');wk.innerHTML='';var last=get('last',{});
@@ -183,23 +195,29 @@ function home(){
   show('home');
 }
 var cur=null;
-function lvlSets(x,kind){if(kind!=='str'||x.sets<2)return x.sets;if(A&&A.lvl==='beg')return x.sets-1;if(A&&A.lvl==='adv'&&x.w)return x.sets+1;return x.sets}
+function lvlSets(x,kind){if(kind!=='str'||x.sets<2)return x.sets;var n=x.sets;if(A&&A.lvl==='beg')n=x.sets-1;else if(A&&A.lvl==='adv'&&x.w)n=x.sets+1;if(wkInfo().w===4)n=Math.max(1,n-1);return n}
 function over(t,lab){
   cur=t;var w=W[t];$('#o-k').textContent=lab;$('#o-t').textContent=t;$('#o-note').textContent=w.note||'';
   var L=$('#o-list');L.innerHTML='';var mins=0;
   w.p.forEach(function(p){var c=document.createElement('div');c.className='card';c.innerHTML='<h3>'+p.s+'</h3>';
     p.x.forEach(function(x){var s=lvlSets(x,w.kind),r=document.createElement('div');r.className='ex';
-      r.innerHTML='<img alt="" loading="lazy" src="'+V+x.id+'.jpg"><div><b>'+x.n+'</b><div class="dose">'+x.d+(s!==x.sets?' · you: '+s+' sets':'')+'</div></div>';c.appendChild(r);
+      r.innerHTML='<img alt="" loading="lazy" src="'+V+x.id+'.jpg"><div><b>'+x.n+'</b><div class="dose">'+x.d+(s!==x.sets?' · you: '+s+' sets':'')+'</div></div><span class="go">›</span>';r.tabIndex=0;r.setAttribute('role','button');r.addEventListener('click',function(){jumpTo(x.id)});c.appendChild(r);
       mins+=s*((x.secs||40)*(x.side?2:1)+(p.s==='Workout'&&s>1?75:15))/60});L.appendChild(c)});
-  $('#o-time').textContent='About '+Math.max(5,Math.round(mins/5)*5)+' min';show('over');
+  $('#o-time').textContent='About '+Math.max(5,Math.round(mins/5)*5)+' min';var on=(active===t);$('#start').textContent=on?'Resume workout':'Start workout';$('#fin').hidden=!on;show('over');
 }
 // pașii: fiecare set al fiecărui exercițiu
 var steps=[],si=0,session={},t0=0,timer=null,wakel=null;
-$('#start').addEventListener('click',function(){
+var active=null;
+function begin(){
   var w=W[cur];steps=[];w.p.forEach(function(p){p.x.forEach(function(x){var n=lvlSets(x,w.kind);for(var k=1;k<=n;k++)steps.push({p:p.s,x:x,k:k,n:n,rest:p.s==='Workout'&&n>1&&k<n})})});
-  si=0;session={};t0=Date.now();try{navigator.wakeLock&&navigator.wakeLock.request('screen').then(function(l){wakel=l}).catch(function(){})}catch(e){}
-  beep(0);step();show('play');
-});
+  si=0;session={};t0=Date.now();active=cur;try{navigator.wakeLock&&navigator.wakeLock.request('screen').then(function(l){wakel=l}).catch(function(){})}catch(e){}
+  beep(0);
+}
+$('#start').addEventListener('click',function(){if(active!==cur)begin();step();show('play')});
+function jumpTo(id){if(active!==cur)begin();for(var i=0;i<steps.length;i++){if(steps[i].x.id===id){si=i;break}}step();show('play')}
+$('#prev').addEventListener('click',function(){if(si>0){si--;step()}});
+$('#nxt').addEventListener('click',function(){si++;if(si<steps.length)step();else finish()});
+$('#fin').addEventListener('click',function(){finish()});
 var AC=null;function beep(f){try{AC=AC||new (window.AudioContext||window.webkitAudioContext)();if(!f)return;var o=AC.createOscillator(),g=AC.createGain();o.frequency.value=f;o.connect(g);g.connect(AC.destination);g.gain.value=.15;o.start();o.stop(AC.currentTime+.18)}catch(e){}}
 function fmt(s){return Math.floor(s/60)+':'+('0'+s%60).slice(-2)}
 function stop(){if(timer){clearInterval(timer);timer=null}}
@@ -232,7 +250,7 @@ function finish(){
   put('log',L);var la=get('last',{});la[cur]=new Date().toLocaleDateString();put('last',la);
   var m=Math.round((Date.now()-t0)/60000);$('#d-t').textContent=W[cur].kind==='reset'?'Reset done':'Workout done';
   $('#d-s').textContent=m+' minutes. '+(Object.keys(session).length?'Your weights are saved for next time.':'Nice work, see you next session.');
-  try{wakel&&wakel.release()}catch(e){}show('done');
+  active=null;try{wakel&&wakel.release()}catch(e){}show('done');
 }
 $('#quit').addEventListener('click',function(){stop();try{wakel&&wakel.release()}catch(e){}over(cur,$('#o-k').textContent)});
 home();

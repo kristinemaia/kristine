@@ -14,17 +14,23 @@ WEIGHTED = {'picioare-goblet-a', 'picioare-goblet-b', 'picioare-rdl', 'picioare-
             'spate-fluturari-inverse', 'impins-umeri-gantere', 'umeri-ridicari-laterale', 'umeri-ridicari-frontale', 'brate-biceps-curl', 'picioare-split-a', 'picioare-fandare-inapoi'}
 
 def src(cid):
-    for p in (os.path.join(CP, 'out', cid + '.mp4'), os.path.join(CP, 'clips/preview', cid + '.mp4'), os.path.join(CP, 'clips/istoric', cid + '.mp4')):
+    """Sursa clipului: întâi originalul tău (clips/<id>.mov, 1080 × 1920, fără text), apoi variantele vechi (540 × 960)."""
+    for p in (os.path.join(CP, 'clips', cid + '.mov'), os.path.join(CP, 'out', cid + '.mp4'), os.path.join(CP, 'clips/preview', cid + '.mp4'), os.path.join(CP, 'clips/istoric', cid + '.mp4')):
         if os.path.exists(p): return p
     raise SystemExit('lipsește clipul ' + cid)
 
 def asset(cid):
     mp4, jpg = os.path.join(ASSETS, cid + '.mp4'), os.path.join(ASSETS, cid + '.jpg')
+    p = src(cid); hi = p.endswith('.mov')
     if not os.path.exists(mp4):
-        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src(cid), '-vf', 'scale=540:960:flags=lanczos,fps=30,format=yuv420p', '-an',
-                        '-c:v', 'libx264', '-preset', 'slow', '-crf', '27', '-movflags', '+faststart', mp4], check=True)
+        if hi:   # original: rezoluție mare, aceeași culoare ca reel-urile
+            sys.path.insert(0, os.path.join(ROOT, 'studio/montaj')); from curat import GRADE
+            vf = 'scale=1080:1920:flags=lanczos,' + GRADE + ',fps=30,format=yuv420p'; crf = '23'
+        else:
+            vf = 'scale=540:960:flags=lanczos,fps=30,format=yuv420p'; crf = '24'
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', p, '-vf', vf, '-an', '-c:v', 'libx264', '-preset', 'slow', '-crf', crf, '-movflags', '+faststart', mp4], check=True)
     if not os.path.exists(jpg):
-        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', '1', '-i', mp4, '-frames:v', '1', '-q:v', '6', jpg], check=True)
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', '1', '-i', mp4, '-frames:v', '1', '-q:v', '4', jpg], check=True)
 
 def parse(dose):
     """„3 × 8–12” → 3 seturi de repetări; „3 × 20 s / side” → 3 seturi pe timp; „2 min” → o dată, pe timp"""
