@@ -6,6 +6,7 @@ import base64, json, os, subprocess, tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 def b64(f): return 'data:image/png;base64,' + base64.b64encode(open(os.path.join(HERE, f), 'rb').read()).decode()
 T, R = b64('screen-timer.png'), b64('screen-rest.png')
+F = 'data:image/jpeg;base64,' + base64.b64encode(open(os.path.join(HERE, 'coperta-foto-sala.jpg'), 'rb').read()).decode()   # poza ta la sală (19 nov)
 CSS = """
 :root{--bg:#FFF9F6;--ink:#2B2431;--muted:#5C5466;--pink:#F8DCE6;--berry:#8A3459;--mint:#D8F0E4;--lilac:#E9E1F7}
 *{box-sizing:border-box}body{margin:0;background:transparent}
@@ -24,38 +25,41 @@ def phones(x, y, w, gap, rot=5):
             '<div class="ph" style="width:%dpx;left:%dpx;top:%dpx;transform:rotate(%ddeg)"><img src="%s"></div>') % (w, x, y, rot, T, w, x + gap, y + 50, rot, R)
 CHIPS = '<div class="chips" style="margin-top:%dpx">%s</div>'
 def chips(fs, pad, mt): return CHIPS % (mt, ''.join('<span style="font-size:%dpx;padding:%s;margin:0 8px 8px 0">%s</span>' % (fs, pad, t) for t in ['Gym or home', 'Video + timer', 'Logs your weights']))
+def photo(x, w, h, pos='38% 30%'):
+    return ('<div style="position:absolute;left:%dpx;top:0;width:%dpx;height:%dpx;overflow:hidden">'
+            '<img src="%s" style="width:100%%;height:100%%;object-fit:cover;object-position:%s;display:block">'
+            '<div style="position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 0%%,rgba(255,249,246,0) 22%%)"></div></div>') % (x, w, h, F, pos)
+def phone(x, y, w, rot=-6):
+    return '<div class="ph" style="width:%dpx;left:%dpx;top:%dpx;transform:rotate(%ddeg)"><img src="%s"></div>' % (w, x, y, rot, T)
 WIDE = card(1280, 720, """
-<div class="sh" style="width:700px;height:700px;left:-260px;top:320px;background:var(--pink)"></div>
-<div class="sh" style="width:520px;height:520px;right:-120px;top:-250px;background:var(--lilac)"></div>
-<div class="sh" style="width:300px;height:300px;right:380px;bottom:-200px;background:var(--mint)"></div>
-<div style="position:absolute;left:80px;top:0;bottom:0;width:640px;display:flex;flex-direction:column;justify-content:center">
- <span class="tag" style="font-size:22px;padding:10px 20px;align-self:flex-start">MEMBERSHIP</span>
- <h1 style="font-size:96px;margin-top:22px">Custom<br>Program</h1>
- <p class="sub" style="font-size:28px;margin:22px 0 0;line-height:1.25">Your gym or home plan, built from a<br>2-minute quiz. For people who sit all day.</p>
+<div class="sh" style="width:620px;height:620px;left:-240px;top:380px;background:var(--pink)"></div>
+%s
+<div style="position:absolute;left:70px;top:0;bottom:0;width:560px;display:flex;flex-direction:column;justify-content:center">
+ <span class="tag" style="font-size:20px;padding:9px 18px;align-self:flex-start">MEMBERSHIP</span>
+ <h1 style="font-size:92px;margin-top:20px">Custom<br>Program</h1>
+ <p class="sub" style="font-size:26px;margin:20px 0 0;line-height:1.25">Your gym or home plan, built from a<br>2-minute quiz. For people who sit all day.</p>
  %s
- <p style="font-size:22px;margin:18px 0 0;font-weight:700">Kristine Maia</p>
-</div>%s""" % (chips(20, '8px 16px', 22), phones(800, 70, 215, 190)))
+ <p style="font-size:21px;margin:16px 0 0;font-weight:700">Kristine Maia</p>
+</div>%s""" % (photo(620, 660, 720), chips(19, '7px 14px', 20), ''))
 SQUARE = card(1080, 1080, """
-<div class="sh" style="width:760px;height:760px;left:-320px;top:620px;background:var(--pink)"></div>
-<div class="sh" style="width:560px;height:560px;right:-220px;top:-260px;background:var(--lilac)"></div>
-<div class="sh" style="width:340px;height:340px;right:-60px;bottom:-160px;background:var(--mint)"></div>
-<div style="position:absolute;left:80px;top:70px;right:80px">
- <span class="tag" style="font-size:24px;padding:11px 22px">MEMBERSHIP</span>
- <h1 style="font-size:112px;margin-top:20px">Custom Program</h1>
- <p class="sub" style="font-size:30px;margin:18px 0 0;line-height:1.25">Your gym or home plan, built from a 2-minute quiz.</p>
+%s
+<div class="sh" style="width:640px;height:640px;left:-300px;top:600px;background:var(--pink)"></div>
+<div style="position:absolute;left:64px;top:0;bottom:0;width:430px;display:flex;flex-direction:column;justify-content:center">
+ <span class="tag" style="font-size:24px;padding:11px 22px;align-self:flex-start">MEMBERSHIP</span>
+ <h1 style="font-size:100px;margin-top:22px">Custom<br>Program</h1>
+ <p class="sub" style="font-size:30px;margin:22px 0 0;line-height:1.25">Your gym or home plan, built from a 2-minute quiz. For people who sit all day.</p>
  %s
-</div>%s""" % (chips(22, '9px 18px', 18), phones(250, 470, 270, 300, 5)))
+</div>%s""" % (photo(470, 610, 1080, '40% 30%'), chips(21, '8px 16px', 20).replace('Logs your weights', 'Logs weights'), ''))
 HERO = card(1920, 1080, """
-<div class="sh" style="width:1000px;height:1000px;left:-360px;top:460px;background:var(--pink)"></div>
-<div class="sh" style="width:760px;height:760px;right:-180px;top:-380px;background:var(--lilac)"></div>
-<div class="sh" style="width:440px;height:440px;right:560px;bottom:-300px;background:var(--mint)"></div>
-<div style="position:absolute;left:140px;top:0;bottom:0;width:900px;display:flex;flex-direction:column;justify-content:center">
+<div class="sh" style="width:900px;height:900px;left:-340px;top:560px;background:var(--pink)"></div>
+%s
+<div style="position:absolute;left:130px;top:0;bottom:0;width:900px;display:flex;flex-direction:column;justify-content:center">
  <span class="tag" style="font-size:30px;padding:14px 28px;align-self:flex-start">MEMBERSHIP</span>
- <h1 style="font-size:150px;margin-top:30px">Custom Program</h1>
+ <h1 style="font-size:150px;margin-top:30px">Custom<br>Program</h1>
  <p class="sub" style="font-size:40px;margin:30px 0 0;line-height:1.25">Your gym or home plan,<br>built from a 2-minute quiz.<br>For people who sit all day.</p>
  %s
  <p style="font-size:32px;margin:26px 0 0;font-weight:700">Kristine Maia</p>
-</div>%s""" % (chips(30, '12px 24px', 34), phones(1200, 120, 320, 280, 6)))
+</div>%s""" % (photo(960, 960, 1080, '40% 28%'), chips(30, '12px 24px', 34), ''))
 JS = r"""
 const { chromium } = require('playwright');
 (async () => { const items = JSON.parse(require('fs').readFileSync(process.argv[2], 'utf8')); const b = await chromium.launch(); const p = await b.newPage();
