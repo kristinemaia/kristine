@@ -28,7 +28,8 @@ def asset(cid):
             vf = 'scale=1080:1920:flags=lanczos,' + GRADE + ',fps=30,format=yuv420p'; crf = '23'
         else:
             vf = 'scale=540:960:flags=lanczos,fps=30,format=yuv420p'; crf = '24'
-        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', p, '-vf', vf, '-an', '-c:v', 'libx264', '-preset', 'slow', '-crf', crf, '-movflags', '+faststart', mp4], check=True)
+        cut = ['-t', '10'] if hi else []   # în program clipul se repetă, deci 10 s ajung (site-ul rămâne rapid)
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', p] + cut + ['-vf', vf, '-an', '-c:v', 'libx264', '-preset', 'slow', '-crf', crf, '-movflags', '+faststart', mp4], check=True)
     if not os.path.exists(jpg):
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', '1', '-i', mp4, '-frames:v', '1', '-q:v', '4', jpg], check=True)
 

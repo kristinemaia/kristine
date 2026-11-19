@@ -17,3 +17,6 @@ studio/custom-program/preview/*.mp4
 studio/custom-program/preview/*.jpg
 studio/montaj/_tts/
 studio/gatit/raw/
+
+# zip-ul pentru Netlify se face din website/ (e mare, nu-l mai ținem în git)
+kristinemaia-website.zip
