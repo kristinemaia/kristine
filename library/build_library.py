@@ -52,6 +52,8 @@ GROUPS = [
         "note": "Tot ce e gata de urcat, pe zile; descrierile sunt în „Toate descrierile”",
         "zip": ("Postari-gata.zip", "postari"),
         "items": [
+            {"kind": "doc", "slug": "rezumat-social-media", "title": "Rezumatul social media (pentru o conversație nouă)", "src": "REZUMAT-SOCIAL-MEDIA.md",
+             "desc": "Tot pe o pagină: nișa și bio-ul, regulile, cele 8 formate, caruselele și reel-urile gata cu textele și descrierile, calendarul până pe 3 dec, ce e de filmat, idei și ce aștept de la tine. Îl copiezi ca prim mesaj într-o conversație nouă."},
             {"kind": "img", "slug": "post-s1", "title": "Vin 20 nov · S1 Save this: full-body gym workout (7 slide-uri)",
              "base": "brand/carousels-en/out", "keep": True, "images": ["EN-S1-save-this-workout-%d.png" % i for i in range(1, 8)],
              "desc": "Carusel, 17:00. Prima poză singură, apoi antrenamentul pe 4 părți și îndemnul spre quiz."},
