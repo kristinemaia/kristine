@@ -40,7 +40,7 @@ LINKS = {
     "CLUB": "mailto:kristinemaia527@gmail.com?subject=Custom%20Program%20waitlist",
     # Linkul de cumpărare pentru Custom Program. GOL până vine răspunsul scris (contabila + avocatul):
     # atunci butonul de după quiz e formularul de waitlist. La lansare pui aici https://payhip.com/b/gWIHB.
-    "BUY": "",
+    "BUY": "https://payhip.com/b/gWIHB",
     # Conversația directă pe Instagram (butonul de chat o oferă până conectăm Tawk.to)
     "IG_DM": "https://ig.me/m/kristinemaia11",
 }
@@ -193,7 +193,9 @@ def wl_form(form, label, button, extra=""):
 def join_html():
     """După quiz: la lansare (LINKS["BUY"] completat) butonul de cumpărare; până atunci, formularul de waitlist."""
     if LINKS.get("BUY"):
-        return '<div class="row-btns"><a class="btn" id="r-join" href="%s">Join Custom Program · $10/month</a></div>' % LINKS["BUY"]
+        return ('<div class="row-btns"><a class="btn" id="r-join" href="%s">Get my Custom Program · $10/month</a></div>'
+                '<p class="small muted" style="margin:8px 0 0">Founding price for the first 50 members, kept for as long as you stay. Cancel anytime. '
+                'After you join, you open your program on kristinemaia.com and build this plan in one minute.</p>') % LINKS["BUY"]
     hidden = ''.join('<input type="hidden" name="%s">' % n for n in ("plan", "level", "where", "days", "note"))
     return wl_form("waitlist", "Join the waitlist: I'll email you when it opens (founding price for the first 50).",
                    "Join the waitlist", hidden).replace('<form class="wl"', '<form class="wl" id="r-wl"', 1)
@@ -216,7 +218,7 @@ WL_JS = """<script>
 POPUP = """
 <div class="cp-pop" id="cp-pop" role="dialog" aria-modal="false" aria-labelledby="cp-h" hidden>
   <button class="cp-x" id="cp-x" type="button" aria-label="Close">×</button>
-  <p class="kicker">Custom Program · opening soon</p>
+  <p class="kicker">Custom Program · now open</p>
   <p class="cp-h" id="cp-h">Get your custom training plan</p>
   <p class="small muted">Answer a few quick questions and see your plan: your goal, gym or home, your time. Every workout step by step, with videos and a timer.</p>
   <a class="btn" href="training.html#quiz">Take the 2-minute quiz</a>
@@ -297,7 +299,7 @@ def free_band(title="Start with five minutes.", extra="", chat="Five minutes, on
                 .replace("{extra}", (" " + extra) if extra else ""))
 
 
-LIST_PERKS = "Download it and you'll also hear first when the Custom Program opens, at the founding price."
+LIST_PERKS = "Download it and you'll also be the first to hear about new workouts and offers."
 
 # Programul de pe Twitch. data-day: 1 = luni, 3 = miercuri, 5 = vineri (pentru „Today / Next up”).
 # Duminica nu are data-day, pentru că e doar în unele săptămâni.
@@ -391,16 +393,16 @@ home = """
     <div class="more-grid">
       <article class="offer" id="program-home">
         <h3>Your custom program</h3>
-        <p class="price">Coming soon<small>founding price for the waitlist</small></p>
+        <p class="price">$10/month<small>founding price for the first 50 members</small></p>
         <p>Answer a 2-minute quiz and get a plan built around how much you sit: less stiff, stronger or leaner, at home or at the gym. Follow-along videos with me, 10 to 40 minutes.</p>
         <p class="fine">General exercise and education. Not medical advice.</p>
         <a class="btn" href="training.html">Take the quiz</a>
       </article>
       <div class="soon">
-        <p class="kicker">Coming soon</p>
-        <p>The <strong>Custom Program</strong> opens soon. People on the email list hear first and get the founding price.</p>
+        <p class="kicker">Now open</p>
+        <p>The <strong>Custom Program</strong> is open: $10/month for the first 50 members. Take the quiz, see your plan, then join.</p>
         <p class="mt-s">Also coming: <strong>1:1 coaching</strong> for a small group: training and nutrition coaching built around your week, with feedback on your form.</p>
-        <p class="all"><a href="#free">Join the list</a> · <a href="shop.html#coaching">Coaching waitlist</a> · <a href="shop.html">See the shop</a></p>
+        <p class="all"><a href="{BUY}">Join the Custom Program</a> · <a href="shop.html#coaching">Coaching waitlist</a> · <a href="shop.html">See the shop</a></p>
       </div>
     </div>
   </div>
@@ -588,7 +590,7 @@ QUIZ = "".join([
     q_radio("feel", "How does it feel?", [("stiff", "Stiff or tight, and better once I move"), ("pain", "Pain: sharp, constant, wakes me up, numbness or tingling, or after an injury")], "", ' id="q-feel" hidden'),
     q_input("age", "How old are you?", "number", "", ' inputmode="numeric" min="10" max="100" placeholder="Age" style="max-width:140px"'),
     ('<fieldset class="qf"><legend><span class="qn"></span>Your height and weight (optional)</legend>'
-     '<p class="small muted">Only used to give you a protein guide. No BMI, no goal weight. It stays on your phone, and goes in your waitlist email only if you choose to join.</p>'
+     '<p class="small muted">Only used to give you a protein guide. No BMI, no goal weight. It stays on your phone and is not sent anywhere.</p>'
      '<div class="opts"><label class="small" style="display:flex;align-items:center;gap:10px">Height <input class="qin" type="number" name="height" inputmode="numeric" min="120" max="230" placeholder="165" style="max-width:120px"> cm</label>'
      '<label class="small" style="display:flex;align-items:center;gap:10px">Weight <input class="qin" type="number" name="weight" inputmode="decimal" min="30" max="250" step="0.5" placeholder="60" style="max-width:120px"> kg</label></div></fieldset>'),
     q_check("health", "Does any of this apply to you?", [
@@ -598,7 +600,7 @@ QUIZ = "".join([
         ("bp", "High blood pressure"), ("diab", "Diabetes"), ("asthma", "Asthma"), ("osteo", "Osteoporosis or low bone density"),
         ("hernia", "Hernia"), ("post", "I had a baby in the last 12 months"), ("none", "None of these")],
         "Pick all that apply. Your answers stay on your phone or computer and are not sent anywhere."),
-    q_input("note", "Anything else you want me to know? (optional)", "textarea", "For example an exercise you love or hate, or your schedule. If you join the waitlist, this note is sent with your sign-up so I can read it. Please don't write medical details here."),
+    q_input("note", "Anything else you want me to know? (optional)", "textarea", "For example an exercise you love or hate, or your schedule. It stays on your phone. Please don't write medical details here."),
 ])
 
 training = """
@@ -619,7 +621,7 @@ training = """
   <ol class="steps">
     <li><b>Take the quiz.</b> Two minutes. Your answers stay in your browser.</li>
     <li><b>Get your custom program.</b> Your week, day by day, plus short resets for the spots that feel stiff.</li>
-    <li><b>Train with me.</b> Follow-along videos filmed in the gym, with home versions, 10 to 40 minutes. When the Custom Program opens, members get their program, every video and a new workout every week.</li>
+    <li><b>Train with me.</b> Follow-along videos filmed in the gym, with home versions, 10 to 40 minutes. Custom Program members get their program, every video and a new workout every week.</li>
   </ol>
 </section>
 
@@ -661,7 +663,7 @@ training = """
 </section>
 
 <section class="wrap block" aria-labelledby="club-title">
-  <div class="block-head"><p class="kicker">Coming soon · waitlist</p><h2 id="club-title">What makes it custom</h2></div>
+  <div class="block-head"><p class="kicker">Now open · founding price</p><h2 id="club-title">What makes it custom</h2></div>
   <ul class="steps">
     <li><b>Your goal:</b> no stiffness, stronger, leaner, or feeling better at your desk.</li>
     <li><b>Your focus:</b> whole body, legs and glutes, upper body and back, or core and posture.</li>
@@ -927,13 +929,14 @@ shop = """
 </section>
 
 <section class="wrap block" aria-labelledby="soon-title">
-  <div class="block-head"><p class="kicker">Coming soon · join the waitlist</p><h2 id="soon-title">Your custom program</h2></div>
+  <div class="block-head"><p class="kicker">Now open · founding price</p><h2 id="soon-title">Your custom program</h2></div>
   <article class="panel p-blue" id="program">
-    <span class="tag">Waitlist · founding price</span>
+    <span class="tag">Founding price · first 50</span>
     <h3>Custom Program</h3>
     <p class="p">$10<small>per month, founding price for the first 50 members</small></p>
     <ul><li>A 2-minute quiz builds your plan: goal, focus, home or gym, time</li><li>Every workout step by step: the video of each exercise, how to do it, a timer for your rest and your holds</li><li>Your training log: your weights from last time and when to go up</li><li>Unstiff, Get Strong, Shape Up and Desk Reset, plus 5-minute resets for your neck, back and wrists</li></ul>
-    <a class="btn" href="training.html#quiz">Take the 2-minute quiz</a>
+    <div class="row-btns"><a class="btn" href="{BUY}">Join for $10/month</a> <a class="btn alt" href="training.html#quiz">Take the 2-minute quiz first</a></div>
+    <p class="small muted">Cancel anytime. Payment and your account are on Payhip; your workouts open on this site.</p>
   </article>
 </section>
 
@@ -975,7 +978,7 @@ shop = """
 page(
     "shop.html",
     "Shop · Kristine Maia",
-    "The Custom Program and 1:1 coaching with training and nutrition (both on the waitlist), plus discount codes for gear I use.",
+    "The Custom Program ($10/month founding price) and 1:1 coaching with training and nutrition (waitlist), plus discount codes for gear I use.",
     shop,
 )
 
@@ -1119,7 +1122,7 @@ legal = """
     <h2>Not medical advice</h2>
     <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I studied Physical Education and Sport and coach mobility, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
     <h2>Privacy</h2>
-    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers (including your first name and age) stay on your device. If you join a waitlist (after the quiz or for coaching), the form sends your first name, your email, your plan (track, level, place, days a week) and any note you wrote to me through my website host [Netlify Forms], only so I can email you when it opens; your health answers, age, height and weight are never sent. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
+    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers (including your first name and age) stay on your device. If you join the coaching waitlist, the form sends your first name and email to me through my website host [Netlify Forms], only so I can email you when spots open. Your quiz answers (including health answers, age, height and weight) stay on your device and are never sent. If you buy the Custom Program, Payhip handles the payment, your account and the receipts. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>
     <p class="muted">Digital products are delivered by email right after payment. [TODO: politica de retur, verificată de avocat: de exemplu, dreptul de retragere pentru conținut digital și momentul în care se pierde].</p>
     <h2>Affiliate links</h2>
