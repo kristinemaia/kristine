@@ -38,6 +38,9 @@ LINKS = {
     "COACHING": "mailto:kristinemaia527@gmail.com?subject=1%3A1%20online%20coaching%20waitlist",
     # Lista de așteptare pentru Custom Program (abonamentul cu programul personalizat). Când există pe Payhip, pui linkul aici.
     "CLUB": "mailto:kristinemaia527@gmail.com?subject=Custom%20Program%20waitlist",
+    # Linkul de cumpărare pentru Custom Program. GOL până vine răspunsul scris (contabila + avocatul):
+    # atunci butonul de după quiz e formularul de waitlist. La lansare pui aici https://payhip.com/b/gWIHB.
+    "BUY": "",
     # Conversația directă pe Instagram (butonul de chat o oferă până conectăm Tawk.to)
     "IG_DM": "https://ig.me/m/kristinemaia11",
 }
@@ -67,7 +70,9 @@ NAV = [
 
 
 def fill(html):
-    """Înlocuiește {TWITCH}, {EMAIL} etc. cu linkurile din LINKS."""
+    """Înlocuiește {TWITCH}, {EMAIL} etc. cu linkurile din LINKS și pune formularele de waitlist."""
+    html = html.replace("@@JOIN@@", join_html()).replace("@@COACH_FORM@@", wl_form(
+        "coaching", "Leave your email: you hear first when spots open, with founding-client pricing.", "Join the coaching waitlist"))
     for key, value in LINKS.items():
         html = html.replace("{" + key + "}", value)
     return html
@@ -174,6 +179,40 @@ CHAT = (
 
 
 # Pop-up-ul pentru Custom Program: apare o dată (apoi după 7 zile), după 12 secunde sau la jumătatea paginii. Nu apare pe training.html.
+# Formularele de waitlist (Netlify Forms): merg pe orice telefon, fără aplicație de email.
+# Se trimit doar numele, emailul, planul (traseu, nivel, loc, zile) și nota; răspunsurile de sănătate, vârsta, înălțimea și greutatea NU.
+def wl_form(form, label, button, extra=""):
+    return ('<form class="wl" name="%s" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">'
+            '<input type="hidden" name="form-name" value="%s"><p hidden><label>Leave empty: <input name="bot-field"></label></p>%s'
+            '<label class="small" style="display:block;margin:0 0 8px">%s</label>'
+            '<div class="row-btns" style="align-items:center"><input class="qin" type="text" name="name" autocomplete="given-name" placeholder="First name" style="max-width:200px">'
+            '<input class="qin" type="email" name="email" required autocomplete="email" placeholder="you@email.com" style="max-width:280px">'
+            '<button class="btn" type="submit">%s</button></div>'
+            '<p class="small wl-ok" hidden><b>You\'re on the list 💗</b> I\'ll email you as soon as it opens.</p>'
+            '<p class="small wl-err" hidden>Something went wrong. Please try again, or message me on Instagram.</p></form>') % (form, form, extra, label, button)
+def join_html():
+    """După quiz: la lansare (LINKS["BUY"] completat) butonul de cumpărare; până atunci, formularul de waitlist."""
+    if LINKS.get("BUY"):
+        return '<div class="row-btns"><a class="btn" id="r-join" href="%s">Join Custom Program · $10/month</a></div>' % LINKS["BUY"]
+    hidden = ''.join('<input type="hidden" name="%s">' % n for n in ("plan", "level", "where", "days", "note"))
+    return wl_form("waitlist", "Join the waitlist: I'll email you when it opens (founding price for the first 50).",
+                   "Join the waitlist", hidden).replace('<form class="wl"', '<form class="wl" id="r-wl"', 1)
+
+WL_JS = """<script>
+(function(){
+  [].forEach.call(document.querySelectorAll('form.wl'),function(f){
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var ok=f.querySelector('.wl-ok'),er=f.querySelector('.wl-err'),b=f.querySelector('button[type=submit]');
+      b.disabled=true; er.hidden=true;
+      fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
+        .then(function(r){ if(!r.ok) throw 0; ok.hidden=false; b.textContent='Done ✓'; })
+        .catch(function(){ er.hidden=false; b.disabled=false; });
+    });
+  });
+})();
+</script>"""
+
 POPUP = """
 <div class="cp-pop" id="cp-pop" role="dialog" aria-modal="false" aria-labelledby="cp-h" hidden>
   <button class="cp-x" id="cp-x" type="button" aria-label="Close">×</button>
@@ -220,7 +259,7 @@ def page(fname, title, desc, body, lang="en", cur=None):
         "header": header(cur or fname, lang),
         "body": body.strip("\n"),
         "footer": footer(lang),
-        "chat": CHAT + ("" if fname == "training.html" else POPUP),
+        "chat": CHAT + WL_JS + ("" if fname == "training.html" else POPUP),
         "ver": VER,
     }
     with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
@@ -559,7 +598,7 @@ QUIZ = "".join([
         ("bp", "High blood pressure"), ("diab", "Diabetes"), ("asthma", "Asthma"), ("osteo", "Osteoporosis or low bone density"),
         ("hernia", "Hernia"), ("post", "I had a baby in the last 12 months"), ("none", "None of these")],
         "Pick all that apply. Your answers stay on your phone or computer and are not sent anywhere."),
-    q_input("note", "Anything else you want me to know? (optional)", "textarea", "For example an exercise you love or hate, or your schedule. If you join the waitlist, this note is added to your email so I can read it. Please don't write medical details here."),
+    q_input("note", "Anything else you want me to know? (optional)", "textarea", "For example an exercise you love or hate, or your schedule. If you join the waitlist, this note is sent with your sign-up so I can read it. Please don't write medical details here."),
 ])
 
 training = """
@@ -613,8 +652,8 @@ training = """
     <h3>On sitting days</h3>
     <p id="r-breaks"></p>
     <p class="small muted">General exercise and education, not medical or diet advice. Stop if anything feels sharp or painful.</p>
-    <div class="row-btns">
-      <a class="btn" id="r-join" href="{CLUB}">Join your custom program (waitlist)</a>
+    @@JOIN@@
+    <div class="row-btns" style="margin-top:14px">
       <a class="btn alt" href="{PAYHIP}">Start today: free 5-minute desk stretch</a>
     </div>
     <p class="small"><a href="shop.html#coaching">Want me to check your form? 1:1 coaching waitlist</a> · <button class="link-btn" id="q-again" type="button">Take the quiz again</button></p>
@@ -785,8 +824,10 @@ training = """
     document.getElementById('r-start').textContent=startTxt;
     document.getElementById('r-start-w').hidden=!showStart;
     var note=f.querySelector('textarea[name="note"]').value.trim();
-    var body='Hi Kristine,\\n\\nI would like to join the Custom Program waitlist.\\n\\nName: '+nm+'\\nPlan: '+track+'\\nLevel: '+level+'\\nWhere: '+where+'\\nDays: '+a.days+' a week'+(hOk?'\\nHeight: '+hN+' cm':'')+(wOk?'\\nWeight: '+wN+' kg':'')+(note?'\\n\\nA note from me: '+note:'')+'\\n';
-    document.getElementById('r-join').href='mailto:kristinemaia527@gmail.com?subject='+encodeURIComponent('Custom Program waitlist')+'&body='+encodeURIComponent(body);
+    var wf=document.getElementById('r-wl');
+    if(wf){ var setv=function(n,v){var x=wf.querySelector('input[name="'+n+'"]'); if(x) x.value=v;};
+      setv('plan',track); setv('level',level); setv('where',where); setv('days',a.days+' a week'); setv('note',note);
+      var wn=wf.querySelector('input[name="name"]'); if(wn&&!wn.value) wn.value=nm; }
     document.getElementById('r-level').textContent='Level: '+level+' · '+where+(safe?'':' · '+a.days+' days a week · '+mins+' minutes'+(auto?' (chosen for you)':''));
     document.getElementById('r-age').hidden=!minor;
     document.getElementById('r-safe').hidden=!safe||minor;
@@ -905,7 +946,7 @@ shop = """
     <p class="muted">Your training and your eating, built around your week and checked by me every week. Made for people who sit for long hours and want to get stronger, leaner and move better.</p>
     <ul><li>A training plan for your goal, your schedule and your equipment, adjusted every week</li><li>Form checks: send me short videos of your sets and I tell you what to change</li><li>Nutrition coaching: your calorie and protein targets, hand portions, food ideas that fit your week and a weekly check-in on your habits</li><li>Messages with me Monday to Friday, plus the Custom Program included</li></ul>
     <p class="small muted">For healthy adults. Not included: diets for medical conditions, pregnancy or eating disorders, or medical advice; for those, see a doctor or a registered dietitian.</p>
-    <a class="btn" href="{COACHING}">Join the coaching waitlist</a>
+    @@COACH_FORM@@
     <p class="small muted">People on the waitlist hear first and get founding-client pricing.</p>
   </article>
 </section>
@@ -1078,7 +1119,7 @@ legal = """
     <h2>Not medical advice</h2>
     <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I studied Physical Education and Sport and coach mobility, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
     <h2>Privacy</h2>
-    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers (including your first name and age) stay on your device. If you tap “Join your custom program” after the quiz, your email app opens with your name, your plan and any note you wrote; nothing is sent unless you choose to send that email, and your health answers are never included. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
+    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers (including your first name and age) stay on your device. If you join a waitlist (after the quiz or for coaching), the form sends your first name, your email, your plan (track, level, place, days a week) and any note you wrote to me through my website host [Netlify Forms], only so I can email you when it opens; your health answers, age, height and weight are never sent. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>
     <p class="muted">Digital products are delivered by email right after payment. [TODO: politica de retur, verificată de avocat: de exemplu, dreptul de retragere pentru conținut digital și momentul în care se pierde].</p>
     <h2>Affiliate links</h2>
@@ -1087,5 +1128,15 @@ legal = """
 </section>
 """
 page("legal.html", "Legal & Privacy · Kristine Maia", "Legal information, privacy and medical disclaimer.", legal, cur="none")
+
+thanks = """
+<section class="wrap page-head">
+  <p class="kicker">Waitlist</p>
+  <h1>You're on the list 💗</h1>
+  <p class="lead">Thank you! I'll email you as soon as it opens. In the meantime, start with the free 5-minute desk stretch.</p>
+  <div class="actions"><a class="btn" href="{PAYHIP}">Get the free desk stretch</a> <a class="btn alt" href="index.html">Back to the home page</a></div>
+</section>
+"""
+page("thanks.html", "Thank you · Kristine Maia", "You're on the waitlist.", thanks, cur="none")
 
 print("ok: 9 pages written to " + OUT)
