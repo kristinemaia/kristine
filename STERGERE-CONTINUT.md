@@ -9,6 +9,20 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 - **Textul B (GDPR)** merge la site-urile din Europa.
 - Publicarea imaginilor intime fără acord e **infracțiune** în România și în UE. O plângere la poliție (sau prin avocat) e opțională, dar ajută când un site sau un hosting refuză.
 
+## Unde am rămas (verificat în Gmail pe 20 nov)
+| Trimis | Site | Ce s-a întâmplat | Următorul pas |
+|---|---|---|---|
+| 29 oct | Pornhub (contul vechi) | ✅ **șters**: conținutul și contul, confirmat pe 29 oct | nimic |
+| 28 oct | LeakGallery | ✅ **șters** în aceeași zi | verifici o dată pe lună |
+| 28–30 oct | Camwhores (13 videoclipuri) | au cerut lista exactă, ai trimis-o pe 30 oct; promis 24–48 h, **fără confirmare** | ✏️ revenirea e în Ciorne (21 nov); dacă nu răspund în 3 zile → hosting |
+| 28 oct | Fapello | ❌ **adresa de email nu există** (mesajul s-a întors) | formularul de pe site sau hostingul |
+| 28 oct | Kemono (prin Cloudflare) | niciun răspuns: Cloudflare nu ia rapoarte pe email | formularul abuse.cloudflare.com (categoria NCII), care trimite la hosting |
+| 17 sep + 28 oct | Nudogram | niciun răspuns | hosting |
+| 17 sep | Fapachi, WildSkirts, CelebExposed | niciun răspuns | revenire + hosting |
+| 17 sep | **Google** (formularul NCII) | ❌ 6 linkuri **refuzate**: Google le consideră conținut „folosit pentru a câștiga bani” (adică scurgeri din conturi plătite); 4 linkuri: **n-au găsit conținutul** | vezi mai jos |
+
+**Ce înseamnă refuzul Google:** formularul de imagini intime nu se aplică atunci când Google crede că pozele vin dintr-un cont plătit. Atunci se folosește **formularul de drepturi de autor** (Google Legal Help → copyright). Acolo nu contează asta: pozele sunt ale tale, iar ei le-au furat. Pentru cele 4 negăsite: retrimiți cu capturi noi, decupate doar pe poză.
+
 ## Planul intensiv: în fiecare zi, până terminăm (de pe 21 nov)
 **Sesiunea zilnică:** 45–60 de minute, la aceeași oră. Eu îți scriu în fiecare zi la 11:43 (ora Turciei) cu ce facem. Când termini, te oprești, chiar dacă mai e de lucru: mâine continuăm.
 
