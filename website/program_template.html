@@ -33,6 +33,7 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
 .ex img{width:52px;height:70px;object-fit:cover;border-radius:10px;flex:none;background:var(--line)}
 .ex div{min-width:0}.dose{color:var(--brand);font-weight:700;font-size:14px}
 /* player */
+.lsel{font:inherit;padding:8px 12px;border-radius:12px;border:1px solid var(--line);background:#fff}.lrow{display:flex;align-items:center;gap:10px;margin:18px 0 6px}
 .player video{display:block;margin:0 auto;height:min(64vh,680px);width:auto;max-width:100%;aspect-ratio:9/16;object-fit:contain;border-radius:18px;background:#000}
 .nav2{display:flex;gap:10px;margin-top:10px}.nav2 button{flex:1}
 .ex{cursor:pointer}.ex:hover b{text-decoration:underline}
@@ -52,63 +53,65 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
 
 <!-- 1. Planul (o singură dată) -->
 <section id="v-setup" hidden>
-  <p class="k">Custom Program · Kristine Maia</p>
-  <h1>Let's build your plan</h1>
-  <p class="muted">Took the quiz on another phone or computer? Pick the same answers here, once. You can change them any time.</p>
+  <p class="k" data-t>Custom Program · Kristine Maia</p>
+  <h1 data-t>Let's build your plan</h1>
+  <p class="muted" data-t>Took the quiz on another phone or computer? Pick the same answers here, once. You can change them any time.</p>
   <form id="f">
-    <fieldset><legend>Your name</legend><input type="text" id="nm" placeholder="Ana" autocomplete="given-name"></fieldset>
-    <fieldset><legend>Your goal</legend><div class="opts">
-      <label><input type="radio" name="goal" value="str" checked>Get stronger</label><label><input type="radio" name="goal" value="fat">Lose fat, tone up</label>
-      <label><input type="radio" name="goal" value="mob">Feel less stiff</label><label><input type="radio" name="goal" value="desk">Undo desk posture</label></div></fieldset>
-    <fieldset id="fs-focus"><legend>Focus</legend><div class="opts">
-      <label><input type="radio" name="focus" value="whole" checked>Whole body</label><label><input type="radio" name="focus" value="lower">Legs and glutes</label>
-      <label><input type="radio" name="focus" value="upper">Upper body</label><label><input type="radio" name="focus" value="core">Core</label></div></fieldset>
-    <fieldset><legend>Where</legend><div class="opts">
-      <label><input type="radio" name="place" value="gym" checked>Gym</label><label><input type="radio" name="place" value="home">Home</label><label><input type="radio" name="place" value="both">Both</label></div></fieldset>
-    <fieldset><legend>Days a week</legend><div class="opts">
-      <label><input type="radio" name="days" value="2">2</label><label><input type="radio" name="days" value="3" checked>3</label><label><input type="radio" name="days" value="4">4</label></div></fieldset>
-    <fieldset><legend>Time per session</legend><div class="opts">
-      <label><input type="radio" name="time" value="10">10 min</label><label><input type="radio" name="time" value="20">20 min</label><label><input type="radio" name="time" value="35" checked>30–40 min</label></div></fieldset>
-    <fieldset><legend>Level</legend><div class="opts">
-      <label><input type="radio" name="lvl" value="beg" checked>Beginner</label><label><input type="radio" name="lvl" value="mid">Intermediate</label><label><input type="radio" name="lvl" value="adv">Advanced</label></div></fieldset>
-    <fieldset><legend>Jumping</legend><div class="opts">
-      <label><input type="radio" name="jump" value="yes" checked>Jumping is fine</label><label><input type="radio" name="jump" value="no">No jumping (knees, pelvic floor)</label></div></fieldset>
-    <button type="submit">Build my plan</button>
+    <fieldset><legend data-t>Language</legend><select id="lang" class="lsel"></select></fieldset>
+    <fieldset><legend data-t>Your name</legend><input type="text" id="nm" placeholder="Ana" autocomplete="given-name"></fieldset>
+    <fieldset><legend data-t>Your goal</legend><div class="opts">
+      <label><input type="radio" name="goal" value="str" checked><span data-t>Get stronger</span></label><label><input type="radio" name="goal" value="fat"><span data-t>Lose fat, tone up</span></label>
+      <label><input type="radio" name="goal" value="mob"><span data-t>Feel less stiff</span></label><label><input type="radio" name="goal" value="desk"><span data-t>Undo desk posture</span></label></div></fieldset>
+    <fieldset id="fs-focus"><legend data-t>Focus</legend><div class="opts">
+      <label><input type="radio" name="focus" value="whole" checked><span data-t>Whole body</span></label><label><input type="radio" name="focus" value="lower"><span data-t>Legs and glutes</span></label>
+      <label><input type="radio" name="focus" value="upper"><span data-t>Upper body</span></label><label><input type="radio" name="focus" value="core"><span data-t>Core</span></label></div></fieldset>
+    <fieldset><legend data-t>Where</legend><div class="opts">
+      <label><input type="radio" name="place" value="gym" checked><span data-t>Gym</span></label><label><input type="radio" name="place" value="home"><span data-t>Home</span></label><label><input type="radio" name="place" value="both"><span data-t>Both</span></label></div></fieldset>
+    <fieldset><legend data-t>Days a week</legend><div class="opts">
+      <label><input type="radio" name="days" value="2"><span data-t>2</span></label><label><input type="radio" name="days" value="3" checked><span data-t>3</span></label><label><input type="radio" name="days" value="4"><span data-t>4</span></label></div></fieldset>
+    <fieldset><legend data-t>Time per session</legend><div class="opts">
+      <label><input type="radio" name="time" value="10"><span data-t>10 min</span></label><label><input type="radio" name="time" value="20"><span data-t>20 min</span></label><label><input type="radio" name="time" value="35" checked><span data-t>30–40 min</span></label></div></fieldset>
+    <fieldset><legend data-t>Level</legend><div class="opts">
+      <label><input type="radio" name="lvl" value="beg" checked><span data-t>Beginner</span></label><label><input type="radio" name="lvl" value="mid"><span data-t>Intermediate</span></label><label><input type="radio" name="lvl" value="adv"><span data-t>Advanced</span></label></div></fieldset>
+    <fieldset><legend data-t>Jumping</legend><div class="opts">
+      <label><input type="radio" name="jump" value="yes" checked><span data-t>Jumping is fine</span></label><label><input type="radio" name="jump" value="no"><span data-t>No jumping (knees, pelvic floor)</span></label></div></fieldset>
+    <button type="submit" data-t>Build my plan</button>
   </form>
 </section>
 
 <!-- 2. Acasă: zilele mele -->
 <section id="v-home" hidden>
-  <p class="k">Custom Program · Kristine Maia</p>
-  <h1 id="hi">Your plan</h1>
+  <p class="k" data-t>Custom Program · Kristine Maia</p>
+  <h1 id="hi" data-t>Your plan</h1>
   <div class="chips" id="chips"></div>
   <div class="wk" id="wk"></div>
-  <p class="muted small" id="fromq" hidden>Built from your quiz answers. Not right? Tap “Change my plan” at the bottom.</p>
-  <h2 style="margin-top:22px">Your week</h2>
+  <p class="muted small" id="fromq" hidden data-t>Built from your quiz answers. Not right? Tap “Change my plan” at the bottom.</p>
+  <h2 style="margin-top:22px" data-t>Your week</h2>
   <div id="week"></div>
-  <h2 style="margin-top:26px">5-minute resets</h2>
-  <p class="muted small">Any day, at your desk or after a long session.</p>
+  <h2 style="margin-top:26px" data-t>5-minute resets</h2>
+  <p class="muted small" data-t>Any day, at your desk or after a long session.</p>
   <div id="resets"></div>
-  <h2 style="margin-top:26px">My weights</h2>
+  <h2 style="margin-top:26px" data-t>My weights</h2>
   <div class="card" id="mine"></div>
-  <button class="ghost" id="chg" type="button">Change my plan</button>
-  <p class="muted small" style="margin-top:18px">Tip: Share → Add to Home Screen, and this page opens like an app. Your plan and weights stay on this phone. General exercise, not medical advice: stop if anything feels sharp.</p>
+  <label class="muted small lrow"><span data-t>Language</span> <select id="lang2" class="lsel"></select></label>
+  <button class="ghost" id="chg" type="button" data-t>Change my plan</button>
+  <p class="muted small" style="margin-top:18px" data-t>Tip: Share → Add to Home Screen, and this page opens like an app. Your plan and weights stay on this phone. General exercise, not medical advice: stop if anything feels sharp.</p>
 </section>
 
 <!-- 3. Antrenamentul, pe scurt -->
 <section id="v-over" hidden>
-  <div class="top"><button class="small ghost" data-back type="button">← My plan</button><span class="muted small" id="o-time"></span></div>
+  <div class="top"><button class="small ghost" data-back type="button" data-t>← My plan</button><span class="muted small" id="o-time"></span></div>
   <p class="k" id="o-k"></p><h1 id="o-t"></h1>
   <p class="muted small" id="o-note"></p>
   <div id="o-list"></div>
-  <p class="muted small">Tap any exercise to watch it and start from there.</p>
-  <button id="start" type="button">Start workout</button>
-  <button class="ghost" id="fin" type="button" hidden>Finish and save</button>
+  <p class="muted small" data-t>Tap any exercise to watch it and start from there.</p>
+  <button id="start" type="button" data-t>Start workout</button>
+  <button class="ghost" id="fin" type="button" hidden data-t>Finish and save</button>
 </section>
 
 <!-- 4. Pas cu pas -->
 <section id="v-play" hidden class="player">
-  <div class="top"><button class="small ghost" id="quit" type="button">← All exercises</button><span class="muted small" id="p-step"></span></div>
+  <div class="top"><button class="small ghost" id="quit" type="button" data-t>← All exercises</button><span class="muted small" id="p-step"></span></div>
   <video id="vid" muted loop playsinline autoplay preload="auto"></video>
   <div class="pbar"><i id="pb"></i></div>
   <p class="k" id="p-sec"></p>
@@ -118,24 +121,32 @@ input[type=text],input[inputmode]{font:inherit;width:100%;padding:12px;border-ra
   <p class="cue" id="p-cue"></p>
   <div class="last" id="p-last"></div>
   <div class="tip" id="p-tip" hidden></div>
-  <div id="p-work" hidden><div class="timer" id="wt">0:30</div><div class="muted small" style="text-align:center" id="wside"></div></div>
+  <div id="p-work" hidden><div class="timer" id="wt" data-t>0:30</div><div class="muted small" style="text-align:center" id="wside"></div></div>
   <div class="inputs" id="p-in" hidden><input inputmode="decimal" id="kg" placeholder="kg" aria-label="Weight in kg"><input inputmode="numeric" id="reps" placeholder="reps" aria-label="Reps"></div>
-  <button id="act" type="button">Done</button>
-  <div class="nav2"><button class="ghost" id="prev" type="button">‹ Previous</button><button class="ghost" id="nxt" type="button">Skip ›</button></div>
-  <div class="restbox" id="rest" hidden><div class="k">Rest</div><div class="timer" id="rt">1:15</div><div class="muted small" id="rnext"></div>
-    <div class="row2"><button class="ghost" id="plus" type="button">+15 s</button><button id="skip" type="button">Next set</button></div></div>
+  <button id="act" type="button" data-t>Done</button>
+  <div class="nav2"><button class="ghost" id="prev" type="button" data-t>‹ Previous</button><button class="ghost" id="nxt" type="button" data-t>Skip ›</button></div>
+  <div class="restbox" id="rest" hidden><div class="k" data-t>Rest</div><div class="timer" id="rt" data-t>1:15</div><div class="muted small" id="rnext"></div>
+    <div class="row2"><button class="ghost" id="plus" type="button" data-t>+15 s</button><button id="skip" type="button" data-t>Next set</button></div></div>
 </section>
 
 <!-- 5. Gata -->
 <section id="v-done" hidden style="text-align:center">
-  <div style="font-size:64px;margin-top:30px">💪</div><h1 id="d-t">Workout done</h1>
+  <div style="font-size:64px;margin-top:30px" data-t>💪</div><h1 id="d-t" data-t>Workout done</h1>
   <p class="muted" id="d-s"></p>
-  <button data-back type="button">Back to my plan</button>
+  <button data-back type="button" data-t>Back to my plan</button>
 </section>
 
 <script>
 (function(){
 var W=__DATA__;
+var I18N=__I18N__,LANGS=__LANGS__,LANG='en';
+function T(k,v){var d=I18N[LANG]||{},s=(LANG!=='en'&&d[k])||k;if(v)Object.keys(v).forEach(function(n){s=s.split('{'+n+'}').join(v[n])});return s}
+// dozele: „3 × 10 / side” → cuvintele traduse, cifrele rămân
+function TD(d){var x=I18N[LANG]||{};if(LANG==='en')return d;if(x[d])return x[d];return d.replace(/\b(side|slow|fast|alternating)\b/g,function(w){return x[w]||w})}
+// titlul antrenamentului: „Lower body (gym)” → partea de bază + locul, traduse
+function TW(t){var m=t.match(/^(.*) \((gym|home)\)$/);return m?T(m[1])+' ('+T(m[2])+')':T(t)}
+function applyLang(){document.documentElement.lang=LANG;[].forEach.call(document.querySelectorAll('[data-t]'),function(el){if(!el.dataset.t)el.dataset.t=el.textContent;el.textContent=T(el.dataset.t)})}
+function fillLang(sel){sel.innerHTML='';LANGS.forEach(function(l){var o=document.createElement('option');o.value=l[0];o.textContent=l[1];sel.appendChild(o)});sel.value=LANG}
 var V='assets/program/';
 function $(s){return document.querySelector(s)}
 function get(k,d){try{var v=localStorage.getItem('kmp:'+k);return v?JSON.parse(v):d}catch(e){return d}}
@@ -166,11 +177,16 @@ var A=get('plan',null);
 var Q=get('quiz',null), FROMQ=false;
 if(!A&&Q&&Q.goal){A={name:Q.name||'',goal:Q.goal,focus:Q.focus||'whole',place:Q.place||'gym',days:+Q.days||3,time:Q.time||'35',lvl:Q.lvl||'beg',jump:Q.jump||'yes'};put('plan',A);FROMQ=true}
 if(A&&!A.start){A.start=new Date().toISOString().slice(0,10);put('plan',A)}
+LANG=(A&&A.lang)||(Q&&Q.lang)||get('lang',null)||'en';if(!I18N[LANG]&&LANG!=='en')LANG='en';
+fillLang($('#lang'));fillLang($('#lang2'));applyLang();
+function setLang(l){LANG=l;put('lang',l);if(A){A.lang=l;put('plan',A)}$('#lang').value=l;$('#lang2').value=l;applyLang()}
+$('#lang').addEventListener('change',function(){setLang(this.value)});
+$('#lang2').addEventListener('change',function(){setLang(this.value);home()});
 // blocul de 4 săptămâni: 1 învățare, 2 puțin mai greu, 3 împingi, 4 mai ușor (recuperare); apoi blocul următor, de la capăt, mai greu
 function wkInfo(){var d=Math.max(0,Math.floor((Date.now()-new Date((A&&A.start)||Date.now()).getTime())/864e5));return {w:Math.floor(d/7)%4+1,b:Math.floor(d/28)+1}}
 var WEEKS={1:['Learn the moves','Light weights, smooth reps. Stop every set with 3 reps still in the tank.'],2:['A little heavier','Same workouts. Where every rep looked clean last week, add 1–2 kg or 1–2 reps.'],3:['Push week','Aim for the top of the rep range on every set. Write it all down.'],4:['Lighter week','One set less on each exercise. Move well and let your body recover before the next block.']};
 function readForm(){var f=$('#f'),v=function(n){var e=f.querySelector('input[name="'+n+'"]:checked');return e?e.value:null};
-  return {name:$('#nm').value.trim(),goal:v('goal'),focus:v('focus'),place:v('place'),days:+v('days'),time:v('time'),lvl:v('lvl'),jump:v('jump')}}
+  return {lang:LANG,name:$('#nm').value.trim(),goal:v('goal'),focus:v('focus'),place:v('place'),days:+v('days'),time:v('time'),lvl:v('lvl'),jump:v('jump')}}
 $('#f').addEventListener('change',function(){var g=$('#f').querySelector('input[name="goal"]:checked').value;$('#fs-focus').hidden=(g==='mob'||g==='desk')});
 $('#f').addEventListener('submit',function(e){e.preventDefault();var st=A&&A.start;A=readForm();A.start=st||new Date().toISOString().slice(0,10);put('plan',A);home()});
 $('#chg').addEventListener('click',function(){if(A){$('#nm').value=A.name||'';['goal','focus','place','days','time','lvl','jump'].forEach(function(n){var x=$('#f').querySelector('input[name="'+n+'"][value="'+A[n]+'"]');if(x)x.checked=true})}show('setup')});
@@ -179,31 +195,31 @@ var LV={beg:'Beginner',mid:'Intermediate',adv:'Advanced'},GOAL={str:'Get Strong'
 function home(){
   if(!A){show('setup');return}
   var nb=$('#fromq'); if(nb) nb.hidden=!FROMQ;
-  var wi=wkInfo(),wt=WEEKS[wi.w];$('#wk').innerHTML='<span class="k">Block '+wi.b+' · week '+wi.w+' of 4</span><b>'+wt[0]+'</b><span class="muted small">'+wt[1]+(wi.w===4?'':' Your days stay the same; you get stronger by adding a little each week.')+'</span>';
-  $('#hi').textContent=(A.name?'Hi '+A.name+', ':'')+'your '+GOAL[A.goal]+' plan';
-  $('#chips').innerHTML='';[GOAL[A.goal],LV[A.lvl],{gym:'Gym',home:'Home',both:'Gym and home'}[A.place],A.days+' days a week',{10:'10 min',20:'20 min',35:'30–40 min'}[A.time]].forEach(function(t){var c=document.createElement('span');c.className='chip';c.textContent=t;$('#chips').appendChild(c)});
+  var wi=wkInfo(),wt=WEEKS[wi.w];$('#wk').innerHTML='<span class="k">'+T('Block {b} · week {w} of 4',{b:wi.b,w:wi.w})+'</span><b>'+T(wt[0])+'</b><span class="muted small">'+T(wt[1])+(wi.w===4?'':' '+T('Your days stay the same; you get stronger by adding a little each week.'))+'</span>';
+  $('#hi').textContent=A.name?T('Hi {n}, your {g} plan',{n:A.name,g:T(GOAL[A.goal])}):T('Your {g} plan',{g:T(GOAL[A.goal])});
+  $('#chips').innerHTML='';[T(GOAL[A.goal]),T(LV[A.lvl]),T({gym:'Gym',home:'Home',both:'Gym and home'}[A.place]),T('{n} days a week',{n:A.days}),{10:'10 min',20:'20 min',35:'30–40 min'}[A.time]].forEach(function(t){var c=document.createElement('span');c.className='chip';c.textContent=t;$('#chips').appendChild(c)});
   var wk=$('#week');wk.innerHTML='';var last=get('last',{});
   build(A).forEach(function(d,i){var c=document.createElement('div');c.className='card day';c.tabIndex=0;c.setAttribute('role','button');
-    var when=last[d.w]?'Last done '+last[d.w]:'Not done yet';
-    c.innerHTML='<div><span class="k">Day '+(i+1)+' · '+d.l+'</span><b>'+d.w+'</b><span class="muted small">'+when+'</span></div><span class="go">›</span>';
-    c.addEventListener('click',function(){over(d.w,'Day '+(i+1))});c.addEventListener('keydown',function(e){if(e.key==='Enter')over(d.w,'Day '+(i+1))});wk.appendChild(c)});
+    var when=last[d.w]?T('Last done {d}',{d:last[d.w]}):T('Not done yet');
+    c.innerHTML='<div><span class="k">'+T('Day {n}',{n:i+1})+' · '+T(d.l)+'</span><b>'+TW(d.w)+'</b><span class="muted small">'+when+'</span></div><span class="go">›</span>';
+    c.addEventListener('click',function(){over(d.w,T('Day {n}',{n:i+1}))});c.addEventListener('keydown',function(e){if(e.key==='Enter')over(d.w,T('Day {n}',{n:i+1}))});wk.appendChild(c)});
   var rs=$('#resets');rs.innerHTML='';Object.keys(W).filter(function(t){return W[t].kind==='reset'}).forEach(function(t){var c=document.createElement('div');c.className='card day';c.tabIndex=0;c.setAttribute('role','button');
-    c.innerHTML='<div><b>'+(function(n){return n.charAt(0).toUpperCase()+n.slice(1)})(t.replace('5-minute reset: ',''))+'</b><span class="muted small">5 minutes</span></div><span class="go">›</span>';c.addEventListener('click',function(){over(t,'Reset')});rs.appendChild(c)});
+    c.innerHTML='<div><b>'+(function(n){n=n.replace(/^[^:]*:\s*/,'');return n.charAt(0).toUpperCase()+n.slice(1)})(T(t))+'</b><span class="muted small">'+T('5 minutes')+'</span></div><span class="go">›</span>';c.addEventListener('click',function(){over(t,T('Reset'))});rs.appendChild(c)});
   var L=get('log',{}),m=$('#mine'),keys=Object.keys(L);m.innerHTML='';
-  if(!keys.length){m.innerHTML='<p class="muted small" style="margin:0">Your weights show up here after your first workout: first time → latest.</p>'}
-  else{var ul=document.createElement('ul');ul.className='hist';ul.style.cssText='margin:0;padding-left:18px';keys.forEach(function(k){var h=L[k],f=h[0],l=h[h.length-1];var li=document.createElement('li');li.textContent=k+': '+f.kg+' kg → '+l.kg+' kg';ul.appendChild(li)});m.appendChild(ul)}
+  if(!keys.length){m.innerHTML='<p class="muted small" style="margin:0">'+T('Your weights show up here after your first workout: first time → latest.')+'</p>'}
+  else{var ul=document.createElement('ul');ul.className='hist';ul.style.cssText='margin:0;padding-left:18px';keys.forEach(function(k){var h=L[k],f=h[0],l=h[h.length-1];var li=document.createElement('li');li.textContent=T(k)+': '+f.kg+' kg → '+l.kg+' kg';ul.appendChild(li)});m.appendChild(ul)}
   show('home');
 }
 var cur=null;
 function lvlSets(x,kind){if(kind!=='str'||x.sets<2)return x.sets;var n=x.sets;if(A&&A.lvl==='beg')n=x.sets-1;else if(A&&A.lvl==='adv'&&x.w)n=x.sets+1;if(wkInfo().w===4)n=Math.max(1,n-1);return n}
 function over(t,lab){
-  cur=t;var w=W[t];$('#o-k').textContent=lab;$('#o-t').textContent=t;$('#o-note').textContent=w.note||'';
+  cur=t;var w=W[t];$('#o-k').textContent=lab;$('#o-t').textContent=TW(t);$('#o-note').textContent=w.note?T(w.note):'';
   var L=$('#o-list');L.innerHTML='';var mins=0;
-  w.p.forEach(function(p){var c=document.createElement('div');c.className='card';c.innerHTML='<h3>'+p.s+'</h3>';
+  w.p.forEach(function(p){var c=document.createElement('div');c.className='card';c.innerHTML='<h3>'+T(p.s)+'</h3>';
     p.x.forEach(function(x){var s=lvlSets(x,w.kind),r=document.createElement('div');r.className='ex';
-      r.innerHTML='<img alt="" loading="lazy" src="'+V+x.id+'.jpg"><div><b>'+x.n+'</b><div class="dose">'+x.d+(s!==x.sets?' · you: '+s+' sets':'')+'</div></div><span class="go">›</span>';r.tabIndex=0;r.setAttribute('role','button');r.addEventListener('click',function(){jumpTo(x.id)});c.appendChild(r);
+      r.innerHTML='<img alt="" loading="lazy" src="'+V+x.id+'.jpg"><div><b>'+T(x.n)+'</b><div class="dose">'+TD(x.d)+(s!==x.sets?' · '+T('you: {n} sets',{n:s}):'')+'</div></div><span class="go">›</span>';r.tabIndex=0;r.setAttribute('role','button');r.addEventListener('click',function(){jumpTo(x.id)});c.appendChild(r);
       mins+=s*((x.secs||40)*(x.side?2:1)+(p.s==='Workout'&&s>1?75:15))/60});L.appendChild(c)});
-  $('#o-time').textContent='About '+Math.max(5,Math.round(mins/5)*5)+' min';var on=(active===t);$('#start').textContent=on?'Resume workout':'Start workout';$('#fin').hidden=!on;show('over');
+  $('#o-time').textContent=T('About {n} min',{n:Math.max(5,Math.round(mins/5)*5)});var on=(active===t);$('#start').textContent=on?T('Resume workout'):T('Start workout');$('#fin').hidden=!on;show('over');
 }
 // pașii: fiecare set al fiecărui exercițiu
 var steps=[],si=0,session={},t0=0,timer=null,wakel=null;
@@ -225,21 +241,21 @@ function lastOf(name){var h=get('log',{})[name];return h&&h[h.length-1]}
 function step(){
   stop();var s=steps[si],x=s.x;$('#rest').hidden=true;$('#act').hidden=false;
   var v=$('#vid');if(v.dataset.id!==x.id){v.dataset.id=x.id;v.poster=V+x.id+'.jpg';v.src=V+x.id+'.mp4';try{v.play().catch(function(){})}catch(e){}}
-  $('#p-step').textContent='Step '+(si+1)+' of '+steps.length;$('#pb').style.width=(si/steps.length*100)+'%';
-  $('#p-sec').textContent=s.p;$('#p-name').textContent=x.n;$('#p-dose').textContent=x.d;$('#p-cue').textContent=x.c;
-  $('#p-set').textContent=s.n>1?'Set '+s.k+' of '+s.n:'';
-  var l=x.w&&lastOf(x.n);$('#p-last').textContent=l?'Last time: '+l.sets.map(function(z){return (z[0]||'–')+' kg × '+(z[1]||'–')}).join(' · '):'';
-  var up=l&&x.top&&l.sets.length&&l.sets.every(function(z){return +z[1]>=x.top});$('#p-tip').hidden=!up;$('#p-tip').textContent='You hit '+x.top+' reps on every set last time. Add 1–2 kg today.';
+  $('#p-step').textContent=T('Step {a} of {b}',{a:si+1,b:steps.length});$('#pb').style.width=(si/steps.length*100)+'%';
+  $('#p-sec').textContent=T(s.p);$('#p-name').textContent=T(x.n);$('#p-dose').textContent=TD(x.d);$('#p-cue').textContent=T(x.c);
+  $('#p-set').textContent=s.n>1?T('Set {a} of {b}',{a:s.k,b:s.n}):'';
+  var l=x.w&&lastOf(x.n);$('#p-last').textContent=l?T('Last time: ')+l.sets.map(function(z){return (z[0]||'–')+' kg × '+(z[1]||'–')}).join(' · '):'';
+  var up=l&&x.top&&l.sets.length&&l.sets.every(function(z){return +z[1]>=x.top});$('#p-tip').hidden=!up;$('#p-tip').textContent=T('You hit {n} reps on every set last time. Add 1–2 kg today.',{n:x.top});
   $('#p-in').hidden=!x.w;$('#kg').value=(session[x.n]&&session[x.n][s.k-2]&&session[x.n][s.k-2][0])||(l&&l.sets[0]&&l.sets[0][0])||'';$('#reps').value='';
   var secs=x.secs;$('#p-work').hidden=!secs;
-  if(secs){var side=x.side?1:0;$('#wt').textContent=fmt(secs);$('#wside').textContent=x.side?'Side 1 of 2':'';$('#act').textContent='Start '+fmt(secs);
-    $('#act').onclick=function(){run(secs,function(){if(side===1){side=2;$('#wside').textContent='Side 2 of 2';$('#wt').textContent=fmt(secs);$('#act').textContent='Start side 2';$('#act').hidden=false;}else next()},$('#wt'));$('#act').hidden=true}}
-  else{$('#act').textContent=x.w?'Done · save set':'Done';$('#act').onclick=function(){if(x.w){(session[x.n]=session[x.n]||[]).push([$('#kg').value,$('#reps').value])}next()}}
+  if(secs){var side=x.side?1:0;$('#wt').textContent=fmt(secs);$('#wside').textContent=x.side?T('Side 1 of 2'):'';$('#act').textContent=T('Start {t}',{t:fmt(secs)});
+    $('#act').onclick=function(){run(secs,function(){if(side===1){side=2;$('#wside').textContent=T('Side 2 of 2');$('#wt').textContent=fmt(secs);$('#act').textContent=T('Start side 2');$('#act').hidden=false;}else next()},$('#wt'));$('#act').hidden=true}}
+  else{$('#act').textContent=x.w?T('Done · save set'):T('Done');$('#act').onclick=function(){if(x.w){(session[x.n]=session[x.n]||[]).push([$('#kg').value,$('#reps').value])}next()}}
 }
 function run(secs,end,el){var r=secs;el.textContent=fmt(r);stop();timer=setInterval(function(){r--;el.textContent=fmt(Math.max(r,0));if(r<=3&&r>0)beep(660);if(r<=0){stop();beep(990);end()}},1000)}
 function next(){
   var s=steps[si];
-  if(s.rest){var r=(A&&A.lvl==='beg')?90:75;$('#act').hidden=true;$('#p-work').hidden=true;$('#p-in').hidden=true;$('#rest').hidden=false;$('#rnext').textContent='Next: set '+(s.k+1)+' of '+s.n;
+  if(s.rest){var r=(A&&A.lvl==='beg')?90:75;$('#act').hidden=true;$('#p-work').hidden=true;$('#p-in').hidden=true;$('#rest').hidden=false;$('#rnext').textContent=T('Next: set {a} of {b}',{a:s.k+1,b:s.n});
     var go=function(){si++;step()};$('#skip').onclick=go;var left=r;$('#rt').textContent=fmt(left);stop();
     timer=setInterval(function(){left--;$('#rt').textContent=fmt(Math.max(left,0));if(left<=3&&left>0)beep(660);if(left<=0){stop();beep(990);go()}},1000);
     $('#plus').onclick=function(){left+=15;$('#rt').textContent=fmt(left)};return}
@@ -248,8 +264,8 @@ function next(){
 function finish(){
   stop();var L=get('log',{});Object.keys(session).forEach(function(n){var sets=session[n].filter(function(z){return z[0]||z[1]});if(!sets.length)return;(L[n]=L[n]||[]).push({d:new Date().toISOString().slice(0,10),kg:sets[0][0]||'–',sets:sets})});
   put('log',L);var la=get('last',{});la[cur]=new Date().toLocaleDateString();put('last',la);
-  var m=Math.round((Date.now()-t0)/60000);$('#d-t').textContent=W[cur].kind==='reset'?'Reset done':'Workout done';
-  $('#d-s').textContent=m+' minutes. '+(Object.keys(session).length?'Your weights are saved for next time.':'Nice work, see you next session.');
+  var m=Math.round((Date.now()-t0)/60000);$('#d-t').textContent=W[cur].kind==='reset'?T('Reset done'):T('Workout done');
+  $('#d-s').textContent=T('{m} minutes.',{m:m})+' '+(Object.keys(session).length?T('Your weights are saved for next time.'):T('Nice work, see you next session.'));
   active=null;try{wakel&&wakel.release()}catch(e){}show('done');
 }
 $('#quit').addEventListener('click',function(){stop();try{wakel&&wakel.release()}catch(e){}over(cur,$('#o-k').textContent)});

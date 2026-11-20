@@ -575,6 +575,11 @@ def q_input(name, legend, kind="text", hint="", attrs=""):
     return '<fieldset class="qf"><legend><span class="qn"></span>%s</legend>%s<div class="opts">%s</div></fieldset>' % (legend, h, field)
 
 QUIZ = "".join([
+    ('<fieldset class="qf"><legend><span class="qn"></span>Your program language</legend>'
+     '<p class="small muted">Your workouts, exercise names and instructions will be in this language. You can change it later in the program.</p>'
+     '<div class="opts"><select class="qin" name="plang" style="max-width:260px">'
+     '<option value="en">English</option><option value="ro">Română</option><option value="es">Español</option>'
+     '<option value="de">Deutsch</option><option value="fr">Français</option><option value="tr">Türkçe</option></select></div></fieldset>'),
     q_input("name", "What's your first name?", "text", "So your plan can say hi to you.", ' autocomplete="given-name" maxlength="40" placeholder="First name"'),
     q_radio("sit", "How many hours do you sit on a normal day?", [("lt4", "Under 4"), ("4-8", "4 to 8"), ("8-12", "8 to 12"), ("12", "12 or more")]),
     q_radio("goal", "What do you want most right now?", [("mob", "Move without stiffness"), ("str", "Get stronger"), ("fat", "Lose some fat and get fitter"), ("desk", "Feel better at my desk (neck, back, posture)")]),
@@ -756,6 +761,7 @@ training = """
     qFeel.hidden=vals('area').length===0; if(qFeel.hidden) clear('feel');
     var k=0;[].forEach.call(f.querySelectorAll('fieldset.qf'),function(fs){var q=fs.querySelector('.qn'); if(!fs.hidden){k++; q.textContent=k+'. ';}});
   }
+  (function(){var ps=f.querySelector('select[name="plang"]'),bl=((navigator.language||'en').slice(0,2)).toLowerCase();if(ps&&['ro','es','de','fr','tr'].indexOf(bl)>-1)ps.value=bl})();
   f.addEventListener('change',sync);
   f.addEventListener('submit',function(e){
     e.preventDefault();
@@ -817,7 +823,7 @@ training = """
       }
     }
     // salvează planul pe telefon, ca my-program.html să-l deschidă direct după cumpărare (nu se trimite nicăieri)
-    try{localStorage.setItem('kmp:quiz',JSON.stringify({name:nm,goal:(safe?'mob':a.goal),focus:a.focus,place:a.place,days:a.days,time:a.time,lvl:(safe?'beg':lv),jump:(noJump?'no':'yes'),ts:Date.now()}))}catch(e){}
+    try{localStorage.setItem('kmp:quiz',JSON.stringify({lang:(f.querySelector('select[name="plang"]')||{}).value||'en',name:nm,goal:(safe?'mob':a.goal),focus:a.focus,place:a.place,days:a.days,time:a.time,lvl:(safe?'beg':lv),jump:(noJump?'no':'yes'),ts:Date.now()}))}catch(e){}
     var shownAreas=pain?[]:areas;
     var hN=parseFloat((f.querySelector('input[name="height"]')||{}).value), wN=parseFloat((f.querySelector('input[name="weight"]')||{}).value);
     var hOk=(hN>=120&&hN<=230), wOk=(wN>=30&&wN<=250);

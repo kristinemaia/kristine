@@ -5,7 +5,7 @@ videoul exercițiului, cum se face, seturile, cronometru pentru pauze și pentru
 „Last time” și sugestia când să crească greutatea. Totul rămâne în telefonul lui (localStorage).
 Sursa: studio/custom-program/workouts.py (aceleași 27 de antrenamente ca pe Payhip).
 Rulezi: python3 website/build_program.py  -> website/my-program.html + website/assets/program/<id>.mp4/.jpg"""
-import json, os, re, subprocess, sys
+import re, json, os, re, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 CP = os.path.join(ROOT, 'studio/custom-program'); sys.path.insert(0, CP)
 from workouts import ALL, NAMES, HOME_NAMES, CUES
@@ -62,6 +62,17 @@ for wk in ALL:
 for cid in sorted(used): asset(cid)
 
 page = open(os.path.join(HERE, 'program_template.html'), encoding='utf-8').read()
-open(os.path.join(HERE, 'my-program.html'), 'w', encoding='utf-8').write(page.replace('__DATA__', json.dumps(data, ensure_ascii=False)))
+sys.path.insert(0, HERE)
+from program_i18n import LANGS, ROWS
+from program_i18n_cues import CUES
+i18n = {code: {} for code, _ in LANGS[1:]}
+for row in ROWS + CUES:
+    for (code, _), txt in zip(LANGS[1:], row[1:]): i18n[code][row[0]] = txt
+# verificare: fiecare nume, instrucțiune, titlu, parte și notă are traducere
+need = set(data) | {w['note'] for w in data.values() if w['note']} | {p['s'] for w in data.values() for p in w['p']} | {x['n'] for w in data.values() for p in w['p'] for x in p['x']} | {x['c'] for w in data.values() for p in w['p'] for x in p['x']}
+need = {re.sub(r' \((gym|home)\)$', '', t) for t in need}
+missing = sorted(t for t in need if t not in i18n['ro'])
+if missing: print('FĂRĂ TRADUCERE:', missing)
+open(os.path.join(HERE, 'my-program.html'), 'w', encoding='utf-8').write(page.replace('__DATA__', json.dumps(data, ensure_ascii=False)).replace('__I18N__', json.dumps(i18n, ensure_ascii=False)).replace('__LANGS__', json.dumps(LANGS, ensure_ascii=False)))
 tot = sum(os.path.getsize(os.path.join(ASSETS, f)) for f in os.listdir(ASSETS))
 print('gata: website/my-program.html ·', len(data), 'antrenamente ·', len(used), 'exerciții · %.1f MB clipuri' % (tot / 1e6))
