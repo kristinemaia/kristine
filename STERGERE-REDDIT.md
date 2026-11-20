@@ -3,7 +3,7 @@
 Eu nu pot trimite nimic în numele tău: formularele cer contul tău, numele tău legal și o declarație pe proprie răspundere. Ce am pregătit: ordinea pașilor, textele și tabelul de urmărire. Tu doar copiezi, lipești și apeși Trimite.
 
 ## Înainte să începi (10 min, o singură dată)
-1. Strângi linkurile exacte către fiecare postare (nu către comunitate). Le scrii în tabelul de mai jos.
+1. Strângi linkurile exacte către fiecare postare (nu către comunitate). Le ții în notița privată de pe telefon, nu aici.
 2. Faci o captură de ecran la fiecare postare, cu data vizibilă. Le păstrezi doar pe telefon, într-un dosar privat. Nu le postezi nicăieri.
 3. Faci **StopNCII.org** (10 min) înainte de Reddit: Reddit e partener și codul ajută la oprirea reîncărcării.
 4. Ai la îndemână: numele legal complet și un email pe care îl verifici.
@@ -37,8 +37,8 @@ Intri pe reddit.com/report (verifică categoriile; pot fi schimbate). Alegi cate
 - Dacă tot nu se mișcă, cazul merge la avocat, cu tabelul de mai jos ca dovadă.
 
 ## Tabel de urmărire
-| # | Link | Postarea (pe scurt) | Raportat pe (data) | Cum | Răspuns | Șters? |
-|---|------|---------------------|--------------------|-----|---------|--------|
-| 1 |      |                     |                    |     |         |        |
-| 2 |      |                     |                    |     |         |        |
-| 3 |      |                     |                    |     |         |        |
+| # | Postarea (pe scurt, fără link) | Raportat pe (data) | Cum | Răspuns | Șters? |
+|---|---------------------|--------------------|-----|---------|--------|
+| 1 |                     |                    |     |         |        |
+| 2 |                     |                    |     |         |        |
+| 3 |                     |                    |     |         |        |
