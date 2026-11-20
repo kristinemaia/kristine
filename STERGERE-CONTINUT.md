@@ -14,7 +14,7 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 |---|---|---|---|
 | 29 oct | Pornhub (contul vechi) | ✅ **șters**: conținutul și contul, confirmat pe 29 oct | nimic |
 | 28 oct | LeakGallery | ✅ **șters** în aceeași zi | verifici o dată pe lună |
-| 28–30 oct | Camwhores (13 videoclipuri) | au cerut lista exactă, ai trimis-o pe 30 oct; promis 24–48 h, **fără confirmare** | revenirea trimisă 20 nov. Rețeaua e a lor: **CW-AS (AS212792), Amsterdam** → adresa de abuz de pe ipinfo.io/88.210.60.61, apoi furnizorul lor (bgp.he.net/AS212792) |
+| 28–30 oct | Camwhores (13 videoclipuri) | au cerut lista exactă, ai trimis-o pe 30 oct; promis 24–48 h, **fără confirmare** | revenirea trimisă 20 nov. Rețeaua e a lor: **CW-AS (AS212792), Amsterdam** → adresa de abuz de pe ipinfo.io/88.210.60.61, apoi furnizorii lor: **Gigahost (NO) abuse@as56655.net**, **Hurricane Electric (SUA) abuse@he.net**, uvensys (DE) de aflat. ✏️ ciorna către furnizori e gata, se trimite **duminică 22 nov seara** dacă nu răspund |
 | 28 oct | Fapello | ❌ adresa lor de email nu există; **nu e pe Cloudflare**. Hostingul: **WEDEPLOY SAS / Infrawire.net, Amsterdam (Olanda, UE)**, abuz: abuse@ipbnb.com | ✅ cererea trimisă la hosting pe 20 nov (DSA art. 16 + GDPR + copyright); aștepți răspuns 7 zile |
 | 28 oct | Erome (erome.vip) | cererea a plecat din greșeală la adresa Fapello; **același server ca Fapello** (Infrawire, NL) | ✏️ completarea către abuse@ipbnb.com e în Ciorne (20 nov) |
 | 28 oct | Kemono | niciun răspuns; nu mai e pe Cloudflare. E prin **DDoS-Guard / IQWeb FZ-LLC (Belize)**, abuz: abuse@iqweb.io | ✏️ cererea e în Ciorne (20 nov); șanse mici, deci Google copyright în paralel |
