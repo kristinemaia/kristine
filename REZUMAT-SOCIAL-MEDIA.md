@@ -1,6 +1,6 @@
 # Rezumat social media și conținut (20 nov 2026)
 
-_Pentru o conversație nouă: copiezi tot ca prim mesaj. Detaliile: Bibliotecă `claude.ai/artifact/VKgtprqP7DFvivSXeBeAX1` → „Postări gata”, „Lansarea Custom Program”, „Toate descrierile”, „Programările din noiembrie”, „Formatele noastre de postări”, „Pozele de făcut”._
+_Pentru o conversație nouă: copiezi tot ca prim mesaj. Detaliile: Bibliotecă `claude.ai/artifact/VKgtprqP7DFvivSXeBeAX1` → „Postări gata”, „Lansarea Level Up”, „Toate descrierile”, „Programările din noiembrie”, „Formatele noastre de postări”, „Pozele de făcut”._
 
 ## 1. Cine și ce vindem
 - **Kristine Maia**, româncă în Turcia. Instagram/TikTok **@kristinemaia11**, Twitch **kristinemaia** (Partner, 72K), site **kristinemaia.com**.
@@ -18,7 +18,7 @@ _Pentru o conversație nouă: copiezi tot ca prim mesaj. Detaliile: Bibliotecă 
 Kristine Maia | Gym & Home Workouts
 Workouts for people who sit all day 🎮
 Gym or home · what I eat · Twitch Partner
-👇 Custom Program is open · 2-min quiz → your plan
+👇 Level Up is open · 2-min quiz → your plan
 ```
 Linkul din bio: `kristinemaia.com/training.html`. Highlight nou: **PROGRAM** (primul).
 
@@ -67,7 +67,7 @@ General exercise, not medical advice.
 - **RH1** Warm up like this if you sit all day (joi 26, 12:00) · **RH2** No equipment? Do this at home.
 - **Spatele după gaming** (montat de Kristine): „POV: 6 hours of gaming and your back starts talking” · „20 reps each” · final „Send this to your gaming duo 🎮” · copertă „my 2-minute fix”.
 
-Ultimul rând pentru orice postare: `Want a plan like this built for your body? My Custom Program is open: 2-min quiz, link in bio 💗`
+Ultimul rând pentru orice postare: `Want a plan like this built for your body? Level Up, my training program, is open: 2-min quiz, link in bio 💗`
 
 ## 5. Calendar
 | Zi | Ce iese |

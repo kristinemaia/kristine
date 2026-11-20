@@ -1,4 +1,6 @@
-# Lansarea Custom Program (de pe 20 nov 2026)
+# Lansarea Level Up (de pe 20 nov 2026)
+
+_Numele programului: **Level Up** (fostul „Custom Program”), ales pe 20 nov._
 
 _Contabila a confirmat (20 nov): vindem. Linkul de cumpărare: `payhip.com/b/gWIHB` · quiz-ul: `kristinemaia.com/training.html` · prețul: **$10/lună pentru primii 50**, rămâne cât timp stau, anulare oricând. Fișierele: Bibliotecă → „Postări gata” → „Lansarea”._
 
@@ -8,19 +10,19 @@ _Contabila a confirmat (20 nov): vindem. Linkul de cumpărare: `payhip.com/b/gWI
 
 ## 0. Înainte să postezi (10 minute)
 - [ ] **Payhip → abonamentul → Publish:** **Published + Visible** → Save.
-- [ ] **Netlify:** zip-ul cel mai nou e urcat (butonul de după quiz: „Get my Custom Program · $10/month”).
+- [ ] **Netlify:** zip-ul cel mai nou e urcat (butonul de după quiz: „Get my Level Up · $10/month”).
 - [ ] **Payhip:** postarea „👉 Open your program here” e prima; pagina de mulțumire are linkul spre program; coperta e pusă; cele 27 de postări cu antrenamente sunt șterse.
 - [ ] **Instagram, bio:** schimbi ultimul rând în:
 ```
-👇 Custom Program is open · 2-min quiz → your plan
+👇 Level Up is open · 2-min quiz → your plan
 ```
-- [ ] **Linkul din bio** rămâne `kristinemaia.com/training.html` (quiz-ul; de acolo se cumpără). Dacă folosești Linktree: primul buton „Custom Program · $10/month” → `kristinemaia.com/training.html`.
-- [ ] **TikTok, bio:** `Workouts for people who sit all day 🎮 Custom Program is open 👇`
+- [ ] **Linkul din bio** rămâne `kristinemaia.com/training.html` (quiz-ul; de acolo se cumpără). Dacă folosești Linktree: primul buton „Level Up · $10/month” → `kristinemaia.com/training.html`.
+- [ ] **TikTok, bio:** `Workouts for people who sit all day 🎮 Level Up is open 👇`
 
 ---
 
 ## 1. Reel-ul de lansare · L1 „It's open” (vin 20 nov, 18:00, Instagram + TikTok)
-Fișierul: `brand/lansare/out/L1-its-open.mp4` (34 s): coperta „My Custom Program is live 🎉” → demo-ul din site (quiz → plan → Start → greutăți) → „$10 per month, first 50”. Fără muzică: pui un sunet în trend, încet.
+Fișierul: `brand/lansare/out/L1-its-open.mp4` (34 s): coperta „Level Up is live 🎉” → demo-ul din site (quiz → plan → Start → greutăți) → „$10 per month, first 50”. Fără muzică: pui un sunet în trend, încet.
 **Coperta:** `story-01-its-open.png`.
 ```
 It's finally open 🎉
@@ -44,7 +46,7 @@ Fișierele: `brand/lansare/out/story-01…06.png`. Stickerele le pui din Instagr
 
 | Nr | Ce e | Sticker |
 |---|---|---|
-| 1 | „My Custom Program is live 🎉” (poza ta la sală) | sticker cu reel-ul nou („Add post”) sau nimic |
+| 1 | „Level Up is live 🎉” (poza ta la sală) | sticker cu reel-ul nou („Add post”) sau nimic |
 | 2 | „Every workout, step by step” (telefoanele) | – |
 | 3 | „3 steps” | **Link** → `kristinemaia.com/training.html`, text „Take the quiz”, jos, în spațiul gol |
 | 4 | „$10 per month, founding price” | **Link** → `payhip.com/b/gWIHB`, text „Join now”, în spațiul gol de jos |
@@ -100,19 +102,19 @@ Answer a few questions (how long you sit, your goal, gym or home, how many days)
 ```
 No more standing in the gym scrolling for what to do next. 😅
 Tap your day, press Start, and the plan walks you through it: the exercise, how to do it, the timer, the rest.
-Custom Program is open: 2-min quiz, link in bio.
+Level Up is open: 2-min quiz, link in bio.
 #gymanxiety #gymtips #workoutplan #gymgirl
 ```
 **P4 · It remembers what you lifted** (trial reel, mar 24)
 ```
 The secret to getting stronger is boring: lift a little more than last time. 📈
 So my program saves every set. Next time you open it, it shows you what you did last week.
-Custom Program is open: 2-min quiz, link in bio.
+Level Up is open: 2-min quiz, link in bio.
 #progressiveoverload #gymtips #strengthtraining #gymgirl
 ```
 **Ultimul rând pentru toate celelalte postări** (carusele, rețete, mobilitate), în loc de „opening soon”:
 ```
-Want a plan like this built for your body? My Custom Program is open: 2-min quiz, link in bio 💗
+Want a plan like this built for your body? Level Up, my training program, is open: 2-min quiz, link in bio 💗
 ```
 
 ---
@@ -148,10 +150,10 @@ Your plan is saved on the phone where you took the quiz. On a new phone, just pi
 
 ## 6. Mesajul pentru testeri (cod `TESTER100`, 10 folosiri, până pe 6 dec)
 ```
-Hi! 💗 You're one of the first people I'm giving my Custom Program to, for free for the first month.
+Hi! 💗 You're one of the first people I'm giving my Level Up to, for free for the first month.
 
 1. Take the quiz on your phone: kristinemaia.com/training.html
-2. Tap "Get my Custom Program", use the code TESTER100 at checkout (it'll be $0)
+2. Tap "Get my Level Up", use the code TESTER100 at checkout (it'll be $0)
 3. Open the program from the email/Payhip and do at least 2 workouts this week
 
 Then send me 3 things: what you liked, what was confusing, and a short sentence I can share (only if you're happy with that).

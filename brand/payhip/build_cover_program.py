@@ -36,8 +36,8 @@ WIDE = card(1280, 720, """
 %s
 <div style="position:absolute;left:70px;top:0;bottom:0;width:560px;display:flex;flex-direction:column;justify-content:center">
  <span class="tag" style="font-size:20px;padding:9px 18px;align-self:flex-start">MEMBERSHIP</span>
- <h1 style="font-size:92px;margin-top:20px">Custom<br>Program</h1>
- <p class="sub" style="font-size:26px;margin:20px 0 0;line-height:1.25">Your gym or home plan, built from a<br>2-minute quiz. For people who sit all day.</p>
+ <h1 style="font-size:92px;margin-top:20px">Level<br>Up</h1>
+ <p class="sub" style="font-size:26px;margin:20px 0 0;line-height:1.25">Stronger, leaner or less stiff:<br>your gym or home plan from a 2-minute quiz.</p>
  %s
  <p style="font-size:21px;margin:16px 0 0;font-weight:700">Kristine Maia</p>
 </div>%s""" % (photo(620, 660, 720), chips(19, '7px 14px', 20), ''))
@@ -46,8 +46,8 @@ SQUARE = card(1080, 1080, """
 <div class="sh" style="width:640px;height:640px;left:-300px;top:600px;background:var(--pink)"></div>
 <div style="position:absolute;left:64px;top:0;bottom:0;width:430px;display:flex;flex-direction:column;justify-content:center">
  <span class="tag" style="font-size:24px;padding:11px 22px;align-self:flex-start">MEMBERSHIP</span>
- <h1 style="font-size:100px;margin-top:22px">Custom<br>Program</h1>
- <p class="sub" style="font-size:30px;margin:22px 0 0;line-height:1.25">Your gym or home plan, built from a 2-minute quiz. For people who sit all day.</p>
+ <h1 style="font-size:100px;margin-top:22px">Level<br>Up</h1>
+ <p class="sub" style="font-size:30px;margin:22px 0 0;line-height:1.25">Stronger, leaner or less stiff: your gym or home plan from a 2-minute quiz.</p>
  %s
 </div>%s""" % (photo(470, 610, 1080, '40% 30%'), chips(21, '8px 16px', 20).replace('Logs your weights', 'Logs weights'), ''))
 HERO = card(1920, 1080, """
@@ -55,8 +55,8 @@ HERO = card(1920, 1080, """
 %s
 <div style="position:absolute;left:130px;top:0;bottom:0;width:900px;display:flex;flex-direction:column;justify-content:center">
  <span class="tag" style="font-size:30px;padding:14px 28px;align-self:flex-start">MEMBERSHIP</span>
- <h1 style="font-size:150px;margin-top:30px">Custom<br>Program</h1>
- <p class="sub" style="font-size:40px;margin:30px 0 0;line-height:1.25">Your gym or home plan,<br>built from a 2-minute quiz.<br>For people who sit all day.</p>
+ <h1 style="font-size:150px;margin-top:30px">Level<br>Up</h1>
+ <p class="sub" style="font-size:40px;margin:30px 0 0;line-height:1.25">Stronger, leaner or less stiff.<br>Your gym or home plan,<br>built from a 2-minute quiz.</p>
  %s
  <p style="font-size:32px;margin:26px 0 0;font-weight:700">Kristine Maia</p>
 </div>%s""" % (photo(960, 960, 1080, '40% 28%'), chips(30, '12px 24px', 34), ''))

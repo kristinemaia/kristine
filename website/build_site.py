@@ -193,7 +193,7 @@ def wl_form(form, label, button, extra=""):
 def join_html():
     """După quiz: la lansare (LINKS["BUY"] completat) butonul de cumpărare; până atunci, formularul de waitlist."""
     if LINKS.get("BUY"):
-        return ('<div class="row-btns"><a class="btn" id="r-join" href="%s">Get my Custom Program · $10/month</a></div>'
+        return ('<div class="row-btns"><a class="btn" id="r-join" href="%s">Start Level Up · $10/month</a></div>'
                 '<p class="small muted" style="margin:8px 0 0">Founding price for the first 50 members, kept for as long as you stay. Cancel anytime. '
                 'After you join, you open your program on kristinemaia.com and build this plan in one minute.</p>') % LINKS["BUY"]
     hidden = ''.join('<input type="hidden" name="%s">' % n for n in ("plan", "level", "where", "days", "note"))
@@ -218,7 +218,7 @@ WL_JS = """<script>
 POPUP = """
 <div class="cp-pop" id="cp-pop" role="dialog" aria-modal="false" aria-labelledby="cp-h" hidden>
   <button class="cp-x" id="cp-x" type="button" aria-label="Close">×</button>
-  <p class="kicker">Custom Program · now open</p>
+  <p class="kicker">Level Up · now open</p>
   <p class="cp-h" id="cp-h">Get your custom training plan</p>
   <p class="small muted">Answer a few quick questions and see your plan: your goal, gym or home, your time. Every workout step by step, with videos and a timer.</p>
   <a class="btn" href="training.html#quiz">Take the 2-minute quiz</a>
@@ -392,7 +392,7 @@ home = """
     </div>
     <div class="more-grid">
       <article class="offer" id="program-home">
-        <h3>Your custom program</h3>
+        <h3>Level Up: your custom program</h3>
         <p class="price">$10/month<small>founding price for the first 50 members</small></p>
         <p>Answer a 2-minute quiz and get a plan built around how much you sit: less stiff, stronger or leaner, at home or at the gym. Follow-along videos with me, 10 to 40 minutes.</p>
         <p class="fine">General exercise and education. Not medical advice.</p>
@@ -400,9 +400,9 @@ home = """
       </article>
       <div class="soon">
         <p class="kicker">Now open</p>
-        <p>The <strong>Custom Program</strong> is open: $10/month for the first 50 members. Take the quiz, see your plan, then join.</p>
+        <p><strong>Level Up</strong>, my training program, is open: $10/month for the first 50 members. Take the quiz, see your plan, then join.</p>
         <p class="mt-s">Also coming: <strong>1:1 coaching</strong> for a small group: training and nutrition coaching built around your week, with feedback on your form.</p>
-        <p class="all"><a href="{BUY}">Join the Custom Program</a> · <a href="shop.html#coaching">Coaching waitlist</a> · <a href="shop.html">See the shop</a></p>
+        <p class="all"><a href="{BUY}">Join Level Up</a> · <a href="shop.html#coaching">Coaching waitlist</a> · <a href="shop.html">See the shop</a></p>
       </div>
     </div>
   </div>
@@ -626,7 +626,7 @@ training = """
   <ol class="steps">
     <li><b>Take the quiz.</b> Two minutes. Your answers stay in your browser.</li>
     <li><b>Get your custom program.</b> Your week, day by day, plus short resets for the spots that feel stiff.</li>
-    <li><b>Train with me.</b> Follow-along videos filmed in the gym, with home versions, 10 to 40 minutes. Custom Program members get their program, every video and a new workout every week.</li>
+    <li><b>Train with me.</b> Follow-along videos filmed in the gym, with home versions, 10 to 40 minutes. Level Up members get their program, every video and a new workout every week.</li>
   </ol>
 </section>
 
@@ -937,10 +937,10 @@ shop = """
 </section>
 
 <section class="wrap block" aria-labelledby="soon-title">
-  <div class="block-head"><p class="kicker">Now open · founding price</p><h2 id="soon-title">Your custom program</h2></div>
+  <div class="block-head"><p class="kicker">Now open · founding price</p><h2 id="soon-title">Level Up: your custom program</h2></div>
   <article class="panel p-blue" id="program">
     <span class="tag">Founding price · first 50</span>
-    <h3>Custom Program</h3>
+    <h3>Level Up</h3>
     <p class="p">$10<small>per month, founding price for the first 50 members</small></p>
     <ul><li>A 2-minute quiz builds your plan: goal, focus, home or gym, time</li><li>Every workout step by step: the video of each exercise, how to do it, a timer for your rest and your holds</li><li>Your training log: your weights from last time and when to go up</li><li>Unstiff, Get Strong, Shape Up and Desk Reset, plus 5-minute resets for your neck, back and wrists</li></ul>
     <div class="row-btns"><a class="btn" href="{BUY}">Join for $10/month</a> <a class="btn alt" href="training.html#quiz">Take the 2-minute quiz first</a></div>
@@ -986,7 +986,7 @@ shop = """
 page(
     "shop.html",
     "Shop · Kristine Maia",
-    "The Custom Program ($10/month founding price) and 1:1 coaching with training and nutrition (waitlist), plus discount codes for gear I use.",
+    "Level Up, my training program ($10/month founding price), and 1:1 coaching with training and nutrition (waitlist), plus discount codes for gear I use.",
     shop,
 )
 
@@ -1130,7 +1130,7 @@ legal = """
     <h2>Not medical advice</h2>
     <p class="muted">All content on this site, in my streams and in my products is general information about exercise, mobility and nutrition. It is not medical advice, diagnosis or treatment. I studied Physical Education and Sport and coach mobility, not a medical professional. If you have pain, an injury, a medical condition, are pregnant or take medication, talk to a doctor before starting any routine or changing your diet.</p>
     <h2>Privacy</h2>
-    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers (including your first name and age) stay on your device. If you join the coaching waitlist, the form sends your first name and email to me through my website host [Netlify Forms], only so I can email you when spots open. Your quiz answers (including health answers, age, height and weight) stay on your device and are never sent. If you buy the Custom Program, Payhip handles the payment, your account and the receipts. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
+    <p class="muted">If you join the email list, your email address is stored by my email provider [TODO: MailerLite / Kit] only to send you the free routine and updates. You can unsubscribe at any time with one click. If you buy something, your order is processed by [TODO: Payhip], which handles payment and delivery. This site does not use advertising cookies. Fonts are loaded from Google Fonts, so your browser sends your IP address to Google when a page loads. If you choose another language in the menu, the page text is sent to Google Translate to be translated; the quiz is never translated, so your answers (including your first name and age) stay on your device. If you join the coaching waitlist, the form sends your first name and email to me through my website host [Netlify Forms], only so I can email you when spots open. Your quiz answers (including health answers, age, height and weight) stay on your device and are never sent. If you join Level Up, Payhip handles the payment, your account and the receipts. If you start a live chat, your messages are handled by the chat provider [Tawk.to] only to answer you. To ask about, correct or delete your data, email {EMAIL}.</p>
     <h2>Purchases</h2>
     <p class="muted">Digital products are delivered by email right after payment. [TODO: politica de retur, verificată de avocat: de exemplu, dreptul de retragere pentru conținut digital și momentul în care se pierde].</p>
     <h2>Affiliate links</h2>

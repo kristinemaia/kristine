@@ -41,7 +41,7 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 | ianuarie | Kitchen things that make meal prep easy |
 
 ## 2. „Save this workout” (modelul Senada Greca)
-**Ce e:** carusel de 7 slide-uri: tu în prima poză, fără text; apoi titlul și câte o parte a antrenamentului pe slide (încălzire, picioare, spate, core), fiecare cu un „de ce”; la final, îndemnul spre Custom Program.
+**Ce e:** carusel de 7 slide-uri: tu în prima poză, fără text; apoi titlul și câte o parte a antrenamentului pe slide (încălzire, picioare, spate, core), fiecare cu un „de ce”; la final, îndemnul spre Level Up.
 **Șablonul:** `brand/carousels-en/build_s1.py` (S1, 20 nov). Fundalul slide-urilor cu text: pozele tale, estompate, câte una diferită pe slide.
 **Pozele:** 4–6 selfie-uri la oglindă din aceeași zi, în aceeași ținută.
 
@@ -58,7 +58,7 @@ _17 noiembrie 2026. Aici păstrăm formatele care ne plac, ca să le refacem ori
 **Ce e:** carusel de 2 slide-uri. **1:** o poză cu tine la sală, fără text (selfie la oglindă sau din profil). **2:** antrenamentul zilei, ca o notiță din aplicația **Notes** de pe iPhone: titlul („Glutes 🍑”), 5–6 exerciții numerotate, seriile × repetările și un sfat scurt în paranteză. Descrierea începe cu „Swipe for today's … workout”.
 **De ce merge:** poza oprește scroll-ul, notița e salvată (oamenii o fac a doua zi). Pare scris pe loc, nu „conținut”.
 **Cum îl faci:** (a) scrii lista în Notes pe telefon și faci screenshot (cel mai autentic), sau (b) îmi dai lista și o fac eu: `python3 brand/carousels-en/build_notes.py brand/carousels-en/specs/<nume>.json`. Fără date despre sală sau oraș în poză.
-**Ritmul:** o dată pe săptămână, joia. Exercițiile vin din Custom Program, ca oamenii să vadă cum arată o zi din el.
+**Ritmul:** o dată pe săptămână, joia. Exercițiile vin din Level Up, ca oamenii să vadă cum arată o zi din el.
 **Ediții:** N1 Glutes (26 nov) · N2 Back & posture (desk hunch) · N3 Home, 20 min, only dumbbells · N4 Upper body for desk people · N5 5-minute desk reset (vineri, după stream) · N6 Leg day for beginners.
 
 ## 6. „A Day On My Plate” (modelul Caroline O'Mahony, 18 nov)

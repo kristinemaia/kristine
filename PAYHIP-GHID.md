@@ -1,8 +1,8 @@
-# Payhip, pas cu pas: cum facem pagina pentru Custom Program
+# Payhip, pas cu pas: cum facem pagina pentru Level Up
 
-> **Actualizat 16 nov (are prioritate peste ce scrie mai jos):** pe Payhip, abonamentul (Membership) nu include cursuri: conținutul lui sunt **postările** (Posts) și **Video Library**. Deci antrenamentele le punem ca **postări video** în abonamentul „Custom Program”, nu ca 4 cursuri separate. Moneda contului nu se schimbă din USD, așa că prețul e **10 USD/lună** (~9 €; Stripe plătește în EUR). Linkul paginii de vânzare: `payhip.com/b/gWIHB` (nepublicat).
+> **Actualizat 16 nov (are prioritate peste ce scrie mai jos):** pe Payhip, abonamentul (Membership) nu include cursuri: conținutul lui sunt **postările** (Posts) și **Video Library**. Deci antrenamentele le punem ca **postări video** în abonamentul „Level Up”, nu ca 4 cursuri separate. Moneda contului nu se schimbă din USD, așa că prețul e **10 USD/lună** (~9 €; Stripe plătește în EUR). Linkul paginii de vânzare: `payhip.com/b/gWIHB` (nepublicat).
 >
-> **Făcut pe 16 nov:** abonamentul „Custom Program” creat · Settings (comentarii da, notificări da, fără dată, fără listă automată, cu TVA) · planul „Founding member”, Subscription, 10 USD, Every month.
+> **Făcut pe 16 nov:** abonamentul „Level Up” creat · Settings (comentarii da, notificări da, fără dată, fără listă automată, cu TVA) · planul „Founding member”, Subscription, 10 USD, Every month.
 > **Făcut tot pe 16 nov:** pagina de vânzare (textele și pozele din `brand/payhip/membership-*.jpg`).
 > **Tot pe 16 nov:** verificat în incognito (nu se vede, nu se poate cumpăra) · pagina de mulțumire · postarea „Start here” cu eticheta `Start here`.
 > **Făcut pe 17 nov:** abonamentul **Payhip Videos (5 $/lună)** · cele 4 videouri vorbite urcate în Video Library, ca postări video cu eticheta `Start here` (Start here, How to use your program, Safety first, How to film your form).
@@ -37,7 +37,7 @@ Videourile ți le dau eu exportate, numite în ordine (ex. `GS-W1-A-gym.mp4`), c
 
 ## 3. Abonamentul
 **Products → Add new → Membership.**
-- [ ] numele: **Custom Program**
+- [ ] numele: **Level Up**
 - [ ] prețul lunar (de stabilit: propunerea din „Antrenamentul online”, secțiunea 6) și, opțional, anual cu reducere
 - [ ] **include toate cele 4 cursuri** (așa omul își poate schimba traseul fără să plătească din nou)
 - [ ] perioadă de probă (opțional): 7 zile
@@ -51,7 +51,7 @@ Videourile ți le dau eu exportate, numite în ordine (ex. `GS-W1-A-gym.mp4`), c
 
 **Testul tău, pas cu pas (20 de minute, pe telefon):**
 - [ ] **Netlify:** urci zip-ul nou (are și înălțimea și greutatea în quiz) și deschizi `kristinemaia.com/my-program.html` pe telefon: îți faci planul, apeși o zi, Start
-- [ ] **Coupons → Add coupon** în Payhip: cod de **100%** (ex. `TESTER100`), pe produsul „Custom Program”, limitat la 10 folosiri
+- [ ] **Coupons → Add coupon** în Payhip: cod de **100%** (ex. `TESTER100`), pe produsul „Level Up”, limitat la 10 folosiri
 - [ ] **Cumpărarea de probă:** abonamentul e nepublicat, deci întâi verifici în setările produsului dacă poate fi „ascuns” (cumpărabil doar din link, fără să apară în magazin). Dacă singura variantă e „Publish”, decizia e a ta: îl publici 15 minute, seara, cumperi cu `TESTER100` (0 $, nicio vânzare reală) și îl treci imediat înapoi pe nepublicat
 - [ ] într-o fereastră incognito, cu **alt email** decât cel de vânzătoare: deschizi pagina de vânzare, pui cuponul, plătești 0 $
 - [ ] verifici emailul de la Payhip: link de acces și setarea parolei
@@ -69,7 +69,7 @@ Videourile ți le dau eu exportate, numite în ordine (ex. `GS-W1-A-gym.mp4`), c
 ## 6. Textele paginilor (16 nov)
 
 ### Sales Page (Pages → Sales Page → Edit)
-**Titlu:** `Custom Program`
+**Titlu:** `Level Up`
 
 **Subtitlu:**
 ```
@@ -126,7 +126,7 @@ General fitness guidance, not medical advice. If you are pregnant, under 18 or h
 
 ### Thank You Page (Pages → Thank You Page → Edit)
 ```
-Welcome to Custom Program 🎉
+Welcome to Level Up 🎉
 
 Check your email for your login. Then open the post "Start here": it shows you which workouts to begin with, gym or home.
 
@@ -136,7 +136,7 @@ Questions? Comment on any post or reply to the welcome email. See you inside!
 ## 7. Postarea „Start here” (Posts → Create New Post, prima postare)
 **Titlu:** `Start here 👋`
 ```
-Welcome! Here's how to use Custom Program.
+Welcome! Here's how to use Level Up.
 
 1. Find your track
 Use the result from your quiz:

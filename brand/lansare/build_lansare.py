@@ -35,8 +35,8 @@ STICK = '<!-- %d: %s -->'   # locul pentru sticker (îl pui în Instagram), lăs
 STORIES = [
  ('01-its-open', s('''<img class="photo" src="%s" style="object-position:42%% 30%%"><div class="shade"></div>
   <div style="position:absolute;left:80px;right:80px;bottom:330px"><span class="tag">NOW OPEN</span>
-  <h1 class="white" style="font-size:150px;margin-top:30px">My Custom<br>Program<br>is live 🎉</h1>
-  <p class="white" style="font-size:44px;font-weight:600;margin:30px 0 0;line-height:1.25">A plan built for people who sit all day.</p></div>''' % FOTO)),
+  <h1 class="white" style="font-size:150px;margin-top:30px">Level Up<br>is live 🎉</h1>
+  <p class="white" style="font-size:44px;font-weight:600;margin:30px 0 0;line-height:1.25">My training program, built around you.</p></div>''' % FOTO)),
  ('02-what-you-get', s('''<div class="sh" style="width:900px;height:900px;left:-380px;top:1150px;background:var(--pink)"></div>
   <div class="sh" style="width:700px;height:700px;right:-260px;top:-260px;background:var(--lilac)"></div>
   <div style="position:absolute;left:80px;right:80px;top:150px"><span class="tag">WHAT YOU GET</span>

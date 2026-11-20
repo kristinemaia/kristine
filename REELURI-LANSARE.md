@@ -1,4 +1,4 @@
-# Reel-urile care promovează Custom Program
+# Reel-urile care promovează Level Up
 
 _18 noiembrie 2026. Tot ce ne trebuie ca să promovăm tare programul: 4 reel-uri gata făcute din site, 6 de filmat de tine, textele, descrierile și zilele. Orele sunt ale României (în Turcia, +1 oră)._
 
@@ -54,7 +54,7 @@ No more standing in the gym scrolling for what to do next. 😅
 
 Tap your day, press Start, and the plan walks you through it: the exercise, how to do it, the timer, the rest.
 
-Custom Program is open: 2-min quiz, link in bio.
+Level Up is open: 2-min quiz, link in bio.
 
 #gymanxiety #gymtips #workoutplan #gymgirl
 ```
@@ -66,7 +66,7 @@ The secret to getting stronger is boring: lift a little more than last time. �
 
 So my program saves every set. Next time you open it, it shows you what you did last week.
 
-Custom Program is open: 2-min quiz, link in bio.
+Level Up is open: 2-min quiz, link in bio.
 
 #progressiveoverload #gymtips #strengthtraining #gymgirl
 ```
@@ -139,7 +139,7 @@ Săptămânile de lansare sunt deja pline, așa că reel-urile de program merg �
 
 **Story-uri zilnice până la lansare:** un sondaj („Gym or home?”, „How many hours do you sit?”), sticker-ul cu link spre quiz, culise din P1/P3. La fiecare om care răspunde „PLAN” în comentarii: un DM cu linkul spre quiz.
 
-**Ce verificăm** (după 48 de ore, la fiecare): % urmărit până la capăt, share-uri, save-uri și **câte emailuri „Custom Program waitlist” primești** (butonul de la finalul quiz-ului deschide un email către tine; răspunsurile din quiz nu pleacă nicăieri). Reel-ul care aduce cele mai multe emailuri și DM-uri „PLAN” primește încă 2 variante de hook.
+**Ce verificăm** (după 48 de ore, la fiecare): % urmărit până la capăt, share-uri, save-uri și **câte emailuri „Level Up waitlist” primești** (butonul de la finalul quiz-ului deschide un email către tine; răspunsurile din quiz nu pleacă nicăieri). Reel-ul care aduce cele mai multe emailuri și DM-uri „PLAN” primește încă 2 variante de hook.
 
 ---
 
