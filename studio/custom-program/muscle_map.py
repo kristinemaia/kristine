@@ -31,7 +31,7 @@ MUSCLES = {
     'picioare-glute-bridge': ('back', ['glutes']), 'picioare-goblet-b': ('front', ['adductors', 'quads']),
     'picioare-fandare-inainte': ('front', ['quads', 'glutes_f']), 'picioare-wall-sit': ('front', ['quads']),
     'spate-swimmers': ('back', ['upback', 'lowback']), 'brate-biceps-curl': ('front', ['biceps']),
-    'umeri-ridicari-frontale': ('front', ['delts_f']), 'core-plank-leg-lift': ('back', ['glutes', 'lowback']),
+    'umeri-ridicari-frontale': ('front', ['delts_f']), 'umeri-ramat-vertical': ('back', ['delts_b', 'neck']), 'core-plank-leg-lift': ('back', ['glutes', 'lowback']),
     'core-high-plank': ('front', ['abs', 'delts_f']), 'core-tabletop-crunch': ('front', ['abs']), 'core-russian-twist': ('front', ['obliques']),
     'gat-lateral': ('back', ['neck']), 'gat-semicercuri': ('back', ['neck']), 'incheieturi-palma-jos': ('front', ['forearms']),
     'incheieturi-cercuri': ('front', ['forearms']), 'incalzire-cercuri-sold': ('back', ['glutemed', 'glutes']),

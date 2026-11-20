@@ -14,6 +14,8 @@ from workouts import NAMES
 W, H, SEG = 1080, 1920, 3.0
 FONTS = os.path.join(ROOT, 'brand/reels-overlays/fonts')
 OUT = os.path.join(HERE, 'out', 'reels-harta')
+# clipurile filmate mai sus în cadru: le cobor puțin, ca siluetele să nu-i acopere capul (sus e tavanul negru)
+SHIFT = {'umeri-ridicari-frontale': 200, 'umeri-ramat-vertical': 200}
 PINK, RED = (255, 77, 109, 255), (229, 45, 58, 255)
 
 REELS = [
@@ -21,6 +23,8 @@ REELS = [
      'ex': [('incalzire-mars-pe-loc', '1 min'), ('incalzire-step-jack', '30 s'), ('incalzire-inchworm', '5 slow reps'), ('mobilitate-extensie-toracica', '8 reps')]},
     {'id': 'RH2-home-workout', 'hook': 'No equipment? Do this at home',
      'ex': [('incalzire-jumping-jacks', '40 s'), ('cardio-skaters', '40 s'), ('impins-flotare', '3 × 8'), ('core-hollow-hold', '3 × 20 s')]},
+    {'id': 'RH3-shoulders', 'hook': '4 moves for strong, round shoulders',
+     'ex': [('umeri-ridicari-laterale', '3 × 12'), ('umeri-ridicari-frontale', '2 × 12'), ('umeri-ramat-vertical', '2 × 12'), ('spate-face-pull', '3 × 15')]},
 ]
 
 def font(n, s): return ImageFont.truetype(os.path.join(FONTS, n), s)
@@ -75,7 +79,7 @@ def build(reel):
         p = clip(cid); d = dur(p); ss = max(0.0, min(d - SEG - 0.1, d * 0.3))
         s = os.path.join(tmp, 's%d.mp4' % i); segs.append(s)
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', '%.2f' % ss, '-t', '%.2f' % SEG, '-i', p, '-loop', '1', '-i', png, '-filter_complex',
-                        ('[0:v]fps=30,scale=%d:%d:flags=lanczos,' % (W, H)) + GRADE + ',setsar=1[v];[v][1:v]overlay=0:0:shortest=1,format=yuv420p[o]',
+                        ('[0:v]fps=30,scale=%d:%d:flags=lanczos,' % (W, H)) + ('pad=%d:%d:0:%d:color=0x0b0b0d,crop=%d:%d:0:0,' % (W, H + SHIFT.get(cid, 0), SHIFT.get(cid, 0), W, H) if SHIFT.get(cid) else '') + GRADE + ',setsar=1[v];[v][1:v]overlay=0:0:shortest=1,format=yuv420p[o]',
                         '-map', '[o]', '-t', '%.2f' % SEG, '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', s], check=True)
     lst = os.path.join(tmp, 'l.txt'); open(lst, 'w').write(''.join("file '%s'\n" % x for x in segs))
     out = os.path.join(OUT, reel['id'] + '.mp4')
@@ -86,4 +90,7 @@ def build(reel):
 
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
-    for r in REELS: print('gata:', os.path.basename(build(r)))
+    only = sys.argv[1:]
+    for r in REELS:
+        if only and r['id'] not in only: continue
+        print('gata:', os.path.basename(build(r)))
