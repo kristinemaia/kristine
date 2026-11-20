@@ -72,8 +72,8 @@ def slides():
     s.append(frame(7, bg(7) + '<div class="num">7 / %d</div>'
         '<div class="center" style="top:440px"><div style="font-size:84px;font-weight:500;line-height:1.08;letter-spacing:-1px">Want one built for you?</div>'
         '<div style="font-size:36px;font-weight:400;margin-top:40px;color:#E6DCCD;line-height:1.45">Your goal, your time, home or gym.<br>A 2-minute quiz builds your plan.</div>'
-        '<div style="font-size:30px;font-weight:500;letter-spacing:6px;margin-top:70px;color:#D9CDBB">CUSTOM PROGRAM · OPENING SOON</div>'
-        '<div style="font-size:26px;font-weight:400;letter-spacing:5px;margin-top:22px;color:#B8AE9F">JOIN THE WAITLIST · LINK IN BIO</div>'
+        '<div style="font-size:30px;font-weight:500;letter-spacing:6px;margin-top:70px;color:#D9CDBB">CUSTOM PROGRAM · NOW OPEN</div>'
+        '<div style="font-size:26px;font-weight:400;letter-spacing:5px;margin-top:22px;color:#B8AE9F">$10/MONTH FOR THE FIRST 50 · LINK IN BIO</div>'
         '<div style="font-size:30px;font-weight:400;margin-top:90px;color:#E6DCCD">Save it for your next gym day 🔖</div></div>' % T))
     return s
 

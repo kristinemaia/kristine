@@ -228,7 +228,7 @@ Rest 60–90 s between sets. Start light and add a little weight when the last r
 
 Save it for your next gym day 🔖 Which part do you skip most? 👇
 
-Want one built for your goal, home or gym? My Custom Program opens soon. Join the waitlist → link in bio
+Want one built for your goal, home or gym? My Custom Program is open: 2-min quiz, link in bio
 
 General exercise, not medical advice.
 
@@ -736,7 +736,7 @@ Cum arată o ședință de masaj de recuperare, pas cu pas 🌿 #masajderecupera
 This week I filmed my whole program. 40+ exercises, in the gym, with home options too. 🎬
 Legs, back, core, mobility, built for people who sit all day.
 
-Doors open soon. Take the 2-minute quiz and join the waitlist → link in bio
+Doors are open! Take the 2-minute quiz → link in bio
 
 #customprogram #gymgirl #onlinecoaching #deskjob #mobility #gamerhealth
 ```
@@ -794,7 +794,7 @@ I sit 9 hours a day (gaming, editing, streaming), and these 5 rules keep me stro
 Which one do you already do? Tell me in the comments 👇
 Save this for your next desk day 🔖
 
-My Custom Program turns these into a plan for your body. Opening soon: take the 2-min quiz, link in bio 💗
+My Custom Program turns these into a plan for your body. It's open: take the 2-min quiz, link in bio 💗
 
 #deskjob #gamergirl #gymgirl #workoutplan #strengthtraining
 ```
@@ -841,7 +841,7 @@ Hip thrusts first, while you're fresh. Then RDLs, split squats, leg press and th
 
 Save it for your next leg day and tell me how it went 👇
 
-Want a plan like this built for your body? My Custom Program is opening soon: 2-min quiz, link in bio 💗
+Want a plan like this built for your body? My Custom Program is open: 2-min quiz, link in bio 💗
 
 #gluteworkout #legday #gymgirl #workoutplan #gymtips
 ```
@@ -897,7 +897,7 @@ How I stay in shape as a streamer 🎮🏋️‍♀️
 • a 5-minute desk stretch between matches
 
 Want my free 5-minute desk stretch? Comment STRETCH and I'll send it to you 🩷
-Want a full plan built for your body? 2-min quiz, link in bio.
+Want a full plan built for your body? Custom Program is open: 2-min quiz, link in bio.
 
 #streamerlife #gamergirl #deskjob #gymgirl #fitnessroutine
 ```
@@ -910,7 +910,7 @@ Save it for your next gym day.
 
 March in place 1 min · Step jacks 30 s · Inchworm 5 slow reps · Thoracic extension 8 reps
 
-Want a plan built for your body? 2-min quiz, link in bio 💗
+Want a plan built for your body? Custom Program is open: 2-min quiz, link in bio 💗
 #warmup #deskjob #gymgirl #gamergirl #mobility
 ```
 ```
@@ -919,6 +919,6 @@ Save it for a busy day.
 
 Jumping jacks 40 s · Skaters 40 s · Push-ups 3×8 · Hollow hold 3×20 s
 
-Want a plan built for your body? 2-min quiz, link in bio 💗
+Want a plan built for your body? Custom Program is open: 2-min quiz, link in bio 💗
 #homeworkout #noequipment #deskjob #gymgirl #workoutplan
 ```

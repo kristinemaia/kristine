@@ -2,7 +2,7 @@
 
 _18 noiembrie 2026. Tot ce ne trebuie ca să promovăm tare programul: 4 reel-uri gata făcute din site, 6 de filmat de tine, textele, descrierile și zilele. Orele sunt ale României (în Turcia, +1 oră)._
 
-**Regula de aur până vine răspunsul scris al contabilei și al avocatului:** nu vindem. Spunem „opening soon”, „join the waitlist” și trimitem la quiz (link in bio → `kristinemaia.com/training.html#quiz`). Prețul de fondator („$10/month for the first 50”) apare doar ca „when doors open”. Anunțul cu „Doors are open” (R10) iese **numai** după răspuns.
+**Actualizat 20 nov: contabila a confirmat, vindem (vezi `LANSARE.md`). Regula veche, păstrată pentru istoric:** nu vindem. Spunem „opening soon”, „join the waitlist” și trimitem la quiz (link in bio → `kristinemaia.com/training.html#quiz`). Prețul de fondator („$10/month for the first 50”) apare doar ca „when doors open”. Anunțul cu „Doors are open” (R10) iese **numai** după răspuns.
 
 **Pareto pentru promovare:** din 5 reel-uri pe săptămână, **1–2 vorbesc despre program** și 3–4 dau valoare (teste, greșeli, rețete). Valoarea aduce oamenii, reel-ul de program îi trimite la quiz. La fiecare reel de valoare, ultima frază din descriere: „Want a plan like this made for you? 2-min quiz, link in bio.”
 
@@ -27,7 +27,7 @@ I sit 8+ hours a day too (gaming, editing, streaming), so I built the thing I wa
 
 Gym or home. 2, 3 or 4 days. 10 to 40 minutes.
 
-It's opening soon. Take the 2-min quiz (link in bio) and you're on the founding list. 💗
+It's open: $10/month for the first 50. Take the 2-min quiz, link in bio 💗
 
 Comment PLAN and I'll send you the link.
 
@@ -54,7 +54,7 @@ No more standing in the gym scrolling for what to do next. 😅
 
 Tap your day, press Start, and the plan walks you through it: the exercise, how to do it, the timer, the rest.
 
-Opening soon. 2-min quiz, link in bio.
+Custom Program is open: 2-min quiz, link in bio.
 
 #gymanxiety #gymtips #workoutplan #gymgirl
 ```
@@ -66,7 +66,7 @@ The secret to getting stronger is boring: lift a little more than last time. �
 
 So my program saves every set. Next time you open it, it shows you what you did last week.
 
-Opening soon. 2-min quiz, link in bio.
+Custom Program is open: 2-min quiz, link in bio.
 
 #progressiveoverload #gymtips #strengthtraining #gymgirl
 ```
@@ -89,7 +89,7 @@ Toate verticale, la peretele alb din bucătărie sau în colțul de la sală. Te
 I sit 8 to 10 hours a day. Gaming, editing, streaming.
 My back hurt, my hips were tight, and every plan online was made for people who already live in the gym.
 So I built my own. It asks how you live, then gives you a plan for your body.
-It's opening soon. The quiz is in my bio.
+It's open now. The quiz is in my bio.
 ```
 - **Pe ecran:** „Why I built my own program” (sus, tot timpul). Subtitrări le pun eu.
 - **Descriere:** prima frază e hook-ul; restul ca la P1.

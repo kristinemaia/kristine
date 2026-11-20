@@ -8,7 +8,7 @@ _Pentru o conversație nouă: copiezi tot documentul ca prim mesaj. Detaliile co
 - **Kristine Maia**, româncă, trăiește în Turcia. Instagram și TikTok **@kristinemaia11**, Twitch **kristinemaia** (Partner, 72K), site **kristinemaia.com**.
 - **Nișa:** antrenamente pentru oamenii care stau toată ziua (gaming, birou, stream): sală sau acasă, mâncare simplă cu proteină, mobilitate.
 - **Produsul:** **Custom Program**. Quiz de 2 minute pe site → plan personal → antrenamentul pas cu pas pe `kristinemaia.com/my-program.html` (video, cronometru, kg și repetări salvate). **Payhip e doar pentru plată și cele 4 videouri de bun venit.** Prețul de fondator: 10 $/lună pentru primii 50.
-- **Încă nu vindem:** până la răspunsul scris al contabilei și al avocatului, totul spune „opening soon · join the waitlist · 2-min quiz, link in bio”.
+- **De pe 20 nov vindem** (contabila a confirmat; planul în `LANSARE.md`). Regula veche: până la răspunsul scris al contabilei și al avocatului, totul spune „opening soon · join the waitlist · 2-min quiz, link in bio”.
 - **1:1 coaching (antrenament + nutriție):** 149 €/lună, fondatori 119 € (primele 3 luni), maximum 10 oameni. Doar waitlist acum.
 - **Gratuit:** PDF-ul „The 5-minute desk stretch” (`payhip.com/b/myR5B`), dat prin „comment STRETCH” în DM.
 
@@ -57,7 +57,7 @@ Gym or home · what I eat · Twitch Partner
 Swipe for today's glute workout 🍑
 Hip thrusts first, while you're fresh. Then RDLs, split squats, leg press and the abduction machine to finish them off. I end with a 10-minute incline walk, my favourite way to cool down after sitting all day.
 Save it for your next leg day and tell me how it went 👇
-Want a plan like this built for your body? My Custom Program is opening soon: 2-min quiz, link in bio 💗
+Want a plan like this built for your body? My Custom Program is open: 2-min quiz, link in bio 💗
 #gluteworkout #legday #gymgirl #workoutplan #gymtips
 ```
 
@@ -68,7 +68,7 @@ Want a plan like this built for your body? My Custom Program is opening soon: 2-
 I sit 9 hours a day (gaming, editing, streaming), and these 5 rules keep me strong anyway 🖤
 1. 3 workouts a week (not 6) 2. A 5-minute warm-up, every time 3. I write down every set 4. I walk after I lift 5. Protein at every meal
 Which one do you already do? Tell me in the comments 👇 Save this for your next desk day 🔖
-My Custom Program turns these into a plan for your body. Opening soon: take the 2-min quiz, link in bio 💗
+My Custom Program turns these into a plan for your body. It's open: take the 2-min quiz, link in bio 💗
 #deskjob #gamergirl #gymgirl #workoutplan #strengthtraining
 ```
 
@@ -122,7 +122,7 @@ My 2-minute fix between matches, 20 reps each:
 • reach up and lean back • hip flexor stretch • standing twist • shoulder blade squeeze
 Do it every 90 minutes of sitting.
 Send this to your gaming duo 🎮
-Want a full plan for people who sit all day? 2-min quiz, link in bio 💗
+Want a full plan for people who sit all day? Custom Program is open: 2-min quiz, link in bio 💗
 General mobility, not medical advice. Stop if anything feels sharp.
 #gamergirl #backpain #deskjob #streamerlife #mobility
 ```
@@ -152,7 +152,7 @@ Ești plecată pe 26–30 nov: tot ce iese atunci se programează până miercur
 ---
 
 ## 6. De filmat (în lumina de dimineață)
-- **R5 · Why I built this** (vorbit, 20–30 s): „I sit 8 to 10 hours a day… so I built my own. It asks how you live, then gives you a plan for your body. It's opening soon. The quiz is in my bio.”
+- **R5 · Why I built this** (vorbit, 20–30 s): „I sit 8 to 10 hours a day… so I built my own. It asks how you live, then gives you a plan for your body. It's open now. The quiz is in my bio.”
 - **R6 · Train with me: Day 1** (sală): telefonul pe bancă, Start, marș, hip thrust, kg scrise în telefon, pauza, RDL, final.
 - **R7 · Beginner vs advanced: same workout:** ecran împărțit, „Same plan. Your level.”
 - **R8 · 5-minute desk reset, do it with me.**

@@ -52,6 +52,13 @@ GROUPS = [
         "note": "Tot ce e gata de urcat, pe zile; descrierile sunt în „Toate descrierile”",
         "zip": ("Postari-gata.zip", "postari"),
         "items": [
+            {"kind": "doc", "slug": "lansare", "title": "Lansarea Custom Program: ce postezi, story-uri, DM-uri, testeri", "src": "LANSARE.md",
+             "desc": "Checklist-ul de dinainte, reel-ul L1 „It's open” cu descrierea, cele 6 story-uri și stickerele, calendarul săptămânii, descrierile noi („now open”), răspunsurile gata pentru DM-uri și mesajul pentru testeri."},
+            {"kind": "video", "slug": "lansare-reel", "title": "Lansare · reel-ul L1 „It's open” (34 s)", "base": "brand/lansare/out",
+             "files": ["L1-its-open.mp4"], "labels": ["L1 · It's open"], "desc": "Vin 20 nov, 18:00. Fără muzică: pui un sunet din Instagram. Coperta: story-ul 1."},
+            {"kind": "img", "slug": "lansare-story", "title": "Lansare · cele 6 story-uri", "base": "brand/lansare/out", "keep": True,
+             "images": ["story-01-its-open.png", "story-02-what-you-get.png", "story-03-how-it-works.png", "story-04-founding-price.png", "story-05-who-its-for.png", "story-06-questions.png"],
+             "desc": "1080 × 1920. Link sticker pe 3 (quiz) și 4 (Payhip), poll pe 5, întrebări pe 6. Apoi highlight-ul PROGRAM."},
             {"kind": "doc", "slug": "rezumat-social-media", "title": "Rezumatul social media (pentru o conversație nouă)", "src": "REZUMAT-SOCIAL-MEDIA.md",
              "desc": "Tot pe o pagină: nișa și bio-ul, regulile, cele 8 formate, caruselele și reel-urile gata cu textele și descrierile, calendarul până pe 3 dec, ce e de filmat, idei și ce aștept de la tine. Îl copiezi ca prim mesaj într-o conversație nouă."},
             {"kind": "img", "slug": "post-s1", "title": "Vin 20 nov · S1 Save this: full-body gym workout (7 slide-uri)",
