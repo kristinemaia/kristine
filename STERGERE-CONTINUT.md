@@ -2,6 +2,13 @@
 
 _Doar pentru tine. **Linkurile către conținut nu se scriu aici și nici în Tracker.** Le ții într-o notiță privată pe telefon sau în emailul separat. Aici sunt doar pașii, textele și starea pe site-uri._
 
+## Situația (20 nov)
+Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-au urcat pe internet fără acordul ei. Deci totul e **conținut publicat fără consimțământ**: cel mai puternic caz, la toate formularele.
+- **Textul A (Take It Down)** și formularele „non-consensual” merg peste tot, inclusiv la pozele modificate sau false.
+- **Textul C (DMCA)** merge în plus la **pozele făcute de ea** (selfie-uri, oglindă): sunt ale ei, deci are și dreptul de autor.
+- **Textul B (GDPR)** merge la site-urile din Europa.
+- Publicarea imaginilor intime fără acord e **infracțiune** în România și în UE. O plângere la poliție (sau prin avocat) e opțională, dar ajută când un site sau un hosting refuză.
+
 ## Înainte de orice (o singură dată)
 - **Un email separat**, făcut doar pentru cererile astea. Nu folosești adresa de colaborări.
 - **Lista privată:** pentru fiecare link, numele site-ului, linkul și o captură cu data. Le ții doar în dosarul privat de pe telefon.
