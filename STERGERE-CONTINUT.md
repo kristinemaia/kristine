@@ -14,7 +14,7 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 |---|---|---|---|
 | 29 oct | Pornhub (contul vechi) | cerere de ștergere | ✅ **șters** |
 | 28 oct | LeakGallery | DMCA | ✅ **șters** |
-| 20 nov | Camwhores (13 videoclipuri) | revenire la DMCA + cerere la rețeaua lor (CW-AS, email@buckyemail.com) + **furnizorii lor**: Hurricane Electric (abuse@he.net) și Gigahost (abuse@as56655.net) | aștept; uvensys (al 3-lea furnizor) de adăugat |
+| 20 nov | Camwhores (13 videoclipuri) | revenire la DMCA + cerere la rețeaua lor (CW-AS, email@buckyemail.com) + **furnizorii lor**: Hurricane Electric (abuse@he.net) și Gigahost (abuse@as56655.net) | aștept; uvensys (abuse@uvensys.de, Germania): ✏️ în Ciorne (21 nov) |
 | 20 nov | Fapello | cerere la hosting: Infrawire / WEDEPLOY, Olanda (abuse@ipbnb.com) | aștept 7 zile |
 | 20 nov | Erome | completare către același hosting ca Fapello | ⚠️ de verificat dacă a plecat (nu apare în Trimise) |
 | 20 nov | Kemono | cerere la DDoS-Guard / IQWeb (abuse@iqweb.io) | aștept; șanse mici, deci Google copyright |
