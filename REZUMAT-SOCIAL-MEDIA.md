@@ -96,6 +96,8 @@ Ultimul rând pentru orice postare: `Want a plan like this built for your body? 
 - Pentru harta mușchilor (loc liber sus): fese (hip thrust, RDL, reverse lunge, glute bridge) · spate (face pull, reverse fly, ramat, lat pulldown) · core (dead bug, bird dog, side plank, plank).
 - Gamer hunch · overhead reach test · hip test 90/90 · things gamers do at the gym · leg press și abducție · stepper și eliptică.
 
+- **Stream (Twitch):** comanda `!program` în StreamElements + timerul la 20 min, pop-up-ul Level Up în OBS, panoul 4. Pașii: `STREAM-LEVEL-UP.md`.
+
 ## 8. Idei
 - Notes joia: Back & posture · Home 20 min · Upper body · Desk reset · Leg day for beginners.
 - A Day On My Plate: stream day · travel day · rest day.

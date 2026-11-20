@@ -3,13 +3,14 @@
 
 Rulezi:  python3 brand/twitch/build_panels.py
 Rezultat în brand/twitch/panels/:
-  panel-1-despre-320.png, panel-2-pdf-gratuit-320.png, panel-3-comanda-320.png, obs-popup-stretch-1920x1080.png
+  panel-1-despre-320.png, panel-2-pdf-gratuit-320.png, panel-3-comanda-320.png, obs-popup-stretch-1920x1080.png,
+  panel-4-level-up-320.png, obs-popup-level-up-1920x1080.png (Level Up: !program în chat)
 Linkul se pune în Twitch, în câmpul „Image links to” al panoului, nu în imagine.
 """
 import base64, json, os, subprocess, tempfile
 HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'panels')
 b64 = lambda f: base64.b64encode(open(os.path.join(HERE, f), 'rb').read()).decode()
-photo, pdf = b64('_foto.jpg'), b64('_pdf.png')
+photo, pdf, lu = b64('_foto.jpg'), b64('_pdf.png'), b64('_levelup.jpg')
 CSS = """
 :root{--bg:#FFF9F6;--ink:#2B2431;--muted:#5C5466;--pink:#F8DCE6;--berry:#8A3459;--blue:#DDE9F7;--mint:#D8F0E4;--lilac:#E9E1F7}
 *{box-sizing:border-box}html,body{margin:0;background:transparent}
@@ -35,7 +36,19 @@ POP = ('<div id="c" style="width:1920px;height:1080px;position:relative;font-fam
        '<div><span style="display:inline-block;background:#8A3459;color:#fff;font-weight:800;font-size:24px;border-radius:99px;padding:6px 18px;letter-spacing:.05em">FREE PDF</span>'
        '<div style="font-family:\'Bricolage Grotesque\',sans-serif;font-weight:800;font-size:54px;letter-spacing:-.03em;color:#2B2431;line-height:1;margin-top:10px">The 5-minute desk stretch</div>'
        '<div style="font-size:34px;font-weight:700;color:#5C5466;margin-top:10px">Type <span style="background:#2B2431;color:#fff;border-radius:12px;padding:2px 14px;font-weight:800">!stretch</span> in chat</div></div></div></div>')
-jobs = [(P1, 'panel-1-despre-320.png', 320, 330, False), (P2, 'panel-2-pdf-gratuit-320.png', 320, 460, False), (P3, 'panel-3-comanda-320.png', 320, 210, False), (POP, 'obs-popup-stretch-1920x1080.png', 1920, 1080, True)]
+GRAD = 'linear-gradient(120deg,#F8DCE6 0%,#E9E1F7 45%,#DDE9F7 75%,#D8F0E4 100%)'
+P4 = ('<div class="p" id="c" style="height:470px;background:' + GRAD + '"><div style="position:relative;padding-top:20px"><span class="tag">NEW · NOW OPEN</span>'
+      '<div style="width:250px;margin:14px auto 0;border-radius:16px;overflow:hidden;box-shadow:0 12px 26px rgba(43,36,49,.22);border:4px solid #fff;transform:rotate(-2deg)"><img src="data:image/jpeg;base64,' + lu + '" style="display:block;width:100%"></div>'
+      '<p style="margin:16px 22px 0;font-size:16px;font-weight:700;line-height:1.3">Your training plan from a 2-minute quiz. Gym or home, every workout on video.</p>'
+      '<div style="margin-top:14px"><span class="btn">Take the quiz →</span></div></div></div>')
+POPLU = ('<div id="c" style="width:1920px;height:1080px;position:relative;font-family:Figtree,sans-serif"><div style="position:absolute;left:60px;bottom:60px;display:flex;align-items:center;gap:30px;background:' + GRAD + ';border-radius:36px;padding:22px 46px 22px 22px;box-shadow:0 14px 40px rgba(43,36,49,.28);border:5px solid #fff">'
+       '<div style="width:190px;height:190px;border-radius:22px;overflow:hidden;box-shadow:0 8px 20px rgba(43,36,49,.28);flex:none;transform:rotate(-3deg);border:4px solid #fff"><img src="data:image/jpeg;base64,' + lu + '" style="display:block;width:100%;height:100%;object-fit:cover"></div>'
+       '<div><span style="display:inline-block;background:#8A3459;color:#fff;font-weight:800;font-size:24px;border-radius:99px;padding:6px 18px;letter-spacing:.05em">MY TRAINING PROGRAM IS OPEN 🎉</span>'
+       '<div style="font-family:\'Bricolage Grotesque\',sans-serif;font-weight:800;font-size:64px;letter-spacing:-.03em;color:#2B2431;line-height:1;margin-top:12px">Level Up</div>'
+       '<div style="font-size:28px;font-weight:700;color:#5C5466;margin-top:6px">Your plan from a 2-minute quiz · gym or home</div>'
+       '<div style="font-size:34px;font-weight:700;color:#2B2431;margin-top:12px">Type <span style="background:#2B2431;color:#fff;border-radius:12px;padding:2px 14px;font-weight:800">!program</span> in chat</div></div></div></div>')
+jobs = [(P1, 'panel-1-despre-320.png', 320, 330, False), (P2, 'panel-2-pdf-gratuit-320.png', 320, 460, False), (P3, 'panel-3-comanda-320.png', 320, 210, False), (POP, 'obs-popup-stretch-1920x1080.png', 1920, 1080, True),
+        (P4, 'panel-4-level-up-320.png', 320, 470, False), (POPLU, 'obs-popup-level-up-1920x1080.png', 1920, 1080, True)]
 js = r"""
 const { chromium } = require('playwright'); const jobs = JSON.parse(require('fs').readFileSync(process.argv[2], 'utf8'));
 (async () => { const b = await chromium.launch(); for (const j of jobs) { const p = await b.newPage({ viewport: { width: j.w, height: j.h } });
