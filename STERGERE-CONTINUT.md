@@ -14,12 +14,15 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 |---|---|---|---|
 | 29 oct | Pornhub (contul vechi) | ✅ **șters**: conținutul și contul, confirmat pe 29 oct | nimic |
 | 28 oct | LeakGallery | ✅ **șters** în aceeași zi | verifici o dată pe lună |
-| 28–30 oct | Camwhores (13 videoclipuri) | au cerut lista exactă, ai trimis-o pe 30 oct; promis 24–48 h, **fără confirmare** | ✏️ revenirea e în Ciorne (21 nov); dacă nu răspund în 3 zile → hosting |
+| 28–30 oct | Camwhores (13 videoclipuri) | au cerut lista exactă, ai trimis-o pe 30 oct; promis 24–48 h, **fără confirmare** | ✏️ revenirea e în Ciorne (20 nov); dacă nu răspund în 3 zile → Cloudflare/hosting |
 | 28 oct | Fapello | ❌ **adresa de email nu există** (mesajul s-a întors) | formularul de pe site sau hostingul |
 | 28 oct | Kemono (prin Cloudflare) | niciun răspuns: Cloudflare nu ia rapoarte pe email | formularul abuse.cloudflare.com (categoria NCII), care trimite la hosting |
-| 17 sep + 28 oct | Nudogram | niciun răspuns | hosting |
-| 17 sep | Fapachi, WildSkirts, CelebExposed | niciun răspuns | revenire + hosting |
+| 17 sep + 28 oct | Nudogram | niciun răspuns | ✏️ „Final notice” în Ciorne (20 nov), 48 h → Cloudflare/hosting |
+| 17 sep | Fapachi, WildSkirts, CelebExposed | niciun răspuns | ✏️ „Final notice” în Ciorne pentru fiecare (20 nov), 48 h → Cloudflare/hosting |
 | 17 sep | **Google** (formularul NCII) | ❌ 6 linkuri **refuzate**: Google le consideră conținut „folosit pentru a câștiga bani” (adică scurgeri din conturi plătite); 4 linkuri: **n-au găsit conținutul** | vezi mai jos |
+
+**Formularul Cloudflare** (abuse.cloudflare.com → categoria „Non-Consensual Sexually Explicit Imagery”, câte unul pe site): Cloudflare trimite raportul la firma care găzduiește site-ul și îți spune care e. Textul pentru „Description”:
+> I am the person shown in these images and videos. They were published without my consent (non-consensual intimate imagery). I am an adult and the copyright owner. The site operator has not responded to my removal requests. Please forward this report to the hosting provider and tell me who it is. Please do not share my contact details with the site operator.
 
 **Ce înseamnă refuzul Google:** formularul de imagini intime nu se aplică atunci când Google crede că pozele vin dintr-un cont plătit. Atunci se folosește **formularul de drepturi de autor** (Google Legal Help → copyright). Acolo nu contează asta: pozele sunt ale tale, iar ei le-au furat. Pentru cele 4 negăsite: retrimiți cu capturi noi, decupate doar pe poză.
 
