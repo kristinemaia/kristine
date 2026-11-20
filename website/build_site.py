@@ -59,12 +59,12 @@ FONTS = (
 # Meniul de sus (legal.html e doar în footer)
 NAV = [
     ("index.html", "Home"),
-    ("free.html", "Free routines"),
     ("training.html", "Training"),
-    ("guides.html", "Form guides"),
-    ("shop.html", "Shop"),
-    ("live.html", "Live"),
     ("about.html", "About"),
+    ("shop.html", "Shop"),
+    ("free.html", "Free routines"),
+    ("guides.html", "Form guides"),
+    ("live.html", "Live"),
     ("brands.html", "For brands"),
 ]
 
@@ -80,11 +80,11 @@ def fill(html):
 
 NAV_RO = [
     ("index.html", "Acasă"),
+    ("about.html", "Despre"),
+    ("shop.html", "Magazin"),
     ("free.html", "Rutine gratuite"),
     ("guides.html", "Ghiduri de formă"),
-    ("shop.html", "Magazin"),
     ("live.html", "Live"),
-    ("about.html", "Despre"),
     ("brands.html", "Pentru branduri"),
 ]
 
@@ -139,12 +139,12 @@ def footer(lang):
     <div class="foot-grid">
       <div><a class="brand" href="index.html">Kristine <span>Maia</span></a><p>{tag}</p></div>
       <div><h2>{explore}</h2><ul>
-        <li><a href="free.html">{free}</a></li>
         <li><a href="training.html">Training</a></li>
-        <li><a href="guides.html">{guides}</a></li>
-        <li><a href="shop.html">{shop}</a></li>
-        <li><a href="live.html">Live</a></li>
         <li><a href="about.html">{about}</a></li>
+        <li><a href="shop.html">{shop}</a></li>
+        <li><a href="free.html">{free}</a></li>
+        <li><a href="guides.html">{guides}</a></li>
+        <li><a href="live.html">Live</a></li>
         <li><a href="brands.html">{brands}</a></li>
         <li><a href="legal.html">{legal}</a></li>
       </ul></div>
@@ -215,9 +215,12 @@ WL_JS = """<script>
 })();
 </script>"""
 
+from lu_showcase import lu_showcase
+
 POPUP = """
 <div class="cp-pop" id="cp-pop" role="dialog" aria-modal="false" aria-labelledby="cp-h" hidden>
   <button class="cp-x" id="cp-x" type="button" aria-label="Close">×</button>
+  <img src="assets/level-up-thumb.jpg" alt="Level Up" width="320" height="320" style="width:100%;height:auto;border-radius:14px;margin:0 0 12px;display:block">
   <p class="kicker">Level Up · now open</p>
   <p class="cp-h" id="cp-h">Get your custom training plan</p>
   <p class="small muted">Answer a few quick questions and see your plan: your goal, gym or home, your time. Every workout step by step, with videos and a timer.</p>
@@ -382,7 +385,7 @@ home = """
     </div>
   </div>
 </section>
-""" + free_band("Now make it <em>five</em> minutes.", LIST_PERKS, chat="Want the longer one on paper?") + """
+""" + lu_showcase("home") + free_band("Now make it <em>five</em> minutes.", LIST_PERKS, chat="Want the longer one on paper?") + """
 <!-- 3. Când un minut nu e destul: ce urmează (waitlist) -->
 <section class="more" aria-labelledby="more-title">
   <div class="wrap">
@@ -630,6 +633,7 @@ training = """
   </ol>
 </section>
 
+""" + lu_showcase("training") + """
 <section class="wrap block" id="quiz" aria-labelledby="quiz-title">
   <div class="block-head"><p class="kicker">The quiz</p><h2 id="quiz-title">Build your program</h2></div>
   <p class="small muted notranslate" translate="no">The quiz stays in English, even if you translate the page, so the safety notes stay exact. A Romanian version is coming.</p>
@@ -936,17 +940,7 @@ shop = """
   <p class="lead">Everything here is built for people who sit for long hours. Start small. You can always go further.</p>
 </section>
 
-<section class="wrap block" aria-labelledby="soon-title">
-  <div class="block-head"><p class="kicker">Now open · founding price</p><h2 id="soon-title">Level Up: your custom program</h2></div>
-  <article class="panel p-blue" id="program">
-    <span class="tag">Founding price · first 50</span>
-    <h3>Level Up</h3>
-    <p class="p">$10<small>per month, founding price for the first 50 members</small></p>
-    <ul><li>A 2-minute quiz builds your plan: goal, focus, home or gym, time</li><li>Every workout step by step: the video of each exercise, how to do it, a timer for your rest and your holds</li><li>Your training log: your weights from last time and when to go up</li><li>Unstiff, Get Strong, Shape Up and Desk Reset, plus 5-minute resets for your neck, back and wrists</li></ul>
-    <div class="row-btns"><a class="btn" href="{BUY}">Join for $10/month</a> <a class="btn alt" href="training.html#quiz">Take the 2-minute quiz first</a></div>
-    <p class="small muted">Cancel anytime. Payment and your account are on Payhip; your workouts open on this site.</p>
-  </article>
-</section>
+""" + lu_showcase("shop") + """
 
 <section class="wrap block" aria-labelledby="coach-title">
   <div class="block-head"><p class="kicker">Coming soon · small group</p><h2 id="coach-title">Train with me, one to one</h2></div>
@@ -1051,7 +1045,7 @@ about = """
 
 <section class="wrap block pt-0">
   <div class="split">
-    <div class="portrait"><img src="assets/kristine-about.jpg" alt="Kristine Maia, standing against a white wall" width="900" height="1125"></div>
+    <div class="portrait"><img src="assets/kristine-about.jpg" alt="Kristine Maia in the gym" width="900" height="1125"></div>
     <div class="prose">
       <p class="lead">I help people who sit all day move better, recover faster and eat well, without making it complicated.</p>
       <p>I've streamed on Twitch for five years and built a community of 72,000 people around the world. I studied Physical Education and Sport at university, and I coach mobility and recovery for people who sit all day.</p>
