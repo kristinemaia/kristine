@@ -14,12 +14,13 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 |---|---|---|---|
 | 29 oct | Pornhub (contul vechi) | ✅ **șters**: conținutul și contul, confirmat pe 29 oct | nimic |
 | 28 oct | LeakGallery | ✅ **șters** în aceeași zi | verifici o dată pe lună |
-| 28–30 oct | Camwhores (13 videoclipuri) | au cerut lista exactă, ai trimis-o pe 30 oct; promis 24–48 h, **fără confirmare** | ✏️ revenirea e în Ciorne (20 nov); dacă nu răspund în 3 zile → Cloudflare/hosting |
+| 28–30 oct | Camwhores (13 videoclipuri) | au cerut lista exactă, ai trimis-o pe 30 oct; promis 24–48 h, **fără confirmare** | revenirea trimisă 20 nov. Rețeaua e a lor: **CW-AS (AS212792), Amsterdam** → adresa de abuz de pe ipinfo.io/88.210.60.61, apoi furnizorul lor (bgp.he.net/AS212792) |
 | 28 oct | Fapello | ❌ adresa lor de email nu există; **nu e pe Cloudflare**. Hostingul: **WEDEPLOY SAS / Infrawire.net, Amsterdam (Olanda, UE)**, abuz: abuse@ipbnb.com | ✅ cererea trimisă la hosting pe 20 nov (DSA art. 16 + GDPR + copyright); aștepți răspuns 7 zile |
 | 28 oct | Erome (erome.vip) | cererea a plecat din greșeală la adresa Fapello; **același server ca Fapello** (Infrawire, NL) | ✏️ completarea către abuse@ipbnb.com e în Ciorne (20 nov) |
 | 28 oct | Kemono | niciun răspuns; nu mai e pe Cloudflare. E prin **DDoS-Guard / IQWeb FZ-LLC (Belize)**, abuz: abuse@iqweb.io | ✏️ cererea e în Ciorne (20 nov); șanse mici, deci Google copyright în paralel |
-| 17 sep + 28 oct | Nudogram | niciun răspuns | ✏️ „Final notice” în Ciorne (20 nov), 48 h → Cloudflare/hosting |
-| 17 sep | Fapachi, WildSkirts, CelebExposed | niciun răspuns | ✏️ „Final notice” în Ciorne pentru fiecare (20 nov), 48 h → Cloudflare/hosting |
+| 17 sep + 28 oct | Nudogram | niciun răspuns; „Final notice” trimis 20 nov | **pe Cloudflare** → formularul abuse.cloudflare.com/ncsei |
+| 17 sep | Fapachi, WildSkirts | niciun răspuns; „Final notice” trimis 20 nov | **pe Cloudflare** → formularul abuse.cloudflare.com/ncsei, câte unul pe site |
+| 17 sep | CelebExposed | niciun răspuns; „Final notice” trimis 20 nov. Hosting: **Amarutu Technology Ltd (AS206264), Amsterdam** | ✏️ cererea la hosting e în Ciorne, fără destinatar: adresa de abuz de pe ipinfo.io/89.42.231.189 |
 | 17 sep | **Google** (formularul NCII) | ❌ 6 linkuri **refuzate**: Google le consideră conținut „folosit pentru a câștiga bani” (adică scurgeri din conturi plătite); 4 linkuri: **n-au găsit conținutul** | vezi mai jos |
 
 **Formularul Cloudflare** (abuse.cloudflare.com → categoria „Non-Consensual Sexually Explicit Imagery”, câte unul pe site): Cloudflare trimite raportul la firma care găzduiește site-ul și îți spune care e. Textul pentru „Description”:
