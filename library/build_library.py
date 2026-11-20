@@ -48,6 +48,19 @@ _OV_LAB = [n for n in _OV if n not in _OV_MAIN]
 # kind: link | pdf | doc | img | site
 GROUPS = [
     {
+        "id": "stream", "name": "Rapid: stream și colaborări", "note": "Level Up pe Twitch (comanda, timerul, pop-up-ul) și brandurile de colanți și echipament",
+        "items": [
+            {"kind": "doc", "slug": "stream-level-up", "title": "Level Up pe stream: StreamElements, OBS și idei", "src": "STREAM-LEVEL-UP.md",
+             "desc": "Lista de făcut, comanda !program (textul gata de lipit), timerul la 20 de minute, pop-up-ul în OBS (cu tastă sau automat) și 8 idei ca să promovezi programul pe stream."},
+            {"kind": "doc", "slug": "colaborari-echipament", "title": "Colaborări: branduri de colanți și echipament de sport (11 branduri)", "src": "COLABORARI-ECHIPAMENT.md",
+             "desc": "Lista cu Fabletics, Better Bodies/GASP, Halara, AYBL, Paragon, Gymshark, Oner Active, TALA, Buffbunny, Alphalete, COOFANDY: unde aplici la fiecare, mesajul lung, cel scurt pentru formulare și revenirea."},
+            {"kind": "img", "slug": "stream-level-up-img", "title": "Pop-up-ul Level Up pentru OBS, panoul Twitch și imaginea goală",
+             "base": "brand/twitch/panels", "keep": True,
+             "images": ["obs-popup-level-up-1920x1080.png", "panel-4-level-up-320.png", "obs-gol-1920x1080.png", "obs-popup-stretch-1920x1080.png"],
+             "desc": "Pop-up-ul transparent (jos în stânga, „Type !program in chat”), panoul de 320 px cu linkul kristinemaia.com/training.html, imaginea goală pentru rotația din OBS și pop-up-ul de stretch."},
+        ],
+    },
+    {
         "id": "postari", "name": "Postări gata: carusele și reel-uri", "folder": "Postari-gata",
         "note": "Tot ce e gata de urcat, pe zile; descrierile sunt în „Toate descrierile”",
         "zip": ("Postari-gata.zip", "postari"),

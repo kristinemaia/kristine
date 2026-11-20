@@ -51,6 +51,8 @@ Actualizată pe 30 oct, cu UGC și drepturile pentru reclame: **tabelul complet 
 | 9 nov | Huel, Myprotein | revenire la emailurile din 20 oct | ✅ revenirea trimisă 12 nov · nu mai scriem |
 | 18 nov | **Genius Nutrition** (RO; Kristine e deja clientă: Whey X5, iCarnitine) | email, info@geniusnutrition.ro (adresa din confirmările de comandă), în română, cu media kit-ul | ✏️ în Ciorne, se trimite după „trimite” · revenire după 7 zile · dacă există o adresă de marketing pe site, o punem în CC |
 
+| 20 nov | **Paragon Fitwear** (haine de sală) | email, collabs@paragonfitwear.com, cu media kit-ul | ✏️ în Ciorne, se trimite după „trimite” · celelalte branduri de echipament: `COLABORARI-ECHIPAMENT.md` |
+
 Revenirea (o singură dată) după 7 zile, dacă nu răspund. Negocierea și semnarea doar din România (25–27 nov) sau după răspunsul scris al contabilei și al avocatului.
 
 ## Inboxul pe 16 nov
