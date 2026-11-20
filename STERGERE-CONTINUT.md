@@ -9,14 +9,14 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 - **Textul B (GDPR)** merge la site-urile din Europa.
 - Publicarea imaginilor intime fără acord e **infracțiune** în România și în UE. O plângere la poliție (sau prin avocat) e opțională, dar ajută când un site sau un hosting refuză.
 
-## Unde am rămas (actualizat 20 nov, 23:55)
+## Unde am rămas (actualizat 21 nov: tot ce era de trimis a plecat)
 | Data | Site | Ce am trimis | Răspuns / pasul următor |
 |---|---|---|---|
 | 29 oct | Pornhub (contul vechi) | cerere de ștergere | ✅ **șters** |
 | 28 oct | LeakGallery | DMCA | ✅ **șters** |
-| 20 nov | Camwhores (13 videoclipuri) | revenire la DMCA + cerere la rețeaua lor (CW-AS, email@buckyemail.com) + **furnizorii lor**: Hurricane Electric (abuse@he.net) și Gigahost (abuse@as56655.net) | aștept; uvensys (abuse@uvensys.de, Germania): ✏️ în Ciorne (21 nov) |
+| 20 nov | Camwhores (13 videoclipuri) | revenire la DMCA + cerere la rețeaua lor (CW-AS, email@buckyemail.com) + **furnizorii lor**: Hurricane Electric (abuse@he.net) și Gigahost (abuse@as56655.net) | aștept; uvensys (abuse@uvensys.de, Germania): trimis 21 nov |
 | 20 nov | Fapello | cerere la hosting: Infrawire / WEDEPLOY, Olanda (abuse@ipbnb.com) | aștept 7 zile |
-| 20 nov | Erome | completare către același hosting ca Fapello | ⚠️ de verificat dacă a plecat (nu apare în Trimise) |
+| 20 nov | Erome | completare către același hosting ca Fapello | trimisă 21 nov; aștept 7 zile |
 | 20 nov | Kemono | cerere la DDoS-Guard / IQWeb (abuse@iqweb.io) | aștept; șanse mici, deci Google copyright |
 | 20 nov | Nudogram | „Final notice” + **formular Cloudflare** (raport 2d8a742946081344, 40 de linkuri) | ✅ Cloudflare a confirmat primirea; aștept numele hostingului |
 | 20 nov | Fapachi | „Final notice” + **formular Cloudflare** (raport 5c0a4ea535f027a0) | ✅ Cloudflare a confirmat primirea |
