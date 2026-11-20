@@ -293,7 +293,7 @@ GROUPS = [
             {"kind": "doc", "slug": "mutare", "title": "Mutarea din apartament", "src": "MUTARE.md",
              "desc": "Decizia, pașii, mesajul pentru proprietar și starea la 17 octombrie."},
             {"kind": "doc", "slug": "stergere-continut", "title": "Ștergerea conținutului vechi",
-             "src": "STERGERE-CONTINUT.md", "desc": "Ordinea formularelor și șablonul DMCA."},
+             "src": "STERGERE-CONTINUT.md", "desc": "Planul actualizat (20 nov): conturile tale, StopNCII, Google, Bing, Take It Down (48 de ore), GDPR și DMCA, cu textele gata de lipit. Fără linkuri."},
             {"kind": "doc", "slug": "conversatie", "title": "Conversația noastră, rezumat",
              "src": "CONVERSATIE.md", "desc": "Ce mi-ai spus și ce am răspuns, în ordine cronologică (10–17 octombrie)."},
         ],
