@@ -11,7 +11,7 @@ CP = os.path.join(ROOT, 'studio/custom-program'); sys.path.insert(0, CP)
 from workouts import ALL, NAMES, HOME_NAMES, CUES
 ASSETS = os.path.join(HERE, 'assets/program'); os.makedirs(ASSETS, exist_ok=True)
 WEIGHTED = {'picioare-goblet-a', 'picioare-goblet-b', 'picioare-rdl', 'picioare-hip-thrust', 'spate-lat-pulldown', 'spate-face-pull', 'spate-ramat-gantera',
-            'spate-fluturari-inverse', 'impins-umeri-gantere', 'umeri-ridicari-laterale', 'umeri-ridicari-frontale', 'brate-biceps-curl', 'picioare-split-a', 'picioare-fandare-inapoi'}
+            'spate-fluturari-inverse', 'impins-umeri-gantere', 'umeri-ridicari-laterale', 'umeri-ridicari-frontale', 'umeri-ramat-vertical', 'brate-biceps-curl', 'picioare-split-a', 'picioare-fandare-inapoi'}
 
 def src(cid):
     """Sursa clipului: întâi originalul tău (clips/<id>.mov, 1080 × 1920, fără text), apoi variantele vechi (540 × 960)."""
