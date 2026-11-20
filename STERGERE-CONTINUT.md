@@ -9,6 +9,18 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 - **Textul B (GDPR)** merge la site-urile din Europa.
 - Publicarea imaginilor intime fără acord e **infracțiune** în România și în UE. O plângere la poliție (sau prin avocat) e opțională, dar ajută când un site sau un hosting refuză.
 
+## Planul intensiv: în fiecare zi, până terminăm (de pe 21 nov)
+**Sesiunea zilnică:** 45–60 de minute, la aceeași oră. Eu îți scriu în fiecare zi la 11:43 (ora Turciei) cu ce facem. Când termini, te oprești, chiar dacă mai e de lucru: mâine continuăm.
+
+| Ziua | Ce facem |
+|---|---|
+| **1 (sâm 21)** | Faci emailul separat. Cauți în Google Imagini și în Google numele tău (și variantele: cu/fără „Maia”, numele de pe Twitch, Instagram, TikTok). Fiecare rezultat cu poze furate: **⋮ → Remove result** pe loc. Notezi în lista privată site-urile găsite și îmi scrii doar numele lor. |
+| **2 (dum 22)** | Același lucru în **Bing** (aka.ms/reportci). Eu îți dau, pentru fiecare site de ieri, formularul, adresa de abuz și textul completat. Trimiți primele 3–5. |
+| **3–4 (lun 23 – mar 24)** | Încă 3–5 site-uri pe zi. Adaugi în StopNCII pozele care nu sunt încă în caz. Setezi o **alertă Google** pe numele tău (google.com/alerts), ca să afli când apare ceva nou. |
+| **5–7 (mie 25 – vin 27, în România)** | Ești în țară: **plângerea la poliție** (sau prin avocat) pentru publicarea pozelor fără acord. Duci lista cu site-urile și capturile. Cu numărul plângerii, cererile au mai multă greutate. Între timp: 10–15 minute pe zi, verifici răspunsurile. |
+| **Din ziua 8** | Revenirile la cine n-a răspuns (după 7 zile). Ce refuză sau tace 10–14 zile merge la **hosting**, apoi la FTC sau la autoritatea de date. Cauți din nou pe Google și Bing ce a rămas. |
+| **Gata** | Când căutarea numelui tău nu mai arată nimic două săptămâni la rând. Apoi doar alerta Google, o dată pe lună. |
+
 ## Înainte de orice (o singură dată)
 - **Un email separat**, făcut doar pentru cererile astea. Nu folosești adresa de colaborări.
 - **Lista privată:** pentru fiecare link, numele site-ului, linkul și o captură cu data. Le ții doar în dosarul privat de pe telefon.
