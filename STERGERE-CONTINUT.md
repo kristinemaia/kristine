@@ -9,19 +9,21 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 - **Textul B (GDPR)** merge la site-urile din Europa.
 - Publicarea imaginilor intime fără acord e **infracțiune** în România și în UE. O plângere la poliție (sau prin avocat) e opțională, dar ajută când un site sau un hosting refuză.
 
-## Unde am rămas (verificat în Gmail pe 20 nov)
-| Trimis | Site | Ce s-a întâmplat | Următorul pas |
+## Unde am rămas (actualizat 20 nov, 23:55)
+| Data | Site | Ce am trimis | Răspuns / pasul următor |
 |---|---|---|---|
-| 29 oct | Pornhub (contul vechi) | ✅ **șters**: conținutul și contul, confirmat pe 29 oct | nimic |
-| 28 oct | LeakGallery | ✅ **șters** în aceeași zi | verifici o dată pe lună |
-| 28–30 oct | Camwhores (13 videoclipuri) | au cerut lista exactă, ai trimis-o pe 30 oct; promis 24–48 h, **fără confirmare** | revenirea trimisă 20 nov. Rețeaua e a lor: **CW-AS (AS212792), Amsterdam** → adresa de abuz de pe ipinfo.io/88.210.60.61, apoi furnizorii lor: **Gigahost (NO) abuse@as56655.net**, **Hurricane Electric (SUA) abuse@he.net**, uvensys (DE) de aflat. ✏️ ciorna către furnizori e gata, se trimite **duminică 22 nov seara** dacă nu răspund |
-| 28 oct | Fapello | ❌ adresa lor de email nu există; **nu e pe Cloudflare**. Hostingul: **WEDEPLOY SAS / Infrawire.net, Amsterdam (Olanda, UE)**, abuz: abuse@ipbnb.com | ✅ cererea trimisă la hosting pe 20 nov (DSA art. 16 + GDPR + copyright); aștepți răspuns 7 zile |
-| 28 oct | Erome (erome.vip) | cererea a plecat din greșeală la adresa Fapello; **același server ca Fapello** (Infrawire, NL) | ✏️ completarea către abuse@ipbnb.com e în Ciorne (20 nov) |
-| 28 oct | Kemono | niciun răspuns; nu mai e pe Cloudflare. E prin **DDoS-Guard / IQWeb FZ-LLC (Belize)**, abuz: abuse@iqweb.io | ✏️ cererea e în Ciorne (20 nov); șanse mici, deci Google copyright în paralel |
-| 17 sep + 28 oct | Nudogram | niciun răspuns; „Final notice” trimis 20 nov | **pe Cloudflare** → formularul abuse.cloudflare.com/ncsei |
-| 17 sep | Fapachi, WildSkirts | niciun răspuns; „Final notice” trimis 20 nov | **pe Cloudflare** → formularul abuse.cloudflare.com/ncsei, câte unul pe site |
-| 17 sep | CelebExposed | niciun răspuns; „Final notice” trimis 20 nov. Hosting: **Amarutu Technology Ltd (AS206264), Amsterdam** | ✏️ cererea la hosting e în Ciorne, fără destinatar: adresa de abuz de pe ipinfo.io/89.42.231.189 |
-| 17 sep | **Google** (formularul NCII) | ❌ 6 linkuri **refuzate**: Google le consideră conținut „folosit pentru a câștiga bani” (adică scurgeri din conturi plătite); 4 linkuri: **n-au găsit conținutul** | vezi mai jos |
+| 29 oct | Pornhub (contul vechi) | cerere de ștergere | ✅ **șters** |
+| 28 oct | LeakGallery | DMCA | ✅ **șters** |
+| 20 nov | Camwhores (13 videoclipuri) | revenire la DMCA + cerere la rețeaua lor (CW-AS, email@buckyemail.com) + **furnizorii lor**: Hurricane Electric (abuse@he.net) și Gigahost (abuse@as56655.net) | aștept; uvensys (al 3-lea furnizor) de adăugat |
+| 20 nov | Fapello | cerere la hosting: Infrawire / WEDEPLOY, Olanda (abuse@ipbnb.com) | aștept 7 zile |
+| 20 nov | Erome | completare către același hosting ca Fapello | ⚠️ de verificat dacă a plecat (nu apare în Trimise) |
+| 20 nov | Kemono | cerere la DDoS-Guard / IQWeb (abuse@iqweb.io) | aștept; șanse mici, deci Google copyright |
+| 20 nov | Nudogram | „Final notice” + **formular Cloudflare** (raport 2d8a742946081344, 40 de linkuri) | ✅ Cloudflare a confirmat primirea; aștept numele hostingului |
+| 20 nov | Fapachi | „Final notice” + **formular Cloudflare** (raport 5c0a4ea535f027a0) | ✅ Cloudflare a confirmat primirea |
+| 20 nov | WildSkirts | „Final notice” + **formular Cloudflare** (raport 139ae1f442850a32) | ✅ Cloudflare a confirmat primirea |
+| 20 nov | CelebExposed | „Final notice” + cerere la hosting: KoDDoS / Amarutu (abuse@koddos.com) | ✅ **tichet deschis la KoDDoS (149736)**, aștept răspunsul |
+| 18 sep | **Google** (formularul NCII) | 6 linkuri refuzate („folosit pentru a câștiga bani”), 4 negăsite | **de făcut:** cererea de copyright |
+| 20 nov | Internet Removals | întrebări despre preț și condiții | aștept oferta |
 
 **Formularul Cloudflare** (abuse.cloudflare.com → categoria „Non-Consensual Sexually Explicit Imagery”, câte unul pe site): Cloudflare trimite raportul la firma care găzduiește site-ul și îți spune care e. Textul pentru „Description”:
 > I am the person shown in these images and videos. They were published without my consent (non-consensual intimate imagery). I am an adult and the copyright owner. The site operator has not responded to my removal requests. Please forward this report to the hosting provider and tell me who it is. Please do not share my contact details with the site operator.
