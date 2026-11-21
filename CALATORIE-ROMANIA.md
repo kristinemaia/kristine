@@ -75,6 +75,31 @@ Până acum: 23–26 sept, 4–15 oct și de pe 29 oct încoace.
 - [ ] păstrezi factura și certificatul de garanție (pentru garanție și, la nevoie, la vamă)
 - [ ] îl pui în **bagajul de mână**, cu cutia, ca să nu se strice
 
+## Cumpărături de haine în București (pentru iarna în Istanbul)
+_Iarna în Istanbul: 5–12 °C, ploaie și vânt, multe dealuri și caldarâm. Culorile care se văd la sala neagră cu galben: verde, albastru deschis, gri deschis, crem (vezi `TINUTE.md`)._
+
+**Sală / antrenament**
+- [ ] **o pereche de adidași de sală**: talpă plată și stabilă, pentru greutăți (de tip cross-training), nu de alergare
+- [ ] **un set nou de antrenament** (colanți + top/bustieră), într-o culoare care se vede pe camera de la sală
+- [ ] 2 bustiere sport · șosete sport
+
+**Oraș**
+- [ ] **o pereche de încălțăminte de oraș**: impermeabilă, cu talpă care nu alunecă (ghete Chelsea sau adidași impermeabili; se potrivesc cu ploaia și dealurile din Istanbul)
+- [ ] **o gecuță** (de tranziție)
+- [ ] **un anorac** impermeabil, cu glugă (pentru ploaie și vânt)
+- [ ] **2 perechi de blugi**
+- [ ] **o rochiță** și **o fustiță**
+- [ ] **body-uri și maiouri** (merg și sub geacă, și pe stream)
+
+**Training / casă**
+- [ ] **un training de purtat zilnic** (arată bine și pe stream)
+- [ ] **un training de casă**, comod
+
+**De luat în calcul**
+- [ ] căciulă, mănuși, fular (dacă nu le ai deja în Turcia)
+- [ ] o umbrelă mică și pliabilă
+- [ ] **bagajul:** verifici câte kilograme ai la întoarcere. Dacă iei multe, adaugi un bagaj de cală sau porți pe tine ce e voluminos (anorac, ghete).
+
 ## Ce iei înapoi în Turcia
 - [ ] plasturii (pentru mai multe luni) și rețeta
 - [ ] **absorbante** (și interne, dacă folosești), pentru câteva luni
