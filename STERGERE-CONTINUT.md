@@ -22,6 +22,7 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 | 20 nov | Fapachi | „Final notice” + **formular Cloudflare** (raport 5c0a4ea535f027a0) | ✅ Cloudflare a confirmat primirea |
 | 20 nov | WildSkirts | „Final notice” + **formular Cloudflare** (raport 139ae1f442850a32) | ✅ Cloudflare a confirmat primirea |
 | 20 nov | CelebExposed | „Final notice” + cerere la hosting: KoDDoS / Amarutu (abuse@koddos.com) | ✅ **tichet deschis la KoDDoS (149736)**, aștept răspunsul |
+| 20 nov | **Reddit** | lista completă trimisă la Reddit Support (tichetele 18672213 și 18769483): postări, ~15 conturi de spam, r/kristinemaia | ✅ confirmat primirea; aștept; formularul de copyright Reddit de făcut |
 | 18 sep | **Google** (formularul NCII) | 6 linkuri refuzate („folosit pentru a câștiga bani”), 4 negăsite | **de făcut:** cererea de copyright |
 | 20 nov | Internet Removals | întrebări despre preț și condiții | aștept oferta |
 
