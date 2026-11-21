@@ -33,6 +33,16 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 
 **În România (25–27 nov):** închizi conturile ManyVids, LoyalFans și Fansly (pașii în `CALATORIE-ROMANIA.md`). Apoi facem contestația la Google pentru linkurile refuzate.
 
+## Site-urile noi din scanarea Internet Removals (21 nov, fără linkuri)
+Scanarea arată 889 de linkuri: 89 vizibile, 800 ascunse („Unlock”, doar cu plată). Site-urile noi, la care încă n-am trimis nimic:
+- **multe linkuri:** thefap.net (de., en., oneprotests.), erothots.co (~12), erome.vip (galerii noi, același hosting ca Fapello), fapello.com / es.fapello.com („crismaia”, alt site decât fapello.ru)
+- **câte 1–3 linkuri:** pornrewind.com, fapeza.com, ytboob.com, leaked.fans, masterfap.net, nudostar.com, thefappeningblog.com, adultphotosets.best, fapopedia.net, epawg.com, thothd.com
+- **profiluri vechi de videochat:** anacams.com, chococams.com, myteenwebcam.com
+- **blog WordPress:** bimbimmodels.wordpress.com (se raportează direct la WordPress.com, care șterge repede)
+- **nu e conținut adult:** empresas.serasaexperian.com.br (o firmă braziliană „CRISMAIA”, fără legătură) și paginile de căutare Google; acestea nu se raportează
+
+**Ordinea:** 1) cererea de copyright la Google pentru toate linkurile (21 nov); 2) hostingul fiecărui site (hostingchecker + ipinfo), în grupuri de câte 5; 3) WordPress.com, din formularul lor.
+
 ## De făcut la sesiunea de sâmbătă, 21 nov (11:43)
 1. **Internet Removals:** pagina nu are buton de export. Faci capturi:
    - tabelul **„Scan Results”**, derulat până jos (89 de rânduri vizibile);
