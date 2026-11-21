@@ -94,6 +94,7 @@ _Iarna în Istanbul: 5–12 °C, ploaie și vânt, multe dealuri și caldarâm. 
 **Training / casă**
 - [ ] **un training de purtat zilnic** (arată bine și pe stream)
 - [ ] **un training de casă**, comod
+- [ ] **colanți de casă** (comozi, de purtat prin casă)
 
 **De luat în calcul**
 - [ ] căciulă, mănuși, fular (dacă nu le ai deja în Turcia)
