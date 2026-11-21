@@ -41,6 +41,8 @@ Scanarea arată 889 de linkuri: 89 vizibile, 800 ascunse („Unlock”, doar cu 
 - **blog WordPress:** bimbimmodels.wordpress.com (se raportează direct la WordPress.com, care șterge repede)
 - **nu e conținut adult:** empresas.serasaexperian.com.br (o firmă braziliană „CRISMAIA”, fără legătură) și paginile de căutare Google; acestea nu se raportează
 
+**Hosting (21 nov):** thefap.net, fapello.com, nudostar.com → Cloudflare (formularul ncsei). erothots.co → IP Vendetta Inc (AS209101, Seychelles), cererea e în Ciorne; adresa de abuz se ia de pe ipinfo.io/94.26.104.63. De verificat: epawg.com și grupurile 2–4.
+
 **Ordinea:** 1) cererea de copyright la Google pentru toate linkurile (21 nov); 2) hostingul fiecărui site (hostingchecker + ipinfo), în grupuri de câte 5; 3) WordPress.com, din formularul lor.
 
 ## De făcut la sesiunea de sâmbătă, 21 nov (11:43)
