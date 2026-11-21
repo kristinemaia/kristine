@@ -26,6 +26,19 @@ Programul caută pe Google, Google Imagini, Bing și Yandex tot ce apare cu nume
 
 Planul gratuit are 250 de căutări pe lună. Programul face câte ~25 o dată la 3 zile și le ia pe rând: numele simplu, numele cu „leak”, „nude”, „onlyfans”, Reddit/X/Telegram, apoi „site:” pe fiecare site găsit. Le face pe toate în ~2 săptămâni, apoi o ia de la capăt. Cu planul de 25 $ pe lună (1.000 de căutări), le face pe toate de 4 ori mai des, fără nicio altă setare.
 
+### 4. Emailul (ca să vadă singur ce ai trimis și cine ți-a răspuns)
+Programul doar citește emailul: nu trimite nimic, nu șterge nimic și nu marchează nimic ca citit. Pentru Gmail:
+1. Intri pe **myaccount.google.com**, cu contul de email din care trimiți cererile.
+2. **Security** → **2-Step Verification**. Dacă e oprită, o pornești (îți cere telefonul).
+3. Apoi intri pe **myaccount.google.com/apppasswords**.
+4. La nume scrii **verificare** și apeși **Create**. Apare o parolă de 16 litere. O copiezi.
+5. În **chei.txt** completezi:
+   - `EMAIL=` adresa de email;
+   - `EMAIL_PAROLA=` parola de 16 litere (merge și cu spațiile din ea).
+6. Apeși **Ctrl+S**.
+
+Parola de aplicație nu e parola ta obișnuită. O poți șterge oricând din aceeași pagină, iar programul nu mai are acces.
+
 ## De fiecare dată
 1. Dai dublu-click pe **verificare.bat**. Prima dată, dacă apare „Windows protected your PC”, apeși **More info** → **Run anyway**.
 2. Fereastra neagră îți arată cât a verificat. Durează câteva minute.
@@ -40,6 +53,7 @@ Planul gratuit are 250 de căutări pe lună. Programul face câte ~25 o dată l
   - **Site-ul**: adresa de email și pagina de DMCA, găsite singur pe site. Butoanele **Take It Down (A)**, **GDPR (B)** și **DMCA (C)** îți deschid emailul gata scris, cu linkurile puse. La un site din UE, GDPR are ★. Tu doar copiezi adresa, subiectul și textul.
   - **Hosting**: unde e găzduit site-ul. Dacă e pe Cloudflare, ai formularul lor. Altfel ai adresa de abuz a firmei și emailul gata scris. Dedesubt ai și firma domeniului, pasul următor dacă nici hostingul nu șterge.
   - După ce trimiți, apeși **„Am trimis”**. 🔴 roșu = de trimis, 🟢 verde = trimis (cu data), 🟠 portocaliu = revenire. Revenirea apare după 7 zile la site și după 14 zile la hosting, cu emailul de revenire gata scris.
+- **📧 Din email**: pe fiecare card vezi ce ai trimis, confirmările de la Google, Bing și Cloudflare și răspunsurile site-urilor sau ale hostingului. Dacă în răspuns scrie că au șters, apare ✓. Sus în raport vezi **răspunsurile noi**. Când găsește în email o cerere trimisă, bifează singur „Am trimis”.
 - **⏳ Trimis, aștept**: site-urile la care ai trimis tot.
 - **❔ Alte pagini cu numele tău**: paginile care nu par conținut adult (articole, reposturi). Dacă e ceva furat, apeși „E conținut furat” și site-ul trece la De trimis.
 - **🟢 Șterse**, cu data la care au dispărut. Dacă o pagină ștearsă încă apare în Google, ai formularul ca s-o scoți.
@@ -47,11 +61,13 @@ Planul gratuit are 250 de căutări pe lună. Programul face câte ~25 o dată l
   - **„E șters (am verificat)”** și **„Mai e online”** sunt pentru site-urile blocate în Turcia, după ce le deschizi cu VPN.
   - **„Ascunde (nu e furat)”** scoate linkul din listă.
 - **➕ Adaugă linkuri**: lipești linkurile noi direct în raport.
+- **📄 Textele**: toate textele (A Take It Down, B GDPR, C DMCA, revenire, hosting, firma domeniului), cu butoane de copiat, pentru orice site.
 - Ai trimis deja lista mare la Google (21 nov)? Sus apeși „Am trimis tot la Google” și scrii data.
 
 ## Ce face singur
 - Caută numele tale (kristinemaia, kristinemaia11, crismaia, missfoxyfire, „kristine maia”) pe Google, Google Imagini, Bing și Yandex, cu SafeSearch oprit. Ce găsește nou apare cu 🆕.
 - Recunoaște paginile cu conținut adult după cuvintele din adresă, titlu și pagină.
+- Caută numele tale pe peste 70 de site-uri adult cunoscute, din **site-uri-adult.txt**. Poți adăuga oricând altele în fișierul ăsta, câte unul pe rând.
 - Pe fiecare site adult găsit caută cu „site:” toate paginile cu numele tale. Învață și adresa de profil a site-ului, apoi verifică acolo și celelalte nume.
 - La fiecare site găsește hostingul (sau Cloudflare), firma domeniului, pagina de DMCA și adresa de email, chiar și pe cele ascunse de Cloudflare.
 - Paginile tale oficiale (site-ul, Instagram, TikTok, Twitch, Payhip) nu apar în raport.
@@ -65,7 +81,7 @@ Planul gratuit are 250 de căutări pe lună. Programul face câte ~25 o dată l
 ## Unde stau linkurile
 Doar în folderul ăsta, pe laptopul tău:
 - **linkuri.txt**
-- **chei.txt**
+- **chei.txt**: cheia SerpApi și parola de aplicație a emailului
 - **stare.json**: evidența, numele și emailul tău, cu o copie de rezervă în stare.json.bak
 - **raport.html**
 
