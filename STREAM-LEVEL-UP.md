@@ -41,6 +41,16 @@ Rezultatul: pop-up-ul apare 30 s la fiecare ~10 minute. Dacă vrei să apară ș
 
 Pop-up-ul stă jos în stânga. Dacă acolo ai camera sau chat-ul, îl muți din OBS, nu trebuie refăcut.
 
+## 3b. Pop-up-ul în StreamElements (în loc de OBS)
+Un widget care arată pop-up-ul **singur, la fiecare 10 minute**, și **imediat când cineva scrie `!program`** în chat. Codul e în `brand/twitch/streamelements-popup/` (4 fișiere).
+1. streamelements.com → **Streaming tools → Overlays → New overlay** (1920 × 1080), sau deschizi overlay-ul tău.
+2. **+ (Add widget) → Static / Custom → Custom widget**.
+3. În stânga, la widget → **Open editor**. Sunt 4 tab-uri: **HTML, CSS, JS, Fields**. Ștergi ce e în fiecare și lipești conținutul fișierului cu același nume (`HTML.html`, `CSS.css`, `JS.js`, `FIELDS.json`) → **Done**.
+4. În setările widget-ului apare **„Pop-up image”** → încarci `obs-popup-level-up-1920x1080.png`.
+5. Întinzi widget-ul pe tot ecranul (0, 0, 1920 × 1080) → **Save**.
+6. Linkul overlay-ului (butonul cu lanțul) îl pui în OBS ca **Browser source** (1920 × 1080), peste cameră.
+7. Din setări schimbi: la câte minute apare, câte secunde stă și comenzile din chat.
+
 ## 4. Idei ca să-l promovezi pe stream
 1. **Pauza de stretch = reclamă naturală.** La fiecare pauză (recompensa de 1 sub sau `!stretch`) spui: „this one is from my program, type !program” și arăți pop-up-ul.
 2. **„Take the quiz with me”** (5 minute, o dată, la începutul stream-ului): faci quiz-ul pe ecran, cu răspunsuri inventate, și arăți planul și un exercițiu. Oamenii văd cum arată pe dinăuntru.
