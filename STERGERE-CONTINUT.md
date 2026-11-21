@@ -32,6 +32,16 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 
 **În România (25–27 nov):** închizi conturile ManyVids, LoyalFans și Fansly (pașii în `CALATORIE-ROMANIA.md`). Apoi facem contestația la Google pentru linkurile refuzate.
 
+## De făcut la sesiunea de sâmbătă, 21 nov (11:43)
+1. **Internet Removals:** pagina nu are buton de export. Faci capturi:
+   - tabelul **„Scan Results”**, derulat până jos (89 de rânduri vizibile);
+   - căsuța **„Top Domains”** din dreapta, derulată până jos.
+2. **Lista nouă:** din capturi scot site-urile la care **n-am trimis încă nimic**. Pe primul ecran apăreau deja 4: **fapeza.com, thefap.net (de. și oneprotests.), pornrewind.com, leaked.fans**. Le scot pe cele deja făcute: Pornhub, LeakGallery, Camwhores, Fapello, Erome, Kemono, Nudogram, Fapachi, WildSkirts, CelebExposed.
+3. **Pentru fiecare site nou:** hostingchecker.com, apoi ipinfo.io/IP (sau RIPE pentru adresa de abuz). Cele de pe Cloudflare merg pe formularul abuse.cloudflare.com/ncsei; pentru celelalte pregătesc emailul către hosting. Eu pregătesc tot pachetul, Kristine zice „trimite”, iar eu îl trimit din Gmail.
+4. **Google, cererea de copyright** (support.google.com/legal → Google Search → Copyright): cele 6 linkuri refuzate pe 18 sep + Fapello + Kemono + Erome + cele noi.
+5. **Răspunsuri:** verific Gmail-ul (KoDDoS tichet 149736, cele 3 rapoarte Cloudflare, hostingurile Fapello/Erome/Kemono, rețeaua și furnizorii Camwhores, Internet Removals).
+6. Notă: „missfoxyfire” a fost numele de videochat al Kristinei. Există și o streameriță din Danemarca cu același nume (fostă „Rebbaly”); pe ea nu o atingem.
+
 ## Planul intensiv: în fiecare zi, până terminăm (de pe 21 nov)
 **Sesiunea zilnică:** 45–60 de minute, la aceeași oră. Eu îți scriu în fiecare zi la 11:43 (ora Turciei) cu ce facem. Când termini, te oprești, chiar dacă mai e de lucru: mâine continuăm.
 
