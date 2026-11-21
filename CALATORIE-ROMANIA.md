@@ -33,7 +33,7 @@ Dacă trebuie să mergi la ghișeu, mergi **joi 26** (după aterizare, dacă aju
 - [ ] **ManyVids**
 - [ ] **LoyalFans**
 - [ ] **Fansly**
-- [ ] **Conturile vechi de videochat** (numele „missfoxyfire” și altele): **LiveJasmin, MyFreeCams (MFC), Chaturbate** și orice alt site de videochat pe care ai avut cont. Verifici dacă mai există, ștergi pozele și videoclipurile, apoi închizi contul.
+- [ ] **Conturile vechi de videochat** (numele „missfoxyfire” și altele): **LiveJasmin, MyFreeCams (MFC), Chaturbate, SkyPrivate** și orice alt site de videochat pe care ai avut cont. Verifici dacă mai există, ștergi pozele și videoclipurile, apoi închizi contul.
 
 Pentru fiecare, în ordinea asta:
 1. **Descarci actele pentru contabilă**: istoricul plăților sau încasărilor și facturile (Settings → Payouts / Earnings / Statements). Le pui în dosarul firmei.

@@ -9,52 +9,45 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 - **Textul B (GDPR)** merge la site-urile din Europa.
 - Publicarea imaginilor intime fără acord e **infracțiune** în România și în UE. O plângere la poliție (sau prin avocat) e opțională, dar ajută când un site sau un hosting refuză.
 
-## Unde am rămas (actualizat 21 nov: tot ce era de trimis a plecat)
-| Data | Site | Ce am trimis | Răspuns / pasul următor |
+## 📋 Evidența (tot ce am trimis, actualizată 21 nov seara)
+_Doar numele site-urilor, fără linkuri. ✅ = șters · 📨 = trimis, aștept · 🎫 = tichet deschis · ⏳ = de făcut · ❌ = nu se poate pe calea asta_
+
+### Ștearse
+| Site | Cum | Când |
+|---|---|---|
+| Pornhub (contul vechi + conținutul) | cerere de retragere a consimțământului | ✅ 29 oct |
+| LeakGallery | DMCA | ✅ 28 oct |
+
+### Site-uri: cereri trimise
+| Site | Ce am trimis | Hosting | Stare |
 |---|---|---|---|
-| 29 oct | Pornhub (contul vechi) | cerere de ștergere | ✅ **șters** |
-| 28 oct | LeakGallery | DMCA | ✅ **șters** |
-| 20 nov | Camwhores (13 videoclipuri) | revenire la DMCA + cerere la rețeaua lor (CW-AS, email@buckyemail.com) + **furnizorii lor**: Hurricane Electric (abuse@he.net) și Gigahost (abuse@as56655.net) | aștept; uvensys (abuse@uvensys.de, Germania): trimis 21 nov |
-| 20 nov | Fapello | cerere la hosting: Infrawire / WEDEPLOY, Olanda (abuse@ipbnb.com) | aștept 7 zile |
-| 20 nov | Erome | completare către același hosting ca Fapello | trimisă 21 nov; aștept 7 zile |
-| 20 nov | Kemono | cerere la DDoS-Guard / IQWeb (abuse@iqweb.io) | aștept; șanse mici, deci Google copyright |
-| 20 nov | Nudogram | „Final notice” + **formular Cloudflare** (raport 2d8a742946081344, 40 de linkuri) | ✅ Cloudflare a confirmat primirea; aștept numele hostingului |
-| 20 nov | Fapachi | „Final notice” + **formular Cloudflare** (raport 5c0a4ea535f027a0) | ✅ Cloudflare a confirmat primirea |
-| 20 nov | WildSkirts | „Final notice” + **formular Cloudflare** (raport 139ae1f442850a32) | ✅ Cloudflare a confirmat primirea |
-| 20 nov | CelebExposed | „Final notice” + cerere la hosting: KoDDoS / Amarutu (abuse@koddos.com) | ✅ **tichet deschis la KoDDoS (149736)**, aștept răspunsul |
-| 20 nov | **Reddit** | lista completă trimisă la Reddit Support (tichetele 18672213 și 18769483): postări, ~15 conturi de spam, r/kristinemaia | ✅ confirmat primirea; aștept; formularul de copyright Reddit de făcut |
-| 21 nov | **Google, cererea de copyright** (toate linkurile, ~80) | trimisă: **Report ID 9-2227000041887** | aștept emailul de la Google (zile – 2 săptămâni) |
-| 18 sep | **Google** (formularul NCII) | 6 linkuri refuzate („folosit pentru a câștiga bani”), 4 negăsite | **de făcut:** cererea de copyright |
-| 20 nov | Internet Removals | întrebări despre preț și condiții | aștept oferta |
+| Camwhores (.us.com, .video) | DMCA 28–30 oct · revenire 20 nov · rețeaua lor CW-AS 20 nov · furnizorii Hurricane Electric + Gigahost 20 nov · uvensys 21 nov | rețea proprie (Amsterdam/Norvegia) | 📨 aștept |
+| Fapello.ru + Erome.vip | hosting Infrawire/WEDEPLOY, Olanda (abuse@ipbnb.com), 20–21 nov | același server | 📨 aștept |
+| Kemono | DDoS-Guard / IQWeb (abuse@iqweb.io), 20 nov | Belize | 📨 șanse mici |
+| CelebExposed | final notice + KoDDoS/Amarutu | Amsterdam | 🎫 tichet 149736 |
+| Masterfap | KoDDoS/Amarutu, 21 nov | Amsterdam | 🎫 tichet 012106 |
+| Adultphotosets | REG.RU (abuse@reg.ru), 21 nov | Moscova | 📨 șanse mici |
+| Pornrewind | Interserver (abuse@interserver.net), Take It Down 48 h, 21 nov | SUA | 📨 termen ~23 nov |
+| Nudogram (cn., sk.) | final notice + Cloudflare (2d8a742946081344) | Cloudflare | 📨 |
+| Fapachi | final notice + Cloudflare (5c0a4ea535f027a0) | Cloudflare | 📨 |
+| WildSkirts | final notice + Cloudflare (139ae1f442850a32) | Cloudflare | 📨 |
+| thefap.net, fapello.com, nudostar, epawg, fapopedia, thefappeningblog, leaked.fans, fapeza, thothd, anacams, chococams, myteenwebcam | formulare Cloudflare, 21 nov (15 confirmări primite) | Cloudflare | 📨 aștept hostingul |
+| Erothots | cererea e scrisă, dar **nu există adresă de abuz** (IP Vendetta, AS209101; RIPE și ipinfo dau eroare) | Seychelles | ❌ prin hosting · ✅ inclus la Google |
+| ytboob | site-ul pare închis | — | doar Google |
+| bimbimmodels (WordPress) | ⏳ wordpress.com/abuse | WordPress.com | ⏳ |
 
-**Formularul Cloudflare** (abuse.cloudflare.com → categoria „Non-Consensual Sexually Explicit Imagery”, câte unul pe site): Cloudflare trimite raportul la firma care găzduiește site-ul și îți spune care e. Textul pentru „Description”:
-> I am the person shown in these images and videos. They were published without my consent (non-consensual intimate imagery). I am an adult and the copyright owner. The site operator has not responded to my removal requests. Please forward this report to the hosting provider and tell me who it is. Please do not share my contact details with the site operator.
+### Platforme mari
+| Unde | Ce | Stare |
+|---|---|---|
+| **Google, copyright** | ~80 de linkuri, toate site-urile | 📨 **Report ID 9-2227000041887** (21 nov) |
+| Google, NCII (18 sep) | 6 refuzate („bani”), 4 negăsite | ⏳ contestație după închiderea conturilor |
+| **Reddit** | lista completă: postări, ~15 conturi de spam, r/kristinemaia | 🎫 tichetele 18672213 + 18769483 |
+| Bing | ⏳ aka.ms/reportci, cu aceeași listă ca la Google | ⏳ |
+| StopNCII | caz făcut (numărul nu se scrie aici) | ✅ |
+| Internet Removals | întrebări despre preț și condiții | 📨 aștept oferta |
 
-**Ce înseamnă refuzul Google:** formularul de imagini intime nu se aplică atunci când Google crede că pozele vin dintr-un cont plătit. Atunci se folosește **formularul de drepturi de autor** (Google Legal Help → copyright). Acolo nu contează asta: pozele sunt ale tale, iar ei le-au furat. Pentru cele 4 negăsite: retrimiți cu capturi noi, decupate doar pe poză.
-
-**În România (25–27 nov):** închizi conturile ManyVids, LoyalFans și Fansly (pașii în `CALATORIE-ROMANIA.md`). Apoi facem contestația la Google pentru linkurile refuzate.
-
-## Site-urile noi din scanarea Internet Removals (21 nov, fără linkuri)
-Scanarea arată 889 de linkuri: 89 vizibile, 800 ascunse („Unlock”, doar cu plată). Site-urile noi, la care încă n-am trimis nimic:
-- **multe linkuri:** thefap.net (de., en., oneprotests.), erothots.co (~12), erome.vip (galerii noi, același hosting ca Fapello), fapello.com / es.fapello.com („crismaia”, alt site decât fapello.ru)
-- **câte 1–3 linkuri:** pornrewind.com, fapeza.com, ytboob.com, leaked.fans, masterfap.net, nudostar.com, thefappeningblog.com, adultphotosets.best, fapopedia.net, epawg.com, thothd.com
-- **profiluri vechi de videochat:** anacams.com, chococams.com, myteenwebcam.com
-- **blog WordPress:** bimbimmodels.wordpress.com (se raportează direct la WordPress.com, care șterge repede)
-- **nu e conținut adult:** empresas.serasaexperian.com.br (o firmă braziliană „CRISMAIA”, fără legătură) și paginile de căutare Google; acestea nu se raportează
-
-**Hosting (21 nov):** thefap.net, fapello.com, nudostar.com → Cloudflare (formularul ncsei). erothots.co → IP Vendetta Inc (AS209101, Seychelles), cererea e în Ciorne; adresa de abuz se ia de pe ipinfo.io/94.26.104.63. thefap, fapello.com, nudostar: formularele Cloudflare trimise (21 nov). Grupul 2: epawg, fapopedia, thefappeningblog, leaked.fans → Cloudflare; masterfap.net → KoDDoS/Amarutu (abuse@koddos.com, ✏️ Ciorne); adultphotosets.best → REG.RU, Moscova (abuse@reg.ru, ✏️ Ciorne). Grupul 3: fapeza, thothd, anacams, chococams, myteenwebcam → Cloudflare; pornrewind.com → Interserver (SUA, abuse@interserver.net, ✏️ Ciorne, Take It Down 48 h); ytboob.com → hostingchecker nu-l găsește (probabil închis; rămâne doar în cererea Google). Mai rămâne: bimbimmodels (wordpress.com/abuse). **Cu asta, toate cele 89 de linkuri vizibile sunt acoperite.**
-
-**Ordinea:** 1) cererea de copyright la Google pentru toate linkurile (21 nov); 2) hostingul fiecărui site (hostingchecker + ipinfo), în grupuri de câte 5; 3) WordPress.com, din formularul lor.
-
-## De făcut la sesiunea de sâmbătă, 21 nov (11:43)
-1. **Internet Removals:** pagina nu are buton de export. Faci capturi:
-   - tabelul **„Scan Results”**, derulat până jos (89 de rânduri vizibile);
-   - căsuța **„Top Domains”** din dreapta, derulată până jos.
-2. **Lista nouă:** din capturi scot site-urile la care **n-am trimis încă nimic**. Pe primul ecran apăreau deja 4: **fapeza.com, thefap.net (de. și oneprotests.), pornrewind.com, leaked.fans**. Le scot pe cele deja făcute: Pornhub, LeakGallery, Camwhores, Fapello, Erome, Kemono, Nudogram, Fapachi, WildSkirts, CelebExposed.
-3. **Pentru fiecare site nou:** hostingchecker.com, apoi ipinfo.io/IP (sau RIPE pentru adresa de abuz). Cele de pe Cloudflare merg pe formularul abuse.cloudflare.com/ncsei; pentru celelalte pregătesc emailul către hosting. Eu pregătesc tot pachetul, Kristine zice „trimite”, iar eu îl trimit din Gmail.
-4. **Google, cererea de copyright** (support.google.com/legal → Google Search → Copyright): cele 6 linkuri refuzate pe 18 sep + Fapello + Kemono + Erome + cele noi.
-5. **Răspunsuri:** verific Gmail-ul (KoDDoS tichet 149736, cele 3 rapoarte Cloudflare, hostingurile Fapello/Erome/Kemono, rețeaua și furnizorii Camwhores, Internet Removals).
-6. Notă: „missfoxyfire” a fost numele de videochat al Kristinei. Există și o streameriță din Danemarca cu același nume (fostă „Rebbaly”); pe ea nu o atingem.
+### De verificat / închis personal (în România, 25–27 nov)
+ManyVids · LoyalFans · Fansly · **SkyPrivate** · LiveJasmin · MyFreeCams · Chaturbate · alte conturi „missfoxyfire” · plângerea la poliție
 
 ## Planul intensiv: în fiecare zi, până terminăm (de pe 21 nov)
 **Sesiunea zilnică:** 45–60 de minute, la aceeași oră. Eu îți scriu în fiecare zi la 11:43 (ora Turciei) cu ce facem. Când termini, te oprești, chiar dacă mai e de lucru: mâine continuăm.
