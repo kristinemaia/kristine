@@ -2,6 +2,14 @@
 
 _Programul Level Up e gata. Din acum, aproape tot timpul merge în 3 direcții, în ordinea asta. Orice altceva (colaborări noi, idei noi) așteaptă sau se face doar dacă rămâne timp._
 
+## Săptămâna 21–27 nov: ce e programat
+- **Sâm 21:** ✅ comanda `!program` + pop-up-ul în overlay. Ștergerea: Google copyright + 15 formulare Cloudflare + 3 hostinguri.
+- **Dum 22, 11:43:** ștergerea (verificăm răspunsurile, Bing, WordPress).
+- **Lun 23, dimineața, înainte de stream: 🎥 filmat în bucătărie**
+  - **brownie cu curmale** (desertul)
+  - **încă o rețetă**, din aceleași ingrediente ca să filmezi totul într-o oră (variante mai jos)
+- **Mie 25 – Vin 27:** București (conturile vechi, plângerea la poliție).
+
 ## 🐸 1. „Broasca cea mare”: ștergerea conținutului cu tine de pe internet
 **De ce prima:** te apără pe tine, stream-ul și brandul. Cât e online, oricine te poate recunoaște.
 **Când:** în fiecare zi, **11:43–12:45**, prima treabă din zi. Eu îți scriu la ora asta cu ce facem.

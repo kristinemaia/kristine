@@ -3,8 +3,8 @@
 _20 nov 2026. Ca Level Up să fie promovat și pe stream, nu doar pe social media. Fișierele: `brand/twitch/panels/`._
 
 ## De făcut (lista)
-- [ ] **StreamElements:** comanda `!program` (+ `!levelup`, `!plan`) și timerul care o afișează singur în chat
-- [ ] **OBS:** pop-up-ul `obs-popup-level-up-1920x1080.png`, cu tastă de afișare sau prin rotație
+- [x] ✅ (21 nov) **StreamElements:** comanda `!program` (+ `!levelup`, `!plan`) și timerul care o afișează singur în chat
+- [x] ✅ (21 nov, pus în overlay-ul StreamElements) **OBS:** pop-up-ul `obs-popup-level-up-1920x1080.png`, cu tastă de afișare sau prin rotație
 - [ ] **Twitch, panouri:** `panel-4-level-up-320.png`, primul panou, cu linkul `https://kristinemaia.com/training.html`
 - [ ] **Titlul stream-ului:** la final adaugi ` · !program`
 - [ ] Recompensă cu channel points (mai jos)
