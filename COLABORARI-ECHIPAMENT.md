@@ -22,7 +22,7 @@ _20 nov 2026. Verificat pe web azi. Unde nu există email, aplici din formular s
 | 9 | **TALA** | colanți, UK | **afiliere** prin **Awin** (6% clienți vechi, 10% clienți noi). Atenție, pe Awin mai e un „TALA” de lumini: alegi pe cel de haine | ☐ |
 | 10 | **Buffbunny** | colanți premium | **afiliere** prin **Awin** (30 de zile cookie) | ☐ |
 | 11 | **Alphalete** | haine de sală, SUA | **afiliere** prin **Impact** (~4%) | ☐ |
-| 12 | **Thrivin** (colecția „Beauty in Strength”) | colanți, sală | DM pe Instagram (n-am găsit email public) | ☐ |
+| 12 | **Thrivin** (colecția „Beauty in Strength”) | colanți, sală | ambasadori: **collabs@thrivin.com** · UGC: **ugc.collabs@thrivin.com** (ne-au răspuns la DM pe 21 nov) | ✏️ 2 emailuri în Ciorne |
 | 13 | **AEON Athletics** (colecția „Born Wild”) | colanți, seturi | afiliere/ambasador prin **Awin** (produse gratuite + cod 10% + comision) + DM pe Instagram | ☐ |
 | 14 | **FGM04** | haine de sală | DM pe Instagram @fgm04official | ☐ |
 | — | **Trendyol (TrendFam)** | Turcia | deja în discuție: ne înscriem la început de decembrie | ✏️ |
