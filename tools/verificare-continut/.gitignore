@@ -1,4 +1,8 @@
-# Linkurile și rezultatele rămân doar pe laptopul tău
+# Linkurile, cheile și rezultatele rămân doar pe laptopul tău
 linkuri.txt
+chei.txt
 stare.json
+stare.json.bak
+stare.json.tmp
 raport.html
+__pycache__/

@@ -1,5 +1,4 @@
 @echo off
 cd /d "%~dp0"
-python verificare.py
-start "" raport.html
-pause
+python verificare.py %*
+if errorlevel 1 pause
