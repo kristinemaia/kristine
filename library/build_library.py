@@ -52,6 +52,8 @@ GROUPS = [
         "items": [
             {"kind": "doc", "slug": "plan-top-3", "title": "Planul: cele 3 lucruri care contează (ștergerea, Level Up, stream-ul)", "src": "PLAN-TOP-3.md",
              "desc": "Ziua pe ore, țintele pe săptămâni până în decembrie și ce lăsăm deoparte. Prima: ștergerea conținutului; a doua: promovarea programului; a treia: stream-ul."},
+            {"kind": "doc", "slug": "comentarii-automate", "title": "„Comment LEVEL UP / STRETCH” → link automat în DM (ManyChat)", "src": "COMENTARII-AUTOMATE.md",
+             "desc": "Setarea în ManyChat pas cu pas: cuvintele-cheie, răspunsurile publice, mesajele din DM cu butoane (quiz-ul și PDF-ul gratuit) și cum le folosești în postări."},
             {"kind": "doc", "slug": "dm-uri-level-up", "title": "DM-urile pentru Level Up: 20 de răspunsuri gata de trimis", "src": "DM-URI-LEVEL-UP.md",
              "desc": "Link, preț, ce primești, începători, acasă, timp, durere, cum se deschide, anulare, prețul de fondator, mulțumire, plus 2 în română. Cu scurtături pentru răspunsurile salvate din Instagram."},
             {"kind": "doc", "slug": "stream-level-up", "title": "Level Up pe stream: StreamElements, OBS și idei", "src": "STREAM-LEVEL-UP.md",
