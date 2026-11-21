@@ -3,13 +3,13 @@
 
 Ce face (fără să descarce sau să arate poze):
   1. Ia linkurile tale din linkuri.txt și caută singur numele tale pe Google, Google Imagini, Bing și Yandex
-     (prin SerpApi) și pe Brave, dacă ai pus o cheie în chei.txt.
-  2. Ce găsește nou adaugă singur. Din linkurile găsite învață adresele de profil ale site-urilor
-     și verifică acolo și celelalte nume ale tale.
+     (prin SerpApi; cu „leak”, „nude”, „onlyfans”, Reddit/X/Telegram și „site:” pe fiecare site găsit).
+  2. Ce găsește nou adaugă singur și recunoaște conținutul adult. Din linkurile găsite învață adresele de profil
+     ale site-urilor și verifică acolo și celelalte nume ale tale.
   3. Verifică fiecare pagină: ONLINE, ȘTERS sau NU POT VERIFICA (site blocat în țară, protecție Cloudflare).
-  4. Află unde e găzduit fiecare site (Cloudflare sau altă firmă) și adresa lor de abuz.
+  4. La fiecare site află hostingul (sau Cloudflare), firma domeniului, pagina de DMCA și adresa de email.
   5. Deschide raportul în browser: la fiecare site vezi ce mai ai de trimis (Google, Bing, site, hosting),
-     bifezi „Am trimis”, iar programul îți spune când e timpul pentru revenire.
+     cu emailul gata scris, bifezi „Am trimis”, iar programul îți spune când e timpul pentru revenire.
 
 Rulezi: dublu-click pe verificare.bat (Windows) sau: python verificare.py
   python verificare.py --raport        doar raportul, fără verificare (ca să bifezi ce ai trimis)
@@ -18,7 +18,7 @@ Rulezi: dublu-click pe verificare.bat (Windows) sau: python verificare.py
   python verificare.py --fara-server   scrie raport.html și se oprește
 Linkurile, cheile și rezultatele rămân doar în folderul ăsta, pe laptopul tău.
 """
-import json, os, re, secrets, shutil, socket, ssl, sys, threading, time, webbrowser
+import html, json, os, re, secrets, shutil, socket, ssl, sys, threading, time, webbrowser
 import urllib.error, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta
@@ -53,11 +53,28 @@ SABLOANE = [
 PLATFORME_MARI = ['instagram.com', 'tiktok.com', 'youtube.com', 'x.com', 'twitter.com', 'facebook.com', 'twitch.tv',
                   'reddit.com', 'threads.net', 'pinterest.com', 'linkedin.com', 'linktr.ee', 'onlyfans.com', 'fansly.com',
                   'patreon.com', 'tumblr.com', 'vk.com', 't.me', 'telegram.me', 'github.com', 'payhip.com', 'snapchat.com']
-# Căutarea pe Google/Bing (SerpApi: 250 de căutări gratuite pe lună).
-MOTOARE = ['google', 'bing', 'google_imagini', 'yandex', 'google_pagina2']   # în ordinea importanței
-ZILE_INTRE_CAUTARI = 7       # caută o dată pe săptămână (verificarea linkurilor știute merge oricând)
-MAX_CAUTARI_PE_RULARE = 25
-LIMITA_SERPAPI = 250         # pe lună, planul gratuit
+# Căutarea pe Google/Bing/Yandex (prin SerpApi). Fiecare formulă se caută pentru fiecare nume din CAUTARI ({n}),
+# în ordinea de mai jos. Pe lângă ele: „site:SITE (numele tale)” pe Google, pentru fiecare site cu conținut adult găsit,
+# ca să apară toate paginile tale de pe el. Planul gratuit nu ajunge pentru toate deodată: programul le ia pe rând,
+# întâi pe cele necăutate de cel mai mult timp (planul gratuit: ~25 la fiecare 3 zile; cu un plan mai mare, mai multe).
+FORMULE = [
+    ('google', '"{n}"'),
+    ('bing', '"{n}"'),
+    ('google', '"{n}" leak OR leaked OR leaks'),
+    ('google', '"{n}" nude OR naked OR nudes OR nsfw'),
+    ('google', '"{n}" onlyfans OR fansly OR porn OR xxx'),
+    ('google_imagini', '"{n}"'),
+    ('bing', '"{n}" leaked OR nude OR onlyfans OR porn'),
+    ('yandex', '"{n}"'),
+    ('google', '"{n}" site:reddit.com OR site:x.com OR site:t.me OR site:erome.com'),
+    ('google_imagini', '"{n}" nude OR leaked'),
+    ('yandex', '{n} leaked nude'),
+    ('google_pagina2', '"{n}"'),
+    ('bing_pagina2', '"{n}"'),
+]
+ZILE_INTRE_CAUTARI = 3       # cel mult o dată la 3 zile (verificarea linkurilor știute merge oricând)
+MIN_CAUTARI_PE_RULARE = 10
+LIMITA_SERPAPI = 250         # pe lună, planul gratuit (dacă SerpApi nu răspunde la întrebarea „câte mai am”)
 # Revenirile (din planul tău): site-ul are 7 zile, apoi revenire + hosting; hostingul are 14 zile.
 ZILE_REVENIRE_SITE = 7
 ZILE_REVENIRE = 14
@@ -97,6 +114,52 @@ SERPAPI_URL = 'https://serpapi.com'
 BRAVE_URL = 'https://api.search.brave.com/res/v1/web/search'
 DOH_URL = 'https://dns.google/resolve'
 RDAP_URL = 'https://rdap.org/ip/'
+RDAP_DOMENIU_URL = 'https://rdap.org/domain/'
+SCHEMA_SITE = 'https://'      # pentru teste
+
+# Cuvinte care arată conținut adult (în adresă, titlu sau pagină).
+ADULT_RE = re.compile(r'(?<![a-z])(leak(?:s|ed)?|nudes?|naked|nsfw|onlyfans|only fans|fansly|porn\w*|xxx|sex|fap\w*|'
+                      r'erome|thots?|boobs?|tits|nipples?|lewd|explicit|uncensored|topless|camgirls?|webcam|hentai|'
+                      r'pussy|milf|escort|18\+)(?![a-z])')
+UE = {'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FI', 'FR', 'GR', 'HR', 'HU', 'IE', 'IT', 'LT', 'LU', 'LV',
+      'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK'}
+
+# Emailurile gata de copiat (textele A, B, C din planul tău + hosting + revenire). {linkuri}, {nume}, {email}, {azi},
+# {site}, {data}, {rol}, {ip} se completează singure.
+TEXTE = {
+    'A': ('TAKE IT DOWN Act removal request: non-consensual intimate images of me',
+          'Hello,\n\nI am the person shown in the intimate images/videos at the locations listed below. They are published '
+          'without my consent, and I request their removal, and the removal of any identical copies, within 48 hours, as '
+          'required by the TAKE IT DOWN Act.\n\nWhere they are:\n{linkuri}\n\nI have a good faith belief that this intimate '
+          'visual depiction is not consensual: I do not consent to its publication.\n\nPlease confirm the removal at this '
+          'email address.\n\n{nume}\n{email}\nSignature: {nume} · Date: {azi}'),
+    'B': ('GDPR Article 17 erasure request: images of me',
+          'Hello,\n\nI am an EU citizen and the person shown in the images/videos at the locations below. They are my '
+          'personal data, including data concerning my sex life (GDPR Article 9).\n\nWhere they are:\n{linkuri}\n\nI withdraw '
+          'any consent that may have been given for their processing (Article 7(3)) and object to their processing '
+          '(Article 21). Under Article 17, I request that you erase them without undue delay, including copies and '
+          'thumbnails, and confirm this in writing within one month (Article 12(3)).\n\nIf you do not act, I will file a '
+          'complaint with the data protection authority.\n\n{nume}\n{email}\nDate: {azi}'),
+    'C': ('DMCA Takedown Notice',
+          'To whom it may concern,\n\nI am the copyright owner of the images/videos found at the URLs below. They were '
+          'published without my authorization and I request their removal under the Digital Millennium Copyright Act '
+          '(17 U.S.C. § 512).\n\nInfringing URLs:\n{linkuri}\n\nOriginal work: photos/videos created and owned by me.\n\n'
+          'I have a good faith belief that the use of this material is not authorized by the copyright owner, its agent, '
+          'or the law. The information in this notice is accurate, and under penalty of perjury, I am the owner of the '
+          'copyright that is allegedly infringed.\n\n{nume} · {email}\nSignature: {nume} · Date: {azi}'),
+    'revenire': ('Second notice: my removal request of {data} (non-consensual intimate images)',
+                 'Hello,\n\nOn {data} I asked you to remove the intimate images of me listed below. They were published '
+                 'without my consent and they are still online.\n\nWhere they are:\n{linkuri}\n\nPlease remove them, and any '
+                 'copies, without further delay and confirm by email. If they are not removed, I will report this to your '
+                 'hosting provider, to the search engines and to the authorities.\n\n{nume}\n{email}\nDate: {azi}'),
+    'gazda': ('Abuse report: non-consensual intimate images on {site}',
+              'Hello,\n\nI am writing to you as the {rol} of the website {site}{ip}. This website publishes intimate '
+              'images of me without my consent. {intro}They are still online.\n\nWhere they are:\n{linkuri}\n\n'
+              'I am the person shown in these images, and I do not consent to their publication. Publishing intimate images '
+              'without consent is illegal in the EU and in the US (TAKE IT DOWN Act). Please have this content removed '
+              'under your acceptable use policy, or suspend the service, and confirm by email.\n\n{nume}\n{email}\n'
+              'Date: {azi}'),
+}
 
 
 # ───────────── Mici ajutoare ─────────────
@@ -134,6 +197,11 @@ def variante(n):
 
 NUME_TEXT = sorted({v for n in NUME for v in variante(n).values()} | {c.lower() for c in CAUTARI}
                    | {'kristine maia', 'kristine%20maia', 'kristine+maia'})
+
+
+def scor_adult(text):
+    """Câte cuvinte diferite de conținut adult apar în text."""
+    return len({m.group(1) for m in ADULT_RE.finditer(text.lower())})
 
 
 def are_nume(text):
@@ -298,7 +366,11 @@ def recalculeaza(e, cand):
         e.pop('sters', None)
 
 
-def actualizeaza(e, st, motiv, cand):
+def actualizeaza(e, st, motiv, cand, adult=None):
+    if adult:
+        e['adult'] = True
+    elif adult is False:
+        e.setdefault('adult', False)
     prev = e['istoric'][-1]['stare'] if e['istoric'] else None
     if st != prev:
         e['istoric'].append({'data': cand, 'stare': st, 'motiv': motiv})
@@ -401,7 +473,8 @@ def verifica(url):
         return STERS, 'numele nu mai apare pe pagină' + (' (redirecționat)' if final.rstrip('/') != url.rstrip('/') else '')
     if any(g in body for g in GOL_CORP) and sum(body.count(v) for v in NUME_TEXT) < 3:
         return STERS, 'pagina spune că nu există'
-    return ONLINE, 'pagina există și conține numele'
+    adult = scor_adult(urllib.parse.unquote(url) + ' ' + titlu) >= 1 or scor_adult(body[:300_000]) >= 3
+    return ONLINE, 'pagina există și conține numele', adult
 
 
 def verifica_toate(stare, urls, cand, arata=True):
@@ -411,8 +484,8 @@ def verifica_toate(stare, urls, cand, arata=True):
     with ThreadPoolExecutor(FIRE) as ex:
         viitor = {ex.submit(verifica, u): u for u in urls}
         for f in as_completed(viitor):
-            st, motiv = f.result()
-            actualizeaza(stare['linkuri'][viitor[f]], st, motiv, cand)
+            st, motiv, *rest = f.result()
+            actualizeaza(stare['linkuri'][viitor[f]], st, motiv, cand, rest[0] if rest else None)
             gata += 1
             if arata and (gata % 10 == 0 or gata == len(urls)):
                 print(f'\r  verificate: {gata}/{len(urls)}', end='', flush=True)
@@ -444,42 +517,71 @@ def _rezultate(lista, motor, camp='link'):
             for r in lista or [] if isinstance(r, dict)]
 
 
-def cereri_serpapi():
-    q = [f'"{t}"' for t in CAUTARI]
-    plan = {
-        'google': [('Google', {'engine': 'google', 'q': x, 'safe': 'off', 'filter': '0', 'hl': 'en', 'gl': 'us'}) for x in q],
-        'bing': [('Bing', {'engine': 'bing', 'q': x, 'safeSearch': 'off', 'count': '50', 'cc': 'US'}) for x in q],
-        'google_imagini': [('Google Imagini', {'engine': 'google_images', 'q': x, 'safe': 'off', 'hl': 'en', 'gl': 'us'}) for x in q],
-        'yandex': [('Yandex', {'engine': 'yandex', 'text': x}) for x in q],
-        'google_pagina2': [('Google', {'engine': 'google', 'q': x, 'safe': 'off', 'filter': '0', 'hl': 'en', 'gl': 'us', 'start': '10'}) for x in q],
-    }
-    return [c for m in MOTOARE for c in plan.get(m, [])]
+PARAMETRI = {   # motor: (cum apare în raport, parametrii SerpApi, numele parametrului pentru text)
+    'google': ('Google', {'engine': 'google', 'safe': 'off', 'filter': '0', 'hl': 'en', 'gl': 'us'}, 'q'),
+    'google_pagina2': ('Google', {'engine': 'google', 'safe': 'off', 'filter': '0', 'hl': 'en', 'gl': 'us', 'start': '10'}, 'q'),
+    'google_imagini': ('Google Imagini', {'engine': 'google_images', 'safe': 'off', 'hl': 'en', 'gl': 'us'}, 'q'),
+    'bing': ('Bing', {'engine': 'bing', 'safeSearch': 'off', 'count': '50', 'cc': 'US'}, 'q'),
+    'bing_pagina2': ('Bing', {'engine': 'bing', 'safeSearch': 'off', 'count': '50', 'cc': 'US', 'first': '51'}, 'q'),
+    'yandex': ('Yandex', {'engine': 'yandex'}, 'text'),
+}
+FORMULE_INAINTE_DE_SITE = 5   # căutările „site:” vin după primele 5 formule
+
+
+def domenii_adult(stare):
+    out = set()
+    for url, e in stare['linkuri'].items():
+        d = domeniu(url)
+        if not ignorat(stare, url, e) and e_adult(stare, url, e) and categorie(e) in ('activ', 'sters') and not platforma_mare(d):
+            out.add(d)
+    return sorted(out)
+
+
+def cereri_serpapi(stare):
+    """Toate căutările, în ordinea în care le facem: întâi cele necăutate de cel mai mult timp."""
+    baza = [(m, f.replace('{n}', t)) for m, f in FORMULE for t in CAUTARI]
+    nume = ' OR '.join(f'"{t}"' for t in CAUTARI)
+    k = FORMULE_INAINTE_DE_SITE * len(CAUTARI)
+    toate = baza[:k] + [('google', f'site:{d} ({nume})') for d in domenii_adult(stare)] + baza[k:]
+    facute = stare['cautare'].get('facute', {})
+    ordine = {c: i for i, c in enumerate(toate)}
+    return sorted(toate, key=lambda c: (facute.get(c[0] + '|' + c[1], ''), ordine[c]))
+
+
+def buget(ramase, pe_luna, total):
+    """Câte căutări facem acum: căutările pe lună împărțite egal (o căutare la ZILE_INTRE_CAUTARI zile)."""
+    pe_rulare = max(MIN_CAUTARI_PE_RULARE, pe_luna // max(1, 30 // ZILE_INTRE_CAUTARI))
+    return max(0, min(total, pe_rulare, ramase - 3))
 
 
 def cauta_serpapi(k, stare, mesaje):
     luna = datetime.now().strftime('%Y-%m')
     folosite = stare['cautare'].setdefault('luna', {})
-    ramase = LIMITA_SERPAPI - folosite.get(luna, 0)
+    facute_cand = stare['cautare'].setdefault('facute', {})
+    ramase, pe_luna = LIMITA_SERPAPI - folosite.get(luna, 0), LIMITA_SERPAPI
     try:
         cont = cere_json(f'{SERPAPI_URL}/account.json?' + urllib.parse.urlencode({'api_key': k}))
         if cont.get('error'):
             mesaje.append('SerpApi: ' + str(cont['error'])[:120])
             return [], 0
         ramase = int(cont.get('plan_searches_left', cont.get('total_searches_left', ramase)) or 0)
+        pe_luna = int(cont.get('searches_per_month') or pe_luna)
     except urllib.error.HTTPError as e:
         if e.code == 401:
             mesaje.append('SerpApi: cheia nu e bună. Copiaz-o din nou în chei.txt.')
             return [], 0
     except Exception:
         pass   # nu știm câte au rămas: ne bazăm pe numărătoarea noastră
-    cereri = cereri_serpapi()[:max(0, min(MAX_CAUTARI_PE_RULARE, ramase - 2))]
+    toate = cereri_serpapi(stare)
+    cereri = toate[:buget(ramase, pe_luna, len(toate))]
     if not cereri:
-        mesaje.append('SerpApi: s-au terminat căutările gratuite pe luna asta. Reîncep luna viitoare.')
+        mesaje.append('SerpApi: s-au terminat căutările pe luna asta. Reîncep luna viitoare.')
         return [], 0
     out, facute, motoare = [], 0, []
-    for motor, params in cereri:
+    for motor, q in cereri:
+        eticheta, params, camp = PARAMETRI[motor]
         try:
-            d = cere_json(f'{SERPAPI_URL}/search.json?' + urllib.parse.urlencode({**params, 'api_key': k}))
+            d = cere_json(f'{SERPAPI_URL}/search.json?' + urllib.parse.urlencode({**params, camp: q, 'api_key': k}))
         except urllib.error.HTTPError as e:
             mesaje.append('SerpApi: ' + ('cheia nu e bună.' if e.code == 401 else
                                          's-au terminat căutările pe luna asta.' if e.code == 429 else f'eroare {e.code}.'))
@@ -488,16 +590,20 @@ def cauta_serpapi(k, stare, mesaje):
             mesaje.append(f'SerpApi nu răspunde ({type(e).__name__}).')
             break
         facute += 1
+        facute_cand[motor + '|' + q] = date.today().isoformat()
         if d.get('error') and 'any results' not in str(d['error']):
             mesaje.append('SerpApi: ' + str(d['error'])[:120])
             continue
-        out += _rezultate(d.get('organic_results'), motor) + _rezultate(d.get('images_results'), motor)
-        if motor not in motoare:
-            motoare.append(motor)
+        out += _rezultate(d.get('organic_results'), eticheta) + _rezultate(d.get('images_results'), eticheta)
+        if eticheta not in motoare:
+            motoare.append(eticheta)
     folosite[luna] = folosite.get(luna, 0) + facute
     if facute:
+        necautate = sum(1 for m, q in toate if m + '|' + q not in facute_cand)
         mesaje.append(f'SerpApi: {nr(facute, "căutare", "căutări")} ({", ".join(motoare)}); '
-                      f'mai ai ~{nr(max(0, ramase - facute), "căutare", "căutări")} luna asta.')
+                      f'mai ai ~{nr(max(0, ramase - facute), "căutare", "căutări")} pe luna asta.'
+                      + (f' Încă {nr(necautate, "căutare", "căutări")} la rând, le fac data viitoare.' if necautate else
+                         ' Toate căutările au fost făcute cel puțin o dată.'))
     return out, facute
 
 
@@ -552,6 +658,8 @@ def cauta(stare, idx, cand, fortat=False):
             continue
         e, nou = adauga(stare, idx, url, motor, cand)
         e.setdefault('in_cautare', {})[motor] = cand[:10]
+        if scor_adult(urllib.parse.unquote(url) + ' ' + titlu + ' ' + text):
+            e['adult'] = True
         if nou:
             noi += 1
             if domeniu(url) not in stiute:
@@ -603,24 +711,129 @@ def afla_gazda(host):
             'ip': ips[0], 'cloudflare': 'cloudflare' in text, 'data': date.today().isoformat()}
 
 
-def actualizeaza_gazde(stare):
+def afla_registrar(dom):
+    """Firma la care e înregistrat domeniul (următorul pas, dacă nici hostingul nu șterge)."""
+    try:
+        r = cere_json(RDAP_DOMENIU_URL + dom, timp=15)
+    except Exception:
+        return None
+    for e in _entitati(r):
+        if 'registrar' in (e.get('roles') or []):
+            email = next((_vcard(x, 'email') for x in _entitati(e) if 'abuse' in (x.get('roles') or [])), None)
+            return {'nume': _vcard(e, 'fn') or '?', 'email': email, 'data': date.today().isoformat()}
+    return None
+
+
+CONTACT_RE = re.compile(r'dmca|abuse|takedown|take-down|removal|remove|copyright|contact|2257|complain|report|legal|terms', re.I)
+PRIORITATE = ['dmca', 'takedown', 'take-down', 'removal', 'remove', 'abuse', 'copyright', 'complain', 'report', 'contact',
+              'legal', 'support', '2257', 'terms']
+CAI_CONTACT = ['/dmca', '/contact', '/dmca/', '/contact-us', '/contact/', '/content-removal', '/abuse']
+EMAIL_RE = re.compile(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,24}')
+
+
+def _prio(text):
+    t = text.lower()
+    return next((i for i, w in enumerate(PRIORITATE) if w in t), len(PRIORITATE))
+
+
+def _emailuri(body):
+    """Adresele de email de pe o pagină, și cele ascunse de Cloudflare sau scrise „dmca [at] site [dot] com”."""
+    text = html.unescape(body)
+    text = re.sub(r'\s*[\[(]\s*(?:at|@)\s*[\])]\s*', '@', text, flags=re.I)
+    text = re.sub(r'\s*[\[(]\s*(?:dot|\.)\s*[\])]\s*', '.', text, flags=re.I)
+    gasite = set(EMAIL_RE.findall(text))
+    gasite |= {urllib.parse.unquote(m) for m in re.findall(r'mailto:([^"\'?>\s]+)', text, re.I)}
+    for hx in re.findall(r'data-cfemail="([0-9a-fA-F]+)"', body) + re.findall(r'email-protection#([0-9a-fA-F]+)', body):
+        try:
+            b = bytes.fromhex(hx)
+            gasite.add(''.join(chr(c ^ b[0]) for c in b[1:]))
+        except (ValueError, IndexError):
+            pass
+    return {e.lower().strip('.') for e in gasite if EMAIL_RE.fullmatch(e.strip('.'))
+            and not re.search(r'\.(png|jpe?g|gif|webp|svg|css|js|ico)$|example\.|sentry|wixpress|@2x|domain\.com|youremail', e, re.I)}
+
+
+def afla_contact(dom, host):
+    """Caută pe site pagina de DMCA / contact și adresele de email."""
+    final = body = None
+    for baza in dict.fromkeys([f'{SCHEMA_SITE}{dom}/', f'{SCHEMA_SITE}{host}/']):
+        try:
+            final, body = cere(baza, timp=15)
+            break
+        except Exception:
+            continue
+    if body is None:
+        return {'eroare': 'site-ul nu s-a deschis (blocat în țară sau închis)', 'data': date.today().isoformat()}
+    emailuri, pagini = _emailuri(body), []
+    for m in re.finditer(r'<a\b[^>]*?href\s*=\s*["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', body, re.S | re.I):
+        href, text = html.unescape(m.group(1)).strip(), re.sub(r'<[^>]+>', ' ', m.group(2))
+        if href.lower().startswith(('mailto:', 'javascript:')):
+            continue
+        if CONTACT_RE.search(href) or CONTACT_RE.search(text):
+            u = urllib.parse.urljoin(final, href)
+            if u.startswith(('http://', 'https://')) and domeniu(u) == domeniu(final) and u not in pagini:
+                pagini.append(u)
+    if not pagini:   # nu are linkuri: încercăm adresele obișnuite
+        for cale in CAI_CONTACT:
+            try:
+                f2, b2 = cere(urllib.parse.urljoin(final, cale), timp=10)
+            except Exception:
+                continue
+            t = re.search(r'<title[^>]*>(.*?)</title>', b2[:60000], re.S | re.I)
+            if (domeniu(f2) == domeniu(final) and urllib.parse.urlsplit(f2).path not in ('', '/')
+                    and not any(g in (t.group(1).lower() if t else '') for g in GOL_TITLU)):
+                pagini.append(f2)
+                emailuri |= _emailuri(b2)
+    pagini.sort(key=_prio)
+    for u in pagini[:3]:
+        try:
+            emailuri |= _emailuri(cere(u, timp=12)[1])
+        except Exception:
+            pass
+    return {'emailuri': sorted(emailuri, key=lambda e: (_prio(e), e))[:5], 'pagini': pagini[:3],
+            'data': date.today().isoformat()}
+
+
+def actualizeaza_site(stare):
+    """Pentru fiecare site de unde trebuie șters ceva: hostingul, registrarul și adresa de contact (o dată pe lună)."""
     de_aflat = {}
     for url, e in stare['linkuri'].items():
-        if ignorat(stare, url, e) or categorie(e) != 'activ':
-            continue
-        dom = domeniu(url)
-        g = stare['site'].get(dom, {}).get('gazda')
-        if dom not in de_aflat and (not g or zile_de_la(g['data']) > 30):
-            de_aflat[dom] = gazda(url)
-    if not de_aflat:
-        return
+        if not ignorat(stare, url, e) and categorie(e) == 'activ' and e_adult(stare, url, e) is not False:
+            de_aflat.setdefault(domeniu(url), gazda(url))
+
+    def vechi(x, zile=30):
+        return not x or zile_de_la(x['data']) > zile
+
+    def lucreaza(dom, host):
+        s, r = stare['site'].get(dom, {}), {}
+        if vechi(s.get('gazda')):
+            r['gazda'] = afla_gazda(host)
+        if vechi(s.get('registrar')):
+            r['registrar'] = afla_registrar(dom)
+        c = s.get('contact')
+        if vechi(c) or (c.get('eroare') and zile_de_la(c['data']) >= 1):
+            r['contact'] = afla_contact(dom, host)
+        return dom, r
+
     with ThreadPoolExecutor(6) as ex:
-        for dom, g in zip(de_aflat, ex.map(afla_gazda, de_aflat.values())):
-            if g:
-                stare['site'].setdefault(dom, {})['gazda'] = g
+        for dom, r in ex.map(lambda x: lucreaza(*x), de_aflat.items()):
+            s = stare['site'].setdefault(dom, {})
+            s.update({k: v for k, v in r.items() if v})
 
 
 # ───────────── Ce ai de trimis ─────────────
+def e_adult(stare, url, e):
+    """True = conținut adult, False = nu pare, None = nu știm încă (pagina nu s-a deschis)."""
+    if 'adult_manual' in e:
+        return e['adult_manual']
+    s = stare['site'].get(domeniu(url), {})
+    if 'adult' in s:
+        return s['adult']
+    if e['sursa'] in SURSE_TALE:
+        return True
+    return e.get('adult')
+
+
 def categorie(e):
     if e['sursa'] == 'profil' and not e.get('gasit') and not e.get('manual'):
         return 'neverificat' if e['stare'] == NUPOT else None   # profil ghicit care n-a existat
@@ -674,7 +887,7 @@ def canal_vedere(cid, nume, linkuri, g):
         buton = None
     linkuri_ajutor, ajutor = FORMULARE.get(cid, []), None
     if cid == 'site':
-        ajutor = 'textul A, B sau C din plan, la contactul sau DMCA-ul site-ului'
+        ajutor = None
     if cid == 'gazda':
         if g and g.get('cloudflare'):
             linkuri_ajutor = FORMULARE['cloudflare']
@@ -685,6 +898,7 @@ def canal_vedere(cid, nume, linkuri, g):
         else:
             ajutor = 'nu știu încă unde e găzduit'
     return {'id': cid, 'nume': nume, 'stare': st, 'text': text, 'buton': buton, 'are_data': are_data,
+            'data_trimis': date_[0] if date_ and st in ('trimis', 'de_revenit') else None,
             'ajutor': ajutor, 'email': (g or {}).get('email') if cid == 'gazda' and not (g or {}).get('cloudflare') else None,
             'linkuri': linkuri_ajutor}
 
@@ -723,33 +937,41 @@ def vedere(stare, interactiv=False, token=''):
                 ignorate.append({'url': url, 'domeniu': dom})
             continue
         if cat == 'activ':
-            grupuri.setdefault(dom, []).append((url, e))
+            grupuri.setdefault(dom, []).append((url, e, e_adult(stare, url, e)))
         elif cat == 'sters':
             sterse.append({'url': url, 'domeniu': dom, 'gasit': scurt(e.get('gasit')), 'sters': scurt(e.get('sters')),
                            'sters_iso': (e.get('sters') or '')[:10], 'manual': bool(e.get('manual')),
                            'in_cautare': in_cautare_text(e, e.get('sters'))})
         elif cat == 'neverificat':
             neverificate.append({'url': url, 'domeniu': dom, 'motiv': e['motiv']})
-    out = []
+    out, alte = [], []
     for dom, lst in grupuri.items():
         lst.sort(key=lambda x: (efectiv(x[1]) != ONLINE, x[0]))
-        es = [e for _, e in lst]
-        g = stare['site'].get(dom, {}).get('gazda')
+        es = [e for _, e, _ in lst]
+        si = stare['site'].get(dom, {})
+        g = si.get('gazda')
         canale = [canal_vedere(cid, nume, es, g) for cid, nume in CANALE]
         stari = {k['stare'] for k in canale}
         cat = 'de_trimis' if 'de_trimis' in stari else 'de_revenit' if 'de_revenit' in stari else 'astept'
         gasit = min((e['gasit'] for e in es if e.get('gasit')), default=None)
-        out.append({
+        adult = [a for _, _, a in lst]
+        tinta = out if (True in adult or None in adult) else alte   # „alte” = toate paginile par fără conținut adult
+        tinta.append({
             'domeniu': dom, 'categorie': cat, 'gazda': g, 'canale': canale,
+            'registrar': si.get('registrar'), 'contact': si.get('contact'),
+            'ue': bool(g and g.get('tara') in UE),
+            'site_trimis': min(((e.get('trimis') or {}).get('site') for e in es if (e.get('trimis') or {}).get('site')), default=None),
+            'manual_adult': si.get('adult'),
             'nou': all(e['sursa'] not in SURSE_TALE for e in es) and bool(gasit) and zile_de_la(gasit) < ZILE_NOU,
             'linkuri': [{'url': u, 'ef': efectiv(e), 'motiv': e['motiv'], 'sursa': e['sursa'], 'gasit': scurt(e.get('gasit')),
                          'nou': e_nou(e), 'manual': bool(e.get('manual')), 'cautare': in_cautare_text(e),
                          'ultima_online': scurt(next((i['data'] for i in reversed(e['istoric']) if i['stare'] == ONLINE), None))}
-                        for u, e in lst]})
+                        for u, e, _ in lst]})
     ordine = {'de_trimis': 0, 'de_revenit': 1, 'astept': 2}
     out.sort(key=lambda g: (ordine[g['categorie']], not g['nou'], -len(g['linkuri']), g['domeniu']))
     sterse.sort(key=lambda s: (s['sters_iso'], s['url']), reverse=True)
     activ = [l for g in out for l in g['linkuri']]
+    activ_url = {l['url'] for l in activ}
     rez = {
         'de_trimis': sum(g['categorie'] == 'de_trimis' for g in out),
         'de_trimis_linkuri': sum(len(g['linkuri']) for g in out if g['categorie'] == 'de_trimis'),
@@ -757,15 +979,17 @@ def vedere(stare, interactiv=False, token=''):
         'astept': sum(g['categorie'] == 'astept' for g in out),
         'online': sum(l['ef'] == ONLINE for l in activ), 'neverificate_active': sum(l['ef'] != ONLINE for l in activ),
         'noi': sum(l['nou'] for l in activ), 'sterse': len(sterse), 'neverificate': len(neverificate),
-        'nesters_google': sum(1 for lst in grupuri.values() for _, e in lst if not (e.get('trimis') or {}).get('google')),
-        'nesters_bing': sum(1 for lst in grupuri.values() for _, e in lst if not (e.get('trimis') or {}).get('bing')),
+        'nesters_google': sum(1 for lst in grupuri.values() for u, e, _ in lst if u in activ_url and not (e.get('trimis') or {}).get('google')),
+        'nesters_bing': sum(1 for lst in grupuri.values() for u, e, _ in lst if u in activ_url and not (e.get('trimis') or {}).get('bing')),
+        'alte': len(alte),
     }
     return {'generat': scurt(acum()) + ' ' + acum()[11:], 'azi': date.today().isoformat(),
             'azi_ro': date.today().strftime('%d.%m.%Y'), 'interactiv': interactiv, 'token': token,
             'cautare_text': text_cautare(stare['cautare']), 'rezumat': rez, 'grupuri': out, 'sterse': sterse,
             'neverificate': sorted(neverificate, key=lambda x: x['url']),
             'ignorate': sorted(ignorate, key=lambda x: x['url']) + [{'domeniu': d, 'tot_site': True} for d in sorted(dom_ignorate)],
-            'formulare': FORMULARE, 'zile_site': ZILE_REVENIRE_SITE}
+            'alte': sorted(alte, key=lambda g: g['domeniu']), 'semnatura': stare.get('semnatura') or {},
+            'texte': TEXTE, 'formulare': FORMULARE, 'zile_site': ZILE_REVENIRE_SITE}
 
 
 # ───────────── Ce apeși în raport ─────────────
@@ -779,8 +1003,10 @@ def aplica(stare, a):
             raise ValueError('data nu e bună')
         if d:
             date.fromisoformat(d)
+        principale = {g['domeniu'] for g in vedere(stare)['grupuri']} if a.get('toate') else set()
         for url, e in stare['linkuri'].items():
-            if (a.get('toate') or domeniu(url) == a.get('domeniu')) and not ignorat(stare, url, e) and categorie(e) == 'activ':
+            dom = domeniu(url)
+            if (dom in principale or dom == a.get('domeniu')) and not ignorat(stare, url, e) and categorie(e) == 'activ':
                 if d:
                     e.setdefault('trimis', {})[canal] = d
                 else:
@@ -807,6 +1033,14 @@ def aplica(stare, a):
                 s['ignorat'] = cand
             else:
                 s.pop('ignorat', None)
+    elif tip == 'adult':   # „E conținut furat” / „nu e” pentru tot site-ul
+        s = stare['site'].setdefault(a['domeniu'], {})
+        if a.get('valoare') is None:
+            s.pop('adult', None)
+        else:
+            s['adult'] = bool(a['valoare'])
+    elif tip == 'semnatura':
+        stare['semnatura'] = {'nume': str(a.get('nume', ''))[:200].strip(), 'email': str(a.get('email', ''))[:200].strip()}
     elif tip == 'adauga':
         idx, noi = index(stare), []
         for u in gaseste_linkuri(str(a.get('text', ''))[:200_000]):
@@ -938,8 +1172,8 @@ def main():
         de_verificat = [u for u, e in stare['linkuri'].items() if not ignorat(stare, u, e)]
         print(f'Verific {len(de_verificat)} adrese... (durează 1–3 minute)')
         verifica_toate(stare, de_verificat, cand)
-        print('Caut unde e găzduit fiecare site...')
-        actualizeaza_gazde(stare)
+        print('Caut la fiecare site hostingul, adresa de email și pagina de DMCA...')
+        actualizeaza_site(stare)
         salveaza(stare)
     scrie_raport(stare)
     rezumat_ecran(vedere(stare))
@@ -992,6 +1226,13 @@ details{margin-top:8px}summary{cursor:pointer;color:var(--mut)}
 .tw{overflow-x:auto}table{border-collapse:collapse;width:100%;background:#fff;font-size:14px}
 td,th{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}th{background:var(--gri-bg)}
 textarea{width:100%;min-height:90px;font:inherit;font-size:14px;padding:8px;border:1px solid #d5cdc7;border-radius:6px;margin:6px 0}
+dialog.dlg{max-width:760px;width:calc(100% - 32px);border:0;border-radius:12px;padding:18px 20px;box-shadow:0 12px 40px rgba(0,0,0,.25)}
+dialog::backdrop{background:rgba(0,0,0,.35)}.rand{margin:8px 0;word-break:break-word}
+dialog textarea{min-height:280px;font-family:ui-monospace,Consolas,monospace;font-size:13px}
+.setg{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:end;margin-top:8px}
+.setg label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--mut)}
+.setg input{font:inherit;color:var(--ink);padding:7px 9px;border:1px solid #d5cdc7;border-radius:6px;min-width:0}
+@media (max-width:640px){.setg{grid-template-columns:1fr}}
 .ok{color:var(--verde);font-weight:600}.help li{margin:5px 0}
 </style></head><body><main id="app"></main>
 <script type="application/json" id="date">__DATE__</script>
@@ -1058,11 +1299,73 @@ function cereData(implicit) {
   return m[3] + '-' + m[2].padStart(2, '0') + '-' + m[1].padStart(2, '0');
 }
 
+const LUNI_EN = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const en = iso => { const [y, m, d] = iso.slice(0, 10).split('-').map(Number); return d + ' ' + LUNI_EN[m - 1] + ' ' + y; };
+
+function completeaza(tip, g, extra) {
+  const [sub, corp] = D.texte[tip];
+  const v = {linkuri: g.linkuri.map(l => l.url).join('\n'), nume: D.semnatura.nume || '[Numele legal complet]',
+             email: D.semnatura.email || '[Emailul separat]', azi: en(D.azi), site: g.domeniu, ...(extra || {})};
+  const f = t => t.replace(/\{(\w+)\}/g, (m, k) => (k in v ? v[k] : m));
+  return [f(sub), f(corp)];
+}
+function arataEmail(titlu, catre, tip, g, extra, nota) {
+  const [sub, corp] = completeaza(tip, g, extra);
+  const ta = h('textarea', {readonly: true});
+  ta.value = corp;
+  const dlg = h('dialog', {class: 'dlg'},
+    h('h3', {}, titlu),
+    nota && h('p', {class: 'mut'}, nota),
+    (!D.semnatura.nume || !D.semnatura.email) && h('p', {class: 'banner'}, 'Completează sus „Datele tale pentru emailuri”, ca să apară în text numele și emailul tău.'),
+    catre && catre.length > 0 && h('div', {class: 'rand'}, h('b', {}, 'Către: '), catre.join(', '), ' ',
+      h('button', {class: 'mic', onclick: e => copiaza(catre.join(', '), e.target)}, 'Copiază adresa')),
+    h('div', {class: 'rand'}, h('b', {}, 'Subiect: '), sub, ' ', h('button', {class: 'mic', onclick: e => copiaza(sub, e.target)}, 'Copiază subiectul')),
+    ta,
+    h('div', {class: 'rand'}, h('button', {onclick: e => copiaza(corp, e.target)}, 'Copiază textul'), ' ',
+      h('button', {class: 'sec', onclick: () => dlg.close()}, 'Închide')),
+    h('p', {class: 'mut'}, 'Trimiți din emailul separat. După ce trimiți, apeși „Am trimis” pe card.'));
+  dlg.addEventListener('close', () => dlg.remove());
+  document.body.append(dlg);
+  dlg.showModal();
+}
+const numePagina = u => { try { return 'pagina ' + (decodeURIComponent(new URL(u).pathname).replace(/^\/+|\/+$/g, '') || 'principală'); } catch (e) { return u; } };
+
+function siteInfo(g, k) {
+  const c = g.contact, out = [];
+  if (!c) out.push(h('div', {class: 'ca'}, 'Caut adresa site-ului la următoarea verificare.'));
+  else if (c.eroare) out.push(h('div', {class: 'ca'}, 'Site-ul nu s-a deschis (blocat în țară sau închis), așa că n-am găsit adresa. Deschide-l cu VPN și caută jos „DMCA” sau „Contact”.'));
+  else {
+    if (c.emailuri.length) out.push(h('div', {class: 'ca'}, 'Adresa site-ului: ', h('b', {}, c.emailuri.join(', '))));
+    if (c.pagini.length) out.push(h('div', {class: 'ca'}, c.pagini.map((u, i) => [i ? ' · ' : '', ext(u, numePagina(u) + ' ↗')])));
+    if (!c.emailuri.length && !c.pagini.length) out.push(h('div', {class: 'ca'}, 'N-am găsit email sau pagină de DMCA. Caută jos pe site „DMCA”, „Contact” sau „2257”.'));
+  }
+  const catre = c && c.emailuri ? c.emailuri : [];
+  const btn = (tip, eticheta, extra) => h('button', {class: 'mic', onclick: () => arataEmail(eticheta + ' pentru ' + g.domeniu, catre, tip, g, extra)}, eticheta);
+  out.push(h('div', {class: 'cb'}, k.stare === 'de_revenit'
+    ? btn('revenire', 'Email de revenire', {data: en(k.data_trimis)})
+    : ['Email: ', btn('A', 'Take It Down (A)'), btn('B', 'GDPR (B)' + (g.ue ? ' ★ site din UE' : '')), btn('C', 'DMCA (C)')]));
+  return out;
+}
+function gazdaInfo(g) {
+  const out = [], gz = g.gazda;
+  const extra = rol => ({rol, ip: gz && gz.ip ? ' (IP ' + gz.ip + ')' : '',
+                         intro: g.site_trimis ? 'I asked the website to remove them on ' + en(g.site_trimis) + '. ' : ''});
+  if (gz) out.push(h('div', {class: 'cb'}, h('button', {class: 'mic', onclick: () => arataEmail('Email pentru hosting (' + gz.nume + ')',
+    gz.cloudflare ? [] : (gz.email ? [gz.email] : []), 'gazda', g, extra(gz.cloudflare ? 'service provider (Cloudflare)' : 'hosting provider'),
+    gz.cloudflare ? 'Cloudflare nu primește email: deschide formularul lor, alege tipul de abuz, lipește linkurile și textul ăsta la descriere.' : null)}, 'Email pentru hosting')));
+  const r = g.registrar;
+  if (r) out.push(h('div', {class: 'ca'}, 'Dacă nici hostingul nu șterge: firma domeniului, ' + r.nume + (r.email ? ' · ' + r.email : '') + ' ',
+    h('button', {class: 'mic', onclick: () => arataEmail('Email pentru firma domeniului (' + r.nume + ')', r.email ? [r.email] : [], 'gazda', g, extra('domain registrar'))}, 'Email')));
+  return out;
+}
+
 function canal(g, k) {
   return h('div', {class: 'canal ' + k.stare},
     h('div', {class: 'cn'}, k.nume),
     h('div', {class: 'ct'}, k.text),
     k.ajutor && h('div', {class: 'ca'}, k.ajutor),
+    k.id === 'site' && siteInfo(g, k),
+    k.id === 'gazda' && gazdaInfo(g),
     h('div', {class: 'cb'},
       LIVE && k.buton && h('button', {onclick: e => act({tip: 'trimis', domeniu: g.domeniu, canal: k.id, data: D.azi}, e.target)}, k.buton),
       LIVE && k.are_data && h('button', {class: 'mic', title: 'Schimbă data sau șterge bifa', onclick: e => {
@@ -1070,6 +1373,27 @@ function canal(g, k) {
       }}, '✎ data'),
       k.email && h('button', {class: 'mic', onclick: e => copiaza(k.email, e.target)}, 'Copiază adresa'),
       k.linkuri.map(([t, u]) => ext(u, t + ' ↗'))));
+}
+
+function semnatura() {
+  const n = h('input', {type: 'text', placeholder: 'Numele legal complet', autocomplete: 'name'});
+  const m = h('input', {type: 'email', placeholder: 'Emailul separat', autocomplete: 'email'});
+  n.value = D.semnatura.nume || ''; m.value = D.semnatura.email || '';
+  return det('semn', 'Datele tale pentru emailuri' + (D.semnatura.nume ? ' ✓' : ' (completează o dată)'),
+    h('div', {class: 'box setg'},
+      h('label', {}, 'Numele legal complet', n), h('label', {}, 'Emailul separat', m),
+      h('button', {onclick: e => act({tip: 'semnatura', nume: n.value, email: m.value}, e.target)}, 'Salvează')),
+    h('p', {class: 'mut'}, 'Apar în emailurile gata scrise. Rămân doar pe laptopul tău.'));
+}
+
+function alteSect() {
+  return [h('h2', {}, '❔ Alte pagini cu numele tău (' + D.alte.length + ')'),
+    h('p', {class: 'mut'}, 'Site-uri unde paginile nu par să aibă conținut adult (reposturi, articole, profiluri). Dacă e ceva furat, apasă „E conținut furat” și site-ul trece la De trimis.'),
+    det('alte', 'Arată site-urile', D.alte.map(g => h('div', {class: 'card astept'},
+      h('div', {class: 'ch'}, h('h3', {}, g.domeniu), h('span', {class: 'mut'}, nr(g.linkuri.length, 'pagină', 'pagini')),
+        LIVE && h('button', {onclick: e => act({tip: 'adult', domeniu: g.domeniu, valoare: true}, e.target)}, 'E conținut furat: mută la De trimis'),
+        LIVE && h('button', {class: 'sec', onclick: e => act({tip: 'ignora', domeniu: g.domeniu, valoare: true}, e.target)}, 'Ascunde')),
+      h('ul', {class: 'll'}, g.linkuri.map(l => h('li', {}, ext(l.url, l.url), h('div', {class: 'meta'}, 'găsit ' + l.gasit + ' (' + l.sursa + ')')))))))];
 }
 
 function linkLi(l) {
@@ -1099,9 +1423,11 @@ function card(g) {
     h('div', {class: 'canale'}, g.canale.map(k => canal(g, k))),
     det('l-' + g.domeniu, 'Linkurile (' + g.linkuri.length + ')',
       h('ul', {class: 'll'}, g.linkuri.map(linkLi)),
-      LIVE && h('button', {class: 'mic', onclick: e => {
-        if (confirm('Ascund tot site-ul ' + g.domeniu + ' din raport?')) act({tip: 'ignora', domeniu: g.domeniu, valoare: true}, e.target);
-      }}, 'Nu e conținut furat: ascunde tot site-ul')));
+      LIVE && h('div', {class: 'acts'},
+        h('button', {class: 'mic', onclick: e => act({tip: 'adult', domeniu: g.domeniu, valoare: false}, e.target)}, 'Nu e conținut adult: mută la „Alte pagini”'),
+        h('button', {class: 'mic', onclick: e => {
+          if (confirm('Ascund tot site-ul ' + g.domeniu + ' din raport?')) act({tip: 'ignora', domeniu: g.domeniu, valoare: true}, e.target);
+        }}, 'Nu e conținut furat: ascunde tot site-ul'))));
 }
 
 function tile(cls, n, eticheta, mic) { return h('div', {class: 'tile ' + cls}, h('b', {}, n), eticheta, mic && h('br'), mic && h('small', {}, mic)); }
@@ -1190,10 +1516,12 @@ function randeaza() {
       tile('n', R.noi, R.noi === 1 ? 'link nou' : 'linkuri noi', 'găsite singur, 7 zile'),
       tile('v', R.sterse, R.sterse === 1 ? 'link șters' : 'linkuri șterse', 'de la început')),
     todo(lucru),
+    LIVE && semnatura(),
     h('h2', {}, '📮 De trimis (' + lucru.length + ')'),
     lucru.length ? lucru.map(card) : h('p', {class: 'ok'}, 'Nimic de trimis acum.'),
     h('h2', {}, '⏳ Trimis, aștept să se șteargă (' + astept.length + ')'),
     astept.length ? det('astept', 'Arată site-urile', astept.map(card)) : h('p', {class: 'mut'}, 'Niciunul.'),
+    D.alte.length > 0 && alteSect(),
     D.neverificate.length > 0 && [h('h2', {}, '🟠 Profiluri neverificate (' + D.neverificate.length + ')'), neverificate()],
     h('h2', {}, '🟢 Șterse (' + D.sterse.length + ')'), sterse(),
     D.ignorate.length > 0 && [h('h2', {}, 'Ascunse (' + D.ignorate.length + ')'), ignorate()],

@@ -1,47 +1,72 @@
 # Verificarea conținutului (pe laptopul tău)
 
-Programul caută paginile cu numele tău și verifică dacă mai sunt online. La fiecare site îți arată ce mai ai de trimis. Nu descarcă și nu afișează poze.
+Programul caută pe Google, Google Imagini, Bing și Yandex tot ce apare cu numele tale, mai ales conținutul adult. Verifică dacă paginile mai sunt online și, la fiecare site, îți arată **cum îl dai jos**: formularul, adresa de email a site-ului, hostingul (sau Cloudflare) și emailul gata scris. Nu descarcă și nu afișează poze.
 
-## O singură dată
-1. Instalezi **Python** de pe python.org/downloads. La instalare bifezi **„Add Python to PATH”**.
-2. Pui în același folder fișierul **linkuri.txt**, cu un link pe fiecare rând.
-3. **Căutarea pe Google și Bing** (gratuită, durează 10 minute):
-   - Îți faci cont pe **serpapi.com**, cu emailul separat. Planul gratuit are 250 de căutări pe lună, iar programul folosește cam 25 pe săptămână.
-   - Copiezi cheia: Dashboard → **Your Private API Key**.
-   - Deschizi **chei.txt** (apare în folder după prima rulare) și lipești cheia după `SERPAPI=`.
-   - Fără cheie, programul merge în continuare, dar verifică doar linkurile pe care le știe deja.
+## Instalarea (o singură dată, ~15 minute)
+
+### 1. Python (~5 minute)
+1. Pe laptop, deschizi în browser **python.org/downloads/windows**.
+2. Sus, la **„Stable Releases”**, primul rând e cea mai nouă versiune. Sub el apeși **„Download Windows installer (64-bit)”**.
+3. Deschizi fișierul descărcat. Îl găsești în **Descărcări**, cu un nume care începe cu `python-3`.
+4. În prima fereastră, **jos, bifezi „Add python.exe to PATH”**.
+5. Apeși **„Install Now”**. Dacă Windows întreabă dacă permiți modificări, apeși **Da**.
+6. Când apare „Setup was successful”, apeși **Close**.
+7. Ca să verifici: apeși tasta Windows, scrii **cmd** și apeși Enter, apoi scrii `py --version` și apeși Enter. Trebuie să apară „Python 3…”.
+   - Dacă scrie că nu recunoaște comanda, repornești laptopul și încerci din nou.
+   - Dacă tot nu merge, deschizi din nou fișierul de instalare și alegi **Repair**.
+
+### 2. Programul
+1. Dai click dreapta pe fișierul .zip → **Extragere totală** → alegi **Documente** → **Extragere**.
+2. Copiezi în folderul `verificare-continut` fișierul tău **linkuri.txt**, cu un link pe fiecare rând.
+
+### 3. Cheia pentru căutare (SerpApi, gratuit)
+1. Intri pe **serpapi.com** → **Register** și îți faci cont cu **emailul separat**. Îți poate cere să confirmi emailul și telefonul.
+2. În **Dashboard** găsești **„Your Private API Key”**. O copiezi.
+3. În folder deschizi **chei.txt** (se deschide în Notepad), lipești cheia după `SERPAPI=`, fără spații, apeși **Ctrl+S** și închizi.
+
+Planul gratuit are 250 de căutări pe lună. Programul face câte ~25 o dată la 3 zile și le ia pe rând: numele simplu, numele cu „leak”, „nude”, „onlyfans”, Reddit/X/Telegram, apoi „site:” pe fiecare site găsit. Le face pe toate în ~2 săptămâni, apoi o ia de la capăt. Cu planul de 25 $ pe lună (1.000 de căutări), le face pe toate de 4 ori mai des, fără nicio altă setare.
 
 ## De fiecare dată
-- Dai dublu-click pe **verificare.bat**. Durează 1–3 minute, apoi raportul se deschide în browser.
-- **Fereastra neagră rămâne deschisă** cât lucrezi în raport. Când termini, o închizi.
-- Dacă vrei doar să bifezi ce ai trimis, fără o verificare nouă, folosești **raport.bat**.
+1. Dai dublu-click pe **verificare.bat**. Prima dată, dacă apare „Windows protected your PC”, apeși **More info** → **Run anyway**.
+2. Fereastra neagră îți arată cât a verificat. Durează câteva minute.
+3. Raportul se deschide singur în browser. **Lași fereastra neagră deschisă** cât lucrezi în raport și o închizi când termini.
+4. Dacă vrei doar să bifezi ce ai trimis, fără o verificare nouă, folosești **raport.bat**.
 
 ## Ce vezi în raport
 - **Sus**: câte site-uri mai ai de trimis și lista lor.
-- **📮 De trimis**: câte un card pentru fiecare site, cu patru căsuțe: **Google, Bing, Site-ul, Hosting**.
-  - 🔴 **Roșu = de trimis.** Apeși „Copiază linkurile”, le lipești în formular și trimiți, apoi apeși **„Am trimis”**.
-  - 🟢 **Verde = trimis**, cu data. Cu „✎ data” schimbi data sau ștergi bifa.
-  - 🟠 **Portocaliu = revenire.** Site-ul n-a șters în 7 zile, hostingul n-a șters în 14 zile sau linkul încă apare în Google la 2 săptămâni după cerere.
-  - Căsuța **Hosting** devine roșie singură după 7 zile, dacă site-ul n-a șters. Cardul îți arată dacă site-ul e pe Cloudflare (cu formularul lor) sau adresa de abuz a firmei.
+- **Datele tale pentru emailuri**: completezi o singură dată numele legal și emailul separat. Apar singure în emailurile gata scrise.
+- **📮 De trimis**: câte un card pentru fiecare site, cu patru căsuțe:
+  - **Google** și **Bing**: apeși „Copiază linkurile”, deschizi formularul (link pe card), lipești linkurile și trimiți.
+  - **Site-ul**: adresa de email și pagina de DMCA, găsite singur pe site. Butoanele **Take It Down (A)**, **GDPR (B)** și **DMCA (C)** îți deschid emailul gata scris, cu linkurile puse. La un site din UE, GDPR are ★. Tu doar copiezi adresa, subiectul și textul.
+  - **Hosting**: unde e găzduit site-ul. Dacă e pe Cloudflare, ai formularul lor. Altfel ai adresa de abuz a firmei și emailul gata scris. Dedesubt ai și firma domeniului, pasul următor dacă nici hostingul nu șterge.
+  - După ce trimiți, apeși **„Am trimis”**. 🔴 roșu = de trimis, 🟢 verde = trimis (cu data), 🟠 portocaliu = revenire. Revenirea apare după 7 zile la site și după 14 zile la hosting, cu emailul de revenire gata scris.
 - **⏳ Trimis, aștept**: site-urile la care ai trimis tot.
-- **🟢 Șterse**, cu data la care au dispărut. Dacă o pagină ștearsă încă apare în Google, raportul îți dă formularul ca s-o scoți.
-- La fiecare link ai trei butoane:
-  - **„E șters (am verificat)”** și **„Mai e online”** sunt pentru site-urile blocate, după ce le deschizi cu VPN.
-  - **„Ascunde (nu e furat)”** scoate linkul din listă, de exemplu un interviu sau o pagină a ta. Pe card ai același buton pentru tot site-ul.
-- **➕ Adaugă linkuri**: lipești linkurile noi direct în raport, nu mai trebuie să deschizi linkuri.txt.
-- Ai trimis deja lista mare la Google (21 nov)? Sus în raport apeși „Am trimis tot la Google” și scrii data.
+- **❔ Alte pagini cu numele tău**: paginile care nu par conținut adult (articole, reposturi). Dacă e ceva furat, apeși „E conținut furat” și site-ul trece la De trimis.
+- **🟢 Șterse**, cu data la care au dispărut. Dacă o pagină ștearsă încă apare în Google, ai formularul ca s-o scoți.
+- La fiecare link:
+  - **„E șters (am verificat)”** și **„Mai e online”** sunt pentru site-urile blocate în Turcia, după ce le deschizi cu VPN.
+  - **„Ascunde (nu e furat)”** scoate linkul din listă.
+- **➕ Adaugă linkuri**: lipești linkurile noi direct în raport.
+- Ai trimis deja lista mare la Google (21 nov)? Sus apeși „Am trimis tot la Google” și scrii data.
 
 ## Ce face singur
-- **O dată pe săptămână** caută numele tale (kristinemaia, kristinemaia11, crismaia, missfoxyfire, „kristine maia”) pe Google, Google Imagini, Bing și Yandex. Ce găsește nou apare cu 🆕.
-- Din fiecare link găsit învață adresa de profil a site-ului. Apoi verifică acolo și celelalte nume ale tale.
-- Află unde e găzduit fiecare site (Cloudflare sau altă firmă).
+- Caută numele tale (kristinemaia, kristinemaia11, crismaia, missfoxyfire, „kristine maia”) pe Google, Google Imagini, Bing și Yandex, cu SafeSearch oprit. Ce găsește nou apare cu 🆕.
+- Recunoaște paginile cu conținut adult după cuvintele din adresă, titlu și pagină.
+- Pe fiecare site adult găsit caută cu „site:” toate paginile cu numele tale. Învață și adresa de profil a site-ului, apoi verifică acolo și celelalte nume.
+- La fiecare site găsește hostingul (sau Cloudflare), firma domeniului, pagina de DMCA și adresa de email, chiar și pe cele ascunse de Cloudflare.
 - Paginile tale oficiale (site-ul, Instagram, TikTok, Twitch, Payhip) nu apar în raport.
-- Numele, paginile oficiale și cât de des caută le găsești la începutul fișierului verificare.py.
+- Numele, paginile oficiale, căutările și textele emailurilor le găsești la începutul fișierului verificare.py.
 
 ## Ce nu poate
 - Nu trimite cererile în locul tău, pentru că ele cer semnătura ta.
-- Din Turcia multe site-uri sunt blocate și apar ca „neverificate”. Cu VPN sau din România, verifică tot.
-- Pentru fiecare nume vede doar primele ~20 de rezultate din Google. Ce e mai jos poate să-i scape, așa că alerta Google rămâne utilă.
+- Vede doar ce e în Google, Bing și Yandex. Grupurile private (Telegram, Discord) și forumurile cu cont nu apar. Nici pozele postate fără numele tău nu apar; pentru ele te ajută StopNCII.
+- Din Turcia multe site-uri sunt blocate, așa că apar „neverificate” și fără adresă de email. Cu VPN sau din România, verifică tot.
 
 ## Unde stau linkurile
-Doar în folderul ăsta, pe laptopul tău: **linkuri.txt, chei.txt, stare.json** (evidența, cu o copie de rezervă, stare.json.bak) și **raport.html**. Niciunul nu intră în proiect. La SerpApi ajung doar numele tale, ca să le caute, nu și linkurile.
+Doar în folderul ăsta, pe laptopul tău:
+- **linkuri.txt**
+- **chei.txt**
+- **stare.json**: evidența, numele și emailul tău, cu o copie de rezervă în stare.json.bak
+- **raport.html**
+
+Niciunul nu intră în proiect. La SerpApi ajung doar căutările cu numele tale, nu și linkurile.
