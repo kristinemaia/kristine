@@ -26,7 +26,7 @@ _Programul Level Up e gata. Din acum, aproape tot timpul merge în 3 direcții, 
 |---|---|
 | 1 postare | reel sau carusel, după calendar (programate, ca să nu stai pe telefon) |
 | 3–5 story-uri | culise, întrebări, „X spots left”, răspunsuri |
-| DM-uri și comentarii | răspunzi în aceeași zi cu textele gata (PROGRAM / PLAN) |
+| DM-uri și comentarii | răspunzi în aceeași zi cu textele din `DM-URI-LEVEL-UP.md` (răspunsuri salvate în Instagram) |
 | 1 lucru filmat | un clip pentru reel-urile următoare (lista: R5, R6, R8, hărțile de mușchi) |
 
 **Ținte:** 10 membri în prima săptămână, 30 în prima lună. Când ajungi la 40: story „Last 10 spots at $10”.

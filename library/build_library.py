@@ -52,6 +52,8 @@ GROUPS = [
         "items": [
             {"kind": "doc", "slug": "plan-top-3", "title": "Planul: cele 3 lucruri care contează (ștergerea, Level Up, stream-ul)", "src": "PLAN-TOP-3.md",
              "desc": "Ziua pe ore, țintele pe săptămâni până în decembrie și ce lăsăm deoparte. Prima: ștergerea conținutului; a doua: promovarea programului; a treia: stream-ul."},
+            {"kind": "doc", "slug": "dm-uri-level-up", "title": "DM-urile pentru Level Up: 20 de răspunsuri gata de trimis", "src": "DM-URI-LEVEL-UP.md",
+             "desc": "Link, preț, ce primești, începători, acasă, timp, durere, cum se deschide, anulare, prețul de fondator, mulțumire, plus 2 în română. Cu scurtături pentru răspunsurile salvate din Instagram."},
             {"kind": "doc", "slug": "stream-level-up", "title": "Level Up pe stream: StreamElements, OBS și idei", "src": "STREAM-LEVEL-UP.md",
              "desc": "Lista de făcut, comanda !program (textul gata de lipit), timerul la 20 de minute, pop-up-ul în OBS (cu tastă sau automat) și 8 idei ca să promovezi programul pe stream."},
             {"kind": "doc", "slug": "colaborari-echipament", "title": "Colaborări: branduri de colanți și echipament de sport (11 branduri)", "src": "COLABORARI-ECHIPAMENT.md",
