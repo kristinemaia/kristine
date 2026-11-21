@@ -30,6 +30,8 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 
 **Ce înseamnă refuzul Google:** formularul de imagini intime nu se aplică atunci când Google crede că pozele vin dintr-un cont plătit. Atunci se folosește **formularul de drepturi de autor** (Google Legal Help → copyright). Acolo nu contează asta: pozele sunt ale tale, iar ei le-au furat. Pentru cele 4 negăsite: retrimiți cu capturi noi, decupate doar pe poză.
 
+**În România (25–27 nov):** închizi conturile ManyVids, LoyalFans și Fansly (pașii în `CALATORIE-ROMANIA.md`). Apoi facem contestația la Google pentru linkurile refuzate.
+
 ## Planul intensiv: în fiecare zi, până terminăm (de pe 21 nov)
 **Sesiunea zilnică:** 45–60 de minute, la aceeași oră. Eu îți scriu în fiecare zi la 11:43 (ora Turciei) cu ce facem. Când termini, te oprești, chiar dacă mai e de lucru: mâine continuăm.
 

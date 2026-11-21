@@ -29,6 +29,20 @@ Dacă trebuie să mergi la ghișeu, mergi **joi 26** (după aterizare, dacă aju
 - [ ] îi ceri rețetă pentru **mai multe luni**, ca să nu mai depinzi de un drum în România doar pentru asta
 - [ ] îi cumperi din farmacie înainte să pleci și îi pui în **bagajul de mână**, cu rețeta
 
+## Conturile vechi de închis (în România, 25–27 nov)
+- [ ] **ManyVids**
+- [ ] **LoyalFans**
+- [ ] **Fansly**
+
+Pentru fiecare, în ordinea asta:
+1. **Descarci actele pentru contabilă**: istoricul plăților sau încasărilor și facturile (Settings → Payouts / Earnings / Statements). Le pui în dosarul firmei.
+2. **Ștergi tot conținutul** (pozele și videoclipurile) din cont.
+3. **Închizi contul**: Settings → Account → Delete / Close account. Dacă nu găsești butonul, scrii la support: „Please permanently delete my account and all content. I withdraw my consent for any content featuring me.”
+4. Păstrezi emailul de confirmare.
+5. Apoi te dezabonezi de la newsletterele lor.
+
+**De ce contează:** Google a refuzat câteva cereri pentru că pozele păreau „folosite pentru a câștiga bani”. Fără conturi active, contestația la Google are mult mai multe șanse.
+
 ## Firma și banii (cât ești acolo)
 - [ ] **contabila, despre vânzarea online:** ce coduri CAEN are firma (are și masaj?). Dacă nu are cod pentru **cursuri / antrenamente online** (de exemplu 8551 sau 8559), îl adaugă. Apoi: cum se înregistrează vânzările prin Payhip (TVA-ul pe care îl plătește Payhip) și răspunsul scris că poți vinde.
 - [ ] **contabila:** treci pe la ea sau o suni. Plătești factura pentru noiembrie (~400 lei) și îi dai facturile și extrasul pe noiembrie.
