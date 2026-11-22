@@ -85,3 +85,16 @@ _Duminică 22: pauză de la tot. 💗_
 - emailuri noi către branduri (doar răspunzi la cine scrie; colaborările de echipament rămân în listă pentru decembrie)
 - formate noi de postări și proiecte noi
 - tot ce nu ajută direct la una din cele 3 de mai sus
+
+## Proiecte pentru ianuarie (după ce ștergerea e aproape gata)
+**KM Artflow: arta (body painting, face painting, pictură pe pereți) în Istanbul**
+- un site simplu de o pagină (portofoliu + prețuri orientative + „Book me” pe WhatsApp/email), în stilul kristinemaia.com
+- clienții din Istanbul: cafenele și restaurante (pictură pe pereți), petreceri pentru copii și evenimente (face painting), nunți și sesiuni foto (body painting artistic), firme de evenimente; platforma turcească **Armut.com** pentru servicii
+- Google Business Profile pentru „KM Artflow” (ai deja unul pentru KM wellness concept, deci știi drumul)
+- **înainte de primul job plătit în Turcia:** întrebi contabila / avocatul cum poți factura legal (permis de muncă sau prin firma din România)
+
+**TikTok-ul vechi (mare, cu de toate) → contul de artă**
+- nu-l ștergem: urmăritorii lui valorează mult
+- îl redenumim în KM Artflow și păstrăm doar arta; videoclipurile de terapie și sport le trecem pe „Doar eu” (nu le ștergem)
+- verificăm să nu rămână nimic prea expus, ca să nu contrazică ștergerea conținutului vechi
+- TikTok-ul nou rămâne doar fitness / Level Up
