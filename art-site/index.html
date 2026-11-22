@@ -29,10 +29,10 @@ nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}nav li a{text-de
 .row{display:flex;gap:12px;flex-wrap:wrap}
 section{padding:70px 0}h2{font-family:Fraunces,serif;font-size:clamp(30px,4.5vw,46px);margin:0 0 10px;letter-spacing:-.01em}
 .lead{color:var(--muted);font-size:18px;max-width:640px;margin:0 0 34px}
-.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
 .svc{background:var(--card);border-radius:22px;padding:26px;box-shadow:0 8px 30px rgba(29,26,36,.06);border-top:6px solid var(--c)}
 .svc h3{margin:0 0 6px;font-size:22px}.svc .ic{font-size:34px}.svc ul{padding-left:18px;color:var(--muted);margin:10px 0 0}
-.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media(max-width:600px){.gal{grid-template-columns:repeat(2,1fr)}}
 .gal figure{margin:0;border-radius:16px;overflow:hidden;aspect-ratio:4/5;background:linear-gradient(135deg,#f3d7de,#e4dbf6 55%,#d2f0ec);position:relative}
 .gal img{width:100%;height:100%;object-fit:cover;display:block}
 .gal figcaption{position:absolute;left:10px;bottom:10px;background:rgba(255,255,255,.9);padding:4px 10px;border-radius:999px;font-size:13px;font-weight:500}
@@ -51,8 +51,8 @@ footer{padding:30px 0 50px;color:var(--muted);font-size:14px;text-align:center}
 <ul><li><a href="#hizmetler">Hizmetler</a></li><li><a href="#galeri">Galeri</a></li><li><a href="#hakkimda">Hakkımda</a></li><li><a href="#iletisim">İletişim</a></li></ul></div></nav>
 
 <header class="hero"><div class="wrap">
-<h1>Duvarlara, yüzlere ve bedenlere <em>renk</em> veriyorum.</h1>
-<p>İstanbul'da el yapımı duvar resmi (mural), vücut boyama ve yüz boyama. Kafeniz, eviniz, etkinliğiniz ya da fotoğraf çekiminiz için size özel tasarım.</p>
+<h1>Duvarlara, tuvallere ve kıyafetlere <em>renk</em> veriyorum.</h1>
+<p>İstanbul'da el yapımı duvar resmi (mural), tuval tablolar, boyalı kıyafetler, vücut ve yüz boyama. Kafeniz, eviniz, etkinliğiniz ya da fotoğraf çekiminiz için size özel tasarım.</p>
 <div class="row"><a class="btn" href="#iletisim">Teklif al</a><a class="btn alt" href="#galeri">Çalışmaları gör</a></div>
 </div></header>
 
@@ -62,25 +62,27 @@ footer{padding:30px 0 50px;color:var(--muted);font-size:14px;text-align:center}
 <div class="svc" style="--c:var(--a3)"><div class="ic">🎨</div><h3>Duvar Resmi (Mural)</h3><p>Kafe, restoran, ofis, mağaza ve evler için büyük ölçekli duvar resimleri.</p><ul><li>Mekâna özel tasarım ve eskiz</li><li>İç ve dış mekân boyaları</li><li>Logo, menü ve tabela duvarları</li><li>Çocuk odaları</li></ul></div>
 <div class="svc" style="--c:var(--a2)"><div class="ic">✨</div><h3>Vücut Boyama</h3><p>Fotoğraf çekimleri, klipler, sahne gösterileri, kostüm partileri ve markalar için sanatsal vücut boyama.</p><ul><li>Cilde uygun, profesyonel boyalar</li><li>Konsept ve renk tasarımı</li><li>Fotoğrafçılarla iş birliği</li></ul></div>
 <div class="svc" style="--c:var(--a1)"><div class="ic">🦋</div><h3>Yüz Boyama</h3><p>Çocuk doğum günleri, festivaller, okul ve şirket etkinlikleri, Cadılar Bayramı için yüz boyama.</p><ul><li>Hızlı ve renkli tasarımlar</li><li>Çocuk cildine uygun boyalar</li><li>Saatlik etkinlik paketleri</li></ul></div>
+<div class="svc" style="--c:var(--a4)"><div class="ic">🧥</div><h3>Kıyafet ve Tuval</h3><p>Elle boyanmış kot ceketler ve tişörtler, kişiye özel tuval tablolar.</p><ul><li>Kendi ceketinizi getirin ya da benden alın</li><li>Yıkamaya dayanıklı kumaş boyaları</li><li>Hediye için özel tasarım</li></ul></div>
 </div></div></section>
 
 <section id="galeri" style="background:#fff"><div class="wrap">
 <h2>Galeri</h2><p class="lead">Son çalışmalarımdan seçmeler. Daha fazlası için Instagram: <a href="https://www.instagram.com/km.artflow/">@km.artflow</a></p>
 <div class="gal">
-<figure><img src="img/1.jpg" alt="Duvar resmi" onerror="this.remove()"><figcaption>Duvar resmi</figcaption></figure>
-<figure><img src="img/2.jpg" alt="Vücut boyama" onerror="this.remove()"><figcaption>Vücut boyama</figcaption></figure>
-<figure><img src="img/3.jpg" alt="Yüz boyama" onerror="this.remove()"><figcaption>Yüz boyama</figcaption></figure>
-<figure><img src="img/4.jpg" alt="Duvar resmi" onerror="this.remove()"><figcaption>Duvar resmi</figcaption></figure>
-<figure><img src="img/5.jpg" alt="Vücut boyama" onerror="this.remove()"><figcaption>Vücut boyama</figcaption></figure>
-<figure><img src="img/6.jpg" alt="Yüz boyama" onerror="this.remove()"><figcaption>Yüz boyama</figcaption></figure>
-<figure><img src="img/7.jpg" alt="Çalışma" onerror="this.remove()"><figcaption>Kanvas</figcaption></figure>
-<figure><img src="img/8.jpg" alt="Çalışma" onerror="this.remove()"><figcaption>Detay</figcaption></figure>
+<figure><img src="img/1.jpg" alt="Yatak odası duvar resmi: şelale ve dağlar" loading="lazy"><figcaption>Duvar resmi</figcaption></figure>
+<figure><img src="img/2.jpg" alt="Elle boyanmış tişört" loading="lazy"><figcaption>Elle boyanmış tişört</figcaption></figure>
+<figure><img src="img/3.jpg" alt="Tuval: sarılan çift" loading="lazy"><figcaption>Tuval</figcaption></figure>
+<figure><img src="img/4.jpg" alt="Tuval: altın varaklı kadın portresi" loading="lazy"><figcaption>Tuval · altın varak</figcaption></figure>
+<figure><img src="img/5.jpg" alt="Tuval: şapkalı figür" loading="lazy"><figcaption>Tuval</figcaption></figure>
+<figure><img src="img/6.jpg" alt="Tuval: gün batımında orman" loading="lazy"><figcaption>Manzara</figcaption></figure>
+<figure><img src="img/7.jpg" alt="Tuval: karlı dağlar" loading="lazy"><figcaption>Manzara</figcaption></figure>
+<figure><img src="img/8.jpg" alt="Oturma odasında tropikal tablo" loading="lazy"><figcaption>Ev dekoru</figcaption></figure>
+<figure><img src="img/9.jpg" alt="Yatak odasında pembe tablo" loading="lazy"><figcaption>Ev dekoru</figcaption></figure>
 </div>
 <h3 style="margin:34px 0 12px;font-size:24px">Videolar</h3>
 <div class="gal">
-<figure><video src="img/v1.mp4" muted loop playsinline autoplay preload="metadata" style="width:100%;height:100%;object-fit:cover" onerror="this.remove()"></video><figcaption>Süreç</figcaption></figure>
-<figure><video src="img/v2.mp4" muted loop playsinline autoplay preload="metadata" style="width:100%;height:100%;object-fit:cover" onerror="this.remove()"></video><figcaption>Vücut boyama</figcaption></figure>
-<figure><video src="img/v3.mp4" muted loop playsinline autoplay preload="metadata" style="width:100%;height:100%;object-fit:cover" onerror="this.remove()"></video><figcaption>Duvar resmi</figcaption></figure>
+<figure><video src="img/v1.mp4" muted loop playsinline autoplay preload="metadata" style="width:100%;height:100%;object-fit:cover" onerror="this.remove()"></video><figcaption>Boyalı kot ceket</figcaption></figure>
+<figure><video src="img/v2.mp4" muted loop playsinline autoplay preload="metadata" style="width:100%;height:100%;object-fit:cover" onerror="this.remove()"></video><figcaption>Boyalı kot ceket</figcaption></figure>
+<figure><video src="img/v3.mp4" muted loop playsinline autoplay preload="metadata" style="width:100%;height:100%;object-fit:cover" onerror="this.remove()"></video><figcaption>Ceket koleksiyonu</figcaption></figure>
 </div></div></section>
 
 <section><div class="wrap">
@@ -92,7 +94,7 @@ footer{padding:30px 0 50px;color:var(--muted);font-size:14px;text-align:center}
 </div></section>
 
 <section id="hakkimda"><div class="wrap about">
-<div class="ph"><img src="img/kristine.jpg" alt="Kristine Maia" onerror="this.remove()"></div>
+<div class="ph"><img src="img/kristine.jpg" alt="Kristine" onerror="this.onerror=null;this.src='img/6.jpg'"></div>
 <div><h2>Merhaba, ben Kristine</h2>
 <p class="lead" style="margin-bottom:14px">İstanbul'da yaşayan bir sanatçıyım. Yıllardır duvarlara, tuvallere ve insanlara resim yapıyorum: büyük renkli duvar resimlerinden, ince detaylı vücut boyamalara kadar.</p>
 <p class="lead">Her çalışmada hedefim aynı: mekâna ya da kişiye ait hissettiren, fotoğraflarda harika görünen bir eser yapmak. İngilizce ve Romence konuşuyorum, Türkçem her gün gelişiyor.</p>
