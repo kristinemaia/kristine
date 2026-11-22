@@ -22,14 +22,14 @@ ANTRENAMENTE = "https://claude.ai/artifact/Dzx8NNiQmdaqLCC39zBysB"
 
 PARTS = [
     {"id": "antrenament", "src": "PROGRAM-ANTRENAMENT.md", "name": "Antrenamentul",
-     "tag": "Sala · 4 zile", "desc": "Picioare A și B, Upper A și B: exercițiile, seturile, repetările și pauzele.",
-     "facts": ["Luni, marți, joi, vineri", "RIR 1–2", "+2,5 kg când ajungi sus"], "tone": "lilac"},
+     "tag": "Sala · 5 zile", "desc": "Fese A și B, Picioare, Upper A și B: exercițiile, seturile, repetările, pauzele și posing-ul.",
+     "facts": ["Luni–vineri", "fese de 3 ori", "+2,5 kg când ajungi sus"], "tone": "lilac"},
     {"id": "alimentatie", "src": "PROGRAM-ALIMENTATIE.md", "name": "Alimentația",
      "tag": "Mâncare", "desc": "Mesele (porții gătite), deserturile, pofta de dulce, cumpărăturile și cum ajustăm după cântar.",
-     "facts": ["1.550–1.650 kcal", "120–130 g proteină", "desert zilnic"], "tone": "pink"},
+     "facts": ["1.550–1.650 kcal", "130–145 g proteină", "desert mic zilnic"], "tone": "pink"},
     {"id": "cardio", "src": "PROGRAM-CARDIO.md", "name": "Cardio și pașii",
-     "tag": "3 pe săptămână", "desc": "Intervalele de marți, cardio-ul ușor (bandă sau eliptică), cardio-ul lung de sâmbătă și pașii.",
-     "facts": ["13 min intervale", "35–45 min ușor", "8.000–10.000 pași"], "tone": "mint"},
+     "tag": "3 pe săptămână", "desc": "Intervalele de marți, cardio-ul de joi, cele 45 de minute pe banda de acasă sâmbăta și mersul zilnic.",
+     "facts": ["13 min intervale", "25–45 min bandă", "20 min mers zilnic"], "tone": "mint"},
 ]
 
 CSS = r"""
@@ -133,11 +133,12 @@ JS = r"""
 
   // ce e azi în plan
   var SPECIAL = {"2026-11-10":"Picioare A","2026-11-11":"Upper A + intervale","2026-11-12":"Cardio ușor 35–40 min","2026-11-13":"Picioare B","2026-11-14":"Upper B + 30 min cardio ușor","2026-11-15":"Pauză"};
-  var WEEK = ["Pauză","Picioare A","Upper A + intervale","Cardio ușor 35–40 min","Picioare B","Upper B","Cardio ușor 40–45 min"];
+  var WEEK = ["Pauză","Fese A","Upper A + intervale","Picioare","Upper B + 25–30 min cardio ușor","Fese B + abdomen","Cardio 45 min pe banda de acasă"];
   var d = new Date(), pad = function(n){ return String(n).padStart(2,"0"); };
   var k = d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
   var p = SPECIAL[k] || WEEK[d.getDay()];
-  if(k >= "2026-12-21" && k <= "2026-12-27" && p !== "Pauză") p += " (săptămâna ușoară)";
+  if(((k >= "2026-12-21" && k <= "2026-12-27") || (k >= "2027-02-22" && k <= "2027-02-27")) && p !== "Pauză") p += " (săptămâna ușoară)";
+  if(k === "2027-02-27") p = "Ziua pozelor";
   var el = document.getElementById("todayPlan"); if(el) el.textContent = p;
 
   // bifele, ținute minte pe telefon
@@ -215,7 +216,7 @@ def main():
 <style>{CSS}</style>
 <section data-view="acasa">
   <div class="wrap home">
-    <div style="display:flex;flex-direction:column;gap:8px"><span class="kicker">Doar pentru tine · 11 nov – 7 feb</span><h1>Programul de definire</h1></div>
+    <div style="display:flex;flex-direction:column;gap:8px"><span class="kicker">Doar pentru tine · forma de bikini · ziua pozelor: 27 feb</span><h1>Programul de definire</h1></div>
     <p class="today">Azi în plan: <b id="todayPlan">vezi Antrenamentul</b></p>
     <nav class="tiles" aria-label="Cele trei părți">{tiles}</nav>
     <a class="jbtn" href="{JURNAL}"><span>Jurnalul de mâncare</span><span aria-hidden="true">→</span></a>
