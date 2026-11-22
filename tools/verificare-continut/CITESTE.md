@@ -27,23 +27,26 @@ Programul caută pe Google, Google Imagini, Bing și Yandex tot ce apare cu nume
 Planul gratuit are 250 de căutări pe lună. Programul face câte ~25 o dată la 3 zile și le ia pe rând: numele simplu, numele cu „leak”, „nude”, „onlyfans”, Reddit/X/Telegram, apoi „site:” pe fiecare site găsit. Le face pe toate în ~2 săptămâni, apoi o ia de la capăt. Cu planul de 25 $ pe lună (1.000 de căutări), le face pe toate de 4 ori mai des, fără nicio altă setare.
 
 ### 4. Emailul (ca să vadă singur ce ai trimis și cine ți-a răspuns)
-Programul doar citește emailul: nu trimite nimic, nu șterge nimic și nu marchează nimic ca citit. Pentru Gmail:
-1. Intri pe **myaccount.google.com**, cu contul de email din care trimiți cererile.
-2. **Security** → **2-Step Verification**. Dacă e oprită, o pornești (îți cere telefonul).
-3. Apoi intri pe **myaccount.google.com/apppasswords**.
-4. La nume scrii **verificare** și apeși **Create**. Apare o parolă de 16 litere. O copiezi.
-5. În **chei.txt** completezi:
-   - `EMAIL=` adresa de email;
-   - `EMAIL_PAROLA=` parola de 16 litere (merge și cu spațiile din ea).
-6. Apeși **Ctrl+S**.
+Programul citește tot ce ai trimis în ultimul an și toate emailurile primite legate de cereri: de la site-uri, hostinguri, Cloudflare, Google și Bing. Doar citește: nu trimite, nu șterge și nu marchează nimic ca citit.
 
-Parola de aplicație nu e parola ta obișnuită. O poți șterge oricând din aceeași pagină, iar programul nu mai are acces.
+Întâi faci parola de aplicație (la Gmail):
+1. Intri pe **myaccount.google.com**, cu contul din care trimiți cererile.
+2. **Security** → **2-Step Verification**. Dacă e oprită, o pornești (îți cere telefonul).
+3. Intri pe **myaccount.google.com/apppasswords**, scrii la nume **verificare** și apeși **Create**.
+4. Copiezi parola de 16 litere care apare.
+
+Apoi conectezi emailul:
+1. Pornești programul. În raport, jos, la **„📧 Emailuri conectate”**, scrii adresa și parola de aplicație.
+2. Apeși **Conectează**. Programul încearcă imediat și îți spune dacă a mers.
+
+Poți conecta mai multe adrese, pe rând. Parola de aplicație nu e parola ta obișnuită. Rămâne doar în chei.txt, pe laptop, și o poți șterge oricând din pagina Google, iar atunci programul nu mai are acces.
 
 ## De fiecare dată
 1. Dai dublu-click pe **verificare.bat**. Prima dată, dacă apare „Windows protected your PC”, apeși **More info** → **Run anyway**.
 2. Fereastra neagră îți arată cât a verificat. Durează câteva minute.
 3. Raportul se deschide singur în browser. **Lași fereastra neagră deschisă** cât lucrezi în raport și o închizi când termini.
 4. Dacă vrei doar să bifezi ce ai trimis, fără o verificare nouă, folosești **raport.bat**.
+5. Căutarea pe Google se face singură o dată la 3 zile. Dacă vrei să caute chiar acum, folosești **cauta-acum.bat**.
 
 ## Ce vezi în raport
 - **Sus**: câte site-uri mai ai de trimis și lista lor.
@@ -61,12 +64,15 @@ Parola de aplicație nu e parola ta obișnuită. O poți șterge oricând din ac
   - **„E șters (am verificat)”** și **„Mai e online”** sunt pentru site-urile blocate în Turcia, după ce le deschizi cu VPN.
   - **„Ascunde (nu e furat)”** scoate linkul din listă.
 - **➕ Adaugă linkuri**: lipești linkurile noi direct în raport.
+- **📷 Caută după poză**: lipești linkul unei poze (click dreapta pe poză → „Copy image address”). Google Lens găsește alte site-uri cu aceeași poză, chiar dacă nu scriu numele tău. Programul caută singur și pozele din linkurile tale (cele care se termină în .jpg sau .png).
+- **📧 Emailuri conectate**: adaugi sau scoți emailuri și verifici emailul oricând.
 - **📄 Textele**: toate textele (A Take It Down, B GDPR, C DMCA, revenire, hosting, firma domeniului), cu butoane de copiat, pentru orice site.
 - Ai trimis deja lista mare la Google (21 nov)? Sus apeși „Am trimis tot la Google” și scrii data.
 
 ## Ce face singur
 - Caută numele tale (kristinemaia, kristinemaia11, crismaia, missfoxyfire, „kristine maia”) pe Google, Google Imagini, Bing și Yandex, cu SafeSearch oprit. Ce găsește nou apare cu 🆕.
 - Recunoaște paginile cu conținut adult după cuvintele din adresă, titlu și pagină.
+- Descarcă singur, o dată pe lună, o **bază publică cu ~77.000 de site-uri adult** (porno, videochat, leak). Orice rezultat de pe un site din bază e recunoscut ca adult.
 - Caută numele tale pe peste 70 de site-uri adult cunoscute, din **site-uri-adult.txt**. Poți adăuga oricând altele în fișierul ăsta, câte unul pe rând.
 - Pe fiecare site adult găsit caută cu „site:” toate paginile cu numele tale. Învață și adresa de profil a site-ului, apoi verifică acolo și celelalte nume.
 - La fiecare site găsește hostingul (sau Cloudflare), firma domeniului, pagina de DMCA și adresa de email, chiar și pe cele ascunse de Cloudflare.
