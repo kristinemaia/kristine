@@ -2,13 +2,20 @@
 
 _Programul Level Up e gata. Din acum, aproape tot timpul merge în 3 direcții, în ordinea asta. Orice altceva (colaborări noi, idei noi) așteaptă sau se face doar dacă rămâne timp._
 
-## Săptămâna 21–27 nov: ce e programat
-- **Sâm 21:** ✅ comanda `!program` + pop-up-ul în overlay. Ștergerea: Google copyright + 15 formulare Cloudflare + 3 hostinguri.
-- **Dum 22, 11:43:** ștergerea (verificăm răspunsurile, Bing, WordPress).
-- **Lun 23, dimineața, înainte de stream: 🎥 filmat în bucătărie**
-  - **brownie cu curmale** (desertul)
-  - **încă o rețetă**, din aceleași ingrediente ca să filmezi totul într-o oră (variante mai jos)
-- **Mie 25 – Vin 27:** București (conturile vechi, plângerea la poliție).
+## Săptămâna 23–29 nov (stabilită de Kristine pe 22 nov)
+_Duminică 22: pauză de la tot. 💗_
+
+| Zi | 🐸 Ștergere (11:43) | 🏋️ Sală | 🎮 Stream | Altele |
+|---|---|---|---|---|
+| **Lun 23** | răspunsurile + Bing + WordPress + programul de verificare | antrenament | ✅ stream (bucătărie sau jocuri) | 🎥 **dimineața, înainte de stream: brownie cu curmale + încă o rețetă** |
+| **Mar 24** | sesiunea zilnică | antrenament | ✅ stream | |
+| **Mie 25** | sesiunea zilnică | antrenament | ✅ stream (ultimul) | 🧳 **împachetat** |
+| **Joi 26** | scurt, de pe telefon | (cardio ușor, dacă se poate) | ❌ | ✈️ **zbor spre România** |
+| **Vin 27** | conturile vechi (reminder la 11:00) + plângerea la poliție | | ❌ | București |
+| **Sâm 28** | sesiunea zilnică | | ❌ | |
+
+**Sala săptămâna asta: 5 antrenamente, dintre care 3 de cardio.** Ziua o alegi tu, în funcție de stream și de drum.
+**Ștergerea: luni–sâmbătă**, la 11:43 (duminica e liberă).
 
 ## 🐸 1. „Broasca cea mare”: ștergerea conținutului cu tine de pe internet
 **De ce prima:** te apără pe tine, stream-ul și brandul. Cât e online, oricine te poate recunoaște.

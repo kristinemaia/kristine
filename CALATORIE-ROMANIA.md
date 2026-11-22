@@ -29,7 +29,7 @@ Dacă trebuie să mergi la ghișeu, mergi **joi 26** (după aterizare, dacă aju
 - [ ] îi ceri rețetă pentru **mai multe luni**, ca să nu mai depinzi de un drum în România doar pentru asta
 - [ ] îi cumperi din farmacie înainte să pleci și îi pui în **bagajul de mână**, cu rețeta
 
-## Conturile vechi de închis (în România, 25–27 nov)
+## Conturile vechi de închis (în România, de pe 26 nov; reminder vineri 27 la 11:00)
 - [ ] **ManyVids**
 - [ ] **LoyalFans**
 - [ ] **Fansly**

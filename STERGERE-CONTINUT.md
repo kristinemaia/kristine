@@ -50,7 +50,7 @@ _Doar numele site-urilor, fără linkuri. ✅ = șters · 📨 = trimis, aștept
 ManyVids · LoyalFans · Fansly · **SkyPrivate** · LiveJasmin · MyFreeCams · Chaturbate · alte conturi „missfoxyfire” · plângerea la poliție
 
 ## Planul intensiv: în fiecare zi, până terminăm (de pe 21 nov)
-**Sesiunea zilnică:** 45–60 de minute, la aceeași oră. Eu îți scriu în fiecare zi la 11:43 (ora Turciei) cu ce facem. Când termini, te oprești, chiar dacă mai e de lucru: mâine continuăm.
+**Sesiunea zilnică:** 45–60 de minute, **luni–sâmbătă** (duminica liber, din 22 nov). Eu îți scriu la 11:43 (ora Turciei) cu ce facem. Când termini, te oprești, chiar dacă mai e de lucru: mâine continuăm.
 
 | Ziua | Ce facem |
 |---|---|
