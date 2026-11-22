@@ -16,6 +16,7 @@ _Doar numele site-urilor, fără linkuri. ✅ = șters · 📨 = trimis, aștept
 | Site | Cum | Când |
 |---|---|---|
 | Pornhub (contul vechi + conținutul) | cerere de retragere a consimțământului | ✅ 29 oct |
+| **Pornrewind** | Take It Down + DMCA la hosting (Interserver → lucis.io) | ✅ **21 nov, în aceeași zi** („Removed!”) |
 | LeakGallery | DMCA | ✅ 28 oct |
 
 ### Site-uri: cereri trimise
@@ -27,7 +28,6 @@ _Doar numele site-urilor, fără linkuri. ✅ = șters · 📨 = trimis, aștept
 | CelebExposed | final notice + KoDDoS/Amarutu | Amsterdam | 🎫 tichet 149736 |
 | Masterfap | KoDDoS/Amarutu, 21 nov | Amsterdam | 🎫 tichet 012106 |
 | Adultphotosets | REG.RU (abuse@reg.ru), 21 nov | Moscova | 📨 șanse mici |
-| Pornrewind | Interserver (abuse@interserver.net), Take It Down 48 h, 21 nov | SUA | 📨 termen ~23 nov |
 | Nudogram (cn., sk.) | final notice + Cloudflare (2d8a742946081344) | Cloudflare | 📨 |
 | Fapachi | final notice + Cloudflare (5c0a4ea535f027a0) | Cloudflare | 📨 |
 | WildSkirts | final notice + Cloudflare (139ae1f442850a32) | Cloudflare | 📨 |
