@@ -1,35 +1,39 @@
 # Alimentația: ce mănânci, cât și cum ajustăm
 
-_Partea 2 din 3 a programului de definire (11 nov – 7 feb). Celelalte două: **Antrenamentul** și **Cardio și pașii**._
+_Partea 2 din 3 a programului (forma de bikini, 23 nov 2026 – 27 feb 2027, ziua pozelor). Celelalte două: **Antrenamentul** și **Cardio și pașii**._
 
-> **Pe scurt:** definirea vine din mâncare: **~1.550–1.650 kcal pe zi, ~120–130 g proteină**, 4 mese simple din ce gătești deja, plus un desert în fiecare zi. Fără cheat days întregi: o masă liberă pe săptămână. Te cântărești dimineața și ne uităm la media săptămânii, nu la o zi.
+> **Pe scurt:** forma de bikini vine din mâncare: **~1.550–1.650 kcal pe zi, ~130–145 g proteină**, 4 mese simple din ce gătești deja, **cântărite**, plus un **desert mic** (100–150 kcal) în fiecare zi. Fără cheat days: **o masă liberă la 2 săptămâni**, iar în ultimele 3 săptămâni deloc. Te cântărești dimineața și ne uităm la media săptămânii, nu la o zi.
 
 **Jurnalul de mâncare (pe telefon):** https://claude.ai/artifact/JmDEVgEPoyud4noLL78ZSL. Notezi ce mănânci (scrii cum ai vorbi și se calculează singur, alegi din lista ta sau iei o masă din plan), greutatea, pașii, apa și pofta de dulce. Vede doar contul tău. Când îmi scrii „uită-te în jurnal”, îl citesc și îți fac bilanțul.
 
-**Cum am calculat (10 nov, cu înălțimea și vârsta ta):** la 1,58 m, 59 kg și 28 de ani, corpul tău arde ~1.280 kcal în repaus. Cu 4 antrenamente de forță, 3 de cardio și 8.000–10.000 de pași, dar și cu stream-urile lungi stând jos, menținerea ta e ~1.850–1.950 kcal. Ținta e cu ~300 kcal mai jos. Cântarul confirmă după primele 2 săptămâni (regulile sunt la „Cum vedem că merge”, la final).
+**Cum am calculat (10 nov, cu înălțimea și vârsta ta):** la 1,58 m, 59 kg și 28 de ani, corpul tău arde ~1.280 kcal în repaus. Cu 4 antrenamente de forță, 3 de cardio și 8.000–10.000 de pași, dar și cu stream-urile lungi stând jos, menținerea ta e ~1.850–1.950 kcal. Ținta e cu ~300 kcal mai jos. **Din 23 nov ai 5 zile de sală**, deci menținerea urcă la ~1.900–2.000 kcal și deficitul ajunge la ~350–400 kcal, cu aceeași mâncare. Cântarul confirmă după primele 2 săptămâni (regulile sunt la „Cum vedem că merge”, la final).
 
-## Calendarul (2 etape, cu sărbătorile la mijloc)
+## Calendarul: spre ziua pozelor (sâmbătă 27 februarie 2027)
 | Perioada | Ce faci | Mâncare |
 |---|---|---|
-| **11 nov – 20 dec** (6 săptămâni) | **Etapa 1 de definire** | ~1.550–1.650 kcal |
-| **21 dec – 3 ian** (2 săptămâni) | **Pauză de la dietă** (sărbătorile, familia). Antrenamentele continuă, mai ușoare în săptămâna 21–27 dec (vezi **Antrenamentul**) | la menținere, ~1.850–1.950 kcal |
-| **4 ian – 7 feb** (5 săptămâni) | **Etapa 2 de definire** | revii la cifrele din etapa 1 (sau cele ajustate) |
-| **8 feb** | Bilanț: poze, talie, cântar. Decidem: încă 3–4 săptămâni sau menținere | |
+| **11 – 22 nov** | Primele 2 săptămâni (4 zile de sală) | ~1.550–1.650 kcal |
+| **23 nov – 20 dec** (4 săpt.) | **Faza 1 de bikini**: 5 zile de sală | ~1.550–1.650 kcal · 130–145 g proteină |
+| **21 dec – 3 ian** (2 săpt.) | **Pauză de la dietă** (sărbătorile, familia). Antrenamentele continuă, mai ușoare în 21–27 dec | la menținere, ~1.900–2.000 kcal |
+| **4 ian – 14 feb** (6 săpt.) | **Faza 2 de bikini** | cifrele din faza 1 (sau cele ajustate) |
+| **8 feb** | Bilanț: poze, talie, cântar. Vedem dacă data de 27 feb rămâne sau o mutăm | |
+| **15 – 27 feb** (2 săpt.) | **Finalul**: fără masă liberă, totul cântărit, posing zilnic | aceleași cifre |
+| **sâmbătă 27 feb** | **Ziua pozelor** (vezi „Ultima săptămână”, mai jos) | |
+| **după 27 feb** | 2–3 săptămâni cu +100–150 kcal pe săptămână, până la menținere | ~1.900–2.000 kcal |
 
 **Ritmul bun:** ~0,25–0,4 kg pe săptămână (media). Mai repede înseamnă că pierzi și mușchi și forță.
 
-**De unde pornești (poza din sală, 10 nov):** ești deja suplă. Talia e îngustă, conturul abdomenului se vede când îl încordezi, iar umerii și brațele sunt tonifiate. Definirea pe care o vrei e în ultimele 2–3 kg, care se duc cel mai încet. Ținta realistă pentru 7 februarie e **~56–57 kg** și **talia cu 2–4 cm mai mică**, cu forța păstrată. Așa abdomenul se vede și relaxat, nu doar încordat, și apar liniile pe umeri, brațe și picioare. Te uiți mai mult la talie și la poze decât la cântar.
+**De unde pornești (poza din sală, 10 nov):** ești deja suplă. Talia e îngustă, conturul abdomenului se vede când îl încordezi, iar umerii și brațele sunt tonifiate. Definirea pe care o vrei e în ultimele 2–3 kg, care se duc cel mai încet. Ținta realistă pentru 27 februarie e **~55,5–57 kg** și **talia cu 3–5 cm mai mică**, cu forța păstrată, plus fese și umeri mai pline de la cele 5 zile de sală. Așa abdomenul se vede și relaxat, nu doar încordat, și apar liniile pe umeri, brațe și picioare. Te uiți mai mult la talie și la poze decât la cântar.
 
 ## Cifrele zilnice
 | | Cât | De ce |
 |---|---|---|
 | **Calorii** | **~1.550–1.650 kcal** (ajustăm după 2 săptămâni) | menținerea ta e ~1.850–1.950 kcal; deficit de ~300 kcal |
-| **Proteină** | **~120–130 g** (minim 110 g, ~2 g pe kg) | păstrezi mușchiul și ești sătulă |
-| **Grăsimi** | **40–55 g** (nu sub ~40 g) | hormoni, ciclu, piele |
-| **Carbohidrați** | **~150–175 g**, mai mulți în mesele din jurul antrenamentului | energie la sală |
+| **Proteină** | **~130–145 g** (minim 125 g, ~2,2–2,5 g pe kg) | în forma de bikini păstrezi mușchiul și ești sătulă cu mai puține calorii |
+| **Grăsimi** | **40–50 g** (nu sub ~40 g) | hormoni, ciclu, piele |
+| **Carbohidrați** | **~140–170 g**, mai mulți în mesele din jurul antrenamentului | energie la sală |
 | **Fibre, apă** | 25–30 g fibre (legume la 2–3 mese) · 2,5 L apă, mai mult în zilele de sală | sațietate, digestie |
 
-**Nu trebuie să numeri.** Dacă alegi câte o variantă din fiecare masă de mai jos, ajungi singură la cifrele astea. **Porțiile sunt date gătite** (cântărești ce iei din oală sau din tavă). În paranteză e cât înseamnă crud, dacă vrei să știi cât pui la fiert. Prima săptămână cântărește-le, ca să-ți faci ochiul; apoi le pui la ochi.
+**Nu trebuie să numeri.** Dacă alegi câte o variantă din fiecare masă de mai jos, ajungi singură la cifrele astea. **Porțiile sunt date gătite** (cântărești ce iei din oală sau din tavă). În paranteză e cât înseamnă crud, dacă vrei să știi cât pui la fiert. **În forma de bikini cântărești tot**, nu doar prima săptămână: paste, cartofi, pește, nuci, unt de arahide, miere. Diferența dintre o lingură de unt de arahide pusă la ochi și una cântărită e de 50–100 kcal.
 
 **Crud → gătit**
 | Aliment | Crud / uscat | Gătit (cât pui în farfurie) |
@@ -70,9 +74,9 @@ Fiecare variantă are cam aceleași calorii și aceeași proteină cu celelalte 
 - **D. Quesadilla cu ton (air fryer):** 1 lipie + 1 conservă de ton + 30 g mozzarella light + ardei, spanac. Se împăturește și stă 5–6 min la 180 °C (~390 kcal, 42 g proteină).
 - **E. Biban sau doradă, peștele lui Cem:** ~100 g gătit (130 g crud) + ~150 g cartofi la cuptor + legume, **fără ulei în plus pe pește** (are mai multă grăsime decât codul, dar e grăsime bună). Îl coaceți împreună în air fryer, 12–15 min la 200 °C: lămâia, usturoiul și cimbrul merg pentru amândoi (~370 kcal, ~31 g proteină).
 
-**Desertul zilei · ~150–250 kcal:** în fiecare zi, după cină (sau la sfârșitul stream-ului). E deja socotit în calorii, deci nu e o abatere. Variantele sunt mai jos, la „Deserturi”. În zilele fără desert: 15 g nuci și un fruct.
+**Desertul zilei · ~100–150 kcal:** în fiecare zi, după cină (sau la sfârșitul stream-ului). E deja socotit în calorii, deci nu e o abatere. Alegi mai ales deserturile cu proteină (skyr, iaurt cu rodie, banană la air fryer cu skyr, o bucată de brownie lângă iaurt). **Mousse-ul și mug cake-ul le faci pe jumătate.** Variantele sunt mai jos, la „Deserturi”. Curmalele: cel mult 1–2 pe zi, iar în ziua cu brownie din curmale, niciuna în plus.
 
-**Exemplu de zi:** farfurie cu ouă și lor · ton cu paste · shake cu chefir după sală · pește cu cartofi · banană la air fryer cu skyr ≈ **1.650 kcal, ~150 g proteină**. **Chefirul e în fiecare zi**, în shake. Cu mousse-ul de ciocolată în loc de banană ajungi la ~1.670, tot bine.
+**Exemplu de zi:** farfurie cu ouă și lor · ton cu paste · shake cu chefir după sală · pește cu cartofi · banană la air fryer cu skyr ≈ **1.650 kcal, ~150 g proteină**. **Chefirul e în fiecare zi**, în shake. Cu jumătate de mousse de ciocolată în loc de banană ajungi la ~1.580, tot bine.
 
 **Exemplu cu ce mănânci deja (azi, 10 nov):** micul dejun (2 ouă, 2 felii de pâine cu unt, 2 felii de brânză, roșie, castravete, gem) a avut **~570 kcal, ~29 g proteină și ~30 g grăsimi**. E bun, doar că are deja jumătate din grăsimile zilei. Pentru restul zilei: ton cu paste la prânz, shake cu chefir după sală, pește alb cu cartofi la cină. Așa ajungi la ~1.610 kcal și ~135 g proteină. Dacă vrei și desert, ia 2 pătrățele de ciocolată 85% (60 kcal). Dacă vrei să-l păstrezi des: 1 felie de pâine integrală în loc de 2, fără unt și 100 g albuș în plus. Așa scazi ~100 kcal și urci la ~38 g proteină.
 
@@ -136,7 +140,7 @@ Toate sunt gata în 2–10 minute și sunt în jurnal, la „Din plan → Desert
 9. **În jurnal**, la „Poftă de dulce seara?”, bifezi în fiecare seară. După 2 săptămâni vedem în ce zile apare (după stream, după antrenament, înainte de ciclu) și schimbăm masa de dinainte.
 
 ## Masa liberă, în loc de cheat day
-**O masă pe săptămână** (de exemplu sâmbătă seara) mănânci ce vrei, fără să numeri: o porție normală + desert. Atât: **o masă, nu o zi.**
+**O masă la 2 săptămâni** (de exemplu sâmbătă seara) mănânci ce vrei, fără să numeri: o porție normală + desert. Atât: **o masă, nu o zi.** **Din 7 februarie, nicio masă liberă** până după ziua pozelor.
 
 De ce: o zi întreagă liberă adaugă ușor 2.000–3.000 kcal peste menținere, adică mai mult decât tot deficitul săptămânii. De aici vine senzația că „ai dat înapoi”, deși antrenamentele au mers bine.
 
@@ -202,11 +206,18 @@ Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat
 | Media pe 2 săptămâni | Ce faci |
 |---|---|
 | scade **0,25–0,4 kg/săpt.** | nu schimbi nimic |
-| scade **sub 0,2 kg/săpt.** (și talia nu scade) | **−100–150 kcal** (de exemplu 45 g paste fierte mai puțin la prânz și nucile la jumătate) **sau +2.000 pași pe zi** |
+| scade **sub 0,2 kg/săpt.** (și talia nu scade) | **−100–150 kcal** (de exemplu 45 g paste fierte mai puțin la prânz și nucile la jumătate) **sau +10 min la cardio-ul de sâmbătă și +10 min de mers pe zi** |
 | scade **peste 0,6 kg/săpt.** | **+100–150 kcal** (o felie de pâine sau un fruct în plus) |
 | cântarul stă, dar talia scade și pozele arată mai bine | nu schimbi nimic (pierzi grăsime și păstrezi mușchi) |
 
 **Unde te oprești:** nu cobori sub ~1.450 kcal. Dacă apar **ciclul neregulat sau oprit**, oboseală care nu trece, somn prost, iritabilitate sau forța care scade 2 săptămâni la rând, mănânci 1–2 săptămâni la menținere (~1.850–1.950 kcal), apoi reluăm. Dacă ciclul se oprește, mergi și la medic.
+
+## Ultima săptămână înainte de poze (22–27 feb)
+- **Fără trucuri cu apa sau cu sarea:** nu tai apa, nu iei diuretice, laxative sau ceaiuri „de drenaj”. Bei la fel ca de obicei (2,5–3 l), mănânci sare la fel. Corpul arată cel mai bine când e constant.
+- **Ultimele 2 zile:** lași deoparte ce te balonează (năut, fasole, multe legume crude, guma de mestecat, băuturile carbogazoase, lorul în cantitate mare).
+- **Vineri, ziua dinainte:** +50–80 g carbohidrați simpli (cartofi, orez, banană), ca să arăți „plină”, nu plată. Proteina la fel.
+- **În dimineața pozelor:** o masă mică și cunoscută (ouă, pâine, o banană), cu 1–2 ore înainte. Între poze, puțină apă și ceva mic (o banană, 2 curmale).
+- **Dormi 8 ore** în ultimele 3 nopți.
 
 **Somnul:** 7–8 ore. După stream-urile târzii, dormi mai mult a doua zi, nu tai din somn: cu somn puțin ți-e mai foame și ești mai slabă la sală.
 
@@ -217,3 +228,5 @@ Nu gătești în avans: fiecare masă se face pe loc. Peștele îl ții congelat
 - [ ] Prima săptămână cântărești gătite pastele, cartofii și peștele (ovăzul, uscat)
 - [ ] Alegi ziua mesei libere
 - [ ] Luni 23 nov: primul bilanț (media pe 2 săptămâni) și îmi spui cifrele
+- [ ] Cântărești tot ce mănânci, cu cântarul de bucătărie
+- [ ] Data pozelor: sâmbătă 27 feb (o confirmi sau o muți până pe 8 feb)

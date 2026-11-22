@@ -1,57 +1,45 @@
 # Cardio și pașii
 
-_Partea 3 din 3 a programului de definire (11 nov – 7 feb). Celelalte două: **Antrenamentul** și **Alimentația**._
+_Partea 3 din 3 a programului (23 nov 2026 – 27 feb 2027, ziua pozelor). Celelalte două: **Antrenamentul** și **Alimentația**._
 
-> **Pe scurt:** 3 sesiuni pe săptămână, mai mult ușoare decât intense, plus **8.000–10.000 de pași pe zi**. Cardio-ul ușor arde aproape la fel ca intervalele și nu-ți ia din forță la sală.
+> **Pe scurt:** 3 sesiuni pe săptămână (intervale scurte marți, cardio ușor joi și unul lung sâmbătă), plus mers ușor în celelalte zile. **Pașii nu trebuie numărați:** în locul lor faci minute de mers pe banda de acasă. Cardio-ul ușor arde aproape la fel ca intervalele și nu-ți ia din forță la sală.
 
 ## Săptămâna de cardio
-
-### Săptămâna asta (10–15 nov)
-| Zi | Ce |
-|---|---|
-| **Miercuri 11** | intervale pe spinning, ~13 min, după Upper A |
-| **Joi 12** | cardio ușor 35–40 min (bandă, mers alert, sau eliptică) |
-| **Sâmbătă 14** | 30 min ușor, după Upper B |
-
-### Săptămâna obișnuită (din 16 nov)
 | Ziua | Ce | Cât | Cât de tare |
 |---|---|---|---|
-| **Marți** (după Upper A) | intervale pe spinning | ~13 min | „tare” 8–9 din 10 |
-| **Miercuri** | bandă (mers alert) sau eliptică | 35–40 min | 4–5 din 10 (poți vorbi în propoziții) |
-| **Sâmbătă** | bandă, eliptică sau plimbare afară | 40–45 min (afară 60) | 4–5 din 10 |
+| **Marți** (după Upper A) | intervale: bicicletă, stepper sau bandă | ~13 min | „tare” 8–9 din 10 |
+| **Joi** (după Upper B) | bandă (mers alert) sau eliptică | 25–30 min | 4–5 din 10 |
+| **Sâmbătă** | **banda de acasă** (sau eliptica, stepper-ul la sală) | **45 min** | 4–5 din 10 |
+| **Duminică** (dacă vrei) | mers ușor pe banda de acasă | 20–30 min | 3 din 10 |
 
 ## Intervalele (marți, ~13 min)
-- **Unde:** bicicleta de spinning. Merg și stepper-ul sau eliptica.
+- **La sală:** bicicleta de spinning, stepper-ul sau eliptica.
 - **Cum:** 2 min ușor, apoi **8 × (40 s tare / 20 s ușor)**, apoi 3 min ușor.
-- **„Tare”** = 8–9 din 10: rămâi doar cu câteva cuvinte. **„Ușor”** = pedalezi încet, fără să te oprești.
+- **Pe banda de acasă, dacă nu mergi la sală:** 2 min mers la 5 km/h, apoi 8 × (40 s mers foarte rapid sau alergare ușoară / 20 s mers la 5 km/h), apoi 3 min ușor.
+- **„Tare”** = 8–9 din 10: rămâi doar cu câteva cuvinte. **„Ușor”** = continui încet, fără să te oprești.
 - **După Upper A**, nu înainte de o zi de picioare.
 
-## Cardio-ul ușor (miercuri, 35–40 min)
-Banda de la sală **nu are înclinare**, așa că efortul vine din viteză sau din alt aparat:
-- **Banda, mers alert:** 5 min la 5 km/h, apoi **6–6,5 km/h** cât poți ține fără să alergi (40 min). Dacă e prea ușor, 2 min la 6,5 + 1 min la 5, pe rând.
-- **Sau eliptica:** 35–40 min, rezistență medie.
-- **Sau stepper-ul:** 25–30 min, ritm constant (e mai greu).
+## Banda (joi și sâmbătă)
+- **Unde ești acum (19 nov):** 30 min la 5 km/h, cu banda puțin înclinată.
+- **Cum crești:** întâi timpul (35, 40, apoi 45 min), apoi viteza (5,5, apoi 6 km/h) sau înclinarea, câte puțin, o dată pe săptămână.
 - **Fără să te ții de bare:** dacă trebuie să te ții, scazi viteza.
-- **Cât de tare:** 4–5 din 10, poți vorbi în propoziții. Pulsul urcă puțin, respiri mai repede, dar nu gâfâi.
-- **Unde ești acum (11 nov):** 30 min la 4,5 km/h. Data viitoare 35 min și urci la 5–5,5 km/h; apoi spre 6.
-- **Dacă găsești o bandă cu înclinare:** 10–12%, 5–5,5 km/h, 35–40 min.
+- **Cât de tare:** 4–5 din 10, poți vorbi în propoziții. Respiri mai repede, dar nu gâfâi.
+- **La sală, în loc de bandă:** eliptica (35–45 min, rezistență medie) sau stepper-ul (25–30 min, e mai greu).
 
-## Cardio-ul lung (sâmbătă)
-- **40–45 min** pe bandă sau eliptică, sau **60 de minute de plimbare afară**, în pas vioi.
-- Efortul e tot ușor: 4–5 din 10.
-
-## Pașii: 8.000–10.000 pe zi
-- **Pentru tine contează mult**, pentru că stai 3–4 ore jos pe stream.
-- **10 minute de mers înainte de stream și 10 după**, iar în pauzele dintre jocuri te ridici.
-- **Pașii ard mai mult decât încă o sesiune de cardio** și nu obosesc picioarele pentru sală.
-- **Îi scrii în jurnal** în fiecare seară.
+## Mersul zilnic, în loc de pași
+Pentru tine contează mult, pentru că stai 3–4 ore jos pe stream.
+- **Nu trebuie să numeri pașii.** În zilele fără cardio (luni, miercuri, vineri, duminică) faci **20 de minute de mers ușor pe banda de acasă**: înainte de stream, după cină sau cât te uiți la ceva.
+- **După mesele mari,** 10 minute de mers, prin casă sau afară.
+- **Dacă vrei totuși o cifră:** telefonul numără pașii singur (pe iPhone, în aplicația Sănătate / Health). Uită-te o săptămână cât faci, scrie-mi media și stabilim ținta de acolo.
 
 ## Reguli
+- **Dacă slăbitul stagnează 2 săptămâni**, nu tai întâi din mâncare: adaugi **10 min la cardio-ul de sâmbătă și 10 min la mersul zilnic**. Abia dacă tot stagnează, scădem 100 kcal (vezi **Alimentația → Cum vedem că merge**).
 - **Ești obosită o săptămână?** Intervalele de marți devin încă un cardio ușor.
-- **În săptămâna ușoară (21–27 dec)** faci doar cardio ușor, fără intervale.
-- **Dacă slăbitul stagnează**, nu adaugi întâi cardio: adaugi **2.000 de pași pe zi** sau scazi 100–150 kcal (vezi **Alimentația → Cum vedem că merge**).
-- **Cardio-ul vine după sală** sau în zile separate, niciodată înainte de picioare.
+- **În săptămânile ușoare (21–27 dec și 22–27 feb)** faci doar cardio ușor, fără intervale.
+- **Cardio-ul vine după sală** sau în zile separate, niciodată înainte de Fese sau Picioare.
+- **În ultimele 2 săptămâni (15–27 feb)** nu mai adaugi cardio: păstrezi exact ce ai făcut până atunci.
 
 ## De bifat
-- [ ] Pașii în jurnal, în fiecare seară
-- [ ] Prima sesiune de intervale (miercuri 11 nov, după Upper A)
+- [ ] Prima sesiune de 45 min pe banda de acasă (sâmbătă 28 nov)
+- [ ] 20 de minute de mers în zilele fără cardio
+- [ ] O săptămână în care te uiți câți pași îți arată telefonul (opțional)
