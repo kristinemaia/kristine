@@ -7,7 +7,7 @@ _Duminică 22: pauză de la tot. 💗_
 
 | Zi | 🐸 Ștergere (11:43) | 🏋️ Sală | 🎮 Stream | Altele |
 |---|---|---|---|---|
-| **Lun 23** | răspunsurile + Bing + WordPress + programul de verificare | antrenament | ✅ stream (bucătărie sau jocuri) | 🎥 **dimineața, înainte de stream: brownie cu curmale + încă o rețetă** |
+| **Lun 23** | răspunsurile + Bing + WordPress + programul de verificare | antrenament | ✅ stream seara (bucătărie sau jocuri) | 🎥 **dimineața: brownie cu curmale + încă o rețetă (+ reel-ul vorbit „5 ani pescetariană”, dacă ai chef)** · 💅 **unghii la 15:00** |
 | **Mar 24** | sesiunea zilnică | antrenament | ✅ stream | |
 | **Mie 25** | sesiunea zilnică | antrenament | ✅ stream (ultimul) | 🧳 **împachetat** |
 | **Joi 26** | scurt, de pe telefon | (cardio ușor, dacă se poate) | ❌ | ✈️ **zbor spre România** |
@@ -16,6 +16,7 @@ _Duminică 22: pauză de la tot. 💗_
 
 **Sala săptămâna asta: 5 antrenamente, dintre care 3 de cardio.** Ziua o alegi tu, în funcție de stream și de drum.
 **Ștergerea: luni–sâmbătă**, la 11:43 (duminica e liberă).
+**Duminica la 16:47** îți scriu ca să facem planul săptămânii următoare.
 
 ## 🐸 1. „Broasca cea mare”: ștergerea conținutului cu tine de pe internet
 **De ce prima:** te apără pe tine, stream-ul și brandul. Cât e online, oricine te poate recunoaște.
