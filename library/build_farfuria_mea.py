@@ -3,8 +3,8 @@
 „Farfuria mea”: fișa de bucătărie a Kristinei (A4 orizontal), la fel ca „Farfuria lui Cem”:
 ce pui la fiecare masă, pe componente (proteină, carbohidrați, legume, grăsime, fruct), în grame gătite.
 
-Gramajele vin din PROGRAM-ALIMENTATIE.md (ținta: ~1.550–1.650 kcal, ~120–130 g proteină, 40–55 g grăsimi,
-150–175 g carbohidrați). Variantele din aceeași căsuță au cam aceleași calorii. Fără carne; broccoli scos
+Gramajele vin din PROGRAM-ALIMENTATIE.md (forma de bikini, din 23 nov: ~1.550–1.650 kcal, ~130–145 g proteină, 40–50 g grăsimi,
+140–170 g carbohidrați, desert mic 100–150 kcal). Variantele din aceeași căsuță au cam aceleași calorii. Fără carne; broccoli scos
 (nu-i place), chefirul în fiecare zi, fără ovăz amestecat cu proteină.
 
 Rulezi:   python3 library/build_farfuria_mea.py
@@ -93,17 +93,18 @@ TR = "".join(
 )
 
 DESERT_ITEMS = [
-    ("banană la air fryer + 150 g skyr", "≈200"),
-    ("150 g iaurt grecesc + 100 g rodie + ½ linguriță miere", "≈200"),
-    ("măr copt + 100 g brânză de vaci + 5 g nuci", "≈215"),
-    ("înghețată de banană", "≈230"),
-    ("mousse de ciocolată", "≈250"),
-    ("mug cake proteic", "≈275"),
+    ("½ banană la air fryer + 150 g skyr", "≈150"),
+    ("120 g iaurt grecesc + 70 g rodie", "≈140"),
+    ("½ măr copt + 100 g brânză de vaci", "≈130"),
+    ("înghețată: ½ banană congelată + ½ măsură whey + 50 ml lapte + gheață", "≈135"),
+    ("½ porție de mousse de ciocolată", "≈125"),
+    ("½ mug cake proteic", "≈140"),
+    ("1 bucată de brownie din curmale", "≈90"),
     ("2 bile cu curmale", "≈140"),
     ("2 pătrățele de ciocolată 85%", "≈60"),
 ]
-DESERT_NOTE = "În ziua cu mousse sau mug cake, la micul dejun ia farfuria cu ouă și lor (cea mai ușoară). Fără desert: 15 g nuci + 1 fruct."
-DESERT = ('<tr><td class="m"><b>Desertul zilei</b><span>≈150–250 kcal</span><em>După cină, în fiecare zi</em></td>'
+DESERT_NOTE = "Alege mai ales deserturile cu proteină (skyr, iaurt, brânză, whey). În ziua cu brownie sau bile din curmale, nicio altă curmală. Fără desert: 10 g nuci + 1 fruct mic."
+DESERT = ('<tr><td class="m"><b>Desertul zilei</b><span>≈100–150 kcal</span><em>După cină, în fiecare zi</em></td>'
           '<td class="ds" colspan="5">Alegi unul (sunt și în jurnal, la „Din plan → Deserturi”): '
           + " · ".join(f"<b>{n}</b> ({k})" for n, k in DESERT_ITEMS) + f".<br><small>{DESERT_NOTE}</small></td></tr>")
 
@@ -123,7 +124,7 @@ HTML = f"""<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Far
 <div class="top">
  <div><h1>Farfuria mea</h1>
  <p class="sub">La fiecare masă alegi <b>câte o variantă din fiecare coloană</b>. Variantele din aceeași căsuță au cam aceleași calorii, deci ziua iese la fel. <b>Toate gramele sunt gătite</b>: cântărești ce iei din oală sau din tavă.</p></div>
- <div class="tot"><div><span>În fiecare zi</span><b>≈1.600–1.650 kcal</b><span>≈130 g proteină</span></div><div><span>Grăsimi · carbohidrați</span><b>40–55 g · 150–175 g</b><span>pe zi</span></div></div>
+ <div class="tot"><div><span>În fiecare zi</span><b>≈1.550–1.650 kcal</b><span>≈135–145 g proteină</span></div><div><span>Grăsimi · carbohidrați</span><b>40–50 g · 140–170 g</b><span>pe zi</span></div></div>
 </div>
 <table class="f">
  <thead><tr><th style="width:12%">Masa</th><th style="width:20%">Proteină (gătită) · alegi una</th><th style="width:20%">Carbohidrați (gătiți) · alegi unul</th><th style="width:19%">Legume</th><th style="width:16%">Grăsime</th><th style="width:13%">Fruct și extra</th></tr></thead>
@@ -141,11 +142,11 @@ HTML = f"""<!doctype html><html lang="ro"><head><meta charset="utf-8"><title>Far
    <tr><td>Prânz</td><td>≈440</td><td>≈40 g</td></tr>
    <tr><td>Chefirul zilei</td><td>≈240</td><td>≈32 g</td></tr>
    <tr><td>Cină</td><td>≈380</td><td>≈30 g</td></tr>
-   <tr><td>Desert</td><td>≈150–250</td><td>variază</td></tr>
-   <tr><td><b>Totalul zilei</b></td><td><b>≈1.600–1.650</b></td><td><b>≈130 g</b></td></tr>
+   <tr><td>Desert</td><td>≈100–150</td><td>≈5–15 g</td></tr>
+   <tr><td><b>Totalul zilei</b></td><td><b>≈1.550–1.650</b></td><td><b>≈135–145 g</b></td></tr>
   </tbody></table>
   <ul><li>Ai o singură variantă, pentru că deficitul tău e mic și același în fiecare zi. În zilele de sală doar bei chefirul după antrenament.</li>
-  <li><b>Masa liberă:</b> o dată pe săptămână, o masă (nu o zi), în locul cinei.</li></ul></div>
+  <li><b>Masa liberă:</b> o dată la 2 săptămâni, o masă (nu o zi), în locul cinei. Din 7 feb, deloc până după ziua pozelor.</li></ul></div>
  <div class="box"><b class="t">Ce înlocuiește ce (≈180 kcal fiecare)</b>
   <ul><li><b>1 lipie mică</b> ≈ <b>2 felii pâine integrală</b> ≈ <b>115 g paste fierte</b> ≈ <b>230 g cartofi fierți</b>. Intră una în locul alteia, nu pe lângă.</li>
   <li>Proteină la fiecare masă (minim 25–30 g); legume la cel puțin 2 mese.</li>

@@ -69,10 +69,10 @@ def mea_parts():
     M = importlib.import_module("build_farfuria_mea")
     head = ('<h1>Farfuria mea</h1><p class="sub">La fiecare masă alegi câte o variantă din fiecare parte. '
             '<b>Toate gramele sunt gătite.</b></p>'
-            '<div class="tot"><div><span>În fiecare zi</span><b>≈1.600–1.650</b><span>kcal · ≈130 g proteină</span></div>'
-            '<div><span>Pe zi</span><b>40–55 g</b><span>grăsimi · 150–175 g carbo</span></div></div>')
+            '<div class="tot"><div><span>În fiecare zi</span><b>≈1.550–1.650</b><span>kcal · ≈135–145 g proteină</span></div>'
+            '<div><span>Pe zi</span><b>40–50 g</b><span>grăsimi · 140–170 g carbo</span></div></div>')
     meals = [meal_html(m, k, note, cells) for m, k, note, *cells in M.ROWS]
-    meals.append('<section class="meal"><h2>Desertul zilei</h2><p class="k">≈150–250 kcal</p>'
+    meals.append('<section class="meal"><h2>Desertul zilei</h2><p class="k">≈100–150 kcal</p>'
                  '<span class="note">După cină, în fiecare zi</span><div class="part"><div class="lab">Alegi unul</div><div>'
                  '<ul class="o">' + "".join(f"<li><b>{n}</b> <small>({k} kcal)</small></li>" for n, k in M.DESERT_ITEMS)
                  + f'</ul><p style="margin:8px 0 4px"><small>{M.DESERT_NOTE}</small></p></div></div></section>')
@@ -85,10 +85,10 @@ def mea_parts():
 <table><thead><tr><th>Masa</th><th>kcal</th><th>Proteină</th></tr></thead><tbody>
 <tr><td>Mic dejun</td><td>≈400</td><td>≈28 g</td></tr><tr><td>Prânz</td><td>≈440</td><td>≈40 g</td></tr>
 <tr><td>Chefirul zilei</td><td>≈240</td><td>≈32 g</td></tr><tr><td>Cină</td><td>≈380</td><td>≈30 g</td></tr>
-<tr><td>Desert</td><td>≈150–250</td><td>variază</td></tr><tr><td><b>Totalul zilei</b></td><td><b>≈1.600–1.650</b></td><td><b>≈130 g</b></td></tr>
+<tr><td>Desert</td><td>≈100–150</td><td>≈5–15 g</td></tr><tr><td><b>Totalul zilei</b></td><td><b>≈1.550–1.650</b></td><td><b>≈135–145 g</b></td></tr>
 </tbody></table>
 <ul><li>O singură variantă: deficitul tău e mic și același în fiecare zi. În zilele de sală bei chefirul după antrenament.</li>
-<li><b>Masa liberă:</b> o dată pe săptămână, o masă (nu o zi), în locul cinei.</li></ul></div>
+<li><b>Masa liberă:</b> o dată la 2 săptămâni, o masă (nu o zi), în locul cinei. Din 7 feb, deloc până după ziua pozelor.</li></ul></div>
 <div class="box"><span class="t">Ce înlocuiește ce (≈180 kcal fiecare)</span>
 <p style="margin:0"><b>1 lipie mică</b> ≈ <b>2 felii pâine integrală</b> ≈ <b>115 g paste fierte</b> ≈ <b>230 g cartofi fierți</b>. Intră una în locul alteia, nu pe lângă.</p>
 <ul><li>Proteină la fiecare masă (minim 25–30 g); legume la cel puțin 2 mese.</li><li>Uleiul cu lingurița (1 linguriță ≈ 40 kcal), nu din sticlă.</li></ul></div>
