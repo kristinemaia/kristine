@@ -8,11 +8,17 @@ _Duminică 22: pauză de la tot. 💗_
 | Zi | 🐸 Ștergere (11:43) | 🏋️ Sală | 🎮 Stream | Altele |
 |---|---|---|---|---|
 | **Lun 23** | răspunsurile + Bing + WordPress + programul de verificare | antrenament | ✅ stream seara (bucătărie sau jocuri) | 🎥 **dimineața: brownie cu curmale + încă o rețetă (+ reel-ul vorbit „5 ani pescetariană”, dacă ai chef)** · 💅 **unghii la 15:00** |
-| **Mar 24** | sesiunea zilnică | antrenament | ✅ stream | |
+| **Mar 24** | sesiunea zilnică | antrenament + 🎥 **filmat la sală** (sala e goală până la 16–17) | ✅ stream | lista de cadre: mai jos |
 | **Mie 25** | sesiunea zilnică | antrenament | ✅ stream (ultimul) | 🧳 **împachetat** |
 | **Joi 26** | scurt, de pe telefon | (cardio ușor, dacă se poate) | ❌ | ✈️ **zbor spre România** |
 | **Vin 27** | conturile vechi (reminder la 11:00) + plângerea la poliție | | ❌ | București |
 | **Sâm 28** | sesiunea zilnică | | ❌ | |
+
+**🎥 Filmat la sală, marți 24** (vertical, 1080 × 1920, setul verde sau gri deschis, fără alți oameni în cadru):
+1. **R6 · Train with me: Day 1 of Level Up**: telefonul pe bancă, mâna apasă Start · marș pe loc 2 s · hip thrust 3 s · scrii kg-ul în telefon · pauza (bei apă) · RDL 3 s · zâmbet „done”
+2. **2 exerciții noi pentru program** (lipsesc acum): extensii de triceps deasupra capului cu o gantera · împins cu gantere pe bancă (câte 15–20 s, din față și din lateral)
+3. **„Gamer tests”** (reel): overhead reach test · testul de șold 90/90 · chin tucks (câte 5–8 s)
+4. **Cardio** (îl filmezi în timp ce-l faci): stepper sau eliptică, 10 s din lateral + 5 s din spate
 
 **Sala săptămâna asta: 5 antrenamente, dintre care 3 de cardio.** Ziua o alegi tu, în funcție de stream și de drum.
 **Ștergerea: luni–sâmbătă**, la 11:43 (duminica e liberă).
