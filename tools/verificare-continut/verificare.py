@@ -338,6 +338,18 @@ def incarca():
     return data
 
 
+def reincarca(stare):
+    """Citește din nou stare.json (fără copie de rezervă): fișierul e mereu sursa adevărului."""
+    try:
+        with open(STATE, encoding='utf-8') as f:
+            nou = json.load(f)
+        if isinstance(nou, dict) and 'linkuri' in nou:
+            stare.clear()
+            stare.update(nou)
+    except (OSError, ValueError):
+        pass
+
+
 def salveaza(stare):
     tmp = STATE + '.tmp'
     with open(tmp, 'w', encoding='utf-8') as f:
@@ -1547,11 +1559,13 @@ def porneste_server(stare):
                 return self._raspunde(403, 'Interzis')
             if self.path.split('?')[0] == '/date':
                 with lacat:
+                    reincarca(stare)
                     corp = json.dumps(vedere(stare, True, token), ensure_ascii=False)
                 return self._raspunde(200, corp, 'application/json; charset=utf-8')
             if self.path.split('?')[0] != '/':
                 return self._raspunde(404, 'Nu există')
             with lacat:
+                reincarca(stare)
                 corp = pagina(vedere(stare, True, token))
             self._raspunde(200, corp, 'text/html; charset=utf-8')
 
@@ -1566,6 +1580,7 @@ def porneste_server(stare):
                 if not secrets.compare_digest(str(a.get('token', '')), token):
                     return self._raspunde(403, 'Pagina e veche: reîncarc-o (F5).')
                 with lacat:
+                    reincarca(stare)
                     aplica(stare, a)
                     salveaza(stare)
                     scrie_raport(stare)
@@ -1574,6 +1589,15 @@ def porneste_server(stare):
             except Exception as e:
                 self._raspunde(400, f'{type(e).__name__}: {e}')
 
+    try:
+        with socket.create_connection(('127.0.0.1', 8765), timeout=1):
+            pass
+        print('\nProgramul e deja deschis în altă fereastră neagră. Îți deschid raportul de acolo: http://127.0.0.1:8765/')
+        print('(Dacă ai schimbat verificare.py, închide întâi fereastra veche și pornește din nou.)')
+        webbrowser.open('http://127.0.0.1:8765/')
+        return
+    except OSError:
+        pass
     srv = None
     for port in list(range(8765, 8776)) + [0]:
         try:
@@ -1591,6 +1615,7 @@ def porneste_server(stare):
                     cop = json.loads(json.dumps(stare))
                 rez = citeste_tot(cop)          # rețeaua, fără să blocheze pagina
                 with lacat:
+                    reincarca(stare)
                     aplica_emailuri(stare, *rez)
                     salveaza(stare)
                     scrie_raport(stare)
