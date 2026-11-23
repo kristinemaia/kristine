@@ -338,6 +338,33 @@ def incarca():
     return data
 
 
+JURNAL = os.path.join(HERE, 'bife-jurnal.txt')
+TIPURI_JURNAL = ('trimis', 'manual', 'ignora', 'adult', 'nota_site', 'email_rezolvat')
+
+
+def scrie_jurnal(a):
+    if a.get('tip') in TIPURI_JURNAL:
+        with open(JURNAL, 'a', encoding='utf-8') as f:
+            f.write(json.dumps({k: v for k, v in a.items() if k != 'token'}, ensure_ascii=False) + '\n')
+
+
+def reaplica_jurnal(stare):
+    """Bifele tale sunt scrise și în bife-jurnal.txt; la pornire le pun din nou, ca să nu se piardă niciodată."""
+    if not os.path.exists(JURNAL):
+        return 0
+    n = 0
+    for line in open(JURNAL, encoding='utf-8'):
+        try:
+            a = json.loads(line)
+            if a.get('tip') == 'manual' and a.get('url') not in stare['linkuri']:
+                continue
+            aplica(stare, a)
+            n += 1
+        except Exception:
+            pass
+    return n
+
+
 def reincarca(stare):
     """Citește din nou stare.json (fără copie de rezervă): fișierul e mereu sursa adevărului."""
     try:
@@ -1410,7 +1437,7 @@ def vedere(stare, interactiv=False, token=''):
     }
     return {'generat': scurt(acum()) + ' ' + acum()[11:], 'azi': date.today().isoformat(),
             'azi_ro': date.today().strftime('%d.%m.%Y'), 'interactiv': interactiv, 'token': token,
-            'cautare_text': text_cautare(stare['cautare']), 'email_text': stare.get('email_text') or '', 'rezumat': rez, 'grupuri': out, 'sterse': sterse,
+            'folder': HERE, 'cautare_text': text_cautare(stare['cautare']), 'email_text': stare.get('email_text') or '', 'rezumat': rez, 'grupuri': out, 'sterse': sterse,
             'neverificate': sorted(neverificate, key=lambda x: x['url']),
             'ignorate': sorted(ignorate, key=lambda x: x['url']) + [{'domeniu': d, 'tot_site': True} for d in sorted(dom_ignorate)],
             'alte': sorted(alte, key=lambda g: g['domeniu']), 'semnatura': stare.get('semnatura') or {},
@@ -1435,7 +1462,7 @@ def aplica(stare, a):
         principale = {g['domeniu'] for g in vedere(stare)['grupuri']} if a.get('toate') else set()
         for url, e in stare['linkuri'].items():
             dom = domeniu(url)
-            if (dom in principale or dom == a.get('domeniu')) and not ignorat(stare, url, e) and categorie(e) == 'activ':
+            if (dom in principale or dom == a.get('domeniu')) and not ignorat(stare, url, e):
                 if d:
                     e.setdefault('trimis', {})[canal] = d
                 else:
@@ -1543,6 +1570,11 @@ def scrie_raport(stare):
 
 
 def porneste_server(stare):
+    n = reaplica_jurnal(stare)
+    if n:
+        salveaza(stare)
+        scrie_raport(stare)
+        print(f'Am pus din nou {nr(n, "bifă salvată", "bife salvate")} din bife-jurnal.txt.')
     token, lacat = secrets.token_urlsafe(16), threading.Lock()
 
     class H(BaseHTTPRequestHandler):
@@ -1590,6 +1622,7 @@ def porneste_server(stare):
                 with lacat:
                     reincarca(stare)
                     aplica(stare, a)
+                    scrie_jurnal(a)
                     salveaza(stare)
                     scrie_raport(stare)
                     corp = json.dumps(vedere(stare, True, token), ensure_ascii=False)
@@ -2149,7 +2182,7 @@ function randeaza() {
   const lucru = D.grupuri.filter(g => g.categorie !== 'astept'), astept = D.grupuri.filter(g => g.categorie === 'astept');
   document.getElementById('app').replaceChildren(...curata([
     h('h1', {}, 'Evidența ștergerilor'),
-    h('p', {class: 'sub'}, 'Verificat: ' + D.generat + (D.baza ? ' · baza de site-uri adult: ' + D.baza.toLocaleString('ro-RO') + ' de site-uri' : ''), D.cautare_text && h('br'), D.cautare_text, D.email_text && h('br'), D.email_text),
+    h('p', {class: 'sub'}, '📁 Folderul programului: ' + D.folder + ' · Verificat: ' + D.generat + (D.baza ? ' · baza de site-uri adult: ' + D.baza.toLocaleString('ro-RO') + ' de site-uri' : ''), D.cautare_text && h('br'), D.cautare_text, D.email_text && h('br'), D.email_text),
     !LIVE && h('div', {class: 'banner'}, 'Ai deschis fișierul raport.html, care e doar de citit. Ca să bifezi, pornește raport.bat (sau scrie python verificare.py --raport) și folosește pagina care se deschide: ',
       h('a', {href: 'http://127.0.0.1:8765/'}, 'http://127.0.0.1:8765'), '.'),
     h('div', {class: 'tiles'},
