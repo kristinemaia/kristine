@@ -94,7 +94,8 @@ MOTOR_CANAL = {'google': ('Google', 'Google Imagini'), 'bing': ('Bing',)}
 FORMULARE = {
     'google': [('conținut intim', 'https://support.google.com/accounts/answer/17045517'),
                ('copyright', 'https://reportcontent.google.com/forms/dmca_search')],
-    'bing': [('formularul Bing', 'https://aka.ms/reportci')],
+    'bing': [('formularul Microsoft / Bing', 'https://www.microsoft.com/en-us/concern/revengeporn'),
+             ('Report a Concern (dacă primul nu merge)', 'https://www.microsoft.com/en-us/concern')],
     'cloudflare': [('formularul Cloudflare', 'https://abuse.cloudflare.com/')],
     'vechi': 'https://search.google.com/search-console/remove-outdated-content',
 }
@@ -159,6 +160,18 @@ TEXTE = {
     'bing': ('Bing: formularul pentru conținut intim publicat fără acord (aka.ms/reportci)',
              'I am the person shown in the intimate images and videos at the links below. They were stolen from my private accounts and published without my consent. I am an adult and I did not authorize their publication. Please remove these pages from Bing search results, including copies and thumbnails.\n\n'
              'Links:\n{linkuri}\n\n{nume}\n{email}\nDate: {azi}'),
+    'r_multumesc': ('Re: {subiect}',
+                    'Hello,\n\nThank you very much for removing the content. Could you please also make sure that all copies, '
+                    'thumbnails and cached versions are removed, and that the content cannot be uploaded again?\n\n'
+                    'For reference, these were the links:\n{linkuri}\n\nThank you,\n{nume}'),
+    'r_linkuri': ('Re: {subiect}',
+                  'Hello,\n\nThank you for your reply. Here is the list of direct URLs, one per line, in plain text:\n\n{linkuri}\n\n'
+                  'I am the person shown in this content. It was published without my consent and I am the copyright owner. '
+                  'Please remove all of them and confirm.\n\nThank you,\n{nume}'),
+    'r_revin': ('Re: {subiect}',
+                'Hello,\n\nThank you for your reply. The content is still online at the links below. Please remove it, including '
+                'all copies, and confirm by email.\n\n{linkuri}\n\nI am the person shown, it was published without my consent, '
+                'and I am the copyright owner.\n\nThank you,\n{nume}'),
     'revenire': ('Second notice: my removal request of {data} (non-consensual intimate images)',
                  'Hello,\n\nOn {data} I asked you to remove the intimate images of me listed below. They were published '
                  'without my consent and they are still online.\n\nWhere they are:\n{linkuri}\n\nPlease remove them, and any '
@@ -903,7 +916,7 @@ def _mesaj(raw, eu):
         catre = [a.lower() for _, a in email_utils.getaddresses([str(msg['to'] or ''), str(msg['cc'] or '')]) if a]
         d = email_utils.parsedate_to_datetime(str(msg['date'])).date().isoformat()
         return {'data': d, 'de_la': de_la, 'catre': catre, 'subiect': re.sub(r'\s+', ' ', str(msg['subject'] or ''))[:160],
-                'text': _text_email(msg), 'trimis': de_la in eu}
+                'text': _text_email(msg), 'trimis': de_la in eu, 'mid': str(msg['message-id'] or '').strip().strip('<>')}
     except Exception:
         return None
 
@@ -1020,8 +1033,21 @@ def _al(adresa, dom):
     return bool(adresa) and e_al_domeniului(adresa.split('@')[-1], dom)
 
 
+def _curat(t):
+    return t.replace('hxxp', 'http').replace('[.]', '.').replace('(.)', '.').replace('[:]', ':')
+
+
+def _subiect_baza(sub):
+    t = re.sub(r'\[[^\]]*\]', ' ', sub.lower())
+    t = re.sub(r'^(\s*(re|fwd?|aw|tr|sv)\s*:\s*)+', '', t.strip())
+    t = re.sub(r'^(\s*(re|fwd?)\s*:\s*)+', '', t.strip())
+    return re.sub(r'\s+', ' ', t).strip()
+
+
 def potriveste_emailuri(stare, mesaje):
     """Leagă fiecare email de un site: cereri trimise, confirmări (Google, Bing, Cloudflare) și răspunsuri."""
+    for m in mesaje:
+        m['text'] = _curat(m['text']); m['subiect_c'] = _curat(m['subiect'])
     pe_site = {}
     for u, e in stare['linkuri'].items():
         if categorie(e) in ('activ', 'sters') and not ignorat(stare, u, e):
@@ -1036,8 +1062,17 @@ def potriveste_emailuri(stare, mesaje):
         url_k = [(u, fara_www(u).lower().rstrip('/')) for u, _ in lst]
         evenim = s.setdefault('emailuri', [])
         vechi = {(x['data'], x['cine'], x['subiect']) for x in evenim}
+        fir = {}   # subiectele cererilor trimise pentru site-ul ăsta → canalul
         for m in mesaje:
-            txt = (m['subiect'] + ' ' + m['text']).lower()
+            if m['trimis']:
+                t0 = (m['subiect_c'] + ' ' + m['text']).lower()
+                if dom in t0 or any(k and k in t0 for _, k in url_k) or any(a in site_em or _al(a, dom) for a in m['catre']):
+                    b = _subiect_baza(m['subiect'])
+                    if len(b) > 12:
+                        fir[b] = 'site' if any(a in site_em or _al(a, dom) for a in m['catre']) else (
+                            'gazda' if any(a in gz_em for a in m['catre']) else 'altul')
+        for m in mesaje:
+            txt = (m['subiect_c'] + ' ' + m['text']).lower()
             urls = [u for u, k in url_k if k and re.search(re.escape(k) + r'/?(?![\w/%.-])', txt)]
             mentionat = bool(urls) or dom in txt
             canal = tip = None
@@ -1068,6 +1103,8 @@ def potriveste_emailuri(stare, mesaje):
                         canal, tip = 'registrar', 'raspuns'
                     elif mentionat and not any(_al(cine, d) for doms in DOMENII_CANAL.values() for d in doms):
                         canal, tip = 'altul', 'raspuns'
+                    elif _subiect_baza(m['subiect']) in fir:   # răspuns pe firul unei cereri trimise de tine
+                        canal, tip = fir[_subiect_baza(m['subiect'])], 'raspuns'
             if not tip:
                 continue
             k = (m['data'], cine, m['subiect'])
@@ -1076,24 +1113,23 @@ def potriveste_emailuri(stare, mesaje):
             vechi.add(k)
             noi += tip in ('raspuns', 'confirmare')
             evenim.append({'data': m['data'], 'tip': tip, 'canal': canal, 'cine': cine, 'subiect': m['subiect'],
-                           'sters': tip != 'trimis' and bool(STERS_RE.search(m['text'] + ' ' + m['subiect']))})
+                           'sters': tip != 'trimis' and bool(STERS_RE.search(m['text'] + ' ' + m['subiect'])),
+                           'text': '' if tip == 'trimis' else m['text'][:1500], 'mid': m.get('mid', '')})
             # bifează singur „Am trimis”: linkurile scrise în email sau, dacă nu are linkuri, tot site-ul
             if canal in dict(CANALE) and tip in ('trimis', 'confirmare'):
                 for u, e in lst:
                     if categorie(e) == 'activ' and not (e.get('trimis') or {}).get(canal) and (u in urls or not urls):
                         e.setdefault('trimis', {})[canal] = m['data']
         evenim.sort(key=lambda x: x['data'])
-        del evenim[:-25]
+        del evenim[:-40]
     return noi
 
 
-def verifica_emailul(stare):
+def citeste_tot(stare):
+    """Partea lentă (rețeaua): citește conturile. Nu schimbă nimic în stare."""
     conturi = [c for c in conturi_email(citeste_chei()) if c['parola']]
-    if not conturi:
-        stare['email_text'] = 'Emailul nu e conectat: conectează-l din raport, la „📧 Emailuri conectate”.'
-        return stare['email_text']
     eu = {c['adresa'] for c in conturi} | ({(stare.get('semnatura') or {}).get('email', '').lower()} - {''})
-    toate, mesaje_ecran, stari = [], [], stare.setdefault('email_conturi', {})
+    toate, mesaje_ecran, stari = [], [], {}
     for c in conturi:
         n = len(mesaje_ecran)
         mesaje = citeste_emailuri(c, eu, stare, mesaje_ecran)
@@ -1101,12 +1137,25 @@ def verifica_emailul(stare):
                               'mesaj': (f'{nr(len(mesaje), "email citit", "emailuri citite")}' if mesaje is not None
                                         else ' '.join(mesaje_ecran[n:]))}
         toate += mesaje or []
+    return conturi, toate, mesaje_ecran, stari
+
+
+def aplica_emailuri(stare, conturi, toate, mesaje_ecran, stari):
+    stare.setdefault('email_conturi', {}).update(stari)
     noi = potriveste_emailuri(stare, toate)
-    stare['email_text'] = (f'Email verificat: {scurt(acum())}, {nr(len(conturi), "cont", "conturi")}, '
+    stare['email_text'] = (f'Email verificat: {scurt(acum())} {acum()[11:16]}, {nr(len(conturi), "cont", "conturi")}, '
                            f'{nr(len(toate), "email citit", "emailuri citite")}'
                            + (f', {nr(noi, "răspuns nou", "răspunsuri noi")}.' if noi else '.')
+                           + ' Se verifică singur la 5 minute cât e deschisă fereastra neagră.'
                            + (' ' + ' '.join(mesaje_ecran) if mesaje_ecran else ''))
     return stare['email_text']
+
+
+def verifica_emailul(stare):
+    if not [c for c in conturi_email(citeste_chei()) if c['parola']]:
+        stare['email_text'] = 'Emailul nu e conectat: conectează-l din raport, la „📧 Emailuri conectate”.'
+        return stare['email_text']
+    return aplica_emailuri(stare, *citeste_tot(stare))
 
 
 # ───────────── Ce ai de trimis ─────────────
@@ -1338,6 +1387,14 @@ def vedere(stare, interactiv=False, token=''):
         'alte': len(alte),
         'raspunsuri_noi': [{'domeniu': g['domeniu'], **x} for g in out for x in g['emailuri']
                            if x['nou'] and x['tip'] != 'trimis'],
+        'inbox': sorted([{'domeniu': dom, 'zi': scurt(x['data']), 'data': x['data'], 'cine': x['cine'], 'subiect': x['subiect'],
+                          'canal': x['canal'], 'tip': x['tip'], 'sters': x.get('sters'), 'text': x.get('text', ''), 'mid': x.get('mid', ''),
+                          'cheie': x['data'] + '|' + x['cine'] + '|' + x['subiect'],
+                          'linkuri': [u for u, e in stare['linkuri'].items() if domeniu(u) == dom and categorie(e) == 'activ'][:60]}
+                         for dom, si in stare['site'].items() for x in (si.get('emailuri') or [])
+                         if x['tip'] != 'trimis' and zile_de_la(x['data']) <= 45
+                         and (x['data'] + '|' + x['cine'] + '|' + x['subiect']) not in set(stare.get('email_rezolvate') or [])],
+                        key=lambda x: x['data'], reverse=True),
     }
     return {'generat': scurt(acum()) + ' ' + acum()[11:], 'azi': date.today().isoformat(),
             'azi_ro': date.today().strftime('%d.%m.%Y'), 'interactiv': interactiv, 'token': token,
@@ -1429,6 +1486,10 @@ def aplica(stare, a):
                 (stare.get('email_conturi') or {}).pop(c['adresa'], None)
     elif tip == 'email_verifica':
         verifica_emailul(stare)
+    elif tip == 'email_rezolvat':
+        r = stare.setdefault('email_rezolvate', [])
+        if a.get('cheie') and a['cheie'] not in r:
+            r.append(str(a['cheie'])[:400])
     elif tip == 'poze':
         poze = stare.setdefault('poze', [])
         for u in gaseste_linkuri(str(a.get('text', ''))[:100_000]):
@@ -1484,6 +1545,10 @@ def porneste_server(stare):
         def do_GET(self):
             if not self._local():
                 return self._raspunde(403, 'Interzis')
+            if self.path.split('?')[0] == '/date':
+                with lacat:
+                    corp = json.dumps(vedere(stare, True, token), ensure_ascii=False)
+                return self._raspunde(200, corp, 'application/json; charset=utf-8')
             if self.path.split('?')[0] != '/':
                 return self._raspunde(404, 'Nu există')
             with lacat:
@@ -1516,6 +1581,22 @@ def porneste_server(stare):
             break
         except OSError:
             continue
+    def email_automat():
+        while True:
+            time.sleep(300)
+            try:
+                if not [c for c in conturi_email(citeste_chei()) if c['parola']]:
+                    continue
+                with lacat:
+                    cop = json.loads(json.dumps(stare))
+                rez = citeste_tot(cop)          # rețeaua, fără să blocheze pagina
+                with lacat:
+                    aplica_emailuri(stare, *rez)
+                    salveaza(stare)
+                    scrie_raport(stare)
+            except Exception as e:
+                print('Verificarea automată a emailului:', type(e).__name__)
+    threading.Thread(target=email_automat, daemon=True).start()
     url = f'http://127.0.0.1:{srv.server_address[1]}/'
     print(f'\nRaportul: {url}')
     print('Lasă fereastra asta deschisă cât bifezi în raport. Când termini, o închizi.')
@@ -1968,6 +2049,49 @@ function undeTrimiti() {
     h('li', {}, h('b', {}, 'Șterse, dar încă în Google: '), ext(F.vechi, 'Remove outdated content ↗'), '.')))];
 }
 
+
+function raspunsPotrivit(x) {
+  const t = (x.text + ' ' + x.subiect).toLowerCase();
+  if (x.sters) return ['r_multumesc', 'Spun că au șters. Verifici linkurile, apoi le mulțumești și ceri să șteargă și copiile.'];
+  if (/(provide|send|list|give|include).{0,60}(url|link)|direct (url|link)|plain text|one url per line|specific (url|link)/.test(t))
+    return ['r_linkuri', 'Cer linkurile exacte: le trimiți lista, câte unul pe rând, în text simplu.'];
+  if (/(ticket|request).{0,40}(created|opened|received)|we (have )?received|will (review|investigate|look into)|thank you for (your )?(report|contacting)/.test(t))
+    return [null, 'E doar confirmarea că au primit cererea. Nu trebuie să răspunzi: aștepți câteva zile și apeși „Rezolvat”.'];
+  if (/(cannot|can't|unable|will not|won't|not able).{0,40}(remove|delete|act)|not (our|the) (host|responsib)|contact the (site|website|owner|host)/.test(t))
+    return ['r_revin', 'Refuză sau te trimit în altă parte. Le răspunzi cu textul de mai jos, iar în aplicație treci la pasul următor (hosting / Cloudflare).'];
+  return ['r_revin', 'Dacă linkurile mai sunt online, le răspunzi cu textul de mai jos.'];
+}
+function inboxSect() {
+  const L = D.rezumat.inbox || [];
+  if (!L.length) return null;
+  return [h('h2', {}, '📬 Mesaje primite (' + L.length + ')'),
+    h('p', {class: 'mut'}, 'Răspunsurile la cererile tale, din ultimele 45 de zile. Pentru fiecare ai textul de răspuns gata. Când ai terminat cu unul, apeși „Rezolvat”.'),
+    L.map(x => {
+      const [tip, sfat] = raspunsPotrivit(x);
+      const g = {domeniu: x.domeniu, linkuri: x.linkuri.map(u => ({url: u}))};
+      const gm = x.mid ? 'https://mail.google.com/mail/u/0/#search/' + encodeURIComponent('rfc822msgid:' + x.mid)
+                       : 'https://mail.google.com/mail/u/0/#search/' + encodeURIComponent('from:' + x.cine);
+      return h('div', {class: 'card ' + (x.sters ? 'astept' : 'de_trimis')},
+        h('div', {class: 'ch'}, h('h3', {}, x.domeniu), h('span', {class: 'tag'}, x.zi), h('span', {class: 'mut'}, 'de la ' + x.cine),
+          x.sters && h('b', {class: 'ok'}, '✓ spun că au șters')),
+        h('div', {}, h('b', {}, '„' + x.subiect + '”')),
+        x.text && det('m-' + x.cheie, 'Citește mesajul', h('p', {class: 'mut', style: 'white-space:pre-wrap'}, x.text)),
+        h('p', {}, '👉 ' + sfat),
+        h('div', {class: 'cb'},
+          tip && h('button', {onclick: () => arataEmail('Răspuns pentru ' + x.cine, [x.cine], tip, g, {subiect: x.subiect.replace(/^((re|fwd?|aw)\s*:\s*)+/i, '')})}, '📋 Răspunsul gata'),
+          ext(gm, 'Deschide în Gmail ↗'),
+          LIVE && h('button', {class: 'sec', onclick: e => act({tip: 'email_rezolvat', cheie: x.cheie}, e.target)}, 'Rezolvat ✓'),
+          h('a', {href: '#s-' + x.domeniu}, 'la cardul site-ului')));
+    })];
+}
+if (LIVE) setInterval(async () => {
+  if (document.querySelector('dialog[open]')) return;
+  try {
+    const r = await fetch('/date'); if (!r.ok) return;
+    const nou = await r.json();
+    if (nou.email_text !== D.email_text || (nou.rezumat.inbox || []).length !== (D.rezumat.inbox || []).length) { D = nou; randeaza(); }
+  } catch (e) {}
+}, 60000);
 function randeaza() {
   const R = D.rezumat;
   const lucru = D.grupuri.filter(g => g.categorie !== 'astept'), astept = D.grupuri.filter(g => g.categorie === 'astept');
@@ -1981,6 +2105,7 @@ function randeaza() {
       tile('', R.astept, 'aștept răspuns', 'trimis, încă online'),
       tile('n', R.noi, R.noi === 1 ? 'link nou' : 'linkuri noi', 'găsite singur, 7 zile'),
       tile('v', R.sterse, R.sterse === 1 ? 'link șters' : 'linkuri șterse', 'de la început')),
+    inboxSect(),
     todo(lucru),
     LIVE && semnatura(),
     h('h2', {}, '📮 De trimis (' + lucru.length + ')'),
