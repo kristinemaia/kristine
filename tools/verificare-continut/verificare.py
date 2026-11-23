@@ -1374,7 +1374,7 @@ def vedere(stare, interactiv=False, token=''):
             'registrar': si.get('registrar'), 'contact': si.get('contact'),
             'ue': bool(g and g.get('tara') in UE),
             'site_trimis': min(((e.get('trimis') or {}).get('site') for e in es if (e.get('trimis') or {}).get('site')), default=None),
-            'manual_adult': si.get('adult'),
+            'manual_adult': si.get('adult'), 'stiu': si.get('stiu'), 'rezolvat': si.get('rezolvat'),
             'emailuri': [{**x, 'zi': scurt(x['data']), 'nou': zile_de_la(x['data']) < ZILE_NOU}
                          for x in reversed((si.get('emailuri') or [])[-6:])],
             'nou': all(e['sursa'] not in SURSE_TALE for e in es) and bool(gasit) and zile_de_la(gasit) < ZILE_NOU,
@@ -1468,6 +1468,14 @@ def aplica(stare, a):
             s.pop('adult', None)
         else:
             s['adult'] = bool(a['valoare'])
+    elif tip == 'nota_site':
+        si = stare['site'].setdefault(a['domeniu'], {})
+        for k in ('stiu', 'rezolvat'):
+            if k in a:
+                if a[k] is None:
+                    si.pop(k, None)
+                else:
+                    si[k] = bool(a[k])
     elif tip == 'semnatura':
         stare['semnatura'] = {'nume': str(a.get('nume', ''))[:200].strip(), 'email': str(a.get('email', ''))[:200].strip()}
     elif tip == 'email_adauga':
@@ -1854,6 +1862,8 @@ function siteInfo(g, k) {
     if (!c.emailuri.length && !c.pagini.length) out.push(h('div', {class: 'ca'}, 'N-am găsit email sau pagină de DMCA. Caută jos pe site „DMCA”, „Contact” sau „2257”.'));
   }
   const catre = c && c.emailuri ? c.emailuri : [];
+  if (c && !c.eroare && !catre.length && c.pagini.length) out.push(h('div', {class: 'ca'}, h('b', {}, 'Site-ul n-are email. '),
+    'Deschide pagina de DMCA / report de mai sus și lipește acolo „📋 Mesajul de trimis” (în formularul lor sau la emailul scris pe pagină).'));
   const btn = (tip, eticheta, extra) => h('button', {class: 'mic', onclick: () => arataEmail(eticheta + ' pentru ' + g.domeniu, catre, tip, g, extra)}, eticheta);
   out.push(h('div', {class: 'cb'}, k.stare === 'de_revenit'
     ? btn('revenire', 'Email de revenire', {data: en(k.data_trimis)})
@@ -1962,6 +1972,12 @@ function alteSect() {
       h('div', {class: 'ch'}, h('h3', {}, g.domeniu), h('span', {class: 'mut'}, nr(g.linkuri.length, 'pagină', 'pagini')),
         LIVE && h('button', {onclick: e => act({tip: 'adult', domeniu: g.domeniu, valoare: true}, e.target)}, 'E conținut furat: mută la De trimis'),
         LIVE && h('button', {class: 'sec', onclick: e => act({tip: 'ignora', domeniu: g.domeniu, valoare: true}, e.target)}, 'Ascunde')),
+      h('div', {class: 'acts'},
+        h('b', {}, g.stiu === true ? '✓ Le știu' : g.stiu === false ? '✗ Nu le știu' : 'Le știi?'), ' ',
+        LIVE && h('button', {class: 'mic', onclick: e => act({tip: 'nota_site', domeniu: g.domeniu, stiu: g.stiu === true ? null : true}, e.target)}, g.stiu === true ? 'Anulează' : 'Le știu'),
+        LIVE && h('button', {class: 'mic', onclick: e => act({tip: 'nota_site', domeniu: g.domeniu, stiu: g.stiu === false ? null : false}, e.target)}, g.stiu === false ? 'Anulează' : 'Nu le știu'),
+        ' · ', h('b', {}, g.rezolvat ? '✓ Rezolvat' : 'Nerezolvat'), ' ',
+        LIVE && h('button', {class: 'mic', onclick: e => act({tip: 'nota_site', domeniu: g.domeniu, rezolvat: g.rezolvat ? null : true}, e.target)}, g.rezolvat ? 'Marchează nerezolvat' : 'Rezolvat ✓')),
       h('ul', {class: 'll'}, g.linkuri.map(l => h('li', {}, ext(l.url, l.url), h('div', {class: 'meta'}, 'găsit ' + l.gasit + ' (' + l.sursa + ')')))))))];
 }
 
@@ -2027,7 +2043,7 @@ function todo(lista) {
 
 function neverificate() {
   return h('div', {},
-    h('p', {class: 'mut'}, 'Adrese de profil ghicite de program pe site-uri care nu s-au deschis (blocate în țară sau protejate). Deschide-le cu VPN: dacă există pagina cu numele tău, apasă „Există”.'),
+    h('p', {class: 'mut'}, 'Adrese de profil pe care programul le-a ghicit (numele tău + site-uri cunoscute), dar nu le-a putut deschide: site-ul e blocat în Turcia sau protejat. Nu știm încă dacă există. Ce faci: le deschizi cu VPN (sau din România). Dacă vezi pagina cu numele tău → „Există”, și site-ul trece la De trimis. Dacă scrie „not found” sau e gol → „Nu există”, și dispare din listă.'),
     det('nev', 'Arată adresele (' + D.neverificate.length + ')', h('ul', {class: 'll'}, D.neverificate.map(l => h('li', {},
       h('span', {class: 'dot o'}), ext(l.url, l.url), h('div', {class: 'meta'}, l.motiv),
       LIVE && h('div', {class: 'acts'},
@@ -2075,8 +2091,17 @@ function undeTrimiti() {
 }
 
 
+function emailuriDin(t) {
+  return [...new Set((t.match(/[\w.+-]+@[\w-]+(\.[\w-]+)+/g) || []).map(e => e.toLowerCase()))]
+    .filter(e => !/cloudflare|kristine|gmail\.com$|noreply|no-reply/.test(e));
+}
 function raspunsPotrivit(x) {
   const t = (x.text + ' ' + x.subiect).toLowerCase();
+  if (/cloudflare/.test(x.cine) && /response to your/.test(t)) {
+    const em = emailuriDin(x.text);
+    return ['gazda', em.length ? 'Cloudflare îți spune cine găzduiește site-ul: ' + em.join(', ') + '. Trimite-i hostingului mesajul de mai jos.'
+                               : 'Cloudflare a răspuns: deschide „Citește mesajul”, acolo scrie hostingul. Trimite-i emailul de la coloana Hosting.', em];
+  }
   if (x.sters) return ['r_multumesc', 'Spun că au șters. Verifici linkurile, apoi le mulțumești și ceri să șteargă și copiile.'];
   if (/(provide|send|list|give|include).{0,60}(url|link)|direct (url|link)|plain text|one url per line|specific (url|link)/.test(t))
     return ['r_linkuri', 'Cer linkurile exacte: le trimiți lista, câte unul pe rând, în text simplu.'];
@@ -2092,7 +2117,7 @@ function inboxSect() {
   return [h('h2', {}, '📬 Mesaje primite (' + L.length + ')'),
     h('p', {class: 'mut'}, 'Răspunsurile la cererile tale, din ultimele 45 de zile. Pentru fiecare ai textul de răspuns gata. Când ai terminat cu unul, apeși „Rezolvat”.'),
     L.map(x => {
-      const [tip, sfat] = raspunsPotrivit(x);
+      const [tip, sfat, emH] = raspunsPotrivit(x);
       const g = {domeniu: x.domeniu, linkuri: x.linkuri.map(u => ({url: u}))};
       const gm = x.mid ? 'https://mail.google.com/mail/u/0/#search/' + encodeURIComponent('rfc822msgid:' + x.mid)
                        : 'https://mail.google.com/mail/u/0/#search/' + encodeURIComponent('from:' + x.cine);
@@ -2103,7 +2128,9 @@ function inboxSect() {
         x.text && det('m-' + x.cheie, 'Citește mesajul', h('p', {class: 'mut', style: 'white-space:pre-wrap'}, x.text)),
         h('p', {}, '👉 ' + sfat),
         h('div', {class: 'cb'},
-          tip && h('button', {onclick: () => arataEmail('Răspuns pentru ' + x.cine, [x.cine], tip, g, {subiect: x.subiect.replace(/^((re|fwd?|aw)\s*:\s*)+/i, '')})}, '📋 Răspunsul gata'),
+          tip === 'gazda' ? h('button', {onclick: () => arataEmail('Email pentru hosting · ' + x.domeniu, emH || [], 'gazda', g,
+              {rol: 'hosting provider', ip: '', intro: 'I reported it to Cloudflare, who named you as the hosting provider. '})}, '📋 Emailul pentru hosting')
+          : tip && h('button', {onclick: () => arataEmail('Răspuns pentru ' + x.cine, [x.cine], tip, g, {subiect: x.subiect.replace(/^((re|fwd?|aw)\s*:\s*)+/i, '')})}, '📋 Răspunsul gata'),
           ext(gm, 'Deschide în Gmail ↗'),
           LIVE && h('button', {class: 'sec', onclick: e => act({tip: 'email_rezolvat', cheie: x.cheie}, e.target)}, 'Rezolvat ✓'),
           h('a', {href: '#s-' + x.domeniu}, 'la cardul site-ului')));
@@ -2123,7 +2150,8 @@ function randeaza() {
   document.getElementById('app').replaceChildren(...curata([
     h('h1', {}, 'Evidența ștergerilor'),
     h('p', {class: 'sub'}, 'Verificat: ' + D.generat + (D.baza ? ' · baza de site-uri adult: ' + D.baza.toLocaleString('ro-RO') + ' de site-uri' : ''), D.cautare_text && h('br'), D.cautare_text, D.email_text && h('br'), D.email_text),
-    !LIVE && h('div', {class: 'banner'}, 'Raportul ăsta e doar de citit. Ca să bifezi ce ai trimis, dă dublu-click pe raport.bat.'),
+    !LIVE && h('div', {class: 'banner'}, 'Ai deschis fișierul raport.html, care e doar de citit. Ca să bifezi, pornește raport.bat (sau scrie python verificare.py --raport) și folosește pagina care se deschide: ',
+      h('a', {href: 'http://127.0.0.1:8765/'}, 'http://127.0.0.1:8765'), '.'),
     h('div', {class: 'tiles'},
       tile('r', R.de_trimis, R.de_trimis === 1 ? 'site de trimis' : 'site-uri de trimis', nr(R.de_trimis_linkuri, 'link', 'linkuri')),
       tile('o', R.de_revenit, 'de revenit', 'n-au șters la timp'),
