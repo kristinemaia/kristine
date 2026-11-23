@@ -9,6 +9,37 @@ Kristine **n-a postat nimic din toate astea**: oamenii i-au furat pozele și le-
 - **Textul B (GDPR)** merge la site-urile din Europa.
 - Publicarea imaginilor intime fără acord e **infracțiune** în România și în UE. O plângere la poliție (sau prin avocat) e opțională, dar ajută când un site sau un hosting refuză.
 
+## 🗓 Planul pe care îl faci singură, 23–28 nov (cât nu am usage)
+**În fiecare zi, 30–45 min, luni–sâmbătă.** Notezi în tabelul de la final ce ai trimis și ce a răspuns.
+
+**Luni 23**
+1. **Bing:** aka.ms/reportci → „non-consensual intimate imagery” → lipești lista de linkuri de la Google (mesajul cu Report ID 9-2227000041887) + textul A (Take It Down).
+2. **WordPress:** wordpress.com/abuse → „non-consensual intimate imagery” → linkul bimbimmodels.
+3. **Reddit:** schimbi parola direct pe reddit.com (nu din email) + 2FA.
+
+**Marți 24**
+1. **Gmail:** cauți „abuse”, „DMCA”, „ticket”, „removed”. Pentru fiecare răspuns: dacă cere ceva (linkuri exacte, dovadă), răspunzi în aceeași zi.
+2. **Cloudflare:** dacă ți-a trimis numele unui hosting, îi scrii cu textul B (GDPR, firme din UE) sau A (SUA), cu linkurile acelui site.
+3. **Programul de verificare** (verificare.py): îl rulezi; ce e „ȘTERS” trece în Evidență.
+
+**Miercuri 25** (împachetezi)
+1. Doar Gmail, 10 min. Răspunzi la ce cere ceva.
+2. Revenire la cine n-a răspuns în 5 zile (Camwhores, Fapello/Erome, Kemono, adultphotosets): răspunzi pe același fir cu:
+   > „Following up on my report from [data]. The content is still online. Please remove it and confirm. Thank you, Iorga Cristiana Mariana”
+
+**Joi 26** (zbor): liber, doar dacă ai timp verifici Gmail.
+
+**Vineri 27, în București**
+1. **Conturile vechi:** ManyVids, LoyalFans, Fansly, SkyPrivate, LiveJasmin, MFC, Chaturbate: întâi descarci actele pentru contabilă, apoi ștergi conținutul, apoi închizi contul. Păstrezi emailurile de confirmare.
+2. **Plângerea la poliție** (secția de care ține adresa ta sau online, pe site-ul Poliției Române): „publicarea fără consimțământ a imaginilor intime” (art. 226 Cod penal, violarea vieții private). Duci: lista site-urilor (fără să le deschizi acolo), capturile, emailurile trimise. Ceri **număr de înregistrare**.
+
+**Sâmbătă 28**
+1. Cu numărul plângerii, răspunzi la site-urile care au refuzat sau tac: „A police complaint has been filed (no. …). Please remove the content.”
+2. **Contestația la Google** pentru cele 6 linkuri refuzate (linkul de contestație e în emailul Google din 18 sep): scrii că ai închis conturile plătite și că pozele sunt publicate fără consimțământ, plus numărul plângerii.
+3. Google: verifici emailul pentru răspunsul la Report ID 9-2227000041887.
+
+**Reguli:** nu deschizi site-urile (sunt blocate oricum în Turcia); nu plătești nimănui care promite ștergeri (ReverseLookup e reclamă); nu răspunzi celor care îți scriu despre poze, doar le blochezi și îi raportezi.
+
 ## 📋 Evidența (tot ce am trimis, actualizată 21 nov seara)
 _Doar numele site-urilor, fără linkuri. ✅ = șters · 📨 = trimis, aștept · 🎫 = tichet deschis · ⏳ = de făcut · ❌ = nu se poate pe calea asta_
 
