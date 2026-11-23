@@ -35,15 +35,35 @@ Pe fiecare video: **… → Setări de confidențialitate → Cine poate viziona
 - **Link:** `cristiana-artflow.netlify.app`
 - **Poza:** iconița AF.
 
-## 4. Ce postăm (3–4 pe săptămână, poți refolosi reel-urile de pe Instagram-ul km.artflow)
-| Format | Exemplu |
-|---|---|
-| procesul, accelerat | o geacă de blugi de la zero la gata în 15 s |
-| transformarea | față curată → dragon / Chucky / pisică (tăietura pe beat) |
-| înainte / după | peretele gol → muralul |
-| „paint with me” vorbit | ce culori folosesc, cât durează, cât costă un mural |
-| comenzi | „I painted my client's jacket” (cu acordul clientului) |
-| trend-uri | sunete în trend peste lucrările vechi |
+## 4. Ce postăm: 2 pe săptămână, nu zilnic (actualizat 24 nov)
+Kristine nu pictează în fiecare zi, deci contul **nu** merge pe postări zilnice. E un portofoliu: îl țin viu **2 postări pe săptămână** (de ex. marți și sâmbătă), programate din timp. Ritmul constant contează mai mult decât numărul.
 
-Texte în **turcă + engleză**, hashtag-uri: `#duvarresmi #yüzboyama #istanbul #mural #facepaint #customjacket`.
-Ultimul rând: `Sipariş için DM 💌` (comenzi în DM).
+### O lucrare = o lună de postări
+Muralul de la sală (și orice lucrare mare) se filmează **tot**, cu telefonul pe trepied, în timelapse, plus câteva clipuri de aproape. Din el ies 8–10 postări:
+1. peretele gol + „I'm painting a mural in a gym 🎨” (anunțul)
+2. schița: de pe hârtie/telefon pe perete
+3. primele culori, timelapse
+4. un detaliu de aproape (pensula, textura), 8 s, pe un sunet liniștit
+5. „How long does a mural take?”, vorbit, peste timelapse
+6. greșeala / ce am refăcut
+7. ziua a doua: progresul
+8. **înainte / după** (cel mai puternic: îl repostezi peste o lună cu alt hook)
+9. reacția oamenilor de la sală (doar cu acordul lor)
+10. „What it costs to paint a mural” sau „What I use” (vopselele, pensulele)
+
+### Între lucrări (fără să pictezi nimic nou)
+| Format | De unde |
+|---|---|
+| lucrări vechi pe un sunet nou în trend | arhiva (gecile, tablourile, face painting) |
+| „3 murals I painted” / „My face paint looks” | carusel foto din pozele de pe site |
+| întrebări din comentarii, vorbit | „Cât costă?”, „Cât rezistă vopseaua?” |
+| o schiță de 15 minute pe hârtie / tabletă | „Designing a mural for a café” |
+| sezoniere | Cadılar Bayramı (oct), Crăciun (vitrine pictate), Yılbaşı |
+
+### Când e o săptămână fără nimic
+Nu postezi nimic. Contul nu se strică după o săptămână de pauză; se strică dacă postezi ceva care nu are legătură.
+
+### Legătura cu fitness-ul
+**Muralul din sală** e singurul conținut care merge pe **ambele** conturi: pe Art Flow ca „mural in a gym”, pe TikTok-ul nou ca „I painted the gym I train in”.
+
+Texte în **turcă + engleză**, hashtag-uri: `#duvarresmi #yüzboyama #istanbul #mural #facepaint #customjacket`. Ultimul rând: `Sipariş için DM 💌`.
