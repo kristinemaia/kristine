@@ -63,25 +63,40 @@ Le salvezi într-un **highlight nou: PROGRAM** (primul din stânga).
 
 ---
 
-## 3. Calendarul săptămânii de lansare
-| Zi | Instagram | TikTok, 19:00 |
-|---|---|---|
-| vin 20 | 17:00 S1 carusel (ultimul slide: „now open”) · **18:00 L1 It's open** · story-urile 1–6 | L1 |
-| sâm 21 | 18:00 K Raid night fuel · story: răspunsuri la întrebări | Raid night fuel |
-| dum 22 | 12:00 S2 carusel (ultimul slide: „now open”) | S2 foto |
-| lun 23 | 18:00 G6 · story: „First members are in 💗” | G6 |
-| mar 24 | 12:00 P2 Everyday Essentials · 18:00 G4 · **20:00 P4 trial reel** · story Dope Rope | G4 |
-| mie 25 | 17:00 VirtuMe #2 · **programezi tot până pe 30** | VirtuMe #2 |
-| joi 26 | 12:00 RH1 warm-up · 17:00 K2 | RH1 |
-| vin 27 | 17:00 reel Dope Rope | Dope Rope |
-| sâm 28 | **18:00 P1 I built a training app** | P1 |
-| dum 29 | 12:00 D1 A Day On My Plate · **20:00 P2 trial reel** | D1 |
-| lun 30 | 18:00 G3 | G3 |
-| mie 2 dec | R5 Why I built this (vorbit) | R5 |
+## 3. Calendarul postărilor, 23 nov – 6 dec (actualizat 23 nov)
+**Regulile:**
+- **1 postare pe zi.**
+- **Din 5–7 postări pe săptămână, 2–3 sunt despre program**; restul dau valoare (sala, mâncare, mobilitate).
+- **Ultimul rând la fiecare postare de valoare:** „Comment LEVEL UP and I'll send you my program 💗” (dacă ManyChat e pornit; altfel „Level Up is open: 2-min quiz, link in bio”).
+- **L1 rămâne fixat (pin)** pe profil.
+- **Ora:** Instagram 18:00 (rețetele 17:00); TikTok 19:00, aceeași postare.
+- **26–30 nov ești în România:** tot ce iese atunci se programează **miercuri 25**.
 
-**P3** (trial reel, „POV: your workout tells you exactly what's next”): vin 20, 20:00, cu descrierea nouă de mai jos.
+| Zi | Instagram | TikTok 19:00 | Tu |
+|---|---|---|---|
+| **lun 23** | 18:00 **G6** Shoulders stiff? Hang 20 s | G6 | 🎥 bucătăria: brownie + **Healthy fats** + **R5** (vorbit, 30 s) |
+| **mar 24** | 12:00 P2 Everyday Essentials · 18:00 **G4** squat mistakes · 20:00 **P4** trial reel | G4 | 🎥 sala (lista din `PLAN-TOP-3.md`) |
+| **mie 25** | 17:00 **VirtuMe #2** | VirtuMe #2 | 🗓 **programezi tot până pe 5 dec** (eu montez luni–marți) |
+| **joi 26** ✈️ | 12:00 **RH1** warm-up · 17:00 **K2** tiramisu oats | RH1 | doar story din aeroport (fără locul exact) |
+| **vin 27** | 17:00 **Dope Rope** | Dope Rope | |
+| **sâm 28** | 18:00 **P1 · I built a training app** 🚀 | P1 | |
+| **dum 29** | 12:00 **D1** A Day On My Plate · 20:00 **P2** trial reel 🚀 | D1 | |
+| **lun 30** | 18:00 **G3** cable row mistakes | G3 | |
+| **mar 1 dec** | 18:00 **Healthy fats** (nou) | Healthy fats | |
+| **mie 2** | 17:00 **R5 · Why I built this** 🚀 | R5 | |
+| **joi 3** | 17:00 **5 years pescatarian** (vorbit) | pescatarian | |
+| **vin 4** | 18:00 **R6 · Train with me: Day 1** 🚀 | R6 | |
+| **sâm 5** | – (pauză, doar story-uri) | – | |
+| **dum 6** | 18:00 **Hip test 90/90** (din „Gamer tests”) | Hip test | |
 
----
+🚀 = reel despre program.
+
+**Story-uri, 3–5 pe zi:**
+- **Luni–miercuri:** culise de la filmări, „X spots left at $10” (o dată la 2 zile), un sondaj („Gym or home?”).
+- **26–30, din România:** 1–2 pe zi (fără locații exacte până pleci din loc), plus programul automat: story cu linkul spre quiz în zilele cu 🚀.
+- **După 1 dec:** răspunsuri la întrebări, câte una pe story; la fiecare reel 🚀, un story „new reel ↓” cu linkul.
+
+**TikTok** programează maximum 10 zile înainte: miercuri 25 pui până pe 5 dec; restul, joi 3 dec.
 
 ## 4. Descrierile noi pentru reel-urile de program (în loc de „opening soon”)
 **P1 · I built a training app** (sâm 28)

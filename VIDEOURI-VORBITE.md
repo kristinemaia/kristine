@@ -39,3 +39,26 @@ _Le filmezi acasă, la un perete alb (sau la sală, într-un colț liniștit), c
 
 ## Bonus (opțional): snack-ul de 20 de secunde
 - [ ] filmat: îți arăți o gustare simplă pentru zilele lungi (iaurt grecesc cu fructe, de exemplu): „My go-to snack on long stream days.”
+
+---
+
+## Healthy fats · „3 healthy fats always in my kitchen” (filmat lun 23 nov, iese mar 1 dec)
+_Vorbit, 30–40 s, în bucătărie. Untul nu e printre cele 3: îl spui sincer la final, ca bonus._
+
+| # | Cadrul | Ce spui | Pe ecran |
+|---|---|---|---|
+| 1 | deschizi frigiderul | „3 healthy fats I *always* have at home, as someone who sits for 8 hours a day.” | **3 FATS I ALWAYS HAVE** |
+| 2 | tai un avocado | „Avocado. On toast, in salads, in smoothies. It keeps me full through long streams.” | 1. AVOCADO 🥑 |
+| 3 | lingura în peanut butter, apoi nucile | „Peanut butter and nuts. My go-to snack between sessions, with an apple or in oats.” | 2. NUTS & PEANUT BUTTER 🥜 |
+| 4 | torni ulei de măsline | „Extra virgin olive oil. I cook with it and put it on literally everything.” | 3. OLIVE OIL 🫒 |
+| 5 | somon sau sardine | „Bonus: fish. I've been pescatarian for 5 years, so this is my omega-3.” | BONUS: FISH 🐟 |
+| 6 | tu, cu untul | „And yes, I still use butter. Just not as my main fat.” | and yes… butter 🧈 |
+| 7 | spre cameră | „Fats aren't the enemy. Portions are. Comment LEVEL UP for my full plan.” | Comment **LEVEL UP** 💗 |
+
+```
+3 healthy fats that are ALWAYS in my kitchen 🥑🥜🫒
+Fats keep me full during long streams and long desk days. The trick isn't cutting them, it's the portion: a spoon of peanut butter, not half the jar 😅
+Which one do you eat every day? 👇
+Comment LEVEL UP and I'll send you my program 💗
+#healthyfats #pescatarian #gamergirl #deskjob #fitnesstips
+```

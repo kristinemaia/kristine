@@ -7,7 +7,7 @@ _Duminică 22: pauză de la tot. 💗_
 
 | Zi | 🐸 Ștergere (11:43) | 🏋️ Sală | 🎮 Stream | Altele |
 |---|---|---|---|---|
-| **Lun 23** | răspunsurile + Bing + WordPress + programul de verificare | antrenament | ✅ stream seara (bucătărie sau jocuri) | 🎥 **dimineața: brownie cu curmale + încă o rețetă (+ reel-ul vorbit „5 ani pescetariană”, dacă ai chef)** · 💅 **unghii la 15:00** |
+| **Lun 23** | răspunsurile + Bing + WordPress + programul de verificare | antrenament | ✅ stream seara (bucătărie sau jocuri) | 🎥 **dimineața: brownie cu curmale + reel-ul „3 healthy fats” + R5 „Why I built this” (vorbit) (+ „5 ani pescetariană”, dacă ai chef)** · calendarul postărilor: `LANSARE.md`, secțiunea 3 · 💅 **unghii la 15:00** |
 | **Mar 24** | sesiunea zilnică | antrenament + 🎥 **filmat la sală** (sala e goală până la 16–17) | ✅ stream | lista de cadre: mai jos |
 | **Mie 25** | sesiunea zilnică | antrenament | ✅ stream (ultimul) | 🧳 **împachetat** |
 | **Joi 26** | scurt, de pe telefon | (cardio ușor, dacă se poate) | ❌ | ✈️ **zbor spre România** |
