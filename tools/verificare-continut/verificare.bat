@@ -1,5 +1,6 @@
 @echo off
 cd /d "%~dp0"
-python verificare.py
-start "" raport.html
-pause
+set PY=python
+where py >nul 2>nul && set PY=py
+%PY% verificare.py %*
+if errorlevel 1 pause
