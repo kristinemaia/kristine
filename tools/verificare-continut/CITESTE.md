@@ -92,3 +92,14 @@ Doar în folderul ăsta, pe laptopul tău:
 - **raport.html**
 
 Niciunul nu intră în proiect. La SerpApi ajung doar căutările cu numele tale, nu și linkurile.
+
+## 🔎 Caută conținut nou (bara de căutare)
+Secțiunea e sus în pagină, după lista „Ce ai de trimis”.
+1. **Cuvinte-cheie:** scrii 5–10 cuvinte, despărțite prin virgulă (de ex. `xxx, naked, nude, leaked, onlyfans, porn`) → **Salvează cuvintele**. Le folosește și căutarea automată (o dată la 3 zile).
+2. Bara de mai jos se completează singură cu numele tale + cuvintele. Poți scrie și altceva (de ex. `"missfoxyfire" video`).
+3. Alegi motorul (Google, Bing, Google Imagini) și perioada (**ultima săptămână** e bună ca să vezi doar ce e nou).
+4. **🔎 Caută în program** (cu cheia SerpApi): îți arată rezultatele, cu 🆕 la ce nu e încă în evidență.
+   - deschizi linkul și te uiți dacă ești tu;
+   - **✓ E cu mine** → site-ul intră în „De trimis”, cu mesajele gata;
+   - **✗ Nu e cu mine** → dispare și nu mai apare la căutările următoare.
+5. Fără cheie SerpApi: **Deschide în Google / Bing ↗** face aceeași căutare în browser; linkurile găsite le lipești la „➕ Adaugă linkuri”.

@@ -76,6 +76,9 @@ FORMULE = [
     ('google_pagina2', '"{n}"'),
     ('bing_pagina2', '"{n}"'),
 ]
+# Cuvintele-cheie de la bara de căutare (le schimbi din pagină; astea sunt cele de la început).
+CUVINTE_IMPLICITE = ['xxx', 'naked', 'nude', 'leaked', 'onlyfans', 'porn', 'nsfw', 'sextape']
+TIMP_CAUTARE = {'': '', 'z': 'qdr:d', 's': 'qdr:w', 'l': 'qdr:m', 'a': 'qdr:y'}
 ZILE_INTRE_CAUTARI = 3       # cel mult o dată la 3 zile (verificarea linkurilor știute merge oricând)
 MIN_CAUTARI_PE_RULARE = 10
 LIMITA_SERPAPI = 250         # pe lună, planul gratuit (dacă SerpApi nu răspunde la întrebarea „câte mai am”)
@@ -620,6 +623,9 @@ def domenii_adult(stare):
 def cereri_serpapi(stare):
     """Toate căutările, în ordinea în care le facem: întâi cele necăutate de cel mai mult timp."""
     baza = [(m, f.replace('{n}', t)) for m, f in FORMULE for t in CAUTARI]
+    cuv = cuvinte(stare)
+    if cuv:
+        baza += [('google', f'"{t}" ' + ' OR '.join(cuv)) for t in CAUTARI]
     nume = ' OR '.join(f'"{t}"' for t in CAUTARI)
     k = FORMULE_INAINTE_DE_SITE * len(CAUTARI)
     stiute = domenii_adult(stare)
@@ -630,6 +636,60 @@ def cereri_serpapi(stare):
     facute = stare['cautare'].get('facute', {})
     ordine = {c: i for i, c in enumerate(toate)}
     return sorted(toate, key=lambda c: (facute.get(c[0] + '|' + c[1], ''), ordine[c]))
+
+
+def cuvinte(stare):
+    c = stare.get('cuvinte')
+    return list(CUVINTE_IMPLICITE if c is None else c)
+
+
+def intrebare_implicita(stare):
+    nume = ' OR '.join(f'"{t}"' for t in CAUTARI)
+    cuv = cuvinte(stare)
+    return f'({nume})' + (' (' + ' OR '.join(cuv) + ')' if cuv else '')
+
+
+def cauta_acum(stare, q, motor, timp):
+    """Căutarea pornită de tine din bara de căutare: o singură căutare SerpApi, rezultatele le verifici tu."""
+    q = (q or '').strip()[:400] or intrebare_implicita(stare)
+    if motor not in ('google', 'bing', 'google_imagini'):
+        raise ValueError('motor necunoscut')
+    k = citeste_chei().get('SERPAPI')
+    if not k:
+        raise ValueError('Ca să caute din program, pune cheia SerpApi în chei.txt (vezi CITESTE.md). '
+                         'Până atunci, folosește butoanele „Deschide în Google” și „Deschide în Bing”.')
+    eticheta, params, camp = PARAMETRI[motor]
+    params = dict(params)
+    if TIMP_CAUTARE.get(timp) and motor != 'bing':
+        params['tbs'] = TIMP_CAUTARE[timp]
+    try:
+        d = cere_json(f'{SERPAPI_URL}/search.json?' + urllib.parse.urlencode({**params, camp: q, 'api_key': k}))
+    except urllib.error.HTTPError as e:
+        raise ValueError('SerpApi: ' + ('cheia nu e bună.' if e.code == 401 else
+                                        's-au terminat căutările pe luna asta.' if e.code == 429 else f'eroare {e.code}.'))
+    except Exception as e:
+        raise ValueError(f'SerpApi nu răspunde ({type(e).__name__}). Încearcă din nou peste un minut.')
+    if d.get('error') and 'any results' not in str(d['error']):
+        raise ValueError('SerpApi: ' + str(d['error'])[:160])
+    luna = datetime.now().strftime('%Y-%m')
+    fl = stare['cautare'].setdefault('luna', {})
+    fl[luna] = fl.get(luna, 0) + 1
+    idx, respinse, rez, vazute = index(stare), set(stare.get('cautare_respinse') or []), [], set()
+    for url, titlu, text, _ in (_rezultate(d.get('organic_results'), eticheta) + _rezultate(d.get('images_results'), eticheta)):
+        if not url.lower().startswith(('http://', 'https://')) or e_propriu(url) or e_motor(url):
+            continue
+        kk = cheie(url)
+        if kk in vazute or kk in respinse:
+            continue
+        vazute.add(kk)
+        stiut = idx.get(kk)
+        e = stare['linkuri'].get(stiut) if stiut else None
+        rez.append({'url': url, 'titlu': titlu[:200], 'text': text[:300],
+                    'stiut': bool(e and not e.get('ignorat')), 'site_stiut': domeniu(url) in {domeniu(u) for u in stare['linkuri']},
+                    'nume': are_nume(urllib.parse.unquote(url) + ' ' + titlu + ' ' + text),
+                    'adult': bool(scor_adult(urllib.parse.unquote(url) + ' ' + titlu + ' ' + text) or in_baza(gazda(url)))})
+    rez.sort(key=lambda r: (r['stiut'], not r['adult'], not r['nume']))
+    stare['cautare_acum'] = {'q': q, 'motor': motor, 'timp': timp, 'data': acum(), 'rezultate': rez[:60]}
 
 
 def poze_de_cautat(stare):
@@ -1452,6 +1512,9 @@ def vedere(stare, interactiv=False, token=''):
                         for c in conturi_email(citeste_chei())],
             'poze': stare.get('poze') or [], 'poze_toate': len(poze_de_cautat(stare)),
             'baza': len(baza_adult()),
+            'cuvinte': cuvinte(stare), 'intrebare': intrebare_implicita(stare), 'cautari_nume': CAUTARI,
+            'cautare_acum': {**(stare.get('cautare_acum') or {}), 'zi': scurt((stare.get('cautare_acum') or {}).get('data'))}
+                            if stare.get('cautare_acum') else None,
             'texte': TEXTE, 'formulare': FORMULARE, 'zile_site': ZILE_REVENIRE_SITE}
 
 
@@ -1544,6 +1607,20 @@ def aplica(stare, a):
         r = stare.setdefault('email_rezolvate', [])
         if a.get('cheie') and a['cheie'] not in r:
             r.append(str(a['cheie'])[:400])
+    elif tip == 'cuvinte':
+        lista = [w.strip().lstrip('#')[:40] for w in re.split(r'[,\n]', str(a.get('text', '')))]
+        stare['cuvinte'] = [w for i, w in enumerate(lista) if w and w not in lista[:i]][:15]
+    elif tip == 'cauta_acum':
+        cauta_acum(stare, str(a.get('q', '')), a.get('motor', 'google'), str(a.get('timp', '')))
+    elif tip == 'cautare_respinge':
+        r = stare.setdefault('cautare_respinse', [])
+        k = cheie(str(a.get('url', '')))
+        if k not in r:
+            r.append(k)
+        ca = stare.get('cautare_acum') or {}
+        ca['rezultate'] = [x for x in ca.get('rezultate', []) if cheie(x['url']) != k]
+    elif tip == 'cautare_inchide':
+        stare.pop('cautare_acum', None)
     elif tip == 'poze':
         poze = stare.setdefault('poze', [])
         for u in gaseste_linkuri(str(a.get('text', ''))[:100_000]):
@@ -1561,6 +1638,10 @@ def aplica(stare, a):
             noi.append(idx[cheie(u)])
         verifica_toate(stare, noi, cand, arata=False)
         invata_sabloane(stare)
+        adaugate = {cheie(u) for u in noi}
+        for x in (stare.get('cautare_acum') or {}).get('rezultate', []):
+            if cheie(x['url']) in adaugate:
+                x['stiut'] = True
     else:
         raise ValueError('acțiune necunoscută')
 
@@ -1759,6 +1840,7 @@ h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 8px}h3{font-siz
 .card.de_revenit{border-left-color:#e08a00}.card.astept{border-left-color:#a7a09b}
 .ch{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:10px}
 .tag{font-size:12px;background:var(--gri-bg);border-radius:20px;padding:2px 9px}
+.rez{margin:10px 0;padding-bottom:8px;border-bottom:1px solid #eee}.rez.stiut{opacity:.6}
 .tag.nou{background:var(--acc-bg);color:var(--acc);font-weight:600}
 .canale{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:8px}
 .canal{border-radius:8px;padding:9px 11px;background:var(--gri-bg);display:flex;flex-direction:column;gap:3px}
@@ -2129,6 +2211,48 @@ function ignorate() {
       act(x.tot_site ? {tip: 'ignora', domeniu: x.domeniu, valoare: false} : {tip: 'ignora', url: x.url, valoare: false}, e.target)}, 'Readu în raport'))))));
 }
 
+const CA = {q: null, motor: 'google', timp: 's', cuv: null};
+function urlMotor(m, q, timp) {
+  const t = {z: 'qdr:d', s: 'qdr:w', l: 'qdr:m', a: 'qdr:y'}[timp];
+  if (m === 'bing') return 'https://www.bing.com/search?q=' + encodeURIComponent(q) + (timp === 'z' ? '&filters=ex1%3a%22ez1%22' : timp === 's' ? '&filters=ex1%3a%22ez2%22' : timp === 'l' ? '&filters=ex1%3a%22ez3%22' : '');
+  return 'https://www.google.com/search?q=' + encodeURIComponent(q) + (m === 'google_imagini' ? '&tbm=isch' : '') + (t ? '&tbs=' + t : '') + '&safe=off';
+}
+function cautareSect() {
+  if (CA.q === null) CA.q = D.intrebare;
+  if (CA.cuv === null) CA.cuv = D.cuvinte.join(', ');
+  const inp = h('input', {type: 'text', value: CA.q, style: 'flex:1;min-width:220px', oninput: e => { CA.q = e.target.value; }});
+  const sel = (v, opts, onc) => { const s = h('select', {onchange: e => onc(e.target.value)}, opts.map(([k, t]) => h('option', {value: k}, t))); s.value = v; return s; };
+  const cuv = h('input', {type: 'text', value: CA.cuv, style: 'flex:1;min-width:220px', placeholder: 'xxx, naked, nude, leaked...', oninput: e => { CA.cuv = e.target.value; }});
+  const R = D.cautare_acum;
+  const rezultat = x => h('li', {class: 'rez' + (x.stiut ? ' stiut' : '')},
+    h('div', {}, h('b', {}, x.titlu || x.url), ' ',
+      x.stiut ? h('span', {class: 'tag'}, '✓ deja în evidență') : h('span', {class: 'tag nou'}, '🆕 nou'),
+      x.adult && h('span', {class: 'tag'}, '🔞'), !x.nume && h('span', {class: 'tag'}, 'fără numele tău')),
+    h('div', {class: 'u'}, ext(x.url, x.url + ' ↗')),
+    x.text && h('div', {class: 'mut'}, x.text),
+    !x.stiut && LIVE && h('div', {class: 'cb'},
+      h('button', {class: 'mic', onclick: e => act({tip: 'adauga', text: x.url}, e.target)}, '✓ E cu mine, adaug la evidență'),
+      h('button', {class: 'mic sec', onclick: e => act({tip: 'cautare_respinge', url: x.url}, e.target)}, '✗ Nu e cu mine')));
+  return [h('h2', {id: 'cautare'}, '🔎 Caută conținut nou'), h('div', {class: 'box'},
+    h('p', {class: 'mut'}, 'Caută numele tale (' + D.cautari_nume.join(', ') + ') împreună cu cuvintele-cheie. Deschide fiecare rezultat nou și uită-te dacă ești tu. Dacă da, apeși „E cu mine” și site-ul apare în „De trimis”, cu mesajele gata.'),
+    h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap;align-items:center'},
+      h('b', {}, 'Cuvinte-cheie:'), cuv,
+      LIVE && h('button', {class: 'mic', onclick: e => { act({tip: 'cuvinte', text: CA.cuv}, e.target).then(() => { CA.q = D.intrebare; randeaza(); }); }}, 'Salvează cuvintele')),
+    h('p', {class: 'mut'}, '5–10 cuvinte, despărțite prin virgulă. Le folosește și căutarea automată, o dată la 3 zile.'),
+    h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap;align-items:center'},
+      inp,
+      sel(CA.motor, [['google', 'Google'], ['bing', 'Bing'], ['google_imagini', 'Google Imagini']], v => { CA.motor = v; }),
+      sel(CA.timp, [['z', 'ultima zi'], ['s', 'ultima săptămână'], ['l', 'ultima lună'], ['a', 'ultimul an'], ['', 'oricând']], v => { CA.timp = v; }),
+      LIVE && h('button', {onclick: e => { e.target.textContent = 'Caut...'; act({tip: 'cauta_acum', q: CA.q, motor: CA.motor, timp: CA.timp}, e.target); }}, '🔎 Caută în program')),
+    h('div', {class: 'cb'},
+      h('button', {class: 'mic sec', onclick: () => window.open(urlMotor(CA.motor === 'bing' ? 'google' : CA.motor, CA.q, CA.timp), '_blank', 'noopener')}, 'Deschide în Google ↗'),
+      h('button', {class: 'mic sec', onclick: () => window.open(urlMotor('bing', CA.q, CA.timp), '_blank', 'noopener')}, 'Deschide în Bing ↗'),
+      h('button', {class: 'mic sec', onclick: () => { CA.q = D.intrebare; randeaza(); }}, 'Înapoi la căutarea cu cuvintele-cheie')),
+    h('p', {class: 'mut'}, '„Caută în program” folosește o căutare SerpApi (din cele 250 gratuite pe lună) și îți arată ce e nou față de evidență. „Deschide în Google/Bing” merge și fără cheie: verifici tu rezultatele și lipești linkurile la „➕ Adaugă linkuri”.'),
+    R && [h('h3', {}, 'Rezultatele pentru „' + R.q + '” · ' + R.zi + ' · ' + nr(R.rezultate.filter(x => !x.stiut).length, 'rezultat nou', 'rezultate noi')),
+      R.rezultate.length ? h('ul', {class: 'll'}, R.rezultate.map(rezultat)) : h('p', {class: 'ok'}, 'Niciun rezultat nou. 💚'),
+      LIVE && h('button', {class: 'mic sec', onclick: e => act({tip: 'cautare_inchide'}, e.target)}, 'Închide rezultatele')])];
+}
 function adauga() {
   const ta = h('textarea', {placeholder: 'Lipește aici linkuri noi (de la Internet Removals, din Google...), câte unul pe rând.'});
   return [h('h2', {}, '➕ Adaugă linkuri'), h('div', {class: 'box'}, ta,
@@ -2197,7 +2321,7 @@ function inboxSect() {
     })];
 }
 if (LIVE) setInterval(async () => {
-  if (document.querySelector('dialog[open]')) return;
+  if (document.querySelector('dialog[open]') || /^(INPUT|TEXTAREA|SELECT)$/.test((document.activeElement || {}).tagName || '')) return;
   try {
     const r = await fetch('/date'); if (!r.ok) return;
     const nou = await r.json();
@@ -2220,6 +2344,7 @@ function randeaza() {
       tile('v', R.sterse, R.sterse === 1 ? 'link șters' : 'linkuri șterse', 'de la început')),
     inboxSect(),
     todo(lucru),
+    cautareSect(),
     LIVE && semnatura(),
     h('h2', {}, '📮 De trimis (' + lucru.length + ')'),
     lucru.length ? lucru.map(card) : h('p', {class: 'ok'}, 'Nimic de trimis acum.'),
