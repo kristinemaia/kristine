@@ -73,7 +73,7 @@ _Doar numele site-urilor, fără linkuri. ✅ = șters · 📨 = trimis, aștept
 | **Google, copyright** | ~80 de linkuri, toate site-urile | 📨 **Report ID 9-2227000041887** (21 nov) |
 | Google, NCII (18 sep) | 6 refuzate („bani”), 4 negăsite | ⏳ contestație după închiderea conturilor |
 | **Reddit** | lista completă: postări, ~15 conturi de spam, r/kristinemaia | 🎫 tichetele 18672213 + 18769483 |
-| Bing | ⏳ aka.ms/reportci, cu aceeași listă ca la Google | ⏳ |
+| **Bing** (Microsoft „Report a Concern”, 24 nov) | primul raport: **ee95d33d-edbb-44c1-aab4-c763afa714f3** (îl pui la „reference number” în următoarele) · **c2532d61-82f9-470b-ac57-f19ee175db2f** · erome.vip: **dad8dee4-b58e-417c-b222-7f24de05a4cf** · **9c8a764f-987b-40cb-800f-c550237a41ea** | 📨 trimise, aștept emailul Microsoft |
 | StopNCII | caz făcut (numărul nu se scrie aici) | ✅ |
 | Internet Removals | întrebări despre preț și condiții | 📨 aștept oferta |
 
@@ -174,4 +174,7 @@ ManyVids · LoyalFans · Fansly · **SkyPrivate** · LiveJasmin · MyFreeCams ·
 ## Tabel de urmărire (fără linkuri)
 | Data | Site (doar numele) | Câte linkuri | Metoda (Google / Bing / Take It Down / GDPR / DMCA / hosting) | Stare | Răspuns |
 |---|---|---|---|---|---|
+| 24 nov | erome.vip | | Bing (ref. dad8dee4…) | trimis | |
+| 24 nov | anacams | 1 | hosting Scalaxy (GDPR) | de trimis | |
+| 24 nov | adultphotosets | 2 | reg.ru, răspuns în rusă | de trimis | cer acte legalizate în rusă |
 | | | | | trimis / șters / refuzat | |
