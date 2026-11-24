@@ -243,6 +243,21 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')p.hidden=tru
 </script>"""
 
 
+# Pentru Google: cine e Kristine Maia și care sunt profilurile ei oficiale (apar împreună în căutare).
+SITE = "https://kristinemaia.com/"
+SCHEMA = (
+    '<script type="application/ld+json">'
+    '{"@context":"https://schema.org","@type":"Person","name":"Kristine Maia","url":"https://kristinemaia.com/",'
+    '"jobTitle":"Fitness creator and Twitch Partner",'
+    '"description":"Fitness creator and Twitch Partner. Workouts, mobility and nutrition for gamers and people who sit all day.",'
+    '"knowsAbout":["Fitness","Mobility","Nutrition","Gaming","Streaming"],'
+    '"sameAs":["https://www.twitch.tv/kristinemaia","https://www.instagram.com/kristinemaia11/",'
+    '"https://www.tiktok.com/@kristinemaia11"]}'
+    "</script>\n"
+)
+SITEMAP_PAGINI = ["index.html", "training.html", "about.html", "free.html", "guides.html", "live.html", "shop.html", "brands.html"]
+
+
 def page(fname, title, desc, body, lang="en", cur=None):
     html = (
         '<!doctype html>\n<html lang="%(lang)s">\n<head>\n<meta charset="utf-8">\n'
@@ -252,12 +267,16 @@ def page(fname, title, desc, body, lang="en", cur=None):
         '<meta property="og:title" content="%(title)s">\n'
         '<meta property="og:description" content="%(desc)s">\n'
         '<meta name="theme-color" content="#FFF9F6">\n'
+        '<link rel="canonical" href="%(url)s">\n<meta property="og:url" content="%(url)s">\n'
+        "%(schema)s"
         "%(fonts)s\n"
         '<link rel="stylesheet" href="assets/style.css?v=%(ver)s">\n'
         "</head>\n<body>\n%(header)s\n<main id=\"main\">\n%(body)s\n</main>\n%(footer)s\n%(chat)s\n"
         '<script src="assets/site.js?v=%(ver)s"></script>\n</body>\n</html>\n'
     ) % {
         "lang": lang,
+        "url": SITE + ("" if fname == "index.html" else fname),
+        "schema": SCHEMA if fname in ("index.html", "about.html") else "",
         "title": _html.escape(title),
         "desc": _html.escape(desc),
         "fonts": FONTS,
@@ -440,8 +459,8 @@ home = """
 """
 page(
     "index.html",
-    "Kristine Maia · Mobility & Recovery",
-    "How many hours did you sit today? Drag the slider, give one minute back with a 60-second stretch break, then get the free 5-minute desk stretch.",
+    "Kristine Maia · Fitness, Nutrition & Gaming",
+    "Kristine Maia: fitness creator and Twitch Partner. Workouts, mobility and simple food for gamers and people who sit all day, plus the Level Up training program.",
     home,
 )
 
@@ -1144,4 +1163,10 @@ thanks = """
 """
 page("thanks.html", "Thank you · Kristine Maia", "You're on the waitlist.", thanks, cur="none")
 
-print("ok: 9 pages written to " + OUT)
+with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as f:
+    f.write("User-agent: *\nAllow: /\nDisallow: /my-program.html\nDisallow: /log.html\nDisallow: /thanks.html\n\nSitemap: " + SITE + "sitemap.xml\n")
+with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as f:
+    f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            + "".join("  <url><loc>%s</loc></url>\n" % (SITE + ("" if p == "index.html" else p)) for p in SITEMAP_PAGINI)
+            + "</urlset>\n")
+print("ok: 9 pages + robots.txt + sitemap.xml written to " + OUT)
