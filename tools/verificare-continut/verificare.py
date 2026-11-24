@@ -157,7 +157,7 @@ TEXTE = {
                'Unde e o copie autorizată (Where can we see an authorized example):\nhttps://www.instagram.com/kristinemaia11/\nhttps://www.twitch.tv/kristinemaia\n\n'
                'Adresele de scos din căutare (Location of infringing material), câte una pe rând:\n{linkuri}\n\n'
                'Semnătura: {nume} · Data: {azi}'),
-    'bing': ('Bing: formularul pentru conținut intim publicat fără acord (aka.ms/reportci)',
+    'bing': ('Bing: formularul Microsoft „Report a Concern” (conținut intim publicat fără acord)',
              'I am the person shown in the intimate images and videos at the links below. They were stolen from my private accounts and published without my consent. I am an adult and I did not authorize their publication. Please remove these pages from Bing search results, including copies and thumbnails.\n\n'
              'Links:\n{linkuri}\n\n{nume}\n{email}\nDate: {azi}'),
     'r_multumesc': ('Re: {subiect}',
@@ -168,6 +168,13 @@ TEXTE = {
                   'Hello,\n\nThank you for your reply. Here is the list of direct URLs, one per line, in plain text:\n\n{linkuri}\n\n'
                   'I am the person shown in this content. It was published without my consent and I am the copyright owner. '
                   'Please remove all of them and confirm.\n\nThank you,\n{nume}'),
+    'r_rusa': ('Re: {subiect}',
+               'Здравствуйте!\n\nЭто не жалоба компании на нарушение авторских прав. Я частное лицо, и на этих '
+               'изображениях изображена я сама. Они опубликованы без моего согласия.\n\nСогласно статье 152.1 '
+               'Гражданского кодекса РФ (охрана изображения гражданина) и Федеральному закону № 152-ФЗ «О персональных '
+               'данных», публикация изображения человека без его согласия незаконна.\n\nПрошу передать жалобу клиенту '
+               '(владельцу сайта {site}) и удалить материалы:\n{linkuri}\n\nПожалуйста, не передавайте владельцу сайта '
+               'моё имя и контакты.\n\nС уважением,\n{nume}'),
     'r_revin': ('Re: {subiect}',
                 'Hello,\n\nThank you for your reply. The content is still online at the links below. Please remove it, including '
                 'all copies, and confirm by email.\n\n{linkuri}\n\nI am the person shown, it was published without my consent, '
@@ -1870,7 +1877,7 @@ function arataEmail(titlu, catre, tip, g, extra, nota) {
   ta.value = corp;
   const dlg = h('dialog', {class: 'dlg'},
     h('h3', {}, titlu),
-    nota && h('p', {class: 'mut'}, nota),
+    nota && h('div', {class: 'mut'}, nota),
     (!D.semnatura.nume || !D.semnatura.email) && h('p', {class: 'banner'}, 'Completează sus „Datele tale pentru emailuri”, ca să apară în text numele și emailul tău.'),
     catre && catre.length > 0 && h('div', {class: 'rand'}, h('b', {}, 'Către: '), catre.join(', '), ' ',
       h('button', {class: 'mic', onclick: e => copiaza(catre.join(', '), e.target)}, 'Copiază adresa')),
@@ -1916,6 +1923,22 @@ function gazdaInfo(g) {
   return out;
 }
 
+const CAUTARI_BING = 'Kristine Maia, kristinemaia, missfoxyfire, crismaia';
+function ghidBing() {
+  return h('div', {},
+    h('b', {}, 'Pașii în formularul Microsoft „Report a Concern”:'),
+    h('ol', {},
+      h('li', {}, 'Service or product: ', h('b', {}, 'Bing Search'), '.'),
+      h('li', {}, 'Link to the content: lipești ', h('b', {}, 'un link'), ' (butonul „📋 Primul link” de pe card) → Continue.'),
+      h('li', {}, 'Tipul: ', h('b', {}, 'Non-consensual intimate imagery'), ' (sau „Sharing intimate images without consent”).'),
+      h('li', {}, 'Did you report it to the site: ', h('b', {}, 'Yes'), ' dacă ai bifat „Site-ul” la acest card; altfel „No – I have not tried”.'),
+      h('li', {}, 'Reference number: gol la primul raport; la următoarele pui numărul primit pe email.'),
+      h('li', {}, 'Search terms: ', h('b', {}, CAUTARI_BING), ' (butonul „📋 Search terms”).'),
+      h('li', {}, 'Country of residence: ', h('b', {}, 'Romania'), ' (UE → se aplică GDPR).'),
+      h('li', {}, 'Screenshot: cauți „Kristine Maia” pe bing.com și faci o captură cu rezultatul site-ului (opțional, dar ajută).'),
+      h('li', {}, 'Descrierea: lipești textul de mai jos → bifezi confirmările → Submit.')),
+    h('p', {}, 'Formularul ia un singur link. Dacă site-ul are mai multe, folosește formularul „revengeporn” de mai jos, care le ia pe toate odată, sau faci câte un raport pe link, cu același număr de referință.'));
+}
 function canal(g, k) {
   return h('div', {class: 'canal ' + k.stare},
     h('div', {class: 'cn'}, k.nume),
@@ -1926,7 +1949,9 @@ function canal(g, k) {
     (k.id === 'google' || k.id === 'bing') && h('div', {class: 'cb'}, h('button', {onclick: () => arataEmail(
       k.id === 'google' ? 'Mesajul pentru Google · ' + g.domeniu : 'Mesajul pentru Bing · ' + g.domeniu, [], k.id, g, null,
       k.id === 'google' ? 'Deschizi formularul „copyright” de mai jos și copiezi fiecare bucată în câmpul ei. Linkurile de mai jos sunt deja ale acestui site.'
-                        : 'Deschizi formularul Bing de mai jos, alegi „non-consensual intimate imagery” și lipești textul ăsta la descriere.')}, '📋 Mesajul de trimis')),
+                        : ghidBing())}, '📋 Mesajul de trimis')),
+    k.id === 'bing' && h('div', {class: 'cb'}, h('button', {class: 'mic', onclick: e => copiaza(CAUTARI_BING, e.target)}, '📋 Search terms'),
+      h('button', {class: 'mic', onclick: e => copiaza(g.linkuri.length ? g.linkuri[0].url : '', e.target)}, '📋 Primul link')),
     h('div', {class: 'cb'},
       LIVE && k.buton && h('button', {onclick: e => act({tip: 'trimis', domeniu: g.domeniu, canal: k.id, data: D.azi}, e.target)}, k.buton),
       LIVE && k.are_data && h('button', {class: 'mic', title: 'Schimbă data sau șterge bifa', onclick: e => {
@@ -2135,6 +2160,8 @@ function raspunsPotrivit(x) {
     return ['gazda', em.length ? 'Cloudflare îți spune cine găzduiește site-ul: ' + em.join(', ') + '. Trimite-i hostingului mesajul de mai jos.'
                                : 'Cloudflare a răspuns: deschide „Citește mesajul”, acolo scrie hostingul. Trimite-i emailul de la coloana Hosting.', em];
   }
+  if (/53-фз|state language|russian language|apostil|рег\.ру|reg\.ru/.test(t))
+    return ['r_rusa', 'Cer plângerea în rusă și acte legalizate (procedura lor pentru firme). Le răspunzi o singură dată cu textul de mai jos, în rusă; dacă refuză iar, site-ul rămâne pe drumul Google + Bing.'];
   if (x.sters) return ['r_multumesc', 'Spun că au șters. Verifici linkurile, apoi le mulțumești și ceri să șteargă și copiile.'];
   if (/(provide|send|list|give|include).{0,60}(url|link)|direct (url|link)|plain text|one url per line|specific (url|link)/.test(t))
     return ['r_linkuri', 'Cer linkurile exacte: le trimiți lista, câte unul pe rând, în text simplu.'];
