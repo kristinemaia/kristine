@@ -193,6 +193,27 @@ TEXTE = {
     'r_confirmare': ('Re: {subiect}',
                      'Hello,\n\nThank you for your reply. Could you please confirm when the content will be removed? '
                      'These are the links:\n{linkuri}\n\nThank you,\n{nume}'),
+    'r_pseudonim': ('Re: {subiect}',
+                    'Bună ziua,\n\nVă mulțumesc pentru răspuns. „Kristine Maia” este numele meu de scenă, pe care îl folosesc '
+                    'public ca creator de conținut (fitness și gaming): https://www.twitch.tv/kristinemaia și '
+                    'https://www.instagram.com/kristinemaia11/. „kristinemaia”, „kristinemaia11”, „crismaia” și „missfoxyfire” '
+                    'sunt numele mele de utilizator, actuale și vechi. Numele meu legal este {nume}.\n\n'
+                    'Eu sunt persoana din imaginile de la adresele analizate:\n{linkuri}\n\n'
+                    'Sunt imagini intime, furate din conturile mele private și publicate fără acordul meu. Nu am fost niciodată '
+                    'de acord cu publicarea lor pe aceste site-uri. Vă rog să eliminați aceste pagini din rezultatele căutării '
+                    'Google, conform politicii Google privind imaginile intime publicate fără consimțământ.\n\n'
+                    'Dacă aveți nevoie de o confirmare a identității, vă pot trimite o fotografie a actului de identitate cu '
+                    'datele personale acoperite, alături de o fotografie de pe contul meu oficial.\n\nCu mulțumiri,\n{nume}'),
+    'r_pseudonim_en': ('Re: {subiect}',
+                       'Hello,\n\nThank you for your reply. "Kristine Maia" is my stage name, which I use publicly as a content '
+                       'creator (fitness and gaming): https://www.twitch.tv/kristinemaia and https://www.instagram.com/kristinemaia11/. '
+                       '"kristinemaia", "kristinemaia11", "crismaia" and "missfoxyfire" are my current and former usernames. '
+                       'My legal name is {nume}.\n\nI am the person shown in the images at these addresses:\n{linkuri}\n\n'
+                       'They are intimate images that were taken from my private accounts and published without my consent. '
+                       'I never agreed to their publication on these websites. Please remove these pages, in line with your '
+                       'policy on non-consensual intimate imagery.\n\nIf you need to confirm my identity, I can send a photo '
+                       'of my ID card with the personal numbers covered, together with a photo from my official account.\n\n'
+                       'Thank you,\n{nume}'),
     'r_revin': ('Re: {subiect}',
                 'Hello,\n\nThank you for your reply. The content is still online at the links below. Please remove it, including '
                 'all copies, and confirm by email.\n\n{linkuri}\n\nI am the person shown, it was published without my consent, '
@@ -1235,7 +1256,7 @@ def potriveste_emailuri(stare, mesaje):
             noi += tip in ('raspuns', 'confirmare')
             evenim.append({'data': m['data'], 'tip': tip, 'canal': canal, 'cine': cine, 'subiect': m['subiect'],
                            'sters': tip != 'trimis' and bool(STERS_RE.search(m['text'] + ' ' + m['subiect'])),
-                           'text': '' if tip == 'trimis' else m['text'][:1500], 'mid': m.get('mid', '')})
+                           'text': '' if tip == 'trimis' else m['text'][:8000], 'mid': m.get('mid', '')})
             # bifează singur „Am trimis”: linkurile scrise în email sau, dacă nu are linkuri, tot site-ul
             if canal in dict(CANALE) and tip in ('trimis', 'confirmare'):
                 for u, e in lst:
@@ -1517,6 +1538,10 @@ def vedere(stare, interactiv=False, token=''):
                          and (x['data'] + '|' + x['cine'] + '|' + x['subiect']) not in set(stare.get('email_rezolvate') or [])],
                         key=lambda x: x['data'], reverse=True),
     }
+    texte = stare.get('texte_email') or {}
+    for x in rez['inbox']:
+        if texte.get(x['cheie']):
+            x['text'], x['text_lipit'] = texte[x['cheie']], True
     rezolvate = set(stare.get('email_rezolvate') or [])
     for m in stare.get('mesaje_manuale') or []:
         if 'm|' + m['id'] in rezolvate:
@@ -1656,6 +1681,12 @@ def aplica(stare, a):
                     'domeniu': str(a.get('domeniu', '')).strip()[:200], 'cine': str(a.get('cine', '')).strip()[:200],
                     'subiect': str(a.get('subiect', '')).strip()[:300]})
         del lst[:-60]
+    elif tip == 'mesaj_text':
+        t = stare.setdefault('texte_email', {})
+        if str(a.get('text', '')).strip():
+            t[str(a.get('cheie', ''))[:400]] = str(a['text']).strip()[:20000]
+        else:
+            t.pop(str(a.get('cheie', '')), None)
     elif tip == 'mesaj_sterge':
         stare['mesaje_manuale'] = [m for m in stare.get('mesaje_manuale') or [] if m['id'] != a.get('id')]
     elif tip == 'cheie_serpapi':
@@ -2354,6 +2385,9 @@ function raspunsPotrivit(x) {
   }
   if (/53-фз|state language|russian language|apostil|рег\.ру|reg\.ru/.test(t))
     return ['r_rusa', 'Cer plângerea în rusă și acte legalizate (procedura lor pentru firme). Le răspunzi o singură dată cu textul de mai jos, în rusă; dacă refuză iar, site-ul rămâne pe drumul Google + Bing.'];
+  if (/nu se potrive[șs]te cu numele|al cui este numele|pseudonim|does not (seem to )?match (your|the) name|whose name|name.{0,40}(belongs|pseudonym|alias)/.test(t))
+    return [/[ăâîșț]|bună ziua|numele/.test(t) ? 'r_pseudonim' : 'r_pseudonim_en',
+            'Te întreabă al cui e numele „Kristine Maia”. Le răspunzi că e numele tău de scenă, cu numele legal și profilurile oficiale. Linkurile sunt luate din mesajul lor.'];
   if (x.sters) return ['r_multumesc', 'Spun că au șters. Verifici linkurile, apoi le mulțumești și ceri să șteargă și copiile.'];
   if (/(provide|send|list|give|include).{0,60}(url|link)|direct (url|link)|plain text|one url per line|specific (url|link)/.test(t))
     return ['r_linkuri', 'Cer linkurile exacte: le trimiți lista, câte unul pe rând, în text simplu.'];
@@ -2372,15 +2406,30 @@ const RASPUNSURI = [
   ['r_escaladez', 'Refuză → nu accept, anunț plângerile (GDPR, poliție)'],
   ['r_identitate', 'Cer dovada identității → ofer buletinul cu cifrele acoperite'],
   ['r_rusa', 'Cer plângerea în rusă (reg.ru etc.)'],
+  ['r_pseudonim', 'Întreabă al cui e numele → e numele meu de scenă (română)'],
+  ['r_pseudonim_en', 'Întreabă al cui e numele → e numele meu de scenă (engleză)'],
   ['gazda', 'Cloudflare mi-a dat hostingul → email pentru hosting']];
 const ALEGERI = {};
-function promptClaude(x, cer) {
-  return 'Ajută-mă să răspund la acest email despre ștergerea pozelor mele publicate fără acord.\n'
+function linkuriDin(t) {
+  const curat = String(t || '').replace(/hxxp/gi, 'http').replace(/\[\.\]/g, '.');
+  const out = [];
+  for (const m of curat.match(/https?:\/\/[^\s<>"')\]]+/g) || [])
+    for (let u of m.split(/%20|(?=https?:\/\/)/)) {
+      u = u.replace(/[.,;:]+$/, '');
+      if (/^https?:\/\//.test(u) && !/(^https?:\/\/([^\/]*\.)?(google\.com|g\.co|microsoft\.com|cloudflare\.com|bing\.com)(\/|$))/i.test(u) && !out.includes(u)) out.push(u);
+    }
+  return out;
+}
+function promptClaude(x, cer, linkuri) {
+  const nume = D.semnatura.nume || '[numele meu legal]';
+  return 'Ajută-mă să răspund la acest email. Context: cer ștergerea unor poze și videoclipuri intime cu mine, furate din conturile mele private și publicate fără acordul meu.\n'
+    + 'Cine sunt: numele meu legal este ' + nume + '; „Kristine Maia” este numele meu de scenă (creator de fitness și gaming, twitch.tv/kristinemaia, instagram.com/kristinemaia11); '
+    + 'kristinemaia, kristinemaia11, crismaia și missfoxyfire sunt numele mele de utilizator, actuale și vechi.\n'
     + 'Site-ul: ' + x.domeniu + '\nDe la: ' + x.cine + '\nSubiectul: ' + x.subiect + '\n'
-    + 'Câte linkuri am pe site-ul ăsta: ' + x.linkuri.length + ' (le adaug eu, nu le scrie).\n\n'
+    + 'Linkurile despre care e vorba (' + linkuri.length + '), le pun eu în email; scrie {LINKURI} unde trebuie să apară.\n\n'
     + 'Mesajul primit:\n---\n' + (x.text || '(n-am textul)') + '\n---\n\n'
-    + 'Ce vreau: ' + (cer || 'cel mai potrivit răspuns, în limba în care mi-au scris, scurt și ferm') + '\n'
-    + 'Scrie-mi doar emailul de trimis, semnat „' + (D.semnatura.nume || '[numele meu]') + '”.';
+    + 'Ce vreau: ' + (cer || 'răspunsul cel mai potrivit la ce cer ei, punct cu punct, în limba în care mi-au scris; ferm, politicos și concret') + '\n'
+    + 'Scrie-mi întâi pe scurt, în română, ce cer ei, apoi emailul de trimis, semnat „' + nume + '”.';
 }
 function mesajNouSect() {
   const ta = h('textarea', {placeholder: 'Lipește aici emailul sau mesajul primit (din Gmail, din formularul site-ului, de pe chat...).'});
@@ -2404,14 +2453,21 @@ function inboxSect() {
       const selR = h('select', {onchange: e => { ALEGERI[x.cheie] = e.target.value; randeaza(); }}, RASPUNSURI.map(([k, t]) => h('option', {value: k}, t)));
       selR.value = ales || '';
       const cer = h('input', {type: 'text', placeholder: 'Sau scrie ce vrei să le răspunzi (ex.: „spune-le că e urgent și că am numărul de tichet”)', style: 'flex:1;min-width:240px'});
-      const g = {domeniu: x.domeniu, linkuri: x.linkuri.map(u => ({url: u}))};
+      const dinMesaj = linkuriDin(x.text);
+      const lk = dinMesaj.length ? dinMesaj : x.linkuri;
+      const g = {domeniu: x.domeniu, linkuri: lk.map(u => ({url: u}))};
+      const taText = h('textarea', {placeholder: 'Lipește aici textul complet al emailului (din Gmail: deschizi emailul, selectezi tot textul, copiezi).'});
       const gm = x.mid ? 'https://mail.google.com/mail/u/0/#search/' + encodeURIComponent('rfc822msgid:' + x.mid)
                        : 'https://mail.google.com/mail/u/0/#search/' + encodeURIComponent('from:' + x.cine);
       return h('div', {class: 'card ' + (x.sters ? 'astept' : 'de_trimis')},
         h('div', {class: 'ch'}, h('h3', {}, x.domeniu), h('span', {class: 'tag'}, x.zi), h('span', {class: 'mut'}, 'de la ' + x.cine),
           x.sters && h('b', {class: 'ok'}, '✓ spun că au șters')),
         h('div', {}, h('b', {}, '„' + x.subiect + '”')),
-        x.text && det('m-' + x.cheie, 'Citește mesajul', h('p', {class: 'mut', style: 'white-space:pre-wrap'}, x.text)),
+        x.text && det('m-' + x.cheie, 'Citește mesajul' + (x.text_lipit ? ' (textul lipit de tine)' : ''), h('p', {class: 'mut', style: 'white-space:pre-wrap'}, x.text)),
+        LIVE && det('t-' + x.cheie, x.text ? '✎ Textul e tăiat sau greșit? Lipește-l din nou' : '✎ Lipește textul emailului', h('div', {},
+          taText, h('button', {class: 'mic', onclick: e => { if (taText.value.trim()) act({tip: 'mesaj_text', cheie: x.cheie, text: taText.value}, e.target); }}, 'Salvează textul'),
+          x.text_lipit && h('button', {class: 'mic sec', onclick: e => act({tip: 'mesaj_text', cheie: x.cheie, text: ''}, e.target)}, 'Înapoi la textul citit automat'))),
+        h('p', {class: 'mut'}, 'Linkurile din răspuns: ' + (dinMesaj.length ? nr(dinMesaj.length, 'link luat din mesajul lor', 'linkuri luate din mesajul lor') : nr(x.linkuri.length, 'link de pe ' + x.domeniu, 'linkuri de pe ' + x.domeniu))),
         h('p', {}, '👉 ' + sfat),
         h('div', {class: 'cb'},
           tip === 'gazda' ? h('button', {onclick: () => arataEmail('Email pentru hosting · ' + x.domeniu, emH || [], 'gazda', g,
@@ -2423,7 +2479,7 @@ function inboxSect() {
         h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:6px'},
           h('b', {}, 'Alt răspuns:'), selR),
         h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:6px'}, cer,
-          h('button', {class: 'mic', onclick: e => copiaza(promptClaude(x, cer.value.trim()), e.target)}, '🤖 Copiază pentru Claude')),
+          h('button', {class: 'mic', onclick: e => copiaza(promptClaude(x, cer.value.trim(), lk), e.target)}, '🤖 Copiază pentru Claude')),
         h('p', {class: 'mut'}, '„Copiază pentru Claude” pune mesajul și ce vrei tu într-un text gata: îl lipești într-o conversație cu Claude și primești emailul scris.'),
         h('div', {class: 'cb'},
           h('a', {href: '#s-' + x.domeniu}, 'la cardul site-ului')));
