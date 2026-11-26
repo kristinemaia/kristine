@@ -24,6 +24,15 @@ _Duminică 22: pauză de la tot. 💗_
 - [ ] 💸 banii pe cardul lui tati
 - [ ] 🎮 pregătit tot pentru streaming la țară · 👗 hainele de vară
 
+**🔎 Sâmbătă 28 (în România): verificăm conturile și ce mai e de șters** (2–3 ore, la laptop)
+_În Turcia multe site-uri adult sunt blocate; din România se deschid fără VPN, deci acum le putem verifica pe toate._
+1. **Profilurile neverificate** (aplicația → „🟠 Profiluri neverificate”): deschizi fiecare. E cu tine → „E cu mine” (intră la „De trimis”); nu e → „Ascunde”.
+2. **Căutarea din România** (aplicația → „🔎 Caută conținut nou” → „Deschide în Google / Bing”, perioada „oricând”, și la Imagini): ce apare nou → „➕ Adaugă linkuri”.
+3. **Facebook:** Jurnalul de activitate → pozele și postările vechi; fotografiile în care ești etichetată; albumele vechi; grupurile și paginile; prietenii necunoscuți. Ce e prea expus → ștergi; restul → „Doar eu”.
+4. **X:** postările și like-urile vechi (căutare „from:numele-tău filter:media”); urmăritorii spam; dacă există conturi vechi cu numele vechi → le dezactivezi.
+5. **Conturile vechi cu numele vechi** (missfoxyfire, crismaia) pe Instagram, TikTok, Reddit, email: le găsești, schimbi parola + 2FA, apoi le ștergi sau le golești.
+6. **Bing:** retrimiți cele 6 rapoarte „not enough information” (linkul exact + captura + numărul SIR).
+
 **🎥 Filmat la sală, marți 24** (vertical, 1080 × 1920, setul verde sau gri deschis, fără alți oameni în cadru):
 1. **R6 · Train with me: Day 1 of Level Up**: telefonul pe bancă, mâna apasă Start · marș pe loc 2 s · hip thrust 3 s · scrii kg-ul în telefon · pauza (bei apă) · RDL 3 s · zâmbet „done”
 2. **2 exerciții noi pentru program** (lipsesc acum): extensii de triceps deasupra capului cu o gantera · împins cu gantere pe bancă (câte 15–20 s, din față și din lateral)
