@@ -178,6 +178,21 @@ TEXTE = {
                'данных», публикация изображения человека без его согласия незаконна.\n\nПрошу передать жалобу клиенту '
                '(владельцу сайта {site}) и удалить материалы:\n{linkuri}\n\nПожалуйста, не передавайте владельцу сайта '
                'моё имя и контакты.\n\nС уважением,\n{nume}'),
+    'r_escaladez': ('Re: {subiect}',
+                    'Hello,\n\nThank you for your reply. I do not accept the refusal. The content below shows me in intimate '
+                    'images that were published without my consent:\n{linkuri}\n\nThis is unlawful processing of my personal '
+                    'data (GDPR Articles 6, 9 and 17) and illegal content under the Digital Services Act. Under the TAKE IT DOWN '
+                    'Act it must be removed within 48 hours of a valid request.\n\nIf it is not removed within 7 days, I will '
+                    'file complaints with the data protection authority, the police and your upstream providers, and ask the '
+                    'search engines to delist your website.\n\n{nume}'),
+    'r_identitate': ('Re: {subiect}',
+                     'Hello,\n\nThank you for your reply. I am the person shown. I can confirm my identity with a photo of '
+                     'my ID card with the numbers covered, next to a note with today\'s date and this ticket number, or on a '
+                     'short video call. Please tell me which you accept. I will not send any intimate images.\n\n'
+                     'The links again:\n{linkuri}\n\nThank you,\n{nume}'),
+    'r_confirmare': ('Re: {subiect}',
+                     'Hello,\n\nThank you for your reply. Could you please confirm when the content will be removed? '
+                     'These are the links:\n{linkuri}\n\nThank you,\n{nume}'),
     'r_revin': ('Re: {subiect}',
                 'Hello,\n\nThank you for your reply. The content is still online at the links below. Please remove it, including '
                 'all copies, and confirm by email.\n\n{linkuri}\n\nI am the person shown, it was published without my consent, '
@@ -1502,6 +1517,16 @@ def vedere(stare, interactiv=False, token=''):
                          and (x['data'] + '|' + x['cine'] + '|' + x['subiect']) not in set(stare.get('email_rezolvate') or [])],
                         key=lambda x: x['data'], reverse=True),
     }
+    rezolvate = set(stare.get('email_rezolvate') or [])
+    for m in stare.get('mesaje_manuale') or []:
+        if 'm|' + m['id'] in rezolvate:
+            continue
+        dom = m['domeniu']
+        rez['inbox'].insert(0, {'domeniu': dom or 'mesaj adăugat de tine', 'zi': scurt(m['data']), 'data': m['data'],
+                                'cine': m['cine'] or '—', 'subiect': m['subiect'] or 'mesaj adăugat de tine', 'canal': 'manual',
+                                'tip': 'raspuns', 'sters': False, 'text': m['text'], 'mid': '', 'cheie': 'm|' + m['id'],
+                                'manual_id': m['id'],
+                                'linkuri': [u for u, e in stare['linkuri'].items() if dom and domeniu(u) == dom and categorie(e) == 'activ'][:60]})
     return {'generat': scurt(acum()) + ' ' + acum()[11:], 'azi': date.today().isoformat(),
             'azi_ro': date.today().strftime('%d.%m.%Y'), 'interactiv': interactiv, 'token': token,
             'folder': HERE, 'cautare_text': text_cautare(stare['cautare']), 'email_text': stare.get('email_text') or '', 'rezumat': rez, 'grupuri': out, 'sterse': sterse,
@@ -1512,7 +1537,8 @@ def vedere(stare, interactiv=False, token=''):
                         for c in conturi_email(citeste_chei())],
             'poze': stare.get('poze') or [], 'poze_toate': len(poze_de_cautat(stare)),
             'baza': len(baza_adult()),
-            'cuvinte': cuvinte(stare), 'intrebare': intrebare_implicita(stare), 'cautari_nume': CAUTARI,
+            'cuvinte': cuvinte(stare), 'are_serpapi': bool(citeste_chei().get('SERPAPI')),
+            'domenii': sorted({domeniu(u) for u, e in stare['linkuri'].items() if not e_propriu(u)}), 'intrebare': intrebare_implicita(stare), 'cautari_nume': CAUTARI,
             'cautare_acum': {**(stare.get('cautare_acum') or {}), 'zi': scurt((stare.get('cautare_acum') or {}).get('data'))}
                             if stare.get('cautare_acum') else None,
             'texte': TEXTE, 'formulare': FORMULARE, 'zile_site': ZILE_REVENIRE_SITE}
@@ -1621,6 +1647,33 @@ def aplica(stare, a):
         ca['rezultate'] = [x for x in ca.get('rezultate', []) if cheie(x['url']) != k]
     elif tip == 'cautare_inchide':
         stare.pop('cautare_acum', None)
+    elif tip == 'mesaj_adauga':
+        text = str(a.get('text', '')).strip()[:6000]
+        if not text:
+            raise ValueError('lipește textul mesajului')
+        lst = stare.setdefault('mesaje_manuale', [])
+        lst.append({'id': secrets.token_hex(4), 'data': cand, 'text': text,
+                    'domeniu': str(a.get('domeniu', '')).strip()[:200], 'cine': str(a.get('cine', '')).strip()[:200],
+                    'subiect': str(a.get('subiect', '')).strip()[:300]})
+        del lst[:-60]
+    elif tip == 'mesaj_sterge':
+        stare['mesaje_manuale'] = [m for m in stare.get('mesaje_manuale') or [] if m['id'] != a.get('id')]
+    elif tip == 'cheie_serpapi':
+        k = re.sub(r'\s', '', str(a.get('cheie', '')))
+        if not re.fullmatch(r'[A-Za-z0-9]{20,100}', k):
+            raise ValueError('Cheia nu arată bine: copiaz-o din serpapi.com → Dashboard → „Your Private API Key”.')
+        try:
+            cont = cere_json(f'{SERPAPI_URL}/account.json?' + urllib.parse.urlencode({'api_key': k}))
+        except urllib.error.HTTPError as e:
+            raise ValueError('SerpApi nu acceptă cheia (eroare ' + str(e.code) + '). Verifică dacă ai copiat-o întreagă.')
+        except Exception as e:
+            raise ValueError(f'Nu ajung la serpapi.com ({type(e).__name__}). Verifică internetul și încearcă din nou.')
+        if cont.get('error'):
+            raise ValueError('SerpApi: ' + str(cont['error'])[:160])
+        scrie_cheie('SERPAPI', k)
+        stare['cautare']['text'] = ('Cheia SerpApi e salvată: ' + str(cont.get('plan_searches_left', cont.get('total_searches_left', '?')))
+                                    + ' căutări rămase luna asta. Prima căutare automată se face la următoarea pornire.')
+        stare['cautare'].pop('ultima', None)
     elif tip == 'poze':
         poze = stare.setdefault('poze', [])
         for u in gaseste_linkuri(str(a.get('text', ''))[:100_000]):
@@ -2218,6 +2271,19 @@ function urlMotor(m, q, timp) {
   if (m === 'bing') return 'https://www.bing.com/search?q=' + encodeURIComponent(q) + (timp === 'z' ? '&filters=ex1%3a%22ez1%22' : timp === 's' ? '&filters=ex1%3a%22ez2%22' : timp === 'l' ? '&filters=ex1%3a%22ez3%22' : '');
   return 'https://www.google.com/search?q=' + encodeURIComponent(q) + (m === 'google_imagini' ? '&tbm=isch' : '') + (t ? '&tbs=' + t : '') + '&safe=off';
 }
+function cheieSerpapi() {
+  const k = h('input', {type: 'text', placeholder: 'lipește cheia SerpApi aici', autocomplete: 'off', style: 'flex:1;min-width:240px'});
+  return h('div', {class: 'banner'},
+    h('b', {}, 'Căutarea pe Google/Bing e oprită: lipsește cheia SerpApi. '),
+    'Programul caută pe Google prin SerpApi (250 de căutări gratuite pe lună). Pașii: ',
+    h('ol', {},
+      h('li', {}, 'Intri pe ', ext('https://serpapi.com/users/sign_up', 'serpapi.com ↗'), ' → Register (cu Google sau email) → alegi planul gratuit (Free).'),
+      h('li', {}, 'Confirmi emailul (și telefonul, dacă îl cer).'),
+      h('li', {}, 'Dashboard → „Your Private API Key” → Copy.'),
+      h('li', {}, 'O lipești aici și apeși „Salvează cheia”. Programul o verifică și o pune singur în chei.txt.')),
+    h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap'}, k,
+      h('button', {onclick: e => { if (k.value.trim()) act({tip: 'cheie_serpapi', cheie: k.value}, e.target); }}, 'Salvează cheia')));
+}
 function cautareSect() {
   if (CA.q === null) CA.q = D.intrebare;
   if (CA.cuv === null) CA.cuv = D.cuvinte.join(', ');
@@ -2240,6 +2306,7 @@ function cautareSect() {
       h('b', {}, 'Cuvinte-cheie:'), cuv,
       LIVE && h('button', {class: 'mic', onclick: e => { act({tip: 'cuvinte', text: CA.cuv}, e.target).then(() => { CA.q = D.intrebare; randeaza(); }); }}, 'Salvează cuvintele')),
     h('p', {class: 'mut'}, '5–10 cuvinte, despărțite prin virgulă. Le folosește și căutarea automată, o dată la 3 zile.'),
+    !D.are_serpapi && LIVE && cheieSerpapi(),
     h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap;align-items:center'},
       inp,
       sel(CA.motor, [['google', 'Google'], ['bing', 'Bing'], ['google_imagini', 'Google Imagini']], v => { CA.motor = v; }),
@@ -2296,13 +2363,47 @@ function raspunsPotrivit(x) {
     return ['r_revin', 'Refuză sau te trimit în altă parte. Le răspunzi cu textul de mai jos, iar în aplicație treci la pasul următor (hosting / Cloudflare).'];
   return ['r_revin', 'Dacă linkurile mai sunt online, le răspunzi cu textul de mai jos.'];
 }
+const RASPUNSURI = [
+  ['', 'automat (după ce scrie în mesaj)'],
+  ['r_multumesc', 'Au șters → mulțumesc + cer să șteargă și copiile'],
+  ['r_linkuri', 'Cer linkurile → le trimit lista'],
+  ['r_confirmare', 'Nu spun nimic clar → cer confirmarea ștergerii'],
+  ['r_revin', 'E încă online → insist'],
+  ['r_escaladez', 'Refuză → nu accept, anunț plângerile (GDPR, poliție)'],
+  ['r_identitate', 'Cer dovada identității → ofer buletinul cu cifrele acoperite'],
+  ['r_rusa', 'Cer plângerea în rusă (reg.ru etc.)'],
+  ['gazda', 'Cloudflare mi-a dat hostingul → email pentru hosting']];
+const ALEGERI = {};
+function promptClaude(x, cer) {
+  return 'Ajută-mă să răspund la acest email despre ștergerea pozelor mele publicate fără acord.\n'
+    + 'Site-ul: ' + x.domeniu + '\nDe la: ' + x.cine + '\nSubiectul: ' + x.subiect + '\n'
+    + 'Câte linkuri am pe site-ul ăsta: ' + x.linkuri.length + ' (le adaug eu, nu le scrie).\n\n'
+    + 'Mesajul primit:\n---\n' + (x.text || '(n-am textul)') + '\n---\n\n'
+    + 'Ce vreau: ' + (cer || 'cel mai potrivit răspuns, în limba în care mi-au scris, scurt și ferm') + '\n'
+    + 'Scrie-mi doar emailul de trimis, semnat „' + (D.semnatura.nume || '[numele meu]') + '”.';
+}
+function mesajNouSect() {
+  const ta = h('textarea', {placeholder: 'Lipește aici emailul sau mesajul primit (din Gmail, din formularul site-ului, de pe chat...).'});
+  const dom = h('select', {}, h('option', {value: ''}, '— site-ul (opțional) —'), D.domenii.map(d => h('option', {value: d}, d)));
+  const cine = h('input', {type: 'text', placeholder: 'de la (adresa, opțional)'});
+  const sub = h('input', {type: 'text', placeholder: 'subiectul (opțional)'});
+  return det('mesaj-nou', '➕ Adaugă un mesaj la care vrei alt răspuns (sau care nu apare aici)', h('div', {class: 'box'},
+    h('p', {class: 'mut'}, 'Pentru emailurile pe care programul nu le-a găsit singur, sau când vrei alt răspuns decât cel propus. Mesajul apare mai sus, la „Mesaje primite”, cu răspunsurile gata.'),
+    ta, h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap'}, dom, cine, sub),
+    h('button', {onclick: e => { if (ta.value.trim()) act({tip: 'mesaj_adauga', text: ta.value, domeniu: dom.value, cine: cine.value, subiect: sub.value}, e.target); }}, 'Adaugă mesajul')));
+}
 function inboxSect() {
   const L = D.rezumat.inbox || [];
-  if (!L.length) return null;
+  if (!L.length) return LIVE ? [h('h2', {}, '📬 Mesaje primite (0)'), mesajNouSect()] : null;
   return [h('h2', {}, '📬 Mesaje primite (' + L.length + ')'),
     h('p', {class: 'mut'}, 'Răspunsurile la cererile tale, din ultimele 45 de zile. Pentru fiecare ai textul de răspuns gata. Când ai terminat cu unul, apeși „Rezolvat”.'),
     L.map(x => {
-      const [tip, sfat, emH] = raspunsPotrivit(x);
+      let [tip, sfat, emH] = raspunsPotrivit(x);
+      const ales = ALEGERI[x.cheie];
+      if (ales) { tip = ales; sfat = 'Ai ales: ' + RASPUNSURI.find(r => r[0] === ales)[1] + '.'; }
+      const selR = h('select', {onchange: e => { ALEGERI[x.cheie] = e.target.value; randeaza(); }}, RASPUNSURI.map(([k, t]) => h('option', {value: k}, t)));
+      selR.value = ales || '';
+      const cer = h('input', {type: 'text', placeholder: 'Sau scrie ce vrei să le răspunzi (ex.: „spune-le că e urgent și că am numărul de tichet”)', style: 'flex:1;min-width:240px'});
       const g = {domeniu: x.domeniu, linkuri: x.linkuri.map(u => ({url: u}))};
       const gm = x.mid ? 'https://mail.google.com/mail/u/0/#search/' + encodeURIComponent('rfc822msgid:' + x.mid)
                        : 'https://mail.google.com/mail/u/0/#search/' + encodeURIComponent('from:' + x.cine);
@@ -2315,11 +2416,18 @@ function inboxSect() {
         h('div', {class: 'cb'},
           tip === 'gazda' ? h('button', {onclick: () => arataEmail('Email pentru hosting · ' + x.domeniu, emH || [], 'gazda', g,
               {rol: 'hosting provider', ip: '', intro: 'I reported it to Cloudflare, who named you as the hosting provider. '})}, '📋 Emailul pentru hosting')
-          : tip && h('button', {onclick: () => arataEmail('Răspuns pentru ' + x.cine, [x.cine], tip, g, {subiect: x.subiect.replace(/^((re|fwd?|aw)\s*:\s*)+/i, '')})}, '📋 Răspunsul gata'),
-          ext(gm, 'Deschide în Gmail ↗'),
+          : tip && h('button', {onclick: () => arataEmail('Răspuns pentru ' + x.cine, x.cine && x.cine.includes('@') ? [x.cine] : [], tip, g, {subiect: x.subiect.replace(/^((re|fwd?|aw)\s*:\s*)+/i, '')})}, '📋 Răspunsul gata'),
+          x.canal !== 'manual' && ext(gm, 'Deschide în Gmail ↗'),
           LIVE && h('button', {class: 'sec', onclick: e => act({tip: 'email_rezolvat', cheie: x.cheie}, e.target)}, 'Rezolvat ✓'),
+          LIVE && x.manual_id && h('button', {class: 'mic sec', onclick: e => act({tip: 'mesaj_sterge', id: x.manual_id}, e.target)}, 'Șterge')),
+        h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:6px'},
+          h('b', {}, 'Alt răspuns:'), selR),
+        h('div', {class: 'setg', style: 'display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:6px'}, cer,
+          h('button', {class: 'mic', onclick: e => copiaza(promptClaude(x, cer.value.trim()), e.target)}, '🤖 Copiază pentru Claude')),
+        h('p', {class: 'mut'}, '„Copiază pentru Claude” pune mesajul și ce vrei tu într-un text gata: îl lipești într-o conversație cu Claude și primești emailul scris.'),
+        h('div', {class: 'cb'},
           h('a', {href: '#s-' + x.domeniu}, 'la cardul site-ului')));
-    })];
+    }), LIVE && mesajNouSect()];
 }
 if (LIVE) setInterval(async () => {
   if (document.querySelector('dialog[open]') || /^(INPUT|TEXTAREA|SELECT)$/.test((document.activeElement || {}).tagName || '')) return;

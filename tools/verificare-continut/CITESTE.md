@@ -103,3 +103,11 @@ Secțiunea e sus în pagină, după lista „Ce ai de trimis”.
    - **✓ E cu mine** → site-ul intră în „De trimis”, cu mesajele gata;
    - **✗ Nu e cu mine** → dispare și nu mai apare la căutările următoare.
 5. Fără cheie SerpApi: **Deschide în Google / Bing ↗** face aceeași căutare în browser; linkurile găsite le lipești la „➕ Adaugă linkuri”.
+
+## 📬 Alt răspuns la un email (și mesaje adăugate de tine)
+- La fiecare mesaj din „📬 Mesaje primite” ai **Alt răspuns:** alegi din listă (au șters / cer linkurile / cer confirmarea / insist / refuză → anunț plângerile / cer dovada identității / în rusă / email pentru hosting) și „📋 Răspunsul gata” se schimbă.
+- **🤖 Copiază pentru Claude:** scrii ce vrei („spune-le că e urgent”), apeși butonul și lipești textul într-o conversație cu Claude: primești emailul scris.
+- **➕ Adaugă un mesaj:** pentru emailurile pe care programul nu le-a găsit singur. Lipești textul, alegi site-ul, și apare la „Mesaje primite” cu aceleași butoane.
+
+## 🔑 Cheia SerpApi (căutarea pe Google/Bing)
+Fără cheie, căutarea automată e oprită. În pagină, la „🔎 Caută conținut nou”, ai pașii: cont gratuit pe serpapi.com → Dashboard → „Your Private API Key” → o lipești în pagină → **Salvează cheia**. Programul o verifică și o scrie singur în chei.txt.
