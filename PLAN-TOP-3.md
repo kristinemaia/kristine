@@ -14,6 +14,16 @@ _Duminică 22: pauză de la tot. 💗_
 | **Vin 27** | conturile vechi (reminder la 11:00) + plângerea la poliție | | ❌ | București |
 | **Sâm 28** | sesiunea zilnică | | ❌ | |
 
+**📝 Vineri 27 (București), lista Kristinei:**
+- [ ] dimineața: fiecare email de ștergere → răspunsul din aplicație (📬 Mesaje primite)
+- [ ] update-ul aplicației (zip-ul nou, în același folder)
+- [ ] 🔐 conturile vechi închise (ManyVids, LoyalFans, Fansly, SkyPrivate, LiveJasmin, MFC, Chaturbate) → apoi contestația Google pentru celebexposed
+- [ ] 🚓 plângerea la poliție
+- [ ] 🏃‍♀️ cardio 40 min
+- [ ] 🧾 facturile la contabilă (Oblio, energie, Digi, bonurile) · 💳 plățile facturilor (inclusiv cei 208 lei de la Vadim)
+- [ ] 💸 banii pe cardul lui tati
+- [ ] 🎮 pregătit tot pentru streaming la țară · 👗 hainele de vară
+
 **🎥 Filmat la sală, marți 24** (vertical, 1080 × 1920, setul verde sau gri deschis, fără alți oameni în cadru):
 1. **R6 · Train with me: Day 1 of Level Up**: telefonul pe bancă, mâna apasă Start · marș pe loc 2 s · hip thrust 3 s · scrii kg-ul în telefon · pauza (bei apă) · RDL 3 s · zâmbet „done”
 2. **2 exerciții noi pentru program** (lipsesc acum): extensii de triceps deasupra capului cu o gantera · împins cu gantere pe bancă (câte 15–20 s, din față și din lateral)
