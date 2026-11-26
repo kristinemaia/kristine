@@ -179,6 +179,8 @@ ManyVids · LoyalFans · Fansly · **SkyPrivate** · LiveJasmin · MyFreeCams ·
 | 26 nov | leakgallery | 5 | Take It Down | ✅ **șters** (confirmat de LeakGallery) | |
 | 25 nov | Bing, încă 8 rapoarte | | Microsoft | ✅ 2 aprobate (SIR25375136, SIR25375027) · ⚠️ 6 cer detalii (SIR25374624, 25374717, 25374840, 25374842, 25374953, 25375249) | de retrimis cu linkul exact + captura + numărul SIR |
 | 25 nov | babesgowild, fapachi | | adresa site-ului | ⚠️ emailul nu ajunge | prin hosting / Cloudflare |
+| 26 nov | celebexposed | 2 | Google NCII | ❌ refuzat: „used to make money” | contestație după închiderea conturilor (vin 27) + formularul UE „dreptul de a fi uitat”; copyright deja în Report 9-2227000041887 |
+| 26 nov | 6 linkuri (fapeza, kemono, celebexposed, wildskirts, reddit) | 6 | Google | ⚠️ întreabă al cui e numele | răspuns: numele de scenă |
 | 23 nov | masterfap, fapello.ru | | revenire la adresa site-ului | ⚠️ emailul nu ajunge (Gmail reîncearcă) | merg prin hosting (KoDDoS, Infrawire) |
 | 24 nov | anacams | 1 | hosting Scalaxy (GDPR) | de trimis | |
 | 24 nov | adultphotosets | 2 | reg.ru, răspuns în rusă | de trimis | cer acte legalizate în rusă |

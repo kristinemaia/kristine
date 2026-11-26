@@ -214,6 +214,18 @@ TEXTE = {
                        'policy on non-consensual intimate imagery.\n\nIf you need to confirm my identity, I can send a photo '
                        'of my ID card with the personal numbers covered, together with a photo from my official account.\n\n'
                        'Thank you,\n{nume}'),
+    'r_apel_bani': ('Contestația la Google (formularul „appeal” din email)',
+                    'I am appealing this decision. The content at these URLs shows me in intimate images:\n{linkuri}\n\n'
+                    'It is not being used to make money by me. These pages were published by a third party without my consent, '
+                    'using images taken from my private accounts. I have never authorised this website, or anyone else, to '
+                    'publish them, and I do not earn anything from them. The website profits from my images against my will.\n\n'
+                    'I have closed all my former subscription and webcam accounts (ManyVids, LoyalFans, Fansly, SkyPrivate, '
+                    'LiveJasmin, MyFreeCams, Chaturbate), so this material is no longer offered by me anywhere. My public work '
+                    'today is fitness and gaming content under my stage name Kristine Maia (twitch.tv/kristinemaia, '
+                    'instagram.com/kristinemaia11). Any old content that circulates now is published without my consent.\n\n'
+                    'I am an EU citizen. These pages also process my personal data, including data about my sex life, '
+                    'without my consent (GDPR Articles 9 and 17).\n\nPlease reconsider and remove these URLs from Google '
+                    'Search.\n\n{nume}\nDate: {azi}'),
     'r_revin': ('Re: {subiect}',
                 'Hello,\n\nThank you for your reply. The content is still online at the links below. Please remove it, including '
                 'all copies, and confirm by email.\n\n{linkuri}\n\nI am the person shown, it was published without my consent, '
@@ -2388,6 +2400,8 @@ function raspunsPotrivit(x) {
   if (/nu se potrive[șs]te cu numele|al cui este numele|pseudonim|does not (seem to )?match (your|the) name|whose name|name.{0,40}(belongs|pseudonym|alias)/.test(t))
     return [/[ăâîșț]|bună ziua|numele/.test(t) ? 'r_pseudonim' : 'r_pseudonim_en',
             'Te întreabă al cui e numele „Kristine Maia”. Le răspunzi că e numele tău de scenă, cu numele legal și profilurile oficiale. Linkurile sunt luate din mesajul lor.'];
+  if (/being used to make money|monetiz|commercial|folosit pentru a face bani|câștiga bani/.test(t))
+    return ['r_apel_bani', 'Google a refuzat pe motiv că pozele „fac bani” (vin din conturile plătite). Nu răspunzi la email: deschizi linkul „appeal” din mesaj și lipești textul de mai jos, după ce ai închis conturile vechi. În paralel: cererea de copyright și formularul UE (dreptul de a fi uitat).'];
   if (x.sters) return ['r_multumesc', 'Spun că au șters. Verifici linkurile, apoi le mulțumești și ceri să șteargă și copiile.'];
   if (/(provide|send|list|give|include).{0,60}(url|link)|direct (url|link)|plain text|one url per line|specific (url|link)/.test(t))
     return ['r_linkuri', 'Cer linkurile exacte: le trimiți lista, câte unul pe rând, în text simplu.'];
@@ -2406,6 +2420,7 @@ const RASPUNSURI = [
   ['r_escaladez', 'Refuză → nu accept, anunț plângerile (GDPR, poliție)'],
   ['r_identitate', 'Cer dovada identității → ofer buletinul cu cifrele acoperite'],
   ['r_rusa', 'Cer plângerea în rusă (reg.ru etc.)'],
+  ['r_apel_bani', 'Google: refuzat „used to make money” → textul pentru contestație'],
   ['r_pseudonim', 'Întreabă al cui e numele → e numele meu de scenă (română)'],
   ['r_pseudonim_en', 'Întreabă al cui e numele → e numele meu de scenă (engleză)'],
   ['gazda', 'Cloudflare mi-a dat hostingul → email pentru hosting']];
