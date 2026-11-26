@@ -175,6 +175,10 @@ ManyVids · LoyalFans · Fansly · **SkyPrivate** · LiveJasmin · MyFreeCams ·
 | Data | Site (doar numele) | Câte linkuri | Metoda (Google / Bing / Take It Down / GDPR / DMCA / hosting) | Stare | Răspuns |
 |---|---|---|---|---|---|
 | 24 nov | erome.vip | | Bing (ref. dad8dee4…) | ✅ aprobat de Microsoft | scos din Bing |
+| 26 nov | thefappeningblog | 1 | hosting D2Cloud | ✅ **șters** („Link is 404”) | |
+| 26 nov | leakgallery | 5 | Take It Down | ✅ **șters** (confirmat de LeakGallery) | |
+| 25 nov | Bing, încă 8 rapoarte | | Microsoft | ✅ 2 aprobate (SIR25375136, SIR25375027) · ⚠️ 6 cer detalii (SIR25374624, 25374717, 25374840, 25374842, 25374953, 25375249) | de retrimis cu linkul exact + captura + numărul SIR |
+| 25 nov | babesgowild, fapachi | | adresa site-ului | ⚠️ emailul nu ajunge | prin hosting / Cloudflare |
 | 23 nov | masterfap, fapello.ru | | revenire la adresa site-ului | ⚠️ emailul nu ajunge (Gmail reîncearcă) | merg prin hosting (KoDDoS, Infrawire) |
 | 24 nov | anacams | 1 | hosting Scalaxy (GDPR) | de trimis | |
 | 24 nov | adultphotosets | 2 | reg.ru, răspuns în rusă | de trimis | cer acte legalizate în rusă |

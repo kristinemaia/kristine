@@ -2014,10 +2014,11 @@ function ghidBing() {
       h('li', {}, 'Link to the content: lipești ', h('b', {}, 'un link'), ' (butonul „📋 Primul link” de pe card) → Continue.'),
       h('li', {}, 'Tipul: ', h('b', {}, 'Non-consensual intimate imagery'), ' (sau „Sharing intimate images without consent”).'),
       h('li', {}, 'Did you report it to the site: ', h('b', {}, 'Yes'), ' dacă ai bifat „Site-ul” la acest card; altfel „No – I have not tried”.'),
-      h('li', {}, 'Reference number: gol la primul raport; la următoarele pui numărul primit pe email.'),
+      h('li', {}, 'Reference number: gol la primul raport; la următoarele pui numărul primit pe email. Dacă Microsoft răspunde „not enough information”, retrimiți cu numărul lor (SIR…) aici.'),
       h('li', {}, 'Search terms: ', h('b', {}, CAUTARI_BING), ' (butonul „📋 Search terms”).'),
       h('li', {}, 'Country of residence: ', h('b', {}, 'Romania'), ' (UE → se aplică GDPR).'),
-      h('li', {}, 'Screenshot: cauți „Kristine Maia” pe bing.com și faci o captură cu rezultatul site-ului (opțional, dar ajută).'),
+      h('li', {}, 'Screenshot: cauți „Kristine Maia” pe bing.com și faci o captură cu rezultatul site-ului, cu numele tău vizibil. Pune-o mereu: fără ea, Microsoft răspunde des „not enough information”.'),
+      h('li', {}, 'Linkul: adresa exactă a paginii, copiată din bara browserului (nu doar numele site-ului). Pentru o poză din Bing Imagini: click pe poză → click dreapta → „Copy link”.'),
       h('li', {}, 'Descrierea: lipești textul de mai jos → bifezi confirmările → Submit.')),
     h('p', {}, 'Formularul ia un singur link. Dacă site-ul are mai multe, folosește formularul „revengeporn” de mai jos, care le ia pe toate odată, sau faci câte un raport pe link, cu același număr de referință.'));
 }
