@@ -18,6 +18,9 @@ _Actualizat 17 noiembrie 2026. Bifezi când plătești. Fără numere de cont sa
 - [x] Digi plătit
 - [x] Engie plătit
 - [ ] PPC: când vine factura, o plătești
+- [ ] **Factura de 208 lei venită la Vadim** (chiriașul, apartamentul), 26 nov: o plătești din cei 420 lei de utilități pe care ți i-a dat
+- [ ] **Factura de energie electrică**: de plătit
+- [ ] **Digi** pe decembrie: de plătit când vine
 - [ ] PE Furnizare: intri în aplicație (sau pe site, din browser) și verifici factura
 - [x] Contabilitatea: 500 lei (11 nov)
 - [x] Impozitul pe microîntreprindere: 274 lei (11 nov). Se plătește pe trimestru; data următoarei plăți ți-o spune contabila.
@@ -27,6 +30,8 @@ _Actualizat 17 noiembrie 2026. Bifezi când plătești. Fără numere de cont sa
 - [ ] **Facturile la contabilă: până pe 1 decembrie** (în cel mult 5 zile). Trimiți:
   - facturile emise din Oblio (din **Facturi → Export**, pentru noiembrie)
   - facturile primite: Payhip Videos (Account → Billing), chitanța Battle.net, contabilitatea, alte cheltuieli de firmă
+  - **factura de energie electrică** și **factura Digi** (noiembrie)
+  - **bonurile de la cumpărăturile de azi** (26 nov), doar cele pentru firmă (filmări, recuzită, haine pentru conținut), cu CUI-ul firmei pe bon dacă se poate
   - încasările din Payhip (raportul lunar al vânzărilor Level Up) și plățile de la branduri
 - [ ] Întrebi contabila dacă vrea **acces direct în Oblio** (Setări → Utilizatori → o inviți), ca să nu mai trimiți lunar
 
