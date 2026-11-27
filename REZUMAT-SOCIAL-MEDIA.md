@@ -59,7 +59,7 @@ General exercise, not medical advice.
 - **S1 Save this: full-body gym workout**: vin 20, 17:00 (ultimul slide: „NOW OPEN”).
 - **S2 5 rules that keep me strong anyway**: dum 22, 12:00 (slide 6 video pe bandă; ultimul „NOW OPEN”).
 - **P2 My Everyday Essentials** (coarda, AirPods, căștile): mar 24, 12:00.
-- **D1 A Day On My Plate** (ovăz, clătite cu cacao, paste cu ton, cacaua Bewit): dum 29, 12:00.
+- **D1 A Day On My Plate** (ovăz, pește la cuptor cu legume, paste cu ton, cacaua Bewit): dum 29, 12:00.
 - **De făcut când vin pozele:** F1 „For the gamers who are constantly thinking about their next snack” (6 dec) · D2 „How I Stay In Shape As A Streamer” (cu PDF-ul, „comment STRETCH”, 3 dec).
 
 **Reel-uri**
