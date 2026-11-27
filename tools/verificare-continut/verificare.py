@@ -244,6 +244,15 @@ TEXTE = {
               'Date: {azi}'),
 }
 
+# Numele de scenă: îl explicăm în fiecare mesaj în engleză, ca să nu mai întrebe „al cui e numele” (Google a întrebat pe 26 nov).
+CINE_SUNT = ('"Kristine Maia" is my stage name and username (I also used "kristinemaia", "kristinemaia11", "crismaia" '
+             'and "missfoxyfire"). My legal name is {nume}.')
+for _k, (_sub, _corp) in list(TEXTE.items()):
+    if _k in ('google', 'r_rusa', 'r_pseudonim', 'r_pseudonim_en', 'r_apel_bani') or CINE_SUNT in _corp:
+        continue
+    _i = _corp.rfind('\n\n')
+    TEXTE[_k] = (_sub, _corp[:_i] + '\n\n' + CINE_SUNT + _corp[_i:])
+
 
 # ───────────── Mici ajutoare ─────────────
 def acum():
