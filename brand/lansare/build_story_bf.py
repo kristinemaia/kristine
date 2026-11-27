@@ -10,7 +10,7 @@ STORIES = [
  ('bf-1-last-weekend', s('''<img class="photo" src="%s" style="object-position:42%% 30%%"><div class="shade" style="background:linear-gradient(180deg,rgba(0,0,0,.15) 20%%,rgba(0,0,0,.85) 70%%)"></div>
   <div style="position:absolute;left:80px;right:80px;bottom:330px">%s
   <h1 class="white" style="font-size:132px;margin-top:30px">Last weekend<br>at $10</h1>
-  <p class="white" style="font-size:48px;font-weight:700;margin:28px 0 0;line-height:1.3">Level Up, my training program.<br>Founding price ends Monday.</p></div>''' % (FOTO, BF))),
+  <p class="white" style="font-size:48px;font-weight:700;margin:28px 0 0;line-height:1.3">Level Up, my training program.<br>Black Friday price ends Monday.</p></div>''' % (FOTO, BF))),
  ('bf-2-price', s(NEGRU + '''<div style="position:absolute;left:80px;right:80px;top:280px;text-align:center">%s
   <h1 class="white" style="font-size:300px;margin-top:40px">$10</h1><p class="white" style="font-size:56px;font-weight:800;margin:0">per month</p>
   <p style="color:#F8DCE6;font-size:46px;font-weight:700;margin:50px 0 0;line-height:1.35">Join by Monday and keep $10<br>for as long as you stay.</p>

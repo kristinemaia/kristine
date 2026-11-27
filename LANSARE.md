@@ -99,7 +99,7 @@ Le salvezi într-un **highlight nou: PROGRAM** (primul din stânga).
 **TikTok** programează maximum 10 zile înainte: miercuri 25 pui până pe 5 dec; restul, joi 3 dec.
 
 ## 🖤 Black Friday, 27–30 nov 2026: ultimul weekend la $10
-**Oferta (reală):** prețul de fondator de **$10/lună** se termină **luni 30 nov, 23:59**. De **marți 1 dec**, membrii noi plătesc **$15/lună**. Cine intră până luni păstrează $10 cât timp rămâne. _Nu scriem „era $X, acum $10”: prețul a fost mereu $10, iar o reducere de la un preț inventat e interzisă în UE._
+**Oferta (reală):** prețul de **$10/lună** (Black Friday) se termină **luni 30 nov, 23:59**. De **marți 1 dec**, membrii noi plătesc **$15/lună**. Cine intră până luni păstrează $10 cât timp rămâne. _Nu scriem „era $X, acum $10”: prețul a fost mereu $10, iar o reducere de la un preț inventat e interzisă în UE._
 - **Site:** banda neagră de sus (pe toate paginile) + butonul „Join by Monday · $10/month” pe training.html. Se ascund singure marți la 00:00 (`assets/site.js`, secțiunea 6). Urci zip-ul pe Netlify.
 - **Story-uri:** `brand/lansare/out/bf-1…3` (vin–dum), `bf-4-last-day` (luni). La bf-2 și bf-4: sticker Link spre `payhip.com/b/gWIHB`; la bf-4 și sticker-ul **Countdown** („Founding price ends”, luni 23:59).
 - [ ] **Marți 1 dec, dimineața: prețul nou în Payhip** ($15/lună pentru membrii noi). Verifici înainte în Payhip că membrii existenți rămân la $10 (dacă Payhip schimbă prețul tuturor, faci un plan nou de $15 și îl ascunzi pe cel de $10). Apoi schimbăm pe site „$10” în „$15” (training.html, butonul și textele).

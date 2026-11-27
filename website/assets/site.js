@@ -292,15 +292,27 @@
     bf.setAttribute('role', 'region');
     bf.setAttribute('aria-label', 'Black Friday');
     bf.style.cssText = 'background:#141118;color:#fff;text-align:center;padding:10px 16px;font-size:15px;line-height:1.4';
-    bf.innerHTML = '<b style="letter-spacing:.06em">🖤 BLACK FRIDAY</b> · Last weekend at the <b>$10/month</b> founding price. ' +
-      'From Tuesday, 1 December, new members pay $15/month. Join by Monday and keep $10 for as long as you stay. ' +
+    bf.innerHTML = '<b style="letter-spacing:.06em">🖤 BLACK FRIDAY</b> · Level Up for <b>$10/month</b>, this weekend only. ' +
+      'From Tuesday, 1 December, it\'s $15/month. Join by Monday and keep $10 for as long as you stay. ' +
       '<a href="training.html#quiz" style="color:#F8DCE6;font-weight:700;white-space:nowrap">Take the quiz →</a>';
     document.body.insertBefore(bf, document.body.firstChild);
     var join = document.getElementById('r-join');
     if (join) {
       join.textContent = 'Join by Monday · $10/month';
       var nota = join.parentNode && join.parentNode.nextElementSibling;
-      if (nota) nota.insertAdjacentHTML('afterbegin', '<b>Black Friday: last weekend at this price.</b> From 1 December, new members pay $15/month. ');
+      if (nota) nota.insertAdjacentHTML('afterbegin', '<b>Black Friday: this weekend only.</b> From 1 December, new members pay $15/month. ');
+    }
+    // În weekendul de Black Friday nu mai scriem „founding price” la Level Up, doar Black Friday.
+    var BF_TEXTE = [
+      ['Founding price for the first 50 members, kept for as long as you stay.', 'Black Friday price, kept for as long as you stay.'],
+      ['Founding spots for the first 50 members', 'Black Friday: $10/month until Monday'],
+      ['Now open · founding price', 'Black Friday · $10/month'],
+      ['founding price for the first 50 members', 'Black Friday price until Monday']
+    ];
+    var w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null), nod;
+    while ((nod = w.nextNode())) {
+      for (var k = 0; k < BF_TEXTE.length; k++)
+        if (nod.nodeValue.indexOf(BF_TEXTE[k][0]) !== -1) nod.nodeValue = nod.nodeValue.split(BF_TEXTE[k][0]).join(BF_TEXTE[k][1]);
     }
   }
 })();
