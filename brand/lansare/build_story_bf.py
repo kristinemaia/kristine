@@ -29,3 +29,25 @@ STORIES = [
 if __name__ == '__main__':
     render([(os.path.join(OUT, n + '.png'), h) for n, h in STORIES])
     print('gata')
+
+
+# Varianta roșie, ca pop-up-ul de pe site: un story și o postare (4:5).
+def card(scara=1.0):
+    return ('''<div style="position:absolute;left:50%%;top:50%%;transform:translate(-50%%,-50%%) scale(%s);width:860px;background:#0e0c10;border:8px solid #E11D2E;border-radius:56px;padding:80px 60px 66px;text-align:center;box-shadow:0 40px 120px rgba(0,0,0,.6)">
+  <div style="position:absolute;top:26px;right:40px;color:#fff;font-size:64px;line-height:1">×</div>
+  <span class="tag" style="background:#E11D2E;font-size:36px;letter-spacing:.08em">🖤 BLACK FRIDAY</span>
+  <h1 class="white" style="font-size:250px;margin-top:40px">$10<span style="font-size:70px;letter-spacing:0">/month</span></h1>
+  <p class="white" style="font-size:48px;font-weight:800;margin:20px 0 0">Level Up, my training program</p>
+  <p style="color:rgba(255,255,255,.75);font-size:38px;font-weight:600;line-height:1.4;margin:30px 0 0">This weekend only.<br>From Tuesday, 1 December, it's $15/month.<br>Join by Monday and keep $10<br>for as long as you stay.</p>
+  <p style="color:#FF5A67;font-size:40px;font-weight:800;margin:34px 0 0">⏳ Ends Monday, 23:59</p>
+  <div style="background:#E11D2E;color:#fff;font-weight:800;font-size:44px;border-radius:999px;padding:34px;margin-top:40px">Take the 2-min quiz →</div></div>''' % scara)
+
+FUNDAL_ROSU = '<div style="position:absolute;inset:0;background:radial-gradient(circle at 50% 30%,#ff3b4a,#9b0d1a 70%)"></div>'
+ROSU = [
+ ('bf-5-popup-story', s(FUNDAL_ROSU + card(1.0))),
+ ('bf-post-4x5', '<div class="s" id="s" style="height:1350px">' + FUNDAL_ROSU + card(0.82) + '</div>'),
+]
+
+if __name__ == '__main__':
+    render([(os.path.join(OUT, n + '.png'), h) for n, h in ROSU])
+    print('gata roșu')

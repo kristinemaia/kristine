@@ -302,6 +302,38 @@
       var nota = join.parentNode && join.parentNode.nextElementSibling;
       if (nota) nota.insertAdjacentHTML('afterbegin', '<b>Black Friday: this weekend only.</b> From 1 December, new members pay $15/month. ');
     }
+    // Pop-up-ul de Black Friday: apare o dată pe sesiune, după 1,5 secunde; se închide cu ×, Esc sau click în afară.
+    bf.style.background = '#E11D2E';
+    var vechi = document.getElementById('cp-pop');
+    if (vechi) vechi.style.display = 'none';            // fără al doilea pop-up în weekendul ăsta
+    var vazut = false;
+    try { vazut = sessionStorage.getItem('bf26') === '1'; } catch (e) {}
+    var peQuiz = /training\.html/.test(location.pathname) && /quiz/.test(location.hash);
+    if (!vazut && !peQuiz) setTimeout(function () {
+      try { sessionStorage.setItem('bf26', '1'); } catch (e) {}
+      var ramas = BF_END - Date.now(), zile = Math.floor(ramas / 864e5), ore = Math.floor(ramas % 864e5 / 36e5);
+      var cat = zile > 0 ? zile + (zile === 1 ? ' day ' : ' days ') + ore + 'h left' : ore + (ore === 1 ? ' hour' : ' hours') + ' left';
+      var ov = document.createElement('div');
+      ov.setAttribute('role', 'dialog'); ov.setAttribute('aria-modal', 'true'); ov.setAttribute('aria-label', 'Black Friday offer');
+      ov.style.cssText = 'position:fixed;inset:0;z-index:1000;background:rgba(10,8,12,.72);display:flex;align-items:center;justify-content:center;padding:16px';
+      ov.innerHTML =
+        '<div style="position:relative;max-width:420px;width:100%;background:#0e0c10;color:#fff;border-radius:22px;padding:34px 26px 26px;text-align:center;box-shadow:0 30px 80px rgba(0,0,0,.5);border:3px solid #E11D2E;font-family:inherit">' +
+        '<button type="button" aria-label="Close" style="position:absolute;top:10px;right:14px;background:none;border:0;color:#fff;font-size:30px;line-height:1;cursor:pointer">×</button>' +
+        '<div style="display:inline-block;background:#E11D2E;color:#fff;font-weight:800;letter-spacing:.08em;border-radius:999px;padding:6px 16px;font-size:14px">🖤 BLACK FRIDAY</div>' +
+        '<div style="font-weight:800;font-size:76px;line-height:1;margin:18px 0 4px;letter-spacing:-.03em">$10<span style="font-size:24px;font-weight:700;letter-spacing:0">/month</span></div>' +
+        '<div style="font-size:18px;font-weight:700">Level Up, my training program</div>' +
+        '<p style="color:rgba(255,255,255,.75);font-size:15px;line-height:1.45;margin:12px 0 0">This weekend only. From Tuesday, 1 December, it\'s $15/month. Join by Monday and keep $10 for as long as you stay.</p>' +
+        '<div style="color:#FF5A67;font-weight:800;font-size:15px;margin:14px 0 18px">⏳ ' + cat + '</div>' +
+        '<a href="training.html#quiz" style="display:block;background:#E11D2E;color:#fff;text-decoration:none;font-weight:800;font-size:17px;padding:15px;border-radius:999px">Take the 2-min quiz →</a>' +
+        '<a href="https://payhip.com/b/gWIHB" style="display:block;color:#fff;font-size:14px;margin-top:12px">or join now</a></div>';
+      var inchide = function () { ov.remove(); document.removeEventListener('keydown', esc); };
+      var esc = function (e) { if (e.key === 'Escape') inchide(); };
+      ov.addEventListener('click', function (e) { if (e.target === ov) inchide(); });
+      ov.querySelector('button').addEventListener('click', inchide);
+      document.addEventListener('keydown', esc);
+      document.body.appendChild(ov);
+      ov.querySelector('a').focus();
+    }, RM ? 0 : 1500);
     // În weekendul de Black Friday nu mai scriem „founding price” la Level Up, doar Black Friday.
     var BF_TEXTE = [
       ['Founding price for the first 50 members, kept for as long as you stay.', 'Black Friday price, kept for as long as you stay.'],
