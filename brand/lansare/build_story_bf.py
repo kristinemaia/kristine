@@ -38,7 +38,7 @@ def card(scara=1.0):
   <span class="tag" style="background:#E11D2E;font-size:36px;letter-spacing:.08em">🖤 BLACK FRIDAY</span>
   <h1 class="white" style="font-size:250px;margin-top:40px">$10<span style="font-size:70px;letter-spacing:0">/month</span></h1>
   <p class="white" style="font-size:48px;font-weight:800;margin:20px 0 0">Level Up, my training program</p>
-  <p style="color:rgba(255,255,255,.75);font-size:38px;font-weight:600;line-height:1.4;margin:30px 0 0">This weekend only.<br>From Tuesday, 1 December, it's $15/month.<br>Join by Monday and keep $10<br>for as long as you stay.</p>
+  <p style="color:rgba(255,255,255,.75);font-size:38px;font-weight:600;line-height:1.4;margin:30px 0 0">This weekend only.<br>From Tuesday, 1 December,<br>it's $15/month. Join by Monday and keep $10<br>for as long as you stay.</p>
   <p style="color:#FF5A67;font-size:40px;font-weight:800;margin:34px 0 0">⏳ Ends Monday, 23:59</p>
   <div style="background:#E11D2E;color:#fff;font-weight:800;font-size:44px;border-radius:999px;padding:34px;margin-top:40px">Take the 2-min quiz →</div></div>''' % scara)
 
