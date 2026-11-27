@@ -283,4 +283,24 @@
       setCookie('/en/' + sel.value); location.reload();
     });
   }
+
+  // 6. Black Friday (27–30 nov 2026): ultimul weekend la prețul de fondator de $10.
+  //    Se ascunde singur marți 1 dec, ora 00:00 în România (30 nov, 22:00 UTC). După aceea poate fi șters.
+  var BF_END = Date.UTC(2026, 10, 30, 22, 0, 0);
+  if (Date.now() < BF_END) {
+    var bf = document.createElement('div');
+    bf.setAttribute('role', 'region');
+    bf.setAttribute('aria-label', 'Black Friday');
+    bf.style.cssText = 'background:#141118;color:#fff;text-align:center;padding:10px 16px;font-size:15px;line-height:1.4';
+    bf.innerHTML = '<b style="letter-spacing:.06em">🖤 BLACK FRIDAY</b> · Last weekend at the <b>$10/month</b> founding price. ' +
+      'From Tuesday, 1 December, new members pay $15/month. Join by Monday and keep $10 for as long as you stay. ' +
+      '<a href="training.html#quiz" style="color:#F8DCE6;font-weight:700;white-space:nowrap">Take the quiz →</a>';
+    document.body.insertBefore(bf, document.body.firstChild);
+    var join = document.getElementById('r-join');
+    if (join) {
+      join.textContent = 'Join by Monday · $10/month';
+      var nota = join.parentNode && join.parentNode.nextElementSibling;
+      if (nota) nota.insertAdjacentHTML('afterbegin', '<b>Black Friday: last weekend at this price.</b> From 1 December, new members pay $15/month. ');
+    }
+  }
 })();
