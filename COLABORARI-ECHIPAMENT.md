@@ -25,8 +25,8 @@ _20 nov 2026. Verificat pe web azi. Unde nu există email, aplici din formular s
 | 12 | **Thrivin** (colecția „Beauty in Strength”) | colanți, sală | ambasadori: **collabs@thrivin.com** · UGC: **ugc.collabs@thrivin.com** (ne-au răspuns la DM pe 21 nov) | ✏️ 2 emailuri în Ciorne |
 | 13 | **AEON Athletics** (colecția „Born Wild”) | colanți, seturi | afiliere/ambasador prin **Awin** (produse gratuite + cod 10% + comision) + DM pe Instagram | ☐ |
 | 14 | **FGM04** | haine de sală | DM pe Instagram @fgm04official | ☐ |
-| — | **Trendyol (TrendFam)** | Turcia / România | Sara (Helena Reich): ne putem înscrie oricând; 200 € vouchere + comision; campanii fixe doar >500K | ✏️ răspuns în Ciorne (28 nov): ne înscriem zilele astea |
-| — | **IMPAKT** (overlay Kick) | stream | ofertă $75/stream × 2 (2 h), +80% din chat | ✏️ contraofertă $150/stream în Ciorne (28 nov) |
+| — | **Trendyol (TrendFam)** | Turcia / România | Sara (Helena Reich): ne putem înscrie oricând; 200 € vouchere + comision; campanii fixe doar >500K | 📨 răspuns trimis (28 nov): ne înscriem zilele astea |
+| — | **IMPAKT** (overlay Kick) | stream | ofertă $75/stream × 2 (2 h), +80% din chat | 📨 contraofertă $150/stream trimisă (28 nov) |
 | — | **Vavada** (cazino, BeFluence) | — | refuzat: Twitch interzice cazinourile fără licență | ❌ |
 
 **Sfatul pentru rețele:** fă-ți un singur cont pe **Awin**, unul pe **Impact** (îl ai deja) și unul pe **CJ**. Din ele aplici la 5–6 branduri în 20 de minute, fără emailuri.
